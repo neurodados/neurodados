@@ -60,7 +60,9 @@ function posicao(id) {
 const TRAVESSOES = /[‒–—―]/u;
 const ESPECIALISTA = /\bespeciali(?:sta|stas|zad[oa]s?)\b/iu;
 const PRECO = /R\$/u;
-const MARCA_NOS_REGISTROS = /\b(?:neuro\s?bee|jessica)\b/iu;
+// A clínica, a Otimiza.pro (parceira desde 9/11/2026) e a profissional da clínica não aparecem nos registros.
+// "otimiza" sozinho fica de fora, porque é verbo ("otimiza o tempo").
+const MARCA_NOS_REGISTROS = /\b(?:neuro\s?bee|jessica|otimiza\.?pro|otimiza\s+pagamentos)\b/iu;
 const PROMESSA = /\b(?:cura|curar|garantimos|garantia de resultado)\b/iu;
 const SUPERLATIVO = /\b(?:o|a) (?:melhor|maior) (?:do|da) (?:brasil|país|mundo)\b|\blíder\b/iu;
 
@@ -74,7 +76,7 @@ export function errosDeTexto(texto, { registro = false } = {}) {
   if (TRAVESSOES.test(texto)) erros.push('travessão');
   if (ESPECIALISTA.test(texto.replace(NOMES_OFICIAIS, ''))) erros.push('"especialista" ou "especializado"');
   if (PRECO.test(texto)) erros.push('preço (R$)');
-  if (registro && MARCA_NOS_REGISTROS.test(texto)) erros.push('nome da clínica ou de profissional dentro de registro');
+  if (registro && MARCA_NOS_REGISTROS.test(texto)) erros.push('nome da clínica, da Otimiza.pro ou de profissional dentro de registro');
   if (PROMESSA.test(texto)) erros.push('promessa de cura ou de resultado');
   if (SUPERLATIVO.test(texto)) erros.push('superlativo');
   return erros;

@@ -356,13 +356,13 @@ export const PAGINAS = {
         titulo: 'Quem mantém',
         paragrafos: [
           'O NeuroDados Brasil é uma iniciativa de dados abertos sobre neurodesenvolvimento, desenvolvida e mantida pela Clínica NeuroBee, clínica de psicologia e avaliação neuropsicológica no Recreio dos Bandeirantes, no Rio de Janeiro, em parceria com a Otimiza.pro.',
-          'A clínica cuida da infraestrutura, da redação e da conferência dos registros. O NeuroDados tem regras próprias, publicadas na governança e na metodologia, e elas valem acima de qualquer interesse da clínica.',
+          'A Clínica NeuroBee é a titular dos dados e do código. A Otimiza.pro desenvolve o portal, a API, o servidor MCP e a Skill, cuida da infraestrutura e faz a pesquisa, a redação e a conferência dos registros nas fontes. A revisão técnica é de profissional de saúde com registro no conselho da profissão, como diz a governança. O NeuroDados tem regras próprias, publicadas na governança e na metodologia, e elas valem acima de qualquer interesse da clínica e da Otimiza.pro.',
         ],
       },
       {
         titulo: 'Conflito de interesse',
         paragrafos: [
-          'A Clínica NeuroBee presta serviços de psicologia e de avaliação neuropsicológica. Por isso, nenhum registro indica, recomenda ou cita a clínica, os profissionais dela ou os preços dela.',
+          'A Clínica NeuroBee presta serviços de psicologia e de avaliação neuropsicológica, e a Otimiza.pro vende software e serviços. Por isso, nenhum registro indica, recomenda ou cita a clínica, a Otimiza.pro, os profissionais ou os preços delas.',
         ],
       },
       {
