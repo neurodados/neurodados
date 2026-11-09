@@ -1,0 +1,122 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.norbury-2016-linguagem-e-habilidade-nao-verbal",
+  "slug": "norbury-2016-linguagem-e-habilidade-nao-verbal",
+  "base": "evidenciabase",
+  "nome": "Habilidade não verbal e transtorno de linguagem na entrada da escola: estudo populacional inglês de 2016",
+  "categoria": "estudo_populacional",
+  "publicacao": {
+    "titulo_original": "The impact of nonverbal ability on prevalence and clinical presentation of language disorder: evidence from a population study",
+    "autores": [
+      "Norbury, Courtenay Frazier",
+      "Gooch, Debbie",
+      "Wray, Charlotte",
+      "Baird, Gillian",
+      "Charman, Tony",
+      "Simonoff, Emily",
+      "Vamvakas, George",
+      "Pickles, Andrew"
+    ],
+    "ano": 2016,
+    "veiculo": "Journal of Child Psychology and Psychiatry, v. 57, n. 11, p. 1247-1257",
+    "doi": "10.1111/jcpp.12573",
+    "url": "https://doi.org/10.1111/jcpp.12573",
+    "acesso_aberto": true,
+    "idioma": "en"
+  },
+  "temas": [
+    "linguagem",
+    "prevalencia",
+    "avaliacao"
+  ],
+  "populacao": "Crianças de 4 a 5 anos que começavam a vida escolar em escolas públicas do condado de Surrey, na Inglaterra: 7.267 triadas e, no ano seguinte, 529 avaliadas em profundidade.",
+  "metodo": "Estudo populacional em duas fases, o SCALES: triagem pelos professores e, no ano seguinte, numa subamostra estratificada, avaliação completa de linguagem, QI não verbal, problemas sociais, emocionais e de comportamento e desempenho escolar, com pesos amostrais para estimar a prevalência.",
+  "definicao": "Estudo populacional na Inglaterra que estimou a prevalência do transtorno de linguagem no início da vida escolar e comparou crianças com QI não verbal médio e médio-baixo. O transtorno de linguagem de origem desconhecida atingiu 7,58% das crianças, e as crianças com QI não verbal médio e médio-baixo tiveram gravidade e impacto parecidos.",
+  "afirmacoes": [
+    {
+      "texto": "Das 12.398 crianças de 4 a 5 anos da população-alvo, 7.267 (59%) foram triadas, e uma subamostra estratificada de 529 passou por avaliação completa.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A prevalência total estimada do transtorno de linguagem foi de 9,92% (IC 95% de 7,38 a 13,20). A do transtorno de linguagem de origem desconhecida foi de 7,58% (IC 95% de 5,33 a 10,66), e a das dificuldades de linguagem associadas a deficiência intelectual ou a diagnóstico médico já existente, de 2,34% (IC 95% de 1,40 a 3,91).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre as crianças com QI não verbal médio e médio-baixo, não houve diferença na gravidade das dificuldades de linguagem, nos problemas sociais, emocionais e de comportamento nem no desempenho escolar. As crianças com deficiência intelectual ou diagnóstico médico tiveram dificuldades mais graves.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As crianças com transtorno de linguagem tiveram mais problemas sociais, emocionais e de comportamento que os colegas, e 88% não fizeram o progresso escolar esperado.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pelos critérios da CID-10, que exigem QI não verbal na média e diferença entre as habilidades verbais e as não verbais, só 1,07% das crianças teriam o diagnóstico. Para os autores, esses critérios deixariam de fora muitas crianças com necessidade.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os autores concluem que, na entrada da escola, cerca de duas crianças em cada turma de 30 têm um transtorno de linguagem grave o bastante para atrapalhar o progresso escolar, e que o acesso aos serviços clínicos não deveria depender do QI não verbal.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-linguagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.bishop-2017-catalise-terminologia",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.fonoaudiologia",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Ficaram de fora as crianças que falam inglês como língua adicional (10,7% das triadas), as de escolas para necessidades complexas e as de escolas particulares, e o condado é mais rico que a média do país. Os autores tratam a prevalência como estimativa mínima.",
+    "Os problemas sociais, emocionais e de comportamento e o desempenho escolar vieram só do relato dos professores, e a linguagem foi avaliada uma única vez.",
+    "O ponto de corte, de 1,5 desvio-padrão abaixo da média em duas de cinco medidas de linguagem, é arbitrário, como os próprios autores reconhecem."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "The impact of nonverbal ability on prevalence and clinical presentation of language disorder: evidence from a population study",
+      "autor": "Norbury, Courtenay Frazier; Gooch, Debbie; Wray, Charlotte; Baird, Gillian; Charman, Tony; Simonoff, Emily; Vamvakas, George; Pickles, Andrew",
+      "ano": 2016,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5082564/",
+      "doi": "10.1111/jcpp.12573",
+      "referencia": "Journal of Child Psychology and Psychiatry, v. 57, n. 11, p. 1247-1257; texto completo no PMC: resumo, Methods, Results, Discussion e Study limitations",
+      "trecho": "At school entry, approximately two children in every class of 30 pupils will experience language disorder severe enough to hinder academic progress.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

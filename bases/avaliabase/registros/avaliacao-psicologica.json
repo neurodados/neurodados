@@ -1,0 +1,155 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.avaliacao-psicologica",
+  "slug": "avaliacao-psicologica",
+  "base": "avaliabase",
+  "nome": "Avaliação psicológica",
+  "categoria": "conceito",
+  "definicao": "A avaliação psicológica é um processo estruturado de investigação de fenômenos psicológicos, feito com métodos, técnicas e instrumentos, para dar informações que apoiem uma decisão, a partir de uma demanda e de uma finalidade definidas. No exercício da psicologia, ela segue as diretrizes do Conselho Federal de Psicologia.",
+  "afirmacoes": [
+    {
+      "texto": "A Resolução CFP nº 31/2022 define a avaliação psicológica como um processo estruturado de investigação de fenômenos psicológicos, composto de métodos, técnicas e instrumentos, com o objetivo de dar informações à tomada de decisão, no âmbito individual, grupal ou institucional, com base em demandas, condições e finalidades específicas.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pela mesma resolução, a decisão deve se basear obrigatoriamente em fontes fundamentais de informação: testes psicológicos aprovados pelo CFP, entrevistas psicológicas e anamneses, e protocolos ou registros de observação do comportamento. Conforme o contexto, podem entrar fontes complementares, como técnicas e instrumentos não psicológicos com respaldo na literatura científica e documentos técnicos de equipes multiprofissionais.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A psicóloga e o psicólogo têm a prerrogativa de decidir quais métodos, técnicas e instrumentos usar, desde que fundamentados na literatura científica psicológica e nas normas do CFP. A Cartilha de Avaliação Psicológica do CFP afirma que o Conselho não indica testes para contextos específicos: a escolha do teste adequado ao contexto e à população avaliada é responsabilidade de quem avalia.",
+      "fontes": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "texto": "A Lei nº 4.119/1962 define como função privativa do psicólogo a utilização de métodos e técnicas psicológicas com objetivos como o diagnóstico psicológico. Com base nela, a Resolução CFP nº 31/2022 estabelece que o uso profissional dos testes psicológicos é privativo da psicóloga e do psicólogo.",
+      "fontes": [
+        "f2",
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para o CFP, a avaliação psicológica é um processo amplo, que integra informações de várias fontes, como testes, entrevistas, observações sistemáticas e análise de documentos. A testagem psicológica, que é a aplicação dos testes, é uma etapa da avaliação, e não sinônimo dela.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "A Resolução CFP nº 6/2019 descreve o processo de avaliação psicológica como uma ação sistemática e delimitada no tempo, com finalidade de diagnóstico ou não, e diz que é dever da psicóloga e do psicólogo elaborar e fornecer documentos psicológicos sempre que solicitado ou quando termina um processo de avaliação.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "O Código de Ética Profissional do Psicólogo proíbe divulgar, ensinar, ceder, emprestar ou vender a leigos instrumentos e técnicas psicológicas que permitam ou facilitem o exercício ilegal da profissão.",
+      "fontes": [
+        "f5"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.etapas-da-avaliacao",
+      "tipo": "inclui"
+    },
+    {
+      "id": "avaliabase.avaliacao-neuropsicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.satepsi",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.documentos-psicologicos",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Este registro descreve a avaliação psicológica pelas normas do Conselho Federal de Psicologia em vigor em 8 de novembro de 2026. Não ensina a fazer avaliação e não indica instrumentos.",
+    "A Cartilha do CFP citada é de agosto de 2022 e se refere à Resolução CFP nº 9/2018, revogada pela Resolução CFP nº 31/2022 em dezembro do mesmo ano. Os pontos usados aqui foram comparados com a resolução em vigor e não a contrariam.",
+    "A avaliação em contextos como concurso público, trânsito, porte de arma de fogo e perícia segue regras próprias, que este registro não descreve."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 31, de 15 de dezembro de 2022: estabelece diretrizes para a realização de Avaliação Psicológica no exercício profissional da psicóloga e do psicólogo, regulamenta o Sistema de Avaliação de Testes Psicológicos (SATEPSI) e revoga a Resolução CFP nº 09/2018",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-31-de-15-de-dezembro-de-2022-451168039",
+      "referencia": "art. 1º, § 1º, arts. 2º a 5º e art. 8º; Diário Oficial da União de 16/12/2022, edição 236, seção 1, p. 223",
+      "trecho": "§ 1º A Avaliação Psicológica é um processo estruturado de investigação de fenômenos psicológicos, composto de métodos, técnicas e instrumentos, com o objetivo de prover informações à tomada de decisão, no âmbito individual, grupal ou institucional, com base em demandas, condições e finalidades específicas.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 4.119, de 27 de agosto de 1962: dispõe sobre os cursos de formação em psicologia e regulamenta a profissão de psicólogo",
+      "autor": "Brasil",
+      "ano": 1962,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/1950-1969/l4119.htm",
+      "referencia": "art. 13, § 1º, texto compilado com a grafia original e sem a nota do Planalto; \"privativa\" foi vetada e mantida pelo Congresso Nacional (promulgação de 14/12/1962)",
+      "trecho": "§ 1º Constitui função privativa do Psicólogo e utilização de métodos e técnicas psicológicas com os seguintes objetivos: a) diagnóstico psicológico; b) orientação e seleção profissional; c) oritentação psicopedagógica; d) solução de problemas de ajustamento.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "documento_oficial",
+      "titulo": "Cartilha Avaliação Psicológica, 3ª edição",
+      "autor": "Conselho Federal de Psicologia (CFP), Comissão Consultiva em Avaliação Psicológica",
+      "ano": 2022,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2022/08/cartilha_avaliacao_psicologica-2309.pdf",
+      "referencia": "perguntas 2 (avaliação e testagem) e 18 (o CFP não indica testes)",
+      "trecho": "A testagem psicológica, por sua vez, diz respeito à aplicação dos testes psicológicos e obtenção de informações a partir dessa testagem. Assim, a testagem psicológica é uma etapa da avaliação psicológica.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 6, de 29 de março de 2019: institui regras para a elaboração de documentos escritos produzidos pela(o) psicóloga(o) no exercício profissional",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2019,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-6-de-29-de-marco-de-2019-69440920",
+      "referencia": "considerandos e art. 7º, § 6º; Diário Oficial da União de 01/04/2019, edição 62, seção 1, p. 163",
+      "trecho": "CONSIDERANDO que um processo de avaliação psicológica se caracteriza por uma ação sistemática e delimitada no tempo, com a finalidade de diagnóstico ou não, que utiliza de fontes de informações fundamentais e complementares",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "norma",
+      "titulo": "Código de Ética Profissional do Psicólogo (Resolução CFP nº 010/2005)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2005,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf",
+      "referencia": "art. 18",
+      "trecho": "O psicólogo não divulgará, ensinará, cederá, emprestará ou venderá a leigos instrumentos e técnicas psicológicas que permitam ou facilitem o exercício ilegal da profissão.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

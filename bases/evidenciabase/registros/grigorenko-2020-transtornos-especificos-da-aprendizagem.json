@@ -1,0 +1,130 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.grigorenko-2020-transtornos-especificos-da-aprendizagem",
+  "slug": "grigorenko-2020-transtornos-especificos-da-aprendizagem",
+  "base": "evidenciabase",
+  "nome": "Transtornos específicos da aprendizagem: revisão de 50 anos de ciência e prática (2020)",
+  "categoria": "revisao_narrativa",
+  "publicacao": {
+    "titulo_original": "Understanding, educating, and supporting children with specific learning disabilities: 50 years of science and practice",
+    "autores": [
+      "Grigorenko, Elena L.",
+      "Compton, Donald L.",
+      "Fuchs, Lynn S.",
+      "Wagner, Richard K.",
+      "Willcutt, Erik G.",
+      "Fletcher, Jack M."
+    ],
+    "ano": 2020,
+    "veiculo": "American Psychologist, v. 75, n. 1, p. 37-51",
+    "doi": "10.1037/amp0000452",
+    "url": "https://doi.org/10.1037/amp0000452",
+    "acesso_aberto": true,
+    "idioma": "en"
+  },
+  "temas": [
+    "aprendizagem",
+    "avaliacao",
+    "intervencoes",
+    "prevalencia"
+  ],
+  "populacao": "Crianças e adolescentes em idade escolar com transtornos específicos da aprendizagem de leitura de palavras, de compreensão de leitura, de matemática e de expressão escrita.",
+  "metodo": "Revisão narrativa, com síntese histórica e atual, publicada nos 50 anos do reconhecimento desses transtornos como deficiência nos Estados Unidos, reunindo psicologia, educação, psiquiatria, genética e neurociência cognitiva.",
+  "definicao": "Revisão narrativa sobre 50 anos de pesquisa e prática nos transtornos específicos da aprendizagem: manifestações, frequência, identificação, coocorrência, causas e intervenção. Os autores estimam que cada um desses transtornos atinge cerca de 5% a 15% da população em idade escolar e defendem a identificação com vários indicadores e a intervenção explícita, individualizada e precoce.",
+  "afirmacoes": [
+    {
+      "texto": "Os transtornos de leitura de palavras, de compreensão de leitura, de matemática e de expressão escrita são descritos como transtornos de espectro, cada um presente em cerca de 5% a 15% da população em idade escolar. As estimativas variam porque dependem do ponto de corte usado em características que são contínuas.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "É comum que esses transtornos apareçam juntos: de 30% a 50% das crianças com dificuldade na leitura ou na matemática têm dificuldade também na outra área, e de 25% a 50% das crianças com transtorno de leitura de palavras preenchem critérios para TDAH.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Para os autores, um único indicador, como um ponto de corte, uma fórmula ou a resposta à instrução, não identifica esses transtornos de forma confiável; a identificação precisa de vários indicadores. Hoje não existem exames de laboratório, como de DNA ou da estrutura e da atividade do cérebro, para identificar esses transtornos.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Estudos de genética quantitativa estimam que de 30% a 80% da variação em leitura, matemática ou ortografia se deve a fatores herdáveis, e os fatores do ambiente também predizem fortemente esses transtornos.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A intervenção eficaz é explícita, individualizada, abrangente e com intensidade ajustada, e funciona melhor quando começa cedo: para a leitura de palavras, foi duas vezes mais eficaz no 1º e no 2º ano do que a partir do 3º. Treinos que não envolvem ler ou fazer contas, como exercícios físicos, treino óptico e lentes especiais, não são eficazes.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Sem tratamento, esses transtornos têm impacto negativo no funcionamento ao longo da vida, com piores resultados sociais e profissionais no longo prazo.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.psicopedagogia",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "É uma revisão narrativa, sem busca sistemática, com foco na pesquisa e na legislação dos Estados Unidos.",
+    "Os números de prevalência, de coocorrência e de efeito vêm de estudos citados na revisão, com definições e pontos de corte diferentes.",
+    "O texto completo lido é o manuscrito aceito, publicado no PMC; a versão final da revista não foi lida."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Understanding, educating, and supporting children with specific learning disabilities: 50 years of science and practice",
+      "autor": "Grigorenko, Elena L.; Compton, Donald L.; Fuchs, Lynn S.; Wagner, Richard K.; Willcutt, Erik G.; Fletcher, Jack M.",
+      "ano": 2020,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31081650/",
+      "doi": "10.1037/amp0000452",
+      "referencia": "American Psychologist, v. 75, n. 1, p. 37-51; resumo",
+      "trecho": "SLDs, exemplified here by specific word reading, reading comprehension, mathematics, and written expression disabilities, represent spectrum disorders, each occurring in approximately 5% to 15% of the school-aged population.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Understanding, educating, and supporting children with specific learning disabilities: 50 years of science and practice (manuscrito aceito pelos autores)",
+      "autor": "Grigorenko, Elena L.; Compton, Donald L.; Fuchs, Lynn S.; Wagner, Richard K.; Willcutt, Erik G.; Fletcher, Jack M.",
+      "ano": 2020,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6851403/",
+      "doi": "10.1037/amp0000452",
+      "referencia": "Texto completo no PMC (NIHMS1029312): Prevalence and Incidence; Comorbidity and Co-Occurrence; Identification; Genetic and environmental factors; Intervention",
+      "trecho": "SLD can be identified reliably only in the context of multiple indicators.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

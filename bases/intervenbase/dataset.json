@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schemas/dataset.schema.json",
+  "id": "intervenbase",
+  "nome": "IntervenBase",
+  "titulo": "IntervenBase: intervenções e atendimentos no desenvolvimento infantil",
+  "descricao": "Base aberta sobre intervenções e modalidades de atendimento no desenvolvimento infantil: o que cada uma é, para quem costuma ser indicada, quem atende, o que as evidências mostram e os limites delas, com a fonte de cada informação. Nenhuma intervenção aparece como indicada para todos: a escolha depende de avaliação individual.",
+  "versao": "2026.11.09",
+  "mantenedor": {
+    "nome": "Clínica NeuroBee",
+    "url": "https://clinicaneurobee.com.br"
+  },
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "licenca": {
+    "nome": "Creative Commons Atribuição 4.0 Internacional",
+    "sigla": "CC BY 4.0",
+    "spdx": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/deed.pt_BR"
+  },
+  "metodologia": "https://clinicaneurobee.com.br/neurodados/metodologia",
+  "doi": "10.5281/zenodo.24070455",
+  "huggingface": "https://huggingface.co/datasets/neurodados/intervenbase",
+  "palavras_chave": [
+    "intervenção precoce",
+    "terapias",
+    "ABA",
+    "terapia cognitivo-comportamental",
+    "fonoaudiologia",
+    "terapia ocupacional",
+    "orientação parental",
+    "atendimento educacional especializado",
+    "cobertura dos planos de saúde",
+    "dados abertos"
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não indica tratamento para nenhuma pessoa e não substitui a avaliação de um profissional habilitado.",
+    "As evidências citadas vêm de estudos com populações e métodos próprios. O efeito numa criança depende da avaliação individual e do acompanhamento.",
+    "Direitos e coberturas seguem as normas na data da consulta, que vem em cada fonte."
+  ],
+  "historico_de_versoes": [
+    {
+      "versao": "2026.11.09",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

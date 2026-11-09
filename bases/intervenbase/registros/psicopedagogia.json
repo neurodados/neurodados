@@ -1,0 +1,144 @@
+{
+  "$schema": "../../../schemas/intervenbase.schema.json",
+  "id": "intervenbase.psicopedagogia",
+  "slug": "psicopedagogia",
+  "base": "intervenbase",
+  "nome": "Psicopedagogia",
+  "categoria": "area_profissional",
+  "contextos": [
+    "Escolas",
+    "Atendimento clínico",
+    "Hospitais, empresas e outras instituições"
+  ],
+  "profissionais": [
+    "Psicopedagogo"
+  ],
+  "definicao": "A psicopedagogia é um campo de atuação voltado ao processo de ensino e aprendizagem e às dificuldades que aparecem nele, com trabalho em escolas, em atendimento clínico e em outras instituições.",
+  "afirmacoes": [
+    {
+      "texto": "Em decisão de fevereiro de 2024, a Terceira Turma do Superior Tribunal de Justiça registrou que a psicopedagogia não tem regulamentação legal e que a atuação do psicopedagogo é reconhecida como ocupação pelo Ministério do Trabalho, com o código 2394-25 da Classificação Brasileira de Ocupações (CBO), na família dos programadores, avaliadores e orientadores de ensino.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Projeto de Lei nº 116/2024, que propõe regulamentar o exercício da psicopedagogia, foi aprovado nas comissões de Educação, de Saúde e de Constituição e Justiça e de Cidadania da Câmara dos Deputados e, na consulta de 8 de novembro de 2026, aguardava a redação final; ainda não é lei. Na justificação, a autora afirma que a atuação do psicopedagogo não tem legislação federal específica e cita tentativas anteriores de regulamentação que não viraram lei.",
+      "fontes": [
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "texto": "Em parecer de 2025 sobre esse projeto, o Conselho Federal de Psicologia descreve a psicopedagogia como uma área que estuda o processo de ensino e aprendizagem, aplicada em geral em escolas, hospitais e empresas, e informa que ela está entre as especialidades da psicologia reconhecidas pela Resolução CFP nº 23/2022. No mesmo parecer, o conselho se posiciona contra a aprovação do projeto.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "No PCDT do TDAH (2022), o quadro da equipe multidisciplinar que pode participar do tratamento e do acompanhamento, de acordo com as necessidades individuais, inclui o psicopedagogo, ao lado de médico psiquiatra, médico de família e comunidade, psicólogo, fonoaudiólogo e assistente social.",
+      "fontes": [
+        "f5"
+      ]
+    },
+    {
+      "texto": "Na decisão de 2024, o STJ entendeu que a psicopedagogia está contemplada nas sessões de psicologia, de cobertura obrigatória e ilimitada pelos planos de saúde segundo a ANS, mas que, salvo previsão expressa no contrato, essa obrigação não se estende ao acompanhamento na escola ou em casa nem ao feito por profissional do ensino.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-multiprofissional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.cobertura-dos-planos-de-saude",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Não há definição legal da psicopedagogia em vigor. A descrição deste registro vem de documentos oficiais de terceiros: a justificação de um projeto de lei e um parecer do Conselho Federal de Psicologia, que é contrário ao projeto.",
+    "A situação do PL nº 116/2024 é a da consulta de 8 de novembro de 2026; o texto ainda pode mudar até virar lei, se virar.",
+    "A decisão do STJ citada foi tomada num caso concreto, em fevereiro de 2024, e outras decisões podem divergir."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "documento_oficial",
+      "titulo": "Informativo de Jurisprudência nº 802: plano de saúde, beneficiário com transtorno do espectro autista, psicopedagogia em ambiente escolar e domiciliar",
+      "autor": "Superior Tribunal de Justiça (STJ)",
+      "ano": 2024,
+      "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=%270802%27.cod.",
+      "referencia": "Terceira Turma, processo em segredo de justiça, julgado em 20/2/2024; informativo de 5/3/2024",
+      "trecho": "Especificamente quanto à psicopedagogia, a despeito da ausência de regulamentação legal, a atuação do psicopedagogo é reconhecida como ocupação pelo Ministério do Trabalho, sob o código n. 2394-25 da Classificação Brasileira de Ocupações - CBO",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "documento_oficial",
+      "titulo": "Projeto de Lei nº 116/2024: dispõe sobre a regulamentação do exercício profissional da atividade de Psicopedagogia (tramitação)",
+      "autor": "Câmara dos Deputados",
+      "ano": 2026,
+      "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2417141/tramitacoes",
+      "referencia": "Dados abertos da Câmara; situação de 26/08/2026: Aguardando Redação Final (CCJC). Ficha: camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2417141",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "documento_oficial",
+      "titulo": "Projeto de Lei nº 116, de 2024: dispõe sobre a regulamentação do exercício profissional da atividade de Psicopedagogia (texto apresentado e justificação)",
+      "autor": "Câmara dos Deputados",
+      "ano": 2024,
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2384653",
+      "referencia": "Justificação",
+      "trecho": "Apesar da relevância, a atuação do psicopedagogo no Brasil não possui uma legislação federal específica",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "documento_oficial",
+      "titulo": "Parecer nº 4/2025/ASPAR/GRI/CG: posicionamento do Conselho Federal de Psicologia ao PL 116/2024",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2025,
+      "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/ce/expedientes-recebidos/2025/expediente-30a-reuniao-deliberativa-extraordinaria-5-8-25/parecer-tecnico-no-4-2025-do-conselho-federal-de-psicologia-ao-pl-116-2024/view",
+      "referencia": "Itens 3.2, 3.2.5 e 4.1; assinado em 01/08/2025 e recebido pela Comissão de Educação da Câmara",
+      "trecho": "a Psicopedagogia tem como objeto de estudo o processo ensino-aprendizagem e é aplicada, geralmente, em escolas, hospitais e empresas.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "diretriz_clinica",
+      "titulo": "Protocolo Clínico e Diretrizes Terapêuticas do Transtorno do Déficit de Atenção com Hiperatividade (Portaria Conjunta nº 14, de 29 de julho de 2022)",
+      "autor": "Ministério da Saúde (SAES e SCTIE)",
+      "ano": 2022,
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntan14pcdttranstornododeficitdeatencaocomhiperatividadetdah.pdf/@@display-file/file",
+      "referencia": "Anexo: 8 Monitoramento, Quadro 4, Equipe multidisciplinar, avaliações e exames complementares (p. 13 do arquivo)",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

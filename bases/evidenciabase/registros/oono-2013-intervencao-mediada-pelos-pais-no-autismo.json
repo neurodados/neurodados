@@ -1,0 +1,114 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.oono-2013-intervencao-mediada-pelos-pais-no-autismo",
+  "slug": "oono-2013-intervencao-mediada-pelos-pais-no-autismo",
+  "base": "evidenciabase",
+  "nome": "Intervenção precoce mediada pelos pais no autismo: revisão Cochrane de 2013",
+  "categoria": "revisao_sistematica",
+  "publicacao": {
+    "titulo_original": "Parent-mediated early intervention for young children with autism spectrum disorders (ASD)",
+    "autores": [
+      "Oono, Inalegwu P",
+      "Honey, Emma J",
+      "McConachie, Helen"
+    ],
+    "ano": 2013,
+    "veiculo": "Cochrane Database of Systematic Reviews, 2013, n. 4, CD009774",
+    "doi": "10.1002/14651858.CD009774.pub2",
+    "url": "https://doi.org/10.1002/14651858.CD009774.pub2",
+    "acesso_aberto": true,
+    "idioma": "en"
+  },
+  "temas": [
+    "tea",
+    "intervencoes"
+  ],
+  "populacao": "Crianças de 1 ano a 6 anos e 11 meses com diagnóstico de TEA e seus pais, em 17 estudos de seis países: Estados Unidos, Reino Unido, Austrália, Canadá, Tailândia e China.",
+  "metodo": "Revisão sistemática Cochrane só de ensaios clínicos randomizados, com busca em agosto de 2012, limitada ao período posterior à revisão anterior, de 2002, e meta-análises de subconjuntos de estudos comparáveis.",
+  "definicao": "Revisão sistemática Cochrane de 17 ensaios clínicos randomizados, com 919 crianças, sobre intervenções precoces conduzidas pelos pais em crianças pequenas com TEA. Houve mudança positiva na interação entre pais e filhos e evidência incerta de ganhos na criança, como na compreensão da linguagem e na gravidade das características do autismo.",
+  "afirmacoes": [
+    {
+      "texto": "Os 17 estudos recrutaram 919 crianças. Por diferenças de base teórica, de duração e intensidade das intervenções e de instrumentos de medida, só dados de subconjuntos de 10 estudos, de intervenções que buscam mudar o estilo de interação dos pais para favorecer a comunicação da criança, entraram nas meta-análises.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na maior parte dos desfechos principais, como a maioria dos aspectos de linguagem e comunicação, as iniciativas da criança na interação, o comportamento adaptativo e o estresse dos pais, não houve evidência estatística de ganho, e os resultados foram inconclusivos e inconsistentes entre os estudos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Houve mudança positiva e estatisticamente significativa nos padrões de interação entre pais e filhos: na atenção compartilhada (diferença média padronizada de 0,41; IC 95% de 0,14 a 0,68) e na sincronia dos pais (0,90; IC 95% de 0,56 a 1,23).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Houve alguma evidência de melhora na compreensão da linguagem relatada pelos pais e de redução na gravidade das características do autismo (diferença média padronizada de -0,30; IC 95% de -0,52 a -0,08), mas com efeitos pequenos, intervalos largos e conclusões que podem mudar com novos ensaios de alta qualidade.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os autores defendem modelos de intervenção precoce em que os pais possam contribuir com habilidade para o tratamento, com os profissionais acompanhando o nível de estresse dos pais.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.reichow-2018-intervencao-comportamental-intensiva-precoce",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.orientacao-parental",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A qualidade da evidência foi classificada como baixa em todos os desfechos do quadro de resumo dos achados, por causa do pequeno número de estudos combinados.",
+    "Houve alto risco de viés no sigilo da alocação e nos dados incompletos de desfecho, e não foi possível cegar os participantes.",
+    "A busca é de agosto de 2012. Os autores pedem que as pesquisas adotem um conjunto comum de medidas de desfecho."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "revisao_sistematica",
+      "titulo": "Parent-mediated early intervention for young children with autism spectrum disorders (ASD)",
+      "autor": "Oono, Inalegwu P; Honey, Emma J; McConachie, Helen",
+      "ano": 2013,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11831248/",
+      "doi": "10.1002/14651858.CD009774.pub2",
+      "referencia": "Cochrane Database of Systematic Reviews, 2013, n. 4, CD009774; texto completo no PMC: resumo e quadro de resumo dos achados",
+      "trecho": "However, the evidence for positive change in patterns of parent‐child interaction was strong and statistically significant",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

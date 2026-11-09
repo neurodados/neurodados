@@ -6,6 +6,8 @@ Dados abertos sobre neurodesenvolvimento e desenvolvimento infantil, com a fonte
 - API: <https://clinicaneurobee.com.br/neurodados/api/v1> (JSON, sem chave)
 - Servidor MCP: <https://clinicaneurobee.com.br/neurodados/mcp>
 - Documentação: <https://clinicaneurobee.com.br/neurodados/documentacao>
+- As bases no Hugging Face: <https://huggingface.co/neurodados>
+- Cada versão de cada base também fica no Zenodo, com DOI. O DOI está na página da base, no portal.
 
 Conteúdo informativo. Não serve para diagnóstico e não substitui a avaliação de um profissional habilitado.
 
@@ -14,8 +16,11 @@ Conteúdo informativo. Não serve para diagnóstico e não substitui a avaliaç�
 | Base | O que tem | Arquivos |
 |---|---|---|
 | NeuroBase | Conceitos e condições do neurodesenvolvimento | `bases/neurobase/registros/*.json` |
+| AvaliaBase | Avaliação psicológica e neuropsicológica | `bases/avaliabase/registros/*.json` |
+| IntervenBase | Intervenções e atendimentos no desenvolvimento infantil | `bases/intervenbase/registros/*.json` |
+| EvidenciaBase | Estudos e diretrizes sobre neurodesenvolvimento | `bases/evidenciabase/registros/*.json` |
 
-Cada registro traz a definição, os pontos principais ligados às fontes, a classificação oficial quando existe, as limitações e a situação da revisão. O formato está em `schemas/` (JSON Schema).
+Cada registro traz a definição (na EvidenciaBase, o resumo da publicação), os pontos principais ligados às fontes, as limitações e a situação da revisão. O formato está em `schemas/` (JSON Schema).
 
 ## Como trabalhar neste repositório
 

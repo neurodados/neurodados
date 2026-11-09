@@ -1,0 +1,129 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.ms-2022-pcdt-tdah",
+  "slug": "ms-2022-pcdt-tdah",
+  "base": "evidenciabase",
+  "nome": "Protocolo Clínico e Diretrizes Terapêuticas do TDAH do Ministério da Saúde (2022)",
+  "categoria": "diretriz_clinica",
+  "publicacao": {
+    "titulo_original": "Protocolo Clínico e Diretrizes Terapêuticas do Transtorno do Déficit de Atenção com Hiperatividade",
+    "autores": [
+      "Ministério da Saúde, Secretaria de Atenção Especializada à Saúde",
+      "Ministério da Saúde, Secretaria de Ciência, Tecnologia, Inovação e Insumos Estratégicos em Saúde"
+    ],
+    "ano": 2022,
+    "veiculo": "Ministério da Saúde, Portaria Conjunta nº 14, de 29 de julho de 2022",
+    "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntan14pcdttranstornododeficitdeatencaocomhiperatividadetdah.pdf/@@display-file/file",
+    "acesso_aberto": true,
+    "idioma": "pt-BR"
+  },
+  "temas": [
+    "tdah",
+    "avaliacao",
+    "intervencoes",
+    "saude_publica"
+  ],
+  "populacao": "Crianças, adolescentes e adultos com diagnóstico de TDAH atendidos no SUS.",
+  "metodo": "Protocolo elaborado por um grupo com psiquiatras, uma psicóloga, uma educadora, uma assistente social e metodologistas, com duas perguntas de pesquisa avaliadas pelo método GRADE e buscas no PubMed, no Embase, no Google Acadêmico e no Epistemonikos. Foi aprovado pela portaria com base no Relatório de Recomendação nº 722 da Conitec.",
+  "definicao": "Protocolo nacional do Ministério da Saúde para o diagnóstico, o tratamento e o acompanhamento do TDAH no SUS, aprovado pela Portaria Conjunta nº 14, de 29 de julho de 2022. Ele prevê diagnóstico clínico, com informações da família e da escola, e tratamento multimodal com intervenções não medicamentosas, sem preconizar o metilfenidato nem a lisdexanfetamina.",
+  "afirmacoes": [
+    {
+      "texto": "Para o protocolo, o TDAH é uma condição do neurodesenvolvimento definida pela tríade de desatenção, hiperatividade e impulsividade acima do esperado para a idade. A prevalência mundial citada é de 3% a 8% em crianças e adolescentes e de 2,5% a 3% em adultos; no Brasil, de 7,6% entre 6 e 17 anos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Diante da suspeita, o protocolo pede uma avaliação clínica e psicossocial completa, com informações da família e, na idade escolar, da escola. Os critérios adotados formalmente pelo Ministério da Saúde são os da CID-10, e o texto descreve também os do DSM-5.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O tratamento preconizado é multimodal, com intervenções não medicamentosas, cognitivas e comportamentais. O protocolo destaca a terapia cognitivo-comportamental, o treinamento dos pais na infância, a psicoeducação e o apoio na escola.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Conitec recomendou não incorporar ao SUS o metilfenidato e a lisdexanfetamina para crianças e adolescentes, nem a lisdexanfetamina para adultos, por considerar frágeis as evidências, de qualidade baixa ou muito baixa, e alto o impacto no orçamento. Por isso, o protocolo não preconiza esses medicamentos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "No acompanhamento, o protocolo indica consultas iniciais com intervalo de até 30 dias, que podem passar a cada três ou quatro meses quando a evolução é boa, e tratamento não medicamentoso iniciado cedo, com frequência semanal, por equipe multiprofissional.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.funcoes-executivas",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.polanczyk-2007-prevalencia-mundial-do-tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.polanczyk-2014-tdah-tres-decadas",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.terapia-cognitivo-comportamental-infantil",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.orientacao-parental",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-multiprofissional",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "O protocolo não contempla pessoas com condições que podem ser confundidas com o TDAH, como transtorno de ansiedade generalizada, transtorno obsessivo-compulsivo, transtorno bipolar ou transtorno do espectro do autismo.",
+    "A decisão sobre os medicamentos levou em conta, além da qualidade das evidências, o impacto no orçamento do SUS; é uma decisão sobre a incorporação no sistema público.",
+    "Os critérios adotados formalmente são os da CID-10, embora o próprio protocolo diga que os do DSM-5 são mais atualizados."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "diretriz_clinica",
+      "titulo": "Protocolo Clínico e Diretrizes Terapêuticas do Transtorno do Déficit de Atenção com Hiperatividade (Portaria Conjunta nº 14, de 29 de julho de 2022)",
+      "autor": "Ministério da Saúde (SAES e SCTIE)",
+      "ano": 2022,
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntan14pcdttranstornododeficitdeatencaocomhiperatividadetdah.pdf/@@display-file/file",
+      "referencia": "Portaria e Anexo: 1. Introdução; 3. Diagnóstico; 5. Critérios de exclusão; 7. Tratamento; 8. Monitoramento; Apêndice 3, Metodologia",
+      "trecho": "Assim, o uso desses medicamentos não é preconizado neste Protocolo.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.polanczyk-2014-tdah-tres-decadas",
+  "slug": "polanczyk-2014-tdah-tres-decadas",
+  "base": "evidenciabase",
+  "nome": "Prevalência do TDAH ao longo de três décadas: revisão sistemática e metarregressão de 2014",
+  "categoria": "meta_analise",
+  "publicacao": {
+    "titulo_original": "ADHD prevalence estimates across three decades: an updated systematic review and meta-regression analysis",
+    "autores": [
+      "Polanczyk, Guilherme V",
+      "Willcutt, Erik G",
+      "Salum, Giovanni A",
+      "Kieling, Christian",
+      "Rohde, Luis A"
+    ],
+    "ano": 2014,
+    "veiculo": "International Journal of Epidemiology, v. 43, n. 2, p. 434-442",
+    "doi": "10.1093/ije/dyt261",
+    "url": "https://doi.org/10.1093/ije/dyt261",
+    "acesso_aberto": true,
+    "idioma": "en"
+  },
+  "temas": [
+    "tdah",
+    "prevalencia"
+  ],
+  "populacao": "Estudos de prevalência do TDAH com crianças e adolescentes de até 18 anos, da população geral ou de escolas, publicados de 1985 a 2012.",
+  "metodo": "Atualização, até 2012, das buscas de duas revisões sistemáticas anteriores, seguida de metarregressão para testar o efeito do ano do estudo, do método e da localização geográfica sobre as estimativas.",
+  "definicao": "Atualização de duas revisões sistemáticas sobre a prevalência do TDAH, com 154 estudos publicados de 1985 a 2012, 135 deles na análise principal. A variação entre as estimativas se explicou sobretudo pelo método dos estudos, e não houve sinal de aumento, em três décadas, da proporção de crianças que preenchem os critérios quando se usam procedimentos diagnósticos padronizados.",
+  "afirmacoes": [
+    {
+      "texto": "Os autores atualizaram até 2012 as buscas das duas revisões que consideravam as mais abrangentes sobre a prevalência do TDAH e chegaram a 154 estudos publicados de 1985 a 2012. Desses, 135 entraram na análise multivariada; 19 ficaram de fora por falta de informação sobre a fonte dos dados ou a exigência de prejuízo.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os critérios diagnósticos, a exigência de prejuízo e a fonte da informação se associaram à variação entre os estudos. A localização geográfica e o ano de publicação não se associaram.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "No modelo final, as taxas baseadas no relato de professores ficaram 5,47 pontos percentuais acima das obtidas pelo procedimento de melhor estimativa, e as taxas sem exigência de prejuízo, 2,32 pontos acima. Com o DSM-III-R e a CID-10, as taxas ficaram 2,42 e 4,09 pontos abaixo das obtidas com o DSM-IV. O modelo explicou 44,1% da variância.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para os autores, quando se controla o método, a prevalência não aumentou de 1985 a 2012. O aumento dos diagnósticos em amostras clínicas e administrativas provavelmente reflete mais conscientização e mais acesso a serviços, sem que se possa excluir mudança na prática clínica.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os autores registram que, na maioria dos países com dados, as taxas de diagnóstico e de tratamento não passam das estimativas de prevalência e que, em alguns países, ficam abaixo delas, o que indica falta de reconhecimento do transtorno e de acesso.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.polanczyk-2007-prevalencia-mundial-do-tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.ms-2022-pcdt-tdah",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Os estudos são transversais, feitos em épocas e lugares diferentes e com métodos diferentes. Os autores lembram que dados mais fortes sobre a mudança no tempo viriam de estudos repetidos no mesmo lugar e com o mesmo método, de coortes e de estudos de incidência.",
+    "Cerca de 30% dos estudos não informaram o ano da coleta, e o ano de publicação foi usado no lugar. Havia poucos estudos da África e da Oceania.",
+    "O artigo não traz uma nova prevalência combinada: o foco é a variação entre as estimativas e o efeito do tempo."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "revisao_sistematica",
+      "titulo": "ADHD prevalence estimates across three decades: an updated systematic review and meta-regression analysis",
+      "autor": "Polanczyk, Guilherme V; Willcutt, Erik G; Salum, Giovanni A; Kieling, Christian; Rohde, Luis A",
+      "ano": 2014,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4817588/",
+      "doi": "10.1093/ije/dyt261",
+      "referencia": "International Journal of Epidemiology, v. 43, n. 2, p. 434-442; texto completo no PMC: resumo, Methods, Results e Discussion",
+      "trecho": "In the past three decades, there has been no evidence to suggest an increase in the number of children in the community who meet criteria for ADHD when standardized diagnostic procedures are followed.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

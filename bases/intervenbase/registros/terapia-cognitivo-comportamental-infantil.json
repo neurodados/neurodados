@@ -1,0 +1,112 @@
+{
+  "$schema": "../../../schemas/intervenbase.schema.json",
+  "id": "intervenbase.terapia-cognitivo-comportamental-infantil",
+  "slug": "terapia-cognitivo-comportamental-infantil",
+  "base": "intervenbase",
+  "nome": "Terapia cognitivo-comportamental para crianças e adolescentes",
+  "sigla": "TCC",
+  "nomes_alternativos": [
+    "Terapia cognitivo-comportamental",
+    "Cognitive behavioural therapy"
+  ],
+  "categoria": "abordagem_terapeutica",
+  "publico": "Na revisão Cochrane de 2020, crianças e adolescentes com menos de 19 anos e diagnóstico de transtorno de ansiedade. No PCDT do TDAH, a TCC é preconizada para adolescentes e adultos com TDAH; na infância, a intervenção geralmente assume a forma de treinamento dos pais.",
+  "definicao": "A terapia cognitivo-comportamental (TCC) é um conjunto de abordagens que trabalham crenças, pensamentos, emoções e comportamentos para desenvolver formas mais adaptativas de lidar com as dificuldades. Com crianças e adolescentes com ansiedade, busca ajudar com novas formas de pensar e com o enfrentamento dos medos, em sessões com a criança, com os pais ou com os dois.",
+  "afirmacoes": [
+    {
+      "texto": "No PCDT do TDAH (2022), o Ministério da Saúde descreve a TCC como um termo genérico que reúne várias abordagens do modelo cognitivo-comportamental, com técnicas que ajudam a pessoa a reestruturar crenças e a reduzir comportamentos mal adaptativos. Para o TDAH, o protocolo preconiza uma intervenção multimodal, que inclui intervenções não medicamentosas, e destaca a TCC entre as psicossociais.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Segundo o mesmo protocolo, na infância a intervenção geralmente assume a forma de treinamento dos pais, e a TCC e o treinamento de habilidades para lidar com situações da vida são preconizados para adolescentes e adultos com TDAH.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Uma revisão sistemática da Cochrane de 2020 sobre a TCC para transtornos de ansiedade reuniu 87 estudos randomizados com 5.964 participantes com menos de 19 anos, com sessões com a criança, com os pais ou com os dois.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Em comparação com a lista de espera ou nenhum tratamento, a TCC provavelmente aumenta a remissão do transtorno de ansiedade principal ao fim do tratamento (49,4% contra 17,8%), com evidência de qualidade moderada. Em comparação com um controle de atenção, a TCC pode aumentar a remissão, com evidência de qualidade baixa.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A revisão encontrou pouca ou nenhuma evidência de que a TCC seja superior ao atendimento habitual ou a tratamentos alternativos, e os autores dizem que a confiança nesses achados é limitada pela quantidade e pela qualidade da evidência.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Não houve diferenças consistentes entre formatos, como individual ou em grupo, nem entre amostras com e sem transtorno do espectro autista, e nenhum estudo incluiu crianças com deficiência intelectual. Os estudos não relataram efeitos adversos, mas não ficou claro se eles foram monitorados de forma sistemática.",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.orientacao-parental",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.james-2020-tcc-para-ansiedade-na-infancia",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A revisão Cochrane trata só dos transtornos de ansiedade, e os resultados principais são de curto prazo, ao fim do tratamento; poucos estudos acompanharam as crianças depois. Este registro não resume a evidência da TCC para outras condições.",
+    "As buscas da revisão foram até outubro de 2019, e os autores pedem mais estudos em países de renda baixa e média. O apêndice do PCDT do TDAH que resume estudos de TCC não foi detalhado neste registro."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "diretriz_clinica",
+      "titulo": "Protocolo Clínico e Diretrizes Terapêuticas do Transtorno do Déficit de Atenção com Hiperatividade (Portaria Conjunta nº 14, de 29 de julho de 2022)",
+      "autor": "Ministério da Saúde (SAES e SCTIE)",
+      "ano": 2022,
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntan14pcdttranstornododeficitdeatencaocomhiperatividadetdah.pdf/@@display-file/file",
+      "referencia": "Anexo: 7.1 Tratamento não medicamentoso e 7.1.1 Terapia cognitivo comportamental (p. 9 do arquivo)",
+      "trecho": "Terapia cognitivo comportamental (TCC) é um termo genérico que contempla várias abordagens do modelo cognitivo comportamental.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "revisao_sistematica",
+      "titulo": "Cognitive behavioural therapy for anxiety disorders in children and adolescents",
+      "autor": "James, Anthony C; Reardon, Tessa; Soler, Angela; James, Georgina; Creswell, Cathy",
+      "ano": 2020,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33196111/",
+      "doi": "10.1002/14651858.CD013162.pub2",
+      "referencia": "Cochrane Database of Systematic Reviews, CD013162; resumo e resumo em linguagem simples (PMC8092480)",
+      "trecho": "CBT is probably more effective in the short-term than waiting lists/no treatment, and may be more effective than attention control.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

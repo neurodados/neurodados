@@ -1,0 +1,132 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.etapas-da-avaliacao",
+  "slug": "etapas-da-avaliacao",
+  "base": "avaliabase",
+  "nome": "Etapas da avaliação psicológica",
+  "nomes_alternativos": [
+    "Passos da avaliação psicológica"
+  ],
+  "categoria": "etapa",
+  "definicao": "As etapas da avaliação psicológica são os passos que organizam o processo, do levantamento dos objetivos e da demanda até a comunicação dos resultados e o documento escrito. O Conselho Federal de Psicologia descreve passos mínimos, e o número de sessões e os instrumentos dependem do contexto e da finalidade de cada avaliação.",
+  "afirmacoes": [
+    {
+      "texto": "A Cartilha de Avaliação Psicológica do CFP lista cinco passos mínimos: levantar os objetivos da avaliação e as particularidades da pessoa, do grupo ou da instituição avaliada; coletar informações pelos meios escolhidos, como entrevistas, observações, testes e documentos técnicos; integrar as informações e formular hipóteses; indicar as respostas à situação que motivou a avaliação, com comunicação cuidadosa dos resultados; e elaborar o documento escrito, conforme a Resolução CFP nº 6/2019.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Segundo a Cartilha, o levantamento inicial permite escolher os instrumentos e as estratégias mais adequados, e a integração das informações pode mostrar a necessidade de outros instrumentos para refinar ou rever as hipóteses. A Cartilha não recomenda usar uma só técnica ou um só instrumento.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Cartilha diz que compete à psicóloga e ao psicólogo planejar e realizar o processo, e que a escolha do número de sessões, das questões a responder e dos instrumentos depende do contexto, dos propósitos da avaliação, dos construtos investigados, da adequação dos instrumentos às pessoas avaliadas e das condições técnicas dos instrumentos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pela Resolução CFP nº 31/2022, a aplicação, a correção e a interpretação dos testes psicológicos devem seguir rigorosamente o manual técnico aprovado no SATEPSI, e manter os registros dos atendimentos do processo de avaliação é obrigatório.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Resolução CFP nº 6/2019 torna dever da psicóloga e do psicólogo fazer ao menos uma entrevista devolutiva para entregar o relatório ou o laudo psicológico, e manda guardar os documentos e o material que os fundamentou por no mínimo 5 anos.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Segundo a Cartilha, não há na legislação profissional prazo para reavaliação: quem avalia verifica se os manuais dos testes indicam um intervalo para o reteste e, se não indicam, se baseia na literatura científica, o que depende também do construto avaliado.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.avaliacao-psicologica",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "avaliabase.entrevista-inicial-e-anamnese",
+      "tipo": "inclui"
+    },
+    {
+      "id": "avaliabase.devolutiva",
+      "tipo": "inclui"
+    },
+    {
+      "id": "avaliabase.documentos-psicologicos",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.laudo-psicologico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.satepsi",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Os passos são os mínimos descritos pelo CFP, não um roteiro fixo. Pela Cartilha, o número de sessões depende de cada avaliação, e este registro não indica duração.",
+    "A Cartilha é de agosto de 2022 e cita a Resolução CFP nº 9/2018, revogada em dezembro do mesmo ano pela Resolução CFP nº 31/2022.",
+    "Este registro não descreve como aplicar testes nem quais usar em cada passo."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "documento_oficial",
+      "titulo": "Cartilha Avaliação Psicológica, 3ª edição",
+      "autor": "Conselho Federal de Psicologia (CFP), Comissão Consultiva em Avaliação Psicológica",
+      "ano": 2022,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2022/08/cartilha_avaliacao_psicologica-2309.pdf",
+      "referencia": "perguntas 7 (passos mínimos), 9 (critérios para escolher os recursos) e 16 (prazo para reaplicar um teste)",
+      "trecho": "Não é recomendada a utilização de uma só técnica ou um só instrumento para a avaliação",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 31, de 15 de dezembro de 2022: estabelece diretrizes para a realização de Avaliação Psicológica no exercício profissional da psicóloga e do psicólogo, regulamenta o Sistema de Avaliação de Testes Psicológicos (SATEPSI) e revoga a Resolução CFP nº 09/2018",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-31-de-15-de-dezembro-de-2022-451168039",
+      "referencia": "art. 6º, parágrafo único, e art. 11; DOU de 16/12/2022, seção 1, p. 223",
+      "trecho": "Art. 11. A aplicação, correção e interpretação dos testes psicológicos devem seguir rigorosamente as orientações, padronização e normatização contidas no manual técnico aprovado no SATEPSI.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 6, de 29 de março de 2019: institui regras para a elaboração de documentos escritos produzidos pela(o) psicóloga(o) no exercício profissional",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2019,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-6-de-29-de-marco-de-2019-69440920",
+      "referencia": "arts. 15 e 18; DOU de 01/04/2019, seção 1, p. 163",
+      "trecho": "Art. 18 - Para entrega do relatório e laudo psicológico, é dever da(o) psicóloga(o) realizar ao menos uma entrevista devolutiva à pessoa, grupo, instituição atendida ou responsáveis legais.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

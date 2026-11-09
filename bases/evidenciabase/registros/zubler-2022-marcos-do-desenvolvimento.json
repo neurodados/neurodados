@@ -1,0 +1,143 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.zubler-2022-marcos-do-desenvolvimento",
+  "slug": "zubler-2022-marcos-do-desenvolvimento",
+  "base": "evidenciabase",
+  "nome": "Marcos do desenvolvimento para a vigilância: revisão das listas do CDC de 2022",
+  "categoria": "consenso",
+  "publicacao": {
+    "titulo_original": "Evidence-Informed Milestones for Developmental Surveillance Tools",
+    "autores": [
+      "Zubler, Jennifer M.",
+      "Wiggins, Lisa D.",
+      "Macias, Michelle M.",
+      "Whitaker, Toni M.",
+      "Shaw, Judith S.",
+      "Squires, Jane K.",
+      "Pajek, Julie A.",
+      "Wolf, Rebecca B.",
+      "Slaughter, Karnesha S.",
+      "Broughton, Amber S.",
+      "Gerndt, Krysta L.",
+      "Mlodoch, Bethany J."
+    ],
+    "ano": 2022,
+    "veiculo": "Pediatrics, v. 149, n. 3, e2021052138",
+    "doi": "10.1542/peds.2021-052138",
+    "url": "https://doi.org/10.1542/peds.2021-052138",
+    "acesso_aberto": true,
+    "idioma": "en"
+  },
+  "temas": [
+    "desenvolvimento_infantil",
+    "rastreamento"
+  ],
+  "populacao": "Marcos do desenvolvimento de crianças de 2 meses a 5 anos, nas idades das consultas de acompanhamento recomendadas nos Estados Unidos.",
+  "metodo": "Grupo de trabalho de 8 profissionais de várias áreas do desenvolvimento infantil, convocado pela Academia Americana de Pediatria, que definiu 11 critérios e avaliou cada marco com dados normativos, de uma revisão da literatura feita em março de 2019, instrumentos de triagem e de avaliação e opinião clínica publicada. Só entraram os marcos aprovados por unanimidade.",
+  "definicao": "Um grupo de trabalho da Academia Americana de Pediatria, financiado pelo programa Learn the Signs. Act Early. dos CDC dos Estados Unidos, revisou os marcos das listas de vigilância do desenvolvimento de 2 meses a 5 anos. O grupo passou a usar marcos que pelo menos 75% das crianças alcançam na idade de cada consulta, apoiados em dados normativos sempre que possível.",
+  "afirmacoes": [
+    {
+      "texto": "O grupo definiu 11 critérios para os marcos das listas, entre eles usar marcos que pelo menos 75% das crianças devem alcançar na idade de cada consulta e que sejam fáceis de observar no dia a dia.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os sinais de alerta saíram das listas. Para o grupo, quando a criança não alcança um marco que 75% ou mais das crianças já alcançam, cabe aprofundar a vigilância e considerar uma triagem do desenvolvimento; o critério também busca desestimular a atitude de esperar para ver.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Dos 1.027 artigos da revisão da literatura, 34 atenderam aos critérios. As listas passaram de 216 marcos em 10 listas para 159 marcos em 12 listas, com as novas listas de 15 e de 30 meses: 26,4% menos marcos, e 40,9% dos marcos finais eram novos.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Um terço dos marcos mantidos mudou de idade, e 67,7% dos que mudaram foram para idades mais tardias.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Cerca de 80% dos marcos finais tinham dados normativos de pelo menos uma fonte. Os domínios socioemocional e cognitivo foram os que tiveram menos dados normativos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os autores lembram que as listas de marcos servem para a conversa com a família e para apoiar o julgamento clínico, e não devem substituir a triagem universal do desenvolvimento, classificar risco nem dar diagnóstico.",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.lipkin-2020-vigilancia-e-triagem-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.encaminhamento-para-avaliacao",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A idade de cada marco foi decidida pela opinião do grupo, com base nas evidências disponíveis, e cerca de 20% dos marcos se apoiaram em instrumentos de triagem, em opinião clínica publicada ou na opinião do grupo, e não em dados normativos.",
+    "As novas listas não foram testadas para saber se levam a triagens adequadas entre as idades recomendadas e se melhoram a identificação precoce. Também não há certeza de que façam sentido para todas as famílias.",
+    "Uma das autoras declara ter desenvolvido um questionário de triagem do desenvolvimento e receber direitos autorais da editora que o publica. O texto completo lido é o manuscrito aceito, no PMC."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Evidence-Informed Milestones for Developmental Surveillance Tools",
+      "autor": "Zubler, Jennifer M.; Wiggins, Lisa D.; Macias, Michelle M.; Whitaker, Toni M.; Shaw, Judith S.; Squires, Jane K.; Pajek, Julie A.; Wolf, Rebecca B.; Slaughter, Karnesha S.; Broughton, Amber S.; Gerndt, Krysta L.; Mlodoch, Bethany J.; Lipkin, Paul H.",
+      "ano": 2022,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35132439/",
+      "doi": "10.1542/peds.2021-052138",
+      "referencia": "Pediatrics, v. 149, n. 3, e2021052138; resumo",
+      "trecho": "Approximately 80% of the final milestones had normative data from ≥1 sources.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Evidence-Informed Milestones for Developmental Surveillance Tools (manuscrito aceito pelos autores)",
+      "autor": "Zubler, Jennifer M.; Wiggins, Lisa D.; Macias, Michelle M.; Whitaker, Toni M.; Shaw, Judith S.; Squires, Jane K.; Pajek, Julie A.; Wolf, Rebecca B.; Slaughter, Karnesha S.; Broughton, Amber S.; Gerndt, Krysta L.; Mlodoch, Bethany J.; Lipkin, Paul H.",
+      "ano": 2022,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9680195/",
+      "doi": "10.1542/peds.2021-052138",
+      "referencia": "Texto completo no PMC (NIHMS1850264): Methods (Criteria Identification), Results, Discussion e Limitations",
+      "trecho": "These checklists and others have not been tested to see whether they indeed lead to appropriate developmental screening between recommended ages and improve early identification.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

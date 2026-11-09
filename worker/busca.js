@@ -7,10 +7,22 @@ export function normalizar(texto) {
 export function registroPorChave(lista, base, chave) {
   const k = normalizar(chave);
   return lista.find((r) => r.slug === k || r.id === k || r.id === `${base}.${k}`
-    || normalizar(r.sigla) === k) || null;
+    || (r.sigla && normalizar(r.sigla) === k)) || null;
 }
 
-// Pontua nome, sigla e nomes alternativos acima da definição.
+// Os nomes pelos quais um registro é procurado: nome, sigla, nomes alternativos
+// e, nas publicações, o título original e os sobrenomes dos autores.
+function nomesDe(r) {
+  const nomes = [r.nome, r.sigla, ...(r.nomes_alternativos || [])];
+  if (r.instrumento?.nome_original) nomes.push(r.instrumento.nome_original);
+  if (r.publicacao) {
+    nomes.push(r.publicacao.titulo_original);
+    for (const a of r.publicacao.autores || []) nomes.push(a.split(/[ ,]+/)[0]);
+  }
+  return nomes.filter(Boolean).map(normalizar);
+}
+
+// Pontua os nomes acima do resto do texto.
 export function buscar(lista, consulta, { categoria } = {}) {
   const q = normalizar(consulta);
   const termos = q.split(/\s+/).filter((t) => t.length > 1);
@@ -18,8 +30,11 @@ export function buscar(lista, consulta, { categoria } = {}) {
   if (!q) return candidatos.slice().sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
   const pontuados = [];
   for (const r of candidatos) {
-    const nomes = [r.nome, r.sigla, ...(r.nomes_alternativos || [])].filter(Boolean).map(normalizar);
-    const corpo = normalizar([r.definicao, r.descricao, ...(r.afirmacoes || []).map((a) => a.texto)].join(' '));
+    const nomes = nomesDe(r);
+    const corpo = normalizar([
+      r.definicao, r.descricao, r.publico, r.populacao, r.metodo,
+      ...(r.afirmacoes || []).map((a) => a.texto), ...(r.objetivos || []), ...(r.instrumento?.construtos || []), ...(r.temas || []),
+    ].join(' '));
     let p = 0;
     if (nomes.some((n) => n === q)) p += 100;
     else if (nomes.some((n) => n.startsWith(q))) p += 60;
@@ -34,8 +49,9 @@ export function buscar(lista, consulta, { categoria } = {}) {
 }
 
 export function resumo(r) {
-  return {
+  const s = {
     id: r.id,
+    base: r.base,
     slug: r.slug,
     nome: r.nome,
     sigla: r.sigla || null,
@@ -47,4 +63,7 @@ export function resumo(r) {
     url: r.url,
     api_url: r.api_url,
   };
+  if (r.instrumento) s.satepsi = r.instrumento.satepsi;
+  if (r.publicacao) s.publicacao = { titulo_original: r.publicacao.titulo_original, ano: r.publicacao.ano, doi: r.publicacao.doi || null };
+  return s;
 }

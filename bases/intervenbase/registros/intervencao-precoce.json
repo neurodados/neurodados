@@ -1,0 +1,208 @@
+{
+  "$schema": "../../../schemas/intervenbase.schema.json",
+  "id": "intervenbase.intervencao-precoce",
+  "slug": "intervencao-precoce",
+  "base": "intervenbase",
+  "nome": "Intervenção precoce",
+  "nomes_alternativos": [
+    "Estimulação precoce",
+    "Atenção precoce"
+  ],
+  "categoria": "modelo_de_cuidado",
+  "faixa_etaria": {
+    "de_meses": 0,
+    "descricao": "Nas diretrizes do Ministério da Saúde de 2016 e na Atenção Precoce da Lei nº 13.257/2016, crianças de zero a 3 anos."
+  },
+  "objetivos": [
+    "Favorecer o desenvolvimento motor, cognitivo, sensorial, linguístico e social da criança, evitando ou reduzindo prejuízos",
+    "Reduzir sequelas no desenvolvimento neuropsicomotor e efeitos na aquisição da linguagem, na socialização e na estruturação subjetiva",
+    "Apoiar o vínculo entre a mãe e o bebê e a compreensão e o acolhimento da criança pela família"
+  ],
+  "publico": "Segundo as diretrizes do Ministério da Saúde, bebês de alto risco e crianças pequenas com patologias orgânicas ou com atraso no desenvolvimento neuropsicomotor. Na Atenção Precoce da Lei nº 13.257/2016, têm prioridade as crianças de 0 a 3 anos que precisam de atendimento educacional especializado e os bebês nascidos em condição de risco, como os prematuros.",
+  "contextos": [
+    "Atenção básica do SUS, com as equipes de Saúde da Família e os profissionais da reabilitação ligados a elas",
+    "Serviços de reabilitação do SUS",
+    "Ambulatório de seguimento do bebê pré-termo",
+    "Em casa, com orientação e participação da família",
+    "Serviços de educação articulados com a saúde e a assistência social, na Atenção Precoce"
+  ],
+  "profissionais": [
+    "Fonoaudiólogo",
+    "Fisioterapeuta",
+    "Terapeuta ocupacional",
+    "Psicólogo"
+  ],
+  "definicao": "Intervenção precoce é o acompanhamento e a intervenção nos primeiros anos de vida, em geral até os 3 anos, de bebês e crianças com atraso no desenvolvimento ou em risco de atraso, para apoiar o desenvolvimento e reduzir prejuízos. No SUS, o Ministério da Saúde a chama de estimulação precoce e a descreve como um programa multiprofissional que envolve a família.",
+  "afirmacoes": [
+    {
+      "texto": "As Diretrizes de estimulação precoce do Ministério da Saúde, de 2016, definem a estimulação precoce como um programa de acompanhamento e intervenção clínico-terapêutica multiprofissional com bebês de alto risco e com crianças pequenas com patologias orgânicas. O objetivo é apoiar o desenvolvimento, reduzindo sequelas no desenvolvimento neuropsicomotor e efeitos na linguagem, na socialização e na estruturação subjetiva.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Segundo as diretrizes, a estimulação precoce é uma abordagem sistemática e sequencial, com técnicas e recursos terapêuticos para favorecer o desenvolvimento motor, cognitivo, sensorial, linguístico e social. O documento diz que os programas de estimulação devem começar no período que vai da concepção aos 3 anos e que, nos casos de agravo do desenvolvimento neuropsicomotor, a falta de estimulação ou o encaminhamento tardio podem limitar o potencial de desenvolvimento da criança.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Caderneta da Criança orienta que, quando a equipe identifica a ausência de um marco do desenvolvimento, as estratégias de estimulação comecem logo, independentemente de confirmação diagnóstica posterior. No bebê pré-termo, a necessidade de intervenção precoce é avaliada pela equipe do ambulatório de seguimento e pode exigir acompanhamento com outros profissionais ou começar com orientação de cuidados e estímulos feitos pela família.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Lei Brasileira de Inclusão (Lei nº 13.146/2015) inclui o diagnóstico e a intervenção precoces entre as diretrizes da habilitação e da reabilitação da pessoa com deficiência e determina que, nos serviços de saúde pública, eles sejam feitos por equipe multidisciplinar.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Desde a Lei nº 14.880/2024, o Marco Legal da Primeira Infância (Lei nº 13.257/2016) institui a Política Nacional de Atendimento Educacional Especializado a Crianças de Zero a Três Anos, chamada de Atenção Precoce, com serviços multiprofissionais e intersetoriais para crianças de 0 a 3 anos, de preferência em cooperação com a saúde e a assistência social.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "Para a pessoa com transtorno do espectro autista, o Decreto nº 8.368/2014 atribui ao Ministério da Saúde qualificar e fortalecer a rede de atenção psicossocial e a rede de cuidados da pessoa com deficiência, num atendimento que envolva diagnóstico diferencial, estimulação precoce, habilitação e reabilitação.",
+      "fontes": [
+        "f5"
+      ]
+    },
+    {
+      "texto": "Uma revisão sistemática da Cochrane de 2018 avaliou a intervenção comportamental intensiva precoce em 219 crianças com autismo que tinham menos de 6 anos no início, em 5 estudos, só um deles randomizado. Em comparação com o atendimento habitual, encontrou evidência de baixa qualidade de melhora no comportamento adaptativo, no QI e na linguagem, e os autores consideraram a evidência fraca, com alto risco de viés.",
+      "fontes": [
+        "f6"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-multiprofissional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.orientacao-parental",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.analise-do-comportamento-aplicada",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-educacional-especializado",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.reichow-2018-intervencao-comportamental-intensiva-precoce",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.encaminhamento-para-avaliacao",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "As diretrizes de 2016 foram feitas no contexto da síndrome congênita do vírus Zika, mas o próprio documento diz que podem ser úteis em outras condições que afetam o desenvolvimento de 0 a 3 anos. Elas orientam as equipes e não comparam métodos entre si.",
+    "A revisão Cochrane citada trata só da intervenção comportamental intensiva em crianças com autismo, comparada ao atendimento habitual. Ela não avalia outros modelos de intervenção precoce nem outras condições.",
+    "Os nomes variam nas fontes: estimulação precoce (Ministério da Saúde e Decreto nº 8.368/2014), intervenção precoce (Lei Brasileira de Inclusão e Caderneta da Criança) e Atenção Precoce (Lei nº 13.257/2016, no campo da educação)."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "diretriz_clinica",
+      "titulo": "Diretrizes de estimulação precoce: crianças de zero a 3 anos com atraso no desenvolvimento neuropsicomotor",
+      "autor": "Ministério da Saúde, Secretaria de Atenção à Saúde",
+      "ano": 2016,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_estimulacao_criancas_0a3anos_neuropsicomotor.pdf",
+      "referencia": "Apresentação (p. 7); 3 Introdução e 3.1 (p. 14); 5 Estimulação precoce (p. 81); 8 Participação familiar na estimulação precoce (p. 168)",
+      "trecho": "A estimulação precoce pode ser definida como um programa de acompanhamento e intervenção clínico-terapêutica multiprofissional com bebês de alto risco e com crianças pequenas acometidas por patologias orgânicas, buscando o melhor desenvolvimento possível, por meio da mitigação de sequelas do desenvolvimento neuropsicomotor, bem como de efeitos na aquisição da linguagem, na socialização e na estruturação subjetiva",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "documento_oficial",
+      "titulo": "Caderneta da Criança: Passaporte da Cidadania. Menina. 7ª edição",
+      "autor": "Ministério da Saúde",
+      "ano": 2024,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_crianca_menina_passaporte_cidadania_7ed.pdf",
+      "referencia": "Parte I: Cuidados com o bebê pré-termo (p. 19) e Transtorno do Espectro Autista (p. 55)",
+      "trecho": "Uma vez que for identificada a ausência de algum marco no desenvolvimento neuropsicomotor, estratégias de estimulação devem ser iniciadas imediatamente pela equipe, uma vez que a intervenção precoce e oportuna favorece melhor desfecho para a criança, independentemente de confirmação diagnóstica posterior.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.146, de 6 de julho de 2015: institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência)",
+      "autor": "Brasil",
+      "ano": 2015,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+      "referencia": "art. 15, I, e art. 18, § 4º, I",
+      "trecho": "I - diagnóstico e intervenção precoces, realizados por equipe multidisciplinar;",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.257, de 8 de março de 2016: dispõe sobre as políticas públicas para a primeira infância (texto compilado, com as mudanças da Lei nº 14.880, de 4 de junho de 2024)",
+      "autor": "Brasil",
+      "ano": 2016,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13257.htm",
+      "referencia": "art. 3º, §§ 1º e 2º, incluídos pela Lei nº 14.880/2024",
+      "trecho": "§ 1º É instituída a Política Nacional de Atendimento Educacional Especializado a Crianças de Zero a Três Anos (Atenção Precoce), viabilizada por meio da criação e da articulação de serviços multiprofissionais e intersetoriais de atenção precoce destinados a potencializar o processo de desenvolvimento e aprendizagem das crianças de 0 (zero) a 3 (três) anos, em cooperação, preferencialmente, com os serviços de saúde e assistência social.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "norma",
+      "titulo": "Decreto nº 8.368, de 2 de dezembro de 2014: regulamenta a Lei nº 12.764, de 27 de dezembro de 2012",
+      "autor": "Brasil",
+      "ano": 2014,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/decreto/d8368.htm",
+      "referencia": "art. 2º, § 1º, I, c",
+      "trecho": "c) a qualificação e o fortalecimento da rede de atenção psicossocial e da rede de cuidados de saúde da pessoa com deficiência no atendimento das pessoas com o transtorno do espectro autista, que envolva diagnóstico diferencial, estimulação precoce, habilitação, reabilitação e outros procedimentos definidos pelo projeto terapêutico singular;",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f6",
+      "tipo": "revisao_sistematica",
+      "titulo": "Early intensive behavioral intervention (EIBI) for young children with autism spectrum disorders (ASD)",
+      "autor": "Reichow, Brian; Hume, Kara; Barton, Erin E; Boyd, Brian A",
+      "ano": 2018,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6494600/",
+      "doi": "10.1002/14651858.CD009260.pub3",
+      "referencia": "Cochrane Database of Systematic Reviews, CD009260; resumo da versão editada em 15/10/2018, sem mudança nas conclusões",
+      "trecho": "There is weak evidence that EIBI may be an effective behavioral treatment for some children with ASD",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

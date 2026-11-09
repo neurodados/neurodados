@@ -1,0 +1,196 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.satepsi",
+  "slug": "satepsi",
+  "base": "avaliabase",
+  "nome": "Sistema de Avaliação de Testes Psicológicos",
+  "sigla": "SATEPSI",
+  "categoria": "conceito",
+  "definicao": "O SATEPSI, Sistema de Avaliação de Testes Psicológicos, é o sistema do Conselho Federal de Psicologia que avalia a qualidade técnico-científica dos testes psicológicos para uso profissional e divulga, em listas públicas, a situação de cada um.",
+  "afirmacoes": [
+    {
+      "texto": "A Resolução CFP nº 31/2022 regulamenta o SATEPSI, que tem por objetivo avaliar a qualidade técnico-científica de instrumentos psicológicos para uso profissional, pela verificação objetiva de requisitos técnicos, e divulgar informações sobre os testes. O teste é submetido por psicóloga ou psicólogo com registro ativo e analisado por dois pareceristas e pela Comissão Consultiva em Avaliação Psicológica (CCAP), que conduz a avaliação; a decisão é do Plenário do CFP.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Para ser reconhecido para uso profissional, o teste precisa cumprir requisitos mínimos, entre eles fundamentação teórica com a definição do construto, objetivos e população-alvo explícitos, evidências de validade e estimativas de precisão e um sistema de correção e interpretação dos escores. Testes estrangeiros adaptados precisam apresentar estudos com amostras da população brasileira.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As consultas públicas do SATEPSI organizam os instrumentos em quatro listas: testes favoráveis, que podem ser usados no exercício profissional; testes desfavoráveis, avaliados mas que não atenderam aos requisitos mínimos ou não apresentaram novos estudos no prazo; testes não avaliados, que a CCAP reconheceu como teste psicológico mas que não foram submetidos à avaliação; e instrumentos não privativos, que a CCAP classificou como não psicológicos e cuja qualidade psicométrica ela não avalia.",
+      "fontes": [
+        "f3",
+        "f4",
+        "f5",
+        "f6"
+      ]
+    },
+    {
+      "texto": "Usar teste com parecer desfavorável ou da lista de não avaliados é falta ética, salvo em pesquisa e em situações de ensino com objetivo formativo e histórico. Para o CFP, esses testes não podem ser usados nem como fonte complementar; os instrumentos não privativos podem servir como fonte complementar, mas concluir uma avaliação com base apenas neles é falta ética.",
+      "fontes": [
+        "f1",
+        "f7"
+      ]
+    },
+    {
+      "texto": "Os estudos de validade, precisão e normas valem por no máximo 15 anos, contados da aprovação pelo Plenário; para testes aprovados antes da resolução, ficam mantidos os prazos de 20 anos para a validade e de 15 anos para as normas. Sem a revisão no prazo, o teste perde a condição de uso e sai da lista de favoráveis. A consulta mostra o prazo dos estudos de normatização de cada teste favorável.",
+      "fontes": [
+        "f1",
+        "f8"
+      ]
+    },
+    {
+      "texto": "Em nota pública de setembro de 2026, o CFP orientou que um teste só pode ser usado na modalidade de aplicação para a qual tem parecer favorável. A aprovação para aplicação informatizada não autoriza, por si só, a aplicação on-line remota, que depende de estudos de equivalência aprovados, e usar o teste em formato diferente do autorizado é falta ética.",
+      "fontes": [
+        "f9"
+      ]
+    },
+    {
+      "texto": "O CFP não indica testes para cada caso: a escolha do teste adequado ao contexto e à população avaliada é de quem avalia. Segundo as perguntas frequentes do SATEPSI, a lista pode mudar todo mês, depois das plenárias do CFP, e o teste que não foi analisado pelo CFP não está aprovado e não pode ser usado para fins profissionais.",
+      "fontes": [
+        "f8"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.avaliacao-psicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.avaliacao-neuropsicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.etapas-da-avaliacao",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Este registro não traz a situação de nenhum teste em particular. Ela muda com o tempo e deve ser conferida nas listas do SATEPSI, no site do Conselho Federal de Psicologia, na data do uso.",
+    "Nesta base, \"não consta\" quer dizer só que a busca pelo nome não achou o instrumento nas listas do SATEPSI na data da consulta.",
+    "O parecer favorável atesta requisitos técnicos mínimos do teste. Ele não diz se o teste serve para uma pessoa ou para uma pergunta específica."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 31, de 15 de dezembro de 2022: estabelece diretrizes para a realização de Avaliação Psicológica no exercício profissional da psicóloga e do psicólogo, regulamenta o Sistema de Avaliação de Testes Psicológicos (SATEPSI) e revoga a Resolução CFP nº 09/2018",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-31-de-15-de-dezembro-de-2022-451168039",
+      "referencia": "art. 1º, § 2º, e arts. 12, 15, 17, 19 e 22; DOU de 16/12/2022, seção 1, p. 223",
+      "trecho": "§ 2º O Sistema de Avaliação de Testes Psicológicos (SATEPSI) tem por objetivo avaliar a qualidade técnico-científica de instrumentos psicológicos para uso profissional, a partir da verificação objetiva de um conjunto de requisitos técnicos e divulgar informações sobre os testes psicológicos à comunidade, às psicólogas e aos psicólogos.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 9, de 9 de junho de 2026: define e regulamenta a Comissão Consultiva em Avaliação Psicológica e revoga a Resolução CFP nº 03/2017 e a Resolução CFP nº 17/2019",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-9-de-9-de-junho-de-2026-715785230",
+      "referencia": "art. 3º, II; DOU de 01/07/2026, edição 121, seção 1, p. 184",
+      "trecho": "II - conduzir o processo de avaliação dos instrumentos e testes psicológicos submetidos ao Sistema de Avaliação de Testes Psicológicos (SATEPSI)",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Testes Favoráveis (página de consulta)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesFavoraveis.cfm",
+      "referencia": "texto de apresentação da lista, lido sem fazer a busca",
+      "trecho": "Testes Psicológicos Favoráveis: são aqueles que a(o) psicóloga(o) poderá utilizar no exercício profissional, tal como previsto na Resolução CFP nº 31/2022 e no Código de Ética Profissional dos Psicólogos e que estão com parecer favorável emitido pelo CFP.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Testes Desfavoráveis (página de consulta)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesDesfavoraveis.cfm",
+      "referencia": "texto de apresentação da lista, lido sem fazer a busca",
+      "trecho": "Testes Psicológicos Desfavoráveis: são aqueles avaliados pelo CFP, mas que não atenderam os requisitos mínimos obrigatórios e/ou não apresentaram novos estudos de normatização e/ou validade no prazo estipulado pela Resolução CFP nº 31/2022.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Testes Não Avaliados (página de consulta)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesNaoAvaliados.cfm",
+      "referencia": "texto de apresentação da lista, lido sem fazer a busca",
+      "trecho": "Testes Psicológicos Não Avaliados: são aqueles atestados pela Comissão Consultiva em Avaliação Psicológica como teste psicológico, mas os autores ou responsáveis técnicos não submeteram ao SATEPSI para avaliação.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f6",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Instrumentos Não Privativos (página de consulta)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesNaoPrivativos.cfm",
+      "referencia": "texto de apresentação da lista, lido sem fazer a busca",
+      "trecho": "A Comissão Consultiva em Avaliação Psicológica do CFP (CCAP) realiza uma avaliação preliminar do instrumento e o classifica como \"instrumento não privativo\" ou \"teste psicológico\". Entretanto, para instrumentos “não privativos”, a qualidade psicométrica não é avaliada pela CCAP.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f7",
+      "tipo": "documento_oficial",
+      "titulo": "Cartilha Avaliação Psicológica, 3ª edição",
+      "autor": "Conselho Federal de Psicologia (CFP), Comissão Consultiva em Avaliação Psicológica",
+      "ano": 2022,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2022/08/cartilha_avaliacao_psicologica-2309.pdf",
+      "referencia": "perguntas 29 (instrumentos não privativos) e 30 (testes não avaliados ou não aprovados)",
+      "trecho": "se a(o) psicóloga(o) realizar o processo de avaliação psicológica e concluir sobre o estado psicológico do avaliado com base apenas em instrumentos não privativos, é considerado falta ética",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f8",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Perguntas Frequentes",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/faq.cfm",
+      "referencia": "perguntas sobre os testes que podem ser usados, a indicação de testes pelo CFP, a validade das normas e o teste que não está na lista",
+      "trecho": "Esclarecemos que a lista de testes pode sofrer alterações mensalmente, sempre após as plenárias do Conselho Federal de Psicologia.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f9",
+      "tipo": "documento_oficial",
+      "titulo": "Nota Pública: orientações sobre o uso de testes psicológicos em diferentes modalidades de aplicação",
+      "autor": "Conselho Federal de Psicologia (CFP), Comissão Consultiva em Avaliação Psicológica (CCAP)",
+      "ano": 2026,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2026/10/SEI_3109216_Nota_Publica-1.pdf",
+      "referencia": "documento SEI 3109216, processo 576600003.000277/2026-21, assinado em 30/09/2026",
+      "trecho": "A simples disponibilização de um teste em uma plataforma digital ou a existência de uma versão informatizada não autoriza, por si só, sua aplicação online (remota).",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

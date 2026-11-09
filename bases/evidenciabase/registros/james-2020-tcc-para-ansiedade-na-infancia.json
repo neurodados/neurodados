@@ -1,0 +1,109 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.james-2020-tcc-para-ansiedade-na-infancia",
+  "slug": "james-2020-tcc-para-ansiedade-na-infancia",
+  "base": "evidenciabase",
+  "nome": "Terapia cognitivo-comportamental para transtornos de ansiedade em crianças e adolescentes: revisão Cochrane de 2020",
+  "categoria": "revisao_sistematica",
+  "publicacao": {
+    "titulo_original": "Cognitive behavioural therapy for anxiety disorders in children and adolescents",
+    "autores": [
+      "James, Anthony C",
+      "Reardon, Tessa",
+      "Soler, Angela",
+      "James, Georgina",
+      "Creswell, Cathy"
+    ],
+    "ano": 2020,
+    "veiculo": "Cochrane Database of Systematic Reviews, 2020, n. 11, CD013162",
+    "doi": "10.1002/14651858.CD013162.pub2",
+    "url": "https://doi.org/10.1002/14651858.CD013162.pub2",
+    "acesso_aberto": true,
+    "idioma": "en"
+  },
+  "temas": [
+    "intervencoes"
+  ],
+  "populacao": "Crianças e adolescentes de menos de 19 anos com diagnóstico de transtorno de ansiedade; nos estudos, as idades iam de 2 a 18 anos.",
+  "metodo": "Revisão sistemática Cochrane com meta-análise de ensaios clínicos randomizados de TCC com contato direto com a criança, com os pais ou com ambos, comparada com lista de espera ou nenhum tratamento, tratamento usual, controle de atenção, tratamento alternativo ou medicação. Busca até outubro de 2019 e qualidade da evidência avaliada pelo GRADE.",
+  "definicao": "Revisão sistemática Cochrane de 87 ensaios clínicos randomizados, com 5.964 participantes, sobre a terapia cognitivo-comportamental (TCC) para transtornos de ansiedade em crianças e adolescentes. A TCC provavelmente leva a mais remissão no curto prazo do que a lista de espera ou nenhum tratamento, mas não houve evidência clara de vantagem sobre o tratamento usual ou sobre outros tratamentos.",
+  "afirmacoes": [
+    {
+      "texto": "Comparada à lista de espera ou a nenhum tratamento, a TCC provavelmente aumenta a remissão do transtorno de ansiedade principal ao fim do tratamento: 49,4% contra 17,8% (razão de chances de 5,45; IC 95% de 3,90 a 7,60; 39 estudos, 2.697 participantes; qualidade moderada). O número necessário para tratar foi de 3.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Com evidência de qualidade baixa, não houve diferença entre a TCC e o tratamento usual na remissão do transtorno principal, mas a TCC pode aumentar a remissão de todos os transtornos de ansiedade. Comparada a um controle de atenção, a TCC pode aumentar a remissão.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Não havia dados suficientes para comparar a TCC com tratamentos alternativos na remissão do transtorno principal; na remissão de todos os transtornos de ansiedade, pode haver pouca ou nenhuma diferença (qualidade baixa).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A aceitabilidade, medida pelas perdas até a avaliação final, não diferiu entre a TCC e os grupos de comparação (qualidade baixa). Nenhum estudo relatou efeitos adversos, mas, nos poucos que mencionaram o tema, não ficou claro se eles foram monitorados de forma sistemática.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Não houve diferenças consistentes entre formatos da TCC, como individual ou em grupo, nem entre amostras com e sem TEA. Nenhum estudo incluiu crianças com deficiência intelectual.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Poucos estudos acompanharam as crianças depois do tratamento: há evidência de vantagem da TCC sobre a lista de espera seis meses depois, mas não de benefícios por mais tempo.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "limitacoes": [
+    "A qualidade da evidência foi moderada ou baixa, com heterogeneidade de moderada a substancial e sinais de viés de publicação, o que pode inflar o efeito estimado.",
+    "Quase todos os estudos vieram de países de renda alta, dois terços dos Estados Unidos ou da Austrália, e menos de 6% se dedicaram a crianças de menos de 8 anos.",
+    "Faltaram estudos com crianças com deficiência intelectual e com os casos mais graves, atendidos em hospital-dia ou em internação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "revisao_sistematica",
+      "titulo": "Cognitive behavioural therapy for anxiety disorders in children and adolescents",
+      "autor": "James, Anthony C; Reardon, Tessa; Soler, Angela; James, Georgina; Creswell, Cathy",
+      "ano": 2020,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8092480/",
+      "doi": "10.1002/14651858.CD013162.pub2",
+      "referencia": "Cochrane Database of Systematic Reviews, 2020, n. 11, CD013162; texto completo no PMC: resumo, Discussion e Authors' conclusions",
+      "trecho": "CBT is probably more effective in the short‐term than waiting lists/no treatment, and may be more effective than attention control.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "intervenbase.terapia-cognitivo-comportamental-infantil",
+      "tipo": "relacionado"
+    }
+  ]
+}

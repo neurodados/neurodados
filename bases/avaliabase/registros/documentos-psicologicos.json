@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.documentos-psicologicos",
+  "slug": "documentos-psicologicos",
+  "base": "avaliabase",
+  "nome": "Documentos psicológicos",
+  "categoria": "documento",
+  "definicao": "Documentos psicológicos são comunicações escritas que resultam do serviço de psicologia prestado a uma pessoa, a um grupo ou a uma instituição. A Resolução CFP nº 6/2019 prevê cinco modalidades: declaração, atestado psicológico, relatório psicológico ou multiprofissional, laudo psicológico e parecer psicológico.",
+  "afirmacoes": [
+    {
+      "texto": "Pela Resolução CFP nº 6/2019, o documento psicológico é feito a pedido da pessoa atendida, dos responsáveis legais, de um profissional, de equipes multidisciplinares ou de autoridades, ou como resultado de um processo de avaliação psicológica. A psicóloga ou o psicólogo tem o dever de elaborá-lo e fornecê-lo sempre que solicitado ou quando termina uma avaliação.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A declaração registra de forma objetiva e sucinta informações sobre o serviço, como o comparecimento da pessoa atendida e do acompanhante, o acompanhamento psicológico e o tempo, os dias e os horários do atendimento. A resolução proíbe registrar nela sintomas, situações ou estados psicológicos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O atestado psicológico certifica, com fundamento em um diagnóstico psicológico, uma situação, estado ou funcionamento psicológico, por exemplo para justificar faltas, afirmar se a pessoa está apta ou não para atividades específicas ou pedir afastamento. Diferente da declaração, ele resulta de uma avaliação psicológica.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O relatório psicológico comunica o trabalho feito ou em andamento e pode gerar orientações, recomendações, encaminhamentos e intervenções, mas não tem a finalidade de produzir diagnóstico psicológico. O relatório multiprofissional resulta do trabalho em equipe com outras profissões, e a descrição das técnicas privativas da psicologia vem separada da dos demais profissionais.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O laudo psicológico é o resultado de um processo de avaliação psicológica. O parecer psicológico é uma análise técnica que responde a uma questão do campo psicológico ou a documentos psicológicos questionados, e não resulta de avaliação nem de intervenção psicológica.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os documentos e o material que os fundamentou devem ser guardados por no mínimo 5 anos, e o prazo de validade do conteúdo deve ser indicado no último parágrafo do documento.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Código de Ética Profissional do Psicólogo proíbe emitir documentos sem fundamentação e qualidade técnico-científica, e a Resolução CFP nº 6/2019 define que não seguir as suas regras é falta ético-disciplinar.",
+      "fontes": [
+        "f2",
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.laudo-psicologico",
+      "tipo": "inclui"
+    },
+    {
+      "id": "avaliabase.devolutiva",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.avaliacao-psicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.etapas-da-avaliacao",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Este registro resume a Resolução CFP nº 6/2019. Não reproduz a estrutura completa de cada documento e não serve de modelo.",
+    "Documentos com nomes parecidos emitidos por outras profissões, como o laudo médico, seguem regras próprias, que este registro não descreve.",
+    "Normas de contextos específicos, como concursos públicos e perícias, podem trazer regras adicionais sobre os documentos."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 6, de 29 de março de 2019: institui regras para a elaboração de documentos escritos produzidos pela(o) psicóloga(o) no exercício profissional",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2019,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-6-de-29-de-marco-de-2019-69440920",
+      "referencia": "arts. 3º, § 2º, 4º, 7º, § 6º, 8º a 15 e 17; DOU de 01/04/2019, seção 1, p. 163",
+      "trecho": "Art. 8º - Constituem modalidades de documentos psicológicos: I - declaração; II - Atestado Psicológico; III - Relatório; a) Psicológico; b) Multiprofissional; IV - Laudo Psicológico; V - Parecer Psicológico.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Código de Ética Profissional do Psicólogo (Resolução CFP nº 010/2005)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2005,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf",
+      "referencia": "art. 2º (\"Ao psicólogo é vedado\"), alínea g",
+      "trecho": "g) Emitir documentos sem fundamentação e qualidade técnico-científica;",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.bishop-2017-catalise-terminologia",
+  "slug": "bishop-2017-catalise-terminologia",
+  "base": "evidenciabase",
+  "nome": "Terminologia dos problemas de linguagem na infância: consenso CATALISE de 2017",
+  "categoria": "consenso",
+  "publicacao": {
+    "titulo_original": "Phase 2 of CATALISE: a multinational and multidisciplinary Delphi consensus study of problems with language development: Terminology",
+    "autores": [
+      "Bishop, Dorothy V.M.",
+      "Snowling, Margaret J.",
+      "Thompson, Paul A.",
+      "Greenhalgh, Trisha",
+      "CATALISE-2 consortium"
+    ],
+    "ano": 2017,
+    "veiculo": "Journal of Child Psychology and Psychiatry, v. 58, n. 10, p. 1068-1080",
+    "doi": "10.1111/jcpp.12721",
+    "url": "https://doi.org/10.1111/jcpp.12721",
+    "acesso_aberto": true,
+    "idioma": "en"
+  },
+  "temas": [
+    "linguagem",
+    "avaliacao",
+    "desenvolvimento_infantil"
+  ],
+  "populacao": "Painel de 57 pessoas de seis países de língua inglesa, a maioria fonoaudiólogos, com psicólogos, pediatras, uma psiquiatra, uma profissional de audiologia, professoras e representantes de associações.",
+  "metodo": "Estudo de consenso pelo método Delphi, on-line, com duas rodadas de avaliação de afirmações e uma reunião de um dia entre elas. A meta era de 75% de concordância por afirmação.",
+  "definicao": "Segunda fase do consenso internacional CATALISE, feito pelo método Delphi, sobre os termos para os problemas de linguagem na infância. O painel recomendou \"transtorno de linguagem\" para dificuldades que trazem prejuízo funcional e têm mau prognóstico e \"transtorno do desenvolvimento da linguagem\" quando não há causa biomédica conhecida.",
+  "afirmacoes": [
+    {
+      "texto": "Na segunda rodada, 19 das 21 afirmações tiveram concordância de 78% ou mais. Elas foram condensadas em 12 afirmações finais.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O painel recomendou o termo \"transtorno de linguagem\" para um perfil de dificuldades que causa prejuízo funcional na vida diária e tem mau prognóstico, e \"transtorno do desenvolvimento da linguagem\" (TDL) quando esse transtorno não está associado a uma causa biomédica conhecida.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Houve acordo em que fatores de risco, neurobiológicos ou ambientais, não impedem o diagnóstico de TDL, em que o TDL pode coexistir com outros transtornos do neurodesenvolvimento, como o TDAH, e em que o diagnóstico não exige diferença entre a habilidade verbal e a não verbal.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O painel abandonou o termo \"distúrbio específico de linguagem\" (specific language impairment), por considerar que o \"específico\" confundia, e rejeitou o termo \"atraso de linguagem\" como confuso.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os critérios de exclusão tradicionais deram lugar a três categorias: condições que diferenciam o diagnóstico, que são quadros biomédicos claramente ligados a problemas de linguagem, fatores de risco e condições que coexistem. Só as primeiras afastam o diagnóstico de TDL.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Não houve consenso sobre termos para subtipos linguísticos do TDL.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-linguagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.norbury-2016-linguagem-e-habilidade-nao-verbal",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.fonoaudiologia",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "O consenso se restringiu à língua inglesa e a países de língua inglesa; os autores recomendam o mesmo método para outras línguas.",
+    "O painel teve predomínio de fonoaudiólogos. Os autores lembram que não há critério aceito para dizer quando um Delphi chega a consenso; a meta adotada foi de 75%.",
+    "Os autores apontam que há poucas avaliações válidas da linguagem funcional e pouca evidência sobre indicadores de prognóstico, o que dificulta aplicar a definição."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Phase 2 of CATALISE: a multinational and multidisciplinary Delphi consensus study of problems with language development: Terminology",
+      "autor": "Bishop, Dorothy V.M.; Snowling, Margaret J.; Thompson, Paul A.; Greenhalgh, Trisha; CATALISE-2 consortium",
+      "ano": 2017,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5638113/",
+      "doi": "10.1111/jcpp.12721",
+      "referencia": "Journal of Child Psychology and Psychiatry, v. 58, n. 10, p. 1068-1080; texto completo no PMC: resumo, Materials and methods, Results and discussion e General discussion",
+      "trecho": "The term, ‘Developmental Language Disorder’ (DLD) was endorsed for use when the language disorder was not associated with a known biomedical aetiology.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

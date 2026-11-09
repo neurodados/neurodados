@@ -120,6 +120,14 @@
     {
       "id": "neurobase.deficiencia-intelectual",
       "tipo": "diferenciar_de"
+    },
+    {
+      "id": "evidenciabase.grigorenko-2020-transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.psicopedagogia",
+      "tipo": "relacionado"
     }
   ],
   "limitacoes": [
@@ -200,14 +208,19 @@
     "conferido_em": "2026-11-08",
     "revisores": []
   },
-  "versao": "1.0",
+  "versao": "1.1",
   "criado_em": "2026-11-08",
-  "atualizado_em": "2026-11-08",
+  "atualizado_em": "2026-11-09",
   "historico": [
     {
       "versao": "1.0",
       "data": "2026-11-08",
       "mudanca": "Primeira versão."
+    },
+    {
+      "versao": "1.1",
+      "data": "2026-11-09",
+      "mudanca": "Ligações com registros da AvaliaBase, da IntervenBase e da EvidenciaBase."
     }
   ]
 }

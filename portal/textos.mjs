@@ -37,6 +37,8 @@ export const LLMS = {
     ['OpenAPI', '{openapi}'],
     ['Servidor MCP', '{mcp}'],
     ['Skill', '{skill}'],
+    ['Código e histórico das versões (GitHub)', '{github}'],
+    ['As bases no Hugging Face', '{huggingface}'],
   ],
   regras: 'Regras',
   itensRegras: [
@@ -68,12 +70,56 @@ export const RODAPE = {
   licenca: 'Dados sob a licença CC BY 4.0. Código sob a licença MIT.',
 };
 
+// As categorias de cada base, na ordem em que aparecem na página da base.
 export const CATEGORIAS = {
-  conceito: 'Conceitos',
-  condicao_do_neurodesenvolvimento: 'Condições do neurodesenvolvimento',
-  dominio_do_desenvolvimento: 'Domínios do desenvolvimento',
-  marco_do_desenvolvimento: 'Marcos do desenvolvimento',
-  termo_clinico: 'Termos clínicos',
+  neurobase: {
+    conceito: 'Conceitos',
+    condicao_do_neurodesenvolvimento: 'Condições do neurodesenvolvimento',
+    dominio_do_desenvolvimento: 'Domínios do desenvolvimento',
+    marco_do_desenvolvimento: 'Marcos do desenvolvimento',
+    termo_clinico: 'Termos clínicos',
+  },
+  avaliabase: {
+    conceito: 'Conceitos',
+    etapa: 'Etapas da avaliação',
+    documento: 'Documentos',
+    orientacao: 'Orientações',
+    instrumento: 'Instrumentos',
+  },
+  intervenbase: {
+    modelo_de_cuidado: 'Modelos de cuidado',
+    abordagem_terapeutica: 'Abordagens terapêuticas',
+    area_profissional: 'Áreas de atendimento',
+    apoio_a_familia: 'Apoio à família',
+    intervencao_educacional: 'Na escola',
+    direito_e_cobertura: 'Direitos e cobertura',
+  },
+  evidenciabase: {
+    diretriz_clinica: 'Diretrizes clínicas',
+    consenso: 'Consensos',
+    revisao_sistematica: 'Revisões sistemáticas',
+    meta_analise: 'Meta-análises',
+    revisao_narrativa: 'Revisões narrativas',
+    estudo_populacional: 'Estudos populacionais',
+    estudo_primario: 'Estudos primários',
+    documento_oficial: 'Documentos oficiais',
+  },
+};
+
+// Temas da EvidenciaBase.
+export const TEMAS = {
+  tea: 'TEA',
+  tdah: 'TDAH',
+  aprendizagem: 'Aprendizagem',
+  deficiencia_intelectual: 'Deficiência intelectual',
+  linguagem: 'Linguagem',
+  desenvolvimento_infantil: 'Desenvolvimento infantil',
+  funcoes_executivas: 'Funções executivas',
+  avaliacao: 'Avaliação',
+  rastreamento: 'Rastreamento',
+  intervencoes: 'Intervenções',
+  prevalencia: 'Prevalência',
+  saude_publica: 'Saúde pública',
 };
 
 export const RELACOES = {
@@ -86,11 +132,69 @@ export const RELACOES = {
 
 // O que aparece em cada página de registro.
 export const REGISTRO = {
-  tituloPagina: '{nome} | NeuroBase · NeuroDados Brasil',
-  migalha: ['NeuroDados', 'Bases', 'NeuroBase'],
+  tituloPagina: '{nome} | {base} · NeuroDados Brasil',
+  migalha: ['NeuroDados', 'Bases'],
   definicao: 'Definição',
+  resumo: 'Resumo',
   nomesAlternativos: 'Também chamado de',
   afirmacoes: 'Pontos principais',
+  resultados: 'Principais resultados',
+  faixaEtaria: 'Faixa etária',
+  idade: {
+    anos: '{n} anos',
+    meses: '{n} meses',
+    anosEMeses: '{a} anos e {m} meses',
+    entre: 'de {de} a {ate}',
+    aPartir: 'a partir de {de}',
+  },
+  instrumento: {
+    titulo: 'Ficha do instrumento',
+    nomeOriginal: 'Nome original',
+    construtos: 'O que avalia',
+    uso: 'Uso',
+    usos: { privativo_do_psicologo: 'Privativo do psicólogo', nao_privativo: 'Não privativo' },
+    satepsi: 'Situação no SATEPSI',
+    situacoes: {
+      favoravel: 'Parecer favorável',
+      desfavoravel: 'Parecer desfavorável',
+      nao_avaliado: 'Não avaliado',
+      nao_privativo: 'Na lista dos instrumentos não privativos',
+      nao_consta: 'Não consta nas listas',
+    },
+    normas: 'normas válidas até {data}',
+    consulta: 'consulta em {data}',
+    aviso: 'Este registro traz só dados públicos do instrumento. Itens, pranchas, estímulos e respostas de testes não são divulgados.',
+  },
+  intervencao: {
+    objetivos: 'Objetivos',
+    publico: 'Para quem',
+    contextos: 'Onde acontece',
+    profissionais: 'Quem atende',
+  },
+  publicacao: {
+    titulo: 'A publicação',
+    tituloOriginal: 'Título original',
+    autores: 'Autores',
+    ano: 'Ano',
+    veiculo: 'Publicado em',
+    tipo: 'Tipo',
+    tipos: {
+      diretriz_clinica: 'Diretriz clínica',
+      consenso: 'Consenso',
+      revisao_sistematica: 'Revisão sistemática',
+      meta_analise: 'Meta-análise',
+      revisao_narrativa: 'Revisão narrativa',
+      estudo_populacional: 'Estudo populacional',
+      estudo_primario: 'Estudo primário',
+      documento_oficial: 'Documento oficial',
+    },
+    acessoAberto: 'Acesso aberto',
+    sim: 'sim',
+    nao: 'não',
+    temas: 'Temas',
+    populacao: 'Com quem',
+    metodo: 'Como',
+  },
   classificacoes: 'Classificação',
   relacionados: 'Relacionados',
   limitacoes: 'Limitações',
@@ -108,10 +212,10 @@ export const REGISTRO = {
   },
   versao: 'Versão {versao}, atualizada em {data}.',
   citar: 'Como citar',
-  citacao: 'NeuroDados Brasil. {nome}. In: NeuroBase, versão {versaoBase}. Rio de Janeiro: Clínica NeuroBee, {ano}. Disponível em: {url}. Licença CC BY 4.0.',
+  citacao: 'NeuroDados Brasil. {nome}. In: {base}, versão {versaoBase}. Rio de Janeiro: Clínica NeuroBee, {ano}. Disponível em: {url}. Licença CC BY 4.0.',
   dados: 'Dados deste registro',
   dadosTexto: 'O mesmo registro em JSON, pela API: {api}',
-  voltar: 'Voltar para a NeuroBase',
+  voltar: 'Voltar para a {base}',
 };
 
 export const PAGINAS = {
@@ -124,7 +228,7 @@ export const PAGINAS = {
       {
         titulo: 'O que é',
         paragrafos: [
-          'O NeuroDados reúne, em formato aberto, informações sobre neurodesenvolvimento: conceitos, condições, classificações oficiais e as fontes que sustentam cada afirmação.',
+          'O NeuroDados reúne, em formato aberto, informações sobre neurodesenvolvimento: conceitos e condições, a avaliação psicológica e neuropsicológica, as intervenções e os estudos, com as fontes que sustentam cada afirmação.',
           'Cada registro diz quando foi conferido nas fontes e se já passou pela revisão de um profissional de saúde.',
         ],
       },
@@ -204,8 +308,24 @@ export const PAGINAS = {
   },
 
   base: {
-    tituloNeurobase: 'NeuroBase | Conceitos e condições do neurodesenvolvimento',
-    descricaoNeurobase: 'Conceitos e condições do neurodesenvolvimento com definição simples, pontos principais ligados às fontes e classificação CID. Dados abertos, CC BY 4.0.',
+    porBase: {
+      neurobase: {
+        titulo: 'NeuroBase | Conceitos e condições do neurodesenvolvimento',
+        descricao: 'Conceitos e condições do neurodesenvolvimento com definição simples, pontos principais ligados às fontes e classificação CID. Dados abertos, CC BY 4.0.',
+      },
+      avaliabase: {
+        titulo: 'AvaliaBase | Avaliação psicológica e neuropsicológica',
+        descricao: 'A avaliação psicológica e neuropsicológica: o que é, as etapas, os documentos e o SATEPSI, o sistema do CFP que avalia os testes psicológicos. Dados abertos.',
+      },
+      intervenbase: {
+        titulo: 'IntervenBase | Intervenções e atendimentos no desenvolvimento infantil',
+        descricao: 'Intervenções e atendimentos no desenvolvimento infantil: o que são, para quem, quem atende, o que as evidências mostram e os limites. Dados abertos.',
+      },
+      evidenciabase: {
+        titulo: 'EvidenciaBase | Estudos e diretrizes sobre neurodesenvolvimento',
+        descricao: 'Estudos, revisões e diretrizes sobre neurodesenvolvimento, com os metadados e um resumo de cada publicação: população, método, resultados e limites.',
+      },
+    },
     registros: 'Os registros',
     baixar: 'Baixar e consultar',
     downloads: [
@@ -215,8 +335,15 @@ export const PAGINAS = {
       ['Schema', 'o formato de cada registro, em JSON Schema'],
       ['API', 'a mesma base, registro a registro'],
     ],
+    // Linhas da mesma tabela, quando a base já está no repositório.
+    repositorios: [
+      ['Zenodo', 'esta versão arquivada, com DOI'],
+      ['Hugging Face', 'a mesma base, para ciência de dados e IA'],
+      ['GitHub', 'o código, os schemas e o histórico das versões'],
+    ],
     citar: 'Como citar',
-    citacao: 'NeuroDados Brasil. NeuroBase: conceitos e condições do neurodesenvolvimento, versão {versao}. Rio de Janeiro: Clínica NeuroBee, {ano}. Disponível em: {url}. Licença CC BY 4.0.',
+    citacao: 'NeuroDados Brasil. {titulo}, versão {versao}. Rio de Janeiro: Clínica NeuroBee, {ano}. Disponível em: {url}. Licença CC BY 4.0.',
+    citacaoDoi: 'NeuroDados Brasil. {titulo}, versão {versao}. Rio de Janeiro: Clínica NeuroBee, {ano}. DOI: {doi}. Disponível em: {url}. Licença CC BY 4.0.',
     limitacoes: 'Limitações',
     versoes: 'Versões',
   },
@@ -410,8 +537,8 @@ export const PAGINAS = {
       endpoints: [
         ['GET /api/v1', 'O índice da API, com as bases e os endereços.'],
         ['GET /api/v1/bases', 'O catálogo das bases.'],
-        ['GET /api/v1/neurobase', 'Os registros da NeuroBase, com os filtros q (busca), categoria, pagina e por_pagina (até 100).'],
-        ['GET /api/v1/neurobase/{slug}', 'Um registro completo, como /api/v1/neurobase/tea.'],
+        ['GET /api/v1/{base}', 'Os registros de uma base (neurobase, avaliabase, intervenbase ou evidenciabase), com os filtros q (busca), categoria, pagina e por_pagina (até 100).'],
+        ['GET /api/v1/{base}/{slug}', 'Um registro completo, como /api/v1/neurobase/tea.'],
         ['GET /api/v1/openapi.json', 'A descrição da API em OpenAPI 3.1.'],
       ],
       exemplo: 'Exemplo',
@@ -434,6 +561,13 @@ export const PAGINAS = {
     downloads: {
       titulo: 'Downloads e schemas',
       paragrafos: ['Os arquivos mudam só quando sai uma versão nova da base. Para uso intenso, prefira baixar a base inteira.'],
+    },
+    repositorios: {
+      titulo: 'Repositórios',
+      paragrafos: [
+        'O código do portal, da API e do servidor MCP, os schemas e o histórico das versões estão no GitHub, em {github}.',
+        'Cada base também está no Zenodo, com um DOI por versão, e no Hugging Face, para ciência de dados e IA.',
+      ],
     },
     llms: {
       titulo: 'Para modelos de linguagem',
@@ -459,9 +593,13 @@ export const PAGINAS = {
 export const FERRAMENTAS_MCP = {
   listar_bases: 'Lista as bases do NeuroDados Brasil, com a versão e a quantidade de registros de cada uma.',
   buscar_conceito: 'Busca na NeuroBase conceitos e condições do neurodesenvolvimento pelo nome, pela sigla ou por palavras da definição. Devolve os registros com a definição e o endereço.',
-  consultar_registro: 'Devolve um registro completo da NeuroBase, com as afirmações, as fontes, a classificação e a situação da revisão. Aceita o id (como neurobase.tea) ou o slug (como tea).',
+  consultar_registro: 'Devolve um registro completo de qualquer base, com as afirmações, as fontes, a classificação e a situação da revisão. Aceita o id, como neurobase.tea ou avaliabase.satepsi.',
   consultar_tea: 'Devolve o registro do Transtorno do Espectro Autista (TEA) na NeuroBase.',
   consultar_tdah: 'Devolve o registro do Transtorno do Déficit de Atenção com Hiperatividade (TDAH) na NeuroBase.',
+  buscar_avaliacao: 'Busca na AvaliaBase conceitos, etapas, documentos e orientações da avaliação psicológica e neuropsicológica.',
+  buscar_instrumento: 'Busca na AvaliaBase um instrumento de avaliação pelo nome ou pela sigla e devolve a situação dele no SATEPSI, com a data da consulta. Não devolve itens nem respostas de testes.',
+  buscar_intervencao: 'Busca na IntervenBase intervenções e atendimentos no desenvolvimento infantil, com o que as evidências mostram e os limites de cada um.',
+  buscar_evidencias: 'Busca na EvidenciaBase estudos, revisões e diretrizes pelo tema, pelo título ou pelo autor, com os metadados e o resumo de cada publicação.',
 };
 
 // Mensagens que a API e o servidor MCP devolvem.
@@ -488,8 +626,9 @@ export const MENSAGENS = {
   mcpVersaoBase: 'Versão da base: {versao}. Licença: {licenca}.',
   parametroConsulta: 'Nome, sigla ou palavras, como "autismo" ou "funções executivas".',
   parametroCategoria: 'Filtra pela categoria.',
+  parametroTema: 'Filtra pelo tema.',
   parametroLimite: 'Quantos registros devolver, de 1 a 20.',
-  parametroId: 'O id (como neurobase.tea) ou o slug (como tea).',
+  parametroId: 'O id, como neurobase.tea ou avaliabase.satepsi. O slug sozinho, como tea, procura na NeuroBase.',
   parametroQ: 'Busca pelo nome, pela sigla ou por palavras da definição.',
   parametroPagina: 'A página da lista, começando em 1.',
   parametroPorPagina: 'Quantos registros por página, de 1 a 100.',
@@ -502,4 +641,4 @@ export const NO_SITE = {
   llmsLinha: '[NeuroDados Brasil](https://clinicaneurobee.com.br/neurodados): dados abertos sobre neurodesenvolvimento, com a fonte de cada informação, mantidos pela Clínica NeuroBee. Resumo para modelos de linguagem: https://clinicaneurobee.com.br/neurodados/llms.txt',
 };
 
-export const INSTRUCOES_MCP = 'NeuroDados Brasil: dados abertos sobre neurodesenvolvimento, mantidos pela Clínica NeuroBee. Cite a fonte de cada afirmação e a versão dos dados. Diga se o registro foi só conferido nas fontes ou revisado por profissional. O conteúdo é informativo: não use para diagnóstico e recomende a avaliação de um profissional habilitado quando a pergunta for sobre uma pessoa.';
+export const INSTRUCOES_MCP = 'NeuroDados Brasil: dados abertos sobre neurodesenvolvimento, mantidos pela Clínica NeuroBee, em bases temáticas (use listar_bases). Cite a fonte de cada afirmação e a versão dos dados. Diga se o registro foi só conferido nas fontes ou revisado por profissional. O conteúdo é informativo: não use para diagnóstico nem para indicar tratamento, e recomende a avaliação de um profissional habilitado quando a pergunta for sobre uma pessoa.';

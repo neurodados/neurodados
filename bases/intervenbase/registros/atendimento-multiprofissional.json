@@ -1,0 +1,187 @@
+{
+  "$schema": "../../../schemas/intervenbase.schema.json",
+  "id": "intervenbase.atendimento-multiprofissional",
+  "slug": "atendimento-multiprofissional",
+  "base": "intervenbase",
+  "nome": "Atendimento multiprofissional",
+  "nomes_alternativos": [
+    "Atendimento multidisciplinar",
+    "Atendimento interdisciplinar",
+    "Equipe multiprofissional"
+  ],
+  "categoria": "modelo_de_cuidado",
+  "objetivos": [
+    "Avaliar as necessidades, as habilidades e as potencialidades de cada pessoa a partir de áreas diferentes",
+    "Construir, acompanhar e rever o projeto terapêutico singular com a pessoa e a família"
+  ],
+  "contextos": [
+    "CAPS e centros de reabilitação do SUS",
+    "Atendimento domiciliar multidisciplinar, tratamento ambulatorial e internação no SUS",
+    "Parceria entre a rede de ensino e a rede de saúde"
+  ],
+  "definicao": "Atendimento multiprofissional é o cuidado feito por uma equipe de profissionais de áreas diferentes, que avaliam a pessoa e planejam juntos o atendimento. Nos documentos do SUS, esse planejamento costuma tomar a forma de um projeto terapêutico singular, construído com a pessoa e a família.",
+  "afirmacoes": [
+    {
+      "texto": "A Lei nº 12.764/2012 põe o atendimento multiprofissional entre as diretrizes da atenção integral à saúde da pessoa com transtorno do espectro autista e entre os direitos dela, ao lado do diagnóstico precoce, da nutrição adequada e da terapia nutricional e dos medicamentos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Lei Brasileira de Inclusão (Lei nº 13.146/2015) baseia a habilitação e a reabilitação numa avaliação multidisciplinar das necessidades, habilidades e potencialidades de cada pessoa. Na saúde pública, prevê o diagnóstico e a intervenção precoces por equipe multidisciplinar e o atendimento domiciliar multidisciplinar.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Para estudantes com dislexia, TDAH ou outro transtorno de aprendizagem, a Lei nº 14.254/2021 prevê que as necessidades específicas de desenvolvimento sejam atendidas pela rede de ensino em parceria com a rede de saúde. Se houver necessidade de intervenção terapêutica, ela deve ser feita em serviço de saúde, com metas de acompanhamento por equipe multidisciplinar.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Na Linha de cuidado para pessoas com TEA (2015), o Ministério da Saúde diz que todo projeto terapêutico singular deve ser construído com a família e a própria pessoa, envolver uma equipe multiprofissional e ser revisto de forma sistemática. Nos centros de reabilitação do SUS, a equipe prevista inclui medicina, fisioterapia, fonoaudiologia, psicologia, terapia ocupacional, nutrição e enfermagem.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "As Diretrizes de Atenção à Reabilitação da Pessoa com TEA (2014) consideram importante que a avaliação conte, no mínimo, com psiquiatra, neurologista ou pediatra, além de psicólogo e fonoaudiólogo. O projeto terapêutico resulta do diagnóstico, da avaliação interdisciplinar e das decisões da família, e a escolha do método e a avaliação periódica da eficácia devem ser feitas em conjunto pela equipe e pela família.",
+      "fontes": [
+        "f5"
+      ]
+    },
+    {
+      "texto": "No PCDT do TDAH (2022), o Ministério da Saúde preconiza uma intervenção multimodal e diz que a equipe responsável pelo cuidado deve ter, sempre que possível, médico, psicólogo, fonoaudiólogo e educadores, entre outros profissionais, conforme o caso. O quadro de equipe do protocolo cita médico psiquiatra, médico de família e comunidade, psicólogo, fonoaudiólogo, psicopedagogo e assistente social, de acordo com as necessidades individuais.",
+      "fontes": [
+        "f6"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.fonoaudiologia",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.terapia-ocupacional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.psicopedagogia",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.orientacao-parental",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.avaliacao-neuropsicologica",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "As leis falam em atendimento multiprofissional ou multidisciplinar sem definir quais profissões compõem a equipe. As composições citadas vêm de documentos do Ministério da Saúde e mudam com o serviço e com a condição.",
+    "Este registro descreve um modo de organizar o cuidado. As fontes lidas não medem nem comparam resultados entre equipes de composições diferentes."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 12.764, de 27 de dezembro de 2012: institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista",
+      "autor": "Brasil",
+      "ano": 2012,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm",
+      "referencia": "art. 2º, III, e art. 3º, III, b; texto compilado",
+      "trecho": "III - a atenção integral às necessidades de saúde da pessoa com transtorno do espectro autista, objetivando o diagnóstico precoce, o atendimento multiprofissional e o acesso a medicamentos e nutrientes;",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.146, de 6 de julho de 2015: institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência)",
+      "autor": "Brasil",
+      "ano": 2015,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+      "referencia": "art. 15, caput e I, e art. 18, § 4º, I e III",
+      "trecho": "Art. 15. O processo mencionado no art. 14 desta Lei baseia-se em avaliação multidisciplinar das necessidades, habilidades e potencialidades de cada pessoa, observadas as seguintes diretrizes:",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.254, de 30 de novembro de 2021: dispõe sobre o acompanhamento integral para educandos com dislexia ou Transtorno do Deficit de Atenção com Hiperatividade (TDAH) ou outro transtorno de aprendizagem",
+      "autor": "Brasil",
+      "ano": 2021,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14254.htm",
+      "referencia": "art. 4º e parágrafo único",
+      "trecho": "Parágrafo único. Caso seja verificada a necessidade de intervenção terapêutica, esta deverá ser realizada em serviço de saúde em que seja possível a avaliação diagnóstica, com metas de acompanhamento por equipe multidisciplinar composta por profissionais necessários ao desempenho dessa abordagem.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "documento_oficial",
+      "titulo": "Linha de cuidado para a atenção às pessoas com transtornos do espectro do autismo e suas famílias na Rede de Atenção Psicossocial do Sistema Único de Saúde",
+      "autor": "Ministério da Saúde, Secretaria de Atenção à Saúde, Departamento de Atenção Especializada e Temática",
+      "ano": 2015,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/linha_cuidado_atencao_pessoas_transtorno.pdf",
+      "referencia": "4.3.2 Projeto Terapêutico Singular (p. 73 e 77); 5.3 CAPS (p. 98); 5.9 Rede de Cuidados à Pessoa com Deficiência (p. 116)",
+      "trecho": "Todo projeto terapêutico singular para a pessoa com transtorno do espectro do autismo precisa ser construído com a família e a própria pessoa. Deve envolver uma equipe multiprofissional e estar aberto às proposições que venham a melhorar sua qualidade de vida.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "diretriz_clinica",
+      "titulo": "Diretrizes de Atenção à Reabilitação da Pessoa com Transtornos do Espectro do Autismo (TEA)",
+      "autor": "Ministério da Saúde, Secretaria de Atenção à Saúde, Departamento de Ações Programáticas Estratégicas",
+      "ano": 2014,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_atencao_reabilitacao_pessoa_autismo.pdf",
+      "referencia": "7.2 A equipe interdisciplinar (p. 39) e 10 Projeto Terapêutico Singular (p. 63)",
+      "trecho": "A escolha do método a ser utilizado no tratamento e a avaliação periódica de sua eficácia devem ser feitas de modo conjunto entre a equipe e a família do paciente",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f6",
+      "tipo": "diretriz_clinica",
+      "titulo": "Protocolo Clínico e Diretrizes Terapêuticas do Transtorno do Déficit de Atenção com Hiperatividade (Portaria Conjunta nº 14, de 29 de julho de 2022)",
+      "autor": "Ministério da Saúde (SAES e SCTIE)",
+      "ano": 2022,
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntan14pcdttranstornododeficitdeatencaocomhiperatividadetdah.pdf/@@display-file/file",
+      "referencia": "Anexo: 7.1 Tratamento não medicamentoso (p. 9 do arquivo) e 8 Monitoramento, com o Quadro 4 (p. 12 e 13 do arquivo)",
+      "trecho": "A equipe responsável pelo cuidado à pessoa com TDAH, sempre que possível, deve ser composta por médico, psicólogo, fonoaudiólogo e educadores, entre outros especialistas, conforme o caso.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

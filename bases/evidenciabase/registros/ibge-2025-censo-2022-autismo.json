@@ -1,0 +1,103 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.ibge-2025-censo-2022-autismo",
+  "slug": "ibge-2025-censo-2022-autismo",
+  "base": "evidenciabase",
+  "nome": "Censo 2022: pessoas com diagnóstico de autismo no Brasil, resultados preliminares do IBGE",
+  "categoria": "documento_oficial",
+  "publicacao": {
+    "titulo_original": "Censo Demográfico 2022: pessoas com deficiência e pessoas diagnosticadas com transtorno do espectro autista: resultados preliminares da amostra",
+    "autores": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "ano": 2025,
+    "veiculo": "Instituto Brasileiro de Geografia e Estatística (IBGE), Rio de Janeiro",
+    "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102178.pdf",
+    "acesso_aberto": true,
+    "idioma": "pt-BR"
+  },
+  "temas": [
+    "tea",
+    "prevalencia",
+    "saude_publica"
+  ],
+  "populacao": "Moradores dos domicílios selecionados para a amostra do Censo Demográfico 2022, em todo o Brasil, com data de referência na meia-noite de 31 de julho para 1º de agosto de 2022.",
+  "metodo": "Pergunta única no questionário da amostra do Censo, feita sobre todos os moradores e respondida por um informante do domicílio: se a pessoa já foi diagnosticada com autismo por algum profissional de saúde. A redação foi definida com testes cognitivos.",
+  "definicao": "Publicação do IBGE com os resultados preliminares da amostra do Censo Demográfico 2022 sobre pessoas com deficiência e pessoas com diagnóstico de autismo. Pela primeira vez, o Censo perguntou se cada morador já tinha recebido diagnóstico de autismo de um profissional de saúde, e 2,4 milhões de pessoas, 1,2% da população, tiveram o diagnóstico declarado.",
+  "afirmacoes": [
+    {
+      "texto": "O quesito sobre autismo entrou no Censo por determinação da Lei nº 13.861/2019. Como não é possível avaliar o TEA num questionário e sem profissional de saúde na entrevista, o IBGE optou pelo diagnóstico declarado, numa única pergunta: \"Já foi diagnosticado(a) com autismo por algum profissional de saúde?\"",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Cerca de 2,4 milhões de pessoas declararam ter recebido diagnóstico de TEA, 1,2% da população residente. O percentual foi de 1,5% entre os homens e de 0,9% entre as mulheres.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O diagnóstico declarado foi mais frequente entre os mais jovens: 2,1% de 0 a 4 anos, 2,6% de 5 a 9 anos, 1,9% de 10 a 14 anos e 1,3% de 15 a 19 anos; nas outras faixas, de 0,8% a 1,0%. O percentual mais alto foi o dos meninos de 5 a 9 anos, 3,8%.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre as grandes regiões, houve pouca diferença: 1,2% no Norte, no Nordeste, no Sudeste e no Sul e 1,1% no Centro-Oeste. Entre os estados, o Acre teve o percentual mais alto (1,6%), e a Bahia e o Tocantins, os mais baixos (1,0%).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre os estudantes de 6 anos ou mais, cerca de 760,8 mil tinham diagnóstico de autismo, 1,7% do total, acima da proporção na população geral. Havia ao menos um morador com o diagnóstico em 2,1 milhões de domicílios, 2,9% dos domicílios particulares permanentes ocupados.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.zeidan-2022-prevalencia-global-do-autismo",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "O dado é de diagnóstico declarado por um informante do domicílio, não de avaliação clínica, e não informa o nível de suporte nem a idade em que o diagnóstico foi feito.",
+    "Os resultados são preliminares: foram estimados a partir de áreas de ponderação preliminares e devem ser refinados.",
+    "As estimativas vêm da amostra do Censo, o questionário ampliado, aplicado em 10,6% dos questionários, e não de todos os domicílios."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "estatistica_oficial",
+      "titulo": "Censo Demográfico 2022: pessoas com deficiência e pessoas diagnosticadas com transtorno do espectro autista: resultados preliminares da amostra",
+      "autor": "Instituto Brasileiro de Geografia e Estatística (IBGE)",
+      "ano": 2025,
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102178.pdf",
+      "referencia": "Apresentação (p. 5 e 6); Notas técnicas (p. 8 a 10 e 17); Aspectos específicos do recenseamento de pessoas diagnosticadas com TEA (p. 61 a 63); Análise dos resultados (p. 64 a 68)",
+      "trecho": "Os resultados indicaram que 2,4 milhões de pessoas declararam ter recebido diagnóstico de TEA, o que corresponde a 1,2% da população residente no Brasil.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

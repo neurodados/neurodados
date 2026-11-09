@@ -1,0 +1,115 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.reichow-2018-intervencao-comportamental-intensiva-precoce",
+  "slug": "reichow-2018-intervencao-comportamental-intensiva-precoce",
+  "base": "evidenciabase",
+  "nome": "Intervenção comportamental intensiva precoce no autismo: revisão Cochrane de 2018",
+  "categoria": "revisao_sistematica",
+  "publicacao": {
+    "titulo_original": "Early intensive behavioral intervention (EIBI) for young children with autism spectrum disorders (ASD)",
+    "autores": [
+      "Reichow, Brian",
+      "Hume, Kara",
+      "Barton, Erin E",
+      "Boyd, Brian A"
+    ],
+    "ano": 2018,
+    "veiculo": "Cochrane Database of Systematic Reviews, 2018, n. 5, CD009260",
+    "doi": "10.1002/14651858.CD009260.pub3",
+    "url": "https://doi.org/10.1002/14651858.CD009260.pub3",
+    "acesso_aberto": true,
+    "idioma": "en"
+  },
+  "temas": [
+    "tea",
+    "intervencoes"
+  ],
+  "populacao": "Crianças com TEA que tinham menos de 6 anos no início do tratamento; nos estudos incluídos, as idades iam de 30,2 a 42,5 meses.",
+  "metodo": "Revisão sistemática Cochrane com meta-análise de efeitos aleatórios de ensaios randomizados, quase randomizados e ensaios clínicos controlados que compararam a intervenção com nenhum tratamento ou com o tratamento usual. Busca em agosto de 2017 e qualidade da evidência avaliada pelo GRADE.",
+  "definicao": "Revisão sistemática Cochrane sobre a intervenção comportamental intensiva precoce (EIBI), baseada na análise do comportamento aplicada e oferecida por anos, de 20 a 40 horas por semana, a crianças com TEA de menos de 6 anos. Os 5 estudos incluídos dão evidência fraca de que ela pode ser eficaz para algumas crianças, com qualidade da evidência baixa ou muito baixa.",
+  "afirmacoes": [
+    {
+      "texto": "Entraram 5 estudos, 1 ensaio randomizado e 4 ensaios clínicos controlados, com 219 crianças: 116 na intervenção e 103 nos serviços comuns de educação especial. Três estudos foram feitos nos Estados Unidos e dois no Reino Unido, com 24 a 36 meses de tratamento.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Ao fim do tratamento, houve evidência de melhora no comportamento adaptativo, com diferença média de 9,58 pontos numa escala de média 100 e desvio-padrão 15 (IC 95% de 5,57 a 13,60; 5 estudos, 202 participantes; qualidade baixa).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Também houve evidência de melhora no QI, com diferença média de 15,44 pontos (IC 95% de 9,29 a 21,59), e na linguagem expressiva e na receptiva, com diferenças médias padronizadas de 0,51 e 0,55, todas com qualidade baixa.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Não houve evidência de melhora na gravidade dos sintomas do autismo (diferença média padronizada de -0,34; IC 95% de -0,79 a 0,11; 2 estudos, 81 participantes) nem nos problemas de comportamento (-0,58; IC 95% de -1,24 a 0,07), ambos com qualidade muito baixa. Nenhum estudo relatou efeitos adversos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os autores concluem que a evidência é fraca e que quem oferece a intervenção deve conhecer essa limitação e usar critérios de decisão clínica, como ouvir a família e considerar a experiência clínica anterior, ao recomendá-la.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.oono-2013-intervencao-mediada-pelos-pais-no-autismo",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.analise-do-comportamento-aplicada",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A qualidade da evidência foi baixa ou muito baixa (GRADE): só um estudo era randomizado, as amostras eram pequenas, quatro estudos formaram os grupos pela preferência dos pais e o risco de viés foi alto.",
+    "O resumo da versão de maio de 2018, que ainda aparece no PubMed, dizia que a intervenção reduzia a gravidade dos sintomas do autismo. A revisão foi corrigida em 15 de outubro de 2018, e este registro segue a versão corrigida, publicada no PMC.",
+    "A busca é de agosto de 2017, e todos os estudos compararam a intervenção com o tratamento usual, só nos Estados Unidos e no Reino Unido."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "revisao_sistematica",
+      "titulo": "Early intensive behavioral intervention (EIBI) for young children with autism spectrum disorders (ASD)",
+      "autor": "Reichow, Brian; Hume, Kara; Barton, Erin E; Boyd, Brian A",
+      "ano": 2018,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6494600/",
+      "doi": "10.1002/14651858.CD009260.pub3",
+      "referencia": "Cochrane Database of Systematic Reviews, 2018, n. 5, CD009260; texto completo no PMC, versão corrigida em 15/10/2018: resumo, resumo em linguagem simples e What's new",
+      "trecho": "There is weak evidence that EIBI may be an effective behavioral treatment for some children with ASD; the strength of the evidence in this review is limited because it mostly comes from small studies that are not of the optimum design.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

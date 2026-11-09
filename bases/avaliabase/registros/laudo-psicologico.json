@@ -1,0 +1,120 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.laudo-psicologico",
+  "slug": "laudo-psicologico",
+  "base": "avaliabase",
+  "nome": "Laudo psicológico",
+  "categoria": "documento",
+  "definicao": "O laudo psicológico é o documento que resulta de um processo de avaliação psicológica e serve para subsidiar decisões ligadas ao contexto em que surgiu a demanda. Ele expõe a demanda, os procedimentos, a análise e as conclusões, com as referências científicas usadas.",
+  "afirmacoes": [
+    {
+      "texto": "A Resolução CFP nº 6/2019 define o laudo psicológico como o resultado de um processo de avaliação psicológica, com a finalidade de subsidiar decisões relacionadas ao contexto em que surgiu a demanda. É uma peça de natureza e valor técnico-científico, com narrativa detalhada e didática, acessível e compreensível para quem a recebe.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O laudo se baseia no registro documental do atendimento e na interpretação de dados obtidos por métodos, técnicas e procedimentos reconhecidos cientificamente, e deve considerar a natureza dinâmica, não definitiva e não cristalizada do fenômeno psicológico.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Limitado às informações necessárias e relacionadas à demanda, o laudo pode relatar o encaminhamento, as intervenções, o diagnóstico, o prognóstico, a hipótese diagnóstica, a evolução do caso e a orientação ou sugestão de projeto terapêutico.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A estrutura do laudo tem seis itens: identificação, descrição da demanda, procedimento, análise, conclusão e referências. Informar as fontes científicas ou referências bibliográficas usadas é obrigatório, de preferência em nota de rodapé.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "No trabalho em equipe multiprofissional, o laudo ou as informações da avaliação psicológica podem compor um documento único, com o registro do necessário para os objetivos da equipe e o cuidado com o sigilo profissional.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O laudo é entregue em entrevista devolutiva, e fazer ao menos uma é obrigatório. A entrega é feita à pessoa atendida, aos responsáveis legais ou a quem solicitou, com protocolo de entrega assinado. O prazo de validade do conteúdo é indicado no último parágrafo; quando não há definição normativa, quem avalia indica o prazo, considerando os objetivos, os procedimentos e as conclusões.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Cartilha de Avaliação Psicológica do CFP aponta o atestado psicológico e o laudo psicológico como os documentos que resultam da avaliação psicológica.",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.documentos-psicologicos",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "avaliabase.devolutiva",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.avaliacao-psicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.avaliacao-neuropsicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.etapas-da-avaliacao",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Este registro resume a norma e não é modelo de laudo.",
+    "O laudo descrito aqui é o psicológico, regulado pelo Conselho Federal de Psicologia. Laudos de outras profissões seguem regras próprias.",
+    "O prazo de validade indicado no laudo vale para o conteúdo do documento, e a norma lembra que o fenômeno psicológico é dinâmico e não definitivo."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 6, de 29 de março de 2019: institui regras para a elaboração de documentos escritos produzidos pela(o) psicóloga(o) no exercício profissional",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2019,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-6-de-29-de-marco-de-2019-69440920",
+      "referencia": "art. 5º, § 3º, art. 13 (conceito, finalidade e estrutura), art. 16, art. 17 e art. 18; DOU de 01/04/2019, seção 1, p. 163",
+      "trecho": "Art. 13 - O laudo psicológico é o resultado de um processo de avaliação psicológica, com finalidade de subsidiar decisões relacionadas ao contexto em que surgiu a demanda.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "documento_oficial",
+      "titulo": "Cartilha Avaliação Psicológica, 3ª edição",
+      "autor": "Conselho Federal de Psicologia (CFP), Comissão Consultiva em Avaliação Psicológica",
+      "ano": 2022,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2022/08/cartilha_avaliacao_psicologica-2309.pdf",
+      "referencia": "pergunta 12 (documentos resultantes da avaliação psicológica)",
+      "trecho": "os documentos resultantes da avaliação psicológica são o atestado psicológico e o laudo psicológico.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

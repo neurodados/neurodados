@@ -1,0 +1,187 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.avaliacao-neuropsicologica",
+  "slug": "avaliacao-neuropsicologica",
+  "base": "avaliabase",
+  "nome": "Avaliação neuropsicológica",
+  "categoria": "conceito",
+  "definicao": "A avaliação neuropsicológica examina funções cognitivas e o comportamento, como atenção, memória, linguagem e funções executivas, e relaciona o desempenho da pessoa ao funcionamento do sistema nervoso, com métodos clínicos e instrumentos padronizados. Na psicologia, ela é uma das atividades descritas para a Neuropsicologia, especialidade reconhecida pelo Conselho Federal de Psicologia.",
+  "afirmacoes": [
+    {
+      "texto": "A Resolução CFP nº 23/2022 reconhece a Neuropsicologia como uma das especialidades da psicologia e a descreve como a área de atuação profissional da psicologia referente à relação entre as funções do sistema nervoso e o comportamento humano.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pela ementa da especialidade, quem atua nela usa métodos clínicos e instrumentos padronizados para avaliar funções como atenção, percepção, linguagem, raciocínio, memória, aprendizagem, habilidade acadêmica, processamento da informação, visuoconstrução e funções motoras e executivas. Também realiza avaliações neuropsicológicas em contextos clínicos, jurídicos e periciais, elabora laudos psicológicos, complementa diagnósticos nas áreas de neurologia, psiquiatria e educação e identifica perfis neuropsicológicos para subsidiar o desenvolvimento, a habilitação ou a reabilitação de pessoas com padrões qualitativos diferenciados de neurodesenvolvimento.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Uma revisão de 2012 descreve a avaliação neuropsicológica como um método baseado no desempenho para avaliar o funcionamento cognitivo. Entre os usos citados estão reunir informações para o diagnóstico e para o diagnóstico diferencial, avaliar a resposta ao tratamento e prever o potencial funcional e a recuperação funcional.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Uma revisão brasileira de 2004 sobre a avaliação neuropsicológica de crianças afirma que ela não deve se limitar à aplicação de testes: os achados precisam ser relacionados ao quadro neurológico ou de comportamento e interpretados junto com a situação atual da criança e o contexto em que ela vive. O resultado final é um perfil neuropsicológico que, somado à avaliação dos aspectos neurológicos ou clínicos, psicológicos e sociais, contribui para o diagnóstico e dá elementos para orientar o paciente a desenvolver o seu potencial.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "A ementa da especialidade fala em laudos psicológicos, e, pela Resolução CFP nº 6/2019, o laudo psicológico é o resultado de um processo de avaliação psicológica. Nesse processo, o uso profissional de testes psicológicos é privativo da psicóloga e do psicólogo, e os testes usados como fonte fundamental de informação precisam ser aprovados pelo CFP.",
+      "fontes": [
+        "f1",
+        "f4",
+        "f5"
+      ]
+    },
+    {
+      "texto": "Na consulta pública à lista de testes favoráveis do SATEPSI, \"processos neuropsicológicos\" é uma das categorias de construto, ao lado de outras como atenção, inteligência, aprendizagem e desenvolvimento. A categoria também consta do formulário com que o SATEPSI avalia os testes, no anexo da Resolução CFP nº 31/2022.",
+      "fontes": [
+        "f4",
+        "f6"
+      ]
+    },
+    {
+      "texto": "O Protocolo Clínico e Diretrizes Terapêuticas do TDAH, do Ministério da Saúde, afirma, ao tratar do diagnóstico diferencial, que os testes psicológicos são frequentemente úteis porque abordam problemas de aprendizagem e ajudam a determinar componentes do funcionamento cognitivo que se sobrepõem ao funcionamento executivo, como a memória de trabalho e a velocidade de processamento.",
+      "fontes": [
+        "f7"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.avaliacao-psicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.laudo-psicologico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.funcoes-executivas",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.ms-2022-pcdt-tdah",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Este registro trata da avaliação neuropsicológica no exercício da psicologia, pelas normas do CFP. Não descreve como outras profissões de saúde usam o termo. A ementa da Resolução CFP nº 23/2022 descreve o que faz quem tem a especialidade e não diz que a avaliação neuropsicológica é exclusiva de quem tem o título.",
+    "A revisão de 2012 trata sobretudo das consequências cognitivas de lesão e doença cerebral e de doença mental grave. A revisão sobre crianças é de 2004 e descreve também a experiência de um serviço hospitalar universitário. O trecho do protocolo do TDAH fala de testes psicológicos em geral, no diagnóstico diferencial.",
+    "Este registro não indica testes nem baterias e não descreve como aplicá-los."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 23, de 13 de outubro de 2022: institui condições para concessão e registro de psicóloga e psicólogo especialistas; reconhece as especialidades da Psicologia",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-23-de-13-de-outubro-de-2022-437945688",
+      "referencia": "art. 4º, XI, e Anexo I, item XI (Neuropsicologia), alíneas c, d e e; DOU de 21/10/2022, seção 1, p. 159; alterada pela Resolução CFP nº 17/2025, que não mudou essa parte",
+      "trecho": "É a área de atuação profissional da Psicologia referente à relação entre funções do sistema nervoso e o comportamento humano.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Clinical applications of neuropsychological assessment",
+      "autor": "Harvey, Philip D.",
+      "ano": 2012,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22577308/",
+      "doi": "10.31887/DCNS.2012.14.1/pharvey",
+      "referencia": "Dialogues in Clinical Neuroscience, v. 14, n. 1, p. 91-99; resumo",
+      "trecho": "Neuropsychological assessment is a performance-based method to assess cognitive functioning.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Avaliação neuropsicológica da criança",
+      "autor": "Costa, Danielle I.; Azambuja, Luciana S.; Portuguez, Mirna W.; Costa, Jaderson C.",
+      "ano": 2004,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15154079/",
+      "doi": "10.1590/S0021-75572004000300014",
+      "referencia": "Jornal de Pediatria (Rio de Janeiro), v. 80, n. 2, supl., p. S111-S116; resumo; o PubMed registra também o DOI 10.2223/1175",
+      "trecho": "Neuropsychological assessment should not be limited to the application of psychometric and neuropsychological tests",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 31, de 15 de dezembro de 2022: estabelece diretrizes para a realização de Avaliação Psicológica no exercício profissional da psicóloga e do psicólogo, regulamenta o Sistema de Avaliação de Testes Psicológicos (SATEPSI) e revoga a Resolução CFP nº 09/2018",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-31-de-15-de-dezembro-de-2022-451168039",
+      "referencia": "arts. 3º, I, e 8º; Anexo I, item B2 (identificação do construto); DOU de 16/12/2022, seção 1, p. 223",
+      "trecho": "Art. 8º O uso profissional dos testes psicológicos é privativo da psicóloga e do psicólogo, conforme estabelece o art. 13, da Lei 4.119, de 27 de agosto de 1962.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 6, de 29 de março de 2019: institui regras para a elaboração de documentos escritos produzidos pela(o) psicóloga(o) no exercício profissional",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2019,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-6-de-29-de-marco-de-2019-69440920",
+      "referencia": "art. 13; DOU de 01/04/2019, seção 1, p. 163",
+      "trecho": "Art. 13 - O laudo psicológico é o resultado de um processo de avaliação psicológica, com finalidade de subsidiar decisões relacionadas ao contexto em que surgiu a demanda.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f6",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Testes Favoráveis (página de consulta)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesFavoraveis.cfm",
+      "referencia": "campo \"Construto\" do formulário de busca, lido sem fazer a busca",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f7",
+      "tipo": "diretriz_clinica",
+      "titulo": "Protocolo Clínico e Diretrizes Terapêuticas do Transtorno do Déficit de Atenção com Hiperatividade (Portaria Conjunta SAES/SCTIE/MS nº 14, de 29 de julho de 2022)",
+      "autor": "Ministério da Saúde",
+      "ano": 2022,
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntan14pcdttranstornododeficitdeatencaocomhiperatividadetdah.pdf/@@display-file/file",
+      "referencia": "item 3.1, Diagnóstico diferencial (p. 5 do PDF)",
+      "trecho": "No geral, os testes psicológicos são frequentemente úteis porque abordam quaisquer problemas de aprendizagem e ajudam a determinar componentes específicos do funcionamento cognitivo que se sobrepõem ao funcionamento executivo (por exemplo, memória de trabalho e velocidade de processamento)",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schemas/dataset.schema.json",
+  "id": "avaliabase",
+  "nome": "AvaliaBase",
+  "titulo": "AvaliaBase: avaliação psicológica e neuropsicológica",
+  "descricao": "Base aberta sobre a avaliação psicológica e neuropsicológica: o que é, como acontece, os documentos que ela gera e como o Conselho Federal de Psicologia avalia os testes psicológicos no Sistema de Avaliação de Testes Psicológicos (SATEPSI). Nenhum registro traz item, prancha, estímulo ou resposta de teste.",
+  "versao": "2026.11.09",
+  "mantenedor": {
+    "nome": "Clínica NeuroBee",
+    "url": "https://clinicaneurobee.com.br"
+  },
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "licenca": {
+    "nome": "Creative Commons Atribuição 4.0 Internacional",
+    "sigla": "CC BY 4.0",
+    "spdx": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/deed.pt_BR"
+  },
+  "metodologia": "https://clinicaneurobee.com.br/neurodados/metodologia",
+  "doi": "10.5281/zenodo.24070451",
+  "huggingface": "https://huggingface.co/datasets/neurodados/avaliabase",
+  "palavras_chave": [
+    "avaliação psicológica",
+    "avaliação neuropsicológica",
+    "SATEPSI",
+    "testes psicológicos",
+    "laudo psicológico",
+    "devolutiva",
+    "documentos psicológicos",
+    "dados abertos"
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não serve para diagnóstico e não substitui a avaliação de um profissional habilitado.",
+    "A situação de um teste no SATEPSI muda com o tempo. Vale conferir no site do Conselho Federal de Psicologia antes de usar a informação.",
+    "Nenhum registro reproduz itens, pranchas, estímulos ou respostas de testes, nem ensina a aplicá-los."
+  ],
+  "historico_de_versoes": [
+    {
+      "versao": "2026.11.09",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

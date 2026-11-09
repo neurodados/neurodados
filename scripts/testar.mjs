@@ -1,6 +1,7 @@
 // Testa o que foi montado (rode antes node scripts/construir.mjs): as páginas, os
 // redirecionamentos, a API, o servidor MCP, os downloads, os links internos e os
 // dados estruturados, pelo próprio Worker, com o ASSETS lendo de dist/site.
+// Vale para todas as bases que a montagem publicou.
 // Uso: node scripts/testar.mjs
 
 import { readFileSync, readdirSync, statSync } from 'node:fs';
@@ -14,6 +15,7 @@ const { DADOS } = await import('../worker/gerado/dados.mjs');
 const env = ambienteLocal();
 const ORIGEM = 'https://clinicaneurobee.com.br';
 const P = DADOS.prefixo;
+const BASES = DADOS.bases.map((b) => b.id);
 
 let falhas = 0;
 let passou = 0;
@@ -23,19 +25,20 @@ const mcp = async (corpo) => {
   const r = await pedir(P + '/mcp', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json, text/event-stream' }, body: JSON.stringify(corpo) });
   return { status: r.status, corpo: r.status === 202 ? null : await r.json() };
 };
+const chamar = async (name, args = {}, id = 99) => (await mcp({ jsonrpc: '2.0', id, method: 'tools/call', params: { name, arguments: args } })).corpo;
 
-// Páginas fixas
-for (const c of ['', '/sobre', '/bases', '/governanca', '/metodologia', '/licencas', '/contribuicoes', '/documentacao', '/atualizacoes', '/bases/neurobase']) {
+// Páginas fixas e de cada base
+for (const c of ['', '/sobre', '/bases', '/governanca', '/metodologia', '/licencas', '/contribuicoes', '/documentacao', '/atualizacoes', ...BASES.map((b) => `/bases/${b}`)]) {
   const r = await pedir(P + c);
   conferir(r.status === 200 && r.headers.get('content-type').startsWith('text/html'), `página ${P + c}: ${r.status}`);
   conferir(!!r.headers.get('content-security-policy'), `CSP em ${P + c}`);
 }
-const registros = DADOS.registros.neurobase || [];
-for (const reg of registros) {
-  const r = await pedir(`${P}/bases/neurobase/${reg.slug}`);
-  conferir(r.status === 200, `registro ${reg.slug}: ${r.status}`);
+for (const b of BASES) {
+  for (const reg of DADOS.registros[b] || []) {
+    const r = await pedir(`${P}/bases/${b}/${reg.slug}`);
+    conferir(r.status === 200, `registro ${b}/${reg.slug}: ${r.status}`);
+  }
 }
-if (!registros.length) console.log('aviso: nenhum registro na base; os testes de registro ficaram de fora.');
 
 // Redirecionamentos, 404 e o que não é do NeuroDados
 let r = await pedir(P + '/');
@@ -56,17 +59,31 @@ conferir(r.status === 301 && r.headers.get('location').endsWith('/api/v1'), '/ap
 // API
 r = await pedir(P + '/api/v1');
 let j = await r.json();
-conferir(r.status === 200 && j.dados.bases.length >= 1 && r.headers.get('access-control-allow-origin') === '*', 'API: índice e CORS');
+conferir(r.status === 200 && j.dados.bases.length === BASES.length && r.headers.get('access-control-allow-origin') === '*', 'API: índice e CORS');
 r = await pedir(P + '/api/v1/bases');
 j = await r.json();
-conferir(j.dados[0].id === 'neurobase' && j.dados[0].registros === registros.length, 'API: catálogo');
-r = await pedir(P + '/api/v1/neurobase?por_pagina=1000');
-j = await r.json();
-conferir(j.dados.total === registros.length && j.dados.por_pagina === 100 && j.versao_dos_dados && j.licenca && j.aviso && j.citar_como, 'API: lista, limite de 100 por página e envelope');
+conferir(JSON.stringify(j.dados.map((b) => b.id)) === JSON.stringify(BASES) && j.dados.every((b) => b.registros === (DADOS.registros[b.id] || []).length), 'API: catálogo, na ordem e com as contagens');
+for (const b of BASES) {
+  const lista = DADOS.registros[b] || [];
+  r = await pedir(`${P}/api/v1/${b}?por_pagina=1000`);
+  j = await r.json();
+  conferir(j.dados.total === lista.length && j.dados.por_pagina === 100 && j.versao_dos_dados && j.licenca && j.aviso && j.citar_como, `API: lista da ${b}, limite de 100 e envelope`);
+  if (lista.length) {
+    const um = lista[0];
+    r = await pedir(`${P}/api/v1/${b}/${um.slug}`);
+    j = await r.json();
+    conferir(r.status === 200 && j.dados.id === um.id && j.dados.fontes.length >= 1, `API: registro ${um.id}`);
+    r = await pedir(`${P}/api/v1/${b}?q=${encodeURIComponent(um.nome)}`);
+    j = await r.json();
+    conferir(j.dados.registros[0]?.id === um.id, `API: busca pelo nome acha ${um.id} em 1º`);
+  }
+}
 r = await pedir(P + '/api/v1/neurobase?categoria=inexistente');
 conferir(r.status === 400, 'API: categoria desconhecida dá 400');
 r = await pedir(P + '/api/v1/neurobase/nao-existe');
 conferir(r.status === 404, 'API: registro que não existe dá 404');
+r = await pedir(P + '/api/v1/v2');
+conferir(r.status === 404, 'API: endereço que não existe dá 404');
 r = await pedir(P + '/api/v2');
 conferir(r.status === 404, 'API: versão que não existe dá 404');
 r = await pedir(P + '/api/v1/neurobase', { method: 'POST' });
@@ -75,19 +92,8 @@ r = await pedir(P + '/api/v1/neurobase', { method: 'OPTIONS' });
 conferir(r.status === 204, 'API: OPTIONS dá 204');
 r = await pedir(P + '/api/v1/openapi.json');
 j = await r.json();
-conferir(j.openapi === '3.1.0' && j.paths['/neurobase/{slug}'], 'API: OpenAPI');
-if (registros.length) {
-  const um = registros[0];
-  r = await pedir(`${P}/api/v1/neurobase/${um.slug}`);
-  j = await r.json();
-  conferir(r.status === 200 && j.dados.id === um.id && j.dados.fontes.length >= 1, `API: registro ${um.slug}`);
-  r = await pedir(`${P}/api/v1/neurobase/${um.id}`);
-  conferir(r.status === 200, 'API: registro pelo id');
-  r = await pedir(`${P}/api/v1/neurobase?q=${encodeURIComponent(um.nome)}`);
-  j = await r.json();
-  conferir(j.dados.registros[0]?.id === um.id, 'API: busca pelo nome acha o registro em 1º');
-}
-if (registros.some((x) => x.slug === 'tea')) {
+conferir(j.openapi === '3.1.0' && BASES.every((b) => j.paths[`/${b}/{slug}`]), 'API: OpenAPI com todas as bases');
+if ((DADOS.registros.neurobase || []).some((x) => x.slug === 'tea')) {
   r = await pedir(P + '/api/v1/neurobase?q=autismo');
   j = await r.json();
   conferir(j.dados.registros.some((x) => x.id === 'neurobase.tea'), 'API: "autismo" acha o TEA');
@@ -101,13 +107,17 @@ conferir(m.corpo.result?.protocolVersion === '2025-11-25', 'MCP: versão desconh
 m = await mcp({ jsonrpc: '2.0', method: 'notifications/initialized' });
 conferir(m.status === 202, 'MCP: notificação dá 202');
 m = await mcp({ jsonrpc: '2.0', id: 2, method: 'tools/list' });
-conferir(m.corpo.result?.tools?.length === 5 && m.corpo.result.tools.every((t) => t.inputSchema && t.description), 'MCP: tools/list');
-m = await mcp({ jsonrpc: '2.0', id: 3, method: 'tools/call', params: { name: 'listar_bases', arguments: {} } });
-conferir(m.corpo.result?.content?.[0]?.text.includes('NeuroBase'), 'MCP: listar_bases');
-m = await mcp({ jsonrpc: '2.0', id: 4, method: 'tools/call', params: { name: 'consultar_registro', arguments: { id: 'nao-existe' } } });
-conferir(m.corpo.result?.isError === true, 'MCP: registro que não existe dá isError');
-m = await mcp({ jsonrpc: '2.0', id: 5, method: 'tools/call', params: { name: 'buscar_conceito', arguments: {} } });
-conferir(m.corpo.error?.code === -32602, 'MCP: busca sem consulta dá -32602');
+const temInstrumento = (DADOS.registros.avaliabase || []).some((x) => x.categoria === 'instrumento');
+const busca = { neurobase: ['buscar_conceito'], avaliabase: ['buscar_avaliacao', ...(temInstrumento ? ['buscar_instrumento'] : [])], intervenbase: ['buscar_intervencao'], evidenciabase: ['buscar_evidencias'] };
+const esperadas = ['listar_bases', ...BASES.flatMap((b) => busca[b] || []), 'consultar_registro', ...(BASES.includes('neurobase') ? ['consultar_tea', 'consultar_tdah'] : [])];
+const nomes = (m.corpo.result?.tools || []).map((t) => t.name);
+conferir(JSON.stringify(nomes.slice().sort()) === JSON.stringify(esperadas.slice().sort()) && m.corpo.result.tools.every((t) => t.inputSchema && t.description), `MCP: tools/list (${nomes.join(', ')})`);
+let c = await chamar('listar_bases', {}, 3);
+conferir(BASES.every((b) => c.result?.content?.[0]?.text.includes(DADOS.bases.find((x) => x.id === b).nome)), 'MCP: listar_bases');
+c = await chamar('consultar_registro', { id: 'nao-existe' }, 4);
+conferir(c.result?.isError === true, 'MCP: registro que não existe dá isError');
+c = await chamar('buscar_conceito', {}, 5);
+conferir(c.error?.code === -32602, 'MCP: busca sem consulta dá -32602');
 m = await mcp({ jsonrpc: '2.0', id: 6, method: 'nada' });
 conferir(m.corpo.error?.code === -32601, 'MCP: método desconhecido dá -32601');
 m = await mcp([{ jsonrpc: '2.0', id: 7, method: 'ping' }, { jsonrpc: '2.0', method: 'notifications/initialized' }]);
@@ -116,23 +126,35 @@ r = await pedir(P + '/mcp', { method: 'POST', headers: { 'Content-Type': 'applic
 conferir(r.status === 400 && (await r.json()).error.code === -32700, 'MCP: JSON inválido dá -32700');
 r = await pedir(P + '/mcp');
 conferir(r.status === 405, 'MCP: GET dá 405');
-if (registros.length) {
-  const um = registros[0];
-  m = await mcp({ jsonrpc: '2.0', id: 8, method: 'tools/call', params: { name: 'consultar_registro', arguments: { id: um.id } } });
-  const texto = m.corpo.result?.content?.[0]?.text || '';
-  conferir(!m.corpo.result?.isError && texto.includes(um.definicao) && texto.includes(um.fontes[0].url) && texto.includes(DADOS.aviso), 'MCP: consultar_registro traz definição, fonte e aviso');
-  m = await mcp({ jsonrpc: '2.0', id: 9, method: 'tools/call', params: { name: 'buscar_conceito', arguments: { consulta: um.nome } } });
-  conferir(m.corpo.result?.structuredContent?.registros?.[0]?.id === um.id, 'MCP: buscar_conceito acha pelo nome');
+for (const b of BASES) {
+  const lista = DADOS.registros[b] || [];
+  if (!lista.length) continue;
+  const um = lista[0];
+  c = await chamar('consultar_registro', { id: um.id }, 8);
+  const texto = c.result?.content?.[0]?.text || '';
+  conferir(!c.result?.isError && texto.includes(um.definicao) && texto.includes(um.fontes[0].url) && texto.includes(DADOS.aviso), `MCP: consultar_registro ${um.id} traz o texto, a fonte e o aviso`);
+  const ferramenta = busca[b][0];
+  c = await chamar(ferramenta, { consulta: um.nome }, 9);
+  conferir(c.result?.structuredContent?.registros?.[0]?.id === um.id, `MCP: ${ferramenta} acha ${um.id} pelo nome`);
+}
+const instrumentos = (DADOS.registros.avaliabase || []).filter((x) => x.categoria === 'instrumento');
+if (instrumentos.length) {
+  const i = instrumentos[0];
+  c = await chamar('buscar_instrumento', { consulta: i.sigla || i.nome }, 10);
+  conferir(c.result?.structuredContent?.registros?.[0]?.id === i.id && c.result.content[0].text.includes('SATEPSI'), `MCP: buscar_instrumento acha ${i.id} com a situação no SATEPSI`);
 }
 
-// Downloads
-r = await pedir(P + '/dados/neurobase.json');
-conferir(r.headers.get('content-type').startsWith('application/json') && (await r.json()).length === registros.length, 'download JSON');
-r = await pedir(P + '/dados/neurobase.jsonl');
-conferir(r.headers.get('content-type').startsWith('application/x-ndjson'), 'download JSONL: tipo');
-r = await pedir(P + '/dados/neurobase.csv');
-const csv = await r.text();
-conferir(r.headers.get('content-type').startsWith('text/csv') && csv.replace(/^﻿/, '').startsWith('id,slug,nome'), 'download CSV');
+// Downloads de cada base
+for (const b of BASES) {
+  const n = (DADOS.registros[b] || []).length;
+  r = await pedir(`${P}/dados/${b}.json`);
+  conferir(r.headers.get('content-type').startsWith('application/json') && (await r.json()).length === n, `download JSON da ${b}`);
+  r = await pedir(`${P}/dados/${b}.jsonl`);
+  conferir(r.headers.get('content-type').startsWith('application/x-ndjson'), `download JSONL da ${b}: tipo`);
+  r = await pedir(`${P}/dados/${b}.csv`);
+  const csv = await r.text();
+  conferir(r.headers.get('content-type').startsWith('text/csv') && csv.replace(/^﻿/, '').startsWith('id,slug,nome'), `download CSV da ${b}`);
+}
 r = await pedir(P + '/llms.txt');
 conferir(r.status === 200 && (await r.text()).startsWith('# NeuroDados Brasil'), 'llms.txt');
 r = await pedir(P + '/sitemap.xml');
@@ -143,8 +165,8 @@ conferir((r.headers.get('cache-control') || '').includes('immutable'), 'CSS com 
 // Varredura das páginas: links internos, dados estruturados e regras de texto.
 function* arquivos(pasta) {
   for (const f of readdirSync(pasta)) {
-    const c = join(pasta, f);
-    if (statSync(c).isDirectory()) yield* arquivos(c); else yield c;
+    const caminho = join(pasta, f);
+    if (statSync(caminho).isDirectory()) yield* arquivos(caminho); else yield caminho;
   }
 }
 const links = new Set();
@@ -160,6 +182,7 @@ for (const arquivo of arquivos(DIST_SITE)) {
   for (const [, bloco] of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
     try { JSON.parse(bloco); passou++; } catch { conferir(false, `JSON-LD inválido em ${nome}`); }
   }
+  // O que é literal da fonte (lista de fontes e tabelas) fica de fora das regras de texto.
   const visivel = html
     .replace(/<script[\s\S]*?<\/script>/g, '')
     .replace(/<ol class="fontes">[\s\S]*?<\/ol>/g, '')
@@ -172,5 +195,5 @@ for (const l of links) {
   conferir(resp.status === 200, `link interno ${l}: ${resp.status}`);
 }
 
-console.log(`\n${passou} conferências passaram, ${falhas} falharam (${links.size} links internos).`);
+console.log(`\n${passou} conferências passaram, ${falhas} falharam (${links.size} links internos, bases: ${BASES.join(', ')}).`);
 process.exit(falhas ? 1 : 0);

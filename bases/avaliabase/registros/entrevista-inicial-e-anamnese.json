@@ -1,0 +1,175 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.entrevista-inicial-e-anamnese",
+  "slug": "entrevista-inicial-e-anamnese",
+  "base": "avaliabase",
+  "nome": "Entrevista inicial e anamnese",
+  "categoria": "etapa",
+  "definicao": "A entrevista inicial abre a avaliação: nela se esclarecem a demanda, quem pede a avaliação e com que finalidade. A anamnese é a coleta organizada da história da pessoa avaliada, e a norma do Conselho Federal de Psicologia inclui as entrevistas psicológicas e as anamneses entre as fontes fundamentais da avaliação psicológica.",
+  "afirmacoes": [
+    {
+      "texto": "A Resolução CFP nº 31/2022 inclui as entrevistas psicológicas e as anamneses entre as fontes fundamentais de informação em que a decisão da avaliação psicológica deve se basear, ao lado dos testes psicológicos aprovados pelo CFP e dos registros de observação do comportamento.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O primeiro dos passos mínimos descritos pela Cartilha de Avaliação Psicológica do CFP é o levantamento dos objetivos da avaliação e das particularidades da pessoa, do grupo ou da instituição avaliada, o que permite escolher os instrumentos e as estratégias mais adequados.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "O Código de Ética Profissional do Psicólogo inclui entre os deveres fundamentais fornecer, a quem de direito, informações sobre o trabalho a ser feito e o seu objetivo profissional. Para o atendimento não eventual de criança ou adolescente, a psicóloga ou o psicólogo deve obter a autorização de ao menos um dos responsáveis, observada a legislação.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Pela Resolução CFP nº 6/2019, o laudo psicológico descreve o que motivou a busca pela avaliação, indicando quem forneceu as informações, e cita as pessoas ouvidas, o número de encontros e a duração do processo.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "O Protocolo Clínico e Diretrizes Terapêuticas do TDAH, do Ministério da Saúde, considera para o diagnóstico as informações da família, dos cuidadores ou responsáveis e, na idade escolar, da escola, e, sempre que possível, o ponto de vista da própria pessoa.",
+      "fontes": [
+        "f5"
+      ]
+    },
+    {
+      "texto": "Para a Caderneta da Criança, do Ministério da Saúde, o diagnóstico do TEA é feito a partir da avaliação do comportamento da criança e do relato dos pais, porque não se conhecem exames de laboratório nem marcadores biológicos para identificá-lo.",
+      "fontes": [
+        "f6"
+      ]
+    },
+    {
+      "texto": "Nos Descritores em Ciências da Saúde (DeCS), vocabulário criado pela BIREME e mantido pela BIREME/OPAS/OMS a partir do MeSH, anamnese é a aquisição de informação de um paciente sobre suas afecções médicas anteriores e seus tratamentos.",
+      "fontes": [
+        "f7"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.etapas-da-avaliacao",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "avaliabase.avaliacao-psicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.devolutiva",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.laudo-psicologico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.encaminhamento-para-avaliacao",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "As normas do CFP citadas não definem o termo \"entrevista inicial\" nem trazem roteiro de entrevista ou de anamnese. Aqui, a entrevista inicial nomeia o primeiro contato da avaliação, ligado ao primeiro passo descrito pela Cartilha.",
+    "A definição do DeCS vem da área da saúde em geral e não é específica da psicologia.",
+    "Este registro não traz perguntas de entrevista nem de anamnese."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 31, de 15 de dezembro de 2022: estabelece diretrizes para a realização de Avaliação Psicológica no exercício profissional da psicóloga e do psicólogo, regulamenta o Sistema de Avaliação de Testes Psicológicos (SATEPSI) e revoga a Resolução CFP nº 09/2018",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-31-de-15-de-dezembro-de-2022-451168039",
+      "referencia": "arts. 2º e 3º; DOU de 16/12/2022, seção 1, p. 223",
+      "trecho": "Art. 3º Os métodos, técnicas e instrumentos considerados fontes fundamentais de informação são: I - testes psicológicos aprovados pelo CFP para uso profissional da psicóloga e do psicólogo; e/ou II - entrevistas psicológicas e anamneses; e/ou",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "documento_oficial",
+      "titulo": "Cartilha Avaliação Psicológica, 3ª edição",
+      "autor": "Conselho Federal de Psicologia (CFP), Comissão Consultiva em Avaliação Psicológica",
+      "ano": 2022,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2022/08/cartilha_avaliacao_psicologica-2309.pdf",
+      "referencia": "pergunta 7, passo a",
+      "trecho": "levantamento dos objetivos da avaliação e particularidades do indivíduo, grupo ou instituição a ser avaliado. Tal processo permite a escolha dos instrumentos/estratégias mais adequados para a realização da avaliação psicológica",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "norma",
+      "titulo": "Código de Ética Profissional do Psicólogo (Resolução CFP nº 010/2005)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2005,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf",
+      "referencia": "art. 1º, alínea f, e art. 8º",
+      "trecho": "Para realizar atendimento não eventual de criança, adolescente ou interdito, o psicólogo deverá obter autorização de ao menos um de seus responsáveis, observadas as determinações da legislação vigente",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 6, de 29 de março de 2019: institui regras para a elaboração de documentos escritos produzidos pela(o) psicóloga(o) no exercício profissional",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2019,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-6-de-29-de-marco-de-2019-69440920",
+      "referencia": "art. 13, §§ 3º e 4º; DOU de 01/04/2019, seção 1, p. 163",
+      "trecho": "§ 3º - Neste item, a(o) psicóloga(o), autora(or) do documento, deve descrever as informações sobre o que motivou a busca pelo processo de trabalho prestado, indicando quem forneceu as informações e as demandas que levaram à solicitação do documento.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "diretriz_clinica",
+      "titulo": "Protocolo Clínico e Diretrizes Terapêuticas do Transtorno do Déficit de Atenção com Hiperatividade (Portaria Conjunta SAES/SCTIE/MS nº 14, de 29 de julho de 2022)",
+      "autor": "Ministério da Saúde",
+      "ano": 2022,
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntan14pcdttranstornododeficitdeatencaocomhiperatividadetdah.pdf/@@display-file/file",
+      "referencia": "item 3, Diagnóstico (p. 4 do PDF)",
+      "trecho": "Para a definição do diagnóstico são consideradas as informações advindas da família/cuidadores/responsáveis e da escola, no caso de pacientes em idade escolar",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f6",
+      "tipo": "documento_oficial",
+      "titulo": "Caderneta da Criança: Passaporte da Cidadania. Menina. 7ª edição",
+      "autor": "Ministério da Saúde",
+      "ano": 2024,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_crianca_menina_passaporte_cidadania_7ed.pdf",
+      "referencia": "Parte I, Percebendo alterações no desenvolvimento: Transtorno do Espectro Autista (TEA), p. 55",
+      "trecho": "Até o momento, não são conhecidos exames laboratoriais ou marcadores biológicos para identificação do TEA e o seu diagnóstico é feito a partir da avaliação do comportamento da criança e relato dos pais.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f7",
+      "tipo": "site_institucional",
+      "titulo": "DeCS/MeSH, Descritores em Ciências da Saúde: descritor Anamnese (Medical History Taking)",
+      "autor": "BIREME/OPAS/OMS",
+      "ano": 2021,
+      "url": "https://decs.bvsalud.org/ths/resource/?id=8657",
+      "referencia": "identificador DeCS 8657, MeSH D008487; nota de escopo; data de revisão do descritor: 18/10/2021",
+      "trecho": "Aquisição de informação de um paciente sobre suas afecções médicas anteriores e seus tratamentos.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

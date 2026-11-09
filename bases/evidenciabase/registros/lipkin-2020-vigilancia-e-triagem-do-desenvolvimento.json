@@ -1,0 +1,118 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.lipkin-2020-vigilancia-e-triagem-do-desenvolvimento",
+  "slug": "lipkin-2020-vigilancia-e-triagem-do-desenvolvimento",
+  "base": "evidenciabase",
+  "nome": "Vigilância e triagem do desenvolvimento na primeira infância: relatório clínico da Academia Americana de Pediatria (2020)",
+  "categoria": "diretriz_clinica",
+  "publicacao": {
+    "titulo_original": "Promoting Optimal Development: Identifying Infants and Young Children With Developmental Disorders Through Developmental Surveillance and Screening",
+    "autores": [
+      "Lipkin, Paul H.",
+      "Macias, Michelle M.",
+      "Council on Children with Disabilities, Section on Developmental and Behavioral Pediatrics"
+    ],
+    "ano": 2020,
+    "veiculo": "Pediatrics, v. 145, n. 1, e20193449",
+    "doi": "10.1542/peds.2019-3449",
+    "url": "https://doi.org/10.1542/peds.2019-3449",
+    "idioma": "en"
+  },
+  "temas": [
+    "rastreamento",
+    "desenvolvimento_infantil",
+    "avaliacao"
+  ],
+  "populacao": "Bebês e crianças pequenas atendidos na atenção pediátrica, com atenção especial até a consulta de 4 a 5 anos, antes da entrada no ensino fundamental.",
+  "metodo": "Relatório clínico da Academia Americana de Pediatria, escrito por dois autores em nome do Conselho sobre Crianças com Deficiências e da Seção de Pediatria do Desenvolvimento e do Comportamento. O resumo não descreve o método de revisão das evidências.",
+  "definicao": "Relatório clínico da Academia Americana de Pediatria que propõe um sistema universal de vigilância e triagem do desenvolvimento na atenção pediátrica, para identificar cedo condições como autismo, surdez ou perda auditiva, deficiências intelectuais e motoras e condições de comportamento. Ele recomenda vigilância em todas as consultas de acompanhamento e testes padronizados de triagem aos 9, 18 e 30 meses.",
+  "afirmacoes": [
+    {
+      "texto": "O relatório trata a identificação e a intervenção precoces nos transtornos do desenvolvimento como responsabilidade dos profissionais de pediatria, dentro do modelo de atenção contínua à criança (medical home).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A vigilância do desenvolvimento deve ocorrer em todas as consultas de acompanhamento, e testes padronizados de triagem do desenvolvimento devem ser aplicados nas consultas de 9, 18 e 30 meses.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Uma preocupação levantada na vigilância, em qualquer consulta, deve levar a um teste padronizado de triagem ou ao encaminhamento direto para a intervenção e para o atendimento médico de outras especialidades.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O relatório recomenda atenção especial à vigilância na consulta de 4 a 5 anos, antes da entrada no ensino fundamental, com triagem se houver qualquer preocupação, e comunicação nos dois sentidos com os profissionais de creches, pré-escolas e programas de visita domiciliar.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A identificação de um problema deve levar a avaliações do desenvolvimento e médicas, diagnóstico, orientação e tratamento, além da intervenção precoce no desenvolvimento. As crianças com diagnóstico passam a ser acompanhadas como crianças com necessidades especiais de saúde.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.zubler-2022-marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.encaminhamento-para-avaliacao",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Este resumo se baseia só no resumo do relatório no PubMed; o texto completo, na página da editora, não pôde ser lido.",
+    "As recomendações foram escritas para o sistema de saúde dos Estados Unidos, com as idades de consulta e os programas de lá.",
+    "É um relatório clínico de uma sociedade de pediatria, e o resumo não informa como as evidências foram buscadas e avaliadas."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "diretriz_clinica",
+      "titulo": "Promoting Optimal Development: Identifying Infants and Young Children With Developmental Disorders Through Developmental Surveillance and Screening",
+      "autor": "Lipkin, Paul H.; Macias, Michelle M.; Council on Children with Disabilities, Section on Developmental and Behavioral Pediatrics (American Academy of Pediatrics)",
+      "ano": 2020,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31843861/",
+      "doi": "10.1542/peds.2019-3449",
+      "referencia": "Pediatrics, v. 145, n. 1, e20193449; resumo",
+      "trecho": "Developmental concerns elicited on surveillance at any visit should be followed by standardized developmental screening testing or direct referral to intervention and specialty medical care.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

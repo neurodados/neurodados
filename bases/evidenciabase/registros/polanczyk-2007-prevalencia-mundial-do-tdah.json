@@ -1,0 +1,126 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.polanczyk-2007-prevalencia-mundial-do-tdah",
+  "slug": "polanczyk-2007-prevalencia-mundial-do-tdah",
+  "base": "evidenciabase",
+  "nome": "Prevalência mundial do TDAH: revisão sistemática e metarregressão de 2007",
+  "categoria": "meta_analise",
+  "publicacao": {
+    "titulo_original": "The Worldwide Prevalence of ADHD: A Systematic Review and Metaregression Analysis",
+    "autores": [
+      "Polanczyk, Guilherme",
+      "de Lima, Maurício Silva",
+      "Horta, Bernardo Lessa",
+      "Biederman, Joseph",
+      "Rohde, Luis Augusto"
+    ],
+    "ano": 2007,
+    "veiculo": "American Journal of Psychiatry, v. 164, n. 6, p. 942-948",
+    "doi": "10.1176/ajp.2007.164.6.942",
+    "url": "https://doi.org/10.1176/ajp.2007.164.6.942",
+    "acesso_aberto": false,
+    "idioma": "en"
+  },
+  "temas": [
+    "tdah",
+    "prevalencia"
+  ],
+  "populacao": "Estudos com pessoas de até 18 anos, da população geral ou de escolas, de todas as regiões do mundo, com diagnóstico pelos critérios do DSM ou da CID.",
+  "metodo": "Revisão sistemática com busca no MEDLINE e no PsycINFO de janeiro de 1978 a dezembro de 2005, em livros e listas de referências e com contato com autores. Os autores calcularam a prevalência combinada e usaram metarregressão para procurar as causas da variação entre os estudos.",
+  "definicao": "Revisão sistemática com metarregressão de 102 estudos sobre a prevalência do TDAH em crianças e adolescentes de todas as regiões do mundo. A prevalência combinada foi de 5,29%, e a grande variação entre os estudos pareceu se explicar mais pelo método de cada pesquisa do que pela região.",
+  "afirmacoes": [
+    {
+      "texto": "A busca encontrou 9.105 registros, e 303 artigos completos foram lidos. Entraram 102 estudos, com 171.756 participantes de todas as regiões do mundo.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A prevalência combinada do TDAH ou do transtorno hipercinético foi de 5,29%, com variação significativa entre os estudos. A atualização de 2014, dos mesmos grupos de pesquisa, informa o intervalo de confiança de 95% dessa estimativa: de 5,01% a 5,56%.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Na metarregressão, os critérios diagnósticos, a fonte da informação, a exigência de prejuízo para o diagnóstico e a origem geográfica dos estudos se associaram às taxas de prevalência.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A localização geográfica só se associou à variação na comparação entre a América do Norte e a África e o Oriente Médio, e não houve diferença significativa entre a Europa e a América do Norte. Segundo a atualização de 2014, havia só quatro estimativas de cada uma dessas duas regiões, o que não permitia conclusões firmes.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Para os autores, os achados sugerem que a geografia tem papel limitado na variação das estimativas e que essa variação parece se explicar sobretudo pelas características de método dos estudos.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.polanczyk-2014-tdah-tres-decadas",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.ms-2022-pcdt-tdah",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A estimativa combinada veio com variação significativa entre os estudos, que o resumo atribui sobretudo a diferenças de método.",
+    "A busca vai até 2005 e inclui só pessoas de até 18 anos. Uma atualização publicada em 2014 ampliou a série até 2012.",
+    "O texto completo do artigo não é aberto: este resumo se baseia no resumo publicado no PubMed e no que a atualização de 2014 relata sobre a revisão de 2007."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "revisao_sistematica",
+      "titulo": "The Worldwide Prevalence of ADHD: A Systematic Review and Metaregression Analysis",
+      "autor": "Polanczyk, Guilherme; de Lima, Maurício Silva; Horta, Bernardo Lessa; Biederman, Joseph; Rohde, Luis Augusto",
+      "ano": 2007,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17541055/",
+      "doi": "10.1176/ajp.2007.164.6.942",
+      "referencia": "American Journal of Psychiatry, v. 164, n. 6, p. 942-948; resumo",
+      "trecho": "One hundred and two studies comprising 171,756 subjects from all world regions were included. The ADHD/HD worldwide-pooled prevalence was 5.29%.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "revisao_sistematica",
+      "titulo": "ADHD prevalence estimates across three decades: an updated systematic review and meta-regression analysis",
+      "autor": "Polanczyk, Guilherme V; Willcutt, Erik G; Salum, Giovanni A; Kieling, Christian; Rohde, Luis A",
+      "ano": 2014,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4817588/",
+      "doi": "10.1093/ije/dyt261",
+      "referencia": "International Journal of Epidemiology, v. 43, n. 2, p. 434-442; texto completo no PMC: Background, sobre a revisão de 2007",
+      "trecho": "Because only four estimates of ADHD prevalence from each one of these two geographical regions were included in the analysis, no definite conclusions could be drawn.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

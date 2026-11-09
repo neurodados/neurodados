@@ -1,0 +1,203 @@
+{
+  "$schema": "../../../schemas/intervenbase.schema.json",
+  "id": "intervenbase.cobertura-dos-planos-de-saude",
+  "slug": "cobertura-dos-planos-de-saude",
+  "base": "intervenbase",
+  "nome": "Cobertura das terapias pelos planos de saúde",
+  "categoria": "direito_e_cobertura",
+  "contextos": [
+    "Rede própria ou credenciada da operadora e reembolso, nos planos com livre escolha de prestador",
+    "Estabelecimentos de saúde e telessaúde"
+  ],
+  "definicao": "A cobertura das terapias pelos planos de saúde é o conjunto de regras da Lei nº 9.656/1998 e da ANS que define quais consultas, sessões e métodos de terapia os planos devem cobrir, em que condições e em que prazo. Vale para os planos contratados a partir de 1º de janeiro de 1999 e para os adaptados à lei.",
+  "afirmacoes": [
+    {
+      "texto": "Pela Lei nº 9.656/1998, com a redação da Lei nº 14.454/2022, o rol de procedimentos da ANS é a referência básica de cobertura. Em setembro de 2025, ao julgar a ADI 7265, o STF fixou critérios para a cobertura de tratamento fora do rol, que precisam ser cumpridos ao mesmo tempo: prescrição por médico ou odontólogo assistente; tratamento sem negativa expressa da ANS e sem análise pendente de inclusão no rol; falta de alternativa adequada no rol; comprovação científica de eficácia e segurança; e registro na Anvisa.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Desde 1º de agosto de 2022, pela RN nº 541/2022, as consultas e sessões com psicólogo, fonoaudiólogo, terapeuta ocupacional e fisioterapeuta não têm mais diretrizes de utilização nem limite de número: segundo a ANS, devem ser cobertas conforme a indicação do profissional assistente, qualquer que seja a condição de saúde.",
+      "fontes": [
+        "f3",
+        "f4"
+      ]
+    },
+    {
+      "texto": "Para os transtornos globais do desenvolvimento, que incluem o transtorno do espectro autista (CID-10 F84), a RN nº 539/2022 determina, desde 1º de julho de 2022, que a operadora ofereça atendimento por prestador apto a executar o método ou a técnica indicados pelo médico assistente. A ANS esclarece que método ou técnica se refere a qualquer técnica, método, terapia, abordagem ou manejo da prática clínica.",
+      "fontes": [
+        "f5",
+        "f6"
+      ]
+    },
+    {
+      "texto": "Segundo a ANS, essa cobertura depende de prescrição do médico assistente, de execução em estabelecimento de saúde ou por telessaúde, durante uma consulta ou sessão prevista no rol, e por profissional de saúde habilitado. Atendimentos em casa ou na escola e por profissionais que não são da área da saúde não têm cobertura obrigatória, e o mesmo vale para o acompanhante terapêutico na escola ou em casa.",
+      "fontes": [
+        "f6",
+        "f7"
+      ]
+    },
+    {
+      "texto": "A RN nº 566/2022 obriga a operadora a garantir a consulta ou sessão com fonoaudiólogo, psicólogo, terapeuta ocupacional e fisioterapeuta em até 10 dias úteis. Se o prestador da rede não estiver disponível no prazo, a operadora deve garantir o atendimento com prestador de fora da rede no mesmo município, ou com prestador da rede ou de fora dela em municípios limítrofes, e pagar diretamente o prestador de fora da rede.",
+      "fontes": [
+        "f8"
+      ]
+    },
+    {
+      "texto": "A Lei nº 12.764/2012 proíbe impedir a pessoa com transtorno do espectro autista de participar de planos privados de saúde por causa da condição de pessoa com deficiência, nos termos do art. 14 da Lei nº 9.656/1998.",
+      "fontes": [
+        "f9",
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.fonoaudiologia",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.terapia-ocupacional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.analise-do-comportamento-aplicada",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.acompanhamento-terapeutico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.psicopedagogia",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Nos planos antigos não adaptados, contratados até 1º de janeiro de 1999, a ANS informa que a cobertura só é obrigatória se estiver prevista no contrato.",
+    "Os pareceres técnicos da ANS citados são de agosto de 2024 e continuavam listados no site da ANS em 8 de novembro de 2026. As normas podem mudar; vale o texto em vigor na data da consulta.",
+    "Este registro não trata da cobertura fora do rol caso a caso nem de decisões judiciais individuais, que dependem dos critérios fixados pelo STF na ADI 7265."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 9.656, de 3 de junho de 1998: dispõe sobre os planos e seguros privados de assistência à saúde (texto compilado)",
+      "autor": "Brasil",
+      "ano": 1998,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9656.htm",
+      "referencia": "art. 10, §§ 4º, 12 e 13 (redação e inclusão pela Lei nº 14.454/2022), e art. 14; texto compilado",
+      "trecho": "§ 12. O rol de procedimentos e eventos em saúde suplementar, atualizado pela ANS a cada nova incorporação, constitui a referência básica para os planos privados de assistência à saúde contratados a partir de 1º de janeiro de 1999 e para os contratos adaptados a esta Lei e fixa as diretrizes de atenção à saúde.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "documento_oficial",
+      "titulo": "STF fixa critérios para que planos de saúde cubram tratamentos fora da lista da ANS",
+      "autor": "Supremo Tribunal Federal (STF)",
+      "ano": 2025,
+      "url": "https://noticias.stf.jus.br/postsnoticias/stf-fixa-criterios-para-que-planos-de-saude-cubram-tratamentos-fora-da-lista-da-ans/",
+      "referencia": "Notícia de 18/09/2025 sobre o julgamento da ADI 7265",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "norma",
+      "titulo": "Resolução Normativa ANS nº 541, de 11 de julho de 2022: altera a RN nº 465/2021 quanto aos atendimentos com psicólogos, fonoaudiólogos, terapeutas ocupacionais e fisioterapeutas e revoga suas diretrizes de utilização",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2022,
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/ans/2022/res0541_13_07_2022.html",
+      "referencia": "arts. 3º e 5º; cópia da Biblioteca Virtual em Saúde (Saúde Legis)",
+      "trecho": "Art. 3º Ficam revogadas as Diretrizes de Utilização - DUTs nº 102, 104, 105, 106, 107, 108, 136, 137 e 138 do Anexo II, da RN nº 465, de 2021.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "documento_oficial",
+      "titulo": "Parecer Técnico nº 08/GCITS/GGRAS/DIPRO/2024: cobertura de tratamento fisioterápico, psicológico, fonoaudiológico e de terapia ocupacional",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2024,
+      "url": "https://www.gov.br/ans/pt-br/arquivos/acesso-a-informacao/transparencia-institucional/pareceres-tecnicos-da-ans/2024/parecer-tecnico-no-08_2024_consulta-sessao-com-psicologo-terapeuta-ocupacional.pdf",
+      "referencia": "Publicado em 30/08/2024; listado entre os pareceres da página Documentos Técnicos da ANS em 08/11/2026",
+      "trecho": "os quais devem ser garantidos de acordo com o indicado pelo profissional assistente, ou seja, sem limitação do número de sessões",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "norma",
+      "titulo": "Resolução Normativa ANS nº 539, de 23 de junho de 2022: altera a RN nº 465/2021 para regulamentar a cobertura obrigatória de sessões com psicólogos, terapeutas ocupacionais e fonoaudiólogos para beneficiários com transtorno do espectro autista e outros transtornos globais do desenvolvimento",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2022,
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/ans/2022/res0539_24_06_2022.html",
+      "referencia": "art. 3º (inclui o § 4º no art. 6º da RN nº 465/2021) e art. 5º; cópia da Biblioteca Virtual em Saúde (Saúde Legis)",
+      "trecho": "§ 4º Para a cobertura dos procedimentos que envolvam o tratamento/manejo dos beneficiários portadores de transtornos globais do desenvolvimento, incluindo o transtorno do espectro autista, a operadora deverá oferecer atendimento por prestador apto a executar o método ou técnica indicados pelo médico assistente para tratar a doença ou agravo do paciente.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f6",
+      "tipo": "documento_oficial",
+      "titulo": "Parecer Técnico nº 39/GCITS/GGRAS/DIPRO/2024: cobertura de abordagens, técnicas e métodos usados no tratamento dos transtornos globais do desenvolvimento, incluindo o transtorno do espectro autista",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2024,
+      "url": "https://www.gov.br/ans/pt-br/arquivos/acesso-a-informacao/transparencia-institucional/pareceres-tecnicos-da-ans/2024/parecer-tecnico-no-39_2024_terapias-e-metodos-transtorno-do-espectro-autista_rn-539-2022_rn-541-2022.pdf",
+      "referencia": "Publicado em 30/08/2024; listado entre os pareceres da página Documentos Técnicos da ANS em 08/11/2026",
+      "trecho": "Portanto, cabe ao médico assistente a prerrogativa de escolher o método ou técnica para o tratamento relacionado aos beneficiários diagnosticados com transtornos globais do desenvolvimento.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f7",
+      "tipo": "documento_oficial",
+      "titulo": "Parecer Técnico nº 25/GCITS/GGRAS/DIPRO/2024: cobertura de equoterapia, hidroterapia, terapias com vestes especiais, pilates, reeducação postural global e acompanhante terapêutico",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2024,
+      "url": "https://www.gov.br/ans/pt-br/arquivos/acesso-a-informacao/transparencia-institucional/pareceres-tecnicos-da-ans/2024/parecer-tecnico-no-25_2024_pilates-rpg-hidroterapia-equoterapia-e-outros_rn-539.pdf",
+      "referencia": "Item e) Acompanhante terapêutico; publicado em 30/08/2024",
+      "trecho": "Dessa forma, a cobertura do Acompanhante Terapêutico em ambiente escolar e/ou domiciliar não está contemplada no Rol e, portanto, não possui cobertura obrigatória pelas operadoras de planos privados de assistência à saúde.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f8",
+      "tipo": "norma",
+      "titulo": "Resolução Normativa ANS nº 566, de 29 de dezembro de 2022: dispõe sobre a garantia de atendimento dos beneficiários de plano privado de assistência à saúde",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2022,
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/ans/2023/res0566_02_01_2023.html",
+      "referencia": "art. 3º, III, V, VI e VII, e art. 4º; cópia da Biblioteca Virtual em Saúde (Saúde Legis)",
+      "trecho": "V - consulta/sessão com psicólogo: em até dez dias úteis;",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f9",
+      "tipo": "lei",
+      "titulo": "Lei nº 12.764, de 27 de dezembro de 2012: institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista",
+      "autor": "Brasil",
+      "ano": 2012,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm",
+      "referencia": "art. 5º; texto compilado",
+      "trecho": "Art. 5º A pessoa com transtorno do espectro autista não será impedida de participar de planos privados de assistência à saúde em razão de sua condição de pessoa com deficiência, conforme dispõe o art. 14 da Lei nº 9.656, de 3 de junho de 1998.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

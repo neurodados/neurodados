@@ -48,6 +48,8 @@
       }
     },
     "metodologia": { "type": "string", "pattern": "^https://" },
+    "doi": { "type": "string", "pattern": "^10\\.[0-9]{4,9}/\\S+$", "description": "DOI desta versão da base no Zenodo, sem o https://doi.org/." },
+    "huggingface": { "type": "string", "pattern": "^https://huggingface\\.co/datasets/", "description": "Endereço da base no Hugging Face." },
     "palavras_chave": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
     "limitacoes": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 10 } },
     "historico_de_versoes": {

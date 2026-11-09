@@ -1,0 +1,105 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.maulik-2011-prevalencia-da-deficiencia-intelectual",
+  "slug": "maulik-2011-prevalencia-da-deficiencia-intelectual",
+  "base": "evidenciabase",
+  "nome": "Prevalência da deficiência intelectual: meta-análise de estudos populacionais de 2011",
+  "categoria": "meta_analise",
+  "publicacao": {
+    "titulo_original": "Prevalence of intellectual disability: A meta-analysis of population-based studies",
+    "autores": [
+      "Maulik, Pallab K.",
+      "Mascarenhas, Maya N.",
+      "Mathers, Colin D.",
+      "Dua, Tarun",
+      "Saxena, Shekhar"
+    ],
+    "ano": 2011,
+    "veiculo": "Research in Developmental Disabilities, v. 32, n. 2, p. 419-436",
+    "doi": "10.1016/j.ridd.2010.12.018",
+    "url": "https://doi.org/10.1016/j.ridd.2010.12.018",
+    "acesso_aberto": false,
+    "idioma": "en"
+  },
+  "temas": [
+    "deficiencia_intelectual",
+    "prevalencia",
+    "saude_publica"
+  ],
+  "populacao": "Estudos populacionais publicados de 1980 a 2009 que deram uma estimativa geral da prevalência da deficiência intelectual, em países de diferentes níveis de renda e em várias faixas de idade.",
+  "metodo": "Meta-análise de efeitos aleatórios, para levar em conta a heterogeneidade entre os estudos, com análises por subgrupo de renda do país, de faixa etária e de desenho do estudo.",
+  "definicao": "Meta-análise de 52 estudos populacionais sobre a prevalência da deficiência intelectual. A estimativa combinada foi de 10,37 por mil habitantes, com taxas mais altas em países de renda baixa e média e em estudos com crianças e adolescentes.",
+  "afirmacoes": [
+    {
+      "texto": "A prevalência da deficiência intelectual no conjunto dos 52 estudos foi de 10,37 por mil habitantes.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As estimativas variaram com o nível de renda do país, a faixa etária estudada e o desenho do estudo. As taxas mais altas apareceram em países de renda baixa e média.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os estudos que identificaram os casos com avaliações ou escalas psicológicas tiveram prevalência mais alta do que os que usaram sistemas diagnósticos padronizados e instrumentos de avaliação da incapacidade.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A prevalência foi mais alta nos estudos com crianças e adolescentes do que nos estudos com adultos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os autores lembram que a maior parte dos dados sobre o tema vinha de países desenvolvidos e destacam a importância de usar sistemas diagnósticos padronizados para estimar corretamente o tamanho do problema.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "As estimativas variaram muito com o método e com a população estudada, e a meta-análise usou efeitos aleatórios para levar em conta essa heterogeneidade.",
+    "Em 2013, a revista publicou uma correção a este artigo (Research in Developmental Disabilities, v. 34, n. 2, p. 729). O conteúdo da correção não foi lido, porque a página da editora não abriu.",
+    "Este resumo se baseia só no resumo do artigo no PubMed, porque o texto completo não é aberto."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "revisao_sistematica",
+      "titulo": "Prevalence of intellectual disability: A meta-analysis of population-based studies",
+      "autor": "Maulik, Pallab K.; Mascarenhas, Maya N.; Mathers, Colin D.; Dua, Tarun; Saxena, Shekhar",
+      "ano": 2011,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21236634/",
+      "doi": "10.1016/j.ridd.2010.12.018",
+      "referencia": "Research in Developmental Disabilities, v. 32, n. 2, p. 419-436; resumo. Correção no v. 34, n. 2, p. 729 (DOI 10.1016/j.ridd.2012.10.013)",
+      "trecho": "The prevalence of intellectual disability across all 52 studies included in the meta-analysis was 10.37/1000 population.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

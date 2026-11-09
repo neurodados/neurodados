@@ -61,6 +61,19 @@ for (const b of bases) {
       usadas.add(c.fonte);
       if (!fontes.has(c.fonte)) erro(local, `classificação ${c.sistema} ${c.codigo} cita a fonte ${c.fonte}, que não existe`);
     }
+    // AvaliaBase: instrumento só com a ficha e a situação no SATEPSI, com fonte.
+    if (d.categoria === 'instrumento' && !d.instrumento) erro(local, 'instrumento sem a ficha (campo "instrumento")');
+    if (d.instrumento) {
+      const s = d.instrumento.satepsi || {};
+      usadas.add(s.fonte);
+      if (!fontes.has(s.fonte)) erro(local, `a situação no SATEPSI cita a fonte ${s.fonte}, que não existe`);
+      if (s.consultado_em > dia) erro(local, 'consulta ao SATEPSI no futuro');
+      if ((s.situacao === 'nao_privativo') !== (d.instrumento.uso === 'nao_privativo')) aviso(local, 'o uso e a situação no SATEPSI não combinam');
+    }
+    // EvidenciaBase: a publicação aparece entre as fontes.
+    if (d.publicacao && !(d.fontes || []).some((f) => f.url === d.publicacao.url || (d.publicacao.doi && f.doi === d.publicacao.doi))) {
+      aviso(local, 'a publicação não está entre as fontes');
+    }
     for (const id of fontes.keys()) if (!usadas.has(id)) aviso(local, `a fonte ${id} não sustenta nenhuma afirmação`);
 
     for (const rel of d.relacionados || []) {
@@ -82,16 +95,18 @@ for (const b of bases) {
       if (c.endsWith('.url') || c.endsWith('.doi') || c === '$.$schema') continue;
       // O que é literal da fonte (trecho de lei, título de documento, título
       // oficial da classificação) fica como está na fonte: só a regra da marca vale.
-      const literal = /\.fontes\[\d+\]\.(?:trecho|titulo|autor|referencia)$|\.classificacoes\[\d+\]\.titulo$/.test(c);
+      const literal = /\.fontes\[\d+\]\.(?:trecho|titulo|autor|referencia)$|\.classificacoes\[\d+\]\.titulo$|\.publicacao\.(?:titulo_original|veiculo|autores\[\d+\])$|\.instrumento\.nome_original$/.test(c);
       const erros = errosDeTexto(t, { registro: true }).filter((e) => !literal || e.startsWith('nome da clínica'));
       for (const e of erros) erro(local, `${e} em ${c}`);
     }
   }
 }
 
-// Os textos do portal e a Skill seguem as mesmas regras.
+// Os textos do portal, a Skill e os textos do repositório seguem as mesmas regras. O
+// CONTRIBUTING.md fica de fora porque cita as próprias palavras proibidas, e o LICENSE é o MIT.
+const DO_REPOSITORIO = ['repositorio.README.md', 'repositorio.CHANGELOG.md', 'repositorio.LICENSE-DADOS.md'];
 for (const [k, t] of Object.entries(coletarTextos())) {
-  if (!k.startsWith('portal.') && k !== 'skill.SKILL.md') continue;
+  if (!k.startsWith('portal.') && k !== 'skill.SKILL.md' && !DO_REPOSITORIO.includes(k)) continue;
   for (const e of errosDeTexto(t)) erro(k, e);
 }
 

@@ -72,6 +72,18 @@
     {
       "id": "neurobase.neurodesenvolvimento",
       "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.lipkin-2020-vigilancia-e-triagem-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.zubler-2022-marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.encaminhamento-para-avaliacao",
+      "tipo": "relacionado"
     }
   ],
   "limitacoes": [
@@ -154,14 +166,19 @@
     "conferido_em": "2026-11-08",
     "revisores": []
   },
-  "versao": "1.0",
+  "versao": "1.1",
   "criado_em": "2026-11-08",
-  "atualizado_em": "2026-11-08",
+  "atualizado_em": "2026-11-09",
   "historico": [
     {
       "versao": "1.0",
       "data": "2026-11-08",
       "mudanca": "Primeira versão."
+    },
+    {
+      "versao": "1.1",
+      "data": "2026-11-09",
+      "mudanca": "Ligações com registros da AvaliaBase, da IntervenBase e da EvidenciaBase."
     }
   ]
 }

@@ -1,0 +1,126 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.diamond-2013-funcoes-executivas",
+  "slug": "diamond-2013-funcoes-executivas",
+  "base": "evidenciabase",
+  "nome": "Funções executivas: revisão de 2013 sobre o conceito, o desenvolvimento e o treino",
+  "categoria": "revisao_narrativa",
+  "publicacao": {
+    "titulo_original": "Executive Functions",
+    "autores": [
+      "Diamond, Adele"
+    ],
+    "ano": 2013,
+    "veiculo": "Annual Review of Psychology, v. 64, p. 135-168",
+    "doi": "10.1146/annurev-psych-113011-143750",
+    "url": "https://doi.org/10.1146/annurev-psych-113011-143750",
+    "acesso_aberto": true,
+    "idioma": "en"
+  },
+  "temas": [
+    "funcoes_executivas",
+    "desenvolvimento_infantil",
+    "intervencoes"
+  ],
+  "populacao": "Estudos com crianças, adolescentes, adultos e idosos sobre as funções executivas, com ênfase no desenvolvimento infantil.",
+  "metodo": "Revisão narrativa publicada na Annual Review of Psychology, sem método sistemático de busca descrito.",
+  "definicao": "Revisão narrativa sobre as funções executivas: o que são, como se desenvolvem, como se medem e como podem melhorar. A autora descreve três funções centrais, o controle inibitório, a memória de trabalho e a flexibilidade cognitiva, e reúne estudos que mostram que elas podem ser treinadas.",
+  "afirmacoes": [
+    {
+      "texto": "As funções executivas são processos mentais de controle, exigidos quando agir no automático não basta. A revisão aponta três centrais, o controle inibitório, a memória de trabalho e a flexibilidade cognitiva, que sustentam funções mais complexas, como raciocinar, resolver problemas e planejar.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O desenvolvimento é longo. O controle inibitório é proporcionalmente mais difícil para as crianças pequenas e continua a amadurecer na adolescência. Bebês de 9 a 12 meses já atualizam o que guardam na memória de trabalho, mas guardar muitas coisas ou manipulá-las mentalmente se desenvolve devagar.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Segundo a revisão, o controle inibitório no começo da vida prevê desfechos ao longo dela: num estudo citado, que acompanhou cerca de 1.000 crianças por 32 anos, as que tinham melhor controle inibitório entre 3 e 11 anos tiveram, na vida adulta, melhor saúde física e mental e renda maior, mesmo controlando QI, sexo, classe social e ambiente familiar.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Estresse, tristeza, solidão, falta de sono e falta de condicionamento físico prejudicam primeiro as funções executivas. A autora alerta que esses fatores podem fazer uma pessoa parecer ter um transtorno das funções executivas, como o TDAH, sem ter.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "As funções executivas podem ser treinadas e melhoram com a prática repetida e com desafios que aumentam aos poucos. As crianças com mais dificuldade costumam ser as que mais ganham, e a transferência do treino em computador tende a ser estreita.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "A revisão registra que ainda se sabe pouco sobre quanto tempo duram os benefícios do treino e sobre a dose e a frequência ideais.",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.funcoes-executivas",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.avaliacao-neuropsicologica",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "É uma revisão narrativa: a seleção dos estudos é da autora, sem busca sistemática nem avaliação formal da qualidade.",
+    "A revisão é de 2013; os estudos publicados depois sobre o treino das funções executivas não estão nela.",
+    "O texto completo lido é o manuscrito aceito, publicado no PMC; a versão final da revista não foi lida."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Executive Functions",
+      "autor": "Diamond, Adele",
+      "ano": 2013,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23020641/",
+      "doi": "10.1146/annurev-psych-113011-143750",
+      "referencia": "Annual Review of Psychology, v. 64, p. 135-168; resumo",
+      "trecho": "The importance of social, emotional, and physical health for cognitive health is discussed because stress, lack of sleep, loneliness, or lack of exercise each impair EFs.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Executive Functions (manuscrito aceito pela autora)",
+      "autor": "Diamond, Adele",
+      "ano": 2013,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4084861/",
+      "doi": "10.1146/annurev-psych-113011-143750",
+      "referencia": "Texto completo no PMC (NIHMS602706): Introduction; Development of Inhibitory Control; Development of Working Memory; Canary in the coal mine; Training and practice",
+      "trecho": "Any of these can cause you to appear to have a disorder of EFs, such as ADHD, when you do not.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

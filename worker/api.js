@@ -56,6 +56,7 @@ export function responderApi(request, url, D) {
     return json(envelope(D, null, D.bases.map((b) => ({
       id: b.id, nome: b.nome, titulo: b.titulo, descricao: b.descricao, versao: b.versao, atualizado_em: b.atualizado_em,
       registros: b.n, licenca: b.licenca, url: b.url, api_url: b.api, downloads: b.downloads,
+      ...(b.doi ? { doi: b.doi } : {}), ...(b.huggingface ? { huggingface: b.huggingface } : {}),
     }))));
   }
 
@@ -66,8 +67,9 @@ export function responderApi(request, url, D) {
   if (!chave) {
     const p = url.searchParams;
     const categoria = p.get('categoria') || '';
-    if (categoria && !D.categorias.includes(categoria)) {
-      return json({ erro: D.mensagens.categoriaDesconhecida, categorias: D.categorias }, 400);
+    const categorias = (D.categoriasPorBase || {})[base.id] || [];
+    if (categoria && !categorias.includes(categoria)) {
+      return json({ erro: D.mensagens.categoriaDesconhecida, categorias }, 400);
     }
     const q = (p.get('q') || '').slice(0, 100);
     const porPagina = Math.min(100, Math.max(1, parseInt(p.get('por_pagina') || '20', 10) || 20));

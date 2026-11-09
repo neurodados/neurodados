@@ -1,0 +1,128 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.zeidan-2022-prevalencia-global-do-autismo",
+  "slug": "zeidan-2022-prevalencia-global-do-autismo",
+  "base": "evidenciabase",
+  "nome": "Prevalência global do autismo: revisão sistemática de 2022",
+  "categoria": "revisao_sistematica",
+  "publicacao": {
+    "titulo_original": "Global prevalence of autism: A systematic review update",
+    "autores": [
+      "Zeidan, Jinan",
+      "Fombonne, Eric",
+      "Scorah, Julie",
+      "Ibrahim, Alaa",
+      "Durkin, Maureen S.",
+      "Saxena, Shekhar",
+      "Yusuf, Afiqah",
+      "Shih, Andy",
+      "Elsabbagh, Mayada"
+    ],
+    "ano": 2022,
+    "veiculo": "Autism Research, v. 15, n. 5, p. 778-790",
+    "doi": "10.1002/aur.2696",
+    "url": "https://doi.org/10.1002/aur.2696",
+    "acesso_aberto": true,
+    "idioma": "en"
+  },
+  "temas": [
+    "tea",
+    "prevalencia",
+    "deficiencia_intelectual",
+    "saude_publica"
+  ],
+  "populacao": "Estudos de prevalência do autismo publicados de 2012 a 2021, com 99 estimativas de 34 países. A maioria estudou crianças; poucos incluíram adultos.",
+  "metodo": "Revisão sistemática com busca no MEDLINE, encerrada em novembro de 2021, e busca manual em listas de referências. Como os métodos dos estudos eram muito diferentes, não houve meta-análise: os autores calcularam medianas e faixas por região do mundo e fizeram uma síntese narrativa.",
+  "definicao": "Revisão sistemática que atualizou as estimativas de prevalência do autismo no mundo com os estudos publicados desde 2012. A prevalência mediana foi de 100 por 10 mil pessoas, cerca de 1%, com grande variação entre estudos e regiões, que, para os autores, provavelmente reflete a interação entre conscientização da comunidade, capacidade dos serviços, busca por ajuda e fatores sociodemográficos.",
+  "afirmacoes": [
+    {
+      "texto": "A revisão reuniu 71 estudos publicados desde 2012, com 99 estimativas de prevalência em 34 países. A maioria dos estudos foi feita nos Estados Unidos e no norte da Europa, mas cresceu o número de estudos de regiões antes pouco representadas, como a África e o Oriente Médio.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A prevalência mediana foi de 100 por 10 mil, com estimativas que iam de 1,09 a 436 por 10 mil.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A razão mediana entre os casos no sexo masculino e no feminino foi de 4,2, com estimativas de 0,8 a 6,1. Os autores citam hipóteses de que diferenças na identificação dos casos expliquem essa faixa tão larga.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Em mediana, 33% dos casos de autismo tinham deficiência intelectual associada, mas muitas regiões tinham poucas estimativas desse dado, ou nenhuma.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os autores atribuem o aumento da prevalência medida no mundo à soma de vários fatores: mais conscientização e resposta de saúde pública, avanços na identificação e na definição dos casos e mais capacidade dos serviços. Eles não acharam evidência convincente de relação causal direta entre fatores sociais, como região, etnia e nível socioeconômico, e a variação da prevalência.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Como a sensibilidade do rastreamento raramente chega a 100% nos levantamentos, os autores avaliam que, em geral, a prevalência disponível fica abaixo da real.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.ibge-2025-censo-2022-autismo",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.lord-2018-transtorno-do-espectro-autista",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Os autores não registraram o protocolo antes do estudo e não avaliaram a qualidade metodológica dos estudos incluídos. A busca foi feita só no MEDLINE.",
+    "Não houve meta-análise: as medianas resumem estudos com métodos, amostras e critérios diagnósticos muito diferentes, e a África teve só 2 estimativas.",
+    "Na discussão, o artigo fala em mediana de 65 por 10 mil, número que não bate com os 100 por 10 mil do resumo e da tabela de resultados. Este registro usa o número do resumo e da tabela."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "revisao_sistematica",
+      "titulo": "Global prevalence of autism: A systematic review update",
+      "autor": "Zeidan, Jinan; Fombonne, Eric; Scorah, Julie; Ibrahim, Alaa; Durkin, Maureen S.; Saxena, Shekhar; Yusuf, Afiqah; Shih, Andy; Elsabbagh, Mayada",
+      "ano": 2022,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9310578/",
+      "doi": "10.1002/aur.2696",
+      "referencia": "Autism Research, v. 15, n. 5, p. 778-790; texto completo no PMC: resumo, Methods, Results (Table 2) e Discussion",
+      "trecho": "Since 2012, 99 estimates from 71 studies were published indicating a global autism prevalence that ranges within and across regions, with a median prevalence of 100/10,000 (range: 1.09/10,000 to 436.0/10,000).",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

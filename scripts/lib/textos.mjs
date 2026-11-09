@@ -9,15 +9,19 @@ import { carregarBases, textosDe, RAIZ } from './dados.mjs';
 
 const EXPORTS_PORTAL = [
   'MARCA', 'AVISO', 'PULAR', 'MENU_ROTULO', 'ROTULOS', 'LLMS', 'MENU', 'RODAPE', 'CATEGORIAS',
-  'RELACOES', 'REGISTRO', 'PAGINAS', 'FERRAMENTAS_MCP', 'MENSAGENS', 'INSTRUCOES_MCP', 'NO_SITE',
+  'RELACOES', 'REGISTRO', 'PAGINAS', 'FERRAMENTAS_MCP', 'MENSAGENS', 'INSTRUCOES_MCP', 'NO_SITE', 'TEMAS',
 ];
 
 export const CAMINHO_SKILL = join(RAIZ, 'skill', 'neurodados', 'SKILL.md');
+// Os arquivos de texto do repositório, públicos no GitHub desde 8/11/2026.
+export const ARQUIVOS_DO_REPOSITORIO = ['README.md', 'CONTRIBUTING.md', 'LICENSE-DADOS.md', 'CHANGELOG.md', 'LICENSE'];
+// O fim de linha não conta: numa cópia do Windows o arquivo pode vir com CRLF.
+const lerTexto = (caminho) => readFileSync(caminho, 'utf8').replace(/\r\n/g, '\n');
 export const ESTADOS_NO_AR = ['publicado', 'desatualizado', 'arquivado'];
 
 // Campos técnicos (ids, datas, enums, endereços) não são texto para aprovar.
-const TECNICO_REGISTRO = /^\$\.\$schema$|^\$\.(?:id|slug|base|categoria|estado|versao|criado_em|atualizado_em)$|\.url$|\.doi$|\.consultado_em$|\.data$|\.versao$|\.conferido_em$|\.situacao$|\.ano$|\.(?:de|ate)_meses$|\.fontes\[\d+\]\.(?:id|tipo)$|\.afirmacoes\[\d+\]\.fontes\[\d+\]$|\.classificacoes\[\d+\]\.(?:fonte|sistema)$|\.relacionados\[\d+\]\.(?:id|tipo)$|\.dominios\[\d+\]$/;
-const TECNICO_DATASET = /\.(?:\$schema|id|versao|criado_em|atualizado_em|data|metodologia|spdx)$|\.mantenedor\.url$|\.licenca\.url$/;
+const TECNICO_REGISTRO = /^\$\.\$schema$|^\$\.(?:id|slug|base|categoria|estado|versao|criado_em|atualizado_em)$|\.url$|\.doi$|\.consultado_em$|\.data$|\.versao$|\.conferido_em$|\.situacao$|\.ano$|\.(?:de|ate)_meses$|\.fontes\[\d+\]\.(?:id|tipo)$|\.afirmacoes\[\d+\]\.fontes\[\d+\]$|\.classificacoes\[\d+\]\.(?:fonte|sistema)$|\.relacionados\[\d+\]\.(?:id|tipo)$|\.dominios\[\d+\]$|\.temas\[\d+\]$|\.instrumento\.uso$|\.satepsi\.(?:fonte|normas_validas_ate)$|\.publicacao\.idioma$/;
+const TECNICO_DATASET = /\.(?:\$schema|id|versao|criado_em|atualizado_em|data|metodologia|spdx|doi|huggingface)$|\.mantenedor\.url$|\.licenca\.url$/;
 
 export function coletarTextos({ somenteNoAr = false, exceto = [] } = {}) {
   const mapa = {};
@@ -34,7 +38,8 @@ export function coletarTextos({ somenteNoAr = false, exceto = [] } = {}) {
       for (const [c, t] of textosDe(d)) if (!TECNICO_REGISTRO.test(c)) mapa[`registros.${d.id}${c.slice(1)}`] = t;
     }
   }
-  if (existsSync(CAMINHO_SKILL)) mapa['skill.SKILL.md'] = readFileSync(CAMINHO_SKILL, 'utf8');
+  if (existsSync(CAMINHO_SKILL)) mapa['skill.SKILL.md'] = lerTexto(CAMINHO_SKILL);
+  for (const f of ARQUIVOS_DO_REPOSITORIO) if (existsSync(join(RAIZ, f))) mapa[`repositorio.${f}`] = lerTexto(join(RAIZ, f));
   return mapa;
 }
 
@@ -54,11 +59,28 @@ const ROTULO_CATEGORIA = T.CATEGORIAS;
 function blocoRegistro(d) {
   const L = [];
   L.push(`### ${d.sigla ? `${d.nome} (${d.sigla})` : d.nome} · \`${d.id}\``);
-  L.push('', `Categoria: ${ROTULO_CATEGORIA[d.categoria] || d.categoria} · estado: ${d.estado} · revisão: ${d.revisao?.situacao}`);
-  L.push('', `**Definição:** ${d.definicao}`);
+  L.push('', `Categoria: ${(ROTULO_CATEGORIA[d.base] || {})[d.categoria] || d.categoria} · estado: ${d.estado} · revisão: ${d.revisao?.situacao}`);
+  L.push('', `**${d.base === 'evidenciabase' ? 'Resumo' : 'Definição'}:** ${d.definicao}`);
   if (d.nomes_alternativos?.length) L.push('', `**Também chamado de:** ${d.nomes_alternativos.join(', ')}`);
+  if (d.faixa_etaria?.descricao) L.push('', `**Faixa etária:** ${d.faixa_etaria.descricao}`);
   if (d.descricao) L.push('', `**Descrição:** ${d.descricao}`);
-  L.push('', '**Pontos principais:**');
+  if (d.publicacao) {
+    const p = d.publicacao;
+    L.push('', `**A publicação:** ${p.titulo_original}. ${p.autores.join('; ')}. ${p.veiculo}, ${p.ano}.${p.doi ? ` DOI ${p.doi}.` : ''} <${p.url}>`);
+    if (d.temas?.length) L.push('', `**Temas:** ${d.temas.map((t) => T.TEMAS[t] || t).join(', ')}`);
+    if (d.populacao) L.push('', `**Com quem:** ${d.populacao}`);
+    if (d.metodo) L.push('', `**Como:** ${d.metodo}`);
+  }
+  if (d.instrumento) {
+    const i = d.instrumento;
+    const sit = T.REGISTRO.instrumento.situacoes[i.satepsi.situacao];
+    L.push('', `**Ficha do instrumento:** ${i.nome_original ? `${i.nome_original}; ` : ''}o que avalia: ${i.construtos.join('; ')}; ${i.faixa_etaria?.descricao ? `faixa etária: ${i.faixa_etaria.descricao}; ` : ''}uso: ${T.REGISTRO.instrumento.usos[i.uso]}; SATEPSI: ${sit}${i.satepsi.normas_validas_ate ? `, normas até ${i.satepsi.normas_validas_ate}` : ''}, consulta em ${i.satepsi.consultado_em} (${i.satepsi.fonte}).`);
+  }
+  if (d.objetivos?.length) L.push('', `**Objetivos:** ${d.objetivos.join('; ')}`);
+  if (d.publico) L.push('', `**Para quem:** ${d.publico}`);
+  if (d.contextos?.length) L.push('', `**Onde acontece:** ${d.contextos.join('; ')}`);
+  if (d.profissionais?.length) L.push('', `**Quem atende:** ${d.profissionais.join('; ')}`);
+  L.push('', d.base === 'evidenciabase' ? '**Principais resultados:**' : '**Pontos principais:**');
   d.afirmacoes.forEach((a, i) => L.push(`${i + 1}. ${a.texto} (${a.fontes.join(', ')})`));
   if (d.classificacoes?.length) {
     L.push('', '**Classificação:**');
@@ -99,5 +121,10 @@ export function documentoAprovacao({ atuais, anteriores, aprovadoEm }) {
     for (const r of b.registros) L.push(blocoRegistro(r.dados), '');
   }
   if (atuais['skill.SKILL.md']) L.push('## 4. A Skill (SKILL.md)', '', '````markdown', atuais['skill.SKILL.md'].trimEnd(), '````', '');
+  const repo = ARQUIVOS_DO_REPOSITORIO.filter((f) => atuais[`repositorio.${f}`]);
+  if (repo.length) {
+    L.push('## 5. O repositório no GitHub', '', 'Os arquivos de texto do repositório público (github.com/neurodados/neurodados).', '');
+    for (const f of repo) L.push('### `' + f + '`', '', '````' + (f.endsWith('.md') ? 'markdown' : 'text'), atuais[`repositorio.${f}`].trimEnd(), '````', '');
+  }
   return L.join('\n');
 }

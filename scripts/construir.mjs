@@ -40,12 +40,18 @@ if (PUBLICAR) {
 }
 
 // 2. O que entra.
-const bases = carregarBases();
 const naLista = (r) => (PUBLICAR ? ['publicado', 'desatualizado'].includes(r.estado) : r.estado !== 'arquivado');
 const comPagina = (r) => (PUBLICAR ? ['publicado', 'desatualizado', 'arquivado'].includes(r.estado) : true);
+// Uma base só aparece quando tem registro: na publicação, registro no ar.
+const bases = carregarBases().filter((b) => b.registros.some((r) => comPagina(r.dados)));
+// Relação só com registro que tem página nesta montagem: sem isso, o registro no ar
+// apontaria para um rascunho que não foi publicado.
+const idsComPagina = new Set(bases.flatMap((b) => b.registros.map((r) => r.dados).filter(comPagina).map((r) => r.id)));
 const limpo = (base, r) => {
   const { $schema, id, slug, ...resto } = r;
-  return { id, slug, url: urlRegistro(base, slug), api_url: urlApiRegistro(base, slug), ...resto };
+  const saida = { id, slug, url: urlRegistro(base, slug), api_url: urlApiRegistro(base, slug), ...resto };
+  if (saida.relacionados) saida.relacionados = saida.relacionados.filter((x) => idsComPagina.has(x.id));
+  return saida;
 };
 
 rmSync(DIST, { recursive: true, force: true });
@@ -61,6 +67,7 @@ const ctx = {
   prefixo: SITE.prefixo, urlBase: URL_BASE, origem: SITE.origem, cssV: hash(css), medicaoV: hash(medicao),
   previa: !PUBLICAR, ga4: PUBLICAR ? SITE.ga4 : '', clarity: PUBLICAR ? SITE.clarity : '',
   privacidade: SITE.privacidade, email: SITE.email, mantenedorUrl: SITE.mantenedorUrl, mantenedorId: SITE.mantenedorId,
+  github: SITE.github, huggingface: SITE.huggingface,
 };
 
 const listaPorBase = new Map();
@@ -90,7 +97,8 @@ pagina(join(ND, 'licencas.html'), M.paginaTexto(ctx, 'licencas', '/licencas'), '
 pagina(join(ND, 'contribuicoes.html'), M.paginaTexto(ctx, 'contribuicoes', '/contribuicoes'), '/contribuicoes', maisRecente);
 pagina(join(ND, 'metodologia.html'), M.paginaMetodologia(ctx), '/metodologia', maisRecente);
 pagina(join(ND, 'bases.html'), M.paginaBases(ctx, resumos), '/bases', maisRecente);
-pagina(join(ND, 'documentacao.html'), M.paginaDocumentacao(ctx, resumos), '/documentacao', maisRecente);
+const temInstrumentos = (listaPorBase.get('avaliabase') || []).some((r) => r.categoria === 'instrumento');
+pagina(join(ND, 'documentacao.html'), M.paginaDocumentacao(ctx, resumos, { temInstrumentos }), '/documentacao', maisRecente);
 pagina(join(ND, 'atualizacoes.html'), M.paginaAtualizacoes(ctx, bases, listaPorBase), '/atualizacoes', maisRecente);
 pagina(join(ND, '404.html'), M.pagina404(ctx), null);
 
@@ -109,6 +117,30 @@ const csvCampo = (v) => {
   return /[",\n\r;]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 };
 const COLUNAS = ['id', 'slug', 'nome', 'sigla', 'categoria', 'definicao', 'nomes_alternativos', 'classificacoes', 'fontes', 'situacao_revisao', 'conferido_em', 'estado', 'versao', 'atualizado_em', 'url'];
+// Colunas próprias de cada base, depois das comuns (a NeuroBase não tem).
+const lista_ = (v) => (v || []).join('; ');
+const COLUNAS_DA_BASE = {
+  avaliabase: [
+    ['instrumento_nome_original', (r) => r.instrumento?.nome_original],
+    ['instrumento_uso', (r) => r.instrumento?.uso],
+    ['satepsi_situacao', (r) => r.instrumento?.satepsi?.situacao],
+    ['satepsi_normas_validas_ate', (r) => r.instrumento?.satepsi?.normas_validas_ate],
+    ['satepsi_consultado_em', (r) => r.instrumento?.satepsi?.consultado_em],
+  ],
+  intervenbase: [
+    ['contextos', (r) => lista_(r.contextos)],
+    ['profissionais', (r) => lista_(r.profissionais)],
+  ],
+  evidenciabase: [
+    ['publicacao_titulo', (r) => r.publicacao?.titulo_original],
+    ['publicacao_autores', (r) => lista_(r.publicacao?.autores)],
+    ['publicacao_ano', (r) => r.publicacao?.ano],
+    ['publicacao_veiculo', (r) => r.publicacao?.veiculo],
+    ['publicacao_doi', (r) => r.publicacao?.doi],
+    ['publicacao_url', (r) => r.publicacao?.url],
+    ['temas', (r) => lista_(r.temas)],
+  ],
+};
 const catalogo = { nome: T.MARCA.nome, url: URL_BASE, mantenedor: { nome: SITE.mantenedor, url: SITE.mantenedorUrl }, bases: [] };
 const registrosWorker = {};
 for (const [i, b] of bases.entries()) {
@@ -116,7 +148,8 @@ for (const [i, b] of bases.entries()) {
   registrosWorker[b.id] = lista;
   gravar(join(ND, 'dados', `${b.id}.json`), JSON.stringify(lista, null, 2) + '\n');
   gravar(join(ND, 'dados', `${b.id}.jsonl`), lista.map((r) => JSON.stringify(r)).join('\n') + (lista.length ? '\n' : ''));
-  const linhas = [COLUNAS.join(',')];
+  const extras = COLUNAS_DA_BASE[b.id] || [];
+  const linhas = [[...COLUNAS, ...extras.map(([nome]) => nome)].join(',')];
   for (const r of lista) {
     linhas.push([
       r.id, r.slug, r.nome, r.sigla, r.categoria, r.definicao,
@@ -124,6 +157,7 @@ for (const [i, b] of bases.entries()) {
       (r.classificacoes || []).map((c) => `${c.sistema} ${c.codigo}`).join('; '),
       r.fontes.map((f) => f.url).join(' '),
       r.revisao.situacao, r.revisao.conferido_em, r.estado, r.versao, r.atualizado_em, r.url,
+      ...extras.map(([, valor]) => valor(r)),
     ].map(csvCampo).join(','));
   }
   gravar(join(ND, 'dados', `${b.id}.csv`), '﻿' + linhas.join('\r\n') + '\r\n');
@@ -132,6 +166,8 @@ for (const [i, b] of bases.entries()) {
     id: b.id, nome: b.dataset.nome, titulo: b.dataset.titulo, descricao: b.dataset.descricao, versao: b.dataset.versao,
     atualizado_em: b.dataset.atualizado_em, registros: lista.length, licenca: b.dataset.licenca, url: rs.url, api_url: rs.api,
     downloads: { json: rs.json, jsonl: rs.jsonl, csv: rs.csv, schema: rs.schema },
+    ...(b.dataset.doi ? { doi: b.dataset.doi } : {}),
+    ...(b.dataset.huggingface ? { huggingface: b.dataset.huggingface } : {}),
   });
 }
 gravar(join(ND, 'dados', 'catalogo.json'), JSON.stringify(catalogo, null, 2) + '\n');
@@ -153,6 +189,7 @@ for (const [i, b] of bases.entries()) {
 const enderecos = {
   api: `${URL_BASE}/api/v1`, openapi: `${URL_BASE}/api/v1/openapi.json`, mcp: `${URL_BASE}/mcp`, skill: `${URL_BASE}/skill/SKILL.md`,
   governanca: `${URL_BASE}/governanca`, metodologia: `${URL_BASE}/metodologia`, licencas: `${URL_BASE}/licencas`,
+  github: SITE.github, huggingface: SITE.huggingface,
 };
 llms.push('', `## ${L.consultar}`, '');
 for (const [r, v] of L.itensConsultar) llms.push(`- ${r}: ${fmt(v, enderecos)}`);
@@ -185,10 +222,10 @@ const openapi = {
 for (const b of bases) {
   openapi.paths[`/${b.id}`] = {
     get: {
-      summary: E['GET /api/v1/neurobase'].replace('NeuroBase', b.dataset.nome),
+      summary: E['GET /api/v1/{base}'],
       parameters: [
         { name: 'q', in: 'query', schema: { type: 'string', maxLength: 100 }, description: MSG.parametroQ },
-        { name: 'categoria', in: 'query', schema: { type: 'string', enum: Object.keys(T.CATEGORIAS) }, description: MSG.parametroCategoria },
+        { name: 'categoria', in: 'query', schema: { type: 'string', enum: Object.keys(T.CATEGORIAS[b.id] || {}) }, description: MSG.parametroCategoria },
         { name: 'pagina', in: 'query', schema: { type: 'integer', minimum: 1, default: 1 }, description: MSG.parametroPagina },
         { name: 'por_pagina', in: 'query', schema: { type: 'integer', minimum: 1, maximum: 100, default: 20 }, description: MSG.parametroPorPagina },
       ],
@@ -197,7 +234,7 @@ for (const b of bases) {
   };
   openapi.paths[`/${b.id}/{slug}`] = {
     get: {
-      summary: E['GET /api/v1/neurobase/{slug}'],
+      summary: E['GET /api/v1/{base}/{slug}'],
       parameters: [{ name: 'slug', in: 'path', required: true, schema: { type: 'string' }, description: MSG.parametroSlug }],
       responses: { ...resposta, 404: { description: MSG.registroNaoEncontrado } },
     },
@@ -213,15 +250,13 @@ const dadosWorker = {
   instrucoes: T.INSTRUCOES_MCP,
   ferramentas: T.FERRAMENTAS_MCP,
   mensagens: T.MENSAGENS,
-  categorias: Object.keys(T.CATEGORIAS),
-  rotulos: {
-    definicao: T.REGISTRO.definicao, nomesAlternativos: T.REGISTRO.nomesAlternativos, afirmacoes: T.REGISTRO.afirmacoes,
-    classificacoes: T.REGISTRO.classificacoes, limitacoes: T.REGISTRO.limitacoes, fontes: T.REGISTRO.fontes,
-    situacao: T.REGISTRO.situacao, citar: T.REGISTRO.citar,
-  },
+  categorias: Object.keys(T.CATEGORIAS.neurobase),
+  categoriasPorBase: Object.fromEntries(Object.entries(T.CATEGORIAS).map(([b, c]) => [b, Object.keys(c)])),
+  temas: T.TEMAS,
+  rotulos: T.REGISTRO,
   bases: catalogo.bases.map((c, i) => ({
     ...c, n: c.registros, api: c.api_url,
-    citacao: M.fmt(T.PAGINAS.base.citacao, { versao: c.versao, ano: c.atualizado_em.slice(0, 4), url: c.url }),
+    citacao: M.fmt(c.doi ? T.PAGINAS.base.citacaoDoi : T.PAGINAS.base.citacao, { titulo: c.titulo, versao: c.versao, ano: c.atualizado_em.slice(0, 4), url: c.url, doi: c.doi || '' }),
   })),
   registros: registrosWorker,
   openapi,

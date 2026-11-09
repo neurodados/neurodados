@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schemas/dataset.schema.json",
+  "id": "evidenciabase",
+  "nome": "EvidenciaBase",
+  "titulo": "EvidenciaBase: estudos e diretrizes sobre neurodesenvolvimento",
+  "descricao": "Biblioteca aberta de estudos, revisões e diretrizes sobre neurodesenvolvimento e desenvolvimento infantil. Cada registro traz os metadados da publicação e um resumo próprio, em português: o que foi estudado, com quem, como, o que se encontrou e os limites. O texto original não é reproduzido; cada registro aponta para a publicação.",
+  "versao": "2026.11.09",
+  "mantenedor": {
+    "nome": "Clínica NeuroBee",
+    "url": "https://clinicaneurobee.com.br"
+  },
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "licenca": {
+    "nome": "Creative Commons Atribuição 4.0 Internacional",
+    "sigla": "CC BY 4.0",
+    "spdx": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/deed.pt_BR"
+  },
+  "metodologia": "https://clinicaneurobee.com.br/neurodados/metodologia",
+  "doi": "10.5281/zenodo.24070458",
+  "huggingface": "https://huggingface.co/datasets/neurodados/evidenciabase",
+  "palavras_chave": [
+    "evidências",
+    "revisão sistemática",
+    "meta-análise",
+    "diretrizes clínicas",
+    "prevalência",
+    "autismo",
+    "TDAH",
+    "desenvolvimento infantil",
+    "dados abertos"
+  ],
+  "limitacoes": [
+    "Os resumos são do NeuroDados e não substituem a leitura da publicação original.",
+    "A base reúne as publicações usadas nas outras bases do NeuroDados; ela não é uma revisão completa de cada tema.",
+    "Resultados de pesquisa descrevem grupos de pessoas e não servem para decidir sobre um caso individual."
+  ],
+  "historico_de_versoes": [
+    {
+      "versao": "2026.11.09",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

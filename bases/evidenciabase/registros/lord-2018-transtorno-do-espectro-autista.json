@@ -1,0 +1,135 @@
+{
+  "$schema": "../../../schemas/evidenciabase.schema.json",
+  "id": "evidenciabase.lord-2018-transtorno-do-espectro-autista",
+  "slug": "lord-2018-transtorno-do-espectro-autista",
+  "base": "evidenciabase",
+  "nome": "Transtorno do espectro autista: revisão narrativa do The Lancet de 2018",
+  "categoria": "revisao_narrativa",
+  "publicacao": {
+    "titulo_original": "Autism spectrum disorder",
+    "autores": [
+      "Lord, Catherine",
+      "Elsabbagh, Mayada",
+      "Baird, Gillian",
+      "Veenstra-Vanderweele, Jeremy"
+    ],
+    "ano": 2018,
+    "veiculo": "The Lancet, v. 392, n. 10146, p. 508-520",
+    "doi": "10.1016/S0140-6736(18)31129-2",
+    "url": "https://doi.org/10.1016/S0140-6736(18)31129-2",
+    "acesso_aberto": true,
+    "idioma": "en"
+  },
+  "temas": [
+    "tea",
+    "avaliacao",
+    "rastreamento",
+    "intervencoes"
+  ],
+  "populacao": "Crianças, adolescentes e adultos com transtorno do espectro autista; a revisão cobre o ciclo de vida.",
+  "metodo": "Revisão narrativa do tipo seminário. Os autores buscaram no PubMed e na base Cochrane artigos de 2007 a 2017, só em inglês, seguiram as listas de referências e escolheram os trabalhos pelo próprio julgamento de qualidade e de relevância clínica.",
+  "definicao": "Revisão narrativa publicada no The Lancet sobre o transtorno do espectro autista: sinais, diagnóstico, rastreamento, epidemiologia, fatores de risco, genética e tratamento. Os autores concluem que as perspectivas melhoraram em relação a 50 anos atrás, mas que a maioria das pessoas com TEA ainda não trabalha em tempo integral nem vive de forma independente.",
+  "afirmacoes": [
+    {
+      "texto": "A revisão caracteriza o TEA por dificuldades de comunicação social e comportamentos sensório-motores repetitivos de início precoce, com forte componente genético e outras causas.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Como não há biomarcadores confiáveis, o diagnóstico é feito pelo comportamento. Segundo os autores, diagnósticos que combinam a observação do clínico e o relato de quem cuida são mais confiáveis do que os que usam só uma dessas fontes.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Na população geral, os métodos de rastreamento em geral não foram sensíveis o bastante: não identificaram a maioria das crianças com TEA cujos pais ainda não tinham notado atraso. Quando os pais já têm uma preocupação, os instrumentos de rastreamento ficam mais preditivos a partir dos 18 meses.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A revisão cita uma estimativa de prevalência mundial de cerca de 1%, de uma revisão encomendada pela OMS em 2012. Segundo os autores, o aumento das estimativas nos Estados Unidos, que já se estabilizou, provavelmente se explica em boa parte por mais conscientização e serviços, por diferenças de registro e pela inclusão de casos mais leves, sem deficiência intelectual.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Ensaios clínicos randomizados mostraram que intervenções de baixa intensidade, em que os pais aprendem a interagir com a criança pequena, têm efeitos imediatos sobre o comportamento social e a comunicação, com tamanho de efeito típico em torno de 0,30.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Para os autores, hoje mais pessoas com TEA falam, leem e vivem na comunidade do que há 50 anos, mas a maioria não trabalha em tempo integral nem vive de forma independente, e a genética e a neurociência ainda trouxeram pouco benefício prático.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.zeidan-2022-prevalencia-global-do-autismo",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.oono-2013-intervencao-mediada-pelos-pais-no-autismo",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "É uma revisão narrativa: os autores escolheram os artigos pelo próprio julgamento, sem avaliação sistemática da qualidade, só em inglês e sobretudo de 2007 a 2017.",
+    "A primeira autora declara receber direitos autorais de instrumentos de avaliação do autismo, que diz doar para caridade, e outro autor declara consultorias e financiamento de pesquisa de empresas farmacêuticas e de diagnóstico.",
+    "O texto completo lido é o manuscrito aceito, publicado no PMC; a versão final da revista não foi lida."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Autism spectrum disorder",
+      "autor": "Lord, Catherine; Elsabbagh, Mayada; Baird, Gillian; Veenstra-Vanderweele, Jeremy",
+      "ano": 2018,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30078460/",
+      "doi": "10.1016/S0140-6736(18)31129-2",
+      "referencia": "The Lancet, v. 392, n. 10146, p. 508-520; resumo",
+      "trecho": "Nevertheless, most individuals will not work full-time or live independently.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Autism spectrum disorder (manuscrito aceito pelos autores)",
+      "autor": "Lord, Catherine; Elsabbagh, Mayada; Baird, Gillian; Veenstra-Vanderweele, Jeremy",
+      "ano": 2018,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7398158/",
+      "doi": "10.1016/S0140-6736(18)31129-2",
+      "referencia": "Texto completo no PMC (NIHMS1046292): Signs, symptoms, and general diagnostic issues; Questions about screening; Early diagnosis; Descriptive epidemiology; Treatment",
+      "trecho": "However, because there are no reliable biomarkers, the diagnosis must be made on the basis of behaviour.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.devolutiva",
+  "slug": "devolutiva",
+  "base": "avaliabase",
+  "nome": "Entrevista devolutiva",
+  "nomes_alternativos": [
+    "Devolutiva",
+    "Sessão devolutiva",
+    "Entrevista de devolução"
+  ],
+  "categoria": "etapa",
+  "definicao": "A entrevista devolutiva é o encontro em que a psicóloga ou o psicólogo comunica os resultados da avaliação à pessoa avaliada ou aos responsáveis e entrega o documento escrito. Para a entrega do relatório e do laudo psicológico, a norma do Conselho Federal de Psicologia exige ao menos uma devolutiva.",
+  "afirmacoes": [
+    {
+      "texto": "A Resolução CFP nº 6/2019 torna dever da psicóloga e do psicólogo fazer ao menos uma entrevista devolutiva para a entrega do relatório e do laudo psicológico, à pessoa, ao grupo, à instituição atendida ou aos responsáveis legais. Se ela não puder acontecer, as razões devem ser explicitadas. Para os demais documentos, a devolutiva é recomendada sempre que pedida.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pela mesma resolução, os documentos são entregues diretamente ao beneficiário do serviço, ao seu responsável legal ou a quem solicitou, em entrevista devolutiva. A psicóloga ou o psicólogo mantém um protocolo de entrega assinado pelo solicitante, que se responsabiliza pelo uso e pelo sigilo das informações.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A resolução também diz que os envolvidos têm o direito de receber informações sobre os objetivos e os resultados do serviço prestado e de ter acesso ao documento produzido.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Código de Ética Profissional do Psicólogo manda informar os resultados a quem de direito, transmitindo só o necessário para as decisões que afetem a pessoa atendida. No atendimento de criança ou adolescente, deve ser comunicado aos responsáveis o estritamente essencial para promover medidas em seu benefício.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Cartilha de Avaliação Psicológica do CFP inclui entre as competências para avaliar saber comunicar os resultados por meio de entrevista devolutiva, e entre os passos mínimos a comunicação cuidadosa dos resultados, com atenção à ética e às limitações da avaliação.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Uma meta-análise de 2010, com 17 estudos publicados e 1.496 participantes, encontrou efeito positivo da avaliação psicológica usada como intervenção (d de Cohen de 0,42), quando combinada com uma devolutiva dos testes personalizada, colaborativa e envolvente, sobretudo no processo do tratamento.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "Um comentário publicado em 2011 na mesma revista argumentou que essa meta-análise pode superestimar o efeito, porque incluiu estudos que combinavam a avaliação com componentes de tratamento alheios a ela e excluiu muitos resultados não significativos.",
+      "fontes": [
+        "f5"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.etapas-da-avaliacao",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "avaliabase.laudo-psicologico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.documentos-psicologicos",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.entrevista-inicial-e-anamnese",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A meta-análise de 2010 e o comentário de 2011 tratam da avaliação psicológica usada como intervenção, com um tipo de devolutiva colaborativa. Os resumos não separam os resultados por idade, e não dá para saber por eles o efeito só em crianças e adolescentes.",
+    "Este registro não traz roteiro de devolutiva.",
+    "As regras citadas são as do exercício profissional da psicologia no Brasil, em vigor em 8 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 6, de 29 de março de 2019: institui regras para a elaboração de documentos escritos produzidos pela(o) psicóloga(o) no exercício profissional",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2019,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-6-de-29-de-marco-de-2019-69440920",
+      "referencia": "art. 4º, § 4º, art. 16 e art. 18; DOU de 01/04/2019, seção 1, p. 163",
+      "trecho": "Art. 18 - Para entrega do relatório e laudo psicológico, é dever da(o) psicóloga(o) realizar ao menos uma entrevista devolutiva à pessoa, grupo, instituição atendida ou responsáveis legais.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Código de Ética Profissional do Psicólogo (Resolução CFP nº 010/2005)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2005,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf",
+      "referencia": "art. 1º, alínea g, e art. 13",
+      "trecho": "No atendimento à criança, ao adolescente ou ao interdito, deve ser comunicado aos responsáveis o estritamente essencial para se promoverem medidas em seu benefício.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "documento_oficial",
+      "titulo": "Cartilha Avaliação Psicológica, 3ª edição",
+      "autor": "Conselho Federal de Psicologia (CFP), Comissão Consultiva em Avaliação Psicológica",
+      "ano": 2022,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2022/08/cartilha_avaliacao_psicologica-2309.pdf",
+      "referencia": "perguntas 6 (competências, alínea k) e 7 (passos mínimos, passo d)",
+      "trecho": "saber comunicar os resultados advindos da avaliação por meio de entrevista devolutiva.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "revisao_sistematica",
+      "titulo": "Meta-analysis of psychological assessment as a therapeutic intervention",
+      "autor": "Poston, John M.; Hanson, William E.",
+      "ano": 2010,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20528048/",
+      "doi": "10.1037/a0018679",
+      "referencia": "Psychological Assessment, v. 22, n. 2, p. 203-212; resumo",
+      "trecho": "psychological assessment procedures-when combined with personalized, collaborative, and highly involving test feedback-have positive, clinically meaningful effects on treatment, especially regarding treatment processes.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Unresolved questions concerning the effectiveness of psychological assessment as a therapeutic intervention: comment on Poston and Hanson (2010)",
+      "autor": "Lilienfeld, Scott O.; Garb, Howard N.; Wood, James M.",
+      "ano": 2011,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22122676/",
+      "doi": "10.1037/a0025177",
+      "referencia": "Psychological Assessment, v. 23, n. 4, p. 1047-1055; resumo",
+      "trecho": "Poston and Hanson's (2010) meta-analysis may overstate the magnitude of these effects",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

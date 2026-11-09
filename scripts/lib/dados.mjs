@@ -18,6 +18,9 @@ export const SITE = {
   // Contato do NeuroDados: correções, contribuições e pedidos de retirada.
   email: 'empresa@otimiza.pro',
   privacidade: 'https://clinicaneurobee.com.br/privacidade',
+  // Onde o NeuroDados também está: o código e as versões, e os dados para ciência de dados e IA.
+  github: 'https://github.com/neurodados/neurodados',
+  huggingface: 'https://huggingface.co/neurodados',
   // Os mesmos do site da clínica (decisão D7 de 8/11/2026). Só entram na montagem --publicar.
   ga4: 'G-77EPG3EWRK',
   clarity: 'zamdf6a4tu',
@@ -43,7 +46,14 @@ export function carregarBases() {
       const registros = arquivos.map((f) => ({ arquivo: join(pastaRegistros, f), nomeArquivo: f, dados: lerJson(join(pastaRegistros, f)) }));
       return { id: d.name, pasta, dataset, registros };
     })
-    .sort((a, b) => a.id.localeCompare(b.id));
+    .sort((a, b) => posicao(a.id) - posicao(b.id) || a.id.localeCompare(b.id));
+}
+
+// A ordem das bases é a da diretriz; base nova sem lugar vai para o fim.
+const ORDEM_DAS_BASES = ['neurobase', 'avaliabase', 'intervenbase', 'evidenciabase'];
+function posicao(id) {
+  const i = ORDEM_DAS_BASES.indexOf(id);
+  return i < 0 ? ORDEM_DAS_BASES.length : i;
 }
 
 // Regras de texto que valem para tudo o que é público.
@@ -54,10 +64,15 @@ const MARCA_NOS_REGISTROS = /\b(?:neuro\s?bee|jessica)\b/iu;
 const PROMESSA = /\b(?:cura|curar|garantimos|garantia de resultado)\b/iu;
 const SUPERLATIVO = /\b(?:o|a) (?:melhor|maior) (?:do|da) (?:brasil|país|mundo)\b|\blíder\b/iu;
 
+// Nomes oficiais que levam "especializado": o atendimento educacional especializado (LDB),
+// o acompanhante especializado (Lei nº 12.764/2012) e a atenção especializada, nível de
+// atenção do SUS. Com espaço no texto e com hífen no id, no slug e nas relações.
+const NOMES_OFICIAIS = /atendimento[\s-]educacional[\s-]especializado|acompanhante[\s-]especializado|aten[çc][ãa]o[\s-]especializada/giu;
+
 export function errosDeTexto(texto, { registro = false } = {}) {
   const erros = [];
   if (TRAVESSOES.test(texto)) erros.push('travessão');
-  if (ESPECIALISTA.test(texto)) erros.push('"especialista" ou "especializado"');
+  if (ESPECIALISTA.test(texto.replace(NOMES_OFICIAIS, ''))) erros.push('"especialista" ou "especializado"');
   if (PRECO.test(texto)) erros.push('preço (R$)');
   if (registro && MARCA_NOS_REGISTROS.test(texto)) erros.push('nome da clínica ou de profissional dentro de registro');
   if (PROMESSA.test(texto)) erros.push('promessa de cura ou de resultado');

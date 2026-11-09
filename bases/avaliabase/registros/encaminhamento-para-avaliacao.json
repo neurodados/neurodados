@@ -1,0 +1,190 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.encaminhamento-para-avaliacao",
+  "slug": "encaminhamento-para-avaliacao",
+  "base": "avaliabase",
+  "nome": "Encaminhamento para avaliação",
+  "categoria": "orientacao",
+  "definicao": "O encaminhamento para avaliação é a indicação de que uma criança ou um adolescente deve passar por avaliação, dada quando a família, a escola, um serviço de saúde ou um profissional percebe sinais no desenvolvimento, no comportamento ou na aprendizagem que pedem investigação.",
+  "afirmacoes": [
+    {
+      "texto": "A Lei nº 14.254/2021 inclui, no acompanhamento integral de estudantes com dislexia, TDAH ou outro transtorno de aprendizagem, a identificação precoce do transtorno, o encaminhamento para diagnóstico, o apoio educacional na escola e o apoio terapêutico na rede de saúde.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A mesma lei manda os sistemas de ensino garantirem aos professores da educação básica acesso à informação, inclusive sobre os encaminhamentos possíveis para atendimento multissetorial, e formação para identificar cedo os sinais de transtornos de aprendizagem e do TDAH. Quando há necessidade de intervenção terapêutica, ela deve ocorrer em serviço de saúde em que seja possível a avaliação diagnóstica.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Caderneta da Criança atribui aos profissionais da atenção primária a identificação de sinais iniciais de alterações no desenvolvimento nas consultas de rotina. No instrumento de avaliação do desenvolvimento da Caderneta, quando a classificação é de provável atraso no desenvolvimento, a conduta indicada é acionar as equipes multiprofissionais ou a rede de atenção especializada para a avaliação do desenvolvimento.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Na parte sobre a M-CHAT-R, a Caderneta orienta que, havendo suspeita da família ou do profissional, a criança seja encaminhada para avaliação mesmo que o resultado do questionário seja de baixo risco.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Academia Americana de Pediatria recomenda que uma preocupação levantada na vigilância do desenvolvimento leve a um teste padronizado de triagem ou ao encaminhamento direto para a intervenção e para o atendimento médico de outras especialidades, e que a identificação de um problema leve a avaliações do desenvolvimento e médicas, diagnóstico, orientação e tratamento.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "O Código de Ética Profissional do Psicólogo inclui entre os deveres orientar a quem de direito sobre os encaminhamentos apropriados e encaminhar a profissionais ou entidades habilitados as demandas que vão além do próprio campo de atuação. No atendimento de criança ou adolescente, a psicóloga ou o psicólogo responde pelos encaminhamentos necessários para garantir a proteção integral de quem é atendido.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "Para o diagnóstico do TDAH, o protocolo do Ministério da Saúde considera as informações da família, dos cuidadores ou responsáveis e, na idade escolar, da escola.",
+      "fontes": [
+        "f5"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.avaliacao-psicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.avaliacao-neuropsicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.entrevista-inicial-e-anamnese",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-multiprofissional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-educacional-especializado",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.lipkin-2020-vigilancia-e-triagem-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.ms-2022-pcdt-tdah",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Encaminhar para avaliação não é diagnosticar: o encaminhamento indica que algo precisa ser investigado.",
+    "O relatório da Academia Americana de Pediatria descreve a atenção pediátrica nos Estados Unidos.",
+    "Este registro não lista sinais de alerta por idade, não reproduz itens nem pontuação de questionários e não indica serviços nem profissionais."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.254, de 30 de novembro de 2021: dispõe sobre o acompanhamento integral para educandos com dislexia ou Transtorno do Deficit de Atenção com Hiperatividade (TDAH) ou outro transtorno de aprendizagem",
+      "autor": "Brasil",
+      "ano": 2021,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14254.htm",
+      "referencia": "art. 1º, parágrafo único, art. 4º, parágrafo único, e art. 5º",
+      "trecho": "O acompanhamento integral previsto no caput deste artigo compreende a identificação precoce do transtorno, o encaminhamento do educando para diagnóstico, o apoio educacional na rede de ensino, bem como o apoio terapêutico especializado na rede de saúde.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "documento_oficial",
+      "titulo": "Caderneta da Criança: Passaporte da Cidadania. Menina. 7ª edição",
+      "autor": "Ministério da Saúde",
+      "ano": 2024,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_crianca_menina_passaporte_cidadania_7ed.pdf",
+      "referencia": "p. 55 (TEA), p. 80 (Instrumento de Avaliação do Desenvolvimento Integral da Criança, conduta) e p. 88 (M-CHAT-R, quadro Atenção)",
+      "trecho": "Em caso de suspeita por parte da família ou do profissional, a criança deverá ser encaminhada para avaliação mesmo que o resultado seja de baixo risco.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Promoting Optimal Development: Identifying Infants and Young Children With Developmental Disorders Through Developmental Surveillance and Screening",
+      "autor": "Lipkin, Paul H.; Macias, Michelle M.; Council on Children with Disabilities; Section on Developmental and Behavioral Pediatrics (American Academy of Pediatrics)",
+      "ano": 2020,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31843861/",
+      "doi": "10.1542/peds.2019-3449",
+      "referencia": "Pediatrics, v. 145, n. 1, e20193449; resumo",
+      "trecho": "Developmental concerns elicited on surveillance at any visit should be followed by standardized developmental screening testing or direct referral to intervention and specialty medical care.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "norma",
+      "titulo": "Código de Ética Profissional do Psicólogo (Resolução CFP nº 010/2005)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2005,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf",
+      "referencia": "art. 1º, alínea h, art. 6º, alínea a, e art. 8º, § 2º",
+      "trecho": "h) Orientar a quem de direito sobre os encaminhamentos apropriados, a partir da prestação de serviços psicológicos, e fornecer, sempre que solicitado, os documentos pertinentes ao bom termo do trabalho;",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "diretriz_clinica",
+      "titulo": "Protocolo Clínico e Diretrizes Terapêuticas do Transtorno do Déficit de Atenção com Hiperatividade (Portaria Conjunta SAES/SCTIE/MS nº 14, de 29 de julho de 2022)",
+      "autor": "Ministério da Saúde",
+      "ano": 2022,
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntan14pcdttranstornododeficitdeatencaocomhiperatividadetdah.pdf/@@display-file/file",
+      "referencia": "item 3, Diagnóstico (p. 4 do PDF)",
+      "trecho": "Para a definição do diagnóstico são consideradas as informações advindas da família/cuidadores/responsáveis e da escola, no caso de pacientes em idade escolar",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}
