@@ -1,61 +1,77 @@
-/* NeuroDados Brasil: o desenho do site da T&D Sustentável (Montserrat, azul-marinho
-   e verde, cabeçalho translúcido, trilha, abertura escura com ondas, faixas, cartões,
-   botões em pílula e rodapé em colunas), com a marca própria do NeuroDados, o
-   hexágono de dados. Claro por padrão; escuro pelo aparelho ou pelo seletor de tema
-   (tema.js grava a escolha em data-tema, no <html>). */
+/* NeuroDados Brasil: o desenho do site da T&D Sustentável (Montserrat, cabeçalho
+   translúcido, trilha, abertura escura com ondas, faixas, cartões, botões em pílula
+   e rodapé em colunas), com as cores da Clínica NeuroBee (creme, areia, âmbar,
+   marrom e oliva; preto no escuro, como o site da clínica) e a marca própria do
+   NeuroDados, o hexágono de dados. Claro por padrão; escuro pelo aparelho ou pelo
+   seletor de tema (tema.js grava a escolha em data-tema, no <html>). */
 
 :root {
   color-scheme: light;
 
-  /* ---- cores do desenho (fixas nos dois temas) ---- */
-  --azul: #00253f;
-  --azul-800: #002953;
-  --verde: #94b962;
-  --verde-claro: #b2c761;
-  --agua: #47a2b9;
-  --agua-clara: #9ac8d8;
+  /* ---- as cores da NeuroBee (fixas nos dois temas) ---- */
+  --creme: #fff8e8;
+  --areia: #f6e5d3;
+  --ambar: #e79c25;
+  --ambar-claro: #f0ab3f;
+  --marrom: #4a3427;
+  --marrom-escuro: #3a281d;
+  --oliva: #6d6f47;
 
   /* ---- a abertura: a faixa escura do início, escura nos dois temas ---- */
-  --abertura-clarao: #0a5273;
-  --abertura-clarao-2: #10405c;
-  --abertura-topo: #002a48;
-  --abertura-base: #00182b;
-  --abertura-texto: #dfe7ec;
-  --abertura-chamada: #bed0dc;
-  --abertura-apoio: #a9c0ce;
-  --abertura-realce: #63d3f0;
+  --abertura-clarao: rgb(231 156 37 / 30%);
+  --abertura-clarao-2: rgb(109 111 71 / 35%);
+  --abertura-topo: #2b1f16;
+  --abertura-base: #0f0b08;
+  --abertura-texto: #f4ead8;
+  --abertura-chamada: #e3d3bb;
+  --abertura-apoio: #cdbfa8;
+  --abertura-realce: #f0ac40;
+
+  /* ---- a faixa escura do meio das páginas ---- */
+  --faixa-fundo: var(--marrom-escuro);
+  --faixa-texto: #f4ead8;
+  --faixa-suave: #e3d3bb;
+  --faixa-meta: #cdbfa8;
+  --faixa-destaque: #f0ac40;
 
   /* ---- a marca do NeuroDados (o hexágono) ---- */
   --marca-a: #e79c25;
   --marca-o: #6d6f47;
 
   /* ---- papéis: tema claro ---- */
-  --texto: #3a3e3e;
-  --texto-suave: #63696b;
-  --linha: #e3e7e9;
-  --fundo: #ffffff;
-  --fundo-alt: #f8f8f8;
-  --fundo-azul: var(--azul);
-  --superficie: #ffffff;
-  --superficie-topo: rgb(255 255 255 / 92%);
-  --azul-texto: var(--azul);
-  --verde-texto: #5c7836;
-  --agua-texto: #357a8b;
-  --link: var(--azul-800);
-  --selo-fundo: rgb(148 185 98 / 22%);
-  --selo-texto: #3d5a1c;
-  --aviso-fundo: rgb(71 162 185 / 10%);
-  --codigo-fundo: #eef2f4;
-  --rodape-fundo: var(--azul);
-  --sombra: 0 1px 2px rgb(0 37 63 / 6%), 0 8px 24px rgb(0 37 63 / 8%);
-  --sombra-forte: 0 2px 4px rgb(0 37 63 / 8%), 0 16px 40px rgb(0 37 63 / 14%);
-  --sombra-btn: 0 4px 14px rgb(0 37 63 / 22%);
-  --realce-tabela: rgb(71 162 185 / 12%);
+  --texto: #4a3427;
+  --texto-suave: #6b5545;
+  --titulo: #5c5e3a;
+  --destaque: #8a5406;
+  --link: #5c5e3a;
+  --link-hover: #8a5406;
+  --linha: rgb(74 52 39 / 14%);
+  --fundo: var(--creme);
+  --fundo-alt: var(--areia);
+  --superficie: #fffcf4;
+  --superficie-topo: rgb(255 248 232 / 92%);
+  --borda-destaque: #c47f12;
+  --menu-ativo: rgb(231 156 37 / 16%);
+  --selo-fundo: rgb(231 156 37 / 20%);
+  --selo-texto: #6b4206;
+  --aviso-fundo: rgb(109 111 71 / 10%);
+  --aviso-borda: var(--oliva);
+  --revisado-borda: var(--oliva);
+  --codigo-fundo: #f3e8d6;
+  --rodape-fundo: var(--marrom);
+  --rodape-borda: transparent;
+  --hero-brilho-1: rgb(231 156 37 / 14%);
+  --hero-brilho-2: rgb(109 111 71 / 12%);
+  --realce-tabela: rgb(231 156 37 / 9%);
+  --foco: #c47f12;
+  --sombra: 0 1px 2px rgb(74 52 39 / 6%), 0 8px 24px rgb(74 52 39 / 9%);
+  --sombra-forte: 0 2px 4px rgb(74 52 39 / 8%), 0 16px 40px rgb(74 52 39 / 14%);
 
-  /* ---- o botão: um padrão só, verde com texto azul ---- */
-  --botao: var(--verde);
-  --botao-hover: var(--verde-claro);
-  --botao-texto: var(--azul);
+  /* ---- o botão: um padrão só, âmbar com texto marrom, como o da NeuroBee ---- */
+  --botao: var(--ambar);
+  --botao-hover: var(--ambar-claro);
+  --botao-texto: var(--marrom-escuro);
+  --sombra-btn: 0 6px 18px rgb(231 156 37 / 30%);
 
   /* ---- tipografia e medidas ---- */
   --fonte: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -79,61 +95,78 @@
   --transicao: 180ms cubic-bezier(0.2, 0, 0.2, 1);
 }
 
-/* Tema escuro: o do aparelho, se a pessoa não escolheu; a escolha vence o aparelho. */
+/* Tema escuro: o do aparelho, se a pessoa não escolheu; a escolha vence o aparelho.
+   As cores são as do escuro do site da NeuroBee: fundo preto, texto creme e links âmbar. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-tema='claro']) {
     color-scheme: dark;
-    --texto: #eaf1f5;
-    --texto-suave: #9fb3c0;
-    --linha: #0a3d63;
-    --fundo: #00253f;
-    --fundo-alt: #003256;
-    --fundo-azul: #001b2e;
-    --superficie: #003256;
-    --superficie-topo: rgb(0 37 63 / 92%);
-    --azul-texto: #eaf1f5;
-    --verde-texto: #b2c761;
-    --agua-texto: #9ac8d8;
-    --link: #9ac8d8;
-    --selo-fundo: rgb(178 199 97 / 18%);
-    --selo-texto: #cfe0a4;
-    --aviso-fundo: rgb(154 200 216 / 10%);
-    --codigo-fundo: #003e6a;
-    --rodape-fundo: #001b2e;
+    --texto: #f4ead8;
+    --texto-suave: #cdbfa8;
+    --titulo: #ffffff;
+    --destaque: #f0b455;
+    --link: #f0b455;
+    --link-hover: #f6c97f;
+    --linha: rgb(244 234 216 / 12%);
+    --fundo: #000000;
+    --fundo-alt: #171512;
+    --superficie: #1f1b16;
+    --superficie-topo: rgb(0 0 0 / 88%);
+    --borda-destaque: #f0b455;
+    --menu-ativo: rgb(240 180 85 / 14%);
+    --selo-fundo: rgb(240 180 85 / 16%);
+    --selo-texto: #f6c97f;
+    --aviso-fundo: rgb(240 180 85 / 8%);
+    --aviso-borda: #f0b455;
+    --revisado-borda: #d9dbb2;
+    --codigo-fundo: #24201b;
+    --faixa-fundo: #251d16;
+    --rodape-fundo: #000000;
+    --rodape-borda: rgb(244 234 216 / 12%);
+    --hero-brilho-1: rgb(240 172 64 / 10%);
+    --hero-brilho-2: rgb(109 111 71 / 10%);
+    --realce-tabela: rgb(240 180 85 / 8%);
+    --foco: #f0b455;
     --marca-a: #f0ac40;
     --marca-o: #ffffff;
     --sombra: 0 1px 2px rgb(0 0 0 / 40%), 0 8px 24px rgb(0 0 0 / 34%);
     --sombra-forte: 0 2px 4px rgb(0 0 0 / 44%), 0 16px 40px rgb(0 0 0 / 42%);
-    --sombra-btn: 0 4px 14px rgb(0 0 0 / 40%);
-    --realce-tabela: rgb(154 200 216 / 10%);
+    --sombra-btn: 0 6px 18px rgb(231 156 37 / 22%);
   }
 }
 
 :root[data-tema='escuro'] {
   color-scheme: dark;
-  --texto: #eaf1f5;
-  --texto-suave: #9fb3c0;
-  --linha: #0a3d63;
-  --fundo: #00253f;
-  --fundo-alt: #003256;
-  --fundo-azul: #001b2e;
-  --superficie: #003256;
-  --superficie-topo: rgb(0 37 63 / 92%);
-  --azul-texto: #eaf1f5;
-  --verde-texto: #b2c761;
-  --agua-texto: #9ac8d8;
-  --link: #9ac8d8;
-  --selo-fundo: rgb(178 199 97 / 18%);
-  --selo-texto: #cfe0a4;
-  --aviso-fundo: rgb(154 200 216 / 10%);
-  --codigo-fundo: #003e6a;
-  --rodape-fundo: #001b2e;
+  --texto: #f4ead8;
+  --texto-suave: #cdbfa8;
+  --titulo: #ffffff;
+  --destaque: #f0b455;
+  --link: #f0b455;
+  --link-hover: #f6c97f;
+  --linha: rgb(244 234 216 / 12%);
+  --fundo: #000000;
+  --fundo-alt: #171512;
+  --superficie: #1f1b16;
+  --superficie-topo: rgb(0 0 0 / 88%);
+  --borda-destaque: #f0b455;
+  --menu-ativo: rgb(240 180 85 / 14%);
+  --selo-fundo: rgb(240 180 85 / 16%);
+  --selo-texto: #f6c97f;
+  --aviso-fundo: rgb(240 180 85 / 8%);
+  --aviso-borda: #f0b455;
+  --revisado-borda: #d9dbb2;
+  --codigo-fundo: #24201b;
+  --faixa-fundo: #251d16;
+  --rodape-fundo: #000000;
+  --rodape-borda: rgb(244 234 216 / 12%);
+  --hero-brilho-1: rgb(240 172 64 / 10%);
+  --hero-brilho-2: rgb(109 111 71 / 10%);
+  --realce-tabela: rgb(240 180 85 / 8%);
+  --foco: #f0b455;
   --marca-a: #f0ac40;
   --marca-o: #ffffff;
   --sombra: 0 1px 2px rgb(0 0 0 / 40%), 0 8px 24px rgb(0 0 0 / 34%);
   --sombra-forte: 0 2px 4px rgb(0 0 0 / 44%), 0 16px 40px rgb(0 0 0 / 42%);
-  --sombra-btn: 0 4px 14px rgb(0 0 0 / 40%);
-  --realce-tabela: rgb(154 200 216 / 10%);
+  --sombra-btn: 0 6px 18px rgb(231 156 37 / 22%);
 }
 
 :root[data-tema='claro'] {
@@ -164,15 +197,15 @@ body {
   overflow-x: hidden;
 }
 img, svg { display: block; max-width: 100%; height: auto; }
-h1, h2, h3, h4 { color: var(--azul-texto); font-weight: 600; line-height: 1.18; text-wrap: balance; }
+h1, h2, h3, h4 { color: var(--titulo); font-weight: 600; line-height: 1.18; text-wrap: balance; }
 h1 { font-size: var(--passo-4); letter-spacing: -0.02em; }
 h2 { font-size: var(--passo-3); letter-spacing: -0.015em; }
 h3 { font-size: var(--passo-2); }
 p { text-wrap: pretty; }
 a { color: var(--link); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
-a:hover { color: var(--agua-texto); }
+a:hover { color: var(--link-hover); }
 ul, ol { padding-left: 1.2em; }
-:focus-visible { outline: 3px solid var(--agua); outline-offset: 3px; border-radius: 4px; }
+:focus-visible { outline: 3px solid var(--foco); outline-offset: 3px; border-radius: 4px; }
 code, pre { font-family: var(--fonte-codigo); font-size: 0.9em; }
 code { background: var(--codigo-fundo); padding: 0.12em 0.4em; border-radius: 4px; overflow-wrap: anywhere; }
 pre {
@@ -205,12 +238,12 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
   translate: -50% -120%;
   z-index: 200;
   padding: 0.75rem 1.25rem;
-  background: var(--azul);
-  color: #fff;
+  background: var(--marrom-escuro);
+  color: var(--creme);
   border-radius: 0 0 var(--raio) var(--raio);
   transition: translate var(--transicao);
 }
-.pular:focus { translate: -50% 0; color: #fff; }
+.pular:focus { translate: -50% 0; color: var(--creme); }
 
 /* ---- a marca: o hexágono de dados ---- */
 .nd-a { stroke: var(--marca-a); fill: none; }
@@ -242,10 +275,10 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
   gap: 0.7rem;
   margin-right: auto;
   min-width: 0;
-  color: var(--azul-texto);
+  color: var(--titulo);
   text-decoration: none;
 }
-.cabecalho__logo:hover { color: var(--azul-texto); }
+.cabecalho__logo:hover { color: var(--titulo); }
 .cabecalho__logo svg { width: 44px; height: 44px; flex: none; }
 .cabecalho__nome { display: grid; gap: 0.15rem; min-width: 0; }
 .cabecalho__nome strong { font-size: 1.12rem; font-weight: 700; letter-spacing: -0.01em; line-height: 1.15; }
@@ -265,7 +298,7 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
   align-items: center;
   padding: 0.55em 0.6em;
   border-radius: 8px;
-  color: var(--azul-texto);
+  color: var(--titulo);
   font-size: var(--passo--1);
   font-weight: 600;
   text-decoration: none;
@@ -274,8 +307,8 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
 }
 .cabecalho__lista a:hover,
 .cabecalho__lista a[aria-current='page'] {
-  background: rgb(71 162 185 / 12%);
-  color: var(--azul-texto);
+  background: var(--menu-ativo);
+  color: var(--titulo);
 }
 
 /* O seletor de tema: só aparece com JavaScript, que é quem faz a troca. */
@@ -309,10 +342,10 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
 .tema__op:hover { color: var(--texto); }
 .tema__op[aria-pressed='true'] {
   background: var(--superficie);
-  color: var(--azul-texto);
+  color: var(--titulo);
   box-shadow: var(--sombra);
 }
-.tema__op:focus-visible { outline: 2px solid var(--agua-texto); outline-offset: 1px; }
+.tema__op:focus-visible { outline: 2px solid var(--foco); outline-offset: 1px; }
 
 /* Estreito: a marca e o tema na primeira linha, o menu na segunda. */
 @media (max-width: 1179px) {
@@ -356,16 +389,16 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
 }
 .trilha li + li::before { content: '›'; margin-right: 0.4rem; color: var(--texto-suave); }
 .trilha a { color: var(--texto-suave); text-decoration: none; }
-.trilha a:hover { color: var(--azul-texto); text-decoration: underline; }
-.trilha [aria-current='page'] { color: var(--azul-texto); font-weight: 600; }
+.trilha a:hover { color: var(--titulo); text-decoration: underline; }
+.trilha [aria-current='page'] { color: var(--titulo); font-weight: 600; }
 
 /* ---- abertura das páginas ---- */
 .hero {
   position: relative;
   padding-block: clamp(2.5rem, 1.5rem + 4vw, 5rem) clamp(3rem, 2rem + 4vw, 5.5rem);
   background:
-    radial-gradient(90rem 40rem at 15% -20%, rgb(71 162 185 / 14%), transparent 60%),
-    radial-gradient(60rem 34rem at 100% 0%, rgb(148 185 98 / 16%), transparent 55%),
+    radial-gradient(90rem 40rem at 15% -20%, var(--hero-brilho-1), transparent 60%),
+    radial-gradient(60rem 34rem at 100% 0%, var(--hero-brilho-2), transparent 55%),
     var(--fundo);
   overflow: hidden;
 }
@@ -375,14 +408,14 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
   .hero__grade:has(.hero__midia) { grid-template-columns: 1.15fr 0.85fr; gap: var(--gap-xl); }
 }
 .hero__texto { max-width: 46rem; }
-.hero h1 em { font-style: normal; color: var(--agua-texto); }
+.hero h1 em { font-style: normal; color: var(--destaque); }
 .hero__chamada { margin-top: var(--gap); font-size: var(--passo-1); color: var(--texto-suave); max-width: 42rem; }
-.hero__assinatura { margin-top: var(--gap-sm); font-size: var(--passo--1); font-weight: 600; color: var(--verde-texto); max-width: 42rem; }
+.hero__assinatura { margin-top: var(--gap-sm); font-size: var(--passo--1); font-weight: 600; color: var(--destaque); max-width: 42rem; }
 .hero__meta { margin-top: var(--gap-sm); font-size: var(--passo--1); color: var(--texto-suave); }
 .hero__acoes { margin-top: var(--gap-lg); }
 .hero__midia { display: grid; place-items: center; }
 
-/* A abertura escura do início, com o clarão e as ondas no pé. */
+/* A abertura escura do início, com o clarão âmbar e as ondas no pé. */
 .hero--abertura {
   isolation: isolate;
   padding-block: clamp(3.5rem, 2rem + 6vw, 7rem) clamp(4.5rem, 3rem + 6vw, 8rem);
@@ -397,7 +430,7 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
   position: absolute;
   inset: auto 0 -1px 0;
   height: 90px;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 90' preserveAspectRatio='none'%3E%3Cpath d='M0 62c180-34 360 22 540 22s360-56 540-56 300 34 360 44v18H0z' fill='%2347a2b9' fill-opacity='.16'/%3E%3Cpath d='M0 74c200-28 380 14 560 14s340-44 520-44 260 26 360 34v12H0z' fill='%2347a2b9' fill-opacity='.10'/%3E%3C/svg%3E") no-repeat bottom / 100% 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 90' preserveAspectRatio='none'%3E%3Cpath d='M0 62c180-34 360 22 540 22s360-56 540-56 300 34 360 44v18H0z' fill='%23e79c25' fill-opacity='.14'/%3E%3Cpath d='M0 74c200-28 380 14 560 14s340-44 520-44 260 26 360 34v12H0z' fill='%23e79c25' fill-opacity='.08'/%3E%3C/svg%3E") no-repeat bottom / 100% 100%;
   pointer-events: none;
   z-index: -1;
 }
@@ -405,6 +438,8 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
 .hero--abertura h1 em { color: var(--abertura-realce); }
 .hero--abertura .hero__chamada { color: var(--abertura-chamada); }
 .hero--abertura .hero__assinatura { color: var(--abertura-apoio); font-weight: 500; }
+.hero--abertura .nd-a { stroke: #f0ac40; }
+.hero--abertura .nd-af { fill: #f0ac40; }
 .hero--abertura .nd-o { stroke: #fff; }
 .hero--abertura .nd-of { fill: #fff; }
 .hero__marca { position: relative; width: min(100%, 21rem); aspect-ratio: 1; display: grid; place-items: center; }
@@ -413,7 +448,7 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
   position: absolute;
   inset: 6%;
   border-radius: 50%;
-  background: radial-gradient(circle, rgb(99 211 240 / 20%), transparent 68%);
+  background: radial-gradient(circle, rgb(240 172 64 / 22%), transparent 68%);
 }
 .hero__marca svg { position: relative; width: 74%; filter: drop-shadow(0 18px 40px rgb(0 0 0 / 35%)); }
 @media (max-width: 899px) {
@@ -431,10 +466,10 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
 .cabecalho-artigo .definicao {
   margin-top: var(--gap);
   padding-left: 1.2rem;
-  border-left: 4px solid var(--verde);
+  border-left: 4px solid var(--ambar);
   font-size: var(--passo-1);
   line-height: 1.55;
-  color: var(--azul-texto);
+  color: var(--titulo);
 }
 .cabecalho-artigo .aviso { margin-top: var(--gap-sm); }
 .cabecalho-artigo .nomes { margin-top: var(--gap-sm); color: var(--texto-suave); font-size: var(--passo--1); }
@@ -446,11 +481,11 @@ pre code { background: none; padding: 0; color: inherit; overflow-wrap: normal; 
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--agua-texto);
+  color: var(--destaque);
   margin-bottom: var(--gap-xs);
 }
 .hero--abertura .olho,
-.secao-azul .olho { color: var(--verde-claro); }
+.secao-escura .olho { color: var(--faixa-destaque); }
 .selos { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: var(--gap-sm); }
 .selo {
   display: inline-block;
@@ -469,7 +504,7 @@ a.selo:hover { color: var(--selo-texto); text-decoration: underline; }
   padding: 0.1em 0.6em;
   border-radius: 999px;
   background: rgb(231 156 37 / 22%);
-  color: var(--azul-texto);
+  color: var(--titulo);
   font-size: 0.78rem;
   font-weight: 600;
 }
@@ -480,16 +515,16 @@ a.selo:hover { color: var(--selo-texto); text-decoration: underline; }
 /* ---- faixas ---- */
 .secao { padding-block: var(--secao); }
 .secao-alt { background: var(--fundo-alt); border-block: 1px solid var(--linha); }
-.secao-azul { background: var(--fundo-azul); color: #dfe7ec; }
-.secao-azul h2,
-.secao-azul h3 { color: #fff; }
-.secao-azul a:not(.btn) { color: var(--agua-clara); }
+.secao-escura { background: var(--faixa-fundo); color: var(--faixa-texto); }
+.secao-escura h2,
+.secao-escura h3 { color: #fff; }
+.secao-escura a:not(.btn) { color: var(--faixa-destaque); }
 /* A faixa de texto logo depois da abertura: menos respiro em cima. */
 .secao--junta { padding-top: clamp(1.75rem, 1rem + 2.5vw, 3rem); }
 .cabecalho-secao { max-width: var(--largura-texto); margin-bottom: var(--gap-lg); }
 .cabecalho-secao > * + * { margin-top: var(--gap-xs); }
 .chamada { font-size: var(--passo-1); color: var(--texto-suave); max-width: var(--largura-texto); }
-.secao-azul .chamada { color: #c3d2dc; }
+.secao-escura .chamada { color: var(--faixa-suave); }
 .secao__acao { margin-top: var(--gap-lg); }
 .centro { text-align: center; }
 .centro .cabecalho-secao { margin-inline: auto; }
@@ -526,7 +561,7 @@ a.selo:hover { color: var(--selo-texto); text-decoration: underline; }
 .cartao:focus-within {
   box-shadow: var(--sombra-forte);
   transform: translateY(-4px);
-  border-color: var(--agua-texto);
+  border-color: var(--borda-destaque);
 }
 @media (prefers-reduced-motion: reduce) {
   .cartao:hover,
@@ -536,22 +571,22 @@ a.selo:hover { color: var(--selo-texto); text-decoration: underline; }
 .cartao p { color: var(--texto-suave); margin-top: var(--gap-xs); }
 .cartao .meta { font-size: var(--passo--1); }
 .cartao__acao { margin-top: auto; padding-top: var(--gap-sm); }
-.secao-azul .cartao {
+.secao-escura .cartao {
   background: rgb(255 255 255 / 6%);
   border-color: rgb(255 255 255 / 14%);
   box-shadow: none;
 }
-.secao-azul .cartao p { color: #c3d2dc; }
-.secao-azul .cartao .meta { color: var(--abertura-apoio); }
-.secao-azul .cartao:hover,
-.secao-azul .cartao:focus-within { border-color: var(--agua-clara); }
+.secao-escura .cartao p { color: var(--faixa-suave); }
+.secao-escura .cartao .meta { color: var(--faixa-meta); }
+.secao-escura .cartao:hover,
+.secao-escura .cartao:focus-within { border-color: var(--faixa-destaque); }
 
 /* Registro: o cartão inteiro leva à página do registro. */
 .cartao--registro h3 { font-size: var(--passo-0); line-height: 1.3; }
-.cartao--registro h3 a { color: var(--azul-texto); text-decoration: none; }
+.cartao--registro h3 a { color: var(--titulo); text-decoration: none; }
 .cartao--registro h3 a::after { content: ''; position: absolute; inset: 0; border-radius: inherit; }
 .cartao--registro h3 a:focus-visible { outline: none; }
-.cartao--registro:focus-within { outline: 3px solid var(--agua); outline-offset: 3px; }
+.cartao--registro:focus-within { outline: 3px solid var(--foco); outline-offset: 3px; }
 .cartao--registro .id { margin-top: 0.35rem; }
 .cartao--registro p:not(.id) {
   display: -webkit-box;
@@ -601,11 +636,11 @@ a.selo:hover { color: var(--selo-texto); text-decoration: underline; }
 .links-seta a {
   font-weight: 700;
   font-size: var(--passo--1);
-  color: var(--verde-texto);
+  color: var(--destaque);
   text-decoration: none;
 }
 .links-seta a::after { content: ' \2192'; }
-.links-seta a:hover { color: var(--verde-texto); text-decoration: underline; }
+.links-seta a:hover { color: var(--destaque); text-decoration: underline; }
 
 /* ---- textos longos ---- */
 .prosa { max-width: var(--largura-texto); }
@@ -617,12 +652,12 @@ a.selo:hover { color: var(--selo-texto); text-decoration: underline; }
 .prosa h2 + *,
 .prosa h3 + * { margin-top: 0.6em; }
 .prosa li + li { margin-top: 0.45em; }
-.prosa strong { color: var(--azul-texto); font-weight: 600; }
-.prosa a { text-decoration-color: var(--agua-clara); text-decoration-thickness: 2px; }
+.prosa strong { color: var(--titulo); font-weight: 600; }
+.prosa a { text-decoration-color: var(--ambar); text-decoration-thickness: 2px; }
 .prosa--artigo { font-size: 1.04rem; line-height: 1.75; }
 .lead { font-size: var(--passo-1); line-height: 1.55; color: var(--texto-suave); }
-.afirmacoes li::marker { color: var(--verde-texto); }
-sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: var(--agua-texto); }
+.afirmacoes li::marker { color: var(--destaque); }
+sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: var(--destaque); }
 .fontes { font-size: var(--passo--1); padding-left: 1.4em; }
 .fontes li { overflow-wrap: anywhere; }
 .fontes li + li { margin-top: 0.8em; }
@@ -630,7 +665,7 @@ sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: v
 .fontes .trecho { display: block; color: var(--texto-suave); font-style: italic; margin-top: 0.25rem; }
 .citacao {
   padding: 1rem 1.2rem;
-  border-left: 4px solid var(--verde);
+  border-left: 4px solid var(--ambar);
   border-radius: 0 var(--raio) var(--raio) 0;
   background: var(--fundo-alt);
   font-size: var(--passo--1);
@@ -640,7 +675,7 @@ sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: v
 .aviso {
   max-width: var(--largura-texto);
   padding: 1rem 1.2rem;
-  border-left: 4px solid var(--agua-texto);
+  border-left: 4px solid var(--aviso-borda);
   border-radius: 0 var(--raio) var(--raio) 0;
   background: var(--aviso-fundo);
   color: var(--texto);
@@ -661,8 +696,8 @@ sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: v
   width: 2.75rem;
   height: 2.75rem;
   border-radius: 50%;
-  background: var(--verde);
-  color: var(--azul);
+  background: var(--ambar);
+  color: var(--marrom-escuro);
   font-weight: 700;
   font-size: var(--passo-1);
 }
@@ -679,10 +714,10 @@ sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: v
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: var(--verde);
+  background: var(--ambar);
   box-shadow: 0 0 0 3px var(--fundo);
 }
-.linha-do-tempo strong { display: block; font-size: var(--passo--1); color: var(--agua-texto); }
+.linha-do-tempo strong { display: block; font-size: var(--passo--1); color: var(--destaque); }
 
 /* ---- registro: texto e coluna lateral ---- */
 .artigo { display: grid; gap: var(--gap-lg); }
@@ -709,7 +744,7 @@ sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: v
 }
 .lateral__bloco h2 { font-size: var(--passo-0); margin-bottom: 0.5rem; }
 .lateral__bloco p + p { margin-top: 0.5rem; }
-.lateral__bloco.revisado { border-color: var(--verde); }
+.lateral__bloco.revisado { border-color: var(--revisado-borda); }
 
 /* ---- tabelas ---- */
 .tabela {
@@ -727,12 +762,12 @@ sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: v
   border-bottom: 1px solid var(--linha);
 }
 .tabela tr:last-child > * { border-bottom: 0; }
-.tabela thead th { background: var(--fundo-alt); color: var(--azul-texto); font-weight: 600; }
+.tabela thead th { background: var(--fundo-alt); color: var(--titulo); font-weight: 600; }
 .tabela tbody th {
   width: 26%;
   min-width: 7.5rem;
   background: var(--fundo-alt);
-  color: var(--azul-texto);
+  color: var(--titulo);
   font-weight: 600;
   overflow-wrap: normal;
 }
@@ -744,20 +779,21 @@ sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: v
 /* Tabela das normas (página da regulação): o número inteiro na 1ª coluna e a fonte numa coluna estreita. */
 .tabela-normas th,
 .tabela-normas td { overflow-wrap: normal; }
-.tabela-normas td:first-child { min-width: 8.5rem; font-weight: 600; color: var(--azul-texto); }
+.tabela-normas td:first-child { min-width: 8.5rem; font-weight: 600; color: var(--titulo); }
 .tabela-normas th:last-child,
 .tabela-normas td:last-child { width: 1%; white-space: nowrap; }
 
-/* ---- rodapé ---- */
+/* ---- rodapé: marrom no claro e preto no escuro, como o da NeuroBee ---- */
 .rodape {
   background: var(--rodape-fundo);
-  color: #b9c9d4;
+  border-top: 1px solid var(--rodape-borda);
+  color: #e3d3bb;
   padding-block: var(--secao) var(--gap-lg);
   font-size: var(--passo--1);
 }
 .rodape h2 { color: #fff; font-size: var(--passo-0); margin-bottom: var(--gap-sm); letter-spacing: 0; }
-.rodape a { color: #cfdde5; text-decoration: none; }
-.rodape a:hover { color: #fff; text-decoration: underline; }
+.rodape a { color: #f4ead8; text-decoration: none; }
+.rodape a:hover { color: #f0b455; text-decoration: underline; }
 .rodape ul { list-style: none; padding: 0; display: grid; gap: 0.55rem; }
 .rodape__grade { display: grid; gap: var(--gap-lg); }
 @media (min-width: 760px) {
@@ -780,6 +816,8 @@ sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: v
 }
 .rodape a.rodape__logo:hover { color: #fff; text-decoration: none; }
 .rodape__logo svg { width: 46px; height: 46px; flex: none; }
+.rodape .nd-a { stroke: #f0ac40; }
+.rodape .nd-af { fill: #f0ac40; }
 .rodape .nd-o { stroke: #fff; }
 .rodape .nd-of { fill: #fff; }
 .rodape__marca p { max-width: 42ch; }
@@ -792,7 +830,7 @@ sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: v
   margin-top: var(--gap-lg);
   padding-top: var(--gap);
   border-top: 1px solid rgb(255 255 255 / 12%);
-  color: #8fa4b2;
+  color: #cdbfa8;
 }
 .rodape__base p + p { margin-top: 0.3rem; }
 .rodape__base ul { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; }
@@ -818,7 +856,7 @@ sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: v
   text-decoration: none;
 }
 .rodape__credito img { width: 22px; height: 22px; }
-.rodape__credito span { color: #8fa4b2; }
+.rodape__credito span { color: #cdbfa8; }
 .rodape__credito strong { color: #f19701; font-size: var(--passo-0); font-weight: 700; letter-spacing: -0.01em; }
 
 @media (max-width: 640px) {
@@ -830,5 +868,5 @@ sup.ref a { text-decoration: none; font-weight: 700; padding: 0 0.1rem; color: v
   .tabela-normas tr { display: block; border-bottom: 1px solid var(--linha); padding: 0.6rem 0.8rem; }
   .tabela-normas tr:last-child { border-bottom: 0; }
   .tabela-normas td { display: block; border: 0; padding: 0.15rem 0; width: auto; white-space: normal; }
-  .tabela-normas td:not(:first-child)::before { content: attr(data-rotulo) ": "; font-weight: 600; color: var(--azul-texto); }
+  .tabela-normas td:not(:first-child)::before { content: attr(data-rotulo) ": "; font-weight: 600; color: var(--titulo); }
 }

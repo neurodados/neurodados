@@ -1,6 +1,6 @@
 // As páginas do portal do NeuroDados Brasil, no desenho do site da T&D Sustentável
 // (cabeçalho translúcido, trilha, abertura, faixas, cartões, botões em pílula e
-// rodapé em colunas). Todo texto vem de textos.mjs, dos metadados das bases ou dos
+// rodapé em colunas), com as cores da Clínica NeuroBee (no estilo.css). Todo texto vem de textos.mjs, dos metadados das bases ou dos
 // registros; aqui só se monta o HTML.
 
 import {
@@ -75,7 +75,8 @@ export function pagina(ctx, { caminho, titulo, descricao, corpo, grafo = [], ext
   const mantido = esc(RODAPE.mantido).replace('Clínica NeuroBee', `<a href="${ctx.mantenedorUrl}">Clínica NeuroBee</a>`);
   const legais = link(...doRodape('/licencas')) + `<li><a href="${ctx.privacidade}">${esc(RODAPE.privacidade)}</a></li>`;
   // O crédito de quem desenvolveu o portal: o logo decorativo (alt vazio) e o nome em destaque, como no site da T&D.
-  const credito = `<p class="rodape__credito"><a href="https://otimizapro.com/" target="_blank" rel="noopener"><img src="${ctx.prefixo}/otimiza-marca.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>${esc(RODAPE.credito).replace('Otimiza.pro', '</span><strong>Otimiza.pro</strong>')}</a></p>`;
+  // O link vai à LP da agência, sem a barra no fim (com ela, a página responde 307); o texto do link é a marca.
+  const credito = `<p class="rodape__credito"><a href="https://otimizapro.com/agencia-de-marketing-digital" target="_blank" rel="noopener"><img src="${ctx.prefixo}/otimiza-marca.webp" alt="" width="22" height="22" loading="lazy" decoding="async"><span>${esc(RODAPE.credito).replace('Otimiza.pro', '</span><strong>Otimiza.pro</strong>')}</a></p>`;
 
   const grafoCompleto = [
     { '@type': 'MedicalBusiness', '@id': ctx.mantenedorId, name: 'Clínica NeuroBee', url: ctx.mantenedorUrl },
@@ -98,8 +99,8 @@ ${ctx.previa ? '<meta name="robots" content="noindex">\n' : ''}<link rel="canoni
 <meta property="og:title" content="${esc(titulo)}">
 <meta property="og:description" content="${esc(descricao)}">
 <meta property="og:url" content="${url}">
-<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#00253f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fff8e8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="${ctx.prefixo}/marca.svg" type="image/svg+xml">
 <script src="${ctx.prefixo}/tema.js?v=${ctx.temaV}"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -201,7 +202,7 @@ export function paginaInicio(ctx, resumos) {
 <div class="hero__midia" aria-hidden="true"><div class="hero__marca">${ICONE}</div></div>
 </div></section>
 <section class="secao"><div class="container grade grade-2">${blocos(P.secoes)}</div></section>
-<section class="secao secao-azul" id="bases"><div class="container"><div class="cabecalho-secao"><h2>${esc(P.bases)}</h2></div>
+<section class="secao secao-escura" id="bases"><div class="container"><div class="cabecalho-secao"><h2>${esc(P.bases)}</h2></div>
 <div class="grade grade-3">${resumos.map((b) => cartaoBase(b, fmt(P.contagem, b), fmt(P.abrirBase, b))).join('')}</div></div></section>
 <section class="secao secao-alt"><div class="container"><div class="cabecalho-secao"><h2>${esc(P.usar.titulo)}</h2></div>
 <div class="grade grade-4">${usar}</div>
