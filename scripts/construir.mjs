@@ -59,13 +59,15 @@ mkdirSync(ND, { recursive: true });
 
 const css = readFileSync(join(RAIZ, 'portal', 'estilo.css'));
 const medicao = readFileSync(join(RAIZ, 'portal', 'medicao.js'));
+const tema = readFileSync(join(RAIZ, 'portal', 'tema.js'));
 gravar(join(ND, 'estilo.css'), css);
 gravar(join(ND, 'medicao.js'), medicao);
+gravar(join(ND, 'tema.js'), tema);
 copyFileSync(join(RAIZ, 'portal', 'marca.svg'), join(ND, 'marca.svg'));
 copyFileSync(join(RAIZ, 'portal', 'otimiza-marca.webp'), join(ND, 'otimiza-marca.webp'));
 
 const ctx = {
-  prefixo: SITE.prefixo, urlBase: URL_BASE, origem: SITE.origem, cssV: hash(css), medicaoV: hash(medicao),
+  prefixo: SITE.prefixo, urlBase: URL_BASE, origem: SITE.origem, cssV: hash(css), medicaoV: hash(medicao), temaV: hash(tema),
   previa: !PUBLICAR, ga4: PUBLICAR ? SITE.ga4 : '', clarity: PUBLICAR ? SITE.clarity : '',
   privacidade: SITE.privacidade, email: SITE.email, mantenedorUrl: SITE.mantenedorUrl, mantenedorId: SITE.mantenedorId,
   github: SITE.github, huggingface: SITE.huggingface,
@@ -83,6 +85,8 @@ for (const b of bases) {
   for (const r of paginas) indice.set(r.id, { nome: r.sigla ? `${r.nome} (${r.sigla})` : r.nome, url: urlRegistro(b.id, r.slug) });
   resumos.push(M.resumoBase(ctx, b, lista));
 }
+// As bases no ar, para a coluna do rodapé de todas as páginas.
+ctx.bases = resumos.map((b) => ({ nome: b.nome, url: b.url }));
 
 // 3. Páginas.
 const sitemap = [];

@@ -14,6 +14,15 @@ export const AVISO = 'Conteúdo informativo. Não serve para diagnóstico e não
 export const PULAR = 'Pular para o conteúdo';
 export const MENU_ROTULO = 'Menu do NeuroDados';
 
+// O seletor de tema do cabeçalho, o mesmo do site da T&D: o nome de cada botão é
+// lido pelo leitor de tela e aparece ao passar o mouse.
+export const TEMA = {
+  grupo: 'Tema do site',
+  claro: 'Tema claro',
+  escuro: 'Tema escuro',
+  sistema: 'Seguir o sistema',
+};
+
 // Rótulos curtos das tabelas e dos links.
 export const ROTULOS = {
   sistema: 'Sistema',
@@ -71,6 +80,8 @@ export const RODAPE = {
   privacidade: 'Política de privacidade',
   licenca: 'Dados sob a licença CC BY 4.0. Código sob a licença MIT.',
   credito: 'Desenvolvido pela Otimiza.pro',
+  // Título da coluna do rodapé com as páginas do projeto (as outras colunas usam "Bases" e "Documentação", do menu).
+  projeto: 'O projeto',
 };
 
 // As categorias de cada base, na ordem em que aparecem na página da base.
@@ -319,6 +330,8 @@ export const PAGINAS = {
       },
     ],
     bases: 'As bases',
+    // Botão da abertura da página inicial, que leva às bases logo abaixo.
+    verBases: 'Ver as bases',
     abrirBase: 'Abrir a {nome}',
     contagem: '{n} registros · versão {versao}',
     usar: {

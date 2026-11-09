@@ -8,7 +8,7 @@ import * as T from '../../portal/textos.mjs';
 import { carregarBases, textosDe, RAIZ } from './dados.mjs';
 
 const EXPORTS_PORTAL = [
-  'MARCA', 'AVISO', 'PULAR', 'MENU_ROTULO', 'ROTULOS', 'LLMS', 'MENU', 'RODAPE', 'CATEGORIAS',
+  'MARCA', 'AVISO', 'PULAR', 'MENU_ROTULO', 'TEMA', 'ROTULOS', 'LLMS', 'MENU', 'RODAPE', 'CATEGORIAS',
   'RELACOES', 'REGISTRO', 'PAGINAS', 'FERRAMENTAS_MCP', 'MENSAGENS', 'INSTRUCOES_MCP', 'NO_SITE', 'TEMAS',
   'CONDICOES', 'AREAS', 'REGULACAO',
 ];
