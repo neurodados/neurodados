@@ -38,6 +38,8 @@ export function pagina(ctx, { caminho, titulo, descricao, corpo, grafo = [], ext
   const mantido = esc(RODAPE.mantido).replace('Clínica NeuroBee', `<a href="${ctx.mantenedorUrl}">Clínica NeuroBee</a>`);
   const links = RODAPE.links.map(([r, c]) => `<li><a href="${ctx.prefixo}${c}">${esc(r)}</a></li>`).join('')
     + `<li><a href="${ctx.privacidade}">${esc(RODAPE.privacidade)}</a></li>`;
+  // O crédito de quem desenvolveu o portal, com o logo decorativo (alt vazio) e o nome em negrito.
+  const credito = `<p class="credito"><a href="https://otimizapro.com/" target="_blank" rel="noopener"><img src="${ctx.prefixo}/otimiza-marca.webp" alt="" width="20" height="20" loading="lazy" decoding="async"> ${esc(RODAPE.credito).replace('Otimiza.pro', '<strong>Otimiza.pro</strong>')}</a></p>`;
   const grafoCompleto = [
     { '@type': 'MedicalBusiness', '@id': ctx.mantenedorId, name: 'Clínica NeuroBee', url: ctx.mantenedorUrl },
     ...grafo,
@@ -79,7 +81,7 @@ ${medicao}
 ${corpo}
 </div></main>
 <footer class="rodape"><div class="envolve">
-<div><p><strong>${esc(MARCA.nome)}</strong></p><p>${mantido}</p><p>${esc(RODAPE.licenca)}</p></div>
+<div><p><strong>${esc(MARCA.nome)}</strong></p><p>${mantido}</p><p>${esc(RODAPE.licenca)}</p>${credito}</div>
 <ul>${links}</ul>
 </div></footer>
 </body>

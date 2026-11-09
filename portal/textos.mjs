@@ -5,7 +5,7 @@
 export const MARCA = {
   nome: 'NeuroDados Brasil',
   nomeCurto: 'NeuroDados',
-  assinatura: 'Uma iniciativa de dados abertos desenvolvida e mantida pela Clínica NeuroBee.',
+  assinatura: 'Uma iniciativa de dados abertos desenvolvida e mantida pela Clínica NeuroBee em parceria com a Otimiza.pro.',
   lema: 'Dados abertos sobre neurodesenvolvimento, com a fonte de cada informação.',
 };
 
@@ -27,7 +27,7 @@ export const ROTULOS = {
 
 // O resumo para modelos de linguagem (/neurodados/llms.txt).
 export const LLMS = {
-  resumo: 'Dados abertos sobre neurodesenvolvimento e desenvolvimento infantil, com a fonte de cada informação. Uma iniciativa de dados abertos desenvolvida e mantida pela Clínica NeuroBee, no Rio de Janeiro. Dados sob a licença CC BY 4.0.',
+  resumo: 'Dados abertos sobre neurodesenvolvimento e desenvolvimento infantil, com a fonte de cada informação. Uma iniciativa de dados abertos desenvolvida e mantida pela Clínica NeuroBee, no Rio de Janeiro, em parceria com a Otimiza.pro. Dados sob a licença CC BY 4.0.',
   bases: 'Bases',
   linhaBase: '{titulo}. {n} registros, versão {versao}. JSON: {json} · JSONL: {jsonl} · CSV: {csv}',
   registros: 'Registros da {nome}',
@@ -70,6 +70,7 @@ export const RODAPE = {
   ],
   privacidade: 'Política de privacidade',
   licenca: 'Dados sob a licença CC BY 4.0. Código sob a licença MIT.',
+  credito: 'Desenvolvido pela Otimiza.pro',
 };
 
 // As categorias de cada base, na ordem em que aparecem na página da base.
@@ -354,7 +355,7 @@ export const PAGINAS = {
       {
         titulo: 'Quem mantém',
         paragrafos: [
-          'O NeuroDados Brasil é uma iniciativa de dados abertos sobre neurodesenvolvimento, desenvolvida e mantida pela Clínica NeuroBee, clínica de psicologia e avaliação neuropsicológica no Recreio dos Bandeirantes, no Rio de Janeiro.',
+          'O NeuroDados Brasil é uma iniciativa de dados abertos sobre neurodesenvolvimento, desenvolvida e mantida pela Clínica NeuroBee, clínica de psicologia e avaliação neuropsicológica no Recreio dos Bandeirantes, no Rio de Janeiro, em parceria com a Otimiza.pro.',
           'A clínica cuida da infraestrutura, da redação e da conferência dos registros. O NeuroDados tem regras próprias, publicadas na governança e na metodologia, e elas valem acima de qualquer interesse da clínica.',
         ],
       },

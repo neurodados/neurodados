@@ -166,6 +166,9 @@ th { font-weight: 600; color: var(--titulo); }
 .rodape .envolve { padding: 1.6rem 0; display: flex; flex-wrap: wrap; gap: .8rem 2rem; justify-content: space-between; }
 .rodape ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem 1rem; }
 .rodape p { margin: .2rem 0; }
+.rodape .credito { margin-top: .6rem; }
+.rodape .credito a { display: inline-flex; align-items: center; gap: .4rem; }
+.rodape .credito img { width: 20px; height: 20px; }
 
 @media (max-width: 640px) {
   main { padding-top: 1.5rem; }

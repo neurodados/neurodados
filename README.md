@@ -1,6 +1,6 @@
 # NeuroDados Brasil
 
-Dados abertos sobre neurodesenvolvimento e desenvolvimento infantil, com a fonte de cada informação. Uma iniciativa de dados abertos desenvolvida e mantida pela Clínica NeuroBee.
+Dados abertos sobre neurodesenvolvimento e desenvolvimento infantil, com a fonte de cada informação. Uma iniciativa de dados abertos desenvolvida e mantida pela Clínica NeuroBee em parceria com a Otimiza.pro.
 
 - Portal: <https://clinicaneurobee.com.br/neurodados>
 - API: <https://clinicaneurobee.com.br/neurodados/api/v1> (JSON, sem chave)

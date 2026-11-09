@@ -62,6 +62,7 @@ const medicao = readFileSync(join(RAIZ, 'portal', 'medicao.js'));
 gravar(join(ND, 'estilo.css'), css);
 gravar(join(ND, 'medicao.js'), medicao);
 copyFileSync(join(RAIZ, 'portal', 'marca.svg'), join(ND, 'marca.svg'));
+copyFileSync(join(RAIZ, 'portal', 'otimiza-marca.webp'), join(ND, 'otimiza-marca.webp'));
 
 const ctx = {
   prefixo: SITE.prefixo, urlBase: URL_BASE, origem: SITE.origem, cssV: hash(css), medicaoV: hash(medicao),

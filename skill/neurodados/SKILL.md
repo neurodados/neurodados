@@ -5,7 +5,7 @@ description: Consulta e uso responsável do NeuroDados Brasil, os dados abertos 
 
 # NeuroDados Brasil
 
-O NeuroDados Brasil reúne dados abertos sobre neurodesenvolvimento e desenvolvimento infantil, com a fonte de cada informação. É uma iniciativa de dados abertos desenvolvida e mantida pela Clínica NeuroBee, no Rio de Janeiro. Os dados estão sob a licença CC BY 4.0.
+O NeuroDados Brasil reúne dados abertos sobre neurodesenvolvimento e desenvolvimento infantil, com a fonte de cada informação. É uma iniciativa de dados abertos desenvolvida e mantida pela Clínica NeuroBee, no Rio de Janeiro, em parceria com a Otimiza.pro. Os dados estão sob a licença CC BY 4.0.
 
 ## Bases
 
