@@ -1,0 +1,145 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-14880-2024",
+  "slug": "lei-14880-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 14.880, de 4 de junho de 2024",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "14.880",
+    "data": "2024-06-04",
+    "orgao": "Presidência da República",
+    "ementa": "Altera a Lei nº 13.257, de 8 de março de 2016 (Marco Legal da Primeira Infância), para instituir a Política Nacional de Atendimento Educacional Especializado a Crianças de Zero a Três Anos (Atenção Precoce) e para determinar prioridade de atendimento em programas de visitas domiciliares a crianças da educação infantil apoiadas pela educação especial e a crianças da educação infantil com sinais de alerta para o desenvolvimento, nos termos que especifica.",
+    "publicacao": "DOU de 05/06/2024",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "desenvolvimento_infantil",
+    "deficiencia",
+    "tea"
+  ],
+  "areas": [
+    "educacao",
+    "saude",
+    "assistencia_social"
+  ],
+  "definicao": "A Lei nº 14.880/2024 mudou o Marco Legal da Primeira Infância (Lei nº 13.257/2016) para instituir a Política Nacional de Atendimento Educacional Especializado a Crianças de Zero a Três Anos, chamada Atenção Precoce. A política prioriza crianças de 0 a 3 anos que precisam de atendimento educacional especializado e bebês nascidos em condição de risco, e dá a elas prioridade em serviços e em programas de visita domiciliar.",
+  "afirmacoes": [
+    {
+      "texto": "A lei incluiu no art. 3º da Lei nº 13.257/2016 o § 1º, que institui a Política Nacional de Atendimento Educacional Especializado a Crianças de Zero a Três Anos (Atenção Precoce), por meio da criação e da articulação de serviços multiprofissionais e intersetoriais de atenção precoce destinados a potencializar o desenvolvimento e a aprendizagem das crianças de 0 a 3 anos, em cooperação, preferencialmente, com os serviços de saúde e de assistência social.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Atenção Precoce priorizará as crianças de 0 a 3 anos que necessitem de atendimento educacional especializado e os bebês nascidos em condição de risco, como os prematuros, os acometidos por asfixia perinatal ou os que apresentem problemas neurológicos, malformações congênitas ou síndromes genéticas, entre outros (art. 3º, § 2º, da Lei nº 13.257/2016).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "As políticas para a primeira infância serão elaboradas e executadas também de forma a promover o desenvolvimento das potencialidades das crianças de 0 a 3 anos com deficiência, transtornos globais do desenvolvimento, altas habilidades ou superdotação e dos bebês nascidos em condição de risco, e a garantir o conjunto de serviços, apoios e recursos necessários às crianças de 0 a 3 anos e às suas famílias, em colaboração interfederativa (art. 4º, X e XI, da Lei nº 13.257/2016).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "As crianças de 0 a 3 anos referidas no § 2º do art. 3º têm prioridade absoluta na oferta de serviços, apoios e recursos necessários ao seu pleno desenvolvimento infantil (art. 5º, parágrafo único, da Lei nº 13.257/2016).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Os programas de visita domiciliar deverão dar prioridade de atendimento a essas crianças, para identificar de forma precoce necessidades específicas de atenção e promover o desenvolvimento integral delas (art. 14, § 6º, da Lei nº 13.257/2016).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Os serviços de atenção precoce de 0 a 3 anos, expressão do atendimento educacional especializado em uma perspectiva inclusiva, serão realizados em espaços físicos adequados ou adaptados às necessidades da criança, com infraestrutura, recursos pedagógicos e de acessibilidade e profissionais qualificados, e deverão ter como eixos a perspectiva inclusiva e o processo de aprendizagem global das crianças (art. 16, §§ 2º e 3º, da Lei nº 13.257/2016).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-educacional-especializado",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-8069-1990",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.decreto-12686-2025",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume as mudanças que a lei fez no Marco Legal da Primeira Infância; não resume toda a Lei nº 13.257/2016.",
+    "A ementa fala em crianças com sinais de alerta para o desenvolvimento, mas o texto não define esses sinais. A lei usa a expressão transtornos globais do desenvolvimento.",
+    "A vigência foi conferida no texto compilado da Lei nº 13.257/2016 no Planalto em 9 de novembro de 2026: os dispositivos incluídos pela lei seguem em vigor, sem alterações."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.880, de 4 de junho de 2024: altera a Lei nº 13.257, de 8 de março de 2016 (Marco Legal da Primeira Infância), para instituir a Política Nacional de Atendimento Educacional Especializado a Crianças de Zero a Três Anos (Atenção Precoce)",
+      "autor": "Brasil",
+      "ano": 2024,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14880.htm",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "§ 1º É instituída a Política Nacional de Atendimento Educacional Especializado a Crianças de Zero a Três Anos (Atenção Precoce), viabilizada por meio da criação e da articulação de serviços multiprofissionais e intersetoriais de atenção precoce destinados a potencializar o processo de desenvolvimento e aprendizagem das crianças de 0 (zero) a 3 (três) anos, em cooperação, preferencialmente, com os serviços de saúde e assistência social.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.257, de 8 de março de 2016: dispõe sobre as políticas públicas para a primeira infância (texto compilado)",
+      "autor": "Brasil",
+      "ano": 2016,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13257.htm",
+      "referencia": "texto compilado: arts. 3º, 4º, 5º, 14 e 16, com os dispositivos incluídos pela Lei nº 14.880, de 2024",
+      "trecho": "§ 2º A Atenção Precoce priorizará as crianças de 0 (zero) a 3 (três) anos que necessitem de atendimento educacional especializado e os bebês que tenham nascido em condição de risco, como os prematuros, os acometidos por asfixia perinatal ou os que apresentem problemas neurológicos, malformações congênitas, síndromes genéticas, entre outros.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

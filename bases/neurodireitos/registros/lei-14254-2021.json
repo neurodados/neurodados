@@ -1,0 +1,127 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-14254-2021",
+  "slug": "lei-14254-2021",
+  "base": "neurodireitos",
+  "nome": "Lei nº 14.254, de 30 de novembro de 2021",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "14.254",
+    "data": "2021-11-30",
+    "orgao": "Presidência da República",
+    "ementa": "Dispõe sobre o acompanhamento integral para educandos com dislexia ou Transtorno do Deficit de Atenção com Hiperatividade (TDAH) ou outro transtorno de aprendizagem.",
+    "publicacao": "DOU de 01/12/2021",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "dislexia",
+    "tdah",
+    "transtornos_de_aprendizagem"
+  ],
+  "areas": [
+    "educacao",
+    "saude"
+  ],
+  "definicao": "A Lei nº 14.254/2021 manda o poder público desenvolver e manter programa de acompanhamento integral para educandos com dislexia, TDAH ou outro transtorno de aprendizagem. O acompanhamento inclui a identificação precoce, o encaminhamento para diagnóstico, o apoio educacional na escola e o apoio terapêutico na rede de saúde, e a lei prevê formação dos professores para identificar cedo os sinais.",
+  "afirmacoes": [
+    {
+      "texto": "O poder público deve desenvolver e manter programa de acompanhamento integral para educandos com dislexia, Transtorno do Déficit de Atenção com Hiperatividade (TDAH) ou outro transtorno de aprendizagem (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O acompanhamento integral compreende a identificação precoce do transtorno, o encaminhamento do educando para diagnóstico, o apoio educacional na rede de ensino e o apoio terapêutico na rede de saúde (art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As escolas da educação básica das redes pública e privada, com o apoio da família e dos serviços de saúde existentes, devem garantir o cuidado e a proteção ao educando com dislexia, TDAH ou outro transtorno de aprendizagem, com vistas ao seu pleno desenvolvimento físico, mental, moral, espiritual e social (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os educandos que apresentam alterações no desenvolvimento da leitura e da escrita, ou instabilidade na atenção, que repercutam na aprendizagem devem ter assegurado acompanhamento específico direcionado à sua dificuldade, da forma mais precoce possível, pelos educadores da escola em que estão matriculados, e podem contar com apoio e orientação da saúde, da assistência social e de outras políticas públicas (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Necessidades específicas no desenvolvimento do educando são atendidas pelos profissionais da rede de ensino em parceria com profissionais da rede de saúde. Se houver necessidade de intervenção terapêutica, ela deverá ser feita em serviço de saúde em que seja possível a avaliação diagnóstica, com metas de acompanhamento por equipe multidisciplinar (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "No âmbito do programa, os sistemas de ensino devem garantir aos professores da educação básica amplo acesso à informação, inclusive sobre os encaminhamentos possíveis para atendimento multissetorial, e formação continuada para a identificação precoce dos sinais relacionados aos transtornos de aprendizagem ou ao TDAH e para o atendimento educacional escolar desses educandos (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13935-2019",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-15436-2026",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "A lei não define dislexia, TDAH nem transtorno de aprendizagem e não diz quais profissionais compõem a equipe multidisciplinar.",
+    "O registro não traz normas de estados, municípios ou sistemas de ensino que detalhem o programa.",
+    "A vigência foi conferida no texto do Planalto em 9 de novembro de 2026; o Planalto não registra alterações na lei."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.254, de 30 de novembro de 2021: dispõe sobre o acompanhamento integral para educandos com dislexia ou Transtorno do Deficit de Atenção com Hiperatividade (TDAH) ou outro transtorno de aprendizagem",
+      "autor": "Brasil",
+      "ano": 2021,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14254.htm",
+      "referencia": "arts. 1º a 5º",
+      "trecho": "Parágrafo único. O acompanhamento integral previsto no caput deste artigo compreende a identificação precoce do transtorno, o encaminhamento do educando para diagnóstico, o apoio educacional na rede de ensino, bem como o apoio terapêutico especializado na rede de saúde.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

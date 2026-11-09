@@ -1,0 +1,171 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-10048-2000",
+  "slug": "lei-10048-2000",
+  "base": "neurodireitos",
+  "nome": "Lei nº 10.048, de 8 de novembro de 2000",
+  "nomes_alternativos": [
+    "Lei do Atendimento Prioritário",
+    "Lei da Prioridade"
+  ],
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "10.048",
+    "data": "2000-11-08",
+    "orgao": "Presidência da República",
+    "ementa": "Dá prioridade de atendimento às pessoas que especifica, e dá outras providências.",
+    "publicacao": "DOU de 09/11/2000",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Lei nº 10.741, de 2003",
+        "Lei nº 13.146, de 2015",
+        "Lei nº 14.364, de 2022",
+        "Lei nº 14.626, de 2023"
+      ]
+    },
+    "regulamentada_por": [
+      "Decreto nº 5.296, de 2 de dezembro de 2004",
+      "Decreto nº 7.823, de 9 de outubro de 2012"
+    ],
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "deficiencia"
+  ],
+  "areas": [
+    "atendimento_prioritario",
+    "transporte",
+    "acessibilidade"
+  ],
+  "definicao": "A Lei nº 10.048/2000 dá atendimento prioritário a grupos que ela lista, entre eles as pessoas com deficiência e, desde a Lei nº 14.626/2023, as pessoas com transtorno do espectro autista. Ela obriga repartições públicas, concessionárias de serviços públicos e instituições financeiras a dar essa prioridade e manda reservar assentos no transporte coletivo.",
+  "afirmacoes": [
+    {
+      "texto": "No sistema de legislação do Senado Federal, a lei aparece com os apelidos Lei do Atendimento Prioritário e Lei da Prioridade.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Têm atendimento prioritário as pessoas com deficiência, as pessoas com transtorno do espectro autista, as pessoas idosas com 60 anos ou mais, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, as pessoas com mobilidade reduzida e os doadores de sangue (art. 1º, na redação dada pela Lei nº 14.626, de 2023).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os acompanhantes ou atendentes pessoais dessas pessoas são atendidos junta e acessoriamente aos titulares da prioridade (art. 1º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O atendimento prioritário poderá ser feito em postos, caixas, guichês, linhas ou atendentes específicos. Onde não houver, as pessoas com prioridade deverão ser atendidas logo depois da conclusão do atendimento em andamento, antes de quaisquer outras pessoas (art. 1º, §§ 3º e 4º, incluídos pela Lei nº 14.626, de 2023).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As repartições públicas e as empresas concessionárias de serviços públicos são obrigadas a dar atendimento prioritário, por meio de serviços individualizados que assegurem tratamento diferenciado e atendimento imediato, e a prioridade é assegurada também em todas as instituições financeiras (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As empresas públicas de transporte e as concessionárias de transporte coletivo reservarão assentos identificados para pessoas com deficiência, pessoas com transtorno do espectro autista, pessoas idosas, gestantes, lactantes, pessoas com criança de colo e pessoas com mobilidade reduzida (art. 3º, na redação dada pela Lei nº 14.626, de 2023).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A infração à lei sujeita os responsáveis a penalidades: as da legislação específica, para servidor ou chefia responsável pela repartição pública; multa por veículo sem as condições dos arts. 3º e 5º, para empresas concessionárias de serviço público; e as da Lei nº 4.595/1964, para instituições financeiras. As penalidades são elevadas ao dobro em caso de reincidência (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pela Lei nº 12.764/2012, os estabelecimentos públicos e privados referidos nesta lei poderão valer-se da fita quebra-cabeça para identificar a prioridade devida às pessoas com transtorno do espectro autista (art. 1º, § 3º, da Lei nº 12.764/2012, incluído pela Lei nº 13.977, de 2020).",
+      "fontes": [
+        "f3"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14624-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume a lei; não traz os decretos que a regulamentam nem os valores das multas.",
+    "Os arts. 4º e 5º, sobre edificações e veículos, ainda usam a expressão “pessoas portadoras de deficiência”.",
+    "A vigência e as alterações foram conferidas no texto compilado do Planalto em 9 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 10.048, de 8 de novembro de 2000: dá prioridade de atendimento às pessoas que especifica (texto compilado)",
+      "autor": "Brasil",
+      "ano": 2000,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l10048.htm",
+      "referencia": "texto compilado: arts. 1º, 2º, 3º e 6º",
+      "trecho": "Art. 1º As pessoas com deficiência, as pessoas com transtorno do espectro autista, as pessoas idosas com idade igual ou superior a 60 (sessenta) anos, as gestantes, as lactantes, as pessoas com criança de colo, os obesos, as pessoas com mobilidade reduzida e os doadores de sangue terão atendimento prioritário, nos termos desta Lei.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "site_institucional",
+      "titulo": "Legislação Federal: Lei nº 10.048 de 08/11/2000 (página da norma, campo Apelido)",
+      "autor": "Senado Federal",
+      "ano": 2026,
+      "url": "https://legis.senado.leg.br/norma/551924",
+      "referencia": "campo Apelido",
+      "trecho": "Lei do Atendimento Prioritário (2000) , Lei da Prioridade (2000)",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "lei",
+      "titulo": "Lei nº 12.764, de 27 de dezembro de 2012: institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista (texto compilado)",
+      "autor": "Brasil",
+      "ano": 2012,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm",
+      "referencia": "texto compilado: art. 1º, § 3º, incluído pela Lei nº 13.977, de 2020",
+      "trecho": "§ 3º Os estabelecimentos públicos e privados referidos na Lei nº 10.048, de 8 de novembro de 2000, poderão valer-se da fita quebra-cabeça, símbolo mundial da conscientização do transtorno do espectro autista, para identificar a prioridade devida às pessoas com transtorno do espectro autista.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

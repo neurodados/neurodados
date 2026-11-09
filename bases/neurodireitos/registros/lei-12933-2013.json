@@ -1,0 +1,143 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-12933-2013",
+  "slug": "lei-12933-2013",
+  "base": "neurodireitos",
+  "nome": "Lei nº 12.933, de 26 de dezembro de 2013",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "12.933",
+    "data": "2013-12-26",
+    "orgao": "Presidência da República",
+    "ementa": "Dispõe sobre o benefício do pagamento de meia-entrada para estudantes, idosos, pessoas com deficiência e jovens de 15 a 29 anos comprovadamente carentes em espetáculos artístico-culturais e esportivos, e revoga a Medida Provisória nº 2.208, de 17 de agosto de 2001.",
+    "publicacao": "DOU de 27/12/2013",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "regulamentada_por": [
+      "Decreto nº 8.537, de 5 de outubro de 2015"
+    ],
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "cultura_e_lazer"
+  ],
+  "definicao": "A Lei nº 12.933/2013 trata da meia-entrada em cinemas, teatros, espetáculos musicais e circenses e eventos educativos, esportivos, de lazer e de entretenimento. Ela inclui a pessoa com deficiência e, quando necessário, o seu acompanhante entre os beneficiários. O Decreto nº 8.537/2015 regulamenta a lei e diz como a pessoa com deficiência comprova o direito.",
+  "afirmacoes": [
+    {
+      "texto": "As pessoas com deficiência também fazem jus ao benefício da meia-entrada, inclusive o acompanhante quando necessário, que terá idêntico benefício no evento em que comprove estar nessa condição, na forma do regulamento (art. 1º, § 8º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A meia-entrada é o pagamento da metade do preço do ingresso efetivamente cobrado do público em geral, em salas de cinema, cineclubes, teatros, espetáculos musicais e circenses e eventos educativos, esportivos, de lazer e de entretenimento, em todo o território nacional, promovidos por quaisquer entidades e realizados em estabelecimentos públicos ou particulares (art. 1º, caput). O benefício não é cumulativo com outras promoções e convênios e não se aplica aos serviços adicionais em camarotes, áreas e cadeiras especiais (art. 1º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A meia-entrada é assegurada em 40% do total dos ingressos disponíveis para cada evento (art. 1º, § 10). As produtoras dos eventos devem informar, de forma visível e clara, em todos os pontos de venda, o número total de ingressos e o número de ingressos disponíveis para a meia-entrada, e avisar quando esses ingressos se esgotarem (art. 2º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pelo Decreto nº 8.537, de 2015, a pessoa com deficiência comprova o direito apresentando, na compra do ingresso e na portaria ou na entrada do evento, o cartão do Benefício de Prestação Continuada da Assistência Social da pessoa com deficiência ou documento do INSS que ateste a aposentadoria pelos critérios da Lei Complementar nº 142, de 2013, acompanhado de documento de identificação com foto expedido por órgão público e válido em todo o território nacional (art. 6º, caput e § 1º, do decreto).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Esses documentos serão substituídos, conforme regulamento, quando for instituída a avaliação da deficiência prevista no § 1º do art. 2º da Lei nº 13.146, de 2015. Enquanto essa avaliação não for instituída, o benefício do acompanhante é concedido mediante declaração da necessidade de acompanhamento pela pessoa com deficiência ou, na impossibilidade dela, pelo acompanhante, na compra do ingresso e na entrada do evento (art. 6º, §§ 2º a 4º, do decreto).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Na ausência da informação sobre o número de ingressos de meia-entrada nos pontos de venda, o benefício será garantido às pessoas com deficiência e ao seu acompanhante, quando necessário, independentemente do percentual de 40% (Decreto nº 8.537, de 2015, art. 11, parágrafo único).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Os estabelecimentos devem afixar cartazes, em local visível da bilheteria e da portaria, com as condições para a meia-entrada e os telefones dos órgãos de fiscalização (art. 4º). A fiscalização do cumprimento da lei cabe aos órgãos públicos competentes federais, estaduais e municipais (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entrou em vigor na data de sua publicação, gerando efeitos a partir da edição da norma regulamentadora (art. 6º). O Decreto nº 8.537, de 2015, entrou em vigor em 1º de dezembro de 2015 (art. 28 do decreto).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-8742-1993",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lc-142-2013",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro trata da meia-entrada da pessoa com deficiência; não traz as regras para estudantes, idosos e jovens de baixa renda, nem a reserva de vagas em transporte que o decreto também regulamenta.",
+    "A vigência foi conferida no texto compilado do Planalto em 9 de novembro de 2026. As mudanças feitas pela Medida Provisória nº 895, de 2019, aparecem riscadas, com a vigência encerrada; o texto em vigor é o original. O decreto regulamentador não mostra alterações.",
+    "O Planalto remete à ADI 5108, do Supremo Tribunal Federal, nos dispositivos sobre a carteira estudantil, que não fazem parte deste registro."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 12.933, de 26 de dezembro de 2013: dispõe sobre o benefício do pagamento de meia-entrada para estudantes, idosos, pessoas com deficiência e jovens de 15 a 29 anos comprovadamente carentes em espetáculos artístico-culturais e esportivos",
+      "autor": "Brasil",
+      "ano": 2013,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12933.htm",
+      "referencia": "texto compilado: art. 1º, caput e §§ 1º, 8º e 10; arts. 2º, 3º, 4º e 6º",
+      "trecho": "§ 8º Também farão jus ao benefício da meia-entrada as pessoas com deficiência, inclusive seu acompanhante quando necessário, sendo que este terá idêntico benefício no evento em que comprove estar nesta condição, na forma do regulamento.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Decreto nº 8.537, de 5 de outubro de 2015: regulamenta a Lei nº 12.852, de 5 de agosto de 2013, e a Lei nº 12.933, de 26 de dezembro de 2013, para dispor sobre o benefício da meia-entrada para acesso a eventos artístico-culturais e esportivos",
+      "autor": "Brasil",
+      "ano": 2015,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/decreto/d8537.htm",
+      "referencia": "arts. 6º, 11 e 28",
+      "trecho": "Art. 6º As pessoas com deficiência terão direito ao benefício da meia-entrada mediante a apresentação, no momento da aquisição do ingresso e na portaria ou na entrada do local de realização do evento: I - do cartão de Benefício de Prestação Continuada da Assistência Social da pessoa com deficiência; ou II - de documento emitido pelo Instituto Nacional do Seguro Social - INSS que ateste a aposentadoria de acordo com os critérios estabelecidos na Lei Complementar nº 142, de 8 de maio de 2013.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

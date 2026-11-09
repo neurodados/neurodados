@@ -1,0 +1,185 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-10216-2001",
+  "slug": "lei-10216-2001",
+  "base": "neurodireitos",
+  "nome": "Lei nº 10.216, de 6 de abril de 2001",
+  "nomes_alternativos": [
+    "Lei da Reforma Psiquiátrica",
+    "Lei Paulo Delgado",
+    "Lei Antimanicomial"
+  ],
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "10.216",
+    "data": "2001-04-06",
+    "orgao": "Presidência da República",
+    "ementa": "Dispõe sobre a proteção e os direitos das pessoas portadoras de transtornos mentais e redireciona o modelo assistencial em saúde mental.",
+    "publicacao": "DOU de 09/04/2001, p. 2",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "saude_mental"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "saude",
+    "justica"
+  ],
+  "definicao": "A Lei nº 10.216/2001 trata da proteção e dos direitos das pessoas com transtornos mentais e redireciona o modelo de assistência em saúde mental. Ela lista os direitos da pessoa em qualquer atendimento de saúde mental, dá preferência ao tratamento em serviços comunitários, define três tipos de internação psiquiátrica e fixa regras para cada um.",
+  "afirmacoes": [
+    {
+      "texto": "Os direitos e a proteção das pessoas com transtorno mental são assegurados sem qualquer forma de discriminação, inclusive quanto à idade, à família, aos recursos econômicos e ao grau de gravidade ou ao tempo de evolução do transtorno (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Em qualquer atendimento de saúde mental, a pessoa e seus familiares ou responsáveis devem ser informados formalmente dos direitos do parágrafo único do art. 2º. Entre eles: ter acesso ao melhor tratamento do sistema de saúde, de acordo com suas necessidades; ser tratada com humanidade e respeito; ser protegida contra abuso e exploração; ter sigilo das informações; ter presença médica, a qualquer tempo, para esclarecer a necessidade ou não de hospitalização involuntária; receber o maior número de informações sobre sua doença e seu tratamento; ser tratada em ambiente terapêutico pelos meios menos invasivos possíveis; e ser tratada, de preferência, em serviços comunitários de saúde mental.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 3º diz que é responsabilidade do Estado desenvolver a política de saúde mental e prestar assistência e ações de saúde às pessoas com transtornos mentais, com a participação da sociedade e da família.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A internação, em qualquer de suas modalidades, só é indicada quando os recursos extra-hospitalares (fora do hospital) se mostrarem insuficientes, e o tratamento tem como finalidade permanente a reinserção social da pessoa em seu meio (art. 4º, caput e § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "É vedada a internação em instituições com características asilares, isto é, sem assistência integral (serviços médicos, de assistência social, psicológicos, ocupacionais, de lazer e outros) e que não assegurem os direitos do art. 2º (art. 4º, §§ 2º e 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A pessoa hospitalizada há longo tempo, ou em situação de grave dependência institucional, deve ser objeto de política específica de alta planejada e reabilitação psicossocial assistida, com a continuidade do tratamento quando necessário (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A internação psiquiátrica só pode ser feita com laudo médico circunstanciado que caracterize os seus motivos. A lei define três tipos: a voluntária, com o consentimento da pessoa; a involuntária, sem o consentimento e a pedido de terceiro; e a compulsória, determinada pela Justiça (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A internação voluntária ou involuntária só pode ser autorizada por médico registrado no Conselho Regional de Medicina do estado do estabelecimento. A internação involuntária, e também a alta, deve ser comunicada ao Ministério Público Estadual em até 72 horas pelo responsável técnico do estabelecimento, e termina por pedido escrito do familiar ou do responsável legal, ou quando o responsável pelo tratamento estabelecer (art. 8º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Evasão, transferência, acidente, intercorrência clínica grave e falecimento devem ser comunicados pela direção do estabelecimento aos familiares ou ao representante legal e à autoridade sanitária em até 24 horas (art. 10).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pesquisas científicas para fins diagnósticos ou terapêuticos dependem do consentimento expresso da pessoa ou de seu representante legal e de comunicação aos conselhos profissionais e ao Conselho Nacional de Saúde (art. 11).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "No banco de legislação do Senado Federal, a lei aparece com os apelidos Lei da Reforma Psiquiátrica, Lei Paulo Delgado e Lei Antimanicomial, e a ficha registra como autor do projeto o deputado Paulo Delgado (PL 3.657, de 1989).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "No SUS, a Portaria de Consolidação GM/MS nº 2/2017 lista a Política de Saúde Mental, instituída pela Lei nº 10.216/2001, entre as políticas gerais de promoção, proteção e recuperação da saúde, com regulamento no Anexo II (art. 2º, IV).",
+      "fontes": [
+        "f3"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.portaria-de-consolidacao-gm-ms-2-2017",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.portaria-de-consolidacao-gm-ms-3-2017",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14819-2024",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume pontos da lei; não traz todos os artigos nem as normas do SUS que organizam a rede de saúde mental.",
+    "A lei não define quais condições são transtornos mentais para os seus efeitos.",
+    "A vigência foi conferida no texto do Planalto em 9 de novembro de 2026; o texto não mostra alterações."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 10.216, de 6 de abril de 2001: dispõe sobre a proteção e os direitos das pessoas portadoras de transtornos mentais e redireciona o modelo assistencial em saúde mental",
+      "autor": "Brasil",
+      "ano": 2001,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10216.htm",
+      "referencia": "arts. 1º a 6º, 8º, 10 e 11",
+      "trecho": "Art. 4º A internação, em qualquer de suas modalidades, só será indicada quando os recursos extra-hospitalares se mostrarem insuficientes.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "site_institucional",
+      "titulo": "Lei nº 10.216 de 06/04/2001: ficha da norma no banco de legislação do Senado Federal",
+      "autor": "Senado Federal",
+      "ano": 2026,
+      "url": "https://legis.senado.leg.br/norma/552092",
+      "referencia": "campos Apelido, Publicação do Texto Principal e Observação",
+      "trecho": "Lei da Reforma Psiquiátrica (2001) , Lei Paulo Delgado (2001) , Lei Antimanicomial (2001)",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "norma",
+      "titulo": "Portaria de Consolidação GM/MS nº 2, de 28 de setembro de 2017: consolidação das normas sobre as políticas nacionais de saúde do Sistema Único de Saúde (texto compilado)",
+      "autor": "Ministério da Saúde",
+      "ano": 2017,
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0002_03_10_2017_comp.html",
+      "referencia": "art. 2º, IV, e Anexo II; cópia da Biblioteca Virtual em Saúde (Saúde Legis)",
+      "trecho": "IV - Política de Saúde Mental, instituída pela Lei nº 10.216, de 6 de abril de 2001, na forma do Anexo II;",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

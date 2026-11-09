@@ -1,0 +1,151 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-8112-1990",
+  "slug": "lei-8112-1990",
+  "base": "neurodireitos",
+  "nome": "Lei nº 8.112, de 11 de dezembro de 1990",
+  "nomes_alternativos": [
+    "Regime Jurídico dos Servidores Públicos Civis da União"
+  ],
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "8.112",
+    "data": "1990-12-11",
+    "orgao": "Presidência da República",
+    "ementa": "Dispõe sobre o regime jurídico dos servidores públicos civis da União, das autarquias e das fundações públicas federais.",
+    "publicacao": "DOU de 12/12/1990, republicado em 18/03/1998",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "parcialmente_revogada",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Lei nº 9.527, de 1997",
+        "Lei nº 13.135, de 2015",
+        "Lei nº 13.370, de 2016",
+        "Lei nº 13.846, de 2019"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "deficiencia_intelectual"
+  ],
+  "areas": [
+    "trabalho",
+    "previdencia"
+  ],
+  "definicao": "A Lei nº 8.112/1990 institui o regime jurídico dos servidores públicos civis da União, das autarquias e das fundações públicas federais. Para a pessoa com deficiência, ela prevê horário especial ao servidor com deficiência e ao servidor que tenha cônjuge, filho ou dependente com deficiência, reserva de até 20% das vagas em concursos e pensão ao filho com deficiência grave ou com deficiência intelectual ou mental.",
+  "afirmacoes": [
+    {
+      "texto": "Será concedido horário especial ao servidor com deficiência, quando comprovada a necessidade por junta médica oficial, independentemente de compensação de horário (art. 98, § 2º, incluído pela Lei nº 9.527, de 1997). O texto da lei usa a expressão \"servidor portador de deficiência\".",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As disposições do § 2º do art. 98 são extensivas ao servidor que tenha cônjuge, filho ou dependente com deficiência (art. 98, § 3º, na redação dada pela Lei nº 13.370, de 2016). Na redação anterior, de 1997, o parágrafo falava em cônjuge, filho ou dependente portador de deficiência física e exigia compensação de horário.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Lei nº 13.370, de 2016, alterou o § 3º do art. 98 para estender o direito a horário especial ao servidor público federal que tenha cônjuge, filho ou dependente com deficiência de qualquer natureza e para revogar a exigência de compensação de horário (ementa da Lei nº 13.370, de 2016).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Às pessoas com deficiência é assegurado o direito de se inscrever em concurso público para cargo cujas atribuições sejam compatíveis com a deficiência, e para elas serão reservadas até 20% das vagas oferecidas no concurso (art. 5º, § 2º). O texto da lei usa a expressão \"pessoas portadoras de deficiência\".",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "São beneficiários da pensão, entre outros, o filho de qualquer condição que seja menor de 21 anos, seja inválido, tenha deficiência grave ou tenha deficiência intelectual ou mental (art. 217, IV, nas redações dadas pelas Leis nº 13.135, de 2015, e nº 13.846, de 2019). O exercício de atividade remunerada, inclusive como microempreendedor individual, não impede a concessão ou a manutenção da cota da pensão de dependente com deficiência intelectual ou mental ou com deficiência grave (art. 222, § 7º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A ementa da Lei nº 12.764, de 2012, menciona a alteração do § 3º do art. 98 desta lei, mas o artigo que fazia essa alteração (art. 6º da Lei nº 12.764) foi vetado. A redação em vigor do § 3º é a dada pela Lei nº 13.370, de 2016.",
+      "fontes": [
+        "f1",
+        "f3"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "A lei vale para os servidores públicos civis da União, das autarquias e das fundações públicas federais. Servidores de estados, do Distrito Federal e de municípios têm estatutos próprios, que não estão neste registro.",
+    "O registro resume pontos da lei ligados à pessoa com deficiência; não traz o resto do regime jurídico nem outras normas sobre concursos públicos.",
+    "A vigência e as alterações foram conferidas no texto compilado do Planalto em 9 de novembro de 2026; a lista traz as leis que mudaram os artigos usados aqui.",
+    "A lei está em vigor; o texto compilado do Planalto marca alguns dispositivos como revogados por leis posteriores. Os pontos deste registro estão em vigor."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.112, de 11 de dezembro de 1990: dispõe sobre o regime jurídico dos servidores públicos civis da União, das autarquias e das fundações públicas federais",
+      "autor": "Brasil",
+      "ano": 1990,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm",
+      "referencia": "texto compilado: arts. 5º, § 2º; 98, §§ 2º e 3º; 217, IV; e 222, § 7º",
+      "trecho": "§ 2º Também será concedido horário especial ao servidor portador de deficiência, quando comprovada a necessidade por junta médica oficial, independentemente de compensação de horário.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.370, de 12 de dezembro de 2016: altera o § 3º do art. 98 da Lei nº 8.112, de 11 de dezembro de 1990",
+      "autor": "Brasil",
+      "ano": 2016,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13370.htm",
+      "referencia": "ementa e art. 1º",
+      "trecho": "Altera o § 3º do art. 98 da Lei nº 8.112, de 11 de dezembro de 1990, para estender o direito a horário especial ao servidor público federal que tenha cônjuge, filho ou dependente com deficiência de qualquer natureza e para revogar a exigência de compensação de horário.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "lei",
+      "titulo": "Lei nº 12.764, de 27 de dezembro de 2012: institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista",
+      "autor": "Brasil",
+      "ano": 2012,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm",
+      "referencia": "ementa e art. 6º (vetado)",
+      "trecho": "Institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista; e altera o § 3º do art. 98 da Lei nº 8.112, de 11 de dezembro de 1990.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

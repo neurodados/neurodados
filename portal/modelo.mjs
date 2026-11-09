@@ -3,7 +3,7 @@
 
 import {
   MARCA, AVISO, PULAR, MENU_ROTULO, MENU, RODAPE, CATEGORIAS, RELACOES, REGISTRO, PAGINAS,
-  FERRAMENTAS_MCP, ROTULOS, TEMAS,
+  FERRAMENTAS_MCP, ROTULOS, TEMAS, CONDICOES, AREAS, REGULACAO,
 } from './textos.mjs';
 
 export function esc(s) {
@@ -166,6 +166,38 @@ export function paginaTexto(ctx, chave, caminho) {
   return pagina(ctx, { caminho, titulo: P.titulo, descricao: P.descricao, corpo, grafo: [paginaWeb(ctx, caminho, P.titulo)] });
 }
 
+// "Regulação de Neurodados": o texto vem de REGULACAO, com **negrito** e chamadas [n] para as fontes.
+const comRefs = (t) => esc(t)
+  .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+  .replace(/\[(\d+)\]/g, (m, n) => `<sup class="ref"><a href="#fonte-${n}" aria-label="${esc(fmt(ROTULOS.fonteN, { n }))}">${n}</a></sup>`);
+// Os endereços viram links, sem a pontuação que fecha a frase ou o parêntese.
+const URL_NO_TEXTO = /https?:\/\/[^\s<]+?(?=[.,;)]{0,2}(?:\s|$))/g;
+const comLinks = (t) => esc(t).replace(URL_NO_TEXTO, (u) => `<a href="${u}">${u}</a>`);
+
+export function paginaRegulacao(ctx) {
+  const P = REGULACAO;
+  const caminho = '/regulacao-de-neurodados';
+  const bloco = (b) => (b.lista ? `<ul>${b.lista.map((i) => `<li>${comRefs(i)}</li>`).join('')}</ul>` : `<p>${comRefs(b.p)}</p>`);
+  const T = P.tabela;
+  const tabela = `<h2>${esc(T.titulo)}</h2><div class="tabela tabela-normas"><table><thead><tr>${T.colunas.map((c) => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${T.linhas.map((l) => `<tr>${l.map((c, j) => `<td data-rotulo="${esc(T.colunas[j])}">${comRefs(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  const partes = P.secoes.map((s, i) => `<h2>${esc(s.titulo)}</h2>${s.blocos.map(bloco).join('')}${i + 1 === T.depoisDaSecao ? tabela : ''}`);
+  const fontes = `<h2>${esc(P.fontesTitulo)}</h2><p>${esc(P.fontesNota)}</p><ol class="fontes">${P.fontes.map((f, i) => `<li id="fonte-${i + 1}"><strong>${esc(f.titulo)}</strong> ${comLinks(f.resto)}</li>`).join('')}</ol>`;
+  const corpo = `<h1>${esc(P.h1)}</h1><p class="meta">${esc(P.data)}</p>${P.intro.map((p) => `<p class="lead">${comRefs(p)}</p>`).join('')}
+<div class="texto">${partes.join('\n')}
+${fontes}</div>
+${aviso()}`;
+  const primeiroEndereco = (t) => (t.match(URL_NO_TEXTO) || [])[0];
+  const grafo = [
+    {
+      '@type': 'Article', '@id': ctx.urlBase + caminho + '#artigo', headline: P.h1, description: P.descricao, inLanguage: 'pt-BR',
+      datePublished: '2026-11-09', dateModified: '2026-11-09', url: ctx.urlBase + caminho, publisher: { '@id': ctx.mantenedorId },
+      citation: P.fontes.map((f) => ({ '@type': 'CreativeWork', name: f.titulo, url: primeiroEndereco(f.resto) })),
+    },
+    paginaWeb(ctx, caminho, P.titulo),
+  ];
+  return pagina(ctx, { caminho, titulo: P.titulo, descricao: P.descricao, corpo, grafo });
+}
+
 export function paginaMetodologia(ctx) {
   const P = PAGINAS.metodologia;
   const passos = `<ol>${P.passos.map(([t, d]) => `<li><strong>${esc(t)}.</strong> ${esc(d)}</li>`).join('')}</ol>`;
@@ -228,7 +260,10 @@ ${aviso()}`;
     },
     paginaWeb(ctx, `/bases/${base.id}`, textos.titulo),
   ];
-  if (base.id !== 'evidenciabase') {
+  if (base.id === 'neurodireitos') {
+    // As normas não são termos: o dataset aponta para cada uma como Legislation.
+    grafo[0].hasPart = publicos.map((r) => ({ '@id': `${resumo.url}/${r.slug}#norma` }));
+  } else if (base.id !== 'evidenciabase') {
     grafo.push({
       '@type': 'DefinedTermSet', '@id': resumo.url + '#termos', name: d.nome, url: resumo.url,
       hasDefinedTerm: publicos.map((r) => ({ '@id': `${resumo.url}/${r.slug}#termo` })),
@@ -267,6 +302,34 @@ function blocoInstrumento(r, refs) {
     [I.uso, esc(I.usos[i.uso])],
     [I.satepsi, situacao],
   ])}<p class="texto meta">${esc(I.aviso)}</p>`;
+}
+
+// NeuroDireitos: a ficha da norma, com o link do texto oficial e a vigência conferida.
+function blocoNorma(r, refs) {
+  const N = REGISTRO.norma;
+  const n = r.norma;
+  if (!n) return '';
+  const oficial = (r.fontes || []).find((f) => f.id === n.fonte);
+  const v = n.vigencia || {};
+  const vigencia = [esc(N.situacoes[v.situacao] || v.situacao), v.conferido_em ? esc(fmt(N.conferida, { data: porExtenso(v.conferido_em) })) : ''].filter(Boolean).join(', ') + refs([n.fonte]);
+  const lista = (xs) => (xs && xs.length ? esc(xs.join('; ')) : '');
+  const lugar = [N.abrangencias[n.abrangencia] || n.abrangencia, n.uf, n.municipio].filter(Boolean).join(', ');
+  return `<h2>${esc(N.titulo)}</h2>${linhas([
+    [N.tipo, esc(N.tipos[n.tipo] || n.tipo)],
+    [N.numero, esc(n.numero)],
+    [N.data, esc(porExtenso(n.data))],
+    [N.orgao, esc(n.orgao)],
+    [N.ementa, esc(n.ementa)],
+    [N.publicacao, n.publicacao ? esc(n.publicacao) : ''],
+    [N.abrangencia, esc(lugar)],
+    [N.vigencia, vigencia],
+    [N.alteracoes, lista(v.alteracoes)],
+    [N.revogadaPor, v.revogada_por ? esc(v.revogada_por) : ''],
+    [N.regulamentadaPor, lista(n.regulamentada_por)],
+    [N.condicoes, esc((r.condicoes || []).map((c) => CONDICOES[c] || c).join(', '))],
+    [N.areas, esc((r.areas || []).map((a) => AREAS[a] || a).join(', '))],
+    [N.textoOficial, oficial ? `<a href="${esc(oficial.url)}">${esc(semEsquema(oficial.url))}</a>` : ''],
+  ])}<p class="texto meta">${esc(N.aviso)}</p>`;
 }
 
 function blocoIntervencao(r) {
@@ -345,6 +408,7 @@ ${faixa}
 ${r.descricao ? `<p class="texto">${esc(r.descricao)}</p>` : ''}
 ${blocoPublicacao(r)}
 ${blocoInstrumento(r, refs)}
+${blocoNorma(r, refs)}
 ${blocoIntervencao(r)}
 <h2>${esc(evidencia ? R.resultados : R.afirmacoes)}</h2>${afirmacoes}
 ${classif}
@@ -365,6 +429,19 @@ ${aviso()}
       datePublished: String(p.ano), isPartOf: { '@type': 'CreativeWork', name: p.veiculo }, url: p.url, abstract: r.definicao, inLanguage: p.idioma,
     };
     if (p.doi) { principal.identifier = `https://doi.org/${p.doi}`; principal.sameAs = `https://doi.org/${p.doi}`; }
+  } else if (r.norma) {
+    // schema.org/Legislation: a norma, com a vigência e o texto oficial.
+    const n = r.norma;
+    const oficial = (r.fontes || []).find((f) => f.id === n.fonte);
+    const forca = { vigente: 'https://schema.org/InForce', parcialmente_revogada: 'https://schema.org/PartiallyInForce', revogada: 'https://schema.org/NotInForce' };
+    principal = {
+      '@type': 'Legislation', '@id': url + '#norma', name: r.nome, alternateName: (r.nomes_alternativos || []).length ? r.nomes_alternativos : undefined,
+      description: r.definicao, abstract: n.ementa, legislationIdentifier: `${REGISTRO.norma.tipos[n.tipo] || n.tipo} nº ${n.numero}`,
+      legislationDate: n.data, legislationType: REGISTRO.norma.tipos[n.tipo] || n.tipo,
+      legislationJurisdiction: n.abrangencia === 'federal' ? 'BR' : [n.uf, n.municipio].filter(Boolean).join(', '),
+      legislationPassedBy: { '@type': 'Organization', name: n.orgao }, legislationLegalForce: forca[n.vigencia?.situacao],
+      inLanguage: 'pt-BR', url: oficial ? oficial.url : url, sameAs: oficial ? oficial.url : undefined,
+    };
   } else {
     principal = {
       '@type': r.categoria === 'condicao_do_neurodesenvolvimento' ? ['DefinedTerm', 'MedicalCondition'] : 'DefinedTerm',
@@ -393,7 +470,7 @@ ${aviso()}
 
 // Ferramenta do MCP que depende de uma base: só aparece na documentação quando a base está no ar,
 // como no próprio servidor. A busca de instrumentos pede também registro de instrumento.
-const BASE_DA_FERRAMENTA = { buscar_conceito: 'neurobase', consultar_tea: 'neurobase', consultar_tdah: 'neurobase', buscar_avaliacao: 'avaliabase', buscar_instrumento: 'avaliabase', buscar_intervencao: 'intervenbase', buscar_evidencias: 'evidenciabase' };
+const BASE_DA_FERRAMENTA = { buscar_conceito: 'neurobase', consultar_tea: 'neurobase', consultar_tdah: 'neurobase', buscar_avaliacao: 'avaliabase', buscar_instrumento: 'avaliabase', buscar_intervencao: 'intervenbase', buscar_evidencias: 'evidenciabase', buscar_norma: 'neurodireitos' };
 
 export function paginaDocumentacao(ctx, resumos, { temInstrumentos = false } = {}) {
   const noAr = new Set(resumos.map((b) => b.id));

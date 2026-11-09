@@ -1,0 +1,114 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-14624-2023",
+  "slug": "lei-14624-2023",
+  "base": "neurodireitos",
+  "nome": "Lei nº 14.624, de 17 de julho de 2023",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "14.624",
+    "data": "2023-07-17",
+    "orgao": "Presidência da República",
+    "ementa": "Altera a Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para instituir o uso do cordão de fita com desenhos de girassóis para a identificação de pessoas com deficiências ocultas.",
+    "publicacao": "DOU de 17/07/2023, edição extra",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "identificacao"
+  ],
+  "definicao": "A Lei nº 14.624/2023 incluiu no Estatuto da Pessoa com Deficiência o art. 2º-A, que institui o cordão de fita com desenhos de girassóis como símbolo nacional de identificação de pessoas com deficiências ocultas. O uso do cordão é opcional e não dispensa o documento que comprova a deficiência, se ele for pedido.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º da lei incluiu na Lei nº 13.146/2015 (Estatuto da Pessoa com Deficiência) o art. 2º-A, que institui o cordão de fita com desenhos de girassóis como símbolo nacional de identificação de pessoas com deficiências ocultas.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O uso do símbolo é opcional, e a ausência dele não prejudica o exercício de direitos e garantias previstos em lei (art. 2º-A, § 1º, da Lei nº 13.146/2015).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O uso do símbolo não dispensa a apresentação de documento comprobatório da deficiência, caso seja solicitado pelo atendente ou pela autoridade competente (art. 2º-A, § 2º, da Lei nº 13.146/2015).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "A lei entrou em vigor na data da publicação (art. 2º), no Diário Oficial da União de 17 de julho de 2023, em edição extra.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-10048-2000",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "A lei não define quais são as deficiências ocultas nem cria um documento; ela trata só do símbolo.",
+    "O registro não resume o Estatuto da Pessoa com Deficiência.",
+    "A vigência foi conferida nos textos do Planalto em 9 de novembro de 2026: o art. 2º-A segue em vigor no texto compilado da Lei nº 13.146/2015, sem alterações."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.624, de 17 de julho de 2023: altera a Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para instituir o uso do cordão de fita com desenhos de girassóis para a identificação de pessoas com deficiências ocultas",
+      "autor": "Brasil",
+      "ano": 2023,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14624.htm",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "Art. 2º-A. É instituído o cordão de fita com desenhos de girassóis como símbolo nacional de identificação de pessoas com deficiências ocultas.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.146, de 6 de julho de 2015: institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência) (texto compilado)",
+      "autor": "Brasil",
+      "ano": 2015,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+      "referencia": "texto compilado: art. 2º-A, incluído pela Lei nº 14.624, de 2023",
+      "trecho": "§ 2º A utilização do símbolo de que trata o caput deste artigo não dispensa a apresentação de documento comprobatório da deficiência, caso seja solicitado pelo atendente ou pela autoridade competente.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -15,6 +15,8 @@ export function registroPorChave(lista, base, chave) {
 function nomesDe(r) {
   const nomes = [r.nome, r.sigla, ...(r.nomes_alternativos || [])];
   if (r.instrumento?.nome_original) nomes.push(r.instrumento.nome_original);
+  // Normas: o número com e sem ponto ("12.764" e "12764").
+  if (r.norma?.numero) nomes.push(r.norma.numero, r.norma.numero.replace(/\./g, ''));
   if (r.publicacao) {
     nomes.push(r.publicacao.titulo_original);
     for (const a of r.publicacao.autores || []) nomes.push(a.split(/[ ,]+/)[0]);
@@ -32,7 +34,7 @@ export function buscar(lista, consulta, { categoria } = {}) {
   for (const r of candidatos) {
     const nomes = nomesDe(r);
     const corpo = normalizar([
-      r.definicao, r.descricao, r.publico, r.populacao, r.metodo,
+      r.definicao, r.descricao, r.publico, r.populacao, r.metodo, r.norma?.ementa,
       ...(r.afirmacoes || []).map((a) => a.texto), ...(r.objetivos || []), ...(r.instrumento?.construtos || []), ...(r.temas || []),
     ].join(' '));
     let p = 0;
@@ -65,5 +67,11 @@ export function resumo(r) {
   };
   if (r.instrumento) s.satepsi = r.instrumento.satepsi;
   if (r.publicacao) s.publicacao = { titulo_original: r.publicacao.titulo_original, ano: r.publicacao.ano, doi: r.publicacao.doi || null };
+  if (r.norma) {
+    const oficial = (r.fontes || []).find((f) => f.id === r.norma.fonte);
+    s.norma = { tipo: r.norma.tipo, numero: r.norma.numero, data: r.norma.data, vigencia: r.norma.vigencia.situacao, vigencia_conferida_em: r.norma.vigencia.conferido_em, texto_oficial: oficial ? oficial.url : null };
+    s.condicoes = r.condicoes || [];
+    s.areas = r.areas || [];
+  }
   return s;
 }

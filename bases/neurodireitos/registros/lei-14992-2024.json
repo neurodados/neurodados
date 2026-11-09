@@ -1,0 +1,131 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-14992-2024",
+  "slug": "lei-14992-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 14.992, de 3 de outubro de 2024",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "14.992",
+    "data": "2024-10-03",
+    "orgao": "Presidência da República",
+    "ementa": "Altera a Lei nº 13.667, de 17 de maio de 2018, para estabelecer medidas que favoreçam a inserção de pessoas com transtorno do espectro autista no mercado de trabalho.",
+    "publicacao": "DOU de 04/10/2024",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "deficiencia"
+  ],
+  "areas": [
+    "trabalho",
+    "acessibilidade"
+  ],
+  "definicao": "A Lei nº 14.992/2024 mudou a Lei nº 13.667/2018, que trata do Sistema Nacional de Emprego (Sine), para favorecer a inserção de pessoas com transtorno do espectro autista no mercado de trabalho. Ela manda integrar ao Sine a base do Sistema Nacional de Cadastro da Pessoa com TEA (SisTEA), exige a observância das normas de acessibilidade e inclui o fomento à contratação de pessoas com deficiência.",
+  "afirmacoes": [
+    {
+      "texto": "Compete à União integrar ao Sine a base de dados do Sistema Nacional de Cadastro da Pessoa com Transtorno do Espectro Autista (SisTEA), previsto no Decreto nº 12.115/2024 e sob a responsabilidade do Ministério dos Direitos Humanos e da Cidadania, com vistas à intermediação de vagas de emprego e de contratos de aprendizagem (art. 7º, V, da Lei nº 13.667/2018, incluído pela Lei nº 14.992/2024).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Compete à União e às esferas de governo que aderirem ao Sine prover o pessoal e a infraestrutura das ações e dos serviços do Sine com observância das normas técnicas de acessibilidade da Associação Brasileira de Normas Técnicas (ABNT) (art. 6º, I, da Lei nº 13.667/2018, na redação dada pela Lei nº 14.992/2024).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Compete aos municípios que aderirem ao Sine fomentar iniciativas para a inclusão de pessoas com deficiência no mercado de trabalho, incluindo a realização de feiras de emprego e a sensibilização de empregadores para a contratação de pessoas com deficiência (art. 9º, IX, da Lei nº 13.667/2018, incluído pela Lei nº 14.992/2024).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O SisTEA é um sistema informatizado gerido pelo Ministério dos Direitos Humanos e da Cidadania, operado em conjunto com os órgãos estaduais, distritais e municipais da política para pessoas com TEA, e a base de dados dele é de acesso restrito (art. 1º, §§ 1º a 3º, do Decreto nº 12.115/2024).",
+      "fontes": [
+        "f3"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume as mudanças que a lei fez na Lei nº 13.667/2018; não resume toda a lei do Sine nem as regras de adesão de estados e municípios.",
+    "A lei trata das ações do Sine e do poder público; não traz regras para as empresas.",
+    "A vigência foi conferida no texto compilado da Lei nº 13.667/2018 no Planalto em 9 de novembro de 2026: os dispositivos incluídos pela lei seguem em vigor."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.992, de 3 de outubro de 2024: altera a Lei nº 13.667, de 17 de maio de 2018, para estabelecer medidas que favoreçam a inserção de pessoas com transtorno do espectro autista no mercado de trabalho",
+      "autor": "Brasil",
+      "ano": 2024,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14992.htm",
+      "referencia": "art. 1º",
+      "trecho": "V - integrar ao Sine a base de dados do Sistema Nacional de Cadastro da Pessoa com Transtorno do Espectro Autista (SisTEA), previsto no Decreto nº 12.115, de 17 de julho de 2024, sob a responsabilidade do Ministério dos Direitos Humanos e da Cidadania, com vistas à intermediação de vagas de emprego e contratos de aprendizagem, nos termos da Lei nº 10.097, de 19 de dezembro de 2000.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.667, de 17 de maio de 2018: dispõe sobre o Sistema Nacional de Emprego (Sine) (texto compilado)",
+      "autor": "Brasil",
+      "ano": 2018,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13667.htm",
+      "referencia": "texto compilado: arts. 6º, I, 7º, V, e 9º, IX, na redação da Lei nº 14.992, de 2024",
+      "trecho": "fomentar iniciativas para a inclusão de pessoas com deficiência no mercado de trabalho, incluindo a realização de feiras de emprego e a sensibilização de empregadores para a contratação de pessoas com deficiência.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "norma",
+      "titulo": "Decreto nº 12.115, de 17 de julho de 2024: institui o Sistema Nacional de Cadastro da Pessoa com Transtorno do Espectro Autista",
+      "autor": "Brasil",
+      "ano": 2024,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/D12115.htm",
+      "referencia": "art. 1º, §§ 1º a 3º",
+      "trecho": "§ 1º O SisTEA é um sistema informatizado gerido pelo Ministério dos Direitos Humanos e da Cidadania.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

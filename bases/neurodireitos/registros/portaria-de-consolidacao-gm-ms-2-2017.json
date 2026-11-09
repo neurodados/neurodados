@@ -1,0 +1,186 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.portaria-de-consolidacao-gm-ms-2-2017",
+  "slug": "portaria-de-consolidacao-gm-ms-2-2017",
+  "base": "neurodireitos",
+  "nome": "Portaria de Consolidação GM/MS nº 2, de 28 de setembro de 2017",
+  "categoria": "norma_infralegal",
+  "norma": {
+    "tipo": "portaria_de_consolidacao",
+    "numero": "2",
+    "data": "2017-09-28",
+    "orgao": "Ministério da Saúde",
+    "ementa": "Consolidação das normas sobre as políticas nacionais de saúde do Sistema Único de Saúde.",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "parcialmente_revogada",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Portaria nº 981/GM/MS, de 2014",
+        "Portaria GM/MS nº 1.526, de 2023",
+        "Portaria GM/MS nº 3.132, de 2024"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "doencas_raras",
+    "deficiencia_intelectual",
+    "deficiencia",
+    "tea",
+    "saude_mental"
+  ],
+  "areas": [
+    "saude"
+  ],
+  "definicao": "A Portaria de Consolidação GM/MS nº 2/2017 reúne as normas do Ministério da Saúde sobre as políticas nacionais de saúde do SUS. No Anexo XXXVIII está a Política Nacional de Atenção Integral às Pessoas com Doenças Raras, que veio da Portaria GM/MS nº 199/2014: ela define doença rara, organiza o cuidado em dois eixos e prevê serviços de atenção especializada e de referência em doenças raras.",
+  "afirmacoes": [
+    {
+      "texto": "A Política Nacional de Atenção Integral às Pessoas com Doenças Raras e as Diretrizes para Atenção Integral às Pessoas com Doenças Raras no SUS estão no Anexo XXXVIII (art. 7º, X, e Anexo XXXVIII, art. 1º). Elas vieram da Portaria GM/MS nº 199/2014, cujos arts. 1º a 21, 28 a 38, 38-A e 39 a 43 foram revogados por consolidação pela própria Portaria de Consolidação nº 2/2017 (art. 9º, XCIX).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para os efeitos do anexo, doença rara é a que afeta até 65 pessoas em cada 100.000 indivíduos, ou seja, 1,3 pessoas para cada 2.000 indivíduos (Anexo XXXVIII, art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A política tem abrangência transversal às redes temáticas prioritárias do SUS, em especial a Rede de Atenção às Pessoas com Doenças Crônicas, a Rede de Atenção à Pessoa com Deficiência, a Rede de Urgência e Emergência, a Rede de Atenção Psicossocial e a Rede Cegonha (Anexo XXXVIII, art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre os objetivos específicos estão garantir a universalidade, a integralidade e a equidade das ações e serviços de saúde para as pessoas com doenças raras e garantir a elas, em tempo oportuno, acesso aos meios diagnósticos e terapêuticos disponíveis conforme suas necessidades (Anexo XXXVIII, art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O cuidado é organizado em dois eixos: o Eixo I, de doenças raras de origem genética, com os grupos de anomalias congênitas ou de manifestação tardia, de deficiência intelectual e de erros inatos de metabolismo; e o Eixo II, de doenças raras de origem não genética, com os grupos de doenças infecciosas, inflamatórias, autoimunes e outras (Anexo XXXVIII, art. 12).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na linha de cuidado, cabe à Atenção Básica, entre outras ações, implementar ações de diagnóstico precoce pela identificação de sinais e sintomas e encaminhar oportunamente a pessoa com suspeita de doença rara para confirmação diagnóstica (Anexo XXXVIII, art. 13, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A atenção especializada inclui o Serviço de Atenção Especializada em Doenças Raras, que oferece atenção diagnóstica e terapêutica para uma ou mais doenças raras, e o Serviço de Referência em Doenças Raras, que oferece essa atenção para no mínimo dois grupos de doenças raras, conforme os parâmetros do art. 14, § 2º; nos dois, a atenção é multidisciplinar (Anexo XXXVIII, arts. 13, § 2º, e 14).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Esses serviços devem, entre outras atribuições, garantir a investigação diagnóstica e o acompanhamento das doenças para as quais estão habilitados, encaminhar para os CER ou outros serviços de reabilitação sem deixar de ofertar o cuidado integral e realizar o aconselhamento genético das pessoas e de seus familiares, quando indicado (Anexo XXXVIII, art. 15).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A solicitação dos exames para diagnóstico das doenças raras previstos no anexo é facultada apenas aos estabelecimentos habilitados como Serviço de Atenção Especializada em Doenças Raras ou Serviço de Referência em Doenças Raras (Anexo XXXVIII, art. 29).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os medicamentos e as fórmulas nutricionais incorporados pela Conitec e que constam dos protocolos clínicos e diretrizes terapêuticas para doenças raras são objeto de pactuação tripartite no âmbito da assistência farmacêutica e dispostos em atos específicos (Anexo XXXVIII, art. 31).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Desde a Portaria GM/MS nº 3.132/2024, o anexo prevê a Câmara Técnica Assessora de Doenças Raras, de caráter técnico, consultivo e educativo, no Ministério da Saúde (Anexo XXXVIII, art. 3º-A e Anexo 7).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os incentivos financeiros de custeio às equipes dos serviços habilitados em doenças raras, que estavam nos arts. 22 a 27 da Portaria GM/MS nº 199/2014, estão em outra norma: a Portaria de Consolidação GM/MS nº 6/2017, sobre o financiamento do SUS, a partir do art. 409. Ela revogou por consolidação os arts. 22 a 27 e 44 da Portaria nº 199/2014 (art. 1.170, LIX).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Portaria de Consolidação nº 2/2017 reúne também outras políticas de saúde, entre elas a Política Nacional de Atenção Integral à Saúde da Pessoa com Deficiência (Anexo XIII, com a redação da Portaria GM/MS nº 1.526/2023), a política de atenção à saúde das pessoas com transtornos do espectro do autismo (Anexo XXIX) e o regulamento da Política de Saúde Mental, instituída pela Lei nº 10.216/2001 (Anexo II) (arts. 2º, IV, 4º, VI, e 7º, I).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14154-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.portaria-de-consolidacao-gm-ms-3-2017",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-10216-2001",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto publicado no Diário Oficial da União é o que vale; o texto compilado do Saúde Legis é uma cópia de referência.",
+    "O registro resume o Anexo XXXVIII e só cita os Anexos II, XIII e XXIX; a portaria tem dezenas de outras políticas que não estão aqui. As alterações listadas na ficha são as dos Anexos XIII e XXXVIII.",
+    "A portaria está em vigor; o texto compilado do Saúde Legis marca muitos dispositivos de outros anexos como revogados, mas nenhum do Anexo XXXVIII. Os pontos deste registro estão em vigor.",
+    "O registro não trata das tabelas de procedimentos e habilitações, dos valores de financiamento nem de quais serviços estão habilitados em cada estado.",
+    "A vigência foi conferida no texto compilado do Saúde Legis em 9 de novembro de 2026. Esse texto traz alterações até setembro de 2026, mas pode demorar a incluir mudanças novas."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Portaria de Consolidação GM/MS nº 2, de 28 de setembro de 2017: consolidação das normas sobre as políticas nacionais de saúde do Sistema Único de Saúde (texto compilado)",
+      "autor": "Ministério da Saúde",
+      "ano": 2017,
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0002_03_10_2017_comp.html",
+      "referencia": "arts. 2º, 4º, 7º e 9º, XCIX; Anexo XXXVIII, arts. 1º a 3º-A, 5º, 12 a 15, 29 e 31; Saúde Legis",
+      "trecho": "Art. 3º Para efeito deste Anexo, considera-se doença rara aquela que afeta até 65 pessoas em cada 100.000 indivíduos, ou seja, 1,3 pessoas para cada 2.000 indivíduos.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Portaria de Consolidação GM/MS nº 6, de 28 de setembro de 2017: consolidação das normas sobre o financiamento e a transferência dos recursos federais para as ações e os serviços de saúde do Sistema Único de Saúde (texto compilado)",
+      "autor": "Ministério da Saúde",
+      "ano": 2017,
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0006_03_10_2017_comp.html",
+      "referencia": "Seção XIV, Dos Incentivos Financeiros de Custeio à Política Nacional de Atenção Integral às Pessoas com Doenças Raras (art. 409 e seguintes), e art. 1.170, LIX; Saúde Legis",
+      "trecho": "LIX - arts. 22 a 27 e 44 da Portaria nº 199/GM/MS, de 30 de janeiro de 2014, publicada no Diário Oficial da União, Seção 1, de 12 de fevereiro de 2014, p. 44;",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

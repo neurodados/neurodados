@@ -1,0 +1,124 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-14154-2021",
+  "slug": "lei-14154-2021",
+  "base": "neurodireitos",
+  "nome": "Lei nº 14.154, de 26 de maio de 2021",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "14.154",
+    "data": "2021-05-26",
+    "orgao": "Presidência da República",
+    "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para aperfeiçoar o Programa Nacional de Triagem Neonatal (PNTN), por meio do estabelecimento de rol mínimo de doenças a serem rastreadas pelo teste do pezinho; e dá outras providências.",
+    "publicacao": "DOU de 27/05/2021",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "doencas_raras",
+    "desenvolvimento_infantil"
+  ],
+  "areas": [
+    "saude"
+  ],
+  "definicao": "A Lei nº 14.154/2021 mudou o Estatuto da Criança e do Adolescente para fixar um rol mínimo de doenças a serem rastreadas pelo teste do pezinho no Programa Nacional de Triagem Neonatal do SUS, com implementação escalonada em cinco etapas, e para obrigar os profissionais de saúde a informar a gestante sobre a importância do teste.",
+  "afirmacoes": [
+    {
+      "texto": "A lei incluiu os §§ 1º a 4º no art. 10 do Estatuto da Criança e do Adolescente (Lei nº 8.069/1990) e entrou em vigor 365 dias depois da publicação oficial, feita no Diário Oficial da União de 27 de maio de 2021 (arts. 1º e 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pelo § 1º do art. 10 do Estatuto, os testes para o rastreamento de doenças no recém-nascido serão disponibilizados pelo SUS, no Programa Nacional de Triagem Neonatal, na forma da regulamentação elaborada pelo Ministério da Saúde, com implementação escalonada em cinco etapas.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "A etapa 1 inclui fenilcetonúria e outras hiperfenilalaninemias, hipotireoidismo congênito, doença falciforme e outras hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita, deficiência de biotinidase e toxoplasmose congênita. A etapa 2 inclui galactosemias, aminoacidopatias, distúrbios do ciclo da ureia e distúrbios da betaoxidação dos ácidos graxos. As etapas 3, 4 e 5 incluem, nesta ordem, doenças lisossômicas, imunodeficiências primárias e atrofia muscular espinhal (art. 10, § 1º, I a V).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "A lista de doenças será revisada periodicamente, com base em evidências científicas, considerados os benefícios do rastreamento, do diagnóstico e do tratamento precoce, priorizando as doenças com maior prevalência no país, com protocolo de tratamento aprovado e com tratamento incorporado no SUS, e pode ser expandida pelo poder público com esses critérios (art. 10, §§ 2º e 3º).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Durante o pré-natal e o puerpério imediato, os profissionais de saúde devem informar a gestante e os acompanhantes sobre a importância do teste do pezinho e sobre as eventuais diferenças entre as modalidades oferecidas no SUS e na rede privada (art. 10, § 4º).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O texto compilado do Estatuto, no site do Planalto, traz os §§ 1º a 4º do art. 10 com a marca \"Incluído pela Lei nº 14.154, de 2021\", sem alteração posterior.",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.portaria-de-consolidacao-gm-ms-2-2017",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro não trata da regulamentação do Ministério da Saúde nem de quais etapas já foram implementadas em cada estado.",
+    "Outras leis tratam de exames na triagem neonatal, como a Lei nº 15.094/2025, sobre a fibrodisplasia ossificante progressiva; este registro não as cobre.",
+    "A vigência foi conferida no texto da lei e no texto compilado do Estatuto da Criança e do Adolescente, no site do Planalto, em 9 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.154, de 26 de maio de 2021: altera o Estatuto da Criança e do Adolescente para aperfeiçoar o Programa Nacional de Triagem Neonatal (PNTN), com rol mínimo de doenças a serem rastreadas pelo teste do pezinho",
+      "autor": "Brasil",
+      "ano": 2021,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14154.htm",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "§ 1º Os testes para o rastreamento de doenças no recém-nascido serão disponibilizados pelo Sistema Único de Saúde, no âmbito do Programa Nacional de Triagem Neonatal (PNTN), na forma da regulamentação elaborada pelo Ministério da Saúde, com implementação de forma escalonada, de acordo com a seguinte ordem de progressão:",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.069, de 13 de julho de 1990: dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências (texto compilado)",
+      "autor": "Brasil",
+      "ano": 1990,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm",
+      "referencia": "art. 10, §§ 1º a 4º; texto compilado",
+      "trecho": "§ 4º Durante os atendimentos de pré-natal e de puerpério imediato, os profissionais de saúde devem informar a gestante e os acompanhantes sobre a importância do teste do pezinho e sobre as eventuais diferenças existentes entre as modalidades oferecidas no Sistema Único de Saúde e na rede privada de saúde.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

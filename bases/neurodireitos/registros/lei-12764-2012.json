@@ -1,0 +1,183 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-12764-2012",
+  "slug": "lei-12764-2012",
+  "base": "neurodireitos",
+  "nome": "Lei nº 12.764, de 27 de dezembro de 2012",
+  "nomes_alternativos": [
+    "Lei Berenice Piana"
+  ],
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "12.764",
+    "data": "2012-12-27",
+    "orgao": "Presidência da República",
+    "ementa": "Institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista; e altera o § 3º do art. 98 da Lei nº 8.112, de 11 de dezembro de 1990.",
+    "publicacao": "DOU de 28/12/2012",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Lei nº 13.977, de 2020",
+        "Lei nº 15.131, de 2025",
+        "Lei nº 15.256, de 2025"
+      ]
+    },
+    "regulamentada_por": [
+      "Decreto nº 8.368, de 2 de dezembro de 2014"
+    ],
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "deficiencia"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "saude",
+    "educacao",
+    "trabalho",
+    "assistencia_social",
+    "previdencia",
+    "identificacao",
+    "atendimento_prioritario",
+    "planos_de_saude"
+  ],
+  "definicao": "A Lei nº 12.764/2012 institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista. Ela define quem é considerado pessoa com TEA para os efeitos da lei, reconhece a pessoa com TEA como pessoa com deficiência para todos os efeitos legais e lista direitos na saúde, na educação, no trabalho e na assistência social.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º, § 2º, considera a pessoa com transtorno do espectro autista pessoa com deficiência, para todos os efeitos legais.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 3º lista direitos da pessoa com TEA, entre eles o acesso a ações e serviços de saúde, com diagnóstico precoce, ainda que não definitivo, atendimento multiprofissional, nutrição adequada e terapia nutricional, medicamentos e informações que auxiliem no diagnóstico e no tratamento, e o acesso à educação e ao ensino profissionalizante, à moradia, ao mercado de trabalho, à previdência e à assistência social.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Em casos de comprovada necessidade, a pessoa com TEA incluída nas classes comuns do ensino regular tem direito a acompanhante especializado (art. 3º, § 1º, na redação dada pela Lei nº 15.131, de 2025).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 3º-A, incluído pela Lei nº 13.977, de 2020, cria a Carteira de Identificação da Pessoa com Transtorno do Espectro Autista (Ciptea), expedida por estados, Distrito Federal e municípios mediante requerimento com relatório médico, com validade de 5 anos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A pessoa com TEA não pode ser impedida de participar de planos privados de assistência à saúde por ser pessoa com deficiência (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O gestor escolar ou a autoridade competente que recusar a matrícula de aluno com TEA, ou com qualquer outro tipo de deficiência, é punido com multa de 3 a 20 salários mínimos, e a reincidência, apurada em processo administrativo, leva à perda do cargo (art. 7º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Desde a Lei nº 15.256, de 2025, as diretrizes da política incluem o incentivo à investigação diagnóstica do TEA em pessoas adultas e idosas (art. 2º, IX).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 6º, que mudaria o § 3º do art. 98 da Lei nº 8.112, de 1990, para estender o horário especial ao servidor com cônjuge, filho ou dependente com deficiência, foi vetado (Mensagem nº 606, de 27 de dezembro de 2012). Por isso a ementa cita essa mudança, que não entrou na lei.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Lei nº 13.977, de 2020, chama a Lei nº 12.764 de Lei Berenice Piana, na própria ementa.",
+      "fontes": [
+        "f3"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.decreto-8368-2014",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-8112-1990",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume pontos da lei; não traz todos os artigos nem a regulamentação.",
+    "A vigência e as alterações foram conferidas no texto compilado do Planalto em 9 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 12.764, de 27 de dezembro de 2012: institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista",
+      "autor": "Brasil",
+      "ano": 2012,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm",
+      "referencia": "texto compilado: arts. 1º, 2º, 3º, 3º-A, 5º e 7º",
+      "trecho": "§ 2º A pessoa com transtorno do espectro autista é considerada pessoa com deficiência, para todos os efeitos legais.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "documento_oficial",
+      "titulo": "Mensagem nº 606, de 27 de dezembro de 2012: veto parcial ao Projeto de Lei nº 168, de 2011, que deu origem à Lei nº 12.764",
+      "autor": "Presidência da República",
+      "ano": 2012,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/Msg/VEP-606.htm",
+      "referencia": "razões do veto ao inciso IV do art. 2º e ao art. 6º",
+      "trecho": "Art. 6º O § 3º do art. 98 da Lei nº 8.112, de 11 de dezembro de 1990, passa a vigorar com a seguinte redação",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.977, de 8 de janeiro de 2020: altera a Lei nº 12.764, de 27 de dezembro de 2012 (Lei Berenice Piana), e a Lei nº 9.265, de 12 de fevereiro de 1996",
+      "autor": "Brasil",
+      "ano": 2020,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13977.htm",
+      "referencia": "ementa",
+      "trecho": "Altera a Lei nº 12.764, de 27 de dezembro de 2012 (Lei Berenice Piana), e a Lei nº 9.265, de 12 de fevereiro de 1996",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.rn-ans-539-2022",
+  "slug": "rn-ans-539-2022",
+  "base": "neurodireitos",
+  "nome": "Resolução Normativa ANS nº 539, de 23 de junho de 2022",
+  "categoria": "norma_infralegal",
+  "norma": {
+    "tipo": "resolucao_normativa",
+    "numero": "539",
+    "data": "2022-06-23",
+    "orgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "ementa": "Altera a Resolução Normativa - RN nº 465, de 24 de fevereiro de 2021, que dispõe sobre o Rol de Procedimentos e Eventos em Saúde no âmbito da Saúde Suplementar, para regulamentar a cobertura obrigatória de sessões com psicólogos, terapeutas ocupacionais e fonoaudiólogos, para o tratamento/manejo dos beneficiários portadores de transtorno do espectro autista e outros transtornos globais do desenvolvimento.",
+    "publicacao": "DOU de 24/06/2022, seção 1, p. 93",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "planos_de_saude"
+  ],
+  "definicao": "A Resolução Normativa ANS nº 539/2022 mudou a RN nº 465/2021, que trata do rol de procedimentos dos planos de saúde, para os beneficiários com transtornos globais do desenvolvimento, grupo que inclui o transtorno do espectro autista. Ela obriga a operadora a oferecer atendimento por prestador apto a executar o método ou a técnica indicados pelo médico assistente. A regra vale desde 1º de julho de 2022.",
+  "afirmacoes": [
+    {
+      "texto": "A RN nº 539/2022 altera a RN nº 465/2021, que dispõe sobre o Rol de Procedimentos e Eventos em Saúde no âmbito da saúde suplementar, e entrou em vigor em 1º de julho de 2022 (arts. 1º e 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 3º incluiu o § 4º no art. 6º da RN nº 465/2021: para a cobertura dos procedimentos que envolvam o tratamento ou o manejo de beneficiários com transtornos globais do desenvolvimento, incluindo o transtorno do espectro autista, a operadora deverá oferecer atendimento por prestador apto a executar o método ou a técnica indicados pelo médico assistente para tratar a doença ou o agravo do paciente.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 2º e o anexo mudaram a diretriz de utilização da sessão com fonoaudiólogo (DUT nº 104) para prever cobertura obrigatória em número ilimitado de sessões para pacientes com transtornos globais do desenvolvimento (CID F84).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Essa diretriz deixou de valer em 1º de agosto de 2022, quando entrou em vigor a RN nº 541/2022, que revogou a DUT nº 104 junto com as diretrizes das consultas e sessões com psicólogo, terapeuta ocupacional e fisioterapeuta. No anexo de diretrizes de utilização publicado pela ANS, atualizado até a RN nº 681/2026, a DUT nº 104 traz a marca \"Excluído pela RN nº 541/2022, a partir de 01/08/2022\".",
+      "fontes": [
+        "f3",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Em parecer técnico publicado em 3 de outubro de 2025, a ANS chama o § 4º do art. 6º da RN nº 465/2021 de atual e diz que, por ele, é obrigatória a cobertura de qualquer método ou técnica indicado pelo médico assistente para o tratamento de paciente com transtornos enquadrados na CID F84.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "Segundo a ANS, os transtornos globais do desenvolvimento da CID-10 (grupo F84) incluem o autismo infantil (F84.0), o autismo atípico (F84.1), a síndrome de Rett (F84.2) e a síndrome de Asperger (F84.5), entre outros. A agência também diz que as operadoras não podem negar atendimento a pessoas com condições como paralisia cerebral e síndrome de Down que apresentem transtorno global do desenvolvimento.",
+      "fontes": [
+        "f5"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.cobertura-dos-planos-de-saude",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.fonoaudiologia",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.analise-do-comportamento-aplicada",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.rn-ans-541-2022",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14454-2022",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto publicado no Diário Oficial da União é o que vale.",
+    "As regras do rol valem para os planos contratados a partir de 1º de janeiro de 1999 e para os adaptados à Lei nº 9.656/1998; nos planos antigos não adaptados, segundo a ANS, a cobertura depende do contrato.",
+    "A RN nº 539/2022 não foi revogada. A mudança que ela fez na DUT nº 104 deixou de valer quando a RN nº 541/2022 revogou essa diretriz, e o § 4º que ela incluiu no art. 6º da RN nº 465/2021 segue em vigor, segundo a ANS.",
+    "O registro não trata de onde e por quem a terapia é feita nem de prazos de atendimento, temas de outras normas e pareceres da ANS.",
+    "A vigência foi conferida em 9 de novembro de 2026 no texto do Diário Oficial, no anexo de diretrizes de utilização e em pareceres técnicos da ANS. O sistema de legislação da ANS, que mostra o texto atualizado da RN nº 465/2021, exige navegador e não foi consultado."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Resolução Normativa ANS nº 539, de 23 de junho de 2022: altera a RN nº 465/2021 para regulamentar a cobertura obrigatória de sessões com psicólogos, terapeutas ocupacionais e fonoaudiólogos para beneficiários com transtorno do espectro autista e outros transtornos globais do desenvolvimento",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-normativa-ans-n-539-de-23-de-junho-de-2022-410047154",
+      "referencia": "arts. 1º a 3º e 5º e anexo; DOU de 24/06/2022, edição 118, seção 1, p. 93",
+      "trecho": "§ 4º Para a cobertura dos procedimentos que envolvam o tratamento/manejo dos beneficiários portadores de transtornos globais do desenvolvimento, incluindo o transtorno do espectro autista, a operadora deverá oferecer atendimento por prestador apto a executar o método ou técnica indicados pelo médico assistente para tratar a doença ou agravo do paciente.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "documento_oficial",
+      "titulo": "Rol de Procedimentos e Eventos em Saúde, Anexo II: Diretrizes de Utilização para Cobertura de Procedimentos na Saúde Suplementar (RN nº 465/2021 e suas alterações)",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2026,
+      "url": "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos/anexo_ii_dut_2021_rn_465-2021_rn681-2026.pdf",
+      "referencia": "item 104, Sessão com Fonoaudiólogo; última atualização: RN nº 681/2026",
+      "trecho": "Cobertura obrigatória em número ilimitado de sessões para pacientes com transtornos globais do desenvolvimento (CID F84). (Alterado pela RN nº 539/2022, a partir de 01/07/2022)",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "norma",
+      "titulo": "Resolução Normativa ANS nº 541, de 11 de julho de 2022: altera a RN nº 465/2021 quanto aos atendimentos com psicólogos, fonoaudiólogos, terapeutas ocupacionais e fisioterapeutas e revoga suas diretrizes de utilização",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-rn-n-541-de-11-de-julho-de-2022-414771275",
+      "referencia": "arts. 3º e 5º; DOU de 13/07/2022, edição 131, seção 1, p. 179",
+      "trecho": "Art. 3º Ficam revogadas as Diretrizes de Utilização - DUTs nº 102, 104, 105, 106, 107, 108, 136, 137 e 138 do Anexo II, da RN nº 465, de 2021.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "documento_oficial",
+      "titulo": "Parecer Técnico nº 42/2025/GCITS/GGRAS/DIPRO/2025: cobertura da avaliação e terapia do processamento auditivo central",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2025,
+      "url": "https://www.gov.br/ans/pt-br/arquivos/acesso-a-informacao/transparencia-institucional/pareceres-tecnicos-da-ans/2024/PARECER_TCNICO_N_42_2025_AVALIAO_E_TERAPIA_DO_PROCESSAMENTO_AUDITIVO_CENTRAL.pdf",
+      "referencia": "Publicado em 03/10/2025; listado entre os pareceres da página Documentos Técnicos da ANS em 09/11/2026",
+      "trecho": "Dessa forma, de acordo com o atual §4º do art. 6º da RN n.º 465/2021, é obrigatória a cobertura para qualquer método ou técnica indicado pelo médico assistente, para o tratamento de paciente diagnosticado com transtornos enquadrados na CID F84",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f5",
+      "tipo": "site_institucional",
+      "titulo": "ANS amplia regras de cobertura para tratamento de transtornos globais do desenvolvimento",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2022,
+      "url": "https://www.gov.br/ans/pt-br/assuntos/noticias/beneficiario/ans-altera-regras-de-cobertura-para-tratamento-de-transtornos-globais-do-desenvolvimento",
+      "referencia": "Notícia publicada em 23/06/2022 e atualizada em 26/10/2026",
+      "trecho": "Importante esclarecer que as operadoras de planos de saúde não poderão negar atendimento a pessoas com condições tais como paralisia cerebral e Síndrome de Down que apresentem transtornos global do desenvolvimento.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

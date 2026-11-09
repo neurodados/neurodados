@@ -156,6 +156,10 @@ th { font-weight: 600; color: var(--titulo); }
 .tabela { overflow-x: auto; }
 /* Rótulo da linha: quebra entre palavras, nunca no meio de uma. */
 .tabela tbody th { overflow-wrap: normal; width: 25%; min-width: 7.5rem; }
+/* Tabela das normas (página da regulação): o número inteiro na 1ª coluna e a fonte numa coluna estreita. */
+.tabela-normas th, .tabela-normas td { overflow-wrap: normal; }
+.tabela-normas td:first-child { min-width: 8.5rem; }
+.tabela-normas th:last-child, .tabela-normas td:last-child { width: 1%; white-space: nowrap; }
 
 /* Rodapé */
 .rodape { border-top: 1px solid var(--borda); background: var(--bg-2); font-size: .9rem; color: var(--texto-2); }
@@ -167,4 +171,10 @@ th { font-weight: 600; color: var(--titulo); }
   main { padding-top: 1.5rem; }
   .menu a { padding: .3rem .5rem; font-size: .9rem; }
   th, td { padding: .45rem .4rem; }
+  /* No celular, cada norma vira um bloco, com o nome da coluna antes do texto. */
+  .tabela-normas thead { display: none; }
+  .tabela-normas tr { display: block; border-bottom: 1px solid var(--borda); padding: .6rem 0; }
+  .tabela-normas td { display: block; border: 0; padding: .15rem 0; width: auto; white-space: normal; }
+  .tabela-normas td:first-child { font-weight: 600; color: var(--titulo); }
+  .tabela-normas td:not(:first-child)::before { content: attr(data-rotulo) ": "; font-weight: 600; color: var(--titulo); }
 }

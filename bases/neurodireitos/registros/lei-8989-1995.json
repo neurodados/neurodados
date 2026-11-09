@@ -1,0 +1,160 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-8989-1995",
+  "slug": "lei-8989-1995",
+  "base": "neurodireitos",
+  "nome": "Lei nº 8.989, de 24 de fevereiro de 1995",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "8.989",
+    "data": "1995-02-24",
+    "orgao": "Congresso Nacional (conversão da Medida Provisória nº 856, de 1995, promulgada pelo Presidente do Senado Federal)",
+    "ementa": "Dispõe sobre a isenção do Imposto sobre Produtos Industrializados (IPI) na aquisição de automóveis para utilização no transporte autônomo de passageiros, bem como por pessoas com deficiência.",
+    "publicacao": "DOU de 25/02/1995, edição extra",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "parcialmente_revogada",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Lei nº 10.690, de 2003",
+        "Lei nº 10.754, de 2003",
+        "Lei nº 11.196, de 2005",
+        "Lei nº 13.755, de 2018",
+        "Lei nº 14.183, de 2021",
+        "Lei nº 14.287, de 2021"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "deficiencia_intelectual",
+    "tea"
+  ],
+  "areas": [
+    "tributos"
+  ],
+  "definicao": "A Lei nº 8.989/1995 isenta do IPI a compra de automóveis de passageiros por taxistas e por pessoas com deficiência física, visual, auditiva e mental severa ou profunda e pessoas com transtorno do espectro autista, diretamente ou por meio de seu representante legal. Pelo art. 9º, na redação de 2021, a lei produz efeitos até 31 de dezembro de 2026.",
+  "afirmacoes": [
+    {
+      "texto": "Ficam isentos do IPI os automóveis de passageiros de fabricação nacional quando adquiridos, entre outros, por pessoas com deficiência física, visual, auditiva e mental severa ou profunda e por pessoas com transtorno do espectro autista, diretamente ou por intermédio de seu representante legal (art. 1º, IV, na redação dada pela Lei nº 14.287, de 2021).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para essas pessoas não se aplicam as exigências de motor de cilindrada não superior a dois mil centímetros cúbicos, de no mínimo quatro portas e de combustível de origem renovável ou sistema reversível de combustão (art. 1º, § 6º, na redação dada pela Lei nº 10.754, de 2003). A isenção somente se aplica a veículo novo cujo preço de venda ao consumidor, incluídos os tributos, não passe do teto fixado no art. 1º, § 7º, na redação dada pela Lei nº 14.287, de 2021.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para a isenção, considera-se pessoa com deficiência aquela com impedimento de longo prazo de natureza física, mental, intelectual ou sensorial que, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva na sociedade, conforme a avaliação biopsicossocial prevista no § 1º do art. 2º da Lei nº 13.146, de 2015 (art. 1º, § 1º). Enquanto o Poder Executivo não regulamentar esse dispositivo, a avaliação biopsicossocial não será exigida para a isenção (art. 1º, § 1º-A, incluído pela Lei nº 14.287, de 2021).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Decreto nº 11.063, de 2022, estabelece os critérios e os requisitos para a avaliação das pessoas com deficiência ou com transtorno do espectro autista para fins desta isenção e se aplica até a regulamentação e a implementação da avaliação biopsicossocial (art. 1º do decreto). Até a implementação das perícias médicas previstas no art. 21 da Lei nº 13.846, de 2019, a comprovação é feita por laudo de avaliação emitido por prestador de serviço público de saúde, por serviço privado de saúde contratado ou conveniado que integre o SUS, pelo Detran ou suas clínicas credenciadas, ou por serviço social autônomo, na falta de laudo eletrônico (art. 3º do decreto).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Pelo Decreto nº 11.063, de 2022, deficiência mental é o funcionamento intelectual significativamente inferior à média, com manifestação antes dos dezoito anos e limitações associadas a duas ou mais áreas de habilidades adaptativas (art. 2º, IV). Nesse caso, o laudo atende à codificação da CID-10 e contempla, única e exclusivamente, os níveis severo ou profundo. No transtorno do espectro autista, o laudo atende à codificação do Manual Diagnóstico e Estatístico de Transtornos Mentais e da CID-10, contemplados o transtorno autista (F.84.0) e o autismo atípico (F.84.1) (art. 3º, §§ 1º e 2º).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A isenção somente pode ser utilizada uma vez, salvo se o veículo tiver sido adquirido há mais de 2 anos (art. 2º, na redação dada pela Lei nº 11.196, de 2005); para as pessoas do inciso IV do art. 1º, esse prazo é de 3 anos (art. 2º, parágrafo único, na redação dada pela Lei nº 14.183, de 2021).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A isenção é reconhecida pela Secretaria Especial da Receita Federal do Brasil, mediante prévia verificação de que o adquirente preenche os requisitos (art. 3º). No caso do inciso IV, os automóveis são adquiridos diretamente pelas pessoas que tenham plena capacidade jurídica e, no caso dos interditos, pelos curadores, que respondem solidariamente pelo imposto que deixar de ser pago (art. 1º, §§ 3º e 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A venda do veículo, nos 2 anos seguintes à aquisição, a pessoas que não satisfaçam as condições da isenção obriga o vendedor a pagar o tributo dispensado, atualizado, além de multa e juros moratórios (art. 6º e parágrafo único). O imposto incide normalmente sobre acessórios opcionais que não sejam equipamentos originais do veículo (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pelo art. 9º, na redação dada pela Lei nº 14.287, de 2021, a lei entra em vigor na data de sua publicação e produzirá efeitos até 31 de dezembro de 2026. O texto compilado consultado em 9 de novembro de 2026 não mostra prorrogação desse prazo.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "Pelo art. 9º, a lei produz efeitos até 31 de dezembro de 2026. Depois dessa data, o texto oficial no Planalto mostra se houve prorrogação ou outra regra.",
+    "O registro trata da isenção de IPI para pessoas com deficiência e com transtorno do espectro autista; não trata dos incisos sobre taxistas nem de outros tributos, que têm normas próprias. O valor do teto de preço do veículo está no art. 1º, § 7º, e não é repetido aqui.",
+    "A vigência e as alterações foram conferidas no texto compilado do Planalto em 9 de novembro de 2026; a lista traz as leis que mudaram os artigos usados aqui.",
+    "A lei está em vigor; no texto compilado do Planalto, os §§ 2º e 4º do art. 1º aparecem revogados pela Lei nº 14.287, de 2021. Os pontos deste registro estão em vigor."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.989, de 24 de fevereiro de 1995: dispõe sobre a isenção do Imposto sobre Produtos Industrializados (IPI) na aquisição de automóveis para utilização no transporte autônomo de passageiros, bem como por pessoas com deficiência",
+      "autor": "Brasil",
+      "ano": 1995,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8989.htm",
+      "referencia": "texto compilado: art. 1º, IV, e §§ 1º, 1º-A, 3º, 5º, 6º e 7º; arts. 2º, 3º, 5º, 6º e 9º",
+      "trecho": "IV - pessoas com deficiência física, visual, auditiva e mental severa ou profunda e pessoas com transtorno do espectro autista, diretamente ou por intermédio de seu representante legal;",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Decreto nº 11.063, de 4 de maio de 2022: estabelece os critérios e os requisitos para a avaliação de pessoas com deficiência ou pessoas com transtorno do espectro autista para fins de concessão de isenção do Imposto sobre Produtos Industrializados - IPI na aquisição de automóveis",
+      "autor": "Brasil",
+      "ano": 2022,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11063.htm",
+      "referencia": "arts. 1º, 2º, IV, e 3º",
+      "trecho": "§ 2º Na hipótese de transtorno do espectro autista, o preenchimento do laudo de avaliação atenderá à codificação do Manual Diagnóstico e Estatístico de Transtornos Mentais e da CID-10, contemplados o transtorno autista (F.84.0) e o autismo atípico (F.84.1).",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

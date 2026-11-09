@@ -1,0 +1,145 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.resolucao-cne-ceb-4-2009",
+  "slug": "resolucao-cne-ceb-4-2009",
+  "base": "neurodireitos",
+  "nome": "Resolução CNE/CEB nº 4, de 2 de outubro de 2009",
+  "categoria": "norma_infralegal",
+  "norma": {
+    "tipo": "resolucao",
+    "numero": "4",
+    "data": "2009-10-02",
+    "orgao": "Conselho Nacional de Educação, Câmara de Educação Básica",
+    "ementa": "Institui Diretrizes Operacionais para o Atendimento Educacional Especializado na Educação Básica, modalidade Educação Especial.",
+    "publicacao": "DOU de 05/10/2009, seção 1, p. 17",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "deficiencia_intelectual",
+    "tea"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "A Resolução CNE/CEB nº 4/2009 institui as diretrizes operacionais do atendimento educacional especializado (AEE) na educação básica. Ela diz quem é o público-alvo do AEE, onde e quando ele é feito, sem substituir a classe comum, o que o projeto pedagógico da escola deve prever para oferecê-lo e quais são as atribuições do professor do AEE.",
+  "afirmacoes": [
+    {
+      "texto": "Para a implementação do Decreto nº 6.571/2008, os sistemas de ensino devem matricular os alunos com deficiência, transtornos globais do desenvolvimento e altas habilidades/superdotação nas classes comuns do ensino regular e no atendimento educacional especializado (AEE), ofertado em salas de recursos multifuncionais ou em centros de AEE da rede pública ou de instituições comunitárias, confessionais ou filantrópicas sem fins lucrativos (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O AEE tem a função de complementar ou suplementar a formação do aluno, com serviços, recursos de acessibilidade e estratégias que eliminem as barreiras para sua plena participação na sociedade e para o desenvolvimento de sua aprendizagem (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O público-alvo do AEE são os alunos com deficiência, que têm impedimentos de longo prazo de natureza física, intelectual, mental ou sensorial; os alunos com transtornos globais do desenvolvimento, entre eles, pelo texto, os alunos com autismo clássico, síndrome de Asperger, síndrome de Rett, transtorno desintegrativo da infância (psicoses) e transtornos invasivos sem outra especificação; e os alunos com altas habilidades/superdotação (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O AEE é realizado, prioritariamente, na sala de recursos multifuncionais da própria escola ou de outra escola de ensino regular, no turno inverso da escolarização, e não substitui as classes comuns; pode ser realizado também em centro de AEE da rede pública ou de instituição comunitária, confessional ou filantrópica sem fins lucrativos conveniada com a Secretaria de Educação (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Em casos de AEE em ambiente hospitalar ou domiciliar, o sistema de ensino oferta aos alunos a educação especial de forma complementar ou suplementar (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 8º prevê que os alunos da classe comum do ensino regular público com matrícula também no AEE sejam contabilizados duplamente no FUNDEB, de acordo com o Decreto nº 6.571/2008.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O plano de AEE é elaborado e executado pelos professores que atuam na sala de recursos multifuncionais ou nos centros de AEE, em articulação com os demais professores do ensino regular, com a participação das famílias e em interface com os serviços de saúde, de assistência social e outros necessários ao atendimento (art. 9º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O projeto pedagógico da escola de ensino regular deve institucionalizar a oferta do AEE, prevendo a sala de recursos multifuncionais, a matrícula no AEE, o cronograma de atendimento, o plano do AEE, os professores do AEE, outros profissionais da educação, como tradutor e intérprete de Libras, guia-intérprete e quem atue no apoio às atividades de alimentação, higiene e locomoção, e redes de apoio (art. 10).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para atuar no AEE, o professor deve ter formação inicial que o habilite para a docência e formação específica para a educação especial, e entre as atribuições dele estão elaborar e executar o plano de AEE, orientar professores e famílias sobre os recursos usados pelo aluno e ensinar e usar a tecnologia assistiva (arts. 12 e 13).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "intervenbase.atendimento-educacional-especializado",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.decreto-12686-2025",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.decreto-7611-2011",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto publicado no Diário Oficial da União é o que vale.",
+    "O registro resume os pontos principais; não traz todo o texto nem as normas de cada sistema de ensino.",
+    "O Decreto nº 6.571/2008, citado nos arts. 1º e 8º, foi revogado pelo Decreto nº 7.611/2011, que por sua vez foi revogado pelo Decreto nº 12.686/2025. Esse último traz regras próprias sobre o AEE, como a formação do professor.",
+    "A resolução usa termos de 2009, como transtornos globais do desenvolvimento, autismo clássico e síndrome de Asperger.",
+    "Resoluções do Conselho Nacional de Educação não têm texto compilado no Planalto. O texto foi lido no Diário Oficial da União, e a vigência foi conferida em 9 de novembro de 2026 nas listas de resoluções da Câmara de Educação Básica do portal do Ministério da Educação que puderam ser lidas, de 2010 a 2025, com falhas em alguns anos: nenhuma ementa trata de educação especial nem revoga esta resolução. A lista de 2026 não foi encontrada no portal."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Resolução nº 4, de 2 de outubro de 2009: institui Diretrizes Operacionais para o Atendimento Educacional Especializado na Educação Básica, modalidade Educação Especial",
+      "autor": "Conselho Nacional de Educação, Câmara de Educação Básica",
+      "ano": 2009,
+      "url": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?jornal=1&pagina=17&data=05/10/2009",
+      "referencia": "Diário Oficial da União nº 190, de 5/10/2009, seção 1, p. 17: arts. 1º a 13",
+      "trecho": "Art. 5º O AEE é realizado, prioritariamente, na sala de recursos multifuncionais da própria escola ou em outra escola de ensino regular, no turno inverso da escolarização, não sendo substitutivo às classes comuns, podendo ser realizado, também, em centro de Atendimento Educacional Especializado da rede pública ou de instituições comunitárias, confessionais ou filantrópicas sem fins lucrativos, conveniadas com a Secretaria de Educação ou órgão equivalente dos Estados, Distrito Federal ou dos Municípios.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

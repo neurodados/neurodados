@@ -1,0 +1,194 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-8742-1993",
+  "slug": "lei-8742-1993",
+  "base": "neurodireitos",
+  "nome": "Lei nº 8.742, de 7 de dezembro de 1993",
+  "sigla": "LOAS",
+  "nomes_alternativos": [
+    "Lei Orgânica da Assistência Social"
+  ],
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "8.742",
+    "data": "1993-12-07",
+    "orgao": "Presidência da República",
+    "ementa": "Dispõe sobre a organização da Assistência Social e dá outras providências.",
+    "publicacao": "DOU de 08/12/1993",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "parcialmente_revogada",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Lei nº 12.435, de 2011",
+        "Lei nº 12.470, de 2011",
+        "Lei nº 13.146, de 2015",
+        "Lei nº 13.846, de 2019",
+        "Lei nº 13.982, de 2020",
+        "Lei nº 14.176, de 2021",
+        "Lei nº 14.601, de 2023",
+        "Lei nº 14.809, de 2024",
+        "Lei nº 14.973, de 2024",
+        "Lei nº 15.077, de 2024",
+        "Lei nº 15.157, de 2025"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "assistencia_social",
+    "trabalho"
+  ],
+  "definicao": "A Lei nº 8.742/1993, Lei Orgânica da Assistência Social, organiza a assistência social no Brasil. Ela define o Benefício de Prestação Continuada (BPC), a garantia de um salário-mínimo mensal à pessoa com deficiência e ao idoso com 65 anos ou mais que comprovem não ter meios de prover a própria manutenção nem de tê-la provida pela família, e traz as regras do auxílio-inclusão, para quem recebe o BPC e passa a trabalhar.",
+  "afirmacoes": [
+    {
+      "texto": "O benefício de prestação continuada é a garantia de um salário-mínimo mensal à pessoa com deficiência e ao idoso com 65 anos ou mais que comprovem não possuir meios de prover a própria manutenção nem de tê-la provida por sua família (art. 20, na redação dada pela Lei nº 12.435, de 2011).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para o BPC, considera-se pessoa com deficiência aquela que tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial, o qual, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas (art. 20, § 2º). Impedimento de longo prazo é o que produz efeitos pelo prazo mínimo de 2 anos (art. 20, § 10).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A concessão do benefício à pessoa com deficiência fica sujeita à avaliação da deficiência e do grau de impedimento, composta por avaliação médica e avaliação social, realizadas por médicos peritos e por assistentes sociais do INSS (art. 20, § 6º). Enquanto não estiver regulamentado o instrumento de avaliação previsto no Estatuto da Pessoa com Deficiência, a avaliação médica é feita pela perícia médica federal e a social pelo serviço social do INSS, com registro obrigatório do código da Classificação Internacional de Doenças (CID), garantida a preservação do sigilo (art. 40-B, na redação dada pela Lei nº 15.077, de 2024).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Observados os demais critérios da lei, têm direito ao benefício a pessoa com deficiência ou a pessoa idosa com renda familiar mensal per capita igual ou inferior a 1/4 do salário-mínimo (art. 20, § 3º, na redação dada pela Lei nº 14.176, de 2021). A família é composta pelo requerente, o cônjuge ou companheiro, os pais e, na ausência de um deles, a madrasta ou o padrasto, os irmãos solteiros, os filhos e enteados solteiros e os menores tutelados, desde que vivam sob o mesmo teto (art. 20, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "No cálculo da renda familiar não entram o BPC ou o benefício previdenciário de até 1 salário-mínimo concedido a outro idoso acima de 65 anos ou a outra pessoa com deficiência da mesma família (art. 20, § 14), nem os rendimentos de estágio supervisionado e de aprendizagem (art. 20, § 9º). O benefício será devido a mais de um membro da mesma família enquanto atendidos os requisitos da lei (art. 20, § 15).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O § 11-A do art. 20 permite que o regulamento amplie o limite de renda mensal familiar per capita para até 1/2 salário-mínimo, considerando, para a pessoa com deficiência, o grau da deficiência e o comprometimento do orçamento da família com gastos médicos, tratamentos de saúde, fraldas, alimentos especiais e medicamentos não disponibilizados gratuitamente pelo SUS (art. 20-B). A Lei nº 14.176, de 2021, condicionou essa ampliação a decreto regulamentador do Poder Executivo (art. 6º, parágrafo único).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "São requisitos para a concessão, a manutenção e a revisão do benefício as inscrições no CPF e no Cadastro Único (art. 20, § 12), e será solicitado registro biométrico ao requerente ou ao responsável legal (art. 20, §§ 12-A e 12-B). Quem recebe o BPC sem inscrição no CadÚnico, ou com o cadastro desatualizado há mais de 24 meses, tem prazo para regularizar, contado da notificação, e o descumprimento leva à suspensão do benefício, desde que comprovada a ciência da notificação (art. 21-B).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O benefício deve ser revisto a cada 2 anos (art. 21). O desenvolvimento das capacidades cognitivas, motoras ou educacionais e a realização de atividades não remuneradas de habilitação e reabilitação não constituem motivo de suspensão ou cessação do benefício da pessoa com deficiência (art. 21, § 3º). O beneficiário é dispensado de avaliação médico-pericial periódica se o impedimento for permanente, irreversível ou irrecuperável, salvo fundada suspeita de fraude ou erro (art. 21, § 5º, na redação dada pela Lei nº 15.157, de 2025).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O BPC é suspenso quando a pessoa com deficiência exerce atividade remunerada, inclusive como microempreendedor individual (art. 21-A). Extinta a atividade, e, quando for o caso, encerrado o seguro-desemprego, sem direito adquirido a benefício previdenciário, pode ser requerida a continuidade do pagamento sem nova perícia médica ou reavaliação da deficiência para esse fim (art. 21-A, § 1º). A contratação como aprendiz não suspende o benefício, limitado a 2 anos o recebimento conjunto da remuneração e do benefício (art. 21-A, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Tem direito ao auxílio-inclusão a pessoa com deficiência moderada ou grave que recebe o BPC e passa a exercer atividade com remuneração de até 2 salários-mínimos, como segurada obrigatória do Regime Geral ou filiada a regime próprio de previdência, desde que tenha inscrição atualizada no CadÚnico e regular no CPF e atenda aos critérios de manutenção do BPC (art. 26-A). O valor corresponde a 50% do BPC em vigor (art. 26-B), e o auxílio não é acumulado com o próprio BPC (art. 26-C). Essas regras foram incluídas pela Lei nº 14.176, de 2021.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O acolhimento em instituições de longa permanência não prejudica o direito ao BPC (art. 20, § 5º). O benefício não pode ser acumulado com outro no âmbito da seguridade social ou de outro regime, salvo os da assistência médica, a pensão especial de natureza indenizatória e as transferências de renda listadas no § 4º do art. 20 (redação dada pela Lei nº 14.601, de 2023).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Em página oficial, o Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome usa a sigla LOAS para a Lei Orgânica da Assistência Social, criada pela Lei nº 8.742, de 1993.",
+      "fontes": [
+        "f3"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.decreto-6214-2007",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12933-2013",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume o BPC e o auxílio-inclusão; não traz o resto da lei, como a organização do Sistema Único de Assistência Social, os conselhos, o financiamento e outros benefícios.",
+    "A vigência e as alterações foram conferidas no texto compilado do Planalto em 9 de novembro de 2026. A lista de alterações traz as principais leis que mudaram os artigos usados aqui; a lei teve muitas outras.",
+    "A lei está em vigor; o texto compilado do Planalto marca alguns dispositivos como revogados, como o art. 20-A. Os pontos deste registro estão em vigor.",
+    "O registro não traz o valor do salário-mínimo, que muda a cada ano. O regulamento do BPC, o Decreto nº 6.214, de 2007, tem registro próprio nesta base."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.742, de 7 de dezembro de 1993: dispõe sobre a organização da Assistência Social e dá outras providências",
+      "autor": "Brasil",
+      "ano": 1993,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8742.htm",
+      "referencia": "texto compilado: arts. 20, 20-B, 21, 21-A, 21-B, 26-A, 26-B, 26-C e 40-B",
+      "trecho": "Art. 20. O benefício de prestação continuada é a garantia de um salário-mínimo mensal à pessoa com deficiência e ao idoso com 65 (sessenta e cinco) anos ou mais que comprovem não possuir meios de prover a própria manutenção nem de tê-la provida por sua família.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.176, de 22 de junho de 2021: altera a Lei nº 8.742, de 7 de dezembro de 1993, para estabelecer o critério de renda familiar per capita para acesso ao benefício de prestação continuada, estipular parâmetros adicionais de caracterização da situação de miserabilidade e de vulnerabilidade social e dispor sobre o auxílio-inclusão",
+      "autor": "Brasil",
+      "ano": 2021,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14176.htm",
+      "referencia": "art. 6º, parágrafo único",
+      "trecho": "Parágrafo único. A ampliação do limite de renda mensal de 1/4 (um quarto) para até 1/2 (meio) salário-mínimo mensal, de que trata o § 11-A do art. 20 da Lei nº 8.742, de 7 de dezembro de 1993, mediante a utilização de outros elementos probatórios da condição de miserabilidade e da situação de vulnerabilidade do grupo familiar, na forma do art. 20-B da referida Lei, fica condicionada a decreto regulamentador do Poder Executivo, em cuja edição deverá ser comprovado o atendimento aos requisitos fiscais.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "site_institucional",
+      "titulo": "Lei Orgânica da Assistência Social completa 30 anos em 7 de dezembro",
+      "autor": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+      "ano": 2023,
+      "url": "https://www.gov.br/mds/pt-br/noticias-e-conteudos/Noticias/2023/lei-organica-da-assistencia-social-completa-30-anos-em-7-de-dezembro",
+      "referencia": "notícia publicada em 04/12/2023",
+      "trecho": "A LOAS foi criada em 1993 pela Lei nº 8.742, com o objetivo de promover uma política de assistência social para os brasileiros, permitindo uma vida mais digna para aqueles que não conseguem se sustentar financeiramente.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

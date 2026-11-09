@@ -1,0 +1,176 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-15492-2026",
+  "slug": "lei-15492-2026",
+  "base": "neurodireitos",
+  "nome": "Lei nº 15.492, de 2 de setembro de 2026",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "15.492",
+    "data": "2026-09-02",
+    "orgao": "Presidência da República",
+    "ementa": "Institui a Política Nacional de Proteção dos Direitos da Pessoa com Síndrome de Tourette.",
+    "publicacao": "DOU de 03/09/2026, seção 1, p. 1; retificada no DOU de 04/09/2026, seção 1, p. 3",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "sindrome_de_tourette",
+    "deficiencia"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "saude",
+    "educacao",
+    "trabalho",
+    "previdencia",
+    "assistencia_social",
+    "planos_de_saude",
+    "atendimento_prioritario",
+    "identificacao"
+  ],
+  "definicao": "A Lei nº 15.492/2026 institui a Política Nacional de Proteção dos Direitos da Pessoa com Síndrome de Tourette. Ela prevê que a pessoa com Tourette seja considerada pessoa com deficiência quando os sintomas comprometem significativamente sua funcionalidade e participação social, lista diretrizes e direitos na saúde, na educação, no trabalho e na assistência social e pune a recusa de matrícula.",
+  "afirmacoes": [
+    {
+      "texto": "Os critérios técnicos de definição, caracterização, sintomas e classificação da síndrome de Tourette serão estabelecidos em atos do Poder Executivo federal, para acompanhar a evolução científica e o consenso da comunidade médica internacional (art. 1º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A pessoa com síndrome de Tourette deverá ser considerada pessoa com deficiência, para todos os efeitos legais, quando os sintomas comprometerem significativamente sua funcionalidade e participação social, conforme avaliação biopsicossocial prevista na Lei nº 13.146/2015 (art. 1º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os estabelecimentos públicos e privados citados na Lei nº 10.048/2000 poderão usar o cordão de fita com desenhos de girassóis, símbolo nacional de identificação de pessoas com deficiências ocultas, para identificar a prioridade devida às pessoas com síndrome de Tourette (art. 1º, § 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre as diretrizes da política estão a atenção integral às necessidades de saúde da pessoa com síndrome de Tourette, com diagnóstico precoce, atendimento multiprofissional e acesso a tratamento médico e a terapias complementares, e o incentivo à formação e à capacitação de profissionais para o atendimento a essas pessoas, e também de pais e responsáveis (art. 2º, III e VI).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Incluída nas classes comuns do ensino regular, a pessoa com síndrome de Tourette terá direito a acompanhante especializado quando a avaliação pedagógica indicar essa necessidade, conforme a Lei nº 13.146/2015 (art. 2º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 3º lista direitos da pessoa com síndrome de Tourette, entre eles: proteção contra qualquer forma de abuso e exploração; acesso a ações e serviços de saúde, nos termos da Lei nº 8.080/1990, com diagnóstico precoce, ainda que não definitivo, atendimento multiprofissional, nutrição adequada e terapia nutricional, medicamentos e informações que auxiliem no diagnóstico e no tratamento; acesso à educação e ao ensino profissionalizante, ao mercado de trabalho, à previdência social e à assistência social; e adaptação razoável no ambiente de trabalho.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A pessoa com síndrome de Tourette não será submetida a tratamento desumano ou degradante, não será privada de sua liberdade ou do convívio familiar nem sofrerá discriminação por motivo da deficiência. Se precisar de internação médica, observa-se o art. 4º da Lei nº 10.216/2001 (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A pessoa com síndrome de Tourette não pode ser impedida de participar de planos privados de assistência à saúde em razão de sua condição de pessoa com deficiência (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O gestor escolar ou a autoridade competente que recusar a matrícula de aluno com síndrome de Tourette é punido com multa de 3 a 20 salários mínimos e com a obrigação de capacitação em inclusão educacional; na reincidência, constatada em processo administrativo e depois de ações educativas corretivas, pode haver a perda do cargo (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entrou em vigor na data da publicação, no Diário Oficial da União de 3 de setembro de 2026 (art. 7º). A retificação publicada em 4 de setembro de 2026 tirou do art. 2º um inciso V que tinha saído repetido.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-10216-2001",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-multiprofissional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14624-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-10048-2000",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro não trata dos atos do Poder Executivo previstos no art. 1º, § 1º, nem de como é feita a avaliação biopsicossocial da Lei nº 13.146/2015.",
+    "A vigência foi conferida em 9 de novembro de 2026 no texto da lei, no site do Planalto, e na retificação publicada no Diário Oficial; o texto não mostra alterações."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 15.492, de 2 de setembro de 2026: institui a Política Nacional de Proteção dos Direitos da Pessoa com Síndrome de Tourette",
+      "autor": "Brasil",
+      "ano": 2026,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15492.htm",
+      "referencia": "arts. 1º a 7º; texto do Planalto, que registra a retificação de 4/9/2026",
+      "trecho": "§ 2º A pessoa com síndrome de Tourette deverá ser considerada pessoa com deficiência, para todos os efeitos legais, quando os sintomas comprometerem significativamente sua funcionalidade e participação social, conforme avaliação biopsicossocial prevista na Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência).",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Retificação da Lei nº 15.492, de 2 de setembro de 2026",
+      "autor": "Brasil",
+      "ano": 2026,
+      "url": "https://www.in.gov.br/en/web/dou/-/retificacao-730146149",
+      "referencia": "DOU de 04/09/2026, edição 168, seção 1, p. 3",
+      "trecho": "Na LEI Nº 15.492, DE 2 DE SETEMBRO DE 2026, publicada no DOU de 3/9/2026, Seção 1, página 1 e 2,onde se lê:",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

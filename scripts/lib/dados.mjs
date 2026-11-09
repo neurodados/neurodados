@@ -50,7 +50,7 @@ export function carregarBases() {
 }
 
 // A ordem das bases é a da diretriz; base nova sem lugar vai para o fim.
-const ORDEM_DAS_BASES = ['neurobase', 'avaliabase', 'intervenbase', 'evidenciabase'];
+const ORDEM_DAS_BASES = ['neurobase', 'avaliabase', 'intervenbase', 'evidenciabase', 'neurodireitos'];
 function posicao(id) {
   const i = ORDEM_DAS_BASES.indexOf(id);
   return i < 0 ? ORDEM_DAS_BASES.length : i;

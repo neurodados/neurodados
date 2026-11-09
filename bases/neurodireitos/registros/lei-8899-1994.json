@@ -1,0 +1,104 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-8899-1994",
+  "slug": "lei-8899-1994",
+  "base": "neurodireitos",
+  "nome": "Lei nº 8.899, de 29 de junho de 1994",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "8.899",
+    "data": "1994-06-29",
+    "orgao": "Presidência da República",
+    "ementa": "Concede passe livre às pessoas portadoras de deficiência no sistema de transporte coletivo interestadual.",
+    "publicacao": "DOU de 30/06/1994",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "regulamentada_por": [
+      "Decreto nº 3.691, de 19 de dezembro de 2000"
+    ],
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "transporte"
+  ],
+  "definicao": "A Lei nº 8.899/1994 concede passe livre às pessoas com deficiência comprovadamente carentes no sistema de transporte coletivo interestadual. O texto da lei usa a expressão \"pessoas portadoras de deficiência\". O Decreto nº 3.691/2000, que a regulamenta, manda reservar dois assentos em cada veículo do serviço convencional para essas pessoas.",
+  "afirmacoes": [
+    {
+      "texto": "É concedido passe livre às pessoas portadoras de deficiência, comprovadamente carentes, no sistema de transporte coletivo interestadual (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Decreto nº 3.691, de 2000, que regulamenta a lei, determina que as empresas permissionárias e autorizatárias de transporte interestadual de passageiros reservem dois assentos de cada veículo destinado a serviço convencional para ocupação das pessoas beneficiadas pela lei (art. 1º do decreto).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A lei não define como se comprova a carência. O decreto atribui ao Ministro de Estado dos Transportes a disciplina do que ele dispõe (art. 2º do decreto).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro trata só do transporte coletivo interestadual, que é o que a lei abrange. Não traz os atos do Ministério dos Transportes que disciplinam o decreto.",
+    "A vigência foi conferida no texto do Planalto em 9 de novembro de 2026; os textos da lei e do decreto não mostram alterações."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.899, de 29 de junho de 1994: concede passe livre às pessoas portadoras de deficiência no sistema de transporte coletivo interestadual",
+      "autor": "Brasil",
+      "ano": 1994,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8899.htm",
+      "referencia": "texto: arts. 1º a 4º",
+      "trecho": "Art. 1º É concedido passe livre às pessoas portadoras de deficiência, comprovadamente carentes, no sistema de transporte coletivo interestadual.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Decreto nº 3.691, de 19 de dezembro de 2000: regulamenta a Lei nº 8.899, de 29 de junho de 1994, que dispõe sobre o transporte de pessoas portadoras de deficiência no sistema de transporte coletivo interestadual",
+      "autor": "Brasil",
+      "ano": 2000,
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto/D3691.htm",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "Art. 1º As empresas permissionárias e autorizatárias de transporte interestadual de passageiros reservarão dois assentos de cada veículo, destinado a serviço convencional, para ocupação das pessoas beneficiadas pelo art. 1º da Lei nº 8.899, de 29 de junho de 1994 [...]",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

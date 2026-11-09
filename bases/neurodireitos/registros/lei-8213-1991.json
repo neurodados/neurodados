@@ -1,0 +1,148 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-8213-1991",
+  "slug": "lei-8213-1991",
+  "base": "neurodireitos",
+  "nome": "Lei nº 8.213, de 24 de julho de 1991",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "8.213",
+    "data": "1991-07-24",
+    "orgao": "Presidência da República",
+    "ementa": "Dispõe sobre os Planos de Benefícios da Previdência Social e dá outras providências.",
+    "publicacao": "DOU de 25/07/1991, republicado em 11/04/1996 e em 14/08/1998",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "parcialmente_revogada",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Lei nº 13.135, de 2015",
+        "Lei nº 13.146, de 2015",
+        "Lei nº 13.183, de 2015",
+        "Lei nº 13.846, de 2019"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "deficiencia_intelectual"
+  ],
+  "areas": [
+    "trabalho",
+    "previdencia"
+  ],
+  "definicao": "A Lei nº 8.213/1991 trata dos planos de benefícios da Previdência Social. Para a pessoa com deficiência, ela obriga a empresa com 100 ou mais empregados a preencher de 2% a 5% dos cargos com beneficiários reabilitados ou pessoas com deficiência habilitadas, inclui entre os dependentes o filho e o irmão que tenham deficiência intelectual ou mental ou deficiência grave e trata da habilitação e da reabilitação profissional.",
+  "afirmacoes": [
+    {
+      "texto": "A empresa com 100 ou mais empregados está obrigada a preencher de 2% a 5% dos seus cargos com beneficiários reabilitados ou pessoas portadoras de deficiência, habilitadas, na proporção de 2% até 200 empregados, 3% de 201 a 500, 4% de 501 a 1.000 e 5% de 1.001 em diante (art. 93). A expressão \"pessoas portadoras de deficiência\" é a do texto da lei.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A dispensa de pessoa com deficiência ou de beneficiário reabilitado ao final de contrato por prazo determinado de mais de 90 dias, e a dispensa imotivada em contrato por prazo indeterminado, somente podem ocorrer após a contratação de outro trabalhador com deficiência ou beneficiário reabilitado da Previdência Social (art. 93, § 1º, na redação dada pela Lei nº 13.146, de 2015).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para a reserva de cargos, é considerada somente a contratação direta de pessoa com deficiência, excluído o aprendiz com deficiência de que trata a Consolidação das Leis do Trabalho (art. 93, § 3º). Ao Ministério do Trabalho e Emprego incumbe estabelecer a fiscalização e gerar dados sobre as vagas preenchidas, fornecendo-os, quando solicitados, aos sindicatos, às entidades representativas dos empregados ou aos cidadãos interessados (art. 93, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "São dependentes do segurado, entre outros, o filho não emancipado, de qualquer condição, menor de 21 anos ou inválido ou que tenha deficiência intelectual ou mental ou deficiência grave (art. 16, I). O irmão nas mesmas condições também está no rol de dependentes (art. 16, III), e a existência de dependente de uma classe exclui os das classes seguintes (art. 16, § 1º). Os incisos I e III têm a redação dada pela Lei nº 13.146, de 2015.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na pensão por morte, a cota do filho, da pessoa a ele equiparada ou do irmão cessa aos 21 anos, salvo se for inválido ou tiver deficiência intelectual ou mental ou deficiência grave; para quem tem deficiência, a cota cessa pelo afastamento da deficiência, nos termos do regulamento (art. 77, § 2º, II e IV). O exercício de atividade remunerada, inclusive como microempreendedor individual, não impede a concessão ou a manutenção da parte individual da pensão do dependente com deficiência intelectual ou mental ou com deficiência grave (art. 77, § 6º, incluído pela Lei nº 13.183, de 2015).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "No requerimento de benefícios operacionalizados pelo INSS, não é exigida a apresentação de termo de curatela de titular ou de beneficiário com deficiência, observados os procedimentos do regulamento (art. 110-A, incluído pela Lei nº 13.146, de 2015).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A habilitação e a reabilitação profissional e social devem proporcionar ao beneficiário incapacitado parcial ou totalmente para o trabalho, e às pessoas com deficiência, os meios para a (re)educação e a (re)adaptação profissional e social indicados para participar do mercado de trabalho e do contexto em que vivem (art. 89). Concluído o processo, a Previdência Social emite certificado individual com as atividades que podem ser exercidas pelo beneficiário (art. 92).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Emenda Constitucional nº 103, de 2019, fixa o valor da pensão por morte quando existe dependente inválido ou com deficiência intelectual, mental ou grave: 100% da aposentadoria recebida pelo segurado, ou daquela a que teria direito se fosse aposentado por incapacidade permanente na data do óbito, até o limite máximo de benefícios do RGPS, com regra própria para o valor acima desse limite (art. 23, § 2º). A condição desse dependente pode ser reconhecida antes do óbito do segurado, por avaliação biopsicossocial realizada por equipe multiprofissional e interdisciplinar (art. 23, § 5º).",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lc-142-2013",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume pontos da lei ligados à pessoa com deficiência; não traz os demais benefícios nem o regulamento.",
+    "A vigência e as alterações foram conferidas no texto compilado do Planalto em 9 de novembro de 2026. A lei teve muitas alterações; a lista traz as que mudaram os artigos usados aqui.",
+    "A lei está em vigor; o texto compilado do Planalto marca alguns dispositivos como revogados por leis posteriores. Os pontos deste registro estão em vigor.",
+    "A Lei nº 15.371, de 2026, que altera esta lei para criar o salário-paternidade, entra em vigor em 1º de janeiro de 2027 (art. 14) e não está neste registro."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.213, de 24 de julho de 1991: dispõe sobre os Planos de Benefícios da Previdência Social e dá outras providências",
+      "autor": "Brasil",
+      "ano": 1991,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
+      "referencia": "texto compilado: arts. 16, 77, 89, 92, 93 e 110-A",
+      "trecho": "Art. 93. A empresa com 100 (cem) ou mais empregados está obrigada a preencher de 2% (dois por cento) a 5% (cinco por cento) dos seus cargos com beneficiários reabilitados ou pessoas portadoras de deficiência, habilitadas, na seguinte proporção:",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Emenda Constitucional nº 103, de 12 de novembro de 2019: altera o sistema de previdência social e estabelece regras de transição e disposições transitórias",
+      "autor": "Brasil. Congresso Nacional",
+      "ano": 2019,
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm",
+      "referencia": "art. 23, §§ 2º e 5º",
+      "trecho": "§ 2º Na hipótese de existir dependente inválido ou com deficiência intelectual, mental ou grave, o valor da pensão por morte de que trata o caput será equivalente a: I - 100% (cem por cento) da aposentadoria recebida pelo segurado ou servidor ou daquela a que teria direito se fosse aposentado por incapacidade permanente na data do óbito, até o limite máximo de benefícios do Regime Geral de Previdência Social; e",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

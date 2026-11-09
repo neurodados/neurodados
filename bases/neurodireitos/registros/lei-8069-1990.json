@@ -1,0 +1,199 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-8069-1990",
+  "slug": "lei-8069-1990",
+  "base": "neurodireitos",
+  "nome": "Lei nº 8.069, de 13 de julho de 1990",
+  "sigla": "ECA",
+  "nomes_alternativos": [
+    "Estatuto da Criança e do Adolescente"
+  ],
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "8.069",
+    "data": "1990-07-13",
+    "orgao": "Presidência da República",
+    "ementa": "Dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências.",
+    "publicacao": "DOU de 16/07/1990, retificado em 27/09/1990",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "parcialmente_revogada",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Lei nº 13.257, de 2016",
+        "Lei nº 13.438, de 2017",
+        "Lei nº 15.413, de 2026"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "desenvolvimento_infantil",
+    "saude_mental"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "saude",
+    "educacao",
+    "trabalho",
+    "justica"
+  ],
+  "definicao": "A Lei nº 8.069/1990 é o Estatuto da Criança e do Adolescente, que trata da proteção integral à criança e ao adolescente. Este registro reúne só os artigos sobre saúde, deficiência e educação da criança e do adolescente com deficiência, como o atendimento no SUS, a detecção de risco para o desenvolvimento psíquico nos primeiros 18 meses e o atendimento educacional especializado.",
+  "afirmacoes": [
+    {
+      "texto": "A ementa diz que a lei dispõe sobre o Estatuto da Criança e do Adolescente, e o art. 1º diz que ela trata da proteção integral à criança e ao adolescente.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "No sistema de legislação do Senado Federal, a lei aparece com o apelido Estatuto da Criança e do Adolescente (ECA).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Os direitos do Estatuto valem para todas as crianças e adolescentes, sem discriminação de deficiência, de condição pessoal de desenvolvimento e aprendizagem ou de outra condição (art. 3º, parágrafo único, incluído pela Lei nº 13.257, de 2016).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 11 assegura acesso integral às linhas de cuidado voltadas à saúde da criança e do adolescente, por meio do SUS, e o § 1º diz que a criança e o adolescente com deficiência serão atendidos, sem discriminação ou segregação, em suas necessidades gerais de saúde e específicas de habilitação e reabilitação (redação dada pela Lei nº 13.257, de 2016).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Incumbe ao poder público fornecer gratuitamente, a quem precisar, medicamentos, órteses, próteses e outras tecnologias assistivas relativas ao tratamento, à habilitação ou à reabilitação de crianças e adolescentes, de acordo com as linhas de cuidado voltadas às suas necessidades específicas (art. 11, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os profissionais que atuam no cuidado diário ou frequente de crianças na primeira infância receberão formação específica e permanente para a detecção de sinais de risco para o desenvolvimento psíquico e para o acompanhamento que se fizer necessário (art. 11, § 3º, incluído pela Lei nº 13.257, de 2016).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Desde a Lei nº 15.413, de 2026, o art. 11-A assegura às crianças e aos adolescentes acesso a programas de saúde mental do SUS para a prevenção e o tratamento de agravos de saúde mental. Os programas promoverão a atenção psicossocial, inclusive a de urgência e emergência, e a atenção hospitalar, e às crianças e aos adolescentes em situação de vulnerabilidade em tratamento é assegurado o acesso a todos os recursos terapêuticos, de forma gratuita ou subsidiada, de acordo com as linhas de cuidado.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "É obrigatória a aplicação a todas as crianças, nos seus primeiros 18 meses de vida, de protocolo ou outro instrumento construído para facilitar a detecção, em consulta pediátrica de acompanhamento, de risco para o seu desenvolvimento psíquico (art. 14, § 5º, incluído pela Lei nº 13.438, de 2017).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Lei nº 15.450, de 2026, acrescenta ao art. 14 um § 6º que inclui a prevenção do uso indiscriminado, desnecessário ou excessivo de psicofármacos em crianças e adolescentes entre os temas das campanhas de educação sanitária. Pelo art. 2º dessa lei, a mudança entra em vigor 180 dias depois da publicação oficial, feita no DOU de 1º/7/2026.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "É dever do Estado assegurar à criança e ao adolescente atendimento educacional especializado aos “portadores de deficiência”, termo do texto, preferencialmente na rede regular de ensino (art. 54, III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Ao adolescente “portador de deficiência”, termo do texto, é assegurado trabalho protegido (art. 66).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Regem-se pelo Estatuto as ações de responsabilidade por ofensa aos direitos da criança e do adolescente pelo não oferecimento ou pela oferta irregular de atendimento educacional especializado aos portadores de deficiência (art. 208, II).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-educacional-especializado",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14880-2024",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro traz só artigos do Estatuto sobre saúde, deficiência e educação da criança e do adolescente com deficiência; o Estatuto trata de muitos outros temas.",
+    "O Estatuto está em vigor; o texto compilado do Planalto marca alguns dispositivos como revogados por leis posteriores, e os artigos citados aqui estão em vigor. Em alterações estão só as leis que mudaram os artigos citados; o Estatuto recebeu muitas outras.",
+    "Na data da consulta, o § 6º do art. 14, incluído pela Lei nº 15.450/2026, ainda não estava em vigor e não aparecia no texto compilado do Planalto.",
+    "Alguns artigos ainda usam a expressão “portadores de deficiência”, mantida aqui quando o texto é citado.",
+    "A vigência foi conferida no texto compilado do Planalto em 9 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.069, de 13 de julho de 1990: dispõe sobre o Estatuto da Criança e do Adolescente (texto compilado)",
+      "autor": "Brasil",
+      "ano": 1990,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm",
+      "referencia": "texto compilado: arts. 1º, 3º, 11, 11-A, 14, 54, 66 e 208",
+      "trecho": "§ 1º A criança e o adolescente com deficiência serão atendidos, sem discriminação ou segregação, em suas necessidades gerais de saúde e específicas de habilitação e reabilitação.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "site_institucional",
+      "titulo": "Legislação Federal: Lei nº 8.069 de 13/07/1990 (página da norma, campo Apelido)",
+      "autor": "Senado Federal",
+      "ano": 2026,
+      "url": "https://legis.senado.leg.br/norma/549945",
+      "referencia": "campo Apelido",
+      "trecho": "Estatuto da Criança e do Adolescente (1990) (ECA)",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "lei",
+      "titulo": "Lei nº 15.450, de 30 de junho de 2026: altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para instituir medida destinada à prevenção do uso inadequado de psicofármacos em crianças e adolescentes",
+      "autor": "Brasil",
+      "ano": 2026,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15450.htm",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "§ 6º A prevenção do uso indiscriminado, desnecessário ou excessivo de psicofármacos em crianças e adolescentes inclui-se entre os temas a serem tratados nas campanhas de educação sanitária previstas no caput deste artigo.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.decreto-6949-2009",
+  "slug": "decreto-6949-2009",
+  "base": "neurodireitos",
+  "nome": "Decreto nº 6.949, de 25 de agosto de 2009",
+  "nomes_alternativos": [
+    "Convenção sobre os Direitos das Pessoas com Deficiência",
+    "Convenção Internacional sobre os Direitos das Pessoas com Deficiência"
+  ],
+  "categoria": "tratado_internacional",
+  "norma": {
+    "tipo": "decreto",
+    "numero": "6.949",
+    "data": "2009-08-25",
+    "orgao": "Presidência da República",
+    "ementa": "Promulga a Convenção Internacional sobre os Direitos das Pessoas com Deficiência e seu Protocolo Facultativo, assinados em Nova York, em 30 de março de 2007.",
+    "publicacao": "DOU de 26/08/2009",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "acessibilidade",
+    "educacao",
+    "saude",
+    "trabalho",
+    "assistencia_social",
+    "cultura_e_lazer",
+    "justica"
+  ],
+  "definicao": "O Decreto nº 6.949/2009 promulga no Brasil a Convenção sobre os Direitos das Pessoas com Deficiência e o seu Protocolo Facultativo, assinados em Nova York em 2007, e manda executá-los e cumpri-los inteiramente. A Convenção define pessoa com deficiência, trata da discriminação por motivo de deficiência e reconhece direitos como educação inclusiva, saúde, trabalho, proteção social e participação na vida cultural.",
+  "afirmacoes": [
+    {
+      "texto": "O Congresso Nacional aprovou a Convenção e o Protocolo Facultativo pelo Decreto Legislativo nº 186, de 9 de julho de 2008, conforme o procedimento do § 3º do art. 5º da Constituição. O Brasil depositou o instrumento de ratificação junto ao Secretário-Geral das Nações Unidas em 1º de agosto de 2008, e os atos entraram em vigor para o Brasil, no plano jurídico externo, em 31 de agosto de 2008 (considerandos do decreto).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Pelo § 3º do art. 5º da Constituição, os tratados e convenções internacionais sobre direitos humanos aprovados em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, serão equivalentes às emendas constitucionais. O Decreto Legislativo nº 186, de 2008, aprovou o texto da Convenção nos termos desse parágrafo (art. 1º).",
+      "fontes": [
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "texto": "O decreto determina que a Convenção e o Protocolo Facultativo sejam executados e cumpridos tão inteiramente como neles se contém (art. 1º do decreto).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pela Convenção, pessoas com deficiência são aquelas que têm impedimentos de longo prazo de natureza física, mental, intelectual ou sensorial, os quais, em interação com diversas barreiras, podem obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas (Convenção, art. 1).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A discriminação por motivo de deficiência abrange todas as formas de discriminação, inclusive a recusa de adaptação razoável. Adaptação razoável são as modificações e os ajustes necessários e adequados, que não acarretem ônus desproporcional ou indevido, quando requeridos em cada caso, para que a pessoa com deficiência possa exercer seus direitos em igualdade de oportunidades (Convenção, art. 2).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre os princípios da Convenção estão a autonomia individual, a não discriminação, a plena e efetiva participação e inclusão na sociedade, a acessibilidade e o respeito pelo desenvolvimento das capacidades das crianças com deficiência (art. 3). Em todas as ações relativas às crianças com deficiência, o superior interesse da criança recebe consideração primordial, e elas têm o direito de expressar livremente sua opinião sobre os assuntos que lhes dizem respeito (art. 7).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na educação, os Estados Partes assegurarão sistema educacional inclusivo em todos os níveis. Eles assegurarão que as pessoas com deficiência não sejam excluídas do sistema educacional geral sob alegação de deficiência e que recebam adaptações razoáveis e o apoio necessário dentro desse sistema (Convenção, art. 24).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na saúde, os Estados Partes propiciarão os serviços de que as pessoas com deficiência necessitam especificamente por causa da deficiência, inclusive diagnóstico e intervenção precoces, e proibirão a discriminação contra pessoas com deficiência na provisão de seguro de saúde e seguro de vida, caso esses seguros sejam permitidos pela legislação nacional (Convenção, art. 25).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Convenção reconhece o direito das pessoas com deficiência ao trabalho, em igualdade de oportunidades e em ambiente aberto, inclusivo e acessível (art. 27), à proteção social, com o acesso de pessoas com deficiência e suas famílias em situação de pobreza à assistência do Estado em relação aos gastos ocasionados pela deficiência (art. 28), e à participação na vida cultural, com acesso a bens culturais em formatos acessíveis (art. 30).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pelo Protocolo Facultativo, o Estado Parte reconhece a competência do Comitê sobre os Direitos das Pessoas com Deficiência para receber e considerar comunicações de pessoas ou grupos de pessoas que aleguem ser vítimas de violação das disposições da Convenção por esse Estado (Protocolo Facultativo, art. 1).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume pontos da Convenção e do Protocolo Facultativo; não traz todos os artigos.",
+    "A vigência foi conferida no texto do Planalto em 9 de novembro de 2026; o texto do decreto não mostra alterações.",
+    "A Lei nº 13.146, de 2015 (Estatuto da Pessoa com Deficiência), diz ter como base esta Convenção (art. 1º, parágrafo único) e tem registro próprio nesta base."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Decreto nº 6.949, de 25 de agosto de 2009: promulga a Convenção Internacional sobre os Direitos das Pessoas com Deficiência e seu Protocolo Facultativo",
+      "autor": "Brasil",
+      "ano": 2009,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d6949.htm",
+      "referencia": "considerandos e art. 1º do decreto; Convenção, arts. 1, 2, 3, 7, 24, 25, 27, 28 e 30; Protocolo Facultativo, art. 1",
+      "trecho": "Considerando que o Congresso Nacional aprovou, por meio do Decreto Legislativo nº 186, de 9 de julho de 2008, conforme o procedimento do § 3º do art. 5º da Constituição, a Convenção sobre os Direitos das Pessoas com Deficiência e seu Protocolo Facultativo, assinados em Nova York, em 30 de março de 2007;",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Decreto Legislativo nº 186, de 9 de julho de 2008: aprova o texto da Convenção sobre os Direitos das Pessoas com Deficiência e de seu Protocolo Facultativo",
+      "autor": "Brasil. Congresso Nacional",
+      "ano": 2008,
+      "url": "https://www.planalto.gov.br/ccivil_03/congresso/dlg/dlg-186-2008.htm",
+      "referencia": "art. 1º",
+      "trecho": "Art. 1º Fica aprovado, nos termos do § 3º do art. 5º da Constituição Federal, o texto da Convenção sobre os Direitos das Pessoas com Deficiência e de seu Protocolo Facultativo, assinados em Nova Iorque, em 30 de março de 2007.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "norma",
+      "titulo": "Constituição da República Federativa do Brasil de 1988",
+      "autor": "Brasil",
+      "ano": 1988,
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "referencia": "texto compilado: art. 5º, § 3º, incluído pela Emenda Constitucional nº 45, de 2004",
+      "trecho": "§ 3º Os tratados e convenções internacionais sobre direitos humanos que forem aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, serão equivalentes às emendas constitucionais.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

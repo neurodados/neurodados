@@ -1,0 +1,147 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.decreto-6214-2007",
+  "slug": "decreto-6214-2007",
+  "base": "neurodireitos",
+  "nome": "Decreto nº 6.214, de 26 de setembro de 2007",
+  "nomes_alternativos": [
+    "Regulamento do Benefício de Prestação Continuada"
+  ],
+  "categoria": "decreto",
+  "norma": {
+    "tipo": "decreto",
+    "numero": "6.214",
+    "data": "2007-09-26",
+    "orgao": "Presidência da República",
+    "ementa": "Regulamenta o benefício de prestação continuada da assistência social devido à pessoa com deficiência e ao idoso de que trata a Lei nº 8.742, de 7 de dezembro de 1993, e a Lei nº 10.741, de 1º de outubro de 2003, acresce parágrafo ao art. 162 do Decreto nº 3.048, de 6 de maio de 1999, e dá outras providências.",
+    "publicacao": "DOU de 28/09/2007",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "parcialmente_revogada",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Decreto nº 7.617, de 2011",
+        "Decreto nº 8.805, de 2016",
+        "Decreto nº 9.462, de 2018",
+        "Decreto nº 10.554, de 2020",
+        "Decreto nº 12.534, de 2025"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "assistencia_social"
+  ],
+  "definicao": "O Decreto nº 6.214/2007 aprova o Regulamento do Benefício de Prestação Continuada (BPC), o benefício de um salário mínimo mensal da Lei nº 8.742/1993 para a pessoa com deficiência e o idoso com 65 anos ou mais sem meios de prover a própria manutenção. O regulamento detalha quem tem direito, o cálculo da renda familiar, a avaliação da deficiência, os cadastros exigidos, a revisão, a suspensão e a cessação do benefício.",
+  "afirmacoes": [
+    {
+      "texto": "O decreto aprova o Regulamento do Benefício de Prestação Continuada instituído pelo art. 20 da Lei nº 8.742, de 1993 (art. 1º do decreto). O Instituto Nacional do Seguro Social (INSS) é o responsável pela operacionalização do benefício (art. 3º do Regulamento).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para ter o benefício, a pessoa com deficiência deve comprovar impedimentos de longo prazo de natureza física, mental, intelectual ou sensorial que, em interação com diversas barreiras, obstruam sua participação plena e efetiva na sociedade; renda mensal bruta familiar, dividida pelo número de integrantes, igual ou inferior a um quarto do salário mínimo; e que não recebe outro benefício da seguridade social ou de outro regime, salvo as exceções listadas (art. 9º; os incisos II e III na redação dada pelo Decreto nº 12.534, de 2025).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para crianças e adolescentes menores de 16 anos, deve ser avaliada a existência da deficiência e o seu impacto na limitação do desempenho de atividade e na restrição da participação social, compatível com a idade (art. 4º, § 1º, na redação dada pelo Decreto nº 7.617, de 2011). Eles podem apresentar apenas a certidão de nascimento para a identificação (art. 10, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A avaliação da deficiência e do grau de impedimento segue os princípios da Classificação Internacional de Funcionalidades, Incapacidade e Saúde (CIF) e é feita por avaliação social e avaliação médica, que observam os aspectos biopsicossociais e são realizadas pelo serviço social do INSS e pela perícia médica federal, com instrumentos instituídos em ato conjunto. O médico perito registra o código da CID, resguardado o sigilo médico (art. 16, caput e §§ 1º, 3º e 3º-A; os §§ 3º e 3º-A na redação dada pelo Decreto nº 12.534, de 2025).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Se não houver serviço para a avaliação no município de residência, a pessoa é encaminhada ao município mais próximo que tenha essa estrutura, e o INSS paga as despesas de transporte e diárias; se ela precisar de acompanhante, a viagem dele deve ser autorizada pelo INSS, com a mesma regra. Se a pessoa estiver impossibilitada de ir ao local da avaliação, os profissionais devem se deslocar até ela (art. 17).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Não são computados como renda mensal bruta familiar, entre outros, bolsas de estágio supervisionado, rendimentos de contrato de aprendizagem, o BPC concedido a outra pessoa idosa ou com deficiência e o benefício previdenciário de até um salário mínimo concedido a pessoa idosa acima de 65 anos ou a pessoa com deficiência (art. 4º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A concessão do BPC independe da interdição judicial do idoso ou da pessoa com deficiência (art. 18), e o benefício será devido a mais de um membro da mesma família enquanto atendidos os requisitos (art. 19). O benefício devido ao beneficiário incapaz é pago ao cônjuge, pai, mãe, tutor ou curador (art. 35).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O BPC não está sujeito a desconto de contribuição e não gera direito a abono anual (art. 22). Ele é intransferível e não gera direito à pensão por morte (art. 23).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "São requisitos para a concessão e a manutenção as inscrições no CPF e no CadÚnico e o registro biométrico, observadas as exceções previstas em ato do Poder Executivo federal; o benefício só é concedido ou mantido com as informações do CadÚnico atualizadas há, no máximo, 24 meses (art. 12, na redação dada pelo Decreto nº 12.534, de 2025).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O benefício é revisto periodicamente, inclusive por cruzamento de dados (art. 42). O regulamento lista hipóteses de suspensão, como não fazer a inscrição ou a atualização do CadÚnico nos prazos do art. 21-B da Lei nº 8.742, de 1993, não agendar a reavaliação da deficiência ou não efetivar o registro biométrico depois de notificado (art. 47-E). Da cessação cabe recurso ao Conselho de Recursos da Previdência Social, sem efeito suspensivo (art. 48, §§ 2º a 4º). Esses dispositivos têm a redação dada ou foram incluídos pelo Decreto nº 12.534, de 2025.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-8742-1993",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume pontos do regulamento; não traz todos os artigos nem os atos do INSS e dos ministérios que ele menciona.",
+    "A vigência e as alterações foram conferidas no texto compilado do Planalto em 9 de novembro de 2026. O Decreto nº 12.534, de 2025, mudou muitos artigos; a lista traz os decretos que mais alteraram o texto.",
+    "O decreto está em vigor; o texto compilado do Planalto marca alguns dispositivos como revogados, como o art. 2º do decreto e incisos do art. 4º do Regulamento. Os pontos deste registro estão em vigor.",
+    "As regras de renda e de acumulação vêm da Lei nº 8.742, de 1993, que tem registro próprio nesta base. O registro não traz o valor do salário mínimo, que muda a cada ano."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Decreto nº 6.214, de 26 de setembro de 2007: regulamenta o benefício de prestação continuada da assistência social devido à pessoa com deficiência e ao idoso de que trata a Lei nº 8.742, de 7 de dezembro de 1993",
+      "autor": "Brasil",
+      "ano": 2007,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6214.htm",
+      "referencia": "texto compilado: art. 1º do decreto; Regulamento, arts. 1º, 3º, 4º, 9º, 10, 12, 16 a 19, 22, 23, 35, 42, 47-E e 48",
+      "trecho": "Art. 1º O Benefício de Prestação Continuada previsto no art. 20 da Lei nº 8.742, de 7 de dezembro de 1993, é a garantia de um salário mínimo mensal à pessoa com deficiência e ao idoso, com idade de sessenta e cinco anos ou mais, que comprovem não possuir meios para prover a própria manutenção e nem de tê-la provida por sua família.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -108,7 +108,7 @@ m = await mcp({ jsonrpc: '2.0', method: 'notifications/initialized' });
 conferir(m.status === 202, 'MCP: notificação dá 202');
 m = await mcp({ jsonrpc: '2.0', id: 2, method: 'tools/list' });
 const temInstrumento = (DADOS.registros.avaliabase || []).some((x) => x.categoria === 'instrumento');
-const busca = { neurobase: ['buscar_conceito'], avaliabase: ['buscar_avaliacao', ...(temInstrumento ? ['buscar_instrumento'] : [])], intervenbase: ['buscar_intervencao'], evidenciabase: ['buscar_evidencias'] };
+const busca = { neurobase: ['buscar_conceito'], avaliabase: ['buscar_avaliacao', ...(temInstrumento ? ['buscar_instrumento'] : [])], intervenbase: ['buscar_intervencao'], evidenciabase: ['buscar_evidencias'], neurodireitos: ['buscar_norma'] };
 const esperadas = ['listar_bases', ...BASES.flatMap((b) => busca[b] || []), 'consultar_registro', ...(BASES.includes('neurobase') ? ['consultar_tea', 'consultar_tdah'] : [])];
 const nomes = (m.corpo.result?.tools || []).map((t) => t.name);
 conferir(JSON.stringify(nomes.slice().sort()) === JSON.stringify(esperadas.slice().sort()) && m.corpo.result.tools.every((t) => t.inputSchema && t.description), `MCP: tools/list (${nomes.join(', ')})`);
@@ -142,6 +142,30 @@ if (instrumentos.length) {
   const i = instrumentos[0];
   c = await chamar('buscar_instrumento', { consulta: i.sigla || i.nome }, 10);
   conferir(c.result?.structuredContent?.registros?.[0]?.id === i.id && c.result.content[0].text.includes('SATEPSI'), `MCP: buscar_instrumento acha ${i.id} com a situação no SATEPSI`);
+}
+// NeuroDireitos: busca pelo número da norma, filtros e a ficha com o texto oficial.
+const normas = DADOS.registros.neurodireitos || [];
+if (normas.length) {
+  const n = normas[0];
+  const oficial = n.fontes.find((f) => f.id === n.norma.fonte).url;
+  c = await chamar('buscar_norma', { consulta: n.norma.numero.replace(/\./g, '') }, 11);
+  conferir(c.result?.structuredContent?.registros?.[0]?.id === n.id && c.result.content[0].text.includes(oficial), `MCP: buscar_norma acha ${n.id} pelo número, com o texto oficial`);
+  const cond = (n.condicoes || [])[0];
+  if (cond) {
+    c = await chamar('buscar_norma', { consulta: n.nome, condicao: cond }, 12);
+    conferir((c.result?.structuredContent?.registros || []).some((x) => x.id === n.id), `MCP: buscar_norma filtra pela condição (${cond})`);
+  }
+  c = await chamar('buscar_norma', { consulta: 'lei', condicao: 'nao-existe' }, 13);
+  conferir(c.error?.code === -32602, 'MCP: buscar_norma com condição desconhecida dá -32602');
+  c = await chamar('consultar_registro', { id: n.id }, 14);
+  conferir((c.result?.content?.[0]?.text || '').includes(DADOS.rotulos.norma.titulo), `MCP: consultar_registro ${n.id} traz a ficha da norma`);
+  r = await pedir(`${P}/api/v1/neurodireitos?area=nao-existe`);
+  conferir(r.status === 400, 'API: área desconhecida no NeuroDireitos dá 400');
+  if (cond) {
+    r = await pedir(`${P}/api/v1/neurodireitos?condicao=${cond}`);
+    const j = await r.json();
+    conferir(r.status === 200 && (j.dados?.registros || []).every((x) => (x.condicoes || []).includes(cond)), `API: filtro condicao=${cond} no NeuroDireitos`);
+  }
 }
 
 // Downloads de cada base

@@ -1,0 +1,137 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.decreto-7611-2011",
+  "slug": "decreto-7611-2011",
+  "base": "neurodireitos",
+  "nome": "Decreto nº 7.611, de 17 de novembro de 2011",
+  "categoria": "decreto",
+  "norma": {
+    "tipo": "decreto",
+    "numero": "7.611",
+    "data": "2011-11-17",
+    "orgao": "Presidência da República",
+    "ementa": "Dispõe sobre a educação especial, o atendimento educacional especializado e dá outras providências.",
+    "publicacao": "DOU de 18/11/2011, republicado no mesmo dia em edição extra",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "revogada",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Decreto nº 10.930, de 2022"
+      ],
+      "revogada_por": "Decreto nº 12.686, de 2025"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "tea"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "O Decreto nº 7.611/2011 tratava da educação especial e do atendimento educacional especializado. Ele foi revogado pelo Decreto nº 12.686/2025, que instituiu a Política Nacional de Educação Especial Inclusiva. O registro mostra o que ele previa, para quem encontra a norma citada em documentos antigos.",
+  "afirmacoes": [
+    {
+      "texto": "O decreto foi revogado pelo art. 23 do Decreto nº 12.686, de 20 de outubro de 2025, que instituiu a Política Nacional de Educação Especial Inclusiva e a Rede Nacional de Educação Especial Inclusiva. No Planalto, todo o texto do Decreto nº 7.611/2011 aparece riscado.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Antes disso, o art. 8º, que mudava o Decreto nº 6.253/2007, já tinha sido revogado pelo Decreto nº 10.930, de 2022.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Enquanto esteve em vigor, o decreto considerava público-alvo da educação especial as pessoas com deficiência, com transtornos globais do desenvolvimento e com altas habilidades ou superdotação (art. 1º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre as diretrizes do dever do Estado com a educação desse público estavam a garantia de um sistema educacional inclusivo em todos os níveis, a não exclusão do sistema educacional geral sob alegação de deficiência, a adoção de medidas de apoio individualizadas e a oferta de educação especial preferencialmente na rede regular de ensino (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O decreto chamava de atendimento educacional especializado o conjunto de atividades e de recursos de acessibilidade e pedagógicos, organizados institucional e continuamente, prestado de forma complementar à formação dos estudantes com deficiência e transtornos globais do desenvolvimento, como apoio permanente e limitado no tempo e na frequência dos estudantes às salas de recursos multifuncionais, ou suplementar à formação dos estudantes com altas habilidades ou superdotação (art. 2º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 4º previa que o poder público estimularia o acesso ao atendimento educacional especializado de forma complementar ou suplementar ao ensino regular, assegurando a dupla matrícula.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.decreto-12686-2025",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.resolucao-cne-ceb-4-2009",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-educacional-especializado",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O decreto está revogado: o registro serve para entender documentos antigos que o citam. As regras atuais sobre o tema estão no Decreto nº 12.686/2025, com as mudanças do Decreto nº 12.773/2025.",
+    "O registro não traz o Decreto nº 6.253/2007 nem as regras de financiamento que o decreto alterava.",
+    "A situação foi conferida no texto do Planalto em 9 de novembro de 2026, que mostra o decreto todo riscado e a nota de revogação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Decreto nº 7.611, de 17 de novembro de 2011: dispõe sobre a educação especial e o atendimento educacional especializado (revogado)",
+      "autor": "Brasil",
+      "ano": 2011,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/decreto/d7611.htm",
+      "referencia": "texto riscado, com a nota de revogação no topo: arts. 1º, 2º, 4º e 8º",
+      "trecho": "§ 1º Para fins deste Decreto, considera-se público-alvo da educação especial as pessoas com deficiência, com transtornos globais do desenvolvimento e com altas habilidades ou superdotação.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Decreto nº 12.686, de 20 de outubro de 2025: institui a Política Nacional de Educação Especial Inclusiva e a Rede Nacional de Educação Especial Inclusiva",
+      "autor": "Brasil",
+      "ano": 2025,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12686.htm",
+      "referencia": "art. 23",
+      "trecho": "Art. 23. Fica revogado o Decreto nº 7.611, de 17 de novembro de 2011.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

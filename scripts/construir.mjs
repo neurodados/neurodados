@@ -96,6 +96,7 @@ pagina(join(ND, 'governanca.html'), M.paginaTexto(ctx, 'governanca', '/governanc
 pagina(join(ND, 'licencas.html'), M.paginaTexto(ctx, 'licencas', '/licencas'), '/licencas', maisRecente);
 pagina(join(ND, 'contribuicoes.html'), M.paginaTexto(ctx, 'contribuicoes', '/contribuicoes'), '/contribuicoes', maisRecente);
 pagina(join(ND, 'metodologia.html'), M.paginaMetodologia(ctx), '/metodologia', maisRecente);
+pagina(join(ND, 'regulacao-de-neurodados.html'), M.paginaRegulacao(ctx), '/regulacao-de-neurodados', '2026-11-09');
 pagina(join(ND, 'bases.html'), M.paginaBases(ctx, resumos), '/bases', maisRecente);
 const temInstrumentos = (listaPorBase.get('avaliabase') || []).some((r) => r.categoria === 'instrumento');
 pagina(join(ND, 'documentacao.html'), M.paginaDocumentacao(ctx, resumos, { temInstrumentos }), '/documentacao', maisRecente);
@@ -139,6 +140,21 @@ const COLUNAS_DA_BASE = {
     ['publicacao_doi', (r) => r.publicacao?.doi],
     ['publicacao_url', (r) => r.publicacao?.url],
     ['temas', (r) => lista_(r.temas)],
+  ],
+  neurodireitos: [
+    ['norma_tipo', (r) => r.norma?.tipo],
+    ['norma_numero', (r) => r.norma?.numero],
+    ['norma_data', (r) => r.norma?.data],
+    ['norma_orgao', (r) => r.norma?.orgao],
+    ['norma_ementa', (r) => r.norma?.ementa],
+    ['norma_abrangencia', (r) => r.norma?.abrangencia],
+    ['vigencia_situacao', (r) => r.norma?.vigencia?.situacao],
+    ['vigencia_conferido_em', (r) => r.norma?.vigencia?.conferido_em],
+    ['alteracoes', (r) => lista_(r.norma?.vigencia?.alteracoes)],
+    ['regulamentada_por', (r) => lista_(r.norma?.regulamentada_por)],
+    ['condicoes', (r) => lista_(r.condicoes)],
+    ['areas', (r) => lista_(r.areas)],
+    ['texto_oficial', (r) => (r.fontes || []).find((f) => f.id === r.norma?.fonte)?.url],
   ],
 };
 const catalogo = { nome: T.MARCA.nome, url: URL_BASE, mantenedor: { nome: SITE.mantenedor, url: SITE.mantenedorUrl }, bases: [] };
@@ -188,7 +204,7 @@ for (const [i, b] of bases.entries()) {
 }
 const enderecos = {
   api: `${URL_BASE}/api/v1`, openapi: `${URL_BASE}/api/v1/openapi.json`, mcp: `${URL_BASE}/mcp`, skill: `${URL_BASE}/skill/SKILL.md`,
-  governanca: `${URL_BASE}/governanca`, metodologia: `${URL_BASE}/metodologia`, licencas: `${URL_BASE}/licencas`,
+  governanca: `${URL_BASE}/governanca`, metodologia: `${URL_BASE}/metodologia`, licencas: `${URL_BASE}/licencas`, regulacao: `${URL_BASE}/regulacao-de-neurodados`,
   github: SITE.github, huggingface: SITE.huggingface,
 };
 llms.push('', `## ${L.consultar}`, '');
@@ -228,6 +244,10 @@ for (const b of bases) {
         { name: 'categoria', in: 'query', schema: { type: 'string', enum: Object.keys(T.CATEGORIAS[b.id] || {}) }, description: MSG.parametroCategoria },
         { name: 'pagina', in: 'query', schema: { type: 'integer', minimum: 1, default: 1 }, description: MSG.parametroPagina },
         { name: 'por_pagina', in: 'query', schema: { type: 'integer', minimum: 1, maximum: 100, default: 20 }, description: MSG.parametroPorPagina },
+        ...(b.id === 'neurodireitos' ? [
+          { name: 'condicao', in: 'query', schema: { type: 'string', enum: Object.keys(T.CONDICOES) }, description: MSG.parametroCondicao },
+          { name: 'area', in: 'query', schema: { type: 'string', enum: Object.keys(T.AREAS) }, description: MSG.parametroArea },
+        ] : []),
       ],
       responses: { ...resposta, 400: { description: MSG.categoriaDesconhecida } },
     },
@@ -253,6 +273,8 @@ const dadosWorker = {
   categorias: Object.keys(T.CATEGORIAS.neurobase),
   categoriasPorBase: Object.fromEntries(Object.entries(T.CATEGORIAS).map(([b, c]) => [b, Object.keys(c)])),
   temas: T.TEMAS,
+  condicoes: T.CONDICOES,
+  areas: T.AREAS,
   rotulos: T.REGISTRO,
   bases: catalogo.bases.map((c, i) => ({
     ...c, n: c.registros, api: c.api_url,

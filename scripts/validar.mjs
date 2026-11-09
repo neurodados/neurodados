@@ -70,6 +70,26 @@ for (const b of bases) {
       if (s.consultado_em > dia) erro(local, 'consulta ao SATEPSI no futuro');
       if ((s.situacao === 'nao_privativo') !== (d.instrumento.uso === 'nao_privativo')) aviso(local, 'o uso e a situação no SATEPSI não combinam');
     }
+    // NeuroDireitos: a ficha da norma aponta para o texto oficial, com datas possíveis,
+    // e o tipo combina com a categoria.
+    if (d.norma) {
+      const n = d.norma;
+      usadas.add(n.fonte);
+      if (!fontes.has(n.fonte)) erro(local, `a ficha da norma cita a fonte ${n.fonte}, que não existe`);
+      if (n.data > dia) erro(local, 'norma com data no futuro');
+      if ((n.vigencia || {}).conferido_em > dia) erro(local, 'vigência conferida no futuro');
+      if (n.vigencia?.situacao === 'revogada' && !n.vigencia.revogada_por) aviso(local, 'norma revogada sem dizer por qual');
+      if (n.abrangencia !== 'federal' && !n.uf) erro(local, 'norma estadual ou municipal sem a UF');
+      if (n.abrangencia === 'municipal' && !n.municipio) erro(local, 'norma municipal sem o município');
+      const tiposDaCategoria = {
+        tratado_internacional: ['tratado', 'decreto', 'decreto_legislativo'],
+        lei: ['constituicao', 'emenda_constitucional', 'lei_complementar', 'lei', 'medida_provisoria'],
+        decreto: ['decreto', 'decreto_legislativo'],
+        norma_infralegal: ['portaria', 'portaria_de_consolidacao', 'resolucao', 'resolucao_normativa', 'instrucao_normativa', 'outra'],
+      };
+      if (!(tiposDaCategoria[d.categoria] || []).includes(n.tipo)) aviso(local, `o tipo da norma (${n.tipo}) não combina com a categoria (${d.categoria})`);
+    }
+    if (b.id === 'neurodireitos' && !d.norma) erro(local, 'registro do NeuroDireitos sem a ficha da norma (campo "norma")');
     // EvidenciaBase: a publicação aparece entre as fontes.
     if (d.publicacao && !(d.fontes || []).some((f) => f.url === d.publicacao.url || (d.publicacao.doi && f.doi === d.publicacao.doi))) {
       aviso(local, 'a publicação não está entre as fontes');

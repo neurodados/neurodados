@@ -1,0 +1,112 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-15094-2025",
+  "slug": "lei-15094-2025",
+  "base": "neurodireitos",
+  "nome": "Lei nº 15.094, de 8 de janeiro de 2025",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "15.094",
+    "data": "2025-01-08",
+    "orgao": "Presidência da República",
+    "ementa": "Torna obrigatória a realização de exame clínico destinado a identificar a Fibrodisplasia Ossificante Progressiva (FOP) nos recém-nascidos na triagem neonatal das redes pública e privada de saúde, com cobertura do Sistema Único de Saúde (SUS).",
+    "publicacao": "DOU de 09/01/2025",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "doencas_raras",
+    "desenvolvimento_infantil"
+  ],
+  "areas": [
+    "saude",
+    "planos_de_saude"
+  ],
+  "definicao": "A Lei nº 15.094/2025 torna obrigatório, na triagem neonatal das redes pública e privada, um exame clínico dos recém-nascidos para identificar as malformações dos dedos grandes dos pés típicas da fibrodisplasia ossificante progressiva (FOP), com cobertura do SUS.",
+  "afirmacoes": [
+    {
+      "texto": "É obrigatória a realização de exame clínico destinado a identificar as malformações dos dedos grandes dos pés típicas da fibrodisplasia ossificante progressiva (FOP) nos recém-nascidos, na triagem neonatal das redes pública e privada de saúde, com cobertura do SUS (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O exame abrange todos os recém-nascidos no território nacional, seja ele feito pelo SUS, por meio de planos de saúde ou pela rede privada de saúde (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entrou em vigor na data da publicação, no Diário Oficial da União de 9 de janeiro de 2025 (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Segundo a Agência Câmara, a fibrodisplasia ossificante progressiva é uma doença rara, de origem genética, que se caracteriza pela formação progressiva de ossos em músculos, tendões, ligamentos e outros tecidos, o que restringe movimentos e pode levar à imobilidade permanente.",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-14154-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.portaria-de-consolidacao-gm-ms-2-2017",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "A lei trata só do exame clínico na triagem neonatal; o registro não trata de exames de confirmação, de tratamento nem de outros exames da triagem.",
+    "A vigência foi conferida no texto da lei, no site do Planalto, em 9 de novembro de 2026; o texto não mostra alterações."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 15.094, de 8 de janeiro de 2025: torna obrigatória a realização de exame clínico destinado a identificar a Fibrodisplasia Ossificante Progressiva (FOP) nos recém-nascidos na triagem neonatal",
+      "autor": "Brasil",
+      "ano": 2025,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15094.htm",
+      "referencia": "arts. 1º a 3º",
+      "trecho": "Art. 1º É obrigatória a realização de exame clínico destinado a identificar as malformações dos dedos grandes dos pés típicas na Fibrodisplasia Ossificante Progressiva (FOP) nos recém-nascidos na triagem neonatal das redes pública e privada de saúde, com cobertura do Sistema Único de Saúde (SUS).",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "site_institucional",
+      "titulo": "Lei inclui teste para detectar fibrodisplasia ossificante na triagem neonatal",
+      "autor": "Câmara dos Deputados, Agência Câmara de Notícias",
+      "ano": 2025,
+      "url": "https://www.camara.leg.br/noticias/1126220-lei-inclui-teste-para-detectar-fibrodisplasia-ossificante-na-triagem-neonatal/",
+      "referencia": "Notícia de 10/01/2025",
+      "trecho": "A fibrodisplasia ossificante progressiva é uma doença rara, de origem genética, que se caracteriza pela formação de ossos em músculos, tendões, ligamentos e outros tecidos de forma progressiva, restringindo movimentos e podendo levar o paciente à imobilidade permanente.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

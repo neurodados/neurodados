@@ -1,0 +1,111 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-13935-2019",
+  "slug": "lei-13935-2019",
+  "base": "neurodireitos",
+  "nome": "Lei nº 13.935, de 11 de dezembro de 2019",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "13.935",
+    "data": "2019-12-11",
+    "orgao": "Presidência da República",
+    "ementa": "Dispõe sobre a prestação de serviços de psicologia e de serviço social nas redes públicas de educação básica.",
+    "publicacao": "DOU de 12/12/2019",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "A Lei nº 13.935/2019 diz que as redes públicas de educação básica contarão com serviços de psicologia e de serviço social, por meio de equipes multiprofissionais, para atender às necessidades e prioridades definidas pelas políticas de educação. As equipes atuam na melhoria do processo de ensino-aprendizagem e na mediação das relações sociais e institucionais.",
+  "afirmacoes": [
+    {
+      "texto": "As redes públicas de educação básica contarão com serviços de psicologia e de serviço social para atender às necessidades e prioridades definidas pelas políticas de educação, por meio de equipes multiprofissionais (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As equipes multiprofissionais deverão desenvolver ações para a melhoria da qualidade do processo de ensino-aprendizagem, com a participação da comunidade escolar, atuando na mediação das relações sociais e institucionais (art. 1º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O trabalho da equipe multiprofissional deverá considerar o projeto político-pedagógico das redes públicas de educação básica e dos seus estabelecimentos de ensino (art. 1º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os sistemas de ensino tiveram 1 ano, a partir da publicação da lei, para tomar as providências necessárias ao cumprimento dela (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Lei nº 14.819/2024, que institui a Política Nacional de Atenção Psicossocial nas Comunidades Escolares, diz que essa política será implementada em articulação com a Lei nº 13.935/2019 (art. 6º da Lei nº 14.819/2024). No Planalto, o texto da Lei nº 13.935/2019 traz a indicação “Vide Lei nº 14.819, de 2024”.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-14254-2021",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "A lei vale para as redes públicas de educação básica e não diz quantos profissionais cada rede deve ter nem como os serviços se organizam.",
+    "O registro não resume a Lei nº 14.819/2024.",
+    "A vigência foi conferida no texto do Planalto em 9 de novembro de 2026; o Planalto não registra alterações na lei."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.935, de 11 de dezembro de 2019: dispõe sobre a prestação de serviços de psicologia e de serviço social nas redes públicas de educação básica",
+      "autor": "Brasil",
+      "ano": 2019,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13935.htm",
+      "referencia": "arts. 1º e 2º e a indicação “Vide Lei nº 14.819, de 2024” no topo",
+      "trecho": "Art. 1º As redes públicas de educação básica contarão com serviços de psicologia e de serviço social para atender às necessidades e prioridades definidas pelas políticas de educação, por meio de equipes multiprofissionais.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.819, de 16 de janeiro de 2024: institui a Política Nacional de Atenção Psicossocial nas Comunidades Escolares",
+      "autor": "Brasil",
+      "ano": 2024,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14819.htm",
+      "referencia": "art. 6º",
+      "trecho": "Art. 6º A implementação da Política Nacional de Atenção Psicossocial nas Comunidades Escolares dar-se-á em articulação com o disposto na Lei nº 13.935, de 11 de dezembro de 2019.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

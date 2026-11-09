@@ -1,0 +1,138 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lc-142-2013",
+  "slug": "lc-142-2013",
+  "base": "neurodireitos",
+  "nome": "Lei Complementar nº 142, de 8 de maio de 2013",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei_complementar",
+    "numero": "142",
+    "data": "2013-05-08",
+    "orgao": "Presidência da República",
+    "ementa": "Regulamenta o § 1º do art. 201 da Constituição Federal, no tocante à aposentadoria da pessoa com deficiência segurada do Regime Geral de Previdência Social - RGPS.",
+    "publicacao": "DOU de 09/05/2013",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "previdencia"
+  ],
+  "definicao": "A Lei Complementar nº 142/2013 regulamenta a aposentadoria da pessoa com deficiência segurada do Regime Geral de Previdência Social (RGPS). Ela reduz o tempo de contribuição conforme o grau da deficiência (grave, moderada ou leve) e prevê aposentadoria aos 60 anos de idade, se homem, e 55, se mulher, com 15 anos de contribuição e deficiência comprovada durante igual período.",
+  "afirmacoes": [
+    {
+      "texto": "Para esta lei complementar, considera-se pessoa com deficiência aquela que tem impedimentos de longo prazo de natureza física, mental, intelectual ou sensorial, os quais, em interação com diversas barreiras, podem obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "É assegurada aposentadoria pelo RGPS ao segurado com deficiência aos 25 anos de tempo de contribuição, se homem, e 20, se mulher, no caso de deficiência grave; aos 29 e 24 anos, no caso de deficiência moderada; e aos 33 e 28 anos, no caso de deficiência leve (art. 3º, I a III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Também é assegurada aposentadoria aos 60 anos de idade, se homem, e 55, se mulher, independentemente do grau de deficiência, desde que cumprido tempo mínimo de contribuição de 15 anos e comprovada a existência de deficiência durante igual período (art. 3º, IV).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Regulamento do Poder Executivo define as deficiências grave, moderada e leve (art. 3º, parágrafo único). A avaliação da deficiência é médica e funcional, e o grau é atestado por perícia própria do INSS, com instrumentos desenvolvidos para esse fim (arts. 4º e 5º). A deficiência anterior à vigência da lei deve ser certificada, inclusive quanto ao grau, na primeira avaliação, com a data provável de início, e o tempo de contribuição como segurado com deficiência anterior à vigência não pode ser comprovado por prova exclusivamente testemunhal (art. 6º, §§ 1º e 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Se o segurado se tornar pessoa com deficiência depois de filiado ao RGPS, ou se o grau mudar, os tempos de contribuição do art. 3º são ajustados proporcionalmente aos anos trabalhados sem e com deficiência, conforme o grau (art. 7º). A redução do tempo de contribuição não pode ser acumulada, no mesmo período, com a redução das atividades exercidas sob condições especiais que prejudiquem a saúde ou a integridade física (art. 10).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A renda mensal é de 100% do salário de benefício nas aposentadorias dos incisos I a III do art. 3º e, na aposentadoria por idade, de 70% mais 1% do salário de benefício por grupo de 12 contribuições mensais, até o máximo de 30% (art. 8º). Aplica-se o fator previdenciário se resultar em renda mensal mais elevada, e a pessoa pode receber outra aposentadoria da Lei nº 8.213, de 1991, que lhe seja mais vantajosa (art. 9º, I e V).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei complementar entrou em vigor depois de decorridos 6 meses de sua publicação oficial (art. 11).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Emenda Constitucional nº 103, de 2019, determina que, até que lei discipline o tema, a aposentadoria da pessoa com deficiência segurada do RGPS, e também a do servidor público federal com deficiência vinculado a regime próprio que cumpra 10 anos de efetivo exercício no serviço público e 5 no cargo, seja concedida na forma desta lei complementar, inclusive quanto aos critérios de cálculo dos benefícios (art. 22 da Emenda). Para servidores com deficiência de estados, do Distrito Federal e de municípios, a Emenda manda aplicar as normas anteriores a ela enquanto a legislação de cada regime próprio não mudar (art. 22, parágrafo único).",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-8213-1991",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12933-2013",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume a lei complementar; não traz o regulamento (a página do Planalto remete ao Decreto nº 3.048, de 1999) nem os instrumentos de avaliação do INSS.",
+    "A vigência foi conferida no texto do Planalto em 9 de novembro de 2026; o texto não mostra alterações. A Emenda Constitucional nº 103, de 2019, foi lida no mesmo dia."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei Complementar nº 142, de 8 de maio de 2013: regulamenta o § 1º do art. 201 da Constituição Federal, no tocante à aposentadoria da pessoa com deficiência segurada do Regime Geral de Previdência Social",
+      "autor": "Brasil",
+      "ano": 2013,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp142.htm",
+      "referencia": "texto: arts. 2º a 11",
+      "trecho": "Art. 3º É assegurada a concessão de aposentadoria pelo RGPS ao segurado com deficiência, observadas as seguintes condições: I - aos 25 (vinte e cinco) anos de tempo de contribuição, se homem, e 20 (vinte) anos, se mulher, no caso de segurado com deficiência grave;",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Emenda Constitucional nº 103, de 12 de novembro de 2019: altera o sistema de previdência social e estabelece regras de transição e disposições transitórias",
+      "autor": "Brasil. Congresso Nacional",
+      "ano": 2019,
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm",
+      "referencia": "art. 22, caput e parágrafo único",
+      "trecho": "Art. 22. Até que lei discipline o § 4º-A do art. 40 e o inciso I do § 1º do art. 201 da Constituição Federal, a aposentadoria da pessoa com deficiência segurada do Regime Geral de Previdência Social ou do servidor público federal com deficiência vinculado a regime próprio de previdência social [...] será concedida na forma da Lei Complementar nº 142, de 8 de maio de 2013, inclusive quanto aos critérios de cálculo dos benefícios.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

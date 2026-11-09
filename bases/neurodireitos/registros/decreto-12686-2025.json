@@ -1,0 +1,170 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.decreto-12686-2025",
+  "slug": "decreto-12686-2025",
+  "base": "neurodireitos",
+  "nome": "Decreto nº 12.686, de 20 de outubro de 2025",
+  "categoria": "decreto",
+  "norma": {
+    "tipo": "decreto",
+    "numero": "12.686",
+    "data": "2025-10-20",
+    "orgao": "Presidência da República",
+    "ementa": "Institui a Política Nacional de Educação Especial Inclusiva e a Rede Nacional de Educação Especial Inclusiva.",
+    "publicacao": "DOU de 21/10/2025",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Decreto nº 12.773, de 2025"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "deficiencia"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "O Decreto nº 12.686/2025 institui a Política Nacional de Educação Especial Inclusiva e a Rede Nacional de Educação Especial Inclusiva, para estudantes com deficiência, com transtorno do espectro autista e com altas habilidades ou superdotação. Ele revogou o Decreto nº 7.611/2011 e trata do atendimento educacional especializado, do estudo de caso, dos planos individualizados e do profissional de apoio escolar.",
+  "afirmacoes": [
+    {
+      "texto": "A política tem a finalidade de garantir o direito à educação em um sistema educacional inclusivo para estudantes com deficiência, com transtorno do espectro autista e com altas habilidades ou superdotação, sem discriminação e com base na igualdade de oportunidades, e o estudante com TEA é considerado pessoa com deficiência para fins da política (art. 1º, caput e § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O sistema educacional inclusivo se garante pela organização do sistema educacional geral, de forma a assegurar que os estudantes que são público da educação especial tenham o direito a ser incluídos em classes e escolas comuns, com o apoio necessário à sua participação, permanência e aprendizagem (art. 1º, § 3º, na redação dada pelo Decreto nº 12.773, de 2025).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O atendimento educacional especializado (AEE) é atividade pedagógica de caráter complementar à escolarização de pessoas com deficiência e com transtorno do espectro autista e suplementar à de pessoas com altas habilidades ou superdotação, e a matrícula no AEE não poderá substituir a matrícula e a frequência na classe comum (arts. 5º e 8º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na educação básica, o AEE poderá, excepcionalmente, ser realizado em Centro de Atendimento Educacional Especializado da rede pública ou de instituição sem fins lucrativos conveniada com a Secretaria de Educação ou órgão equivalente (art. 9º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O estudo de caso é a etapa inicial necessária para identificar o estudante público da educação especial. O envolvimento do estudante e da família deve ser garantido em todo o estudo; quando necessário, há diálogo com profissionais da saúde, da assistência social e dos órgãos de proteção à criança e ao adolescente, e a avaliação biopsicossocial da deficiência poderá ser usada como documento subsidiário (art. 11, caput e §§ 3º, 4º e 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A garantia da oferta do AEE não será condicionada à exigência de diagnóstico, laudo, relatório ou qualquer outro documento emitido por profissional de saúde (art. 11, § 7º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "É obrigatória a realização de documento individualizado de natureza pedagógica, com atualização contínua, como o Plano de Atendimento Educacional Especializado (PAEE) e o Plano Educacional Individualizado (PEI), que derive do estudo de caso e oriente o trabalho na sala de aula comum, no AEE, nas atividades colaborativas da escola e na articulação intersetorial (art. 12, na redação dada pelo Decreto nº 12.773, de 2025).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A instituição de ensino deverá prover parecer pedagógico que autorize o uso de dispositivos digitais portáteis como instrumento de tecnologia assistiva na aprendizagem, na comunicação ou na socialização dos estudantes público da educação especial (art. 12, § 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O profissional de apoio escolar atua na locomoção, no acesso e na participação, na higiene e na alimentação, na interação social e na comunicação e no uso de recursos do AEE, em todas as atividades escolares. A oferta desse profissional será avaliada pelo estudo de caso e independerá de diagnóstico, laudo, relatório ou qualquer documento emitido por profissional de saúde (art. 14, na redação dada pelo Decreto nº 12.773, de 2025).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O professor do AEE terá formação inicial para a docência e formação continuada em educação especial inclusiva de, no mínimo, 360 horas; o profissional de apoio escolar terá formação inicial de, no mínimo, nível médio e formação continuada de, no mínimo, 180 horas, nos termos de ato do Ministro da Educação (arts. 13 e 15, na redação dada pelo Decreto nº 12.773, de 2025).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O decreto revogou o Decreto nº 7.611, de 17 de novembro de 2011 (art. 23).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.decreto-7611-2011",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.resolucao-cne-ceb-4-2009",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-15436-2026",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-educacional-especializado",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.acompanhamento-terapeutico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O art. 7º manda regulamentar a garantia do AEE por ato do Ministro da Educação; esse ato e as regras de cada sistema de ensino não estão neste registro.",
+    "O registro resume os pontos principais; não detalha a Rede Nacional de Educação Especial Inclusiva nem as formas de apoio da União.",
+    "A vigência e as alterações foram conferidas no texto compilado do Planalto em 9 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Decreto nº 12.686, de 20 de outubro de 2025: institui a Política Nacional de Educação Especial Inclusiva e a Rede Nacional de Educação Especial Inclusiva (texto compilado, com as mudanças do Decreto nº 12.773, de 2025)",
+      "autor": "Brasil",
+      "ano": 2025,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12686.htm",
+      "referencia": "texto compilado: arts. 1º, 5º, 7º, 8º, 9º, 11, 12, 13, 14, 15 e 23",
+      "trecho": "§ 7º A garantia da oferta do AEE ao estudante não será condicionada à exigência de diagnóstico, laudo, relatório ou qualquer outro documento emitido por profissional de saúde.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

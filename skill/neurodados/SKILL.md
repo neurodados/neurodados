@@ -1,6 +1,6 @@
 ---
 name: neurodados
-description: Consulta e uso responsável do NeuroDados Brasil, os dados abertos sobre neurodesenvolvimento mantidos pela Clínica NeuroBee. Use quando a pergunta envolver TEA, TDAH, transtornos da aprendizagem, deficiência intelectual, linguagem, funções executivas, marcos e vigilância do desenvolvimento infantil, avaliação psicológica e neuropsicológica, testes psicológicos e o SATEPSI, intervenções e atendimentos no desenvolvimento infantil, ou estudos sobre esses temas, e quando for preciso citar uma fonte oficial brasileira.
+description: Consulta e uso responsável do NeuroDados Brasil, os dados abertos sobre neurodesenvolvimento mantidos pela Clínica NeuroBee. Use quando a pergunta envolver TEA, TDAH, transtornos da aprendizagem, deficiência intelectual, linguagem, funções executivas, marcos e vigilância do desenvolvimento infantil, avaliação psicológica e neuropsicológica, testes psicológicos e o SATEPSI, intervenções e atendimentos no desenvolvimento infantil, estudos sobre esses temas, ou leis e direitos da pessoa com TEA, TDAH, dislexia ou deficiência, e quando for preciso citar uma fonte oficial brasileira.
 ---
 
 # NeuroDados Brasil
@@ -13,12 +13,13 @@ O NeuroDados Brasil reúne dados abertos sobre neurodesenvolvimento e desenvolvi
 - AvaliaBase: a avaliação psicológica e neuropsicológica (o que é, as etapas e os documentos), o SATEPSI, o sistema do Conselho Federal de Psicologia que avalia os testes psicológicos, e a situação de testes e instrumentos nele, com a data da consulta.
 - IntervenBase: intervenções e atendimentos no desenvolvimento infantil, com o que as evidências mostram e os limites delas.
 - EvidenciaBase: estudos, revisões e diretrizes, com os metadados e um resumo de cada publicação.
+- NeuroDireitos: leis, decretos e normas federais sobre neurodesenvolvimento, deficiência, saúde mental e doenças, com o que cada norma garante, a vigência e o endereço do texto oficial.
 
 A lista do que está publicado está em `listar_bases` e em `https://clinicaneurobee.com.br/neurodados/api/v1/bases`.
 
 ## Como consultar
 
-1. Pelo servidor MCP: `https://clinicaneurobee.com.br/neurodados/mcp`. Ferramentas: `listar_bases`, `buscar_conceito`, `buscar_avaliacao`, `buscar_instrumento`, `buscar_intervencao`, `buscar_evidencias`, `consultar_registro`, `consultar_tea` e `consultar_tdah`.
+1. Pelo servidor MCP: `https://clinicaneurobee.com.br/neurodados/mcp`. Ferramentas: `listar_bases`, `buscar_conceito`, `buscar_avaliacao`, `buscar_instrumento`, `buscar_intervencao`, `buscar_evidencias`, `buscar_norma`, `consultar_registro`, `consultar_tea` e `consultar_tdah`.
 2. Pela API, sem chave: `https://clinicaneurobee.com.br/neurodados/api/v1/{base}?q=termo` para buscar e `https://clinicaneurobee.com.br/neurodados/api/v1/{base}/{slug}` para um registro, como `/api/v1/neurobase/tea`.
 3. Pelos arquivos: `https://clinicaneurobee.com.br/neurodados/dados/{base}.json`, também em JSONL e CSV.
 
@@ -30,6 +31,7 @@ A lista do que está publicado está em `listar_bases` e em `https://clinicaneur
 - `instrumento` (AvaliaBase): o que o instrumento avalia, a faixa etária, o uso e a situação no SATEPSI, com a data da consulta. A situação muda com o tempo: diga a data.
 - `objetivos`, `publico`, `contextos` e `profissionais` (IntervenBase): o que a intervenção busca, para quem costuma ser indicada segundo as fontes, onde acontece e quem atende.
 - `publicacao`, `populacao` e `metodo` (EvidenciaBase): os dados da publicação, com quem e como o estudo foi feito.
+- `norma`, `condicoes` e `areas` (NeuroDireitos): o tipo, o número, a data, a ementa e a vigência da norma, conferida no texto oficial na data indicada, a quem ela se refere e em que áreas garante direitos. Cite o artigo e o texto oficial, e diga a data da conferência.
 - `revisao.situacao`: `conferido_nas_fontes` (cada afirmação foi conferida na fonte, sem revisão de profissional de saúde), `em_revisao` ou `revisado` (um profissional com registro no conselho revisou e assina, em `revisores`).
 - `estado`: `publicado`, `desatualizado` (uma fonte mudou e o registro está sendo atualizado) ou `arquivado`.
 
@@ -45,3 +47,4 @@ Cite a fonte primária da afirmação (a lei, a resolução, o documento do Mini
 - A escolha dos instrumentos de uma avaliação é do psicólogo responsável. Nunca reproduza itens, pranchas, estímulos ou respostas de testes psicológicos.
 - Não apresente como consenso uma afirmação que o registro não sustenta com fonte. Se a base não cobre o assunto, diga isso e não complete com suposição.
 - O NeuroDados não indica clínica nem profissional, e a resposta não deve usar a base para isso.
+- O NeuroDireitos é informativo e não é orientação jurídica. Explique o que a norma diz, com o artigo e o link do texto oficial, e, para um caso concreto, recomende a Defensoria Pública, o Ministério Público ou um advogado.

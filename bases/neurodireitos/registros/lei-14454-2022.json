@@ -1,0 +1,140 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-14454-2022",
+  "slug": "lei-14454-2022",
+  "base": "neurodireitos",
+  "nome": "Lei nº 14.454, de 21 de setembro de 2022",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "14.454",
+    "data": "2022-09-21",
+    "orgao": "Presidência da República",
+    "ementa": "Altera a Lei nº 9.656, de 3 de junho de 1998, que dispõe sobre os planos privados de assistência à saúde, para estabelecer critérios que permitam a cobertura de exames ou tratamentos de saúde que não estão incluídos no rol de procedimentos e eventos em saúde suplementar.",
+    "publicacao": "DOU de 22/09/2022",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "areas": [
+    "planos_de_saude"
+  ],
+  "definicao": "A Lei nº 14.454/2022 mudou a Lei nº 9.656/1998, a lei dos planos de saúde. Ela define o rol de procedimentos da ANS como a referência básica de cobertura e fixa condições em que a operadora deve autorizar a cobertura de exame ou tratamento prescrito que não está no rol. Em 2025, o STF fixou critérios para aplicar essa regra.",
+  "afirmacoes": [
+    {
+      "texto": "Na redação dada pela Lei nº 14.454/2022, o art. 1º da Lei nº 9.656/1998 submete as operadoras de planos de saúde à lei dos planos e, ao mesmo tempo, ao Código de Defesa do Consumidor (Lei nº 8.078/1990).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Pelo § 4º do art. 10 da Lei nº 9.656/1998, na redação dada pela Lei nº 14.454/2022, a amplitude das coberturas é estabelecida em norma editada pela ANS, que publica o rol de procedimentos e eventos em saúde suplementar, atualizado a cada incorporação.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O § 12 do art. 10, incluído pela Lei nº 14.454/2022, diz que o rol da ANS constitui a referência básica para os planos contratados a partir de 1º de janeiro de 1999 e para os contratos adaptados à lei, e fixa as diretrizes de atenção à saúde.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O § 13 do art. 10, também incluído pela Lei nº 14.454/2022, diz que, se o médico ou o odontólogo assistente prescrever tratamento ou procedimento que não está no rol, a cobertura deverá ser autorizada pela operadora desde que exista comprovação da eficácia, à luz das ciências da saúde, baseada em evidências científicas e plano terapêutico, ou que existam recomendações da Conitec ou de, no mínimo, um órgão de avaliação de tecnologias em saúde de renome internacional, desde que aprovadas também para seus nacionais.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Em 18 de setembro de 2025, ao julgar a ADI 7265, o Plenário do STF deu interpretação conforme à Constituição ao § 13 do art. 10. Pela decisão, a operadora deve autorizar a cobertura de tratamento fora do rol quando forem cumpridos, ao mesmo tempo, cinco requisitos: prescrição por médico ou odontólogo assistente habilitado; falta de negativa expressa da ANS e de análise pendente de proposta de atualização do rol; falta de alternativa terapêutica adequada no rol; comprovação de eficácia e segurança à luz da medicina baseada em evidências de alto grau ou de avaliação de tecnologias em saúde; e registro na Anvisa.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Pela mesma decisão do STF, a falta de inclusão do procedimento ou tratamento no rol da ANS impede, como regra geral, a sua concessão judicial, salvo quando cumpridos esses requisitos. O texto do § 13 no site do Planalto traz a nota que remete à ADI 7265.",
+      "fontes": [
+        "f3",
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "intervenbase.cobertura-dos-planos-de-saude",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.rn-ans-539-2022",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.rn-ans-541-2022",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro trata só das mudanças feitas pela Lei nº 14.454/2022; não resume o resto da Lei nº 9.656/1998 nem as normas da ANS.",
+    "O resumo da decisão do STF vem da decisão de julgamento publicada na página do processo da ADI 7265; o acórdão não foi consultado. O registro não trata de casos concretos.",
+    "A vigência foi conferida no texto da lei e no texto compilado da Lei nº 9.656/1998, no site do Planalto, em 9 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.454, de 21 de setembro de 2022: altera a Lei nº 9.656/1998 para estabelecer critérios que permitam a cobertura de exames ou tratamentos de saúde que não estão incluídos no rol de procedimentos e eventos em saúde suplementar",
+      "autor": "Brasil",
+      "ano": 2022,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14454.htm",
+      "referencia": "arts. 1º a 3º",
+      "trecho": "§ 13. Em caso de tratamento ou procedimento prescrito por médico ou odontólogo assistente que não estejam previstos no rol referido no § 12 deste artigo, a cobertura deverá ser autorizada pela operadora de planos de assistência à saúde, desde que:",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 9.656, de 3 de junho de 1998: dispõe sobre os planos e seguros privados de assistência à saúde (texto compilado)",
+      "autor": "Brasil",
+      "ano": 1998,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9656.htm",
+      "referencia": "art. 1º e art. 10, §§ 4º, 12 e 13, com a nota \"Vide ADI 7265\"; texto compilado",
+      "trecho": "§ 12. O rol de procedimentos e eventos em saúde suplementar, atualizado pela ANS a cada nova incorporação, constitui a referência básica para os planos privados de assistência à saúde contratados a partir de 1º de janeiro de 1999 e para os contratos adaptados a esta Lei e fixa as diretrizes de atenção à saúde.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "documento_oficial",
+      "titulo": "ADI 7265: decisão de julgamento do Plenário de 18 de setembro de 2025",
+      "autor": "Supremo Tribunal Federal (STF)",
+      "ano": 2025,
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=6514968",
+      "referencia": "aba Decisões: decisão de julgamento do Tribunal Pleno, 18/09/2025, teses 1 a 3",
+      "trecho": "O Tribunal, por maioria, julgou parcialmente procedente o pedido, para conferir interpretação conforme à Constituição ao § 13 do art. 10 da Lei nº 9.656/1998, incluído pela Lei nº 14.454/2022, de modo a adequar os critérios que geram a obrigação de cobertura de tratamento não listado no rol da ANS",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

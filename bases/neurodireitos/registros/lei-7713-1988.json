@@ -1,0 +1,158 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-7713-1988",
+  "slug": "lei-7713-1988",
+  "base": "neurodireitos",
+  "nome": "Lei nº 7.713, de 22 de dezembro de 1988",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "7.713",
+    "data": "1988-12-22",
+    "orgao": "Presidência da República",
+    "ementa": "Altera a legislação do imposto de renda e dá outras providências.",
+    "publicacao": "DOU de 23/12/1988",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "parcialmente_revogada",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Lei nº 8.541, de 1992",
+        "Lei nº 11.052, de 2004"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "saude_mental",
+    "doencas_cronicas"
+  ],
+  "areas": [
+    "tributos"
+  ],
+  "definicao": "A Lei nº 7.713/1988 altera a legislação do imposto de renda. Este registro cobre só o art. 6º, XIV, que isenta do imposto os proventos de aposentadoria ou reforma de quem tem uma das doenças graves listadas, entre elas a alienação mental, com o inciso XXI, que estende a isenção à pensão, e as regras de outras leis ligadas a essa lista.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 6º, XIV, isenta do imposto de renda os proventos de aposentadoria ou reforma motivada por acidente em serviço e os recebidos por pessoas com moléstia profissional, tuberculose ativa, alienação mental, esclerose múltipla, neoplasia maligna, cegueira, hanseníase, paralisia irreversível e incapacitante, cardiopatia grave, doença de Parkinson, espondiloartrose anquilosante, nefropatia grave, hepatopatia grave, estados avançados da doença de Paget (osteíte deformante), contaminação por radiação ou síndrome da imunodeficiência adquirida (redação dada pela Lei nº 11.052/2004).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pelo mesmo inciso, a isenção vale mesmo que a doença tenha sido contraída depois da aposentadoria ou da reforma (art. 6º, XIV).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O inciso XXI isenta os valores recebidos como pensão quando o beneficiário tiver uma das doenças do inciso XIV, exceto as decorrentes de moléstia profissional, mesmo que a doença tenha sido contraída depois da concessão da pensão (art. 6º, XXI, incluído pela Lei nº 8.541/1992).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pela Lei nº 9.250/1995, desde 1º de janeiro de 1996, para o reconhecimento de novas isenções dos incisos XIV e XXI, a doença deve ser comprovada por laudo pericial emitido por serviço médico oficial da União, dos estados, do Distrito Federal ou dos municípios, que fixa o prazo de validade do laudo no caso de doenças passíveis de controle (art. 30, caput e § 1º).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Lei nº 9.250/1995 também incluiu a fibrose cística (mucoviscidose) na relação de doenças do inciso XIV (art. 30, § 2º).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Em abril de 2020, no julgamento da ADI 6025, o Plenário do STF declarou a constitucionalidade do art. 6º, XIV, com a redação da Lei nº 11.052/2004. A ação, proposta pela Procuradoria-Geral da República, pedia que a isenção valesse também para o salário de pessoas com as doenças graves listadas que continuam trabalhando, e o pedido foi julgado improcedente.",
+      "fontes": [
+        "f3",
+        "f4"
+      ]
+    },
+    {
+      "texto": "O Código de Processo Civil usa a lista do inciso XIV para dar prioridade de tramitação, em qualquer juízo ou tribunal, aos procedimentos judiciais em que figure como parte ou interessado pessoa com doença grave (Lei nº 13.105/2015, art. 1.048, I).",
+      "fontes": [
+        "f5"
+      ]
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro cobre só os incisos XIV e XXI do art. 6º e as regras de outras leis ligadas a eles; não resume o resto da lei.",
+    "A situação \"parcialmente revogada\" se refere à lei como um todo: vários dispositivos foram revogados, mas os incisos XIV e XXI do art. 6º estão em vigor, na redação conferida no texto compilado do Planalto em 9 de novembro de 2026. As alterações listadas na ficha são as desses dois incisos.",
+    "A lei não define o que é alienação mental, e o registro não trata de como a Receita Federal ou a Justiça aplicam a lista a casos concretos."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 7.713, de 22 de dezembro de 1988: altera a legislação do imposto de renda e dá outras providências (texto compilado)",
+      "autor": "Brasil",
+      "ano": 1988,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l7713.htm",
+      "referencia": "art. 6º, caput, XIV e XXI; texto compilado, com as notas \"Vide Lei 9.250, de 1995\", \"Vide Lei nº 13.105, de 2015\" e \"Vide ADIN 6025\"",
+      "trecho": "os proventos de aposentadoria ou reforma motivada por acidente em serviço e os percebidos pelos portadores de moléstia profissional, tuberculose ativa, alienação mental, esclerose múltipla, neoplasia maligna, cegueira, hanseníase, paralisia irreversível e incapacitante, cardiopatia grave, doença de Parkinson, espondiloartrose anquilosante, nefropatia grave, hepatopatia grave, estados avançados da doença de Paget (osteíte deformante), contaminação por radiação, síndrome da imunodeficiência adquirida, com base em conclusão da medicina especializada",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 9.250, de 26 de dezembro de 1995: altera a legislação do imposto de renda das pessoas físicas e dá outras providências (texto compilado)",
+      "autor": "Brasil",
+      "ano": 1995,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9250.htm",
+      "referencia": "art. 30, caput, §§ 1º e 2º; texto compilado",
+      "trecho": "§ 2º Na relação das moléstias a que se refere o inciso XIV do art. 6º da Lei nº 7.713, de 22 de dezembro de 1988, com a redação dada pelo art. 47 da Lei nº 8.541, de 23 de dezembro de 1992, fica incluída a fibrose cística (mucoviscidose).",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "documento_oficial",
+      "titulo": "ADI 6025: decisão de julgamento do Plenário, sessão virtual de 10 a 17 de abril de 2020",
+      "autor": "Supremo Tribunal Federal (STF)",
+      "ano": 2020,
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=5552342",
+      "referencia": "aba Decisões: decisão de julgamento do Tribunal Pleno, registrada em 20/04/2020",
+      "trecho": "O Tribunal, por maioria, julgou improcedente o pedido formulado na ação direta, para declarar a constitucionalidade do art. 6º, XIV, da Lei Federal nº 7.713/1988, com a redação da Lei nº 11.052/2004, nos termos do voto do Relator, vencido o Ministro Edson Fachin.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "site_institucional",
+      "titulo": "Ação da PGR questiona isenção de IR apenas para aposentados acometidos por doenças graves",
+      "autor": "Supremo Tribunal Federal (STF)",
+      "ano": 2018,
+      "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=393228&ori=1",
+      "referencia": "Notícia de 19/10/2018 sobre a ADI 6025",
+      "trecho": "para que se permita que as pessoas acometidas de alguma das doenças graves elencadas no artigo 6º, inciso XIV, da Lei 7.713/1988 e que continuem trabalhando tenham direito à isenção do imposto de renda sobre o salário.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f5",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.105, de 16 de março de 2015: Código de Processo Civil (texto compilado)",
+      "autor": "Brasil",
+      "ano": 2015,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "referencia": "art. 1.048, I; texto compilado",
+      "trecho": "I - em que figure como parte ou interessado pessoa com idade igual ou superior a 60 (sessenta) anos ou portadora de doença grave, assim compreendida qualquer das enumeradas no art. 6º, inciso XIV, da Lei nº 7.713, de 22 de dezembro de 1988;",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-13146-2015",
+  "slug": "lei-13146-2015",
+  "base": "neurodireitos",
+  "nome": "Lei nº 13.146, de 6 de julho de 2015",
+  "nomes_alternativos": [
+    "Lei Brasileira de Inclusão da Pessoa com Deficiência",
+    "Estatuto da Pessoa com Deficiência"
+  ],
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "13.146",
+    "data": "2015-07-06",
+    "orgao": "Presidência da República",
+    "ementa": "Institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência).",
+    "publicacao": "DOU de 07/07/2015",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "parcialmente_revogada",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Lei nº 14.624, de 2023",
+        "Lei nº 14.724, de 2023",
+        "Lei nº 15.163, de 2025",
+        "Lei nº 15.249, de 2025",
+        "Lei nº 15.280, de 2025"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "deficiencia_intelectual"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "atendimento_prioritario",
+    "identificacao",
+    "saude",
+    "planos_de_saude",
+    "educacao",
+    "trabalho",
+    "assistencia_social",
+    "previdencia",
+    "acessibilidade",
+    "transporte",
+    "cultura_e_lazer",
+    "justica"
+  ],
+  "definicao": "A Lei nº 13.146/2015 institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência), destinada a assegurar e a promover, em condições de igualdade, o exercício dos direitos e das liberdades fundamentais pela pessoa com deficiência. Ela define pessoa com deficiência, prevê a avaliação biopsicossocial e trata de discriminação, atendimento prioritário, saúde, educação, trabalho, assistência social, previdência, acessibilidade e capacidade legal.",
+  "afirmacoes": [
+    {
+      "texto": "A lei tem como base a Convenção sobre os Direitos das Pessoas com Deficiência e seu Protocolo Facultativo, ratificados pelo Congresso Nacional por meio do Decreto Legislativo nº 186, de 2008, conforme o procedimento do § 3º do art. 5º da Constituição, e promulgados pelo Decreto nº 6.949, de 2009 (art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Considera-se pessoa com deficiência aquela que tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial, o qual, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A avaliação da deficiência, quando necessária, será biopsicossocial, realizada por equipe multiprofissional e interdisciplinar, e considerará os impedimentos nas funções e nas estruturas do corpo, os fatores socioambientais, psicológicos e pessoais, a limitação no desempenho de atividades e a restrição de participação (art. 2º, § 1º). O Poder Executivo criará instrumentos para essa avaliação (art. 2º, § 2º). O art. 124 diz que o § 1º do art. 2º \"deverá entrar em vigor em até 2 (dois) anos, contados da entrada em vigor desta Lei\".",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O exame médico-pericial que compõe a avaliação biopsicossocial poderá ser realizado com uso de telemedicina ou por análise documental, conforme situações e requisitos definidos em regulamento (art. 2º, § 3º, incluído pela Lei nº 14.724, de 2023). Para o BPC, o art. 40-B da Lei nº 8.742, de 1993, na redação dada pela Lei nº 15.077, de 2024, traz regras para \"enquanto não estiver regulamentado o instrumento de avaliação\" previsto nos §§ 1º e 2º do art. 2º desta lei.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O cordão de fita com desenhos de girassóis é o símbolo nacional de identificação de pessoas com deficiências ocultas. O uso é opcional, a falta dele não prejudica direitos e garantias previstos em lei, e ele não dispensa a apresentação de documento que comprove a deficiência, se pedido pelo atendente ou pela autoridade competente (art. 2º-A, incluído pela Lei nº 14.624, de 2023).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Toda pessoa com deficiência tem direito à igualdade de oportunidades com as demais pessoas e não sofrerá nenhuma espécie de discriminação (art. 4º). A discriminação em razão da deficiência inclui a recusa de adaptações razoáveis e de fornecimento de tecnologias assistivas (art. 4º, § 1º). A pessoa com deficiência não está obrigada à fruição de benefícios decorrentes de ação afirmativa (art. 4º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A pessoa com deficiência tem direito a receber atendimento prioritário, sobretudo com a finalidade de proteção e socorro em quaisquer circunstâncias, atendimento em todas as instituições e serviços de atendimento ao público, recebimento de restituição de imposto de renda e tramitação de processos judiciais e administrativos em que for parte ou interessada (art. 9º). O direito se estende ao acompanhante ou ao atendente pessoal, menos na restituição de imposto de renda e nos processos (art. 9º, § 1º). Nos serviços de emergência, a prioridade fica condicionada aos protocolos de atendimento médico (art. 9º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "É assegurada atenção integral à saúde da pessoa com deficiência em todos os níveis de complexidade, por intermédio do SUS (art. 18). As ações e os serviços de saúde pública devem assegurar, entre outros, diagnóstico e intervenção precoces, realizados por equipe multidisciplinar, serviços de habilitação e de reabilitação, atendimento psicológico, inclusive para familiares e atendentes pessoais, e oferta de órteses, próteses, meios auxiliares de locomoção, medicamentos, insumos e fórmulas nutricionais, conforme as normas do Ministério da Saúde (art. 18, § 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As operadoras de planos e seguros privados de saúde são obrigadas a garantir à pessoa com deficiência, no mínimo, todos os serviços e produtos ofertados aos demais clientes (art. 20). É vedada a cobrança de valores diferenciados por planos e seguros privados de saúde em razão da condição da pessoa com deficiência (art. 23).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A educação constitui direito da pessoa com deficiência, assegurados sistema educacional inclusivo em todos os níveis e aprendizado ao longo de toda a vida (art. 27). Incumbe ao poder público assegurar, entre outros, projeto pedagógico que institucionalize o atendimento educacional especializado e a oferta de profissionais de apoio escolar (art. 28, III e XVII). Às instituições privadas aplicam-se obrigatoriamente os incisos listados no § 1º do art. 28, entre eles o III e o XVII, vedada a cobrança de valores adicionais de qualquer natureza em mensalidades, anuidades e matrículas para cumprir essas determinações.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Nos processos seletivos para ingresso e permanência nos cursos de ensino superior e de educação profissional e tecnológica, públicos e privados, devem ser adotadas medidas como provas em formatos acessíveis, recursos de acessibilidade e de tecnologia assistiva escolhidos pelo candidato e dilação de tempo, conforme a demanda apresentada, mediante prévia solicitação e comprovação da necessidade (art. 30).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A pessoa com deficiência tem direito ao trabalho de sua livre escolha e aceitação, em ambiente acessível e inclusivo, em igualdade de oportunidades com as demais pessoas (art. 34). É vedada restrição ao trabalho da pessoa com deficiência e qualquer discriminação em razão de sua condição, inclusive nas etapas de recrutamento, seleção, contratação, admissão, exames admissional e periódico, permanência no emprego e ascensão profissional, bem como a exigência de aptidão plena (art. 34, § 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "À pessoa com deficiência que não possua meios para prover sua subsistência nem de tê-la provida por sua família é assegurado o benefício mensal de 1 salário-mínimo, nos termos da Lei nº 8.742, de 1993 (art. 40). A pessoa com deficiência segurada do Regime Geral de Previdência Social tem direito à aposentadoria nos termos da Lei Complementar nº 142, de 2013 (art. 41).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A pessoa com deficiência tem assegurado o direito ao exercício de sua capacidade legal em igualdade de condições com as demais pessoas e pode adotar o processo de tomada de decisão apoiada (art. 84). A curatela, quando necessária, é medida protetiva extraordinária, afeta tão somente os atos de natureza patrimonial e negocial e não alcança o direito ao próprio corpo, à sexualidade, ao matrimônio, à privacidade, à educação, à saúde, ao trabalho e ao voto (arts. 84 e 85).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Praticar, induzir ou incitar discriminação de pessoa em razão de sua deficiência é crime, com pena de reclusão de 1 a 3 anos e multa (art. 88).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.decreto-6949-2009",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-8742-1993",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lc-142-2013",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-educacional-especializado",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.cobertura-dos-planos-de-saude",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume pontos da lei; não traz todos os artigos nem as mudanças que ela fez em outras leis, como o Código Civil.",
+    "A vigência e as alterações foram conferidas no texto compilado do Planalto em 9 de novembro de 2026. A lista de alterações traz as leis que mudaram os artigos usados aqui e a que revogou um dispositivo; a lei teve outras alterações.",
+    "A lei está em vigor; no texto compilado do Planalto, o parágrafo único do art. 90 aparece revogado pela Lei nº 15.163, de 2025, que deu nova redação ao artigo. Os pontos deste registro estão em vigor."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.146, de 6 de julho de 2015: institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência)",
+      "autor": "Brasil",
+      "ano": 2015,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+      "referencia": "texto compilado: arts. 1º, 2º, 2º-A, 4º, 9º, 18, 20, 23, 27, 28, 30, 34, 40, 41, 84, 85, 88 e 124",
+      "trecho": "Art. 2º Considera-se pessoa com deficiência aquela que tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial, o qual, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.742, de 7 de dezembro de 1993: dispõe sobre a organização da Assistência Social e dá outras providências",
+      "autor": "Brasil",
+      "ano": 1993,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8742.htm",
+      "referencia": "texto compilado: art. 40-B, na redação dada pela Lei nº 15.077, de 2024",
+      "trecho": "Art. 40-B. Enquanto não estiver regulamentado o instrumento de avaliação de que tratam os §§ 1º e 2º do art. 2º da Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), a concessão do benefício de prestação continuada a pessoa com deficiência ficará sujeita à avaliação do grau da deficiência e do impedimento de que trata o § 2º do art. 20 desta Lei [...]",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

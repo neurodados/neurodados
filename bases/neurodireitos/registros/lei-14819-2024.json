@@ -1,0 +1,113 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-14819-2024",
+  "slug": "lei-14819-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 14.819, de 16 de janeiro de 2024",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "14.819",
+    "data": "2024-01-16",
+    "orgao": "Presidência da República",
+    "ementa": "Institui a Política Nacional de Atenção Psicossocial nas Comunidades Escolares.",
+    "publicacao": "DOU de 17/01/2024",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "saude_mental"
+  ],
+  "areas": [
+    "saude",
+    "educacao",
+    "assistencia_social"
+  ],
+  "definicao": "A Lei nº 14.819/2024 institui a Política Nacional de Atenção Psicossocial nas Comunidades Escolares, que integra educação, assistência social e saúde em ações de promoção, prevenção e atenção psicossocial nas escolas, para alunos, professores, demais profissionais da escola e pais ou responsáveis.",
+  "afirmacoes": [
+    {
+      "texto": "A política é uma estratégia para a integração e a articulação permanente das áreas de educação, assistência social e saúde em ações de promoção, prevenção e atenção psicossocial nas escolas. A comunidade escolar inclui alunos, professores, profissionais que atuam na escola e pais e responsáveis pelos alunos matriculados (art. 1º, §§ 1º e 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre os objetivos estão promover a saúde mental da comunidade escolar, garantir aos seus integrantes o acesso à atenção psicossocial, promover a formação continuada de gestores e profissionais de educação, saúde e assistência social no tema da saúde mental e divulgar informações cientificamente verificadas sobre saúde mental (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre as diretrizes estão a integração da comunidade escolar com as equipes de atenção primária à saúde e os serviços de proteção social do território, a garantia de oferta de serviços de atenção psicossocial para a comunidade escolar, a não discriminação e o respeito à diversidade e a articulação com a Política Nacional de Saúde Mental, pela rede de atenção psicossocial e pela Política Nacional de Atenção Básica (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A execução se dá em articulação com o Programa Saúde na Escola (PSE), o modelo de assistência em saúde mental, o Sistema Único de Assistência Social e a rede de atenção psicossocial. A governança fica com os Grupos de Trabalho Intersetoriais do PSE, com participação obrigatória de representantes da área da saúde e da comunidade escolar (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os grupos de trabalho fazem um plano de trabalho com as ações e as metas do ano letivo e, ao final do ano, apresentam relatório de avaliação. As escolas dão publicidade ao plano de trabalho, na forma do regulamento (art. 4º, §§ 1º, 2º e 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Cabem à União o fomento e a promoção de ações para executar os objetivos e as diretrizes da lei, com prioridade para territórios vulneráveis e com mais dificuldade para alcançar esses objetivos (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-10216-2001",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.portaria-de-consolidacao-gm-ms-3-2017",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro não trata do regulamento previsto no art. 4º nem de como cada rede de ensino aplica a política.",
+    "A vigência foi conferida no texto da lei, no site do Planalto, em 9 de novembro de 2026; o texto não mostra alterações."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.819, de 16 de janeiro de 2024: institui a Política Nacional de Atenção Psicossocial nas Comunidades Escolares",
+      "autor": "Brasil",
+      "ano": 2024,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14819.htm",
+      "referencia": "arts. 1º a 5º",
+      "trecho": "§ 1º A política de que trata o caput deste artigo constitui estratégia para a integração e a articulação permanente das áreas de educação, de assistência social e de saúde no desenvolvimento de ações de promoção, de prevenção e de atenção psicossocial no âmbito das escolas.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

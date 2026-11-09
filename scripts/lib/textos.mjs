@@ -10,6 +10,7 @@ import { carregarBases, textosDe, RAIZ } from './dados.mjs';
 const EXPORTS_PORTAL = [
   'MARCA', 'AVISO', 'PULAR', 'MENU_ROTULO', 'ROTULOS', 'LLMS', 'MENU', 'RODAPE', 'CATEGORIAS',
   'RELACOES', 'REGISTRO', 'PAGINAS', 'FERRAMENTAS_MCP', 'MENSAGENS', 'INSTRUCOES_MCP', 'NO_SITE', 'TEMAS',
+  'CONDICOES', 'AREAS', 'REGULACAO',
 ];
 
 export const CAMINHO_SKILL = join(RAIZ, 'skill', 'neurodados', 'SKILL.md');
@@ -20,7 +21,7 @@ const lerTexto = (caminho) => readFileSync(caminho, 'utf8').replace(/\r\n/g, '\n
 export const ESTADOS_NO_AR = ['publicado', 'desatualizado', 'arquivado'];
 
 // Campos técnicos (ids, datas, enums, endereços) não são texto para aprovar.
-const TECNICO_REGISTRO = /^\$\.\$schema$|^\$\.(?:id|slug|base|categoria|estado|versao|criado_em|atualizado_em)$|\.url$|\.doi$|\.consultado_em$|\.data$|\.versao$|\.conferido_em$|\.situacao$|\.ano$|\.(?:de|ate)_meses$|\.fontes\[\d+\]\.(?:id|tipo)$|\.afirmacoes\[\d+\]\.fontes\[\d+\]$|\.classificacoes\[\d+\]\.(?:fonte|sistema)$|\.relacionados\[\d+\]\.(?:id|tipo)$|\.dominios\[\d+\]$|\.temas\[\d+\]$|\.instrumento\.uso$|\.satepsi\.(?:fonte|normas_validas_ate)$|\.publicacao\.idioma$/;
+const TECNICO_REGISTRO = /^\$\.\$schema$|^\$\.(?:id|slug|base|categoria|estado|versao|criado_em|atualizado_em)$|\.url$|\.doi$|\.consultado_em$|\.data$|\.versao$|\.conferido_em$|\.situacao$|\.ano$|\.(?:de|ate)_meses$|\.fontes\[\d+\]\.(?:id|tipo)$|\.afirmacoes\[\d+\]\.fontes\[\d+\]$|\.classificacoes\[\d+\]\.(?:fonte|sistema)$|\.relacionados\[\d+\]\.(?:id|tipo)$|\.dominios\[\d+\]$|\.temas\[\d+\]$|\.instrumento\.uso$|\.satepsi\.(?:fonte|normas_validas_ate)$|\.publicacao\.idioma$|\.norma\.(?:tipo|numero|abrangencia|uf|fonte)$|\.condicoes\[\d+\]$|\.areas\[\d+\]$/;
 const TECNICO_DATASET = /\.(?:\$schema|id|versao|criado_em|atualizado_em|data|metodologia|spdx|doi|huggingface)$|\.mantenedor\.url$|\.licenca\.url$/;
 
 export function coletarTextos({ somenteNoAr = false, exceto = [] } = {}) {
@@ -75,6 +76,18 @@ function blocoRegistro(d) {
     const i = d.instrumento;
     const sit = T.REGISTRO.instrumento.situacoes[i.satepsi.situacao];
     L.push('', `**Ficha do instrumento:** ${i.nome_original ? `${i.nome_original}; ` : ''}o que avalia: ${i.construtos.join('; ')}; ${i.faixa_etaria?.descricao ? `faixa etária: ${i.faixa_etaria.descricao}; ` : ''}uso: ${T.REGISTRO.instrumento.usos[i.uso]}; SATEPSI: ${sit}${i.satepsi.normas_validas_ate ? `, normas até ${i.satepsi.normas_validas_ate}` : ''}, consulta em ${i.satepsi.consultado_em} (${i.satepsi.fonte}).`);
+  }
+  if (d.norma) {
+    const n = d.norma;
+    const N = T.REGISTRO.norma;
+    const v = n.vigencia || {};
+    L.push('', `**Ficha da norma:** ${N.tipos[n.tipo] || n.tipo} nº ${n.numero}, de ${n.data}; órgão: ${n.orgao}${n.publicacao ? `; publicação: ${n.publicacao}` : ''}; abrangência: ${N.abrangencias[n.abrangencia]}${n.uf ? ` (${[n.uf, n.municipio].filter(Boolean).join(', ')})` : ''}; vigência: ${N.situacoes[v.situacao]}, conferida em ${v.conferido_em} (${n.fonte}).`);
+    L.push('', `**Ementa:** ${n.ementa}`);
+    if (v.alteracoes?.length) L.push('', `**Alterada por:** ${v.alteracoes.join('; ')}`);
+    if (v.revogada_por) L.push('', `**Revogada por:** ${v.revogada_por}`);
+    if (n.regulamentada_por?.length) L.push('', `**Regulamentada por:** ${n.regulamentada_por.join('; ')}`);
+    if (d.condicoes?.length) L.push('', `**A quem se refere:** ${d.condicoes.map((c) => T.CONDICOES[c] || c).join(', ')}`);
+    if (d.areas?.length) L.push('', `**Áreas:** ${d.areas.map((a) => T.AREAS[a] || a).join(', ')}`);
   }
   if (d.objetivos?.length) L.push('', `**Objetivos:** ${d.objetivos.join('; ')}`);
   if (d.publico) L.push('', `**Para quem:** ${d.publico}`);

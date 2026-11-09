@@ -1,0 +1,143 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-15436-2026",
+  "slug": "lei-15436-2026",
+  "base": "neurodireitos",
+  "nome": "Lei nº 15.436, de 17 de junho de 2026",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "15.436",
+    "data": "2026-06-17",
+    "orgao": "Presidência da República",
+    "ementa": "Institui a Política Nacional para Estudantes com Altas Habilidades ou Superdotação; cria o Cadastro Nacional de Estudantes com Altas Habilidades ou Superdotação; e altera a Lei nº 11.578, de 26 de novembro de 2007.",
+    "publicacao": "DOU de 18/06/2026",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "altas_habilidades",
+    "tea",
+    "tdah",
+    "dislexia",
+    "transtornos_de_aprendizagem"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "A Lei nº 15.436/2026 institui a Política Nacional para Estudantes com Altas Habilidades ou Superdotação e cria o cadastro nacional desses estudantes. Ela trata também da dupla excepcionalidade, quando as altas habilidades ou superdotação coexistem com condições como o transtorno do espectro autista, o TDAH ou a dislexia, e manda que o atendimento educacional especializado considere as duas de forma integrada.",
+  "afirmacoes": [
+    {
+      "texto": "A política se destina a garantir a identificação precoce, o atendimento educacional especializado, o desenvolvimento integral e a inclusão plena dos estudantes com altas habilidades ou superdotação no sistema educacional brasileiro, e a lei se aplica também aos que apresentam dupla excepcionalidade (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei define altas habilidades ou superdotação como condição do neurodesenvolvimento e define dupla excepcionalidade como a coexistência delas com outra condição de dificuldade significativa em alguma área específica, a exemplo do transtorno do espectro autista, do TDAH, da dislexia, da discalculia, de transtornos motores ou de condições semelhantes (art. 2º, I e II).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os sistemas de ensino assegurarão atendimento educacional especializado (AEE) que atenda às especificidades dos estudantes com altas habilidades ou superdotação, com ou sem dupla excepcionalidade, e esse AEE poderá incluir programas de enriquecimento, diferenciação ou aprofundamento curricular, aceleração de estudos e agrupamentos em pares ou grupos de interesse (art. 8º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Quando houver dupla excepcionalidade, o AEE deverá considerar, de forma integrada, as altas habilidades ou superdotação e as necessidades da outra condição ou deficiência associada. O planejamento educacional individualizado consolidará as estratégias para as duas, para evitar planos fragmentados, e nenhuma condição associada poderá ser usada para negar o reconhecimento das altas habilidades ou superdotação nem as medidas de atendimento (art. 9º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na educação básica, a progressão desses estudantes pode ocorrer de forma regular por ano ou série, com enriquecimento, diferenciação ou aprofundamento curricular; acelerada parcial, por disciplina ou área do conhecimento; ou acelerada integral, com mudança de ano, série ou etapa. Ela deverá ser flexível e compatível com o ritmo de aprendizagem e o nível de desenvolvimento do estudante (art. 11).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei institui, no Ministério da Educação, o Cadastro Nacional de Estudantes com Altas Habilidades ou Superdotação, previsto no art. 59-A da LDB, para dar suporte à política e acompanhar as trajetórias educacionais desses estudantes (art. 17).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A adesão de estados, Distrito Federal e municípios à política é voluntária, por termo firmado com o Poder Executivo federal. Depois da adesão, cabe à União prestar apoio técnico e financeiro às redes de ensino, observadas as disponibilidades financeiras e orçamentárias, e promover com esses entes a criação e a manutenção de centros de referência em altas habilidades ou superdotação (arts. 5º e 13).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.decreto-12686-2025",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14254-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-educacional-especializado",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume os pontos principais. Partes da lei foram vetadas, como os arts. 6º e 7º, e aspectos operacionais dependem de regulamento do Poder Executivo (art. 20).",
+    "O registro não informa quais estados e municípios aderiram à política.",
+    "A lista de condições da base não tem um valor próprio para altas habilidades ou superdotação; as condições marcadas são as citadas na definição de dupla excepcionalidade.",
+    "A vigência foi conferida no texto do Planalto em 9 de novembro de 2026; o Planalto não registra alterações na lei."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 15.436, de 17 de junho de 2026: institui a Política Nacional para Estudantes com Altas Habilidades ou Superdotação e cria o Cadastro Nacional de Estudantes com Altas Habilidades ou Superdotação",
+      "autor": "Brasil",
+      "ano": 2026,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/L15436.htm",
+      "referencia": "arts. 1º, 2º, 5º, 8º, 9º, 11, 13, 17 e 20",
+      "trecho": "Art. 9º Nos casos em que houver dupla excepcionalidade, o AEE deverá considerar, de forma integrada, tanto as altas habilidades ou superdotação, quanto as necessidades decorrentes da outra condição ou deficiência associada, assumindo caráter complementar ou suplementar à escolarização do estudante.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

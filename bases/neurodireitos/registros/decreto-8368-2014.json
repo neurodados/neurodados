@@ -1,0 +1,154 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.decreto-8368-2014",
+  "slug": "decreto-8368-2014",
+  "base": "neurodireitos",
+  "nome": "Decreto nº 8.368, de 2 de dezembro de 2014",
+  "categoria": "decreto",
+  "norma": {
+    "tipo": "decreto",
+    "numero": "8.368",
+    "data": "2014-12-02",
+    "orgao": "Presidência da República",
+    "ementa": "Regulamenta a Lei nº 12.764, de 27 de dezembro de 2012, que institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista.",
+    "publicacao": "DOU de 03/12/2014",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "deficiencia"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "saude",
+    "educacao",
+    "assistencia_social"
+  ],
+  "definicao": "O Decreto nº 8.368/2014 regulamenta a Lei nº 12.764/2012, a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista. Ele detalha o direito à saúde no SUS, a proteção social, o direito à educação em sistema educacional inclusivo, o acompanhante especializado no contexto escolar e o processo da multa pela recusa de matrícula.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º considera a pessoa com transtorno do espectro autista pessoa com deficiência, para todos os efeitos legais, e o parágrafo único manda aplicar a ela os direitos e obrigações da Convenção Internacional sobre os Direitos da Pessoa com Deficiência e da legislação sobre pessoas com deficiência.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 2º garante à pessoa com TEA o direito à saúde no âmbito do SUS, respeitadas as suas especificidades.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Cabe ao Ministério da Saúde promover a qualificação e a articulação das ações e dos serviços da Rede de Atenção à Saúde para garantir, entre outros pontos, o cuidado integral na atenção básica, na atenção especializada e na atenção hospitalar e a qualificação da rede de atenção psicossocial e da rede de cuidados de saúde da pessoa com deficiência no atendimento que envolva diagnóstico diferencial, estimulação precoce, habilitação, reabilitação e outros procedimentos definidos pelo projeto terapêutico singular (art. 2º, § 1º, I).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Também cabe ao Ministério da Saúde garantir a disponibilidade dos medicamentos incorporados ao SUS necessários ao tratamento de pessoas com TEA e adotar diretrizes clínicas e terapêuticas para o cuidado à saúde delas (art. 2º, § 1º, II e V).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A atenção à saúde da pessoa com TEA toma como base a Classificação Internacional de Funcionalidade, Incapacidade e Saúde (CIF) e a Classificação Internacional de Doenças (CID-10) (art. 2º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 3º garante proteção social à pessoa com TEA em situações de vulnerabilidade ou risco social ou pessoal, nos termos da Lei nº 8.742, de 1993.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 4º diz que é dever do Estado, da família, da comunidade escolar e da sociedade assegurar o direito da pessoa com TEA à educação, em sistema educacional inclusivo, com a transversalidade da educação especial desde a educação infantil até a educação superior.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Se for comprovada a necessidade de apoio às atividades de comunicação, interação social, locomoção, alimentação e cuidados pessoais, a instituição de ensino em que a pessoa com TEA ou com outra deficiência estiver matriculada disponibilizará acompanhante especializado no contexto escolar (art. 4º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Ao tomar conhecimento da recusa de matrícula, o órgão competente ouve o gestor escolar e decide sobre a multa do art. 7º da Lei nº 12.764/2012. Nos estabelecimentos vinculados ao Ministério da Educação e nas instituições de educação superior privadas, quem aplica a multa é o Ministério da Educação, e o valor leva em conta o número de matrículas recusadas, as justificativas e a reincidência (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Qualquer interessado poderá denunciar a recusa de matrícula de estudantes com deficiência ao órgão administrativo competente (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O órgão público federal que souber da recusa de matrícula de pessoas com deficiência em instituições de ensino dos sistemas estadual, distrital ou municipal deve comunicar a recusa aos órgãos desses sistemas de ensino e ao Ministério Público (art. 7º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.acompanhamento-terapeutico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, no site do Planalto, é o que vale.",
+    "O registro resume pontos do decreto; não traz todos os dispositivos nem as normas do Ministério da Saúde e do Ministério da Educação que tratam do tema.",
+    "O art. 4º, § 2º, remete ao parágrafo único do art. 3º da Lei nº 12.764/2012, que a Lei nº 15.131/2025 renumerou como § 1º.",
+    "A vigência foi conferida no texto do Planalto em 9 de novembro de 2026; o Planalto não registra alterações no decreto."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Decreto nº 8.368, de 2 de dezembro de 2014: regulamenta a Lei nº 12.764, de 27 de dezembro de 2012, que institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista",
+      "autor": "Brasil",
+      "ano": 2014,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/decreto/d8368.htm",
+      "referencia": "arts. 1º a 7º",
+      "trecho": "§ 2º Caso seja comprovada a necessidade de apoio às atividades de comunicação, interação social, locomoção, alimentação e cuidados pessoais, a instituição de ensino em que a pessoa com transtorno do espectro autista ou com outra deficiência estiver matriculada disponibilizará acompanhante especializado no contexto escolar, nos termos do parágrafo único do art. 3º da Lei nº 12.764, de 2012.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

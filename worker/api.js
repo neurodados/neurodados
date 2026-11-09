@@ -71,10 +71,17 @@ export function responderApi(request, url, D) {
     if (categoria && !categorias.includes(categoria)) {
       return json({ erro: D.mensagens.categoriaDesconhecida, categorias }, 400);
     }
+    // NeuroDireitos: filtros pela condição e pela área.
+    const condicao = p.get('condicao') || '';
+    const area = p.get('area') || '';
+    if (condicao && !Object.keys(D.condicoes || {}).includes(condicao)) return json({ erro: D.mensagens.filtroDesconhecido, condicoes: Object.keys(D.condicoes || {}) }, 400);
+    if (area && !Object.keys(D.areas || {}).includes(area)) return json({ erro: D.mensagens.filtroDesconhecido, areas: Object.keys(D.areas || {}) }, 400);
     const q = (p.get('q') || '').slice(0, 100);
     const porPagina = Math.min(100, Math.max(1, parseInt(p.get('por_pagina') || '20', 10) || 20));
     const pagina = Math.max(1, parseInt(p.get('pagina') || '1', 10) || 1);
-    const achados = buscar(lista, q, { categoria: categoria || undefined });
+    let achados = buscar(lista, q, { categoria: categoria || undefined });
+    if (condicao) achados = achados.filter((r) => (r.condicoes || []).includes(condicao));
+    if (area) achados = achados.filter((r) => (r.areas || []).includes(area));
     const inicio = (pagina - 1) * porPagina;
     return json(envelope(D, base, {
       total: achados.length,

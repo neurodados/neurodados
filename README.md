@@ -19,6 +19,7 @@ Conteúdo informativo. Não serve para diagnóstico e não substitui a avaliaç�
 | AvaliaBase | Avaliação psicológica e neuropsicológica | `bases/avaliabase/registros/*.json` |
 | IntervenBase | Intervenções e atendimentos no desenvolvimento infantil | `bases/intervenbase/registros/*.json` |
 | EvidenciaBase | Estudos e diretrizes sobre neurodesenvolvimento | `bases/evidenciabase/registros/*.json` |
+| NeuroDireitos | Leis e normas federais sobre neurodesenvolvimento, deficiência, saúde mental e doenças | `bases/neurodireitos/registros/*.json` |
 
 Cada registro traz a definição (na EvidenciaBase, o resumo da publicação), os pontos principais ligados às fontes, as limitações e a situação da revisão. O formato está em `schemas/` (JSON Schema).
 

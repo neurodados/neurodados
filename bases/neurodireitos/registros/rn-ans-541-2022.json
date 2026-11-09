@@ -1,0 +1,153 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.rn-ans-541-2022",
+  "slug": "rn-ans-541-2022",
+  "base": "neurodireitos",
+  "nome": "Resolução Normativa ANS nº 541, de 11 de julho de 2022",
+  "categoria": "norma_infralegal",
+  "norma": {
+    "tipo": "resolucao_normativa",
+    "numero": "541",
+    "data": "2022-07-11",
+    "orgao": "Agência Nacional de Saúde Suplementar (ANS)",
+    "ementa": "Altera a Resolução Normativa - RN nº 465, de 24 de fevereiro de 2021, que dispõe sobre o Rol de Procedimentos e Eventos em Saúde no âmbito da Saúde Suplementar, para alterar os procedimentos referentes aos atendimentos com psicólogos, fonoaudiólogos, terapeutas ocupacionais e fisioterapeutas e revogar suas diretrizes de utilização.",
+    "publicacao": "DOU de 13/07/2022, seção 1, p. 179; retificada no DOU de 15/07/2022, seção 1, p. 115",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-09"
+    },
+    "fonte": "f1"
+  },
+  "areas": [
+    "planos_de_saude"
+  ],
+  "definicao": "A Resolução Normativa ANS nº 541/2022 mudou o rol de procedimentos dos planos de saúde e revogou as diretrizes de utilização das consultas e sessões com psicólogo, fonoaudiólogo, terapeuta ocupacional e fisioterapeuta. Segundo a ANS, desde 1º de agosto de 2022 essas consultas e sessões não têm limite de número e devem ser cobertas conforme a indicação do profissional assistente.",
+  "afirmacoes": [
+    {
+      "texto": "A RN nº 541/2022 altera a RN nº 465/2021, que dispõe sobre o Rol de Procedimentos e Eventos em Saúde no âmbito da saúde suplementar, e entrou em vigor em 1º de agosto de 2022 (arts. 1º e 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 3º revogou as diretrizes de utilização (DUTs) nº 102, 104, 105, 106, 107, 108, 136, 137 e 138 do Anexo II da RN nº 465/2021.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Essas diretrizes tratavam da consulta com fisioterapeuta, das consultas e sessões com fonoaudiólogo, psicólogo e terapeuta ocupacional e da sessão de psicoterapia, e fixavam números de consultas ou sessões por ano de contrato conforme a condição, como 2 consultas com fisioterapeuta por ano para cada CID (DUT nº 102). No anexo de diretrizes publicado pela ANS, cada uma delas traz a marca \"Excluído pela RN nº 541/2022, a partir de 01/08/2022\".",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "O art. 2º e o Anexo I mudaram, no Anexo I da RN nº 465/2021, os itens de consulta ou avaliação com fisioterapeuta, fonoaudiólogo, terapeuta ocupacional e psicólogo e de sessão com fonoaudiólogo, terapeuta ocupacional e psicólogo, que aparecem sem indicação de diretriz de utilização. Na retificação publicada no Diário Oficial de 15 de julho de 2022, os itens \"Sessão com Psicólogo e/ou Terapeuta Ocupacional (com Diretriz de Utilização)\" e \"Sessão de Psicoterapia (Com Diretriz de Utilização)\" aparecem riscados.",
+      "fontes": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "texto": "Segundo a ANS, desde 1º de agosto de 2022 o rol contempla, entre outros, consulta ou avaliação com fisioterapeuta, fonoaudiólogo, psicólogo e terapeuta ocupacional, as sessões de fisioterapia e as sessões com fonoaudiólogo, psicólogo e terapeuta ocupacional, que devem ser garantidas de acordo com o indicado pelo profissional assistente, sem limitação do número de sessões, qualquer que seja a condição de saúde do beneficiário.",
+      "fontes": [
+        "f4"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "intervenbase.cobertura-dos-planos-de-saude",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-multiprofissional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.fonoaudiologia",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.terapia-ocupacional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.rn-ans-539-2022",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14454-2022",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto publicado no Diário Oficial da União, com a retificação, é o que vale.",
+    "As regras do rol valem para os planos contratados a partir de 1º de janeiro de 1999 e para os adaptados à Lei nº 9.656/1998; nos planos antigos não adaptados, segundo a ANS, a cobertura depende do contrato.",
+    "O registro não trata de prazos de atendimento, rede credenciada, reembolso nem de onde a terapia é feita, que dependem de outras normas da ANS e do contrato.",
+    "A vigência foi conferida em 9 de novembro de 2026 no texto do Diário Oficial, no anexo de diretrizes de utilização e em parecer técnico da ANS. O sistema de legislação da ANS exige navegador e não foi consultado."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Resolução Normativa ANS nº 541, de 11 de julho de 2022: altera a RN nº 465/2021 quanto aos atendimentos com psicólogos, fonoaudiólogos, terapeutas ocupacionais e fisioterapeutas e revoga suas diretrizes de utilização",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-rn-n-541-de-11-de-julho-de-2022-414771275",
+      "referencia": "arts. 1º a 3º e 5º e Anexo I; DOU de 13/07/2022, edição 131, seção 1, p. 179",
+      "trecho": "Art. 3º Ficam revogadas as Diretrizes de Utilização - DUTs nº 102, 104, 105, 106, 107, 108, 136, 137 e 138 do Anexo II, da RN nº 465, de 2021.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "documento_oficial",
+      "titulo": "Rol de Procedimentos e Eventos em Saúde, Anexo II: Diretrizes de Utilização para Cobertura de Procedimentos na Saúde Suplementar (RN nº 465/2021 e suas alterações)",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2026,
+      "url": "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos/anexo_ii_dut_2021_rn_465-2021_rn681-2026.pdf",
+      "referencia": "itens 102, 104 a 108 e 136 a 138; última atualização: RN nº 681/2026",
+      "trecho": "1. Cobertura obrigatória de 2 consultas de fisioterapia, por ano de contrato, para cada CID apresentado pelo paciente. (Excluído pela RN nº 541/2022, a partir de 01/08/2022)",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "norma",
+      "titulo": "Retificação da Resolução Normativa ANS nº 541, de 11 de julho de 2022",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/retificacao-415440471",
+      "referencia": "DOU de 15/07/2022, edição 133, seção 1, p. 115; o trecho \"Leia-se\" é publicado como imagem",
+      "trecho": "No Anexo I da Resolução Normativa - RN nº 541, de 11 de julho de 2022, publicada no DOU nº 131, em 13 de julho de 2022, Seção 1, página 179, Onde se lê:",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "documento_oficial",
+      "titulo": "Parecer Técnico nº 08/GCITS/GGRAS/DIPRO/2024: cobertura de tratamento fisioterápico, psicológico, fonoaudiológico e de terapia ocupacional",
+      "autor": "Agência Nacional de Saúde Suplementar (ANS)",
+      "ano": 2024,
+      "url": "https://www.gov.br/ans/pt-br/arquivos/acesso-a-informacao/transparencia-institucional/pareceres-tecnicos-da-ans/2024/parecer-tecnico-no-08_2024_consulta-sessao-com-psicologo-terapeuta-ocupacional.pdf",
+      "referencia": "Publicado em 30/08/2024; listado entre os pareceres da página Documentos Técnicos da ANS em 09/11/2026",
+      "trecho": "os quais devem ser garantidos de acordo com o indicado pelo profissional assistente, ou seja, sem limitação do número de sessões",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

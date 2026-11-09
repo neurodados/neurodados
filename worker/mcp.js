@@ -30,6 +30,7 @@ const BUSCAS = {
   buscar_instrumento: { base: 'avaliabase', categoria: 'instrumento' },
   buscar_intervencao: { base: 'intervenbase' },
   buscar_evidencias: { base: 'evidenciabase' },
+  buscar_norma: { base: 'neurodireitos' },
 };
 
 const temBase = (D, id) => D.bases.some((b) => b.id === id);
@@ -49,6 +50,10 @@ function definicoes(D) {
     const props = { consulta: { type: 'string', maxLength: 100, description: M.parametroConsulta }, limite };
     if (!b.categoria) props.categoria = { type: 'string', enum: D.categoriasPorBase[b.base] || [], description: M.parametroCategoria };
     if (b.base === 'evidenciabase') props.tema = { type: 'string', enum: Object.keys(D.temas || {}), description: M.parametroTema || M.parametroCategoria };
+    if (b.base === 'neurodireitos') {
+      props.condicao = { type: 'string', enum: Object.keys(D.condicoes || {}), description: M.parametroCondicao };
+      props.area = { type: 'string', enum: Object.keys(D.areas || {}), description: M.parametroArea };
+    }
     lista.push({ name: nome, title: nome, description: F[nome], inputSchema: { type: 'object', additionalProperties: false, required: ['consulta'], properties: props }, annotations: leitura(nome) });
   }
   lista.push({
@@ -103,6 +108,23 @@ function textoRegistro(D, base, r) {
     linhas.push(`- ${I.construtos}: ${i.construtos.join('; ')}`);
     if (i.faixa_etaria?.descricao) linhas.push(`- ${L.faixaEtaria}: ${i.faixa_etaria.descricao}`);
     linhas.push(`- ${I.uso}: ${I.usos[i.uso]}`, `- ${I.satepsi}: ${linhaSatepsi(D, i.satepsi)} ${ref([i.satepsi.fonte])}`, I.aviso);
+  }
+  if (r.norma) {
+    const N = L.norma;
+    const n = r.norma;
+    const v = n.vigencia || {};
+    const oficial = r.fontes.find((f) => f.id === n.fonte);
+    linhas.push('', `${N.titulo}:`, `- ${N.tipo}: ${N.tipos[n.tipo] || n.tipo} nº ${n.numero}, ${n.data}`, `- ${N.orgao}: ${n.orgao}`, `- ${N.ementa}: ${n.ementa}`);
+    if (n.publicacao) linhas.push(`- ${N.publicacao}: ${n.publicacao}`);
+    linhas.push(`- ${N.abrangencia}: ${[N.abrangencias[n.abrangencia] || n.abrangencia, n.uf, n.municipio].filter(Boolean).join(', ')}`);
+    linhas.push(`- ${N.vigencia}: ${N.situacoes[v.situacao] || v.situacao}, ${fmt(N.conferida, { data: v.conferido_em })} ${ref([n.fonte])}`);
+    if (v.alteracoes?.length) linhas.push(`- ${N.alteracoes}: ${v.alteracoes.join('; ')}`);
+    if (v.revogada_por) linhas.push(`- ${N.revogadaPor}: ${v.revogada_por}`);
+    if (n.regulamentada_por?.length) linhas.push(`- ${N.regulamentadaPor}: ${n.regulamentada_por.join('; ')}`);
+    if (r.condicoes?.length) linhas.push(`- ${N.condicoes}: ${r.condicoes.map((c) => D.condicoes?.[c] || c).join(', ')}`);
+    if (r.areas?.length) linhas.push(`- ${N.areas}: ${r.areas.map((a) => D.areas?.[a] || a).join(', ')}`);
+    if (oficial) linhas.push(`- ${N.textoOficial}: ${oficial.url}`);
+    linhas.push(N.aviso);
   }
   const I2 = L.intervencao;
   if (r.objetivos?.length) linhas.push('', `${I2.objetivos}:`, ...r.objetivos.map((o) => `- ${o}`));
@@ -167,15 +189,24 @@ function chamar(m, D) {
     const categorias = D.categoriasPorBase[def.base] || [];
     if (args.categoria && !categorias.includes(args.categoria)) return erro(m.id, -32602, M.categoriaDesconhecida, { categorias });
     if (args.tema && !Object.keys(D.temas || {}).includes(args.tema)) return erro(m.id, -32602, M.categoriaDesconhecida, { temas: Object.keys(D.temas || {}) });
+    if (args.condicao && !Object.keys(D.condicoes || {}).includes(args.condicao)) return erro(m.id, -32602, M.filtroDesconhecido, { condicoes: Object.keys(D.condicoes || {}) });
+    if (args.area && !Object.keys(D.areas || {}).includes(args.area)) return erro(m.id, -32602, M.filtroDesconhecido, { areas: Object.keys(D.areas || {}) });
     const limite = Math.min(20, Math.max(1, parseInt(args.limite || 5, 10) || 5));
     const consulta = args.consulta.slice(0, 100);
     let achados = buscar(D.registros[def.base] || [], consulta, { categoria: def.categoria || args.categoria });
     if (args.tema) achados = achados.filter((r) => (r.temas || []).includes(args.tema));
+    if (args.condicao) achados = achados.filter((r) => (r.condicoes || []).includes(args.condicao));
+    if (args.area) achados = achados.filter((r) => (r.areas || []).includes(args.area));
     const registros = achados.slice(0, limite).map(resumo);
     const linha = (r) => {
       let t = `${r.nome}${r.sigla ? ` (${r.sigla})` : ''} [${r.id}]: ${r.definicao}`;
       if (r.satepsi) t += ` ${D.rotulos.instrumento.satepsi}: ${linhaSatepsi(D, r.satepsi)}.`;
       if (r.publicacao) t += ` (${r.publicacao.ano}${r.publicacao.doi ? `, https://doi.org/${r.publicacao.doi}` : ''})`;
+      if (r.norma) {
+        const N = D.rotulos.norma;
+        t += ` ${N.vigencia}: ${N.situacoes[r.norma.vigencia] || r.norma.vigencia}, ${fmt(N.conferida, { data: r.norma.vigencia_conferida_em })}.`;
+        if (r.norma.texto_oficial) t += ` ${N.textoOficial}: ${r.norma.texto_oficial}.`;
+      }
       return `${t} ${r.url}`;
     };
     const texto = registros.length

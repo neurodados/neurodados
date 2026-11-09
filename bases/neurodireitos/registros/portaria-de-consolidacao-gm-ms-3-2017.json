@@ -1,0 +1,196 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.portaria-de-consolidacao-gm-ms-3-2017",
+  "slug": "portaria-de-consolidacao-gm-ms-3-2017",
+  "base": "neurodireitos",
+  "nome": "Portaria de Consolidação GM/MS nº 3, de 28 de setembro de 2017",
+  "categoria": "norma_infralegal",
+  "norma": {
+    "tipo": "portaria_de_consolidacao",
+    "numero": "3",
+    "data": "2017-09-28",
+    "orgao": "Ministério da Saúde",
+    "ementa": "Consolidação das normas sobre as redes do Sistema Único de Saúde.",
+    "abrangencia": "federal",
+    "vigencia": {
+      "situacao": "parcialmente_revogada",
+      "conferido_em": "2026-11-09",
+      "alteracoes": [
+        "Portaria GM/MS nº 1.526, de 2023",
+        "Portaria GM/MS nº 10.131, de 2026"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "deficiencia_intelectual",
+    "tea",
+    "saude_mental",
+    "desenvolvimento_infantil"
+  ],
+  "areas": [
+    "saude"
+  ],
+  "definicao": "A Portaria de Consolidação GM/MS nº 3/2017 reúne as normas do Ministério da Saúde sobre as redes do SUS. No Anexo VI está a Rede de Cuidados à Pessoa com Deficiência (RCPD), que organiza o cuidado à saúde da pessoa com deficiência na atenção primária, na atenção especializada ambulatorial e na atenção hospitalar e de urgência. No Anexo V está a Rede de Atenção Psicossocial (RAPS).",
+  "afirmacoes": [
+    {
+      "texto": "A Rede de Cuidados à Pessoa com Deficiência veio da Portaria GM/MS nº 793/2012, que a Portaria de Consolidação nº 3/2017 revogou por consolidação e levou para o Anexo VI (art. 6º, XLIV, e Anexo VI).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Portaria GM/MS nº 1.526/2023 alterou as Portarias de Consolidação GM/MS nº 2, 3 e 6, de 2017, para dispor sobre a Política Nacional de Atenção Integral à Saúde da Pessoa com Deficiência e a Rede de Cuidados à Pessoa com Deficiência. No Anexo VI, ela deu nova redação ou revogou a maior parte dos arts. 1º a 31, que organizam a rede.",
+      "fontes": [
+        "f2",
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para os fins do anexo, pessoa com deficiência é a que tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial que, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas, como no art. 2º da Lei nº 13.146/2015 (Anexo VI, art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A rede tem por objetivo ofertar ações e serviços de saúde para o cuidado integral à pessoa com deficiência, articulados nas Redes de Atenção à Saúde, e também oferta ações e serviços de saúde aos familiares, cuidadores e acompanhantes (Anexo VI, art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A rede se organiza em três componentes: Atenção Primária à Saúde; Atenção Especializada Ambulatorial; e Atenção Especializada Hospitalar e de Urgência e Emergência (Anexo VI, art. 11).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na Atenção Primária, as ações prioritárias incluem identificar e registrar as pessoas com deficiência do território, promover a identificação precoce das deficiências pela qualificação do pré-natal e da atenção na primeira infância, acompanhar os recém-nascidos de alto risco até os dois anos de vida, apoiar e orientar famílias e cuidadores e apoiar educadores e a comunidade escolar pelo Programa Saúde na Escola (Anexo VI, art. 13).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O componente de Atenção Especializada Ambulatorial reúne estabelecimentos habilitados em um só serviço de reabilitação, os CER, os Centros de Especialidades Odontológicas (CEO) e as oficinas ortopédicas, e conta com transporte sanitário em veículos adaptados para levar aos serviços, com familiar, cuidador ou acompanhante, a pessoa com deficiência que não tenha condições de mobilidade e acessibilidade autônoma pelos meios de transporte convencionais (Anexo VI, art. 14).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os CER fazem diagnóstico, tratamento, concessão, adaptação e manutenção de tecnologia assistiva, e reúnem de duas a quatro modalidades de reabilitação: auditiva, física, intelectual e visual (Anexo VI, art. 19).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os pontos de atenção ambulatoriais devem produzir com a pessoa com deficiência um Projeto Terapêutico Singular baseado em avaliações multidisciplinares, oferecer ações de saúde a familiares, cuidadores e acompanhantes e articular-se com a rede de ensino para identificar crianças e adolescentes com deficiência, avaliar suas necessidades e apoiar educadores, famílias e a comunidade escolar (Anexo VI, art. 15).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os estabelecimentos habilitados em apenas um serviço de reabilitação podem se organizar como serviço de reabilitação em uma única modalidade ou como Núcleo de Atenção a Criança e Adolescente com Transtorno do Espectro Autista. O § 1º diz que esses estabelecimentos são os que já existam na data da publicação da portaria, e o § 2º permite, excepcionalmente, habilitar novos (Anexo VI, art. 18).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na atenção hospitalar e de urgência, a rede deve, entre outras ações, acolher, classificar o risco e cuidar das pessoas com deficiência nas urgências, instituir equipes de referência em reabilitação para identificação e tratamento precoce das deficiências e ampliar o acesso às urgências odontológicas e ao atendimento odontológico sob sedação ou anestesia geral (Anexo VI, art. 22).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 3º da portaria lista as redes temáticas de atenção à saúde do SUS, entre elas a Rede de Atenção Psicossocial (RAPS), no Anexo V, e a Rede de Cuidados à Pessoa com Deficiência, no Anexo VI.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A RAPS tem a finalidade de criar, ampliar e articular pontos de atenção à saúde para pessoas com sofrimento ou transtorno mental. Entre os Centros de Atenção Psicossocial está o CAPS i, que atende crianças e adolescentes com intenso sofrimento psíquico decorrente de transtornos mentais graves e persistentes, inclusive os relacionados ao uso de substâncias psicoativas, e com outras situações clínicas que impossibilitem estabelecer laços sociais e realizar projetos de vida; ele é indicado para municípios ou regiões com mais de 70 mil habitantes (Anexo V, arts. 1º e 7º, § 4º, VI).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As internações nos leitos de saúde mental em hospital geral e no serviço hospitalar de referência da RAPS devem seguir a Lei nº 10.216/2001 (Anexo V, art. 10, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-multiprofissional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.portaria-de-consolidacao-gm-ms-2-2017",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-10216-2001",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto publicado no Diário Oficial da União é o que vale; o texto compilado do Saúde Legis é uma cópia de referência.",
+    "O registro resume o Anexo VI e cita o Anexo V; a portaria tem muitos outros anexos, sobre outras redes do SUS, que não estão aqui. As alterações listadas na ficha são as que mudaram o Anexo VI.",
+    "A portaria está em vigor; o texto compilado do Saúde Legis marca vários dispositivos como revogados, como os arts. 16, 17 e 24 a 31 do Anexo VI, revogados pela Portaria GM/MS nº 1.526/2023. Os pontos deste registro estão em vigor.",
+    "O registro não trata das regras de habilitação, de financiamento nem das normas técnicas dos serviços, que estão em outros pontos do anexo e em outras portarias.",
+    "A vigência foi conferida no texto compilado do Saúde Legis em 9 de novembro de 2026. Esse texto traz alterações até setembro de 2026, mas pode demorar a incluir mudanças novas."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Portaria de Consolidação GM/MS nº 3, de 28 de setembro de 2017: consolidação das normas sobre as redes do Sistema Único de Saúde (texto compilado)",
+      "autor": "Ministério da Saúde",
+      "ano": 2017,
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0003_03_10_2017_comp.html",
+      "referencia": "arts. 3º e 6º, XLIV; Anexo V, arts. 1º, 7º e 10; Anexo VI, arts. 1º, 3º, 11, 13 a 15, 18, 19 e 22; Saúde Legis",
+      "trecho": "Art. 1º Fica instituída a Rede de Cuidados à Pessoa com Deficiência - RCPD, por meio da criação, ampliação e articulação de pontos de atenção à saúde para pessoas com deficiência no âmbito do Sistema Único de Saúde - SUS.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Portaria GM/MS nº 1.526, de 11 de outubro de 2023: altera as Portarias de Consolidação GM/MS nºs 2, 3 e 6, de 28 de setembro de 2017, para dispor sobre a PNAISPD e a RCPD no âmbito do SUS",
+      "autor": "Ministério da Saúde",
+      "ano": 2023,
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2023/prt1526_16_10_2023.html",
+      "referencia": "ementa e art. 1º; cópia da Biblioteca Virtual em Saúde (Saúde Legis)",
+      "trecho": "Altera as Portarias de Consolidação GM/MS nºs 2, 3 e 6, de 28 de setembro de 2017, para dispor sobre a Política Nacional de Atenção Integral à Saúde da Pessoa com Deficiência (PNAISPD) e Rede de Cuidados à Pessoa com Deficiência (RCPD) no âmbito do Sistema Único de Saúde (SUS).",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}
