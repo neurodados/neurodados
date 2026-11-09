@@ -4,7 +4,7 @@
   "nome": "NeuroBase",
   "titulo": "NeuroBase: conceitos e condições do neurodesenvolvimento",
   "descricao": "Base aberta de conceitos, domínios e condições do neurodesenvolvimento e do desenvolvimento infantil. Cada registro traz uma definição em linguagem simples, os pontos principais ligados às fontes que os sustentam, a classificação oficial quando existe e a situação da revisão.",
-  "versao": "2026.11.09",
+  "versao": "2026.11.09.2",
   "mantenedor": {
     "nome": "Clínica NeuroBee",
     "url": "https://clinicaneurobee.com.br"
@@ -18,7 +18,7 @@
     "url": "https://creativecommons.org/licenses/by/4.0/deed.pt_BR"
   },
   "metodologia": "https://clinicaneurobee.com.br/neurodados/metodologia",
-  "doi": "10.5281/zenodo.24070449",
+  "doi": "10.5281/zenodo.24093452",
   "huggingface": "https://huggingface.co/datasets/neurodados/neurobase",
   "palavras_chave": [
     "neurodesenvolvimento",
@@ -30,7 +30,11 @@
     "deficiência intelectual",
     "funções executivas",
     "CID-10",
-    "dados abertos"
+    "dados abertos",
+    "síndrome de Down",
+    "paralisia cerebral",
+    "gagueira",
+    "neurodiversidade"
   ],
   "limitacoes": [
     "Conteúdo informativo: não serve para diagnóstico e não substitui a avaliação de um profissional habilitado.",
@@ -47,6 +51,11 @@
       "versao": "2026.11.09",
       "data": "2026-11-09",
       "mudanca": "Ligações com registros da AvaliaBase, da IntervenBase e da EvidenciaBase."
+    },
+    {
+      "versao": "2026.11.09.2",
+      "data": "2026-11-09",
+      "mudanca": "Doze registros novos: quatro domínios do desenvolvimento, três condições do neurodesenvolvimento, três condições associadas (transtornos de tique, síndrome de Down e paralisia cerebral), comorbidade e neurodiversidade. Ligações entre os registros novos e os já publicados."
     }
   ]
 }

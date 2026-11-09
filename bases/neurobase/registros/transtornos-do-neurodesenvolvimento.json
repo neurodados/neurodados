@@ -107,6 +107,26 @@
     {
       "id": "intervenbase.atendimento-multiprofissional",
       "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-dos-sons-da-fala",
+      "tipo": "inclui"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-fluencia-da-fala",
+      "tipo": "inclui"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-coordenacao-motora",
+      "tipo": "inclui"
+    },
+    {
+      "id": "neurobase.transtornos-de-tique",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.comorbidade",
+      "tipo": "relacionado"
     }
   ],
   "limitacoes": [
@@ -206,7 +226,7 @@
     "conferido_em": "2026-11-08",
     "revisores": []
   },
-  "versao": "1.1",
+  "versao": "1.2",
   "criado_em": "2026-11-08",
   "atualizado_em": "2026-11-09",
   "historico": [
@@ -219,6 +239,11 @@
       "versao": "1.1",
       "data": "2026-11-09",
       "mudanca": "Ligações com registros da AvaliaBase, da IntervenBase e da EvidenciaBase."
+    },
+    {
+      "versao": "1.2",
+      "data": "2026-11-09",
+      "mudanca": "Ligações com registros novos da NeuroBase."
     }
   ]
 }

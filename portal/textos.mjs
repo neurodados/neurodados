@@ -88,9 +88,10 @@ export const RODAPE = {
 export const CATEGORIAS = {
   neurobase: {
     conceito: 'Conceitos',
-    condicao_do_neurodesenvolvimento: 'Condições do neurodesenvolvimento',
     dominio_do_desenvolvimento: 'Domínios do desenvolvimento',
     marco_do_desenvolvimento: 'Marcos do desenvolvimento',
+    condicao_do_neurodesenvolvimento: 'Condições do neurodesenvolvimento',
+    deficiencia_ou_condicao_associada: 'Deficiências e condições associadas',
     termo_clinico: 'Termos clínicos',
   },
   avaliabase: {

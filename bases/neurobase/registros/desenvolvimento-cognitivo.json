@@ -1,0 +1,185 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.desenvolvimento-cognitivo",
+  "slug": "desenvolvimento-cognitivo",
+  "base": "neurobase",
+  "nome": "Desenvolvimento cognitivo",
+  "categoria": "dominio_do_desenvolvimento",
+  "dominios": [
+    "cognitivo"
+  ],
+  "definicao": "O desenvolvimento cognitivo é o processo pelo qual a criança passa a perceber, entender e pensar o mundo e a resolver problemas. Envolve percepção, atenção, memória, raciocínio e imaginação, e se constrói junto com os outros domínios do desenvolvimento e com as experiências da criança.",
+  "afirmacoes": [
+    {
+      "texto": "As Diretrizes de estimulação precoce do Ministério da Saúde definem o desenvolvimento cognitivo como o processo de surgimento da capacidade de compreender, pensar e decidir como agir no mundo. É a construção do conhecimento e de formas de resolver problemas, por meio de processos mentais que envolvem percepção, atenção, memória, raciocínio e imaginação.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Segundo o mesmo documento, o desenvolvimento cognitivo integral depende de boas relações entre as funções sensorial, perceptiva, motora, linguística, intelectual e psicológica e das etapas críticas de maturação do cérebro. Comunicação, linguagem e cognição são descritas como interligadas, e no primeiro ano de vida o desenvolvimento cognitivo e o motor caminham juntos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Uma revisão publicada na The Lancet descreve o desenvolvimento infantil como um processo de maturação e de interação, com progressão ordenada de habilidades perceptuais, motoras, cognitivas, de linguagem, socioemocionais e de autorregulação. Os autores dizem que o processo é semelhante entre culturas, mas o ritmo de progressão pode variar.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Numa revisão sobre o desenvolvimento do cérebro, os autores afirmam que a expressão dos genes e a experiência do ambiente são ambas essenciais, e que a perturbação de qualquer uma pode alterar os resultados neurais. Mas nem os genes nem o ambiente, sozinhos, determinam o resultado.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "As Diretrizes do Ministério da Saúde dizem que a ausência, a escassez ou a presença de estimulação nos momentos oportunos pode alterar o curso do desenvolvimento, que a criança aprende e se desenvolve na interação social e que a avaliação deve incluir a família. A Caderneta da Criança diz que, no início, cabe à família atender às necessidades físicas e afetivas e apoiar o desenvolvimento cognitivo, e depois cabe a pais e educadores, na creche e na escola, criar um ambiente estimulante.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Entre os sinais de alerta da Caderneta da Criança estão a dificuldade para memorizar e levar uma tarefa até o fim e a dificuldade para aprender e resolver problemas práticos da vida diária. A Caderneta orienta conversar com profissionais de saúde, de educação e de assistência social quando a criança se comporta de modo diferente de outras da mesma idade ou não alcança os marcos esperados, e diz que na maioria das vezes não é nada sério, mas que quanto mais cedo um problema for identificado e enfrentado, melhores os resultados.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Na vigilância do desenvolvimento da Caderneta, o profissional identifica riscos, observa o comportamento da criança, pergunta aos cuidadores o que eles acham do desenvolvimento e verifica os marcos da faixa etária. O desenvolvimento é classificado em uma de três situações, desenvolvimento adequado, alerta para o desenvolvimento ou provável atraso no desenvolvimento, e cada uma tem uma conduta indicada.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Lei nº 13.257/2016 determina que as políticas para a primeira infância respeitem a individualidade e os ritmos de desenvolvimento das crianças, e que o Estado estabeleça políticas, planos, programas e serviços que atendam às especificidades dessa faixa etária, para garantir o desenvolvimento integral.",
+      "fontes": [
+        "f5"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.neurodesenvolvimento",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "neurobase.marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.funcoes-executivas",
+      "tipo": "inclui"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-linguagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.zubler-2022-marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.desenvolvimento-da-linguagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.desenvolvimento-motor",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.desenvolvimento-socioemocional",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Este registro descreve o domínio em termos gerais. Não lista marcos por idade, não descreve testes nem itens de instrumentos e não serve para diagnóstico: uma dificuldade cognitiva não indica, por si só, um transtorno.",
+    "As fontes usam palavras próximas, como cognitivo, intelectual e mental, sem uma definição única. A definição adotada aqui é a das Diretrizes de estimulação precoce do Ministério da Saúde.",
+    "As revisões citadas descrevem tendências gerais, e uma delas tem foco em países de baixa e média renda. Elas não permitem prever o caminho de uma criança em particular."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "diretriz_clinica",
+      "titulo": "Diretrizes de estimulação precoce: crianças de zero a 3 anos com atraso no desenvolvimento neuropsicomotor",
+      "autor": "Ministério da Saúde (Secretaria de Atenção à Saúde)",
+      "ano": 2016,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_estimulacao_criancas_0a3anos_neuropsicomotor.pdf",
+      "referencia": "Seção 4.5, Desenvolvimento Cognitivo e de Linguagem, p. 68-70",
+      "trecho": "O desenvolvimento cognitivo é o processo de surgimento da capacidade de compreender, pensar e decidir como agir no mundo que nos cerca. É a construção do conhecimento e de formas de resolver problemas que se dá através de um conjunto de processos mentais que envolvem a percepção, atenção, memória, raciocínio e imaginação.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "documento_oficial",
+      "titulo": "Caderneta da Criança: Passaporte da Cidadania. Menina. 7ª edição",
+      "autor": "Ministério da Saúde",
+      "ano": 2024,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_crianca_menina_passaporte_cidadania_7ed.pdf",
+      "referencia": "Parte I, Desenvolvimento Infantil, p. 39; Sinais de Alerta, p. 53; Vigilância do Desenvolvimento Infantil, p. 78-80",
+      "trecho": "Inicialmente, cabe à família atender às necessidades físicas e afetivas, estimular e apoiar o desenvolvimento cognitivo, afetivo e social da criança.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Early childhood development coming of age: science through the life course",
+      "autor": "Black, Maureen M.; Walker, Susan P.; Fernald, Lia C. H.; et al.; Lancet Early Childhood Development Series Steering Committee",
+      "ano": 2017,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5884058/",
+      "doi": "10.1016/S0140-6736(16)31389-7",
+      "referencia": "The Lancet, v. 389, n. 10064, p. 77-90; seção Life course conceptual framework of early childhood development",
+      "trecho": "Childhood development is a maturational and interactive process, resulting in an ordered progression of perceptual, motor, cognitive, language, socio-emotional, and self-regulation skills. [...] Although the developmental process is similar across cultures, progression rates can vary as children acquire culture-specific skills.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "The Basics of Brain Development",
+      "autor": "Stiles, Joan; Jernigan, Terry L.",
+      "ano": 2010,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2989000/",
+      "doi": "10.1007/s11065-010-9148-4",
+      "referencia": "Neuropsychology Review, v. 20, n. 4, p. 327-348; introdução",
+      "trecho": "Both gene expression and environmental input are essential for normal brain development, and disruption of either can fundamentally alter neural outcomes. But neither genes nor input is prescriptive or determinative of outcome.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f5",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.257, de 8 de março de 2016: dispõe sobre as políticas públicas para a primeira infância",
+      "autor": "Brasil",
+      "ano": 2016,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13257.htm",
+      "referencia": "art. 3º e art. 4º, III",
+      "trecho": "Art. 4º As políticas públicas voltadas ao atendimento dos direitos da criança na primeira infância serão elaboradas e executadas de forma a: [...] III - respeitar a individualidade e os ritmos de desenvolvimento das crianças",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

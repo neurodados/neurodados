@@ -1,0 +1,175 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.transtorno-do-desenvolvimento-dos-sons-da-fala",
+  "slug": "transtorno-do-desenvolvimento-dos-sons-da-fala",
+  "base": "neurobase",
+  "nome": "Transtorno do desenvolvimento dos sons da fala",
+  "categoria": "condicao_do_neurodesenvolvimento",
+  "dominios": [
+    "linguagem"
+  ],
+  "definicao": "O transtorno do desenvolvimento dos sons da fala é uma dificuldade persistente em produzir os sons da língua de forma que os outros entendam, desde o começo do desenvolvimento da fala. Ela afeta a articulação e a organização dos sons, e não a compreensão nem o vocabulário.",
+  "afirmacoes": [
+    {
+      "texto": "Na CID-11, o transtorno do desenvolvimento dos sons da fala tem o código 6A01.0 e fica no grupo 6A01, transtornos do desenvolvimento da fala ou da linguagem, dentro dos transtornos do neurodesenvolvimento, no capítulo 06.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na CID-10, o quadro correspondente é o F80.0, transtorno específico da articulação da fala, dentro de F80-F89, transtornos do desenvolvimento psicológico. A tabela de correspondência da OMS liga F80.0 a 6A01.0 como categorias equivalentes.",
+      "fontes": [
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "texto": "A CID-10 descreve o F80.0 como um transtorno em que a criança usa os sons da fala (fonemas) abaixo do esperado para a sua idade mental, mas com aptidão de linguagem normal. É isso que o separa do transtorno do desenvolvimento da linguagem, que atinge a compreensão ou a expressão da linguagem, e não só a produção dos sons. Na CID-11, os dois têm códigos próprios dentro de 6A01.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "A CID-10 diz, para o grupo F80-F89 como um todo, que o início é obrigatoriamente na primeira ou na segunda infância e que a evolução é contínua, sem remissões nem recaídas. Diz também que o atraso costuma diminuir com a idade, e que déficits mais leves podem persistir na vida adulta.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Numa coorte comunitária na Austrália com 1.494 crianças avaliadas aos 4 anos, a prevalência do transtorno dos sons da fala foi de 3,4%. Entre as crianças com esse quadro, 40,8% também tinham transtorno de linguagem e 20,8% tinham baixas habilidades pré-alfabetização.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "Numa coorte populacional no Reino Unido, a prevalência estimada de transtorno dos sons da fala persistente aos 8 anos, sem contar crianças que só apresentavam erros residuais comuns, foi de 3,6%. Os autores apontam que fatores motores, cognitivos e linguísticos podem colocar a criança em risco para o quadro persistente.",
+      "fontes": [
+        "f5"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "sistema": "CID-11",
+      "codigo": "6A01.0",
+      "titulo": "Transtorno do desenvolvimento dos sons da fala",
+      "fonte": "f1"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F80.0",
+      "titulo": "Transtorno específico da articulação da fala",
+      "fonte": "f2"
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-linguagem",
+      "tipo": "diferenciar_de"
+    },
+    {
+      "id": "intervenbase.fonoaudiologia",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.bishop-2017-catalise-terminologia",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-fluencia-da-fala",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.desenvolvimento-da-linguagem",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "As prevalências de 3,4% (4 anos) e 3,6% (8 anos) vêm de dois estudos de coorte, na Austrália e no Reino Unido, com definições e idades diferentes. Não há, nas fontes deste registro, um número para o Brasil, e os números não servem para calcular o risco de uma criança.",
+    "A CID-10 compara os sons da fala com a idade mental da criança. Este registro usa o título e o código oficiais, mas não descreve os critérios de diagnóstico nem a idade em que cada som costuma aparecer.",
+    "O registro não serve para diagnóstico e não trata de tratamento. A fala de quem ainda está aprendendo a língua, e a fala com marcas regionais, não são o mesmo que este transtorno, e a distinção depende de avaliação individual.",
+    "A fala alterada por causa conhecida, como perda de audição ou fissura de palato, tem outro enquadramento nas classificações e não é tratada aqui."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-11 para Estatísticas de Mortalidade e Morbidade, versão 2026-01: tabulação simples (SimpleTabulation-ICD-11-MMS-pt)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "referencia": "6A01 e 6A01.0 (entidade 551966778); capítulo 06; navegador: https://icd.who.int/browse/2026-01/mms/pt#551966778",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo V, F80-F89: Transtornos do desenvolvimento psicológico",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/f80_f89.htm",
+      "referencia": "Introdução de F80-F89 e F80.0 Transtorno específico da articulação da fala",
+      "trecho": "Os transtornos classificados em F80-F89 têm em comum: a) início situado obrigatoriamente na primeira ou segunda infância; b) comprometimento ou retardo do desenvolvimento de funções estreitamente ligadas à maturação biológica do sistema nervoso central; e c) evolução contínua sem remissões nem recaídas.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "classificacao_oficial",
+      "titulo": "Tabelas de mapeamento CID-10 / CID-11, versão 2026-01 (10To11MapToOneCategory e 11To10MapToOneCategory)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/mapping.zip",
+      "referencia": "Linha F80.0 para 6A01.0 em 10To11MapToOneCategory; linha 6A01.0 para F80.0 em 11To10MapToOneCategory",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Speech sound disorder at 4 years: prevalence, comorbidities, and predictors in a community cohort of children",
+      "autor": "Eadie, Patricia; Morgan, Angela; Ukoumunne, Obioha C.; Ttofari Eecen, Kyriaki; Wake, Melissa; Reilly, Sheena",
+      "ano": 2015,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25403868/",
+      "doi": "10.1111/dmcn.12635",
+      "referencia": "Developmental Medicine & Child Neurology, v. 57, n. 6, p. 578-584; resumo",
+      "trecho": "At 4 years the prevalence of speech disorder in an Australian cohort was 3.4%. Comorbidity with SSD was 40.8% for language disorder and 20.8% for poor pre-literacy skills.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f5",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Prevalence and Predictors of Persistent Speech Sound Disorder at Eight Years Old: Findings From a Population Cohort Study",
+      "autor": "Wren, Yvonne; Miller, Laura L.; Peters, Tim J.; Emond, Alan; Roulstone, Sue",
+      "ano": 2016,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27367606/",
+      "doi": "10.1044/2015_JSLHR-S-14-0282",
+      "referencia": "Journal of Speech, Language, and Hearing Research, v. 59, n. 4, p. 647-673; resumo",
+      "trecho": "The estimated prevalence of persistent SSD was 3.6%.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.neurodiversidade",
+  "slug": "neurodiversidade",
+  "base": "neurobase",
+  "nome": "Neurodiversidade",
+  "categoria": "conceito",
+  "definicao": "Neurodiversidade é a ideia de que as diferenças no funcionamento do cérebro e da mente, como as do autismo e de outras condições do neurodesenvolvimento, fazem parte da variação humana e não são, por si só, defeitos a corrigir. É um conceito e um movimento social, não um diagnóstico nem uma classificação oficial.",
+  "afirmacoes": [
+    {
+      "texto": "Uma revisão de 2022, com base em Walker (2014), distingue três sentidos de \"neurodiversidade\": o fato de que existem mentes e cérebros diversos, o que vale até para grupos de pessoas neurotípicas, porque não há duas pessoas com a mesma mente ou o mesmo cérebro; uma perspectiva teórica, chamada de paradigma ou abordagem da neurodiversidade; e um movimento ativista pelos direitos e pelo bem-estar de pessoas neurologicamente atípicas, chamadas de neurodivergentes. O autor diz que a confusão entre os sentidos alimenta o debate.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A revisão atribui a Judy Singer a criação do termo \"neurodiversidade\", com a biodiversidade como metáfora. Outra revisão, de 2022, situa o início do movimento no começo dos anos 1990, entre ativistas autistas, apoiados no movimento mais amplo pelos direitos das pessoas com deficiência.",
+      "fontes": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "texto": "Segundo Pellicano e den Houting (2022), o modelo médico tradicional vê a deficiência como característica indesejável da pessoa e busca aproximar suas habilidades do padrão considerado normal. O paradigma da neurodiversidade rejeita a ideia de que divergir da norma seja uma falha a corrigir e parte do princípio de que o desenvolvimento neurotípico não é superior nem inferior ao divergente.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Os mesmos autores criticam no modelo médico o foco excessivo em déficits, a ênfase no indivíduo em vez do contexto e a estreiteza de perspectivas. Dizem também que, ao contrário da ideia comum de que o movimento só interessa a quem precisa de menos apoio, o paradigma inclui todas as pessoas autistas e neurodivergentes, inclusive as com maiores e mais complexas necessidades de apoio.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Um estudo com 657 pessoas (autistas, familiares e amigos, e outras) mostrou que quem se identificava como autista e quem conhecia a neurodiversidade tendiam a ver o autismo como identidade positiva, que não precisa ser eliminada. Já o reconhecimento dos aspectos negativos do autismo não diferiu entre os grupos, e os autores concluíram que há sobreposição considerável entre o modelo médico e a neurodiversidade.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Há críticas às abordagens da neurodiversidade. Segundo a revisão de 2022, uma objeção comum é que elas não valeriam para pessoas autistas com deficiência intelectual, às vezes chamadas de \"baixo funcionamento\", termo que muitos defensores rejeitam por ser estigmatizante. Algumas pessoas no espectro autista também se opõem ao que veem como extremismo de um movimento que, para elas, é contra tratamentos. A revisão afirma que ser contra o acesso a apoios ou negar que o autismo seja uma deficiência não são posições da maioria dos defensores.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Sobre pessoas que falam pouco ou nada, a revisão argumenta que apoios como a comunicação aumentativa e alternativa e a ajuda na vida diária mudam o ambiente e não a pessoa, e por isso não se encaixam bem num modelo médico estrito. Ela também admite que um tratamento que permitisse aprender a falar, sem efeitos colaterais, dificilmente seria ruim, e diz que saber se a abordagem vale para essas pessoas é uma questão complexa e difícil.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A abordagem foi aplicada muito além do autismo: a revisão de 2022 cita um autor que a estende à educação de pessoas com TDAH, dislexia, depressão, ansiedade, deficiência intelectual e esquizofrenia. A mesma revisão afirma que as categorias diagnósticas podem ser úteis, porque apoiam a comunidade e a mobilização política e porque reconhecer grupos de pessoas neurodivergentes pode ser necessário para que elas tenham acesso a apoios.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.lord-2018-transtorno-do-espectro-autista",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Neurodiversidade não é diagnóstico nem classificação oficial. Este registro não serve para diagnosticar ninguém nem para decidir sobre tratamento.",
+    "O conceito tem vários sentidos e é debatido. O registro mostra os lados com base em poucas revisões e não resolve o debate.",
+    "Quase toda a literatura citada trata do autismo. A aplicação do conceito ao TDAH, à dislexia e a outras condições não é detalhada aqui.",
+    "O autor de uma das revisões é uma pessoa autista que se identifica com o movimento e declara que isso afeta o ponto de vista do texto."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "The Neurodiversity Approach(es): What Are They and What Do They Mean for Researchers?",
+      "autor": "Dwyer, Patrick",
+      "ano": 2022,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9261839/",
+      "doi": "10.1159/000523723",
+      "referencia": "Human Development, v. 66, n. 2, p. 73-92; resumo e texto completo",
+      "trecho": "even groups of neurotypical people are neurodiverse, as no two individuals have exactly the same mind or brain",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Deficit, difference, or both? Autism and neurodiversity",
+      "autor": "Kapp, Steven K.; Gillespie-Lynch, Kristen; Sherman, Lauren E.; Hutman, Ted",
+      "ano": 2013,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22545843/",
+      "doi": "10.1037/a0028353",
+      "referencia": "Developmental Psychology, v. 49, n. 1, p. 59-71; resumo",
+      "trecho": "results suggested substantial overlap between these approaches to autism",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Annual Research Review: Shifting from 'normal science' to neurodiversity in autism science",
+      "autor": "Pellicano, Elizabeth; den Houting, Jacquiline",
+      "ano": 2022,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9298391/",
+      "doi": "10.1111/jcpp.13534",
+      "referencia": "Journal of Child Psychology and Psychiatry, v. 63, n. 4, p. 381-396; resumo e texto completo",
+      "trecho": "Neurodiversity, where autism is seen as one form of variation within a diversity of minds, has been proposed as a potential alternative paradigm.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

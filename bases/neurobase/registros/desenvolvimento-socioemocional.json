@@ -1,0 +1,182 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.desenvolvimento-socioemocional",
+  "slug": "desenvolvimento-socioemocional",
+  "base": "neurobase",
+  "nome": "Desenvolvimento socioemocional",
+  "categoria": "dominio_do_desenvolvimento",
+  "dominios": [
+    "socioemocional"
+  ],
+  "definicao": "O desenvolvimento socioemocional é o processo em que a criança cria vínculos, aprende a se relacionar com outras pessoas e a reconhecer e lidar com as próprias emoções. Ele se constrói na convivência diária com os cuidadores e no ambiente em que a criança vive, e anda junto com o desenvolvimento das outras áreas.",
+  "afirmacoes": [
+    {
+      "texto": "O Ministério da Saúde define o desenvolvimento infantil como um processo multidimensional e integral, que engloba o crescimento físico, a maturação neurológica, o desenvolvimento comportamental, sensorial, cognitivo e de linguagem, e também as relações socioafetivas.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Uma revisão científica descreve o desenvolvimento como uma progressão ordenada de habilidades de percepção, motoras, cognitivas, de linguagem, socioemocionais e de autorregulação. O processo é parecido entre culturas, mas o ritmo pode variar.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Caderneta da Criança afirma que a principal condição para a criança se desenvolver bem é sentir-se amada pelas pessoas próximas, o que lhe dá segurança para experimentar situações novas. Também diz que a primeira infância é uma fase muito importante para o desenvolvimento emocional e de socialização.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Os cuidados que apoiam o desenvolvimento ocorrem em interações nos dois sentidos, iniciadas tanto pela criança quanto pelos cuidadores e sustentadas pelo ambiente. Cuidado atencioso é descrito como um ambiente em casa que responde à criança, a apoia emocionalmente, oferece estímulos adequados e abre espaço para brincar e explorar, com proteção contra adversidades.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Adversidades acumuladas podem prejudicar os sistemas de resposta do corpo da criança e atrapalhar a autorregulação e o manejo do estresse. A família precisa de condições para oferecer esse cuidado, e adversidades que atingem as famílias podem reduzir essa capacidade.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Organização Mundial da Saúde e parceiros afirmam que, para o desenvolvimento saudável do cérebro nos primeiros anos, as crianças precisam de um ambiente seguro, protegido e afetuoso, com nutrição adequada e estímulo dos pais ou cuidadores.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "As áreas do desenvolvimento se influenciam. Segundo o Ministério da Saúde, as funções sensório-motoras, socioafetivas, cognitivas e de linguagem se desenvolvem de forma integrada e interdependente. Uma revisão científica mostra também que as interações sociais são um motivo importante para a criança se mover e explorar.",
+      "fontes": [
+        "f1",
+        "f5"
+      ]
+    },
+    {
+      "texto": "Na Caderneta da Criança, o profissional de saúde deve identificar riscos ambientais, como violência doméstica e depressão materna, e perguntar aos cuidadores o que acham do desenvolvimento da criança, valorizando essa informação. Para as famílias, a Caderneta orienta incentivar a criança a brincar com outras crianças, porque a brincadeira fortalece a convivência social.",
+      "fontes": [
+        "f3"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.neurodesenvolvimento",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "neurobase.marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.orientacao-parental",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.zubler-2022-marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.desenvolvimento-cognitivo",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.desenvolvimento-da-linguagem",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Este registro descreve o domínio socioemocional em termos gerais. Não traz tabela de marcos por idade e não serve para identificar atraso ou dificuldade em uma criança específica.",
+    "As fontes tratam do papel do ambiente e dos cuidadores como apoio ao desenvolvimento. Elas não dizem que dificuldades socioemocionais são culpa da família.",
+    "O jeito de expressar emoções e de se relacionar varia entre crianças e entre culturas. Só a avaliação de um profissional de saúde, com a história e o contexto da criança, pode dizer se uma diferença merece atenção.",
+    "A revisão de Adolph e Hoch trata de desenvolvimento motor em bebês e foi usada apenas para a ligação entre movimento e interação social."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "documento_oficial",
+      "titulo": "Diretrizes de estimulação precoce: crianças de zero a 3 anos com atraso no desenvolvimento neuropsicomotor",
+      "autor": "Ministério da Saúde (Secretaria de Atenção à Saúde)",
+      "ano": 2016,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_estimulacao_criancas_0a3anos_neuropsicomotor.pdf",
+      "referencia": "Seção 3, introdução (p. 12) e seção 4.2.3 (p. 41)",
+      "trecho": "O desenvolvimento infantil pode ser definido como um processo multidimensional e integral, que se inicia com a concepção e que engloba o crescimento físico, a maturação neurológica, o desenvolvimento comportamental, sensorial, cognitivo e de linguagem, assim como as relações socioafetivas.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Early childhood development coming of age: science through the life course",
+      "autor": "Black, Maureen M.; Walker, Susan P.; Fernald, Lia C. H.; et al.",
+      "ano": 2017,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5884058/",
+      "doi": "10.1016/S0140-6736(16)31389-7",
+      "referencia": "The Lancet, v. 389, n. 10064, p. 77-90; texto completo, seção sobre o marco conceitual do desenvolvimento na primeira infância",
+      "trecho": "Nurturing care is characterised by a home environment that is sensitive to children's health and nutritional needs, responsive, emotionally supportive, and developmentally stimulating and appropriate, with opportunities for play and exploration and protection from adversities.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "documento_oficial",
+      "titulo": "Caderneta da Criança: passaporte da cidadania, menina, 7ª edição",
+      "autor": "Ministério da Saúde",
+      "ano": 2024,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_crianca_menina_passaporte_cidadania_7ed.pdf",
+      "consultado_em": "2026-11-09",
+      "referencia": "Seção Desenvolvimento infantil, p. 37; Estimulando o desenvolvimento com afeto, p. 47; Vigilância do desenvolvimento infantil, p. 78",
+      "trecho": "A principal condição para uma criança se desenvolver bem é sentir-se amada pelas pessoas que estão próximas a ela. Isso lhe dá segurança para seguir experimentando as novas situações que vão surgindo e que são necessárias para o seu amadurecimento."
+    },
+    {
+      "id": "f4",
+      "tipo": "documento_oficial",
+      "titulo": "Nurturing care for early childhood development: a framework for helping children survive and thrive to transform health and human potential (página da publicação)",
+      "autor": "Organização Mundial da Saúde, UNICEF e Grupo Banco Mundial",
+      "ano": 2018,
+      "url": "https://www.who.int/publications/i/item/9789241514064",
+      "referencia": "Página de apresentação (Overview)",
+      "trecho": "For healthy brain development in these years, children need a safe, secure and loving environment, with the right nutrition and stimulation from their parents or caregivers.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f5",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Motor Development: Embodied, Embedded, Enculturated, and Enabling",
+      "autor": "Adolph, Karen E.; Hoch, Justine E.",
+      "ano": 2019,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6320716/",
+      "doi": "10.1146/annurev-psych-010418-102836",
+      "referencia": "Annual Review of Psychology, v. 70, p. 141-164; resumo e texto completo",
+      "trecho": "Motor development is enabling: New motor skills create new opportunities for exploration and learning that instigate cascades of development across diverse psychological domains.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

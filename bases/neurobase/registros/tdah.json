@@ -116,6 +116,22 @@
     {
       "id": "intervenbase.orientacao-parental",
       "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-de-tique",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-coordenacao-motora",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "neurobase.comorbidade",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.neurodiversidade",
+      "tipo": "relacionado"
     }
   ],
   "limitacoes": [
@@ -195,7 +211,7 @@
     "conferido_em": "2026-11-08",
     "revisores": []
   },
-  "versao": "1.1",
+  "versao": "1.2",
   "criado_em": "2026-11-08",
   "atualizado_em": "2026-11-09",
   "historico": [
@@ -208,6 +224,11 @@
       "versao": "1.1",
       "data": "2026-11-09",
       "mudanca": "Ligações com registros da AvaliaBase, da IntervenBase e da EvidenciaBase."
+    },
+    {
+      "versao": "1.2",
+      "data": "2026-11-09",
+      "mudanca": "Ligações com registros novos da NeuroBase."
     }
   ]
 }

@@ -112,6 +112,22 @@
     {
       "id": "intervenbase.fonoaudiologia",
       "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.desenvolvimento-da-linguagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-dos-sons-da-fala",
+      "tipo": "diferenciar_de"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-fluencia-da-fala",
+      "tipo": "diferenciar_de"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-coordenacao-motora",
+      "tipo": "costuma_coexistir"
     }
   ],
   "limitacoes": [
@@ -194,7 +210,7 @@
     "conferido_em": "2026-11-08",
     "revisores": []
   },
-  "versao": "1.1",
+  "versao": "1.2",
   "criado_em": "2026-11-08",
   "atualizado_em": "2026-11-09",
   "historico": [
@@ -207,6 +223,11 @@
       "versao": "1.1",
       "data": "2026-11-09",
       "mudanca": "Ligações com registros da AvaliaBase, da IntervenBase e da EvidenciaBase."
+    },
+    {
+      "versao": "1.2",
+      "data": "2026-11-09",
+      "mudanca": "Ligações com registros novos da NeuroBase."
     }
   ]
 }

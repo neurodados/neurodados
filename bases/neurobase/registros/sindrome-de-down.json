@@ -1,0 +1,168 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.sindrome-de-down",
+  "slug": "sindrome-de-down",
+  "base": "neurobase",
+  "nome": "Síndrome de Down",
+  "nomes_alternativos": [
+    "Trissomia do 21",
+    "Trissomia do cromossomo 21"
+  ],
+  "categoria": "deficiencia_ou_condicao_associada",
+  "dominios": [
+    "cognitivo",
+    "motor"
+  ],
+  "definicao": "A síndrome de Down é uma condição genética causada por um cromossomo 21 a mais nas células. Ela costuma vir com características físicas próprias, atraso no desenvolvimento e deficiência intelectual, em intensidade que varia de pessoa para pessoa.",
+  "afirmacoes": [
+    {
+      "texto": "As Diretrizes de Atenção à Pessoa com Síndrome de Down, do Ministério da Saúde, descrevem a síndrome como uma condição humana geneticamente determinada, a alteração cromossômica mais comum em humanos e a principal causa de deficiência intelectual na população. O cromossomo 21 extra determina características físicas específicas e atraso no desenvolvimento.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Segundo as Diretrizes, a síndrome aparece por três formas citogenéticas: trissomia simples (cerca de 95% dos casos, de ocorrência casual), translocação (de 3% a 4%, que pode ser casual ou herdada de um dos pais) e mosaico (de 1% a 2%, casual). O exame que mostra a forma é o cariótipo, que não é obrigatório para o diagnóstico, mas orienta o aconselhamento genético da família.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O diagnóstico clínico, segundo as Diretrizes, se baseia no reconhecimento de características físicas, como hipotonia e frouxidão ligamentar. Nem todas precisam estar presentes, e uma delas isolada não configura o diagnóstico.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As Diretrizes dizem que as diferenças entre as pessoas com a síndrome, no aspecto físico e no desenvolvimento, decorrem de aspectos genéticos individuais, intercorrências clínicas, nutrição, estimulação, educação, contexto familiar, social e meio ambiente. Há consenso científico de que não se atribuem graus à síndrome, e não é possível prever o grau de autonomia que uma criança terá na vida adulta.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Ministério da Saúde propõe que o cuidado seja compartilhado entre a família e uma equipe multiprofissional, com plano de cuidado individual, metas definidas em conjunto e a estimulação global iniciada tão logo a situação de saúde da criança permita, para apoiar a aquisição dos marcos motores, psicológicos e socioafetivos. As Diretrizes pedem o uso da expressão \"pessoa com síndrome de Down\", e não \"portador\", e que se evite o termo \"mongolismo\".",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Lei Brasileira de Inclusão define pessoa com deficiência como aquela que tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial que, em interação com barreiras, pode obstruir sua participação plena e efetiva na sociedade. A lei prevê avaliação biopsicossocial da deficiência, por equipe multiprofissional e interdisciplinar, e assegura atenção integral à saúde da pessoa com deficiência pelo SUS.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "Na CID-10, a síndrome de Down é a categoria Q90, no grupo das anomalias cromossômicas, com quatro subdivisões (trissomia 21 por não disjunção meiótica, mosaicismo, translocação e não especificada). Na CID-11, o código é LD40.0, trissomia completa do 21, no capítulo das anomalias do desenvolvimento, e não no bloco dos transtornos do neurodesenvolvimento.",
+      "fontes": [
+        "f2",
+        "f3"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "sistema": "CID-10",
+      "codigo": "Q90",
+      "titulo": "Síndrome de Down",
+      "fonte": "f2"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "LD40.0",
+      "titulo": "Trissomia completa do 21",
+      "fonte": "f3"
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "neurobase.neurodesenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-multiprofissional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A síndrome de Down é uma condição genética, não um transtorno do neurodesenvolvimento no bloco 6A0 da CID-11. Ela entra nesta base porque aparece junto do neurodesenvolvimento, com deficiência intelectual e atraso no desenvolvimento.",
+    "As Diretrizes do Ministério da Saúde são de 2013 (1ª reimpressão) e a CID-10 de 2008. Este registro não traz condições de saúde associadas, rotinas de exames nem tratamento.",
+    "Os percentuais das três formas citogenéticas são os da diretriz e não servem para estimar o que ocorre em uma família. Este registro não trata de expectativa de vida nem de prognóstico individual.",
+    "O registro não serve para diagnóstico. O diagnóstico é feito por profissional de saúde, com avaliação clínica e, quando indicado, cariótipo."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "diretriz_clinica",
+      "titulo": "Diretrizes de Atenção à Pessoa com Síndrome de Down (1ª edição, 1ª reimpressão)",
+      "autor": "Ministério da Saúde (Secretaria de Atenção à Saúde)",
+      "ano": 2013,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_atencao_pessoa_sindrome_down.pdf",
+      "referencia": "seções 3, 4, 5, 6 e 8 (introdução, classificação, diagnóstico e atenção à saúde)",
+      "trecho": "A Síndrome de Down (SD) ou trissomia do 21 é uma condição humana geneticamente determinada, é a alteração cromossômica (cromossomopatia) mais comum em humanos e a principal causa de deficiência intelectual na população.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo XVII, Q90-Q99: anomalias cromossômicas não classificadas em outra parte",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/q90_q99.htm",
+      "referencia": "Q90 Síndrome de Down; Q90.0 a Q90.9",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-11 para Estatísticas de Mortalidade e Morbidade, versão 2026-01: tabulação simples (SimpleTabulation-ICD-11-MMS-pt)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "referencia": "LD40.0 Trissomia completa do 21 (capítulo 20, anomalias do desenvolvimento); bloco 6A0 dos transtornos do neurodesenvolvimento",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.146, de 6 de julho de 2015: institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência)",
+      "autor": "Brasil",
+      "ano": 2015,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+      "referencia": "texto compilado: art. 2º, caput e § 1º, e art. 18",
+      "trecho": "Art. 2º Considera-se pessoa com deficiência aquela que tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial, o qual, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

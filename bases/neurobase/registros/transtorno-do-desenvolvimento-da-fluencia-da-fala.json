@@ -1,0 +1,185 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.transtorno-do-desenvolvimento-da-fluencia-da-fala",
+  "slug": "transtorno-do-desenvolvimento-da-fluencia-da-fala",
+  "base": "neurobase",
+  "nome": "Transtorno do desenvolvimento da fluência da fala",
+  "nomes_alternativos": [
+    "Gagueira",
+    "Gagueira [tartamudez]"
+  ],
+  "categoria": "condicao_do_neurodesenvolvimento",
+  "dominios": [
+    "linguagem"
+  ],
+  "definicao": "O transtorno do desenvolvimento da fluência da fala, conhecido como gagueira, é uma alteração do fluxo da fala, com repetições ou prolongamentos de sons e sílabas e pausas ou travas que atrapalham o ritmo. Costuma começar na infância e afeta a fluência, não o vocabulário nem a compreensão.",
+  "afirmacoes": [
+    {
+      "texto": "Na CID-11, o transtorno do desenvolvimento da fluência da fala tem o código 6A01.1 e fica no grupo 6A01, transtornos do desenvolvimento da fala ou da linguagem, dentro dos transtornos do neurodesenvolvimento, no capítulo 06.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na CID-10, o quadro correspondente é o F98.5, gagueira [tartamudez], que fica em F98, outros transtornos comportamentais e emocionais com início habitual na infância ou na adolescência, e não em F80, dos transtornos da fala e da linguagem. Na tabela de correspondência da OMS, F98.5 passa para 6A01.1. No sentido inverso, 6A01.1 é ligado a F80.8, outros transtornos do desenvolvimento da fala ou da linguagem.",
+      "fontes": [
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "texto": "A CID-10 descreve a gagueira como repetições ou prolongamentos frequentes de sons, sílabas ou palavras, ou hesitações e pausas frequentes que atrapalham a fluência da fala. Só se considera transtorno quando a perturbação é intensa a ponto de incapacitar de modo marcante a fluidez da fala.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A diferença para o transtorno do desenvolvimento da linguagem e para o dos sons da fala está no que é afetado: aqui o problema é o fluxo e o ritmo da fala, e os outros dois, também dentro de 6A01, dizem respeito à linguagem e à produção dos sons. A CID-10 também separa a gagueira da linguagem precipitada (F98.6) e dos tiques (F95).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Uma revisão de estudos epidemiológicos do século 21 concluiu que a maior parte do risco de a gagueira começar já passou aos 5 anos. A mesma revisão aponta que estudos longitudinais, de incidência e de prevalência indicam altos níveis de recuperação natural, e que as evidências favorecem a distinção entre subtipos persistente e recuperado.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "A mesma revisão indica que a incidência ao longo da vida pode ser maior que os 5% citados em trabalhos anteriores e que a prevalência média ao longo da vida pode ser menor que 1%. Os efeitos de raça, etnia, cultura, bilinguismo e nível socioeconômico seguem incertos.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "Segundo uma teoria publicada em 2017, a gagueira é um transtorno do neurodesenvolvimento que começa quando as redes neurais da fala, da linguagem e das emoções estão se desenvolvendo rapidamente. Os autores propõem que fatores motores, linguísticos e emocionais interagem e podem influenciar se a gagueira persiste ou se a criança se recupera.",
+      "fontes": [
+        "f5"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "sistema": "CID-11",
+      "codigo": "6A01.1",
+      "titulo": "Transtorno do desenvolvimento da fluência da fala",
+      "fonte": "f1"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F98.5",
+      "titulo": "Gagueira [tartamudez]",
+      "fonte": "f2"
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-linguagem",
+      "tipo": "diferenciar_de"
+    },
+    {
+      "id": "intervenbase.fonoaudiologia",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.bishop-2017-catalise-terminologia",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-dos-sons-da-fala",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.desenvolvimento-da-linguagem",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A relação entre a CID-10 e a CID-11 não é de um para um: a gagueira (F98.5) vai para 6A01.1, mas 6A01.1 volta para F80.8 na tabela de correspondência. Documentos antigos usam F98.5, e os novos usam 6A01.1.",
+    "A prevalência e a incidência dependem do método, da idade e do país dos estudos, e a própria revisão registra incerteza. Os números citados não servem para calcular o risco ou a chance de recuperação de uma criança.",
+    "O registro não serve para diagnóstico, não descreve como a gagueira é avaliada e não trata de tratamento. Hesitações e repetições são comuns na fala de quem está aprendendo a falar, e só uma avaliação individual diz se há transtorno.",
+    "A teoria de Smith e Weber é um modelo explicativo em discussão, e não um consenso sobre as causas."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-11 para Estatísticas de Mortalidade e Morbidade, versão 2026-01: tabulação simples (SimpleTabulation-ICD-11-MMS-pt)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "referencia": "6A01 e 6A01.1 (entidade 654956298); capítulo 06; navegador: https://icd.who.int/browse/2026-01/mms/pt#654956298",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo V, F90-F98: Transtornos do comportamento e transtornos emocionais que aparecem habitualmente durante a infância ou a adolescência",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/f90_f98.htm",
+      "referencia": "F98.5 Gagueira [tartamudez]",
+      "trecho": "A gagueira é caracterizada por repetições ou prolongamentos freqüentes de sons, de sílabas ou de palavras, ou por hesitações ou pausas freqüentes que perturbam a fluência verbal.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "classificacao_oficial",
+      "titulo": "Tabelas de mapeamento CID-10 / CID-11, versão 2026-01 (10To11MapToOneCategory e 11To10MapToOneCategory)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/mapping.zip",
+      "referencia": "Linha F98.5 para 6A01.1 em 10To11MapToOneCategory; linha 6A01.1 para F80.8 em 11To10MapToOneCategory",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "revisao_sistematica",
+      "titulo": "Epidemiology of stuttering: 21st century advances",
+      "autor": "Yairi, Ehud; Ambrose, Nicoline",
+      "ano": 2013,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23773662/",
+      "doi": "10.1016/j.jfludis.2012.11.002",
+      "referencia": "Journal of Fluency Disorders, v. 38, n. 2, p. 66-87; resumo",
+      "trecho": "most of the risk for stuttering onset is over by age 5 [...] longitudinal, as well as incidence and prevalence studies support high levels of natural recovery from stuttering",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f5",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "How Stuttering Develops: The Multifactorial Dynamic Pathways Theory",
+      "autor": "Smith, Anne; Weber, Christine",
+      "ano": 2017,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28837728/",
+      "doi": "10.1044/2017_JSLHR-S-16-0343",
+      "referencia": "Journal of Speech, Language, and Hearing Research, v. 60, n. 9, p. 2483-2505; resumo",
+      "trecho": "Stuttering [...] is a neurodevelopmental disorder that begins when neural networks supporting speech, language, and emotional functions are rapidly developing.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

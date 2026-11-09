@@ -1,0 +1,193 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.transtorno-do-desenvolvimento-da-coordenacao-motora",
+  "slug": "transtorno-do-desenvolvimento-da-coordenacao-motora",
+  "base": "neurobase",
+  "nome": "Transtorno do desenvolvimento da coordenação motora",
+  "sigla": "TDC",
+  "nomes_alternativos": [
+    "Transtorno específico do desenvolvimento motor",
+    "Síndrome da criança desajeitada",
+    "Transtorno do desenvolvimento do tipo dispraxia"
+  ],
+  "categoria": "condicao_do_neurodesenvolvimento",
+  "dominios": [
+    "motor"
+  ],
+  "definicao": "O transtorno do desenvolvimento da coordenação motora (TDC) é uma condição do neurodesenvolvimento em que a coordenação dos movimentos, finos e amplos, fica muito abaixo do esperado para a idade e atrapalha o dia a dia. As dificuldades começam cedo e não se explicam melhor por deficiência intelectual, deficiência visual ou outra condição neurológica que afete o movimento.",
+  "afirmacoes": [
+    {
+      "texto": "As recomendações internacionais de 2019 descrevem o transtorno do desenvolvimento da coordenação por quatro critérios: aprender e executar movimentos coordenados muito abaixo do esperado para a idade, mesmo com oportunidade de aprender; dificuldade que atrapalha as atividades do dia a dia, a produtividade na escola, o lazer e o brincar; início no período precoce do desenvolvimento; e dificuldade que não se explica melhor por atraso intelectual, deficiência visual ou outra condição neurológica que afete o movimento.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Sobre os nomes: as recomendações dizem que o termo \"dispraxia\" não se firmou como uma condição separada nem como um subgrupo, e que o consenso internacional não recomenda usá-lo. A CID-10 traz \"síndrome da criança desajeitada\" e \"transtorno do desenvolvimento do tipo dispraxia\" entre os nomes incluídos no F82.",
+      "fontes": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "texto": "Os sintomas costumam aparecer nos primeiros anos, mas, pela grande variação normal do desenvolvimento motor, as recomendações indicam fazer o diagnóstico formal antes dos 5 anos só em casos de prejuízo grave, com ao menos duas avaliações motoras feitas com pelo menos 3 meses de intervalo. Em alguns casos o transtorno só se torna evidente quando as exigências do ambiente passam a superar a capacidade motora, e pode ser reconhecido apenas na adolescência ou na vida adulta.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Segundo as recomendações, o transtorno interfere em atividades da vida diária, no rendimento escolar, no lazer e no brincar. Em crianças com o transtorno, a menor participação em atividades físicas e em esportes de equipe aparece ligada a menor confiança na própria capacidade e a menor satisfação com a vida, e o efeito alcança a família, sobretudo os pais.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As recomendações dizem que as estimativas de frequência variam de 2% a 20% das crianças, que 5% a 6% é o número mais citado e que o resultado depende do rigor dos critérios usados em cada estudo. O transtorno é mais comum em meninos do que em meninas, com razões de 2 para 1 até 7 para 1 nos estudos citados.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Quanto à evolução, as recomendações registram que há poucos estudos sobre o curso natural, mas que em muitos casos o transtorno continua até a adolescência, com 50% a 70% das crianças mantendo dificuldades motoras. Estudos com adultos mostram dificuldades que seguem em várias habilidades motoras e na aprendizagem de habilidades novas, como dirigir.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As recomendações afirmam que o transtorno costuma aparecer junto com outros transtornos do neurodesenvolvimento, entre eles TDAH, comprometimento da linguagem, dificuldades de aprendizagem, transtorno do espectro autista e dislexia. Um dos estudos citados encontrou o TDAH associado em 55% e 54% dos grupos clínicos e de apoio e em 35% dos grupos escolares.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na CID-10, o transtorno corresponde ao F82, \"Transtorno específico do desenvolvimento motor\", dentro dos transtornos do desenvolvimento psicológico (F80-F89). Na CID-11, é o 6A04, \"Transtorno do desenvolvimento da coordenação motora\", dentro do bloco dos transtornos do neurodesenvolvimento. Na tabela de correspondência da OMS, o F82 e o 6A04 são equivalentes.",
+      "fontes": [
+        "f2",
+        "f3",
+        "f4"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "sistema": "CID-10",
+      "codigo": "F82",
+      "titulo": "Transtorno específico do desenvolvimento motor",
+      "fonte": "f3"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "6A04",
+      "titulo": "Transtorno do desenvolvimento da coordenação motora",
+      "fonte": "f2"
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-linguagem",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "intervenbase.terapia-ocupacional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.desenvolvimento-motor",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.paralisia-cerebral",
+      "tipo": "diferenciar_de"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "diferenciar_de"
+    }
+  ],
+  "limitacoes": [
+    "As estimativas de frequência dependem do método de cada estudo e não servem para calcular o risco de uma criança. Os números de evolução e de coocorrência vêm de estudos citados pelas recomendações, com amostras e critérios diferentes.",
+    "Este registro não serve para diagnóstico nem trata de intervenção. Avaliar a coordenação motora e excluir outras causas de dificuldade motora cabe a profissionais habilitados.",
+    "O nome varia entre as fontes: a CID-10 usa \"transtorno específico do desenvolvimento motor\", a CID-11 e as recomendações usam \"transtorno do desenvolvimento da coordenação\". A sigla TDC aparece no resumo em português das recomendações; a sigla em inglês é DCD."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "diretriz_clinica",
+      "titulo": "International clinical practice recommendations on the definition, diagnosis, assessment, intervention, and psychosocial aspects of developmental coordination disorder",
+      "autor": "Blank, Rainer; Barnett, Anna L.; Cairney, John; Green, Dido; Kirby, Amanda; Polatajko, Helene; Rosenblum, Sara; Smits-Engelsman, Bouwien; Sugden, David; Wilson, Peter; Vinçon, Sabine",
+      "ano": 2019,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6850610/",
+      "doi": "10.1111/dmcn.14132",
+      "referencia": "Developmental Medicine & Child Neurology, v. 61, n. 3, p. 242-285; seções 1.1, 1.2, 2, 4.1 e resumo",
+      "trecho": "DCD is a common and chronic disorder resulting in considerable consequences in daily life; prevalence estimates of 5% to 6% of children are most frequently quoted in the literature.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-11 para Estatísticas de Mortalidade e Morbidade, versão 2026-01: tabulação simples (SimpleTabulation-ICD-11-MMS-pt)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "consultado_em": "2026-11-09",
+      "referencia": "6A04, entidade 148247104; navegador: https://icd.who.int/browse/2026-01/mms/pt#148247104"
+    },
+    {
+      "id": "f3",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo V, F80-F89: Transtornos do desenvolvimento psicológico",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/f80_f89.htm",
+      "referencia": "F82 Transtorno específico do desenvolvimento motor",
+      "trecho": "comprometimento grave do desenvolvimento da coordenação motora, não atribuível exclusivamente a um retardo mental global ou a uma afecção neurológica específica, congênita ou adquirida",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "classificacao_oficial",
+      "titulo": "Tabelas de mapeamento CID-10 / CID-11, versão 2026-01 (10To11MapToOneCategory)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/mapping.zip",
+      "referencia": "Arquivo 10To11MapToOneCategory.txt, linha F82 (para 6A04, equivalente)",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

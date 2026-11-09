@@ -1,0 +1,171 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.desenvolvimento-motor",
+  "slug": "desenvolvimento-motor",
+  "base": "neurobase",
+  "nome": "Desenvolvimento motor",
+  "categoria": "dominio_do_desenvolvimento",
+  "dominios": [
+    "motor"
+  ],
+  "definicao": "O desenvolvimento motor é o processo pelo qual a criança ganha controle do corpo e dos movimentos, tanto os amplos, como correr e pular, quanto os finos, como usar as mãos para pegar e manusear objetos. Ao se mover, a criança explora o ambiente, e isso abre novas chances de aprender em outras áreas.",
+  "afirmacoes": [
+    {
+      "texto": "O Ministério da Saúde descreve a motricidade em duas partes: a ampla, com ações como correr, pular, chutar e arremessar, e a fina, com ações como abotoar botões grandes, folhear livros, usar tesoura e fazer o movimento de pinça.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As etapas do desenvolvimento motor evoluem aos poucos e em ordem organizada: cada uma é consequência da anterior e necessária para a próxima. Por exemplo, equilibrar a cabeça e depois o tronco permite ficar de pé, que é pré-requisito para andar. A sequência pode variar em alguns casos, como andar antes de engatinhar.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Nos primeiros meses de vida, funções reflexas aparecem e desaparecem conforme o sistema nervoso central amadurece, e a criança avança para movimentos mais complexos e voluntários. As experiências sensório-motoras da criança contribuem para o desenvolvimento das habilidades motoras.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Uma revisão científica descreve o desenvolvimento motor como corporificado (as chances de ação dependem do estado atual do corpo), situado no ambiente (o que o ambiente oferece cria e limita possibilidades), cultural (influências sociais e culturais moldam os movimentos) e habilitador (cada nova habilidade motora cria novas chances de explorar e aprender).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Segundo uma revisão de 2019, novas habilidades motoras criam novas oportunidades de exploração e de aprendizado, que desencadeiam mudanças em cascata em várias áreas do desenvolvimento.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "O desenvolvimento ocorre em uma progressão ordenada de habilidades de percepção, motoras, cognitivas, de linguagem, socioemocionais e de autorregulação. O processo é parecido entre culturas, mas o ritmo de progressão pode variar.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "As crianças diferem na forma de chegar a uma mesma habilidade. Há bebês que conseguem se locomover de forma independente arrastando a barriga no chão, e outros que o fazem em posição de gatas. As idades de cada aquisição motora vêm de médias, e há crianças que chegam mais cedo e outras mais tarde, ainda dentro de uma variação normal.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "A vigilância do desenvolvimento acompanha a motricidade pela observação da criança e dos movimentos espontâneos, pela avaliação do tônus muscular e dos reflexos e, quando necessário, por instrumentos padronizados. A Caderneta da Criança orienta que o profissional de saúde marque as conquistas nos quadros da vigilância e que, ao notar a ausência de um marco, a estimulação seja iniciada logo, sem esperar um diagnóstico.",
+      "fontes": [
+        "f1",
+        "f3"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.neurodesenvolvimento",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "neurobase.marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.terapia-ocupacional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.zubler-2022-marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.desenvolvimento-cognitivo",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-coordenacao-motora",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.paralisia-cerebral",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Este registro descreve o domínio motor em termos gerais. Não traz tabela de marcos por idade, não descreve testes e não serve para identificar atraso em uma criança específica.",
+    "Variação no ritmo motor é comum. Só a avaliação de um profissional de saúde, com a história e o contexto da criança, pode dizer se uma diferença merece atenção.",
+    "A revisão científica citada trata sobretudo de bebês e de estudos feitos em poucos contextos culturais, e os próprios autores apontam que é preciso mais pesquisa em outras populações."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "documento_oficial",
+      "titulo": "Diretrizes de estimulação precoce: crianças de zero a 3 anos com atraso no desenvolvimento neuropsicomotor",
+      "autor": "Ministério da Saúde (Secretaria de Atenção à Saúde)",
+      "ano": 2016,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_estimulacao_criancas_0a3anos_neuropsicomotor.pdf",
+      "referencia": "Seções 4.3 (p. 48), 4.3.4 (p. 55) e 4.5 (p. 70)",
+      "trecho": "As etapas do desenvolvimento motor evoluem de forma gradativa, organizada, sendo consequência da precedente e necessária para a aquisição da próxima",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Motor Development: Embodied, Embedded, Enculturated, and Enabling",
+      "autor": "Adolph, Karen E.; Hoch, Justine E.",
+      "ano": 2019,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6320716/",
+      "doi": "10.1146/annurev-psych-010418-102836",
+      "referencia": "Annual Review of Psychology, v. 70, p. 141-164; resumo e texto completo",
+      "trecho": "Motor development is enabling: New motor skills create new opportunities for exploration and learning that instigate cascades of development across diverse psychological domains.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "documento_oficial",
+      "titulo": "Caderneta da Criança: passaporte da cidadania, menina, 7ª edição",
+      "autor": "Ministério da Saúde",
+      "ano": 2024,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_crianca_menina_passaporte_cidadania_7ed.pdf",
+      "consultado_em": "2026-11-09",
+      "referencia": "Seção Percebendo alterações no desenvolvimento, p. 55; Vigilância do desenvolvimento, p. 38 e 78",
+      "trecho": "Uma vez que for identificada a ausência de algum marco no desenvolvimento neuropsicomotor, estratégias de estimulação devem ser iniciadas imediatamente pela equipe, uma vez que a intervenção precoce e oportuna favorece melhor desfecho para a criança, independentemente de confirmação diagnóstica posterior."
+    },
+    {
+      "id": "f4",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Early childhood development coming of age: science through the life course",
+      "autor": "Black, Maureen M.; Walker, Susan P.; Fernald, Lia C. H.; et al.",
+      "ano": 2017,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5884058/",
+      "doi": "10.1016/S0140-6736(16)31389-7",
+      "referencia": "The Lancet, v. 389, n. 10064, p. 77-90; texto completo, seção sobre o marco conceitual do desenvolvimento na primeira infância",
+      "trecho": "Childhood development is a maturational and interactive process, resulting in an ordered progression of perceptual, motor, cognitive, language, socio-emotional, and self-regulation skills. Although the developmental process is similar across cultures, progression rates can vary",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

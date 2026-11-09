@@ -1,5 +1,9 @@
 # Mudanças
 
+## NeuroBase 2026.11.09.2
+
+- Doze registros novos: quatro domínios do desenvolvimento, três condições do neurodesenvolvimento, três condições associadas (transtornos de tique, síndrome de Down e paralisia cerebral), comorbidade e neurodiversidade. Ligações entre os registros novos e os já publicados.
+
 ## NeuroDireitos 2026.11.09
 
 - NeuroDireitos, a quinta base: 36 leis, decretos, tratados e normas infralegais federais sobre neurodesenvolvimento, deficiência, saúde mental e doenças, com o que cada norma garante, a vigência conferida no texto oficial e o endereço dele.

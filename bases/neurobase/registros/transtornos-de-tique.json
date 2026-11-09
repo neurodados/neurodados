@@ -1,0 +1,188 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.transtornos-de-tique",
+  "slug": "transtornos-de-tique",
+  "base": "neurobase",
+  "nome": "Transtornos de tique",
+  "nomes_alternativos": [
+    "Tiques"
+  ],
+  "categoria": "deficiencia_ou_condicao_associada",
+  "dominios": [
+    "motor"
+  ],
+  "definicao": "Os transtornos de tique são condições em que a pessoa faz movimentos ou sons bruscos, rápidos e repetidos, sem querer e sem finalidade aparente. A síndrome de Tourette é a forma que reúne tiques motores e vocais por mais de um ano.",
+  "afirmacoes": [
+    {
+      "texto": "Os tiques são movimentos ou sons involuntários, rápidos, repetidos e sem ritmo, que surgem de repente e sem finalidade aparente. Os tiques motores simples mais comuns são piscar os olhos, mexer bruscamente o pescoço, levantar os ombros e fazer caretas. Os vocais simples mais comuns são limpar a garganta, latir, fungar e assobiar.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "Pela CID-10, o tique transitório não passa de doze meses; o tique motor ou vocal crônico dura mais de um ano e tem só um tipo de tique, motor ou vocal; e a síndrome de Tourette reúne, em algum momento, vários tiques motores e ao menos um tique vocal. O guia europeu de 2022 também define a síndrome de Tourette como a combinação de tiques motores e vocais crônicos, com mais de um ano de duração.",
+      "fontes": [
+        "f1",
+        "f4"
+      ]
+    },
+    {
+      "texto": "O guia europeu informa que a idade média de início é de cerca de 5 anos, com início mais cedo em até 40% dos casos, e que os tiques aparecem tipicamente entre os 5 e os 6 anos. Os tiques complexos costumam surgir depois dos simples, e os vocais, em geral, 1 ou 2 anos depois dos motores, embora em alguns casos venham primeiro.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Segundo o guia europeu, nas crianças e nos adolescentes os tiques aumentam e diminuem ao longo do tempo, e o pior período costuma ser entre os 8 e os 12 anos. Estudos clínicos e populacionais indicam que até 80% de quem teve tiques antes dos 10 anos tem queda importante na adolescência; aos 18 anos, a maioria já não tem prejuízo importante, embora a maior parte ainda tenha tiques leves. Uma parte pequena não melhora ou segue com tiques graves.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na descrição da CID-10, os tiques são em geral sentidos como irresistíveis, mas podem ser contidos por um tempo variável, pioram com o estresse e desaparecem durante o sono. O guia europeu aponta que o diagnóstico costuma demorar anos depois do início dos sintomas e que o atraso no acesso a cuidados, para os tiques e para as condições associadas, pode atrapalhar o desenvolvimento psicossocial e a qualidade de vida.",
+      "fontes": [
+        "f1",
+        "f4"
+      ]
+    },
+    {
+      "texto": "Uma revisão sistemática de 2012, com 35 estudos de 1985 a 2011, estimou a síndrome de Tourette em 0,77% das crianças (intervalo de confiança de 95%: 0,39% a 1,51%), com 1,06% dos meninos e 0,25% das meninas. O tique transitório foi o mais comum na infância, com 2,99%. Em adultos, a estimativa foi de 0,05%, e a frequência foi maior nos estudos com crianças em educação especial. O guia europeu cita entre 0,3% e 1% da população geral, com razão de meninos para meninas entre 3 para 1 e 4,3 para 1.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O guia europeu cita o transtorno obsessivo-compulsivo (TOC) e o TDAH como condições que ocorrem com frequência junto com os tiques, e recomenda avaliar essas condições, mesmo quando os sintomas são leves.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na CID-11, os transtornos de tique ficam no capítulo 08, \"Doenças do sistema nervoso\", no bloco dos transtornos do movimento: o 8A05 é \"Transtorno de tique\", e a síndrome de Tourette é o 8A05.00. Na CID-10, são o F95, \"Tiques\", no capítulo dos transtornos mentais e do comportamento, e o F95.2 corresponde à síndrome de Tourette. Na tabela da OMS, o F95.2 é equivalente ao 8A05.00.",
+      "fontes": [
+        "f3",
+        "f4",
+        "f5"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "sistema": "CID-10",
+      "codigo": "F95",
+      "titulo": "Tiques",
+      "fonte": "f4"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F95.2",
+      "titulo": "Tiques vocais e motores múltiplos combinados [doença de Gilles de la Tourette]",
+      "fonte": "f4"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "8A05",
+      "titulo": "Transtorno de tique",
+      "fonte": "f3"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "8A05.00",
+      "titulo": "Síndrome de Tourette",
+      "fonte": "f3"
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tdah",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Na CID-11, os transtornos de tique são classificados entre as doenças do sistema nervoso, e a CID-10 os põe no capítulo dos transtornos mentais e do comportamento. Este registro os inclui entre as condições associadas ao neurodesenvolvimento porque começam na infância e costumam aparecer junto com o TDAH e o TOC.",
+    "A CID-10 diz que a síndrome de Tourette costuma piorar na adolescência e persistir na vida adulta, e o guia europeu de 2022 descreve melhora na maioria dos casos até os 18 anos. As duas descrições aparecem nas fontes e não foram conciliadas.",
+    "As prevalências são estimativas de estudos com métodos diferentes e não servem para calcular o risco de uma criança. Este registro não serve para diagnóstico nem trata de intervenção."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "diretriz_clinica",
+      "titulo": "European clinical guidelines for Tourette syndrome and other tic disorders, version 2.0. Part I: assessment",
+      "autor": "Szejko, Natalia; Robinson, Stephanie; Hartmann, Andreas; Ganos, Christos; Debes, Nanette M.; Skov, Liselotte; Haas, Mathias; Rizzo, Renata; Stern, Jeremy; Münchau, Alexander; Czernecki, Virginie; Dietrich, Andrea; Murphy, Tara L.; Martino, Davide; Tarnok, Zsanett; Hedderly, Tammy; Müller-Vahl, Kirsten R.; Cath, Danielle C.",
+      "ano": 2022,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8521086/",
+      "doi": "10.1007/s00787-021-01842-2",
+      "referencia": "European Child & Adolescent Psychiatry, v. 31, n. 3, p. 383-402; Introduction e Epidemiology of tics and tic-related comorbidities",
+      "trecho": "The mean age at onset is around 5 years although lower ages at onset are reported in up to 40% of patients.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "revisao_sistematica",
+      "titulo": "Prevalence of Tic Disorders: A Systematic Review and Meta-Analysis",
+      "autor": "Knight, Tamara; Steeves, Thomas; Day, Lundy; Lowerison, Mark; Jette, Nathalie; Pringsheim, Tamara",
+      "ano": 2012,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22759682/",
+      "doi": "10.1016/j.pediatrneurol.2012.05.002",
+      "referencia": "Pediatric Neurology, v. 47, n. 2, p. 77-90; resumo",
+      "trecho": "Meta-analysis of 13 studies of children yielded a prevalence of Tourette syndrome at 0.77% (95% confidence interval, 0.39-1.51%).",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-11 para Estatísticas de Mortalidade e Morbidade, versão 2026-01: tabulação simples (SimpleTabulation-ICD-11-MMS-pt)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "consultado_em": "2026-11-09",
+      "referencia": "8A05, 8A05.00 e bloco BlockL1-8A0 (entidades 1894671574 e 119340957); capítulo 08"
+    },
+    {
+      "id": "f4",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo V, F90-F98: Transtornos do comportamento e transtornos emocionais que aparecem habitualmente durante a infância ou a adolescência",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/f90_f98.htm",
+      "referencia": "F95 Tiques, F95.0 a F95.9",
+      "trecho": "Os tiques são habitualmente sentidos como irreprimíveis, mas podem em geral ser suprimidos durante um período de tempo variável.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f5",
+      "tipo": "classificacao_oficial",
+      "titulo": "Tabelas de mapeamento CID-10 / CID-11, versão 2026-01 (10To11MapToOneCategory)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/mapping.zip",
+      "referencia": "Arquivo 10To11MapToOneCategory.txt, linhas F95 (para 8A05.Z) e F95.2 (para 8A05.00, equivalente)",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

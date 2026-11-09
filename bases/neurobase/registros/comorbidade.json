@@ -1,0 +1,187 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.comorbidade",
+  "slug": "comorbidade",
+  "base": "neurobase",
+  "nome": "Comorbidade",
+  "nomes_alternativos": [
+    "Comorbilidade",
+    "Comorbidade associada"
+  ],
+  "categoria": "termo_clinico",
+  "definicao": "Comorbidade é a presença, na mesma pessoa e ao mesmo tempo, de outra condição além da que está sendo estudada ou tratada. No neurodesenvolvimento, é comum que condições como TDAH, autismo, ansiedade e dificuldades de aprendizagem apareçam juntas.",
+  "afirmacoes": [
+    {
+      "texto": "Na terminologia da BVS (DeCS), comorbidade é a presença de doenças coexistentes ou adicionais em relação ao diagnóstico inicial ou à doença índice que é o objeto de estudo. O descritor corresponde ao MeSH \"Comorbidity\".",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Em um artigo de 1970 sobre doenças crônicas, Alvan Feinstein usa o termo para qualquer condição adicional que exista ao mesmo tempo que a doença índice de um paciente. Ele defende que ela seja classificada e analisada, porque pode alterar a evolução clínica da doença índice.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Uma revisão de 2009 diz que não há acordo sobre o significado do termo e que conceitos próximos, como multimorbidade, carga de doença e complexidade do paciente, também não estão bem definidos. Para os autores, o valor de cada conceito depende do que se quer explicar: o cuidado clínico, a epidemiologia ou o planejamento e o financiamento dos serviços de saúde.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Segundo a mesma revisão, duas condições podem coexistir por mecanismos diferentes: causação direta, fatores de risco em comum, heterogeneidade e independência.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "O protocolo do Ministério da Saúde para o TDAH trata como fundamentais duas tarefas diferentes: fazer o diagnóstico diferencial e identificar as comorbidades presentes, porque o tratamento e o prognóstico são bem diferentes entre essas condições.",
+      "fontes": [
+        "f5"
+      ]
+    },
+    {
+      "texto": "Um artigo de ponto de vista publicado em 2017 na The Lancet Psychiatry destaca a forte sobreposição entre os transtornos do neurodesenvolvimento e a grande heterogeneidade dos quadros clínicos.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "O protocolo do Ministério da Saúde registra que de 50% a 90% das crianças com TDAH têm pelo menos uma condição comórbida e que cerca de 50% têm pelo menos duas. Entre as mais comuns na primeira infância estão o transtorno desafiador de oposição, os distúrbios de linguagem e a enurese, e muitas crianças com TDAH têm um distúrbio de aprendizagem específico.",
+      "fontes": [
+        "f5"
+      ]
+    },
+    {
+      "texto": "Uma revisão sistemática com metanálise (2019) estimou, entre pessoas com autismo, prevalências combinadas de 28% para TDAH, 20% para transtornos de ansiedade, 13% para transtornos do sono e da vigília e 11% para transtornos depressivos. As estimativas variaram muito entre os estudos e foram maiores em amostras clínicas.",
+      "fontes": [
+        "f6"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.avaliacao-neuropsicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "evidenciabase.lord-2018-transtorno-do-espectro-autista",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Comorbidade é um termo, não um diagnóstico. Este registro não serve para diagnosticar nem para decidir sobre tratamento.",
+    "Os números citados vêm de um protocolo do Ministério da Saúde sobre TDAH e de uma metanálise sobre autismo, e variam conforme a amostra, a idade e o método. Não valem como chance para uma pessoa em particular.",
+    "O significado do termo é debatido na literatura, e o uso no dia a dia clínico nem sempre segue a definição de Feinstein.",
+    "O registro não explica a diferença entre comorbidade e multimorbidade além do que a revisão citada apresenta."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "documento_oficial",
+      "titulo": "DeCS/MeSH: descritor Comorbidade (Comorbidity), ID D015897",
+      "autor": "BIREME/OPAS/OMS (Descritores em Ciências da Saúde)",
+      "ano": 2018,
+      "url": "https://decs.bvsalud.org/ths/resource/?id=24572&filter=ths_exact_term&q=Comorbidade",
+      "referencia": "Nota de escopo em português; data de revisão do descritor: 27/02/2018",
+      "trecho": "Presença de doenças coexistentes ou adicionais com relação ao diagnóstico inicial ou com relação à doença índice que é o objetivo do estudo.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "The pre-therapeutic classification of co-morbidity in chronic disease",
+      "autor": "Feinstein, Alvan R.",
+      "ano": 1970,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26309916/",
+      "doi": "10.1016/0021-9681(70)90054-8",
+      "referencia": "Journal of Chronic Diseases, v. 23, n. 7, p. 455-468; resumo",
+      "trecho": "In a patient with a particular index disease, the term co-morbidity refers to any additional co-existing ailment.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Defining comorbidity: implications for understanding health and health services",
+      "autor": "Valderas, J. M.; Starfield, B.; Sibbald, B.; Salisbury, C.; Roland, M.",
+      "ano": 2009,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2713155/",
+      "doi": "10.1370/afm.983",
+      "referencia": "Annals of Family Medicine, v. 7, n. 4, p. 357-363; resumo",
+      "trecho": "There is no agreement, however, on the meaning of the term, and related constructs, such as multimorbidity, morbidity burden, and patient complexity, are not well conceptualized.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Neurodevelopmental disorders",
+      "autor": "Thapar, Anita; Cooper, Miriam; Rutter, Michael",
+      "ano": 2017,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27979720/",
+      "doi": "10.1016/S2215-0366(16)30376-5",
+      "referencia": "The Lancet Psychiatry, v. 4, n. 4, p. 339-346; resumo",
+      "trecho": "it is important to take into account the strong overlap across neurodevelopmental disorders.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f5",
+      "tipo": "diretriz_clinica",
+      "titulo": "Protocolo Clínico e Diretrizes Terapêuticas do Transtorno do Déficit de Atenção com Hiperatividade (Portaria Conjunta nº 14, de 29 de julho de 2022)",
+      "autor": "Ministério da Saúde (SAES e SCTIE)",
+      "ano": 2022,
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntan14pcdttranstornododeficitdeatencaocomhiperatividadetdah.pdf/@@display-file/file",
+      "referencia": "Anexo, seções 3 (diagnóstico e comorbidades) e 6 (casos especiais)",
+      "trecho": "50% a 90% das crianças com TDAH têm pelo menos uma condição comórbida; Aproximadamente 50% das crianças com TDAH têm pelo menos duas comorbidades",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f6",
+      "tipo": "revisao_sistematica",
+      "titulo": "Prevalence of co-occurring mental health diagnoses in the autism population: a systematic review and meta-analysis",
+      "autor": "Lai, Meng-Chuan; Kassee, Caroline; Besney, Richard; Bonato, Sarah; Hull, Laura; Mandy, William; Szatmari, Peter; Ameis, Stephanie H.",
+      "ano": 2019,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31447415/",
+      "doi": "10.1016/S2215-0366(19)30289-5",
+      "referencia": "The Lancet Psychiatry, v. 6, n. 10, p. 819-829; resumo",
+      "trecho": "overall pooled prevalence estimates of 28% (95% CI 25-32) for attention-deficit hyperactivity disorder; 20% (17-23) for anxiety disorders; 13% (9-17) for sleep-wake disorders",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

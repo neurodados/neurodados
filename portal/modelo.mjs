@@ -428,6 +428,9 @@ function blocoPublicacao(r) {
   ])}`;
 }
 
+// Categorias da NeuroBase que são condições de saúde (MedicalCondition nos dados estruturados).
+const CONDICOES_MEDICAS = new Set(['condicao_do_neurodesenvolvimento', 'deficiencia_ou_condicao_associada']);
+
 export function paginaRegistro(ctx, base, r, indice, resumo) {
   const R = REGISTRO;
   const nomeBase = base.dataset.nome;
@@ -516,12 +519,12 @@ ${lateral}</div></section>
     };
   } else {
     principal = {
-      '@type': r.categoria === 'condicao_do_neurodesenvolvimento' ? ['DefinedTerm', 'MedicalCondition'] : 'DefinedTerm',
+      '@type': CONDICOES_MEDICAS.has(r.categoria) ? ['DefinedTerm', 'MedicalCondition'] : 'DefinedTerm',
       '@id': url + '#termo', name: r.nome, description: r.definicao, url, termCode: r.id,
       inDefinedTermSet: { '@id': resumo.url + '#termos' },
     };
     if ((r.nomes_alternativos || []).length || r.sigla) principal.alternateName = [r.sigla, ...(r.nomes_alternativos || [])].filter(Boolean);
-    if (r.categoria === 'condicao_do_neurodesenvolvimento' && (r.classificacoes || []).length) {
+    if (CONDICOES_MEDICAS.has(r.categoria) && (r.classificacoes || []).length) {
       principal.code = r.classificacoes.filter((c) => c.sistema !== 'DSM-5-TR').map((c) => ({ '@type': 'MedicalCode', codeValue: c.codigo, codingSystem: c.sistema === 'CID-10' ? 'ICD-10' : 'ICD-11' }));
     }
   }

@@ -1,0 +1,222 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.paralisia-cerebral",
+  "slug": "paralisia-cerebral",
+  "base": "neurobase",
+  "nome": "Paralisia cerebral",
+  "categoria": "deficiencia_ou_condicao_associada",
+  "dominios": [
+    "motor"
+  ],
+  "definicao": "A paralisia cerebral é um grupo de condições permanentes do movimento e da postura, causadas por uma alteração que não piora e que ocorre durante o desenvolvimento do cérebro, ainda no feto ou na criança pequena. O problema de movimento pode vir junto de outras dificuldades, como na comunicação, na cognição e no comportamento.",
+  "afirmacoes": [
+    {
+      "texto": "As Diretrizes de Atenção à Pessoa com Paralisia Cerebral, do Ministério da Saúde, adotam a definição de Rosenbaum e colegas (2007): grupo de desordens permanentes do desenvolvimento do movimento e da postura, atribuído a um distúrbio não progressivo que ocorre durante o desenvolvimento do cérebro fetal ou infantil. As Diretrizes afirmam que a paralisia cerebral afeta cerca de duas crianças a cada mil nascidos vivos no mundo e é a causa mais comum de deficiência física grave na infância.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Segundo as Diretrizes, a desordem motora pode ser acompanhada por distúrbios sensoriais, perceptivos, cognitivos, de comunicação e de comportamento, por epilepsia e por problemas musculoesqueléticos secundários. Esses distúrbios nem sempre estão presentes, e não há correlação direta entre o repertório neuromotor e o cognitivo.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "As Diretrizes descrevem a condição como heterogênea quanto à causa. Entre os fatores citados estão os pré-natais (como infecções congênitas e falta de oxigenação), os perinatais (como a falta de oxigênio ao nascer) e os pós-natais (como infecções e traumas). Entre os preditores de lesão cerebral citam baixa idade gestacional, baixo peso ao nascer e asfixia perinatal.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os tipos descritos nas Diretrizes seguem o tipo de alteração do tônus e do movimento: espástica, discinética e atáxica, além da distribuição do comprometimento no corpo. As Diretrizes pedem que a criança seja classificada por sistemas que valorizem a funcionalidade, como o GMFCS E&R e o MACS.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Ministério da Saúde descreve o cuidado como uma rede articulada, em que as equipes de saúde e a família compartilham o cuidado e o projeto terapêutico considera todos os aspectos da saúde, não só a paralisia cerebral. Para as Diretrizes, a fisioterapia, a fonoaudiologia e a terapia ocupacional fazem parte da estimulação, e quanto antes ela começa, maior o aproveitamento da plasticidade cerebral.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Lei Brasileira de Inclusão define pessoa com deficiência como aquela que tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial que, em interação com barreiras, pode obstruir sua participação plena e efetiva na sociedade. A lei prevê avaliação biopsicossocial da deficiência, por equipe multiprofissional e interdisciplinar, e assegura atenção integral à saúde da pessoa com deficiência pelo SUS.",
+      "fontes": [
+        "f5"
+      ]
+    },
+    {
+      "texto": "Na CID-10, a paralisia cerebral é a categoria G80, no capítulo das doenças do sistema nervoso, com subdivisões por tipo (quadriplégica espástica, diplégica espástica, hemiplégica espástica, discinética, atáxica, outras e não especificada). Na CID-11, o bloco é 8D2 \"Paralisia cerebral\", também no capítulo das doenças do sistema nervoso, com os códigos 8D20 (espástica), 8D21 (discinética), 8D22 (atáxica), 8D23 (síndrome de Worster-Drought), 8D2Y (outra especificada) e 8D2Z (não especificada).",
+      "fontes": [
+        "f3",
+        "f4"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "sistema": "CID-10",
+      "codigo": "G80",
+      "titulo": "Paralisia cerebral",
+      "fonte": "f3"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "8D20",
+      "titulo": "Paralisia cerebral espástica",
+      "fonte": "f4"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "8D21",
+      "titulo": "Paralisia cerebral discinética",
+      "fonte": "f4"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "8D22",
+      "titulo": "Paralisia cerebral atáxica",
+      "fonte": "f4"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "8D23",
+      "titulo": "Síndrome de Worster-Drought",
+      "fonte": "f4"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "8D2Y",
+      "titulo": "Outra paralisia cerebral especificada",
+      "fonte": "f4"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "8D2Z",
+      "titulo": "Paralisia cerebral não especificada",
+      "fonte": "f4"
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.neurodesenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.intervencao-precoce",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.atendimento-multiprofissional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.terapia-ocupacional",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "intervenbase.fonoaudiologia",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.desenvolvimento-motor",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-coordenacao-motora",
+      "tipo": "diferenciar_de"
+    }
+  ],
+  "limitacoes": [
+    "A paralisia cerebral é classificada na CID-10 e na CID-11 entre as doenças do sistema nervoso, não no bloco dos transtornos do neurodesenvolvimento. Ela entra nesta base porque costuma aparecer junto de atraso motor, de linguagem e de deficiência intelectual.",
+    "As Diretrizes do Ministério da Saúde são de 2013 e o artigo de Rosenbaum e colegas, de 2007. A taxa de cerca de 2 por mil nascidos vivos é uma estimativa mundial citada pelas Diretrizes, que dizem faltar estudos de prevalência no Brasil.",
+    "Este registro não trata de tratamento específico, de prognóstico individual nem de expectativa de vida. As manifestações e a gravidade variam muito de pessoa para pessoa.",
+    "O registro não serve para diagnóstico. A avaliação e a classificação funcional são feitas por equipe de saúde."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "diretriz_clinica",
+      "titulo": "Diretrizes de Atenção à Pessoa com Paralisia Cerebral",
+      "autor": "Ministério da Saúde (Secretaria de Atenção à Saúde)",
+      "ano": 2013,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_atencao_paralisia_cerebral.pdf",
+      "referencia": "seções 3 (introdução e definição), 6 (fatores de risco), 7 (condições associadas) e 9 (atenção à saúde)",
+      "trecho": "A paralisia cerebral descreve um grupo de desordens permanentes do desenvolvimento do movimento e postura atribuído a um distúrbio não progressivo que ocorre durante o desenvolvimento do cérebro fetal ou infantil, podendo contribuir para limitações no perfil de funcionalidade da pessoa.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "A report: the definition and classification of cerebral palsy April 2006",
+      "autor": "Rosenbaum, Peter; Paneth, Nigel; Leviton, Alan; Goldstein, Murray; Bax, Martin; Damiano, Diane; Dan, Bernard; Jacobsson, Bo",
+      "ano": 2007,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17370477/",
+      "doi": "10.1111/j.1469-8749.2007.tb12610.x",
+      "referencia": "Developmental Medicine & Child Neurology, v. 49, suplemento 109, p. 8-14; resumo",
+      "trecho": "Previous definitions have not given sufficient prominence to the non-motor neurodevelopmental disabilities of performance and behaviour that commonly accompany CP.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo VI, G80-G83: paralisia cerebral e outras síndromes paralíticas",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/g80_g83.htm",
+      "referencia": "G80 Paralisia cerebral; G80.0 a G80.9",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-11 para Estatísticas de Mortalidade e Morbidade, versão 2026-01: tabulação simples (SimpleTabulation-ICD-11-MMS-pt)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "referencia": "bloco 8D2 e códigos 8D20 a 8D2Z (capítulo 08, doenças do sistema nervoso)",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f5",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.146, de 6 de julho de 2015: institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência)",
+      "autor": "Brasil",
+      "ano": 2015,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+      "referencia": "texto compilado: art. 2º, caput e § 1º, e art. 18",
+      "trecho": "Art. 2º Considera-se pessoa com deficiência aquela que tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial, o qual, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}
