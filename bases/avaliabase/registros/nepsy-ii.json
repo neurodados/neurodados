@@ -1,0 +1,109 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.nepsy-ii",
+  "slug": "nepsy-ii",
+  "base": "avaliabase",
+  "nome": "NEPSY-II",
+  "nomes_alternativos": [
+    "NEPSY II"
+  ],
+  "categoria": "instrumento",
+  "instrumento": {
+    "nome_original": "NEPSY-II: A Developmental Neuropsychological Assessment, Second Edition",
+    "construtos": [
+      "Processos neuropsicológicos"
+    ],
+    "uso": "privativo_do_psicologo",
+    "satepsi": {
+      "situacao": "nao_avaliado",
+      "consultado_em": "2026-11-09",
+      "fonte": "f1"
+    }
+  },
+  "definicao": "A NEPSY-II é a 2ª edição de um instrumento de avaliação neuropsicológica do desenvolvimento, de Marit Korkman, Ursula Kirk e Sally Kemp. No Brasil, está na lista de testes não avaliados do SATEPSI: foi reconhecida como teste psicológico, mas não foi submetida à avaliação do Conselho Federal de Psicologia.",
+  "afirmacoes": [
+    {
+      "texto": "Na consulta de 9 de novembro de 2026, a NEPSY II estava na lista de testes não avaliados do SATEPSI, com autoria de Ursula Kirk, Sally Kemp e Marit Korkman, editora Pearson e data da análise de 1º de dezembro de 2022.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Testes não avaliados são os que a Comissão Consultiva em Avaliação Psicológica reconheceu como teste psicológico, mas cujos autores ou responsáveis técnicos não os submeteram ao SATEPSI. Para o CFP, usar na atividade profissional um teste dessa lista é falta ética; a Resolução CFP nº 31/2022 ressalva a pesquisa e as situações de ensino.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O nome completo da 2ª edição é NEPSY-II: A Developmental Neuropsychological Assessment, Second Edition, como no título de um artigo de 2009 sobre o instrumento, na revista Child Neuropsychology.",
+      "fontes": [
+        "f3"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.avaliacao-neuropsicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.satepsi",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A situação no SATEPSI pode mudar com o tempo. Confira a lista do Conselho Federal de Psicologia na data do uso.",
+    "O registro não descreve o conteúdo do instrumento, as normas nem os estudos feitos com ele."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Testes Não Avaliados (resultado da busca)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesNaoAvaliados.cfm",
+      "referencia": "texto de apresentação da lista e ficha da NEPSY II; busca sem filtro feita pela equipe em 9/11/2026",
+      "trecho": "Testes Psicológicos Não Avaliados: são aqueles atestados pela Comissão Consultiva em Avaliação Psicológica como teste psicológico, mas os autores ou responsáveis técnicos não submeteram ao SATEPSI para avaliação.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 31, de 15 de dezembro de 2022: estabelece diretrizes para a realização de Avaliação Psicológica no exercício profissional da psicóloga e do psicólogo, regulamenta o Sistema de Avaliação de Testes Psicológicos (SATEPSI) e revoga a Resolução CFP nº 09/2018",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-31-de-15-de-dezembro-de-2022-451168039",
+      "referencia": "art. 12; DOU de 16/12/2022, seção 1, p. 223",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "NEPSY-II: A Developmental Neuropsychological Assessment, Second Edition",
+      "autor": "Brian L. Brooks, Elisabeth M. S. Sherman e Esther Strauss",
+      "ano": 2009,
+      "url": "https://doi.org/10.1080/09297040903146966",
+      "doi": "10.1080/09297040903146966",
+      "referencia": "Child Neuropsychology, v. 16, n. 1, p. 80-101; título e metadados conferidos no Crossref",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

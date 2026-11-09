@@ -1,0 +1,133 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.wais-iii",
+  "slug": "wais-iii",
+  "base": "avaliabase",
+  "nome": "Escala de Inteligência Wechsler para Adultos",
+  "sigla": "WAIS-III",
+  "nomes_alternativos": [
+    "WAIS III"
+  ],
+  "categoria": "instrumento",
+  "instrumento": {
+    "construtos": [
+      "Inteligência"
+    ],
+    "faixa_etaria": {
+      "de_meses": 192,
+      "ate_meses": 1079,
+      "descricao": "De 16 a 89 anos"
+    },
+    "uso": "privativo_do_psicologo",
+    "satepsi": {
+      "situacao": "favoravel",
+      "normas_validas_ate": "2035-10-03",
+      "consultado_em": "2026-11-09",
+      "fonte": "f1"
+    }
+  },
+  "definicao": "O WAIS-III, Escala de Inteligência Wechsler para Adultos, é um teste psicológico de inteligência para pessoas de 16 a 89 anos, de aplicação individual e de uso privativo da psicóloga e do psicólogo. No Brasil, tem parecer favorável no SATEPSI, o sistema do Conselho Federal de Psicologia que avalia os testes.",
+  "afirmacoes": [
+    {
+      "texto": "Na consulta de 9 de novembro de 2026, o WAIS-III estava na lista de testes favoráveis do SATEPSI, com o construto inteligência e o público-alvo de 16 a 89 anos. Na mesma ficha, a idade da amostra de normatização vai de 16 a 64 anos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O parecer favorável cobre a aplicação individual e não informatizada, com correção não informatizada. A aplicação on-line remota não está entre as modalidades aprovadas, e o CFP orienta usar cada teste só na modalidade de aplicação que tem parecer favorável.",
+      "fontes": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "texto": "O teste foi aprovado em 15 de outubro de 2004. A atualização das normas foi aprovada na Plenária de 3 de outubro de 2020, com vigência até 3 de outubro de 2035, e a atualização das evidências de validade, na Plenária de 17 de agosto de 2024, com vigência até 17 de agosto de 2039.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na ficha do SATEPSI, os autores são David Wechsler e Elizabeth do Nascimento, e a editora é a Casapsi Livraria e Editora.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O uso profissional de testes psicológicos é privativo da psicóloga e do psicólogo, e cabe a quem avalia decidir quais métodos, técnicas e instrumentos usar em cada avaliação.",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.satepsi",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.avaliacao-psicologica",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.wisc-iv",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A situação no SATEPSI pode mudar com o tempo. Confira a lista do Conselho Federal de Psicologia na data do uso.",
+    "O parecer favorável atesta requisitos técnicos mínimos do teste. Ele não diz se o teste serve para uma pessoa ou para uma pergunta específica.",
+    "Os dados vêm da ficha do teste no SATEPSI, lida em 9 de novembro de 2026. O registro não descreve o conteúdo do teste."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Testes Favoráveis (resultado da busca)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesFavoraveis.cfm",
+      "referencia": "ficha do WAIS III na lista; busca sem filtro feita pela equipe em 9/11/2026",
+      "trecho": "Atualização de normas aprovada na Plenária de 03/10/2020, com vigência até 03/10/2035",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 31, de 15 de dezembro de 2022: estabelece diretrizes para a realização de Avaliação Psicológica no exercício profissional da psicóloga e do psicólogo, regulamenta o Sistema de Avaliação de Testes Psicológicos (SATEPSI) e revoga a Resolução CFP nº 09/2018",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-31-de-15-de-dezembro-de-2022-451168039",
+      "referencia": "arts. 5º e 8º; DOU de 16/12/2022, seção 1, p. 223",
+      "trecho": "Art. 8º O uso profissional dos testes psicológicos é privativo da psicóloga e do psicólogo, conforme estabelece o art. 13, da Lei 4.119, de 27 de agosto de 1962.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "documento_oficial",
+      "titulo": "Nota Pública: orientações sobre o uso de testes psicológicos em diferentes modalidades de aplicação",
+      "autor": "Conselho Federal de Psicologia (CFP), Comissão Consultiva em Avaliação Psicológica (CCAP)",
+      "ano": 2026,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2026/10/SEI_3109216_Nota_Publica-1.pdf",
+      "referencia": "documento SEI 3109216, processo 576600003.000277/2026-21, assinado em 30/09/2026",
+      "trecho": "A simples disponibilização de um teste em uma plataforma digital ou a existência de uma versão informatizada não autoriza, por si só, sua aplicação online (remota).",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

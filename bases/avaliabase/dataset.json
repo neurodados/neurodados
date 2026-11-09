@@ -3,8 +3,8 @@
   "id": "avaliabase",
   "nome": "AvaliaBase",
   "titulo": "AvaliaBase: avaliação psicológica e neuropsicológica",
-  "descricao": "Base aberta sobre a avaliação psicológica e neuropsicológica: o que é, como acontece, os documentos que ela gera e como o Conselho Federal de Psicologia avalia os testes psicológicos no Sistema de Avaliação de Testes Psicológicos (SATEPSI). Nenhum registro traz item, prancha, estímulo ou resposta de teste.",
-  "versao": "2026.11.09",
+  "descricao": "Base aberta sobre a avaliação psicológica e neuropsicológica: o que é, como acontece, os documentos que ela gera, como o Conselho Federal de Psicologia avalia os testes psicológicos no Sistema de Avaliação de Testes Psicológicos (SATEPSI) e a situação de testes e instrumentos nele, com a data da consulta. Nenhum registro traz item, prancha, estímulo ou resposta de teste.",
+  "versao": "2026.11.09.2",
   "mantenedor": {
     "nome": "Clínica NeuroBee",
     "url": "https://clinicaneurobee.com.br"
@@ -18,13 +18,14 @@
     "url": "https://creativecommons.org/licenses/by/4.0/deed.pt_BR"
   },
   "metodologia": "https://clinicaneurobee.com.br/neurodados/metodologia",
-  "doi": "10.5281/zenodo.24070451",
+  "doi": "10.5281/zenodo.24081196",
   "huggingface": "https://huggingface.co/datasets/neurodados/avaliabase",
   "palavras_chave": [
     "avaliação psicológica",
     "avaliação neuropsicológica",
     "SATEPSI",
     "testes psicológicos",
+    "instrumentos de avaliação",
     "laudo psicológico",
     "devolutiva",
     "documentos psicológicos",
@@ -40,6 +41,11 @@
       "versao": "2026.11.09",
       "data": "2026-11-09",
       "mudanca": "Primeira versão."
+    },
+    {
+      "versao": "2026.11.09.2",
+      "data": "2026-11-09",
+      "mudanca": "Sete instrumentos, com a situação no SATEPSI na consulta de 9/11/2026: WISC-IV, WAIS-III, NEUPSILIN-Inf, Matrizes Progressivas Coloridas de Raven, M-CHAT, WISC-V e NEPSY-II."
     }
   ]
 }

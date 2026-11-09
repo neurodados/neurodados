@@ -1,5 +1,10 @@
 # Mudanças
 
+## AvaliaBase 2026.11.09.2
+
+- Sete instrumentos, com a situação no SATEPSI na consulta de 9 de novembro de 2026: WISC-IV, WAIS-III, NEUPSILIN-Inf, Matrizes Progressivas Coloridas de Raven (CPM), M-CHAT, WISC-V e NEPSY-II. Só metadados públicos, sem item, estímulo, resposta ou pontuação.
+- A busca de instrumentos (`buscar_instrumento`) volta ao servidor MCP e à documentação.
+
 ## 2026.11.09
 
 - AvaliaBase, IntervenBase e EvidenciaBase: as primeiras versões, com 9, 11 e 16 registros conferidos nas fontes.

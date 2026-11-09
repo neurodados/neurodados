@@ -315,7 +315,7 @@ export const PAGINAS = {
       },
       avaliabase: {
         titulo: 'AvaliaBase | Avaliação psicológica e neuropsicológica',
-        descricao: 'A avaliação psicológica e neuropsicológica: o que é, as etapas, os documentos e o SATEPSI, o sistema do CFP que avalia os testes psicológicos. Dados abertos.',
+        descricao: 'A avaliação psicológica e neuropsicológica: o que é, as etapas, os documentos, o SATEPSI e a situação de testes nele, com a data da consulta. Dados abertos.',
       },
       intervenbase: {
         titulo: 'IntervenBase | Intervenções e atendimentos no desenvolvimento infantil',

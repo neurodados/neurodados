@@ -1,0 +1,142 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.matrizes-progressivas-coloridas-de-raven",
+  "slug": "matrizes-progressivas-coloridas-de-raven",
+  "base": "avaliabase",
+  "nome": "Matrizes Progressivas Coloridas de Raven",
+  "sigla": "CPM",
+  "categoria": "instrumento",
+  "instrumento": {
+    "construtos": [
+      "Inteligência"
+    ],
+    "faixa_etaria": {
+      "de_meses": 60,
+      "ate_meses": 143,
+      "descricao": "De 5 anos a 11 anos e 11 meses"
+    },
+    "uso": "privativo_do_psicologo",
+    "satepsi": {
+      "situacao": "favoravel",
+      "normas_validas_ate": "2033-05-19",
+      "consultado_em": "2026-11-09",
+      "fonte": "f1"
+    }
+  },
+  "definicao": "As Matrizes Progressivas Coloridas de Raven (CPM) são um teste psicológico de inteligência para crianças de 5 anos a 11 anos e 11 meses, de aplicação individual ou coletiva e de uso privativo da psicóloga e do psicólogo. No Brasil, têm parecer favorável no SATEPSI, o sistema do Conselho Federal de Psicologia que avalia os testes.",
+  "afirmacoes": [
+    {
+      "texto": "Na consulta de 9 de novembro de 2026, as Matrizes Progressivas Coloridas de Raven (CPM) estavam na lista de testes favoráveis do SATEPSI, com o construto inteligência e o público-alvo de 5 anos a 11 anos e 11 meses. Na mesma ficha, a idade da amostra de normatização vai de 5 a 11 anos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O parecer favorável cobre a aplicação individual e a coletiva, não informatizadas, com correção não informatizada. A aplicação on-line remota não está entre as modalidades aprovadas, e o CFP orienta usar cada teste só na modalidade de aplicação que tem parecer favorável.",
+      "fontes": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "texto": "O teste foi aprovado em 19 de maio de 2018. O prazo dos estudos de normatização vai até 19 de maio de 2033, e o dos estudos de validade, até 19 de maio de 2038.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na ficha do SATEPSI, os autores são Carlos Guilherme Maciel Furtado Schlottfeldt, Gisele Aparecida da Silva Alves, Jonas Jardim de Paula e Leandro Fernandes Malloy-Diniz, e a editora é a Casapsi Livraria e Editora.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Outra versão, as Matrizes Progressivas Coloridas de Raven Escala Especial, está na lista de testes desfavoráveis do SATEPSI desde 11 de abril de 2018, com os estudos de normatização vencidos.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "O uso profissional de testes psicológicos é privativo da psicóloga e do psicólogo, e cabe a quem avalia decidir quais métodos, técnicas e instrumentos usar em cada avaliação.",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.satepsi",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.avaliacao-psicologica",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A situação no SATEPSI pode mudar com o tempo. Confira a lista do Conselho Federal de Psicologia na data do uso.",
+    "O parecer favorável atesta requisitos técnicos mínimos do teste. Ele não diz se o teste serve para uma pessoa ou para uma pergunta específica.",
+    "Os dados vêm da ficha do teste no SATEPSI, lida em 9 de novembro de 2026. O registro não descreve o conteúdo do teste."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Testes Favoráveis (resultado da busca)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesFavoraveis.cfm",
+      "referencia": "ficha das Matrizes Progressivas Coloridas de Raven (CPM) na lista; busca sem filtro feita pela equipe em 9/11/2026",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 31, de 15 de dezembro de 2022: estabelece diretrizes para a realização de Avaliação Psicológica no exercício profissional da psicóloga e do psicólogo, regulamenta o Sistema de Avaliação de Testes Psicológicos (SATEPSI) e revoga a Resolução CFP nº 09/2018",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-31-de-15-de-dezembro-de-2022-451168039",
+      "referencia": "arts. 5º e 8º; DOU de 16/12/2022, seção 1, p. 223",
+      "trecho": "Art. 8º O uso profissional dos testes psicológicos é privativo da psicóloga e do psicólogo, conforme estabelece o art. 13, da Lei 4.119, de 27 de agosto de 1962.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "documento_oficial",
+      "titulo": "Nota Pública: orientações sobre o uso de testes psicológicos em diferentes modalidades de aplicação",
+      "autor": "Conselho Federal de Psicologia (CFP), Comissão Consultiva em Avaliação Psicológica (CCAP)",
+      "ano": 2026,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2026/10/SEI_3109216_Nota_Publica-1.pdf",
+      "referencia": "documento SEI 3109216, processo 576600003.000277/2026-21, assinado em 30/09/2026",
+      "trecho": "A simples disponibilização de um teste em uma plataforma digital ou a existência de uma versão informatizada não autoriza, por si só, sua aplicação online (remota).",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Testes Desfavoráveis (resultado da busca)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesDesfavoraveis.cfm",
+      "referencia": "ficha das Matrizes Progressivas Coloridas de Raven Escala Especial na lista; busca sem filtro feita pela equipe em 9/11/2026",
+      "trecho": "Desfavorável desde 11/04/2018 - estudos de normatização vencidos",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

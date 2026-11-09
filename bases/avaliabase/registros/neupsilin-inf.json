@@ -1,0 +1,131 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.neupsilin-inf",
+  "slug": "neupsilin-inf",
+  "base": "avaliabase",
+  "nome": "Instrumento de Avaliação Neuropsicológica Breve Infantil",
+  "sigla": "NEUPSILIN-Inf",
+  "categoria": "instrumento",
+  "instrumento": {
+    "construtos": [
+      "Processos neuropsicológicos"
+    ],
+    "faixa_etaria": {
+      "de_meses": 72,
+      "ate_meses": 155,
+      "descricao": "De 6 a 12 anos"
+    },
+    "uso": "privativo_do_psicologo",
+    "satepsi": {
+      "situacao": "favoravel",
+      "normas_validas_ate": "2031-08-19",
+      "consultado_em": "2026-11-09",
+      "fonte": "f1"
+    }
+  },
+  "definicao": "O NEUPSILIN-Inf, Instrumento de Avaliação Neuropsicológica Breve Infantil, é um teste psicológico que avalia processos neuropsicológicos em crianças de 6 a 12 anos, de aplicação individual e de uso privativo da psicóloga e do psicólogo. No Brasil, tem parecer favorável no SATEPSI, o sistema do Conselho Federal de Psicologia que avalia os testes.",
+  "afirmacoes": [
+    {
+      "texto": "Na consulta de 9 de novembro de 2026, o NEUPSILIN-Inf estava na lista de testes favoráveis do SATEPSI, com o construto processos neuropsicológicos e o público-alvo de 6 a 12 anos. A amostra de normatização também vai de 6 a 12 anos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O parecer favorável cobre a aplicação individual e não informatizada, com correção não informatizada. A aplicação on-line remota não está entre as modalidades aprovadas, e o CFP orienta usar cada teste só na modalidade de aplicação que tem parecer favorável.",
+      "fontes": [
+        "f1",
+        "f3"
+      ]
+    },
+    {
+      "texto": "O teste foi aprovado em 19 de agosto de 2016. O prazo dos estudos de normatização vai até 19 de agosto de 2031, e o dos estudos de validade, até 19 de agosto de 2036.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na ficha do SATEPSI, os autores são Camila Cruz-Rodrigues, Claudia Berlim de Mello, Jerusa Fumagalli de Salles, Maria Alice de Mattos Pimenta Parente, Mônica Carolina de Miranda, Rochele Paz Fonseca e Thais Barbosa, e a editora é a Vetor Editora.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na mesma lista está o NEUPSILIN, Instrumento de Avaliação Neuropsicológica Breve, a versão com público-alvo de 18 a 90 anos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O uso profissional de testes psicológicos é privativo da psicóloga e do psicólogo, e cabe a quem avalia decidir quais métodos, técnicas e instrumentos usar em cada avaliação.",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.satepsi",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.avaliacao-neuropsicologica",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A situação no SATEPSI pode mudar com o tempo. Confira a lista do Conselho Federal de Psicologia na data do uso.",
+    "O parecer favorável atesta requisitos técnicos mínimos do teste. Ele não diz se o teste serve para uma pessoa ou para uma pergunta específica.",
+    "Os dados vêm da ficha do teste no SATEPSI, lida em 9 de novembro de 2026. O registro não descreve o conteúdo do teste."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Testes Favoráveis (resultado da busca)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesFavoraveis.cfm",
+      "referencia": "fichas do NEUPSILIN-Inf e do NEUPSILIN na lista; busca sem filtro feita pela equipe em 9/11/2026",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Resolução CFP nº 31, de 15 de dezembro de 2022: estabelece diretrizes para a realização de Avaliação Psicológica no exercício profissional da psicóloga e do psicólogo, regulamenta o Sistema de Avaliação de Testes Psicológicos (SATEPSI) e revoga a Resolução CFP nº 09/2018",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2022,
+      "url": "https://www.in.gov.br/en/web/dou/-/resolucao-n-31-de-15-de-dezembro-de-2022-451168039",
+      "referencia": "arts. 5º e 8º; DOU de 16/12/2022, seção 1, p. 223",
+      "trecho": "Art. 8º O uso profissional dos testes psicológicos é privativo da psicóloga e do psicólogo, conforme estabelece o art. 13, da Lei 4.119, de 27 de agosto de 1962.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "documento_oficial",
+      "titulo": "Nota Pública: orientações sobre o uso de testes psicológicos em diferentes modalidades de aplicação",
+      "autor": "Conselho Federal de Psicologia (CFP), Comissão Consultiva em Avaliação Psicológica (CCAP)",
+      "ano": 2026,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2026/10/SEI_3109216_Nota_Publica-1.pdf",
+      "referencia": "documento SEI 3109216, processo 576600003.000277/2026-21, assinado em 30/09/2026",
+      "trecho": "A simples disponibilização de um teste em uma plataforma digital ou a existência de uma versão informatizada não autoriza, por si só, sua aplicação online (remota).",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

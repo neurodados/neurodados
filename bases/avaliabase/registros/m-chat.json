@@ -1,0 +1,132 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.m-chat",
+  "slug": "m-chat",
+  "base": "avaliabase",
+  "nome": "Modified Checklist for Autism in Toddlers",
+  "sigla": "M-CHAT",
+  "nomes_alternativos": [
+    "Escala Modified Checklist for Autism in Toddlers",
+    "M-CHAT-R"
+  ],
+  "categoria": "instrumento",
+  "instrumento": {
+    "construtos": [
+      "Sinais de risco para o transtorno do espectro autista"
+    ],
+    "faixa_etaria": {
+      "de_meses": 16,
+      "ate_meses": 30,
+      "descricao": "De 16 a 30 meses, na versão revisada (M-CHAT-R) da Caderneta da Criança"
+    },
+    "uso": "nao_privativo",
+    "satepsi": {
+      "situacao": "nao_privativo",
+      "consultado_em": "2026-11-09",
+      "fonte": "f1"
+    }
+  },
+  "definicao": "O M-CHAT, Modified Checklist for Autism in Toddlers, é um questionário de rastreio, com perguntas à família, que ajuda a identificar sinais de risco para o transtorno do espectro autista em crianças pequenas. O resultado não confirma nem afasta o diagnóstico. No SATEPSI, está na lista de instrumentos não privativos.",
+  "afirmacoes": [
+    {
+      "texto": "Na consulta de 9 de novembro de 2026, a Escala Modified Checklist for Autism in Toddlers estava na lista de instrumentos não privativos do SATEPSI, com data da análise de 14 de julho de 2022 e autoria de Diana Robins, Deborah Fein e Marianne Barton.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Instrumento não privativo é o que a Comissão Consultiva em Avaliação Psicológica do CFP não classifica como teste psicológico, e a comissão não avalia a qualidade psicométrica dele. Segundo a Cartilha de Avaliação Psicológica do CFP, concluir uma avaliação psicológica com base apenas em instrumentos não privativos é falta ética.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Caderneta da Criança, do Ministério da Saúde, traz a versão revisada, M-CHAT-R, como instrumento que auxilia na identificação de risco de TEA em crianças com idade entre 16 e 30 meses.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "A Caderneta orienta explicar aos cuidadores que se trata de um instrumento de rastreio, que pode dar resultado falso-positivo: o resultado positivo não confirma o diagnóstico de TEA. Havendo suspeita da família ou do profissional, a criança deve ser encaminhada para avaliação mesmo que o resultado seja de baixo risco.",
+      "fontes": [
+        "f3"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.encaminhamento-para-avaliacao",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "avaliabase.satepsi",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A lista do SATEPSI traz o nome da escala sem indicar a versão. A Caderneta da Criança usa a versão revisada, M-CHAT-R.",
+    "Este registro não reproduz as perguntas nem a pontuação do questionário, que estão na Caderneta da Criança.",
+    "O rastreio não substitui a avaliação diagnóstica feita por profissionais habilitados.",
+    "A situação no SATEPSI pode mudar com o tempo. Confira a lista do Conselho Federal de Psicologia na data do uso."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Instrumentos Não Privativos (resultado da busca)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesNaoPrivativos.cfm",
+      "referencia": "texto de apresentação da lista e ficha da Escala Modified Checklist for Autism in Toddlers; busca sem filtro feita pela equipe em 9/11/2026",
+      "trecho": "A Comissão Consultiva em Avaliação Psicológica do CFP (CCAP) realiza uma avaliação preliminar do instrumento e o classifica como \"instrumento não privativo\" ou \"teste psicológico\". Entretanto, para instrumentos “não privativos”, a qualidade psicométrica não é avaliada pela CCAP.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "documento_oficial",
+      "titulo": "Cartilha Avaliação Psicológica, 3ª edição",
+      "autor": "Conselho Federal de Psicologia (CFP), Comissão Consultiva em Avaliação Psicológica",
+      "ano": 2022,
+      "url": "https://site.cfp.org.br/wp-content/uploads/2022/08/cartilha_avaliacao_psicologica-2309.pdf",
+      "referencia": "pergunta 29 (instrumentos não privativos)",
+      "trecho": "se a(o) psicóloga(o) realizar o processo de avaliação psicológica e concluir sobre o estado psicológico do avaliado com base apenas em instrumentos não privativos, é considerado falta ética",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "documento_oficial",
+      "titulo": "Caderneta da Criança: Passaporte da Cidadania. Menina. 7ª edição",
+      "autor": "Ministério da Saúde",
+      "ano": 2024,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_crianca_menina_passaporte_cidadania_7ed.pdf",
+      "referencia": "Parte I, Transtorno do Espectro Autista (TEA), p. 55; Parte II, M-CHAT-R, p. 87 e 88",
+      "trecho": "Portanto, o resultado positivo deste teste não confirma o diagnóstico de TEA.",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

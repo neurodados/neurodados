@@ -1,0 +1,139 @@
+{
+  "$schema": "../../../schemas/avaliabase.schema.json",
+  "id": "avaliabase.wisc-v",
+  "slug": "wisc-v",
+  "base": "avaliabase",
+  "nome": "Escala de Inteligência Wechsler para Crianças, 5ª edição",
+  "sigla": "WISC-V",
+  "categoria": "instrumento",
+  "instrumento": {
+    "nome_original": "Wechsler Intelligence Scale for Children, Fifth Edition",
+    "construtos": [
+      "Inteligência"
+    ],
+    "uso": "privativo_do_psicologo",
+    "satepsi": {
+      "situacao": "nao_consta",
+      "consultado_em": "2026-11-09",
+      "fonte": "f1"
+    }
+  },
+  "definicao": "O WISC-V é a 5ª edição da escala Wechsler de inteligência para crianças, estudada na literatura científica internacional. Na consulta de 9 de novembro de 2026, ele não aparecia em nenhuma das quatro listas do SATEPSI, o sistema do Conselho Federal de Psicologia que avalia os testes.",
+  "afirmacoes": [
+    {
+      "texto": "Na consulta de 9 de novembro de 2026, o WISC-V não aparecia na lista de testes favoráveis, na de desfavoráveis, na de não avaliados nem na de instrumentos não privativos do SATEPSI. Na mesma data, a edição com parecer favorável era a 4ª, o WISC-IV.",
+      "fontes": [
+        "f1",
+        "f2",
+        "f3",
+        "f4"
+      ]
+    },
+    {
+      "texto": "Segundo as perguntas frequentes do SATEPSI, os testes que não foram analisados pelo CFP não estão aprovados e não podem ser usados para fins profissionais. Quando um teste não está na lista, o CFP sugere procurar o Conselho Regional de Psicologia para pedir que ele seja enviado à análise.",
+      "fontes": [
+        "f5"
+      ]
+    },
+    {
+      "texto": "A literatura científica internacional estuda o WISC-V, por exemplo em análises da estrutura fatorial dos seus 16 subtestes principais e secundários, publicadas em 2016.",
+      "fontes": [
+        "f6"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.wisc-iv",
+      "tipo": "diferenciar_de"
+    },
+    {
+      "id": "avaliabase.satepsi",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Nesta base, \"não consta\" quer dizer só que o WISC-V não apareceu nas listas do SATEPSI na data da consulta. A situação pode mudar, e a lista do Conselho Federal de Psicologia deve ser conferida na data do uso.",
+    "O registro não descreve o conteúdo do teste, as normas nem os estudos feitos com ele."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Testes Favoráveis (resultado da busca)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesFavoraveis.cfm",
+      "referencia": "busca sem filtro feita pela equipe em 9/11/2026, que traz todos os testes favoráveis; o WISC-V não aparece, e o WISC-IV aparece",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f2",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Testes Desfavoráveis (resultado da busca)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesDesfavoraveis.cfm",
+      "referencia": "busca sem filtro feita pela equipe em 9/11/2026; o WISC-V não aparece",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Testes Não Avaliados (resultado da busca)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesNaoAvaliados.cfm",
+      "referencia": "busca sem filtro feita pela equipe em 9/11/2026; o WISC-V não aparece",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Instrumentos Não Privativos (resultado da busca)",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/testesNaoPrivativos.cfm",
+      "referencia": "busca sem filtro feita pela equipe em 9/11/2026; o WISC-V não aparece",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f5",
+      "tipo": "site_institucional",
+      "titulo": "SATEPSI: Perguntas Frequentes",
+      "autor": "Conselho Federal de Psicologia (CFP)",
+      "ano": 2026,
+      "url": "https://satepsi.cfp.org.br/faq.cfm",
+      "referencia": "pergunta \"O que fazer quando um teste não está na lista do SATEPSI?\"",
+      "trecho": "os testes que não foram analisados pelo CFP não estão aprovados e, por isso, não podem ser utilizados para fins profissionais.",
+      "consultado_em": "2026-11-09"
+    },
+    {
+      "id": "f6",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Factor structure of the Wechsler Intelligence Scale for Children–Fifth Edition: Exploratory factor analyses with the 16 primary and secondary subtests",
+      "autor": "Gary L. Canivez, Marley W. Watkins e Stefan C. Dombrowski",
+      "ano": 2016,
+      "url": "https://doi.org/10.1037/pas0000238",
+      "doi": "10.1037/pas0000238",
+      "referencia": "Psychological Assessment, v. 28, n. 8, p. 975-986; título e metadados conferidos no Crossref",
+      "consultado_em": "2026-11-09"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-09",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-09",
+  "atualizado_em": "2026-11-09",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-09",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

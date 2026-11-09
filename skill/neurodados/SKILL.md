@@ -10,7 +10,7 @@ O NeuroDados Brasil reúne dados abertos sobre neurodesenvolvimento e desenvolvi
 ## Bases
 
 - NeuroBase: conceitos e condições do neurodesenvolvimento, com a classificação oficial quando existe.
-- AvaliaBase: a avaliação psicológica e neuropsicológica (o que é, as etapas e os documentos) e o SATEPSI, o sistema do Conselho Federal de Psicologia que avalia os testes psicológicos.
+- AvaliaBase: a avaliação psicológica e neuropsicológica (o que é, as etapas e os documentos), o SATEPSI, o sistema do Conselho Federal de Psicologia que avalia os testes psicológicos, e a situação de testes e instrumentos nele, com a data da consulta.
 - IntervenBase: intervenções e atendimentos no desenvolvimento infantil, com o que as evidências mostram e os limites delas.
 - EvidenciaBase: estudos, revisões e diretrizes, com os metadados e um resumo de cada publicação.
 
@@ -18,7 +18,7 @@ A lista do que está publicado está em `listar_bases` e em `https://clinicaneur
 
 ## Como consultar
 
-1. Pelo servidor MCP: `https://clinicaneurobee.com.br/neurodados/mcp`. Ferramentas: `listar_bases`, `buscar_conceito`, `buscar_avaliacao`, `buscar_intervencao`, `buscar_evidencias`, `consultar_registro`, `consultar_tea` e `consultar_tdah`.
+1. Pelo servidor MCP: `https://clinicaneurobee.com.br/neurodados/mcp`. Ferramentas: `listar_bases`, `buscar_conceito`, `buscar_avaliacao`, `buscar_instrumento`, `buscar_intervencao`, `buscar_evidencias`, `consultar_registro`, `consultar_tea` e `consultar_tdah`.
 2. Pela API, sem chave: `https://clinicaneurobee.com.br/neurodados/api/v1/{base}?q=termo` para buscar e `https://clinicaneurobee.com.br/neurodados/api/v1/{base}/{slug}` para um registro, como `/api/v1/neurobase/tea`.
 3. Pelos arquivos: `https://clinicaneurobee.com.br/neurodados/dados/{base}.json`, também em JSONL e CSV.
 
@@ -27,6 +27,7 @@ A lista do que está publicado está em `listar_bases` e em `https://clinicaneur
 - `definicao`: a resposta curta para "o que é". Na EvidenciaBase, é o resumo da publicação.
 - `afirmacoes`: os pontos principais ou os resultados. Cada um aponta, em `fontes`, para os ids da lista `fontes` do mesmo registro.
 - `limitacoes`: o que o registro não cobre. Leve isso em conta antes de responder.
+- `instrumento` (AvaliaBase): o que o instrumento avalia, a faixa etária, o uso e a situação no SATEPSI, com a data da consulta. A situação muda com o tempo: diga a data.
 - `objetivos`, `publico`, `contextos` e `profissionais` (IntervenBase): o que a intervenção busca, para quem costuma ser indicada segundo as fontes, onde acontece e quem atende.
 - `publicacao`, `populacao` e `metodo` (EvidenciaBase): os dados da publicação, com quem e como o estudo foi feito.
 - `revisao.situacao`: `conferido_nas_fontes` (cada afirmação foi conferida na fonte, sem revisão de profissional de saúde), `em_revisao` ou `revisado` (um profissional com registro no conselho revisou e assina, em `revisores`).
