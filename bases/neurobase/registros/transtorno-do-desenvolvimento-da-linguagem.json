@@ -1,0 +1,195 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.transtorno-do-desenvolvimento-da-linguagem",
+  "slug": "transtorno-do-desenvolvimento-da-linguagem",
+  "base": "neurobase",
+  "nome": "Transtorno do desenvolvimento da linguagem",
+  "sigla": "TDL",
+  "nomes_alternativos": [
+    "Distúrbio específico de linguagem",
+    "Developmental language disorder"
+  ],
+  "categoria": "condicao_do_neurodesenvolvimento",
+  "dominios": [
+    "linguagem"
+  ],
+  "definicao": "O transtorno do desenvolvimento da linguagem (TDL) é uma dificuldade com a linguagem que causa prejuízo no dia a dia e não está associada a uma causa biomédica conhecida. Pode afetar a compreensão, a expressão ou o uso social da linguagem e pode vir junto de outros transtornos do neurodesenvolvimento, como o TDAH.",
+  "afirmacoes": [
+    {
+      "texto": "O consenso internacional CATALISE, publicado em 2017 e feito pelo método Delphi com 57 participantes de várias profissões e países, recomendou o termo \"transtorno de linguagem\" para dificuldades que causam prejuízo funcional na vida diária e \"transtorno do desenvolvimento da linguagem\" quando esse transtorno não está associado a uma causa biomédica conhecida.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O mesmo consenso concluiu que fatores de risco, neurobiológicos ou ambientais, não impedem o diagnóstico de TDL, que o TDL pode aparecer junto de outros transtornos do neurodesenvolvimento, como o TDAH, e que ele não exige diferença entre a habilidade verbal e a não verbal.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Num estudo populacional na Inglaterra com crianças de 4 a 5 anos, a prevalência estimada do transtorno de linguagem de origem desconhecida foi de 7,58%, e a de dificuldades de linguagem associadas a deficiência intelectual ou a outro diagnóstico médico foi de 2,34%. Para os autores, na entrada na escola, cerca de duas crianças em cada turma de 30 têm um transtorno de linguagem que atrapalha o progresso escolar.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "O mesmo estudo lembra que o antigo diagnóstico de distúrbio \"específico\" de linguagem exigia QI não verbal dentro da média, o que limitava o acesso aos serviços. Não houve diferença na gravidade entre crianças com QI não verbal médio e médio-baixo, e os autores concluem que o acesso aos serviços clínicos não deve depender do QI não verbal.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "No Brasil, artigo publicado na revista CoDAS registra a mudança de paradigma e de nomenclatura de distúrbio específico de linguagem (DEL) para transtorno do desenvolvimento da linguagem.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "A CID-11 tem o código 6A01.2, transtorno do desenvolvimento da linguagem, com subtipos pelo comprometimento: da linguagem receptiva e expressiva, principalmente da expressiva, principalmente da pragmática ou outro. Na CID-10, os quadros mais próximos são o transtorno expressivo de linguagem (F80.1) e o transtorno receptivo da linguagem (F80.2), que a tabela de correspondência da OMS leva para 6A01.21 e 6A01.20.",
+      "fontes": [
+        "f4",
+        "f5",
+        "f6"
+      ]
+    },
+    {
+      "texto": "A CID-10 registra que os transtornos específicos do desenvolvimento da fala e da linguagem vêm com frequência acompanhados de dificuldades da leitura e da soletração, de perturbação das relações interpessoais e de transtornos emocionais e de comportamento.",
+      "fontes": [
+        "f5"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "sistema": "CID-11",
+      "codigo": "6A01.2",
+      "titulo": "Transtorno do desenvolvimento da linguagem",
+      "fonte": "f4"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F80.1",
+      "titulo": "Transtorno expressivo de linguagem",
+      "fonte": "f5"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F80.2",
+      "titulo": "Transtorno receptivo da linguagem",
+      "fonte": "f5"
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "diferenciar_de"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "diferenciar_de"
+    }
+  ],
+  "limitacoes": [
+    "Os critérios da CID-10 para F80.1 e F80.2 comparam a linguagem da criança com a idade mental; o consenso CATALISE dispensa essa comparação. Documentos que ainda usam a CID-10 podem seguir o critério antigo.",
+    "O nome TDL substitui termos como distúrbio específico de linguagem, mas na literatura e nos serviços ainda convivem nomes diferentes para o mesmo quadro.",
+    "A prevalência citada vem de um estudo na Inglaterra; não há, nas fontes deste registro, um número para o Brasil. O registro não trata dos transtornos dos sons da fala nem da fluência, que têm outros códigos na CID-11 (6A01.0 e 6A01.1)."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Phase 2 of CATALISE: a multinational and multidisciplinary Delphi consensus study of problems with language development: Terminology",
+      "autor": "Bishop, Dorothy V. M.; Snowling, Margaret J.; Thompson, Paul A.; Greenhalgh, Trisha; CATALISE-2 consortium",
+      "ano": 2017,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28369935/",
+      "doi": "10.1111/jcpp.12721",
+      "referencia": "Journal of Child Psychology and Psychiatry, v. 58, n. 10, p. 1068-1080; resumo",
+      "trecho": "The term, 'Developmental Language Disorder' (DLD) was endorsed for use when the language disorder was not associated with a known biomedical aetiology.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "The impact of nonverbal ability on prevalence and clinical presentation of language disorder: evidence from a population study",
+      "autor": "Norbury, Courtenay Frazier; Gooch, Debbie; Wray, Charlotte; Baird, Gillian; Charman, Tony; Simonoff, Emily; Vamvakas, George; Pickles, Andrew",
+      "ano": 2016,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27184709/",
+      "doi": "10.1111/jcpp.12573",
+      "referencia": "Journal of Child Psychology and Psychiatry, v. 57, n. 11, p. 1247-1257; resumo",
+      "trecho": "The prevalence of language disorder of unknown origin was estimated to be 7.58% (95% CI 5.33, 10.66), while the prevalence of language impairment associated with intellectual disability and/or existing medical diagnosis was 2.34% (95% CI 1.40, 3.91).",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Desempenho em decodificação e escrita de crianças com Transtorno do Desenvolvimento da Linguagem: dados preliminares",
+      "autor": "Soares, Aparecido José Couto; Santos, Gabriele Hilário Cardoso; Befi-Lopes, Débora Maria",
+      "ano": 2024,
+      "url": "https://www.scielo.br/j/codas/a/tPpxJ6FhZ8jzLcGkCHxjnQK/?lang=pt",
+      "doi": "10.1590/2317-1782/20232022318pt",
+      "referencia": "CoDAS, v. 36, n. 1, e20220318; introdução",
+      "trecho": "até a mudança de paradigma e de nomenclatura de Distúrbio Específico de Linguagem (DEL) para Transtorno do Desenvolvimento de Linguagem",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-11 para Estatísticas de Mortalidade e de Morbidade, versão 2026-01: tabulação simples em português (SimpleTabulation-ICD-11-MMS-pt)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "referencia": "6A01.2 e subcategorias 6A01.20 a 6A01.23 (entidade 862918022); navegador: https://icd.who.int/browse/2026-01/mms/pt#862918022",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo V, F80-F89: Transtornos do desenvolvimento psicológico",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/f80_f89.htm",
+      "referencia": "F80 Transtornos específicos do desenvolvimento da fala e da linguagem; F80.1 e F80.2",
+      "trecho": "Os transtornos específicos do desenvolvimento da fala e da linguagem se acompanham com freqüência de problemas associados, tais como dificuldades da leitura e da soletração, perturbação das relações interpessoais, transtornos emocionais e transtornos comportamentais.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f6",
+      "tipo": "classificacao_oficial",
+      "titulo": "Tabelas de mapeamento CID-10 / CID-11, versão 2026-01 (10To11MapToOneCategory)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/mapping.zip",
+      "referencia": "Arquivo 10To11MapToOneCategory.txt, linhas F80.1 (para 6A01.21) e F80.2 (para 6A01.20)",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.transtornos-especificos-da-aprendizagem",
+  "slug": "transtornos-especificos-da-aprendizagem",
+  "base": "neurobase",
+  "nome": "Transtornos específicos da aprendizagem",
+  "nomes_alternativos": [
+    "Transtorno do desenvolvimento da aprendizagem",
+    "Transtornos específicos do desenvolvimento das habilidades escolares",
+    "Transtorno de aprendizagem"
+  ],
+  "categoria": "condicao_do_neurodesenvolvimento",
+  "dominios": [
+    "cognitivo",
+    "linguagem"
+  ],
+  "definicao": "Transtornos específicos da aprendizagem são dificuldades persistentes para aprender e usar habilidades escolares, como ler, escrever e calcular, que aparecem desde as primeiras etapas do desenvolvimento. Não se explicam apenas pela falta de oportunidade de aprender, por deficiência intelectual ou por problemas de visão.",
+  "afirmacoes": [
+    {
+      "texto": "Na CID-10, esses quadros ficam em F81, transtornos específicos do desenvolvimento das habilidades escolares: as formas habituais de aprender estão alteradas desde as primeiras etapas do desenvolvimento, e o problema não é só consequência da falta de oportunidade de aprender ou de retardo mental, nem se deve a traumatismo ou doença cerebral.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A CID-10 separa o transtorno específico de leitura (F81.0), que inclui a dislexia de desenvolvimento, o transtorno específico da soletração (F81.1), o transtorno específico da habilidade em aritmética (F81.2), que inclui a discalculia, e o transtorno misto de habilidades escolares (F81.3).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na CID-11, o nome é transtorno do desenvolvimento da aprendizagem (6A03), com comprometimento da leitura (6A03.0), da expressão escrita (6A03.1) ou da matemática (6A03.2). Na tabela de correspondência da OMS, os códigos F81.0, F81.1 e F81.2 da CID-10 passam para esses três códigos.",
+      "fontes": [
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "texto": "Uma revisão de 2020 sobre 50 anos de pesquisa estima que cada um desses transtornos, de leitura de palavras, de compreensão de leitura, de matemática e de expressão escrita, ocorre em cerca de 5% a 15% da população em idade escolar. Eles podem aparecer sozinhos ou junto de outros transtornos do desenvolvimento, como o TDAH, e, sem tratamento, têm impacto negativo no funcionamento ao longo da vida.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "A Lei nº 14.254/2021 garante aos estudantes com dislexia, TDAH ou outro transtorno de aprendizagem que tenham alterações no desenvolvimento da leitura e da escrita acompanhamento específico na escola, o mais cedo possível, e prevê formação continuada dos professores para identificar sinais precoces.",
+      "fontes": [
+        "f5"
+      ]
+    },
+    {
+      "texto": "Desde 2025, o Censo Escolar do Inep coleta dados de transtornos que impactam o desenvolvimento da aprendizagem, entre eles discalculia, dislexia e disortografia. O Inep descreve a disortografia como transtorno funcional específico de escrita, com dificuldades na aprendizagem da ortografia, da gramática e da redação.",
+      "fontes": [
+        "f6"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "sistema": "CID-10",
+      "codigo": "F81",
+      "titulo": "Transtornos específicos do desenvolvimento das habilidades escolares",
+      "fonte": "f1"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F81.0",
+      "titulo": "Transtorno específico de leitura",
+      "fonte": "f1"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F81.1",
+      "titulo": "Transtorno específico da soletração",
+      "fonte": "f1"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F81.2",
+      "titulo": "Transtorno específico da habilidade em aritmética",
+      "fonte": "f1"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "6A03",
+      "titulo": "Transtorno do desenvolvimento da aprendizagem",
+      "fonte": "f2"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "6A03.0",
+      "titulo": "Transtorno do desenvolvimento da aprendizagem com comprometimento da leitura",
+      "fonte": "f2"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "6A03.1",
+      "titulo": "Transtorno do desenvolvimento da aprendizagem com comprometimento da expressão escrita",
+      "fonte": "f2"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "6A03.2",
+      "titulo": "Transtorno do desenvolvimento da aprendizagem com comprometimento na matemática",
+      "fonte": "f2"
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-linguagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "diferenciar_de"
+    }
+  ],
+  "limitacoes": [
+    "Dislexia, discalculia e disortografia nomeiam tipos do quadro (de leitura, de matemática e de escrita), não o grupo todo. O termo disortografia não aparece nos títulos da CID-10 nem da CID-11 consultados; aqui ele vem do Inep.",
+    "Sozinhos, esses nomes podem apontar para códigos de sintomas: a CID-10 manda codificar a dislexia sem outra especificação em R48.0, e a CID-11 tem \"dislexia ou alexia\" (MB4B.0) e \"discalculia\" (MB4B.5) no capítulo de sintomas e sinais.",
+    "As definições do Inep servem ao Censo Escolar e não são critérios clínicos. As frequências citadas vêm de estudos internacionais; não há, nas fontes deste registro, um número para o Brasil."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo V, F80-F89: Transtornos do desenvolvimento psicológico",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/f80_f89.htm",
+      "referencia": "F81 e subcategorias F81.0 a F81.3 e F81.8 e F81.9",
+      "trecho": "Transtornos nos quais as modalidades habituais de aprendizado estão alteradas desde as primeiras etapas do desenvolvimento. O comprometimento não é somente a conseqüência da falta de oportunidade de aprendizagem ou de um retardo mental, e ele não é devido a um traumatismo ou doença cerebrais.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-11 para Estatísticas de Mortalidade e de Morbidade, versão 2026-01: tabulação simples em português (SimpleTabulation-ICD-11-MMS-pt)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "referencia": "6A03 a 6A03.2 (entidade 2099676649) e, no capítulo 21, MB4B.0 e MB4B.5; navegador: https://icd.who.int/browse/2026-01/mms/pt#2099676649",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "classificacao_oficial",
+      "titulo": "Tabelas de mapeamento CID-10 / CID-11, versão 2026-01 (10To11MapToOneCategory)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/mapping.zip",
+      "referencia": "Arquivo 10To11MapToOneCategory.txt, linhas F81.0, F81.1 e F81.2 (para 6A03.0, 6A03.1 e 6A03.2)",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Understanding, educating, and supporting children with specific learning disabilities: 50 years of science and practice",
+      "autor": "Grigorenko, Elena L.; Compton, Donald L.; Fuchs, Lynn S.; Wagner, Richard K.; Willcutt, Erik G.; Fletcher, Jack M.",
+      "ano": 2020,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31081650/",
+      "doi": "10.1037/amp0000452",
+      "referencia": "American Psychologist, v. 75, n. 1, p. 37-51; resumo",
+      "trecho": "SLDs, exemplified here by specific word reading, reading comprehension, mathematics, and written expression disabilities, represent spectrum disorders, each occurring in approximately 5% to 15% of the school-aged population.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.254, de 30 de novembro de 2021: dispõe sobre o acompanhamento integral para educandos com dislexia ou Transtorno do Deficit de Atenção com Hiperatividade (TDAH) ou outro transtorno de aprendizagem",
+      "autor": "Brasil",
+      "ano": 2021,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14254.htm",
+      "referencia": "arts. 3º e 5º",
+      "trecho": "Art. 3º Educandos com dislexia, TDAH ou outro transtorno de aprendizagem que apresentam alterações no desenvolvimento da leitura e da escrita, ou instabilidade na atenção, que repercutam na aprendizagem devem ter assegurado o acompanhamento específico direcionado à sua dificuldade, da forma mais precoce possível, pelos seus educadores no âmbito da escola na qual estão matriculados",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f6",
+      "tipo": "site_institucional",
+      "titulo": "Quais os tipos de transtornos que impactam o desenvolvimento da aprendizagem que são coletados no Censo Escolar?",
+      "autor": "Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep)",
+      "ano": 2026,
+      "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/perguntas-frequentes/censo-escolar/educacao-especial/quais-os-tipos-de-transtornos",
+      "referencia": "Perguntas frequentes do Censo Escolar, educação especial; publicado em 20/07/2026 e atualizado em 31/08/2026",
+      "trecho": "Disortografia : é um transtorno funcional específico de escrita caracterizado por uma alteração na planificação da linguagem escrita, que causa dificuldades na aprendizagem da ortografia, da gramática e da redação, apesar do potencial intelectual e dos sistemas sensoriais do indivíduo.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

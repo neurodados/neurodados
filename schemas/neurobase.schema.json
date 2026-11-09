@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://clinicaneurobee.com.br/neurodados/schemas/neurobase.schema.json",
+  "title": "Registro da NeuroBase",
+  "description": "Um conceito, domínio, marco ou condição do neurodesenvolvimento, com a definição, as afirmações principais ligadas às fontes, a classificação oficial quando existe e a situação da revisão.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "base",
+    "nome",
+    "categoria",
+    "definicao",
+    "afirmacoes",
+    "limitacoes",
+    "fontes",
+    "estado",
+    "revisao",
+    "versao",
+    "criado_em",
+    "atualizado_em",
+    "historico"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": {
+      "type": "string",
+      "pattern": "^neurobase\\.[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Identificador estável: neurobase. mais o slug. Não muda depois de publicado."
+    },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "base": { "const": "neurobase" },
+    "nome": { "type": "string", "minLength": 2, "maxLength": 140 },
+    "sigla": { "type": "string", "minLength": 2, "maxLength": 20 },
+    "nomes_alternativos": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 2, "maxLength": 140 }
+    },
+    "categoria": {
+      "enum": [
+        "conceito",
+        "dominio_do_desenvolvimento",
+        "marco_do_desenvolvimento",
+        "condicao_do_neurodesenvolvimento",
+        "termo_clinico"
+      ]
+    },
+    "dominios": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "enum": ["cognitivo", "linguagem", "motor", "socioemocional", "adaptativo", "sensorial"] }
+    },
+    "faixa_etaria": { "$ref": "comum.schema.json#/$defs/faixa_etaria" },
+    "definicao": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 600,
+      "description": "Uma ou duas frases, escritas pela equipe, que respondem o que é. Não copia texto de manual protegido."
+    },
+    "descricao": { "type": "string", "maxLength": 3000 },
+    "afirmacoes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "comum.schema.json#/$defs/afirmacao" },
+      "description": "Os pontos principais, cada um ligado à fonte que o sustenta."
+    },
+    "classificacoes": {
+      "type": "array",
+      "items": { "$ref": "comum.schema.json#/$defs/classificacao" }
+    },
+    "relacionados": {
+      "type": "array",
+      "items": { "$ref": "comum.schema.json#/$defs/relacionamento" }
+    },
+    "limitacoes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 10, "maxLength": 500 }
+    },
+    "fontes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "comum.schema.json#/$defs/fonte" }
+    },
+    "estado": {
+      "enum": ["rascunho", "publicado", "desatualizado", "arquivado"],
+      "description": "rascunho: ainda não está no ar. publicado: no ar. desatualizado: no ar, com aviso de que uma fonte mudou. arquivado: fora da lista, mas o endereço segue respondendo."
+    },
+    "revisao": { "$ref": "comum.schema.json#/$defs/revisao" },
+    "versao": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+    "criado_em": { "$ref": "comum.schema.json#/$defs/data" },
+    "atualizado_em": { "$ref": "comum.schema.json#/$defs/data" },
+    "historico": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "comum.schema.json#/$defs/historico" }
+    }
+  }
+}

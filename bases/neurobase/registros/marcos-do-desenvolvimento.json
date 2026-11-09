@@ -1,0 +1,147 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.marcos-do-desenvolvimento",
+  "slug": "marcos-do-desenvolvimento",
+  "base": "neurobase",
+  "nome": "Marcos do desenvolvimento",
+  "nomes_alternativos": [
+    "Marcos do desenvolvimento infantil",
+    "Marcos do desenvolvimento neuropsicomotor"
+  ],
+  "categoria": "conceito",
+  "dominios": [
+    "motor",
+    "linguagem",
+    "cognitivo",
+    "socioemocional"
+  ],
+  "definicao": "Marcos do desenvolvimento são habilidades que a maioria das crianças alcança em certas idades, como sustentar a cabeça, andar, falar ou brincar com outras pessoas. Servem de referência para acompanhar o desenvolvimento, sempre respeitando o ritmo de cada criança.",
+  "afirmacoes": [
+    {
+      "texto": "Na revisão dos marcos usados pelo CDC dos Estados Unidos, publicada em 2022, um grupo de trabalho da Academia Americana de Pediatria escolheu marcos que pelo menos 75% das crianças alcançam em cada idade de consulta e que são fáceis de observar no dia a dia. Listas baseadas na idade média, em que metade das crianças ainda não alcançou o marco, podem incentivar a atitude de esperar para ver.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para esse grupo de trabalho, não alcançar um marco que a maioria das crianças (75% ou mais) já alcança naquela idade pede uma vigilância mais cuidadosa e a consideração de uma triagem do desenvolvimento.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os marcos dessa revisão são organizados em quatro domínios do desenvolvimento: socioemocional, linguagem e comunicação, cognitivo e motor.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A idade em que crianças saudáveis alcançam um mesmo marco varia. No estudo da OMS sobre seis marcos motores, feito em cinco países, as janelas de idade de alguns marcos passaram de 9 meses de largura, e 4,3% das crianças não engatinharam sobre mãos e joelhos. Para os autores, essas janelas mostram a variação normal entre crianças saudáveis.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Lei nº 13.257/2016 determina que as políticas para a primeira infância respeitem a individualidade e os ritmos de desenvolvimento das crianças, e a Caderneta da Criança lembra que cada criança tem a sua própria forma de explorar o mundo.",
+      "fontes": [
+        "f3",
+        "f4"
+      ]
+    },
+    {
+      "texto": "Segundo a Caderneta da Criança, quando a criança não está alcançando os marcos esperados para a idade, a família deve conversar com os profissionais de saúde, de educação e de assistência social. Na maioria das vezes não é nada sério, mas quanto mais cedo um problema de desenvolvimento é identificado e enfrentado, melhores são os resultados.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "Para crianças nascidas prematuras, a Caderneta orienta corrigir a idade antes de avaliar os marcos, descontando da idade atual o tempo que faltou para completar 40 semanas de gestação.",
+      "fontes": [
+        "f4"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.neurodesenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Este registro não lista marcos por idade. As listas variam entre instrumentos e países, e os marcos de cada idade terão registros próprios.",
+    "O critério de 75% e os quatro domínios são da revisão feita para o CDC dos Estados Unidos. A Caderneta da Criança, usada no SUS, tem os próprios quadros de marcos por faixa etária.",
+    "Um marco ainda não alcançado é motivo para acompanhar e avaliar, não um diagnóstico."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Evidence-Informed Milestones for Developmental Surveillance Tools",
+      "autor": "Zubler, J. M.; Wiggins, L. D.; Macias, M. M.; Whitaker, T. M.; Shaw, J. S.; Squires, J. K.; Pajek, J. A.; Wolf, R. B.; Slaughter, K. S.; Broughton, A. S.; Gerndt, K. L.; Mlodoch, B. J.; Lipkin, P. H.",
+      "ano": 2022,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9680195/",
+      "doi": "10.1542/peds.2021-052138",
+      "referencia": "Pediatrics, v. 149, n. 3, e2021052138; resumo e métodos",
+      "trecho": "To reduce confusion about when to be concerned, developmental warning signs were eliminated because not achieving milestones that most children (≥75%) are expected to achieve similarly warrants more in-depth surveillance and consideration for developmental screening.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "WHO Motor Development Study: Windows of achievement for six gross motor development milestones",
+      "autor": "WHO Multicentre Growth Reference Study Group (Organização Mundial da Saúde)",
+      "ano": 2006,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16817682/",
+      "doi": "10.1111/j.1651-2227.2006.tb02379.x",
+      "referencia": "Acta Paediatrica, v. 95, supl. 450, p. 86-95; resumo",
+      "trecho": "The windows represent normal variation in ages of milestone achievement among healthy children.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.257, de 8 de março de 2016: dispõe sobre as políticas públicas para a primeira infância",
+      "autor": "Brasil",
+      "ano": 2016,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13257.htm",
+      "referencia": "art. 4º, III",
+      "trecho": "III - respeitar a individualidade e os ritmos de desenvolvimento das crianças e valorizar a diversidade da infância brasileira, assim como as diferenças entre as crianças em seus contextos sociais e culturais;",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "documento_oficial",
+      "titulo": "Caderneta da Criança: Passaporte da Cidadania. Menina. 7ª edição",
+      "autor": "Ministério da Saúde",
+      "ano": 2024,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_crianca_menina_passaporte_cidadania_7ed.pdf",
+      "referencia": "Parte I, Desenvolvimento Infantil (p. 37) e Sinais de Alerta (p. 53); Parte II, Avaliação dos Marcos de Desenvolvimento (p. 79)",
+      "trecho": "Na maioria das vezes não é nada sério, mas quanto mais cedo um problema de desenvolvimento for identificado e enfrentado, melhores serão os resultados.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

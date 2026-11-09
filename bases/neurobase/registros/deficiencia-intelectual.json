@@ -1,0 +1,213 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.deficiencia-intelectual",
+  "slug": "deficiencia-intelectual",
+  "base": "neurobase",
+  "nome": "Deficiência intelectual",
+  "nomes_alternativos": [
+    "Transtorno do desenvolvimento intelectual"
+  ],
+  "categoria": "condicao_do_neurodesenvolvimento",
+  "dominios": [
+    "cognitivo",
+    "adaptativo"
+  ],
+  "definicao": "Deficiência intelectual é uma condição que começa no período do desenvolvimento e reúne limitações importantes no funcionamento intelectual, como aprender, raciocinar e resolver problemas, e no comportamento adaptativo, isto é, nas habilidades conceituais, sociais e práticas do dia a dia.",
+  "afirmacoes": [
+    {
+      "texto": "A Associação Americana de Deficiências Intelectuais e do Desenvolvimento (AAIDD) define a deficiência intelectual por limitações significativas, ao mesmo tempo, no funcionamento intelectual e no comportamento adaptativo, com origem antes dos 22 anos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para a AAIDD, o comportamento adaptativo reúne habilidades conceituais, como linguagem, leitura e escrita e noções de dinheiro, tempo e números; sociais, como as relações com outras pessoas e seguir regras; e práticas, como cuidados pessoais, rotinas e segurança. A associação lembra que as limitações costumam conviver com pontos fortes e que o funcionamento melhora quando há apoios adequados e personalizados, mantidos ao longo do tempo.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pela Lei Brasileira de Inclusão (Lei nº 13.146/2015), é pessoa com deficiência quem tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial que, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva na sociedade. A lei prevê que a avaliação da deficiência, quando necessária, seja biopsicossocial e feita por equipe multiprofissional e interdisciplinar.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A CID-10 usa o título \"retardo mental\" (F70-F79), com categorias por gravidade: leve (F70), moderado (F71), grave (F72) e profundo (F73). Ela descreve o quadro como parada do desenvolvimento ou desenvolvimento incompleto do funcionamento intelectual, com comprometimento, durante o período de desenvolvimento, das funções cognitivas, de linguagem, da motricidade e do comportamento social.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Na CID-11, o nome passa a ser transtornos do desenvolvimento intelectual (6A00), com as categorias leve, moderado, grave, profundo e temporário. Na tabela de correspondência da OMS, os códigos F70, F71, F72 e F73 da CID-10 passam para 6A00.0, 6A00.1, 6A00.2 e 6A00.3.",
+      "fontes": [
+        "f4",
+        "f5"
+      ]
+    },
+    {
+      "texto": "Uma meta-análise de 52 estudos populacionais publicados de 1980 a 2009 estimou a prevalência da deficiência intelectual em 10,37 por mil habitantes, cerca de 1%. As taxas foram mais altas em países de renda baixa e média e em estudos com crianças e adolescentes.",
+      "fontes": [
+        "f6"
+      ]
+    },
+    {
+      "texto": "Uma revisão sistemática sobre autismo, de 2022, encontrou deficiência intelectual associada em 33% dos casos de autismo, em mediana.",
+      "fontes": [
+        "f7"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "sistema": "CID-10",
+      "codigo": "F70-F79",
+      "titulo": "Retardo mental",
+      "fonte": "f3"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F70",
+      "titulo": "Retardo mental leve",
+      "fonte": "f3"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F71",
+      "titulo": "Retardo mental moderado",
+      "fonte": "f3"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F72",
+      "titulo": "Retardo mental grave",
+      "fonte": "f3"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F73",
+      "titulo": "Retardo mental profundo",
+      "fonte": "f3"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "6A00",
+      "titulo": "Transtornos do desenvolvimento intelectual",
+      "fonte": "f4"
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "diferenciar_de"
+    }
+  ],
+  "limitacoes": [
+    "\"Retardo mental\" é o título oficial da CID-10, uma nomenclatura antiga. Hoje se usa \"deficiência intelectual\" e, na CID-11, \"transtornos do desenvolvimento intelectual\".",
+    "A origem antes dos 22 anos é a da definição da AAIDD. A CID-10 fala em período de desenvolvimento, sem fixar uma idade.",
+    "Este registro não descreve testes, faixas de QI nem critérios de diagnóstico."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "site_institucional",
+      "titulo": "Defining Criteria for Intellectual Disability",
+      "autor": "American Association on Intellectual and Developmental Disabilities (AAIDD)",
+      "ano": 2026,
+      "url": "https://www.aaidd.org/intellectual-disability/definition",
+      "referencia": "Definição; Intellectual Functioning; Adaptive Behavior; Age of Onset; Additional Considerations",
+      "trecho": "Intellectual disability is a condition characterized by significant limitations in both intellectual functioning and adaptive behavior that originates before the age of 22.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.146, de 6 de julho de 2015: institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência)",
+      "autor": "Brasil",
+      "ano": 2015,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+      "referencia": "art. 2º, caput e § 1º",
+      "trecho": "Art. 2º Considera-se pessoa com deficiência aquela que tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial, o qual, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo V, F70-F79: Retardo mental",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/f70_f79.htm",
+      "referencia": "Nota de abertura do agrupamento F70-F79 e categorias F70 a F73",
+      "trecho": "Parada do desenvolvimento ou desenvolvimento incompleto do funcionamento intelectual, caracterizados essencialmente por um comprometimento, durante o período de desenvolvimento, das faculdades que determinam o nível global de inteligência, isto é, das funções cognitivas, de linguagem, da motricidade e do comportamento social.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-11 para Estatísticas de Mortalidade e de Morbidade, versão 2026-01: tabulação simples em português (SimpleTabulation-ICD-11-MMS-pt)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "referencia": "6A00 e subcategorias 6A00.0 a 6A00.4 (entidade 605267007); navegador: https://icd.who.int/browse/2026-01/mms/pt#605267007",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "classificacao_oficial",
+      "titulo": "Tabelas de mapeamento CID-10 / CID-11, versão 2026-01 (10To11MapToOneCategory)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/mapping.zip",
+      "referencia": "Arquivo 10To11MapToOneCategory.txt, linhas F70 a F73 (para 6A00.0 a 6A00.3)",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f6",
+      "tipo": "revisao_sistematica",
+      "titulo": "Prevalence of intellectual disability: A meta-analysis of population-based studies",
+      "autor": "Maulik, Pallab K.; Mascarenhas, Maya N.; Mathers, Colin D.; Dua, Tarun; Saxena, Shekhar",
+      "ano": 2011,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21236634/",
+      "doi": "10.1016/j.ridd.2010.12.018",
+      "referencia": "Research in Developmental Disabilities, v. 32, n. 2, p. 419-436; resumo",
+      "trecho": "The prevalence of intellectual disability across all 52 studies included in the meta-analysis was 10.37/1000 population.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f7",
+      "tipo": "revisao_sistematica",
+      "titulo": "Global prevalence of autism: A systematic review update",
+      "autor": "Zeidan, Jinan; Fombonne, Eric; Scorah, Julie; Ibrahim, Alaa; Durkin, Maureen S.; Saxena, Shekhar; Yusuf, Afiqah; Shih, Andy; Elsabbagh, Mayada",
+      "ano": 2022,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35238171/",
+      "doi": "10.1002/aur.2696",
+      "referencia": "Autism Research, v. 15, n. 5, p. 778-790; resumo",
+      "trecho": "The median percentage of autism cases with co-occurring intellectual disability was 33.0%.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

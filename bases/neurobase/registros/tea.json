@@ -1,0 +1,247 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.tea",
+  "slug": "tea",
+  "base": "neurobase",
+  "nome": "Transtorno do Espectro Autista",
+  "sigla": "TEA",
+  "nomes_alternativos": [
+    "Autismo",
+    "Transtorno do espectro do autismo"
+  ],
+  "categoria": "condicao_do_neurodesenvolvimento",
+  "dominios": [
+    "socioemocional",
+    "linguagem",
+    "sensorial"
+  ],
+  "definicao": "O transtorno do espectro autista (TEA) é uma condição do neurodesenvolvimento marcada por diferenças persistentes na comunicação e na interação social e por padrões restritos e repetitivos de comportamentos, interesses e atividades. Os sinais aparecem cedo, e o quadro varia muito de uma pessoa para outra.",
+  "afirmacoes": [
+    {
+      "texto": "Para os efeitos da Lei nº 12.764/2012, a pessoa com TEA tem uma síndrome clínica marcada por deficiência persistente e clinicamente significativa da comunicação e da interação sociais ou por padrões restritivos e repetitivos de comportamentos, interesses e atividades.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A mesma lei considera a pessoa com TEA pessoa com deficiência, para todos os efeitos legais. A Lei nº 13.977/2020 criou a Carteira de Identificação da Pessoa com Transtorno do Espectro Autista (Ciptea), de expedição gratuita, pedida com relatório médico que indique o código da CID.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Segundo a Caderneta da Criança, do Ministério da Saúde, não se conhecem exames de laboratório nem marcadores biológicos para identificar o TEA, e o diagnóstico é feito a partir da avaliação do comportamento da criança e do relato dos pais. A Caderneta inclui a M-CHAT-R, instrumento que auxilia na identificação de risco de TEA em crianças de 16 a 30 meses.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Uma revisão de 2018 descreve o TEA como um conjunto de déficits de comunicação social e de comportamentos sensório-motores repetitivos que aparecem cedo, associados a um forte componente genético e também a outras causas.",
+      "fontes": [
+        "f4"
+      ]
+    },
+    {
+      "texto": "No Censo 2022, o IBGE contou 2.405.337 pessoas com diagnóstico de autismo declarado, 1,2% da população do Brasil. O percentual foi mais alto entre as crianças de 5 a 9 anos (2,6%) e entre os homens (1,5%, contra 0,9% entre as mulheres).",
+      "fontes": [
+        "f5",
+        "f6"
+      ]
+    },
+    {
+      "texto": "Uma revisão sistemática de 2022, com 99 estimativas de 71 estudos publicados desde 2012, encontrou prevalência mediana de autismo de 100 por 10 mil, cerca de 1%, com grande variação entre estudos e regiões. Em mediana, 33% dos casos tinham deficiência intelectual associada.",
+      "fontes": [
+        "f7"
+      ]
+    },
+    {
+      "texto": "Na tabela de correspondência da OMS, o autismo infantil (F84.0) e o autismo atípico (F84.1) da CID-10 passam para o transtorno do espectro autista (6A02) da CID-11, e a síndrome de Asperger (F84.5), para a subcategoria 6A02.0, sem transtorno do desenvolvimento intelectual e com deficiência leve ou inexistente da linguagem funcional.",
+      "fontes": [
+        "f8",
+        "f9",
+        "f10"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "sistema": "CID-10",
+      "codigo": "F84.0",
+      "titulo": "Autismo infantil",
+      "fonte": "f8"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F84.1",
+      "titulo": "Autismo atípico",
+      "fonte": "f8"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F84.5",
+      "titulo": "Síndrome de Asperger",
+      "fonte": "f8"
+    },
+    {
+      "sistema": "CID-11",
+      "codigo": "6A02",
+      "titulo": "Transtorno do espectro autista",
+      "fonte": "f9"
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "parte_de"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "costuma_coexistir"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-linguagem",
+      "tipo": "diferenciar_de"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "O número do Censo 2022 vem de diagnóstico declarado por um morador do domicílio, não de avaliação clínica, e é resultado preliminar da amostra.",
+    "A Lei nº 12.764/2012 liga os dois grupos de características por \"ou\"; a revisão citada descreve o TEA pelos dois juntos.",
+    "A correspondência entre a CID-10 e a CID-11 não é de um para um: o grupo F84 da CID-10 também inclui a síndrome de Rett (F84.2), que não faz parte do TEA na CID-11.",
+    "Este registro não descreve critérios diagnósticos, sinais por idade nem intervenções."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 12.764, de 27 de dezembro de 2012: institui a Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista",
+      "autor": "Brasil",
+      "ano": 2012,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm",
+      "referencia": "art. 1º, §§ 1º e 2º, e art. 3º-A (incluído pela Lei nº 13.977/2020); texto compilado",
+      "trecho": "§ 2º A pessoa com transtorno do espectro autista é considerada pessoa com deficiência, para todos os efeitos legais.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.977, de 8 de janeiro de 2020: institui a Carteira de Identificação da Pessoa com Transtorno do Espectro Autista (Ciptea)",
+      "autor": "Brasil",
+      "ano": 2020,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13977.htm",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "Esta Lei, denominada “Lei Romeo Mion”, altera a Lei nº 12.764, de 27 de dezembro de 2012 (Lei Berenice Piana), e a Lei nº 9.265, de 12 de fevereiro de 1996 (Lei da Gratuidade dos Atos de Cidadania), para criar a Carteira de Identificação da Pessoa com Transtorno do Espectro Autista (Ciptea), de expedição gratuita.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "documento_oficial",
+      "titulo": "Caderneta da Criança: Passaporte da Cidadania. Menina. 7ª edição",
+      "autor": "Ministério da Saúde",
+      "ano": 2024,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_crianca_menina_passaporte_cidadania_7ed.pdf",
+      "referencia": "Parte I, Percebendo alterações no desenvolvimento: Transtorno do Espectro Autista (TEA), p. 55",
+      "trecho": "Até o momento, não são conhecidos exames laboratoriais ou marcadores biológicos para identificação do TEA e o seu diagnóstico é feito a partir da avaliação do comportamento da criança e relato dos pais.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Autism spectrum disorder",
+      "autor": "Lord, Catherine; Elsabbagh, Mayada; Baird, Gillian; Veenstra-Vanderweele, Jeremy",
+      "ano": 2018,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30078460/",
+      "doi": "10.1016/S0140-6736(18)31129-2",
+      "referencia": "The Lancet, v. 392, n. 10146, p. 508-520; resumo",
+      "trecho": "Autism spectrum disorder is a term used to describe a constellation of early-appearing social communication deficits and repetitive sensory-motor behaviours associated with a strong genetic component as well as other causes.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "estatistica_oficial",
+      "titulo": "Censo Demográfico 2022: pessoas com deficiência e pessoas diagnosticadas com transtorno do espectro autista: resultados preliminares da amostra",
+      "autor": "Instituto Brasileiro de Geografia e Estatística (IBGE)",
+      "ano": 2025,
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102178.pdf",
+      "referencia": "Aspectos específicos do recenseamento de pessoas diagnosticadas com TEA (p. 61 a 63) e Análise dos resultados de pessoas com TEA (p. 64)",
+      "trecho": "Os resultados indicaram que 2,4 milhões de pessoas declararam ter recebido diagnóstico de TEA, o que corresponde a 1,2% da população residente no Brasil.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f6",
+      "tipo": "estatistica_oficial",
+      "titulo": "Tabela 10145: População residente, total e diagnosticada com autismo, por sexo e grupo de idade (Censo Demográfico 2022)",
+      "autor": "Instituto Brasileiro de Geografia e Estatística (IBGE)",
+      "ano": 2025,
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/10145/periodos/2022/variaveis/93%7C13267%7C13408?localidades=N1%5Ball%5D&classificacao=2%5B6794,4,5%5D%7C58%5Ball%5D",
+      "referencia": "Brasil, total, por sexo e por grupo de idade, lida pela API de agregados do IBGE; tabela no SIDRA: https://sidra.ibge.gov.br/tabela/10145",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f7",
+      "tipo": "revisao_sistematica",
+      "titulo": "Global prevalence of autism: A systematic review update",
+      "autor": "Zeidan, Jinan; Fombonne, Eric; Scorah, Julie; Ibrahim, Alaa; Durkin, Maureen S.; Saxena, Shekhar; Yusuf, Afiqah; Shih, Andy; Elsabbagh, Mayada",
+      "ano": 2022,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35238171/",
+      "doi": "10.1002/aur.2696",
+      "referencia": "Autism Research, v. 15, n. 5, p. 778-790; resumo",
+      "trecho": "Since 2012, 99 estimates from 71 studies were published indicating a global autism prevalence that ranges within and across regions, with a median prevalence of 100/10,000 (range: 1.09/10,000 to 436.0/10,000).",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f8",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo V, F80-F89: Transtornos do desenvolvimento psicológico",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/f80_f89.htm",
+      "referencia": "F84 Transtornos globais do desenvolvimento: F84.0, F84.1, F84.2 e F84.5",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f9",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-11 para Estatísticas de Mortalidade e de Morbidade, versão 2026-01: tabulação simples em português (SimpleTabulation-ICD-11-MMS-pt)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "referencia": "6A02 e 6A02.0 (entidades 437815624 e 120443468); navegador: https://icd.who.int/browse/2026-01/mms/pt#437815624",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f10",
+      "tipo": "classificacao_oficial",
+      "titulo": "Tabelas de mapeamento CID-10 / CID-11, versão 2026-01 (10To11MapToOneCategory)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/mapping.zip",
+      "referencia": "Arquivo 10To11MapToOneCategory.txt, linhas F84.0 e F84.1 (para 6A02.Z) e F84.5 (para 6A02.0)",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Worker do NeuroDados Brasil, na conta Cloudflare da Clínica NeuroBee (a mesma do
+# site da clínica). A conta não fica aqui: a publicação passa CLOUDFLARE_ACCOUNT_ID.
+name = "neurodados"
+main = "worker/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = false
+routes = [
+  { pattern = "clinicaneurobee.com.br/neurodados*", zone_name = "clinicaneurobee.com.br" }
+]
+
+[assets]
+directory = "./dist/site"
+binding = "ASSETS"
+html_handling = "none"
+not_found_handling = "none"
+run_worker_first = true

@@ -1,0 +1,167 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.vigilancia-do-desenvolvimento",
+  "slug": "vigilancia-do-desenvolvimento",
+  "base": "neurobase",
+  "nome": "Vigilância do desenvolvimento infantil",
+  "nomes_alternativos": [
+    "Vigilância do desenvolvimento",
+    "Acompanhamento do desenvolvimento infantil"
+  ],
+  "categoria": "conceito",
+  "dominios": [
+    "cognitivo",
+    "linguagem",
+    "motor",
+    "socioemocional"
+  ],
+  "faixa_etaria": {
+    "de_meses": 0,
+    "descricao": "Do nascimento aos 9 anos, período coberto pela Caderneta da Criança; o protocolo de risco previsto no ECA vale para os primeiros 18 meses."
+  },
+  "definicao": "Vigilância do desenvolvimento infantil é o acompanhamento contínuo, nas consultas de rotina, de como a criança está se desenvolvendo, com a observação dos marcos, a escuta da família e a atenção aos fatores de risco. Serve para perceber cedo sinais de alerta e encaminhar a criança para avaliação quando preciso.",
+  "afirmacoes": [
+    {
+      "texto": "Desde a Lei nº 13.438/2017, o Estatuto da Criança e do Adolescente torna obrigatória a aplicação, a todas as crianças nos primeiros 18 meses de vida, de protocolo ou outro instrumento que facilite a detecção, na consulta pediátrica de acompanhamento, de risco para o desenvolvimento psíquico.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Na Política Nacional de Atenção Integral à Saúde da Criança, um dos eixos é a promoção e o acompanhamento do crescimento e do desenvolvimento integral: a vigilância e o estímulo do pleno crescimento e desenvolvimento da criança, em especial na primeira infância, pela atenção básica, conforme a Caderneta da Criança.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Toda criança nascida em maternidade pública ou privada no Brasil tem direito a receber de graça a Caderneta da Criança na alta. A caderneta acompanha a saúde, o crescimento e o desenvolvimento do nascimento até os 9 anos, e a parte para os profissionais traz instrumentos de vigilância do desenvolvimento.",
+      "fontes": [
+        "f4",
+        "f5"
+      ]
+    },
+    {
+      "texto": "No instrumento da Caderneta, o profissional verifica os marcos da faixa etária, os fatores de risco e alguns dados do exame físico e classifica o desenvolvimento em três situações: desenvolvimento adequado, alerta para o desenvolvimento ou provável atraso no desenvolvimento. No provável atraso, a conduta indicada é acionar as equipes multiprofissionais ou a rede de atenção para avaliação do desenvolvimento.",
+      "fontes": [
+        "f5"
+      ]
+    },
+    {
+      "texto": "A Caderneta orienta o profissional a pedir ajuda aos responsáveis no reconhecimento das habilidades da criança, a sempre perguntar o que eles acham do desenvolvimento dela e a valorizar essa informação.",
+      "fontes": [
+        "f5"
+      ]
+    },
+    {
+      "texto": "A Academia Americana de Pediatria recomenda vigilância do desenvolvimento em todas as consultas de acompanhamento e testes de triagem padronizados aos 9, 18 e 30 meses. Uma preocupação que surja na vigilância deve levar à triagem padronizada ou ao encaminhamento direto para intervenção e cuidado médico.",
+      "fontes": [
+        "f6"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.neurodesenvolvimento",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "A lei não define qual protocolo usar nos primeiros 18 meses. Este registro não indica instrumentos e não traz itens de testes ou questionários.",
+    "As recomendações da Academia Americana de Pediatria são dos Estados Unidos; no SUS, a referência é a Caderneta da Criança, dentro da política de saúde da criança.",
+    "Vigilância não é diagnóstico: um sinal de alerta indica a necessidade de acompanhar ou avaliar, não a presença de um transtorno."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.069, de 13 de julho de 1990: dispõe sobre o Estatuto da Criança e do Adolescente",
+      "autor": "Brasil",
+      "ano": 1990,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm",
+      "referencia": "art. 14, § 5º (incluído pela Lei nº 13.438/2017); texto compilado",
+      "trecho": "§ 5º É obrigatória a aplicação a todas as crianças, nos seus primeiros dezoito meses de vida, de protocolo ou outro instrumento construído com a finalidade de facilitar a detecção, em consulta pediátrica de acompanhamento da criança, de risco para o seu desenvolvimento psíquico.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.438, de 26 de abril de 2017",
+      "autor": "Brasil",
+      "ano": 2017,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13438.htm",
+      "referencia": "ementa e art. 1º",
+      "trecho": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para tornar obrigatória a adoção pelo Sistema Único de Saúde (SUS) de protocolo que estabeleça padrões para a avaliação de riscos para o desenvolvimento psíquico das crianças.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "norma",
+      "titulo": "Portaria de Consolidação nº 2, de 28 de setembro de 2017, Anexo X: Política Nacional de Atenção Integral à Saúde da Criança (PNAISC)",
+      "autor": "Ministério da Saúde",
+      "ano": 2017,
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0002_03_10_2017.html",
+      "referencia": "Anexo X, art. 6º, III (origem: Portaria GM/MS nº 1.130, de 5 de agosto de 2015)",
+      "trecho": "III - promoção e acompanhamento do crescimento e do desenvolvimento integral: consiste na vigilância e estímulo do pleno crescimento e desenvolvimento da criança, em especial do \"Desenvolvimento na Primeira Infância (DPI)\", pela atenção básica à saúde, conforme as orientações da \"Caderneta de Saúde da Criança\", incluindo ações de apoio às famílias para o fortalecimento de vínculos familiares",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "site_institucional",
+      "titulo": "Caderneta da Criança",
+      "autor": "Ministério da Saúde",
+      "ano": 2026,
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-da-crianca/caderneta",
+      "referencia": "Seções Como funciona e Como ter acesso",
+      "trecho": "Toda criança nascida em maternidades públicas ou privadas no Brasil tem direito a receber gratuitamente a Caderneta da Criança - Passaporte da Cidadania no momento da alta.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "documento_oficial",
+      "titulo": "Caderneta da Criança: Passaporte da Cidadania. Menina. 7ª edição",
+      "autor": "Ministério da Saúde",
+      "ano": 2024,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_crianca_menina_passaporte_cidadania_7ed.pdf",
+      "referencia": "Apresentação; Parte II, Acompanhando o desenvolvimento: Vigilância do Desenvolvimento Infantil, Avaliação dos Marcos e Instrumento de Avaliação, p. 78 a 80",
+      "trecho": "Sempre pergunte aos cuidadores o que eles acham do desenvolvimento da sua criança. Valorize esta informação.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f6",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Promoting Optimal Development: Identifying Infants and Young Children With Developmental Disorders Through Developmental Surveillance and Screening",
+      "autor": "Lipkin, Paul H.; Macias, Michelle M.; Council on Children with Disabilities; Section on Developmental and Behavioral Pediatrics (American Academy of Pediatrics)",
+      "ano": 2020,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31843861/",
+      "doi": "10.1542/peds.2019-3449",
+      "referencia": "Pediatrics, v. 145, n. 1, e20193449; resumo",
+      "trecho": "Developmental surveillance is supported at every health supervision visit, as is as the administration of standardized screening tests at the 9-, 18-, and 30-month visits.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "neurodados",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NeuroDados Brasil: dados abertos sobre neurodesenvolvimento, com a fonte de cada informação. Mantido pela Clínica NeuroBee.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "validar": "node scripts/validar.mjs",
+    "construir": "node scripts/construir.mjs",
+    "testar": "node scripts/construir.mjs && node scripts/testar.mjs",
+    "textos": "node scripts/textos.mjs",
+    "servir": "node scripts/construir.mjs && node scripts/servir.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

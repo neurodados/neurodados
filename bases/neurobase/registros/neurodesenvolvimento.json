@@ -1,0 +1,127 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.neurodesenvolvimento",
+  "slug": "neurodesenvolvimento",
+  "base": "neurobase",
+  "nome": "Neurodesenvolvimento",
+  "categoria": "conceito",
+  "dominios": [
+    "cognitivo",
+    "linguagem",
+    "motor",
+    "socioemocional"
+  ],
+  "definicao": "Neurodesenvolvimento é o processo de formação e amadurecimento do sistema nervoso, que começa na gestação e segue pela infância e pela adolescência. Nesse processo, a criança ganha capacidades motoras, de comunicação, intelectuais, sociais e emocionais, a partir da interação entre os genes e as experiências.",
+  "afirmacoes": [
+    {
+      "texto": "O desenvolvimento do cérebro humano é um processo longo: começa na terceira semana de gestação, com a diferenciação das células progenitoras neurais, e se estende pelo menos até o fim da adolescência.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Genes e ambiente agem juntos. A expressão dos genes e os estímulos do ambiente são, ambos, necessários para o desenvolvimento normal do cérebro, e nenhum dos dois, sozinho, determina o resultado.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Na infância, o desenvolvimento aparece nas capacidades que a criança ganha, como se comunicar, manusear objetos, movimentar-se, sentar, equilibrar-se, andar e falar. A Caderneta da Criança, do Ministério da Saúde, orienta a família a acompanhar com os profissionais as habilidades motoras, intelectuais, sociais e emocionais da criança.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Segundo a Caderneta da Criança, a primeira infância, do nascimento aos 6 anos, é uma fase muito importante para o desenvolvimento mental, emocional e de socialização.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A Lei nº 13.257/2016 define a primeira infância como os primeiros 6 anos completos, ou 72 meses, de vida e determina que o Estado tenha políticas, planos, programas e serviços próprios para essa fase, para garantir o desenvolvimento integral da criança.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "A mesma lei determina que as políticas públicas para a primeira infância respeitem a individualidade e os ritmos de desenvolvimento das crianças.",
+      "fontes": [
+        "f3"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.marcos-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.vigilancia-do-desenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.funcoes-executivas",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Este registro trata do conceito geral. As condições do neurodesenvolvimento, os marcos e a vigilância do desenvolvimento têm registros próprios.",
+    "O registro descreve o desenvolvimento em termos gerais e não traz idades nem médias, que variam de uma criança para outra."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "The Basics of Brain Development",
+      "autor": "Stiles, Joan; Jernigan, Terry L.",
+      "ano": 2010,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2989000/",
+      "doi": "10.1007/s11065-010-9148-4",
+      "referencia": "Neuropsychology Review, v. 20, n. 4, p. 327-348; introdução",
+      "trecho": "Human brain development is a protracted process that begins in the third gestational week (GW) with the differentiation of the neural progenitor cells and extends at least through late adolescence, arguably throughout the lifespan.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "documento_oficial",
+      "titulo": "Caderneta da Criança: Passaporte da Cidadania. Menina. 7ª edição",
+      "autor": "Ministério da Saúde",
+      "ano": 2024,
+      "url": "https://bvsms.saude.gov.br/bvs/publicacoes/caderneta_crianca_menina_passaporte_cidadania_7ed.pdf",
+      "referencia": "Parte I, Estimulando o desenvolvimento com afeto: Desenvolvimento Infantil, p. 37",
+      "trecho": "A criança cresce modificando a aparência e a resistência do seu corpo, mas também desenvolvendo capacidades de se comunicar, manusear objetos, movimentar-se, sentar, equilibrar-se, andar e falar.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.257, de 8 de março de 2016: dispõe sobre as políticas públicas para a primeira infância",
+      "autor": "Brasil",
+      "ano": 2016,
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13257.htm",
+      "referencia": "art. 2º, art. 3º e art. 4º, III",
+      "trecho": "Art. 2º Para os efeitos desta Lei, considera-se primeira infância o período que abrange os primeiros 6 (seis) anos completos ou 72 (setenta e dois) meses de vida da criança.",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.funcoes-executivas",
+  "slug": "funcoes-executivas",
+  "base": "neurobase",
+  "nome": "Funções executivas",
+  "nomes_alternativos": [
+    "Controle executivo",
+    "Controle cognitivo"
+  ],
+  "categoria": "conceito",
+  "dominios": [
+    "cognitivo"
+  ],
+  "definicao": "Funções executivas são processos mentais que permitem controlar a atenção, o pensamento e as ações quando agir no automático não basta. As três centrais são o controle inibitório, a memória de trabalho e a flexibilidade cognitiva; a partir delas se constroem o raciocínio, a resolução de problemas e o planejamento.",
+  "afirmacoes": [
+    {
+      "texto": "Funções executivas, também chamadas de controle executivo ou controle cognitivo, são uma família de processos mentais usados quando é preciso se concentrar e prestar atenção, e quando agir no automático ou confiar no instinto ou na intuição seria inadequado, insuficiente ou impossível.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Há acordo geral de que existem três funções executivas centrais: a inibição, ou controle inibitório, que inclui o autocontrole e o controle da interferência (atenção seletiva e inibição cognitiva); a memória de trabalho; e a flexibilidade cognitiva. A partir delas se constroem funções de ordem superior, como raciocínio, resolução de problemas e planejamento.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As funções executivas são essenciais para a saúde mental e física, para o sucesso na escola e na vida e para o desenvolvimento cognitivo, social e psicológico.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Estresse, falta de sono, solidão e falta de exercício físico prejudicam as funções executivas. Elas podem ser treinadas e melhoram com a prática.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O protocolo clínico do Ministério da Saúde para o TDAH registra que pessoas com o transtorno têm dificuldades em funções cognitivas como resolução de problemas, planejamento, orientação, flexibilidade, atenção prolongada, inibição de resposta e memória de trabalho.",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A CID-11 não trata as funções executivas como um transtorno, mas tem um código de sintoma para o comprometimento da função executiva (MB21.7), entre os sintomas, sinais ou achados clínicos que envolvem a cognição, no capítulo 21.",
+      "fontes": [
+        "f3"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "sistema": "CID-11",
+      "codigo": "MB21.7",
+      "titulo": "Comprometimento da função executiva",
+      "fonte": "f3"
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.neurodesenvolvimento",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Funções executivas são um conceito, não um diagnóstico. O código MB21.7 da CID-11 registra um sintoma, o comprometimento da função executiva, e não um transtorno.",
+    "Este registro não descreve testes nem tarefas usados para avaliar funções executivas.",
+    "A divisão em três funções centrais tem acordo geral na revisão citada, mas a relação entre funções executivas, inteligência, autorregulação e atenção ainda é debatida na pesquisa."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Executive Functions",
+      "autor": "Diamond, Adele",
+      "ano": 2013,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4084861/",
+      "doi": "10.1146/annurev-psych-113011-143750",
+      "referencia": "Annual Review of Psychology, v. 64, p. 135-168; resumo e introdução",
+      "trecho": "There is general agreement that there are three core EFs (e.g., Lehto et al. 2003, Miyake et al. 2000): inhibition [inhibitory control, including self-control (behavioral inhibition) and interference control (selective attention and cognitive inhibition)], working memory (WM), and cognitive flexibility",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "diretriz_clinica",
+      "titulo": "Protocolo Clínico e Diretrizes Terapêuticas do Transtorno do Déficit de Atenção com Hiperatividade (Portaria Conjunta nº 14, de 29 de julho de 2022)",
+      "autor": "Ministério da Saúde (SAES e SCTIE)",
+      "ano": 2022,
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntan14pcdttranstornododeficitdeatencaocomhiperatividadetdah.pdf/@@display-file/file",
+      "referencia": "Anexo, 1. Introdução",
+      "trecho": "Os indivíduos com TDAH também apresentam dificuldades nos domínios das funções cognitivas, como resolução de problemas, planejamento, orientação, flexibilidade, atenção prolongada, inibição de resposta e memória de trabalho",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-11 para Estatísticas de Mortalidade e de Morbidade, versão 2026-01: tabulação simples em português (SimpleTabulation-ICD-11-MMS-pt)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "referencia": "Capítulo 21, MB21 e MB21.7 (entidade 1675353974); navegador: https://icd.who.int/browse/2026-01/mms/pt#1675353974",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

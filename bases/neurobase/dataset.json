@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/dataset.schema.json",
+  "id": "neurobase",
+  "nome": "NeuroBase",
+  "titulo": "NeuroBase: conceitos e condições do neurodesenvolvimento",
+  "descricao": "Base aberta de conceitos, domínios e condições do neurodesenvolvimento e do desenvolvimento infantil. Cada registro traz uma definição em linguagem simples, os pontos principais ligados às fontes que os sustentam, a classificação oficial quando existe e a situação da revisão.",
+  "versao": "2026.11.08",
+  "mantenedor": { "nome": "Clínica NeuroBee", "url": "https://clinicaneurobee.com.br" },
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "licenca": {
+    "nome": "Creative Commons Atribuição 4.0 Internacional",
+    "sigla": "CC BY 4.0",
+    "spdx": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/deed.pt_BR"
+  },
+  "metodologia": "https://clinicaneurobee.com.br/neurodados/metodologia",
+  "palavras_chave": [
+    "neurodesenvolvimento",
+    "desenvolvimento infantil",
+    "autismo",
+    "TEA",
+    "TDAH",
+    "dislexia",
+    "deficiência intelectual",
+    "funções executivas",
+    "CID-10",
+    "dados abertos"
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não serve para diagnóstico e não substitui a avaliação de um profissional habilitado.",
+    "Cada registro resume o que as fontes citadas dizem na data da consulta. As fontes mudam, e a data de cada uma fica no registro.",
+    "Registros com a situação \"conferido nas fontes\" ainda não passaram pela revisão de um profissional de saúde."
+  ],
+  "historico_de_versoes": [
+    { "versao": "2026.11.08", "data": "2026-11-08", "mudanca": "Primeira versão." }
+  ]
+}

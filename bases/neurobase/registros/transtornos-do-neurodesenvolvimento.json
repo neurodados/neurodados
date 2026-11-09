@@ -1,0 +1,215 @@
+{
+  "$schema": "../../../schemas/neurobase.schema.json",
+  "id": "neurobase.transtornos-do-neurodesenvolvimento",
+  "slug": "transtornos-do-neurodesenvolvimento",
+  "base": "neurobase",
+  "nome": "Transtornos do neurodesenvolvimento",
+  "categoria": "conceito",
+  "definicao": "Transtornos do neurodesenvolvimento são um grupo de condições que começam durante o desenvolvimento, em geral na infância, e afetam funções como o intelecto, a linguagem, a aprendizagem, a atenção, a interação social ou a coordenação motora. O grupo inclui, entre outros, o TEA, o TDAH, a deficiência intelectual, o transtorno do desenvolvimento da linguagem e os transtornos específicos da aprendizagem.",
+  "afirmacoes": [
+    {
+      "texto": "Na CID-11, os transtornos do neurodesenvolvimento formam um bloco próprio, com os códigos de 6A00 a 6A0Z, dentro do capítulo 06, de transtornos mentais, comportamentais ou do neurodesenvolvimento.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O bloco da CID-11 reúne os transtornos do desenvolvimento intelectual (6A00), os transtornos do desenvolvimento da fala ou da linguagem (6A01), o transtorno do espectro autista (6A02), o transtorno do desenvolvimento da aprendizagem (6A03), o transtorno do desenvolvimento da coordenação motora (6A04), o transtorno de déficit de atenção e hiperatividade (6A05) e o transtorno de movimento estereotipado (6A06).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A CID-10 não tem um grupo com esse nome. As mesmas condições ficam em blocos diferentes do capítulo V: retardo mental (F70-F79), transtornos do desenvolvimento psicológico (F80-F89) e transtornos do comportamento e transtornos emocionais que aparecem habitualmente durante a infância ou a adolescência (F90-F98), onde estão os transtornos hipercinéticos (F90).",
+      "fontes": [
+        "f2",
+        "f4"
+      ]
+    },
+    {
+      "texto": "Segundo a CID-10, os transtornos do bloco F80-F89 têm em comum o início na primeira ou na segunda infância, o comprometimento ou atraso de funções ligadas à maturação biológica do sistema nervoso central e uma evolução contínua, sem remissões nem recaídas.",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Os transtornos do neurodesenvolvimento, como o TDAH e o TEA, são mais lembrados na infância, mas podem durar a vida toda. Há muita sobreposição entre eles e muita variação de uma pessoa para outra.",
+      "fontes": [
+        "f5"
+      ]
+    },
+    {
+      "texto": "Na tabela de correspondência da OMS entre a CID-10 e a CID-11, nem tudo passa de um grupo ao outro: a síndrome de Rett (F84.2) vai para o capítulo de anomalias do desenvolvimento da CID-11 (LD90.4), e o transtorno hipercinético de conduta (F90.1) passa para o transtorno de conduta dissocial (6C91).",
+      "fontes": [
+        "f6",
+        "f1"
+      ]
+    },
+    {
+      "texto": "No Brasil, o Ministério da Saúde prevê começar a usar a CID-11 em janeiro de 2027, depois de concluir com a OPAS, em 2024, a tradução para o português. Até lá, documentos do SUS usam a CID-10, como o protocolo clínico do TDAH, de 2022.",
+      "fontes": [
+        "f7",
+        "f8"
+      ]
+    }
+  ],
+  "classificacoes": [
+    {
+      "sistema": "CID-11",
+      "codigo": "6A00-6A0Z",
+      "titulo": "Transtornos do neurodesenvolvimento",
+      "fonte": "f1"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F70-F79",
+      "titulo": "Retardo mental",
+      "fonte": "f2"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F80-F89",
+      "titulo": "Transtornos do desenvolvimento psicológico",
+      "fonte": "f2"
+    },
+    {
+      "sistema": "CID-10",
+      "codigo": "F90",
+      "titulo": "Transtornos hipercinéticos",
+      "fonte": "f4"
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.neurodesenvolvimento",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "inclui"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "inclui"
+    },
+    {
+      "id": "neurobase.deficiencia-intelectual",
+      "tipo": "inclui"
+    },
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-linguagem",
+      "tipo": "inclui"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "inclui"
+    }
+  ],
+  "limitacoes": [
+    "Os blocos da CID-10 listados não equivalem ao grupo da CID-11. Eles mostram onde a CID-10 coloca as condições que a CID-11 reúne nesse grupo.",
+    "Este registro não descreve cada condição. TEA, TDAH, deficiência intelectual, transtorno do desenvolvimento da linguagem e transtornos específicos da aprendizagem têm registros próprios; o transtorno do desenvolvimento da coordenação motora e o transtorno de movimento estereotipado ainda não têm.",
+    "Os nomes seguem a tradução da CID-11 para o português publicada pela OMS. Outras fontes brasileiras usam nomes diferentes para as mesmas condições, como \"Transtorno do Déficit de Atenção com Hiperatividade\"."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-11 para Estatísticas de Mortalidade e de Morbidade, versão 2026-01: tabulação simples em português (SimpleTabulation-ICD-11-MMS-pt)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/SimpleTabulation-ICD-11-MMS-pt.zip",
+      "referencia": "Capítulo 06, bloco BlockL1-6A0 (entidade 1516623224), códigos 6A00 a 6A0Z; navegador: https://icd.who.int/browse/2026-01/mms/pt#1516623224",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f2",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo V: Transtornos mentais e comportamentais (F00-F99)",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/f00_f99.htm",
+      "referencia": "Lista dos agrupamentos do capítulo V",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f3",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo V, F80-F89: Transtornos do desenvolvimento psicológico",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/f80_f89.htm",
+      "referencia": "Nota de abertura do agrupamento F80-F89",
+      "trecho": "Os transtornos classificados em F80-F89 têm em comum: a) início situado obrigatoriamente na primeira ou segunda infância; b) comprometimento ou retardo do desenvolvimento de funções estreitamente ligadas à maturação biológica do sistema nervoso central; e c) evolução contínua sem remissões nem recaídas.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f4",
+      "tipo": "classificacao_oficial",
+      "titulo": "CID-10, capítulo V, F90-F98: Transtornos do comportamento e transtornos emocionais que aparecem habitualmente durante a infância ou a adolescência",
+      "autor": "Organização Mundial da Saúde (OMS); versão em português do Centro Colaborador da OMS para a Classificação de Doenças em Português (CBCD), publicada pelo DATASUS",
+      "ano": 2008,
+      "url": "http://www2.datasus.gov.br/cid10/V2008/WebHelp/f90_f98.htm",
+      "referencia": "F90 Transtornos hipercinéticos",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f5",
+      "tipo": "artigo_revisado_por_pares",
+      "titulo": "Neurodevelopmental disorders",
+      "autor": "Thapar, Anita; Cooper, Miriam; Rutter, Michael",
+      "ano": 2017,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27979720/",
+      "doi": "10.1016/S2215-0366(16)30376-5",
+      "referencia": "The Lancet Psychiatry, v. 4, n. 4, p. 339-346; resumo (artigo do tipo Personal View)",
+      "trecho": "Neurodevelopmental disorders such as attention deficit hyperactivity disorder (ADHD) and autism spectrum disorder, although most commonly considered in childhood, can be lifelong conditions.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f6",
+      "tipo": "classificacao_oficial",
+      "titulo": "Tabelas de mapeamento CID-10 / CID-11, versão 2026-01 (10To11MapToOneCategory)",
+      "autor": "Organização Mundial da Saúde (OMS)",
+      "ano": 2026,
+      "url": "https://icdcdn.who.int/static/releasefiles/2026-01/mapping.zip",
+      "referencia": "Arquivo 10To11MapToOneCategory.txt, linhas F84.2 (para LD90.4) e F90.1 (para 6C91.Z)",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f7",
+      "tipo": "site_institucional",
+      "titulo": "11ª Revisão da Classificação Internacional de Doenças será implementada no Brasil até 2027",
+      "autor": "Ministério da Saúde",
+      "ano": 2025,
+      "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2025/janeiro/11a-revisao-da-classificacao-internacional-de-doencas-sera-implementada-no-brasil-ate-2027",
+      "referencia": "Notícia publicada em 13/01/2025 e atualizada em 26/10/2026",
+      "trecho": "Em 2024, o Ministério da Saúde e a Organização Pan-Americana de Saúde (Opas) concluíram a tradução do documento para a língua portuguesa. Com isso, sua implementação está prevista para 1º de janeiro de 2027.",
+      "consultado_em": "2026-11-08"
+    },
+    {
+      "id": "f8",
+      "tipo": "diretriz_clinica",
+      "titulo": "Protocolo Clínico e Diretrizes Terapêuticas do Transtorno do Déficit de Atenção com Hiperatividade (Portaria Conjunta nº 14, de 29 de julho de 2022)",
+      "autor": "Ministério da Saúde (SAES e SCTIE)",
+      "ano": 2022,
+      "url": "https://www.gov.br/conitec/pt-br/midias/protocolos/portariaconjuntan14pcdttranstornododeficitdeatencaocomhiperatividadetdah.pdf/@@display-file/file",
+      "referencia": "Anexo, seção 2: Classificação Estatística Internacional de Doenças (CID-10)",
+      "consultado_em": "2026-11-08"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-08",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-08",
+  "atualizado_em": "2026-11-08",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-08",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}
