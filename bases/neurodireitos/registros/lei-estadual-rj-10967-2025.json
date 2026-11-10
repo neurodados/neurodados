@@ -1,0 +1,125 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-10967-2025",
+  "slug": "lei-estadual-rj-10967-2025",
+  "base": "neurodireitos",
+  "nome": "Lei nº 10.967, de 25 de setembro de 2025, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "10.967",
+    "data": "2025-09-25",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Dispõe sobre Protocolo Individualizado de Avaliação (PIA) para os alunos com transtornos globais do desenvolvimento, incluindo-se Transtorno do Espectro Autista - TEA -, nas instituições de ensino de todo o Estado do Rio de Janeiro.",
+    "publicacao": "Diário Oficial do Estado nº 177, de 26/09/2025",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "A Lei estadual nº 10.967/2025 dá aos alunos com transtornos globais do desenvolvimento, incluindo o TEA, do ensino fundamental ao superior, o direito ao Protocolo Individualizado de Avaliação (PIA), com adaptação de tarefas e provas, nas instituições de ensino de todo o Estado do Rio de Janeiro (arts. 1º e 3º).",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º dá o direito de acesso às medidas do PIA aos alunos com transtornos globais do desenvolvimento matriculados nos ensinos fundamental I e II, médio, superior, técnico, tecnológico e profissionalizante, em instituições de ensino de todo o Estado do Rio de Janeiro. O texto não distingue escolas públicas e privadas.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O PIA é concedido mediante simples requerimento, com indicação da CID e laudo de profissional habilitado, ou cópia do RG com indicação da deficiência e da CID, ou a Carteira de Identificação da Pessoa com Transtorno do Espectro Autista, a CIPTEA (art. 1º, inciso I).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Feito o registro, o PIA vale até o término do curso, e é vedado à instituição pedir revalidação do registro (art. 1º, inciso III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei considera pessoas com transtornos globais do desenvolvimento as que apresentam alterações qualitativas das interações sociais recíprocas e da comunicação, ou repertório de interesses e atividades restrito, estereotipado e repetitivo, incluindo as pessoas com TEA (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As instituições devem adequar tarefas, avaliações e provas, simplificar ou fragmentar atividades e adaptar avaliações para permitir exercícios práticos ou trabalhos escritos e orais (art. 3º, incisos I a III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O aluno deve indicar no requerimento as condições de que precisa, e a instituição deve informar semestralmente aos docentes as condições solicitadas (art. 3º, §§ 1º e 2º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9395-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da ALERJ, é o que vale.",
+    "O texto da lei não cita escolas públicas nem privadas: diz \"instituições de ensino de todo o Estado do Rio de Janeiro\". Não consta regulamentação na ficha da ALERJ, e este registro não interpreta a quem a lei obriga em cada caso.",
+    "O art. 3º, inciso I, fala em substituir provas por trabalhos. A lei não detalha como isso se aplica a cursos com exigências próprias.",
+    "A vigência foi conferida no texto da base oficial da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha marca \"Em Vigor\" e não traz nota de revogação nem de alteração."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 10.967, de 25 de setembro de 2025, do Estado do Rio de Janeiro (texto na base de leis da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2025,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/cb9995aa304858ea03258d1100499f8e?OpenDocument",
+      "referencia": "arts. 1º a 3º",
+      "trecho": "Art. 1º Os alunos com transtornos globais do desenvolvimento, matriculados no ensino fundamental I, fundamental II, médio, superior, técnico, tecnológico e profissionalizante em instituições de ensino de todo o Estado do Rio de Janeiro, têm o direito ao acesso às medidas da Política de Protocolo Individualizado de Avaliação (PIA).",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

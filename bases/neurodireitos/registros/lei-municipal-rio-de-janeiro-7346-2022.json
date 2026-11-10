@@ -1,0 +1,105 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-7346-2022",
+  "slug": "lei-municipal-rio-de-janeiro-7346-2022",
+  "base": "neurodireitos",
+  "nome": "Lei nº 7.346, de 5 de maio de 2022, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "7.346",
+    "data": "2022-05-05",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Dispõe sobre o caráter permanente do laudo que diagnostique o Transtorno do Espectro Autista - TEA e da Síndrome de Down e dá outras providências.",
+    "publicacao": "Diário Oficial do Município de 06/05/2022",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "deficiencia"
+  ],
+  "areas": [
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei municipal nº 7.346/2022 define como permanente, com validade indeterminada no Município do Rio de Janeiro, o laudo que ateste o TEA e a síndrome de Down. A lei permite rever o laudo do TEA se a pessoa quiser, quando o grau do autismo mudar.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º define como permanente o laudo que ateste o Transtorno do Espectro Autista e a Síndrome de Down, com validade indeterminada, no Município.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pelo parágrafo único do art. 1º, se a pessoa com TEA desejar, por situações de mudança do grau do autismo, o laudo pode ser revisto.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data da publicação (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.sindrome-de-down",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9425-2021",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Câmara Municipal do Rio, é o que vale.",
+    "A lei vale no Município do Rio de Janeiro. O texto não diz perante quais órgãos ou serviços o laudo permanente é aceito.",
+    "O parágrafo único trata da revisão só para o TEA, e o texto não menciona revisão do laudo de síndrome de Down. A lei cita a síndrome de Down, que o registro não classifica como condição própria.",
+    "A vigência foi conferida na ficha e no texto da base oficial da Câmara Municipal do Rio em 10 de novembro de 2026 (\"Em Vigor\"), sem texto compilado. Nenhuma lei posterior da base cita esta lei, e não foi achado decreto que a regulamente."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 7.346, de 5 de maio de 2022: dispõe sobre o caráter permanente do laudo que diagnostique o TEA e a Síndrome de Down",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2022,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/02a215c4a855a19303258839004b840b?OpenDocument",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "Art. 1º Fica definido como permanente o laudo que ateste o Transtorno do Espectro Autista - TEA e da Síndrome de Down, que terá validade indeterminada, no Município.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

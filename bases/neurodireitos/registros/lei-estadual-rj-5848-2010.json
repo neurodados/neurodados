@@ -1,0 +1,123 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-5848-2010",
+  "slug": "lei-estadual-rj-5848-2010",
+  "base": "neurodireitos",
+  "nome": "Lei nº 5.848, de 28 de dezembro de 2010, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "5.848",
+    "data": "2010-12-28",
+    "orgao": "Assembleia Legislativa do Estado do Rio de Janeiro",
+    "ementa": "Dispõe sobre medidas para identificação e tratamento da dislexia na rede estadual de educação e dá outras providências.",
+    "publicacao": "Diário Oficial do Estado de 29/12/2010",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "dislexia",
+    "transtornos_de_aprendizagem"
+  ],
+  "areas": [
+    "educacao",
+    "saude"
+  ],
+  "definicao": "A Lei estadual nº 5.848/2010 prevê que o Estado adote medidas de identificação e tratamento da dislexia na rede estadual de educação: exame dos alunos, capacitação dos educadores e equipes multidisciplinares. O art. 5º diz que cabe ao Poder Executivo regulamentá-la.",
+  "afirmacoes": [
+    {
+      "texto": "O Estado adotará medidas para identificação e tratamento da dislexia na rede estadual de educação, com o objetivo de detecção precoce e acompanhamento dos estudantes (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A efetivação refere-se à realização de exame nos alunos matriculados no 1º ano do ensino fundamental, nos já matriculados na rede quando a lei surgiu e nos admitidos por transferência de escolas fora da rede pública estadual (art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As medidas devem abranger a capacitação permanente dos educadores, para que identifiquem os sinais da dislexia e de outros distúrbios (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Cabe ao Estado, por seus órgãos setoriais competentes, formular diretrizes e criar equipes multidisciplinares. As equipes responsáveis pelos diagnósticos devem ter profissionais de Psicologia, Fonoaudiologia e Psicopedagogia (art. 3º e parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As medidas têm caráter preventivo e também promovem o tratamento dos estudantes (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Cabe ao Poder Executivo regulamentar a lei (art. 5º). A lei entrou em vigor na data da publicação (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14254-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-6881-2021",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Assembleia Legislativa do Estado do Rio de Janeiro (ALERJ), é o que vale.",
+    "A lei vale para a rede estadual de educação. Ela não trata de escolas particulares nem de redes municipais.",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha da lei indica \"Em Vigor\" e não traz nota de revogação nem ação de inconstitucionalidade. Não achei decreto regulamentador: o campo \"Texto da Regulamentação\" da ficha está vazio. O art. 5º remete a regulamento do Poder Executivo.",
+    "A lei não detalha como o exame é feito nem quem o aplica. O registro não afirma como a rede estadual a executa hoje."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 5.848, de 28 de dezembro de 2010, do Estado do Rio de Janeiro (texto na base da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2010,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/0919ab09e864c344832578070061e805?OpenDocument",
+      "referencia": "arts. 1º a 6º",
+      "trecho": "Art.1º O Estado adotará medidas para Identificação e Tratamento da Dislexia na Rede Estadual de Educação, objetivando a detecção precoce e acompanhamento dos estudantes com o distúrbio.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

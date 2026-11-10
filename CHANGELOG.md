@@ -1,5 +1,10 @@
 # Mudanças
 
+## NeuroDireitos 2026.11.10
+
+- As primeiras normas locais: 20 leis do Estado do Rio de Janeiro e 16 leis do Município do Rio de Janeiro, cada uma com a abrangência, a UF e o município. Filtros por abrangência e por UF na API e no MCP.
+- Na página do NeuroDireitos, as normas aparecem agrupadas por lugar: as federais, as de cada estado e as de cada município.
+
 ## NeuroBase 2026.11.09.2
 
 - Doze registros novos: quatro domínios do desenvolvimento, três condições do neurodesenvolvimento, três condições associadas (transtornos de tique, síndrome de Down e paralisia cerebral), comorbidade e neurodiversidade. Ligações entre os registros novos e os já publicados.

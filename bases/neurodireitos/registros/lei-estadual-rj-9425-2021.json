@@ -1,0 +1,140 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-9425-2021",
+  "slug": "lei-estadual-rj-9425-2021",
+  "base": "neurodireitos",
+  "nome": "Lei nº 9.425, de 29 de setembro de 2021, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "9.425",
+    "data": "2021-09-29",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Dispõe sobre o laudo médico que atesta deficiências irreversíveis ou Transtorno do Espectro Autista - TEA.",
+    "publicacao": "Diário Oficial do Estado de 30/09/2021",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 10.186, de 23 de novembro de 2023"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "deficiencia"
+  ],
+  "areas": [
+    "saude",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 9.425/2021 dá validade por tempo indeterminado ao laudo médico que atesta deficiência irreversível ou TEA no Rio de Janeiro e proíbe exigir a renovação. A Lei nº 10.186/2023 ampliou o texto para incluir o TEA e as deficiências sensoriais.",
+  "afirmacoes": [
+    {
+      "texto": "O laudo médico que ateste deficiência física, sensorial, mental ou intelectual de caráter irreversível, ou TEA, tem validade por tempo indeterminado (art. 1º, na redação da Lei nº 10.186/2023).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O laudo vale para todos os serviços públicos e benefícios que exijam comprovação da deficiência (art. 1º, § 1º). Fica vedada a exigência de renovação do laudo (art. 1º, § 2º, incluído pela Lei nº 10.186/2023, com veto rejeitado pela ALERJ).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O laudo é emitido pelo médico, da rede pública ou privada, e deve trazer o nome completo, o CID-10 ou CID-11, a CIF, o carimbo e o registro no conselho profissional, e a condição de irreversibilidade (art. 2º).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "Para pessoa com TEA ou com síndrome de Down, é proibido exigir a CIF. Para a pessoa com TEA, em caso de mudança do grau do autismo, o laudo poderá ser revisto (art. 2º, §§ 1º e 2º).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "As requisições médicas para tratamento e acompanhamento das deficiências irreversíveis ou do TEA também têm validade indeterminada, e é vedada a exigência de renovação delas (art. 3º e parágrafo único).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7346-2022",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9395-2021",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALERJ, é o que vale.",
+    "A lei não menciona regulamentação, e o campo de regulamentação da ficha da ALERJ está vazio. O texto fala em deficiência de caráter irreversível: o médico deve registrar essa condição no laudo.",
+    "O artigo diz que o laudo vale para os serviços públicos e benefícios que exijam comprovação. O registro não trata de normas federais sobre laudo.",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado oficial, com a redação da Lei nº 10.186/2023 já incorporada à ficha."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 9.425, de 29 de setembro de 2021, do Estado do Rio de Janeiro: dispõe sobre o laudo médico que atesta deficiências irreversíveis ou TEA (texto com as alterações, na base da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2021,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/15a3b5cbb81ad4930325876700703c2f?OpenDocument",
+      "referencia": "arts. 1º a 4º, com a redação da Lei nº 10.186/2023",
+      "trecho": "Art. 1º - O laudo médico que ateste deficiências físicas, sensoriais, mentais e ou intelectuais de carácter irreversível ou transtorno do espectro autista TEA, terão validade por tempo indeterminado.",
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 10.186, de 23 de novembro de 2023, do Estado do Rio de Janeiro: altera a Lei nº 9.425/2021 para ampliar o direito ao laudo médico por tempo indeterminado ao portador do TEA e vedar a exigência de renovação",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2023,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/797f92709f57025c03258a76006a98ca?OpenDocument",
+      "referencia": "arts. 1º a 6º",
+      "trecho": "Art. 3º Inclua-se o § 2º ao art. 1º da Lei 9.425/2021, renumerando-se o parágrafo único, com a seguinte redação: \"§ 2º Fica vedada a exigência de renovação do laudo médico que atesta deficiências físicas, sensoriais mentais e/ou intelectuais de caráter irreversível dentre elas o Transtorno do Espectro Autista [...]",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

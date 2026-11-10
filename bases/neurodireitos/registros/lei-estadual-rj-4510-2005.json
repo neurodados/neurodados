@@ -1,0 +1,128 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-4510-2005",
+  "slug": "lei-estadual-rj-4510-2005",
+  "base": "neurodireitos",
+  "nome": "Lei nº 4.510, de 13 de janeiro de 2005, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "4.510",
+    "data": "2005-01-13",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Dispõe sobre a isenção do pagamento de tarifas nos serviços de transporte intermunicipal de passageiros por ônibus do Estado do Rio de Janeiro, para alunos do ensino fundamental e médio da rede pública estadual de ensino, para as pessoas portadoras de deficiência e portadoras de doença crônica de natureza física ou mental que exijam tratamento continuado e cuja interrupção no tratamento possa acarretar risco de vida, e dá outras providências.",
+    "publicacao": "Diário Oficial do Estado de 14/01/2005; as partes vetadas e depois promulgadas pela Assembleia, de 21/03/2005",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 5.359/2008 (art. 6º)",
+        "Lei nº 6.541/2013",
+        "Lei nº 7.123/2015 (art. 1º-A)",
+        "Lei nº 7.830/2018",
+        "Lei nº 8.202/2018",
+        "Lei nº 8.326/2019",
+        "Lei nº 8.406/2019",
+        "Lei nº 9.586/2022",
+        "Lei nº 10.594/2024",
+        "Lei nº 11.269/2026 (art. 3º, §§ 5º e 6º)"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "doencas_cronicas"
+  ],
+  "areas": [
+    "transporte",
+    "assistencia_social"
+  ],
+  "definicao": "A Lei estadual nº 4.510/2005 isenta do pagamento de tarifa, nos ônibus intermunicipais do Estado do Rio de Janeiro, estudantes, pessoas com deficiência e pessoas com doença crônica cuja interrupção do tratamento possa causar risco de vida. Para as duas últimas, a isenção se faz pelo vale social.",
+  "afirmacoes": [
+    {
+      "texto": "A lei assegura, na forma e nos limites que ela fixa, isenção de tarifa nos serviços convencionais de transporte rodoviário intermunicipal por ônibus para pessoas com deficiência e para pessoas com doença crônica física ou mental cuja interrupção do tratamento possa acarretar risco de vida (art. 1º, caput, redação da Lei nº 8.202/2018).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A isenção e as demais disposições da lei também se aplicam aos transportes aquaviário, ferroviário e metroviário não seletivos sob administração estadual, inclusive intramunicipais, salvo se o concessionário tiver outra forma de custeio ou compensação prevista em lei ou contrato (art. 1º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O vale social é emitido para quem tem deficiência ou doença crônica nessas condições e precisa dele para a terapia. É deferido mediante requerimento e avaliação médica da necessidade, inclusive da extensão e da frequência dos deslocamentos, na forma a definir em regulamento (art. 4º, caput e § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para a doença crônica, os vales são concedidos mediante laudo médico, no máximo 60 por mês (art. 1º-B), e o prazo de concessão é de até 90 dias corridos (art. 1º-A, redação da Lei nº 7.123/2015). A lei considera doenças crônicas também a tuberculose ativa, a hanseníase e a AIDS/HIV (art. 1º, § 5º) e considera a visão monocular como deficiência visual (art. 1º, § 10).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Fica garantido o vale social ao acompanhante de pessoa com doença crônica, de acordo com laudo médico (art. 1º, § 3º). Na avaliação, o profissional da rede pública de saúde deve informar se é preciso acompanhante no deslocamento (art. 4º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os vales são pessoais e intransferíveis: quem os alienar ou emprestar perde o direito de usá-los e fica privado do uso por um ano, em dobro a cada reincidência (art. 5º). Consideram-se pessoas com deficiência as definidas pelo Decreto Federal nº 5.296/2004 (art. 9º). O Poder Executivo expedirá os regulamentos necessários (art. 10).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-8563-2024",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALERJ, é o que vale.",
+    "O texto da ALERJ reúne várias redações de alguns artigos, com as leis que as alteraram. O registro descreve a redação mais recente indicada em cada caso e não detalha as regras para estudantes.",
+    "O texto da ALERJ traz a nota \"Norma submetida a ação de inconstitucionalidade - RI 0025170-81.2014.8.19.0000\", mas a ficha técnica indica \"Não Consta\" para ação de inconstitucionalidade e a situação \"Em Vigor\". O registro não analisa essa ação.",
+    "A ficha da ALERJ não traz texto de regulamentação: não foi achado decreto regulamentador. A lei remete a regulamento a forma de deferimento do vale social (art. 4º, § 1º).",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado. A lista de alterações segue as notas do próprio texto."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 4.510, de 13 de janeiro de 2005: dispõe sobre a isenção do pagamento de tarifas nos serviços de transporte intermunicipal de passageiros por ônibus do Estado do Rio de Janeiro (vale social e vale educação)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2005,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/3b714281166c970483256f89006d268c?OpenDocument",
+      "referencia": "arts. 1º, 1º-A, 1º-B, 2º, 4º, 5º, 9º e 10",
+      "trecho": "Art. 4º - O “vale social” será emitido em favor das pessoas portadoras de deficiência e das pessoas portadoras de doença crônica de natureza física ou mental que exijam tratamento continuado e cuja interrupção possa acarretar risco de vida, que necessitem, para a sua terapia, do uso dos serviços convencionais de transportes intermunicipais de passageiros, ou intramunicipais sob administração estadual, observadas as definições previstas em lei ou regulamento.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

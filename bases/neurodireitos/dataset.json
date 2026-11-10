@@ -4,13 +4,13 @@
   "nome": "NeuroDireitos",
   "titulo": "NeuroDireitos: leis e normas sobre neurodesenvolvimento, deficiência e saúde",
   "descricao": "Base aberta de leis, decretos, tratados e normas infralegais brasileiras ligadas ao neurodesenvolvimento, à deficiência, à saúde mental e a doenças: o que cada norma garante, a quem se aplica, a situação de vigência e o endereço do texto oficial. Conteúdo informativo: não é orientação jurídica.",
-  "versao": "2026.11.09",
+  "versao": "2026.11.10",
   "mantenedor": {
     "nome": "Clínica NeuroBee",
     "url": "https://clinicaneurobee.com.br"
   },
   "criado_em": "2026-11-09",
-  "atualizado_em": "2026-11-09",
+  "atualizado_em": "2026-11-10",
   "licenca": {
     "nome": "Creative Commons Atribuição 4.0 Internacional",
     "sigla": "CC BY 4.0",
@@ -18,7 +18,7 @@
     "url": "https://creativecommons.org/licenses/by/4.0/deed.pt_BR"
   },
   "metodologia": "https://clinicaneurobee.com.br/neurodados/metodologia",
-  "doi": "10.5281/zenodo.24082827",
+  "doi": "10.5281/zenodo.24116933",
   "huggingface": "https://huggingface.co/datasets/neurodados/neurodireitos",
   "palavras_chave": [
     "legislação",
@@ -29,11 +29,14 @@
     "educação inclusiva",
     "saúde",
     "assistência social",
-    "dados abertos"
+    "dados abertos",
+    "Rio de Janeiro",
+    "legislação estadual",
+    "legislação municipal"
   ],
   "limitacoes": [
     "Conteúdo informativo: não é orientação jurídica e não substitui a leitura do texto oficial nem a consulta a um advogado ou à Defensoria Pública.",
-    "Esta versão traz normas federais. Estados e municípios podem ter leis próprias, que ainda não estão na base.",
+    "Esta versão traz as normas federais e as do Estado e do Município do Rio de Janeiro. Os outros estados e municípios podem ter leis próprias, que ainda não estão na base.",
     "A vigência foi conferida no texto oficial na data indicada em cada registro. As normas mudam: confira o texto oficial na data do uso."
   ],
   "historico_de_versoes": [
@@ -41,6 +44,11 @@
       "versao": "2026.11.09",
       "data": "2026-11-09",
       "mudanca": "Primeira versão."
+    },
+    {
+      "versao": "2026.11.10",
+      "data": "2026-11-10",
+      "mudanca": "As primeiras normas locais: 20 leis do Estado do Rio de Janeiro e 16 leis do Município do Rio de Janeiro, cada uma com a abrangência, a UF e o município. Filtros por abrangência e por UF na API e no MCP."
     }
   ]
 }

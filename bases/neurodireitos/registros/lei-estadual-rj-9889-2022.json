@@ -1,0 +1,108 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-9889-2022",
+  "slug": "lei-estadual-rj-9889-2022",
+  "base": "neurodireitos",
+  "nome": "Lei nº 9.889, de 27 de outubro de 2022, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "9.889",
+    "data": "2022-10-27",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Dispõe sobre o tratamento ao adulto com Transtorno de Espectro Autista na rede pública de saúde, em conformidade com a Lei Estadual nº 9.395, de 09 de setembro de 2021.",
+    "publicacao": "Diário Oficial do Estado de 28/10/2022",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "saude_mental"
+  ],
+  "areas": [
+    "saude"
+  ],
+  "definicao": "A Lei estadual nº 9.889/2022 diz que o tratamento de adultos com Transtorno do Espectro Autista deve ser assegurado, sempre que possível, na rede pública de saúde do Estado do Rio de Janeiro. Prevê, de preferência, atendimento multidisciplinar e integral e ações de prevenção ao suicídio.",
+  "afirmacoes": [
+    {
+      "texto": "Deverá ser assegurado, sempre que possível, o tratamento de adultos com TEA na rede pública de saúde do Estado do Rio de Janeiro, nos termos do art. 4º, III, da Lei estadual nº 9.395/2021 (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Deverá ser observado, preferencialmente, atendimento multidisciplinar e integral, por meio da criação de núcleo de atendimento ao adulto com TEA, com equipes de várias áreas da saúde (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Deverão ser promovidas ações de combate ao suicídio de adultos com TEA, e o Estado poderá promover grupos de apoio a familiares e cuidadores (art. 3º e parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As instituições públicas de ensino superior do Estado seguirão a lei no que couber e poderão aplicar avaliação do adulto com TEA para incluí-lo na política de cotas e dar suporte e acolhimento (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As despesas correm por conta de dotações próprias do orçamento vigente, e o Poder Executivo regulamentará a lei (arts. 5º e 6º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALERJ, é o que vale.",
+    "A lei usa termos como \"sempre que possível\" e \"preferencialmente\": não fixa prazo nem local do núcleo de atendimento, e prevê regulamentação.",
+    "A ficha da ALERJ não traz texto de regulamentação: não foi achado decreto regulamentador.",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha traz a situação \"Em Vigor\", sem alterações nem revogação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 9.889, de 27 de outubro de 2022: dispõe sobre o tratamento ao adulto com Transtorno de Espectro Autista na rede pública de saúde",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2022,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/3636abc1da951444032588ec006208f0?OpenDocument",
+      "referencia": "arts. 1º a 6º",
+      "trecho": "Art. 1º Deverá ser assegurado, sempre que possível, o tratamento de adultos com Transtorno de Espectro Autista (TEA) dentro da rede pública de saúde do Estado do Rio de Janeiro, nos termos do Art. 4º, inciso III, da Lei Estadual nº 9.395, de 09 de setembro de 2021.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

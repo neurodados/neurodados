@@ -1,0 +1,140 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-7354-2016",
+  "slug": "lei-estadual-rj-7354-2016",
+  "base": "neurodireitos",
+  "nome": "Lei nº 7.354, de 14 de julho de 2016, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "7.354",
+    "data": "2016-07-14",
+    "orgao": "Assembleia Legislativa do Estado do Rio de Janeiro",
+    "ementa": "Institui o Programa de Diagnóstico e Tratamento do Transtorno do Déficit de Atenção e Hiperatividade - TDAH - e do Transtorno Opositivo Desafiador - TOD -, no âmbito do Estado do Rio de Janeiro e dá outras providências.",
+    "publicacao": "Diário Oficial do Estado de 15/07/2016",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 9.750, de 2022 (nova redação da ementa e do art. 1º; inclui o art. 1-B)",
+        "Lei nº 10.944, de 11 de setembro de 2025 (nova redação da ementa e dos arts. 2º a 6º; inclui o art. 1-A)"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tdah"
+  ],
+  "areas": [
+    "educacao",
+    "saude"
+  ],
+  "definicao": "A Lei estadual nº 7.354/2016 institui, no Estado do Rio de Janeiro, o Programa de Diagnóstico e Tratamento do TDAH e do Transtorno Opositivo Desafiador (TOD). Trata de atendimento escolar, encaminhamento ao SUS, capacitação de educadores e medicamentos na rede estadual de saúde.",
+  "afirmacoes": [
+    {
+      "texto": "Fica instituído, no Estado do Rio de Janeiro, o Programa de Diagnóstico e Tratamento do TDAH e do Transtorno Desafiador Opositivo, com texto dado pela Lei nº 9.750/2022 (art. 1º). A ementa em vigor, com redação da Lei nº 10.944/2025, chama o segundo transtorno de Transtorno Opositivo Desafiador (TOD).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Programa inclui atendimento escolar de caráter preventivo, previsto na lei com nome próprio, desde a educação infantil, nas creches e pré-escolas, para os educandos que, depois de diagnóstico médico, evidenciem a necessidade de atendimento especial (art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As disposições da lei se aplicam às pessoas com TDAH e com TOD, mesmo quando o dispositivo não os mencione de forma expressa (art. 1-A, incluído pela Lei nº 10.944/2025). O Programa poderá atuar de forma integrada com o Programa Saúde na Escola (art. 1-B, incluído pela Lei nº 9.750/2022).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os educandos que apresentem necessidade de intervenção terapêutica devem ser encaminhados a uma unidade do SUS para diagnóstico e tratamento, por equipe multidisciplinar de educadores, psicólogos, profissionais de psicopedagogia, médicos, fonoaudiólogos, entre outros (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As redes pública e particular devem garantir aos educadores do ensino fundamental e médio capacitação permanente, orientada por profissionais de saúde, sobre o TDAH e o TOD (art. 4º). Pais ou responsáveis devem ser conscientizados sobre os sintomas e orientados sobre técnicas de ensino (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os equipamentos de saúde pública estadual deverão disponibilizar medicamentos associados ao tratamento do TDAH e do TOD (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei não traz artigo que remeta a regulamento do Poder Executivo. As despesas correm por verbas próprias do orçamento (art. 7º), e a lei entrou em vigor na data da publicação (art. 8º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14254-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-6881-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-8192-2018",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Assembleia Legislativa do Estado do Rio de Janeiro (ALERJ), é o que vale.",
+    "O texto da ALERJ mostra, lado a lado, a redação original e as novas redações. O registro descreve o texto em vigor. As alterações foram lidas só na ficha da própria lei; as leis alteradoras não foram lidas uma a uma.",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha da lei indica \"Em Vigor\" e não traz nota de revogação nem ação de inconstitucionalidade. Não achei decreto regulamentador: o campo \"Texto da Regulamentação\" da ficha está vazio.",
+    "A lei diz que as despesas correm por verbas do orçamento, mas não fixa prazo, número de vagas nem unidades. O registro não afirma como o Programa funciona na prática."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 7.354, de 14 de julho de 2016, do Estado do Rio de Janeiro (texto na base da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2016,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/eaa127058c926c7583257ff10062ca32?OpenDocument",
+      "referencia": "arts. 1º a 8º",
+      "trecho": "Art. 1º Fica instituído no âmbito do Estado do Rio de Janeiro o Programa de Diagnóstico e Tratamento do Transtorno do Déficit de Atenção e Hiperatividade – TDAH e do Transtorno Desafiador Opositivo – TDO. (Redação dada pela Lei 9750/2022)",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-7850-2023",
+  "slug": "lei-municipal-rio-de-janeiro-7850-2023",
+  "base": "neurodireitos",
+  "nome": "Lei nº 7.850, de 26 de abril de 2023, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "7.850",
+    "data": "2023-04-26",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Dispõe sobre a criação de atendimento multidisciplinar para diagnóstico do Transtorno do Espectro Autista (TEA) no âmbito da saúde do Município do Rio de Janeiro.",
+    "publicacao": "Diário Oficial do Município de 27/04/2023",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "desenvolvimento_infantil"
+  ],
+  "areas": [
+    "saude"
+  ],
+  "definicao": "A Lei municipal nº 7.850/2023 cria, na rede municipal de saúde do Rio de Janeiro, a Equipe Multidisciplinar de Prognóstico, Diagnóstico e Tratamento do Transtorno do Espectro Autista. A equipe é formada por profissionais que a Secretaria Municipal de Saúde já tem e atende crianças e adolescentes.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º cria, na rede municipal de saúde, a Equipe Multidisciplinar de Prognóstico, Diagnóstico e Tratamento do Transtorno do Espectro Autista, por meio dos profissionais já existentes na Secretaria Municipal de Saúde.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 2º diz que a equipe é composta, no mínimo, por neurologista, psicólogo, psiquiatra, fonoaudiólogo, terapeuta ocupacional e assistente social, preferencialmente com atuação também na área infantil.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pelo art. 3º, a equipe, ao fazer o prognóstico e o diagnóstico do TEA da criança ou do adolescente, emite laudo e se reúne com os pais do paciente para orientar como prosseguir com o tratamento e o acompanhamento.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 4º determina que o Poder Executivo Municipal regulamente a lei, em consonância com o Estatuto da Criança e do Adolescente (Lei Federal nº 8.069/1990).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 5º põe as despesas por conta de dotações próprias da Secretaria Municipal de Saúde, e o art. 6º faz a lei entrar em vigor depois de sessenta dias da publicação oficial.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-5749-2014",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da Câmara Municipal do Rio, é o que vale.",
+    "O art. 1º usa os profissionais que a Secretaria Municipal de Saúde já tem. A lei não cria cargos nem fixa prazo ou local de atendimento, e o texto não diz onde a equipe funciona.",
+    "O art. 4º pede regulamentação pelo Poder Executivo. Este registro não achou decreto regulamentador no texto da lei nem na ficha da Câmara, e não conferiu o Diário Oficial do Município.",
+    "A vigência foi conferida no texto da base oficial da Câmara em 10 de novembro de 2026 (status \"Em Vigor\"), sem texto compilado e sem nota de revogação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 7.850, de 26 de abril de 2023: dispõe sobre a criação de atendimento multidisciplinar para diagnóstico do Transtorno do Espectro Autista (TEA) no âmbito da saúde do Município do Rio de Janeiro",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2023,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/b4abc6c8957301aa0325899b00541f9e?OpenDocument",
+      "referencia": "arts. 1º a 6º",
+      "trecho": "Art. 1º Fica criada no Município a Equipe Multidisciplinar de Prognóstico, Diagnóstico e Tratamento do Transtorno do Espectro Autista na rede municipal de Saúde, através dos profissionais já existentes na Secretaria Municipal de Saúde.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

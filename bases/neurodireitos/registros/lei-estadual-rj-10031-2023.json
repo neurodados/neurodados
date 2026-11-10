@@ -1,0 +1,120 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-10031-2023",
+  "slug": "lei-estadual-rj-10031-2023",
+  "base": "neurodireitos",
+  "nome": "Lei nº 10.031, de 31 de maio de 2023, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "10.031",
+    "data": "2023-05-31",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Dispõe sobre a aplicação do questionário M-CHAT para realização do rastreamento de sinais precoces do autismo, nas crianças com idade entre 16 e 30 meses, durante atendimentos em unidades de saúde públicas e privadas do Estado do Rio de Janeiro.",
+    "publicacao": "Diário Oficial do Estado nº 100-A, de 01/06/2023",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "desenvolvimento_infantil"
+  ],
+  "areas": [
+    "saude"
+  ],
+  "definicao": "A Lei estadual nº 10.031/2023 manda as unidades de saúde públicas e privadas do Estado do Rio de Janeiro aplicarem o questionário M-CHAT, para rastrear sinais precoces de autismo em crianças de 16 a 30 meses. Com resultado positivo, a família é aconselhada a buscar avaliação.",
+  "afirmacoes": [
+    {
+      "texto": "As unidades de saúde públicas e privadas de todo o Estado do Rio de Janeiro deverão utilizar e aplicar o questionário M-CHAT para o rastreamento de sinais precoces de autismo (art. 1º, caput).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O questionário deve ser aplicado a crianças entre 16 e 30 meses, com a finalidade de obter diagnóstico precoce do Transtorno do Espectro Autista (art. 1º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A aplicação do M-CHAT não exclui o uso de outro teste mais adequado ao caso, conforme avaliação médica (art. 1º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Com resultado positivo no rastreamento, as famílias serão aconselhadas a procurar serviços de medicina para avaliar o resultado com outras metodologias e para o monitoramento dos casos (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Cabe ao Poder Executivo, por meio da Secretaria de Estado de Saúde, regulamentar a lei em todos os aspectos necessários à aplicação (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "avaliabase.m-chat",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-5573-2013",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALERJ, é o que vale.",
+    "O registro não reproduz as perguntas nem os itens do questionário, que constam do anexo único da lei.",
+    "A lei trata de rastreamento, não de diagnóstico, e não diz quem aplica o questionário nem como o resultado é registrado: isso fica para a regulamentação. A ficha da ALERJ não traz texto de regulamentação.",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha traz a situação \"Em Vigor\", sem alterações nem revogação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 10.031, de 31 de maio de 2023: dispõe sobre a aplicação do questionário M-CHAT para rastreamento de sinais precoces do autismo, em crianças de 16 a 30 meses, nas unidades de saúde do Estado do Rio de Janeiro",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2023,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/68e1ecc3f264e416032589c600655a6e?OpenDocument",
+      "referencia": "arts. 1º a 4º",
+      "trecho": "Art. 1º As unidades de saúde públicas e privadas em todo o Estado do Rio de Janeiro deverão utilizar e aplicar o questionário M-CHAT (Modified Checklist for Autism in Toddlers) para prever o rastreamento de sinais precoces do Autismo.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

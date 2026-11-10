@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-10626-2024",
+  "slug": "lei-estadual-rj-10626-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 10.626, de 11 de dezembro de 2024, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "10.626",
+    "data": "2024-12-11",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Cria o Programa de Acompanhamento Especializado de Pessoas com Deficiência nas escolas públicas do Estado do Rio de Janeiro",
+    "publicacao": "Diário Oficial do Estado de 12/12/2024",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "A Lei estadual nº 10.626/2024 cria, nas escolas públicas estaduais do Rio de Janeiro, um programa de acompanhamento de pessoas com deficiência, com suporte pedagógico, psicológico e de saúde e um plano de atendimento individual para cada aluno (arts. 1º a 5º). O art. 6º diz que o Poder Executivo regulamentará a lei.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º cria o programa, com o objetivo de garantir o acesso e a permanência de pessoas com deficiência nas escolas públicas e a inclusão educacional delas.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O programa será desenvolvido em todas as escolas públicas estaduais do Rio de Janeiro e contará com profissionais com formação própria para atender as necessidades dos alunos com deficiência matriculados (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Serão oferecidos serviços de suporte pedagógico, psicológico e de assistência à saúde, conforme as necessidades individuais de cada aluno com deficiência (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As escolas públicas estaduais devem disponibilizar recursos materiais e humanos adequados, como recursos tecnológicos, adaptações de mobiliário e acessibilidade (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As escolas devem criar um plano de atendimento individualizado para cada aluno com deficiência matriculado, com as adaptações curriculares necessárias e o acompanhamento (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 6º diz que o Poder Executivo regulamentará a lei.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-6432-2018",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da ALERJ, é o que vale.",
+    "A lei não define \"pessoa com deficiência\" nem diz quais profissionais compõem o programa: remete à regulamentação do Poder Executivo, que a ficha da ALERJ não registra.",
+    "A lei se aplica às escolas públicas estaduais. Ela não trata de escolas privadas nem de escolas municipais.",
+    "A vigência foi conferida no texto da base oficial da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha marca \"Em Vigor\" e não traz nota de revogação nem de alteração."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 10.626, de 11 de dezembro de 2024, do Estado do Rio de Janeiro (texto na base de leis da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2024,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/1692f5cbfc0bee9c03258bf50074511b?OpenDocument",
+      "referencia": "art. 1º",
+      "trecho": "Art. 1º Fica criado o Programa de Acompanhamento Especializado de Pessoas com Deficiência nas escolas públicas do estado do Rio de Janeiro, com o objetivo de garantir o acesso e permanência destes nas escolas públicas, bem como a sua inclusão educacional.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-7713-2022",
+  "slug": "lei-municipal-rio-de-janeiro-7713-2022",
+  "base": "neurodireitos",
+  "nome": "Lei nº 7.713, de 15 de dezembro de 2022, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "7.713",
+    "data": "2022-12-15",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Institui sanção administrativa às pessoas físicas, jurídicas ou agentes públicos que discriminarem as pessoas com Transtorno do Espectro Autista (TEA) no âmbito do Município do Rio de Janeiro e dá outras providências.",
+    "publicacao": "Diário Oficial do Município de 16/12/2022; os arts. 2º e 3º, vetados e depois promulgados pela Câmara, no Diário da Câmara Municipal de 22/03/2023",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei municipal nº 7.713/2022 define discriminação contra pessoas com TEA e prevê sanções administrativas, no Rio de Janeiro, para pessoas físicas, pessoas jurídicas e agentes públicos que discriminarem a pessoa com autismo ou os pais, responsáveis e tutores que a acompanham. As sanções são advertência e multa.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º estabelece sanções administrativas para condutas discriminatórias de pessoas físicas, pessoas jurídicas e agentes públicos contra pessoas com TEA, e também contra pais, responsáveis e tutores que comprovem estar acompanhando a pessoa autista, com base nas Leis federais nº 12.764/2012 e nº 13.146/2015.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O parágrafo único do art. 1º define discriminação como qualquer forma de distinção, recusa, restrição ou exclusão, inclusive por comentários ou gestos pejorativos, por ação ou omissão, presencialmente, pelas redes sociais ou em veículos de comunicação, com a finalidade ou o efeito de anular ou prejudicar o reconhecimento, o gozo ou o exercício dos direitos das vítimas.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 2º, na versão com os vetos rejeitados, permite à Administração Pública aplicar, comprovada a prática, a indução ou a incitação da discriminação e garantida a prévia e ampla defesa, advertência escrita com folheto explicativo sobre o TEA, ou multa, com valor fixado em reais, um para pessoa física e outro, maior, para pessoa jurídica. As multas são atualizadas anualmente pelo IPCA-E (art. 2º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pelo art. 2º, § 1º, quando o agente público pratica o ato no exercício da função, a responsabilidade é apurada em procedimento administrativo disciplinar, sem prejuízo da multa de pessoa física e das sanções civis e penais.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 3º, também na versão promulgada, destina o valor das multas a um fundo municipal gerido pelo COMDEF-RIO (Conselho Municipal de Defesa dos Direitos da Pessoa com Deficiência) ou a outro fundo que o substitua. O art. 4º autoriza a Prefeitura a fazer campanhas de conscientização contra a discriminação.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-5749-2014",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da Câmara Municipal do Rio, é o que vale.",
+    "Os arts. 2º e 3º foram vetados pelo Prefeito e os vetos foram rejeitados pela Câmara, que os promulgou em 21 de março de 2023. O texto da base traz esses artigos na parte de promulgação, e este registro os descreve a partir dela.",
+    "A lei não diz qual órgão aplica as sanções nem como se faz a denúncia ou o procedimento, e não prevê regulamentação. O valor das multas, em reais e com atualização anual, está no texto oficial e não é reproduzido aqui.",
+    "A vigência foi conferida no texto da base oficial da Câmara em 10 de novembro de 2026 (status \"Em Vigor\"), sem texto compilado e sem nota de revogação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 7.713, de 15 de dezembro de 2022: institui sanção administrativa às pessoas físicas, jurídicas ou agentes públicos que discriminarem as pessoas com Transtorno do Espectro Autista (TEA) no âmbito do Município do Rio de Janeiro",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2022,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/eb139a6f997bc6820325891a003f4dc9?OpenDocument",
+      "referencia": "arts. 1º a 5º; promulgação dos vetos aos arts. 2º e 3º",
+      "trecho": "Art. 1º Esta Lei estabelece sanções administrativas para as condutas discriminatórias cometidas por pessoas físicas ou jurídicas e agentes públicos contra pessoas com Transtorno do Espectro Autista (TEA), bem como aos seus pais, responsáveis e tutores que comprovem estar na condição de acompanhamento da pessoa autista",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

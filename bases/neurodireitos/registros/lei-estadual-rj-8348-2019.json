@@ -1,0 +1,122 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-8348-2019",
+  "slug": "lei-estadual-rj-8348-2019",
+  "base": "neurodireitos",
+  "nome": "Lei nº 8.348, de 1º de abril de 2019, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "8.348",
+    "data": "2019-04-01",
+    "orgao": "Assembleia Legislativa do Estado do Rio de Janeiro",
+    "ementa": "Dispõe sobre o acesso de profissionais da área de saúde, que fazem tratamento de alunos com deficiência e ou mobilidade reduzida, transtornos globais do desenvolvimento, e com altas habilidades ou superdotação, nas depedências das escolas públicas e privadas do Estado do Rio de Janeiro.",
+    "publicacao": "Diário Oficial do Estado de 02/04/2019",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "tea",
+    "altas_habilidades"
+  ],
+  "areas": [
+    "educacao",
+    "saude"
+  ],
+  "definicao": "A Lei estadual nº 8.348/2019 autoriza, mediante agendamento, o acesso de profissionais de saúde que tratam alunos com deficiência ou mobilidade reduzida, transtornos globais do desenvolvimento e altas habilidades às dependências de escolas públicas e privadas dos níveis infantil, fundamental e médio do Estado do Rio de Janeiro (art. 1º).",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º autoriza, mediante agendamento, o acesso desses profissionais de saúde às dependências das escolas públicas e privadas dos níveis infantil, fundamental e médio do Estado do Rio de Janeiro.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para a lei, profissionais da área de saúde são o terapeuta ocupacional, o fisioterapeuta, o fonoaudiólogo e o psicólogo (art. 2º, inciso I).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para a lei, transtornos globais do desenvolvimento são os diferentes transtornos do espectro autista, as psicoses infantis, a Síndrome de Asperger, a Síndrome de Kanner e a Síndrome de Rett (art. 2º, inciso V).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A avaliação poderá ser agendada a cada 3 meses (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O profissional de saúde deve ser acompanhado pelo profissional da escola responsável pela educação especial e pela adaptação do trabalho escolar ao aluno (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O profissional poderá interagir com as atividades da escola ou apenas observar, mediante prévio acordo com a instituição, e deve entregar à escola, em prazo razoável, relatório da avaliação, mediante recibo (arts. 5º e 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O descumprimento acarreta sanções aos responsáveis pelo estabelecimento, a serem regulamentadas pelo Poder Executivo (art. 7º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da ALERJ, é o que vale.",
+    "A lei diz \"fica autorizado o acesso, mediante agendamento\". Ela não define o procedimento de agendamento, e as sanções do art. 7º dependem de regulamentação que a ficha da ALERJ não registra.",
+    "A ementa traz a grafia \"depedências\", como está no texto oficial.",
+    "A vigência foi conferida no texto da base oficial da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha marca \"Em Vigor\" e não traz nota de revogação nem de alteração."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.348, de 1º de abril de 2019, do Estado do Rio de Janeiro (texto na base de leis da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2019,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/df08f7b1736c8c08832583d0006e4cd2?OpenDocument",
+      "referencia": "arts. 1º a 7º",
+      "trecho": "Art. 1º Fica autorizado o acesso, mediante agendamento, de profissionais da área de saúde que fazem tratamento de alunos com deficiência e ou mobilidade reduzida, transtorno globais do desenvolvimento e com altas habilidades ou superdotação, nas dependências das escolas públicas e privadas, dos níveis infantil, fundamental e médio do Estado do Rio de Janeiro.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

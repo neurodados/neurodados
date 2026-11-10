@@ -1,0 +1,94 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-9151-2025",
+  "slug": "lei-municipal-rio-de-janeiro-9151-2025",
+  "base": "neurodireitos",
+  "nome": "Lei nº 9.151, de 18 de novembro de 2025, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "9.151",
+    "data": "2025-11-18",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Dispõe sobre o caráter permanente do laudo que diagnostique a Síndrome de Tourette.",
+    "publicacao": "Diário Oficial do Município de 19/11/2025",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "sindrome_de_tourette"
+  ],
+  "areas": [
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei municipal nº 9.151/2025 institui que o laudo que ateste a síndrome de Tourette é permanente e tem validade indeterminada no Município do Rio de Janeiro. A lei tem dois artigos e não traz outras regras.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º institui que é permanente o laudo que ateste a Síndrome de Tourette, que passa a ter validade indeterminada no Município do Rio de Janeiro.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data da publicação (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-de-tique",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-9258-2026",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Câmara Municipal do Rio, é o que vale.",
+    "O texto não diz perante quais órgãos ou serviços o laudo permanente é aceito, nem prevê revisão do laudo.",
+    "A lei não trata de direitos da pessoa com síndrome de Tourette, que a Lei Municipal nº 9.258/2026 trata em outro texto.",
+    "A vigência foi conferida na ficha e no texto da base oficial da Câmara Municipal do Rio em 10 de novembro de 2026 (\"Em Vigor\"), sem texto compilado. Nenhuma lei posterior da base cita esta lei, e não foi achado decreto que a regulamente."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 9.151, de 18 de novembro de 2025: dispõe sobre o caráter permanente do laudo que diagnostique a Síndrome de Tourette",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2025,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/87e80b3838ec0cef03258d46004846ef?OpenDocument",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "Art. 1º Esta Lei institui que é permanente o laudo que ateste a Síndrome de Tourette, que passa a ter validade indeterminada no Município do Rio de Janeiro.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

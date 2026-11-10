@@ -1,0 +1,116 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-9153-2020",
+  "slug": "lei-estadual-rj-9153-2020",
+  "base": "neurodireitos",
+  "nome": "Lei nº 9.153, de 21 de dezembro de 2020, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "9.153",
+    "data": "2020-12-21",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Dispõe sobre a transferência de matrícula, sem anuência dos pais, em escolas e creches da rede estadual de educação, para as pessoas com deficiência, transtornos globais de desenvolvimento, altas habilidades/superdotação, TDAH e dislexia.",
+    "publicacao": "Diário Oficial do Estado de 23/12/2020; as partes vetadas e depois promulgadas pela Assembleia, de 15/06/2021",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "altas_habilidades",
+    "tdah",
+    "dislexia"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "A Lei estadual nº 9.153/2020 impede que escolas e creches públicas do Estado do Rio de Janeiro, na renovação de matrícula, transfiram para outra unidade, sem a anuência dos pais ou responsáveis, alunos com deficiência, transtornos globais de desenvolvimento, altas habilidades/superdotação, TDAH e dislexia (art. 1º).",
+  "afirmacoes": [
+    {
+      "texto": "Na renovação de matrícula, as unidades escolares e creches públicas do Estado do Rio de Janeiro ficam impedidas de transferir alunos com deficiência, transtornos globais de desenvolvimento, altas habilidades/superdotação, TDAH e dislexia para outras unidades, sem a anuência de pais ou responsáveis (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 1º diz que a autoridade estadual competente deve priorizar a permanência desses alunos nas mesmas unidades em que estavam matriculados ao final do ano letivo.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O parágrafo único do art. 1º e o art. 2º foram vetados pelo Governador, e a Assembleia rejeitou o veto (Diário Oficial de 15/06/2021).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O parágrafo único do art. 1º, na redação com veto rejeitado, diz que as unidades escolares e creches da rede estadual, antes da renovação de matrícula, poderão disponibilizar às famílias, como alternativa, até 3 unidades escolares com professores de apoio para acompanhamento desses alunos.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 2º, na redação com veto rejeitado, diz que o aviso deve ser feito por escrito, com 30 dias de antecedência da data de matrícula, com comprovação do recebimento pelo responsável legal. O aluno maior de idade ou o responsável se manifesta por escrito até o ato da matrícula (art. 2º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data da publicação (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da ALERJ, é o que vale.",
+    "A lei trata de unidades escolares e creches públicas e da rede estadual. O texto não fala em escolas privadas nem municipais.",
+    "O texto da ALERJ mostra o parágrafo único do art. 1º e o art. 2º como vetados, com a redação rejeitada do veto em nota. Este registro descreve o que o texto diz e não interpreta como essas partes se aplicam.",
+    "A vigência foi conferida no texto da base oficial da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha marca \"Em Vigor\" e não traz nota de revogação nem de alteração."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 9.153, de 21 de dezembro de 2020, do Estado do Rio de Janeiro (texto na base de leis da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2020,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/8b9e82da750ed75e0325865700535eaa?OpenDocument",
+      "referencia": "art. 1º e partes vetadas rejeitadas",
+      "trecho": "Art. 1º As unidades escolares e creches públicas, no âmbito do Estado do Rio de Janeiro, quando da renovação de matrícula, ficam impedidas de transferir para outras unidades escolares, sem a anuência de pais ou responsáveis, alunos com deficiência, Transtornos Globais de Desenvolvimento, Altas Habilidades/Superdotação, TDAH e Dislexia, devendo a autoridade estadual competente priorizar a permanência daqueles alunos nas mesmas unidades em que estavam matriculados ao final do ano letivo.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-9488-2026",
+  "slug": "lei-municipal-rio-de-janeiro-9488-2026",
+  "base": "neurodireitos",
+  "nome": "Lei nº 9.488, de 26 de junho de 2026, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "9.488",
+    "data": "2026-06-26",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Institui os espaços de acomodação sensorial para autorregulação de alunos autistas e neuroatípicos nas escolas e dá outras providências.",
+    "publicacao": "Diário Oficial do Município de 30/06/2026",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "educacao",
+    "acessibilidade"
+  ],
+  "definicao": "A Lei municipal nº 9.488/2026 institui, na rede municipal de ensino do Rio de Janeiro, espaços de acomodação sensorial: ambientes de baixo estímulo onde estudantes autistas e neuroatípicos podem se autorregular. A lei é recente e diz que o Poder Executivo a regulamentará.",
+  "afirmacoes": [
+    {
+      "texto": "Ficam instituídos os Espaços de Acomodação Sensorial na rede de ensino municipal, onde estudantes autistas e neuroatípicos possam aliviar a sobrecarga sensorial (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O espaço é um ambiente estruturado, com recursos, materiais e estratégias pedagógicas, sempre sob a orientação de profissional da equipe escolar e respeitando as necessidades individuais do aluno (art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os espaços devem ter fones redutores de ruído e objetos reguladores, com baixo estímulo visual e sonoro, e ser destinados exclusivamente à autorregulação desses estudantes (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os espaços devem ficar em locais de fácil acesso e ser sinalizados de forma clara e visível (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei autoriza convênios, parcerias e termos de cooperação com entidades públicas e privadas para implementar e manter os espaços (art. 4º), e diz que o Poder Executivo regulamentará a lei (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Câmara Municipal do Rio, é o que vale.",
+    "A lei não diz em quantas escolas nem em que prazo os espaços serão criados, e as despesas correm por dotações orçamentárias próprias (art. 5º). O texto usa \"neuroatípicos\" sem definir o termo.",
+    "A lei vale para a rede de ensino municipal e não trata de escolas privadas.",
+    "A vigência foi conferida em 10 de novembro de 2026 na ficha da base oficial da Câmara (\"Status da Lei: Em Vigor\"), sem texto compilado. A lei é de junho de 2026. Não foi achado decreto regulamentador no Diário Oficial do Município (a consulta direta a esse diário não foi concluída)."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 9.488, de 26 de junho de 2026: Institui os espaços de acomodação sensorial para autorregulação de alunos autistas e neuroatípicos nas escolas e dá outras providências",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2026,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/7d9988617813307803258e2600496c31?OpenDocument",
+      "referencia": "arts. 1º a 6º",
+      "trecho": "Art. 1º Ficam instituídos os Espaços de Acomodação Sensorial, também conhecidos como espaços de descompressão ou desaceleração, na rede de ensino municipal, onde estudantes autistas e neuroatípicos possam aliviar a sobrecarga sensorial, reorganizando-se com segurança, evitando crises emocionais e comportamentos disruptivos.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -274,6 +274,20 @@ export function paginaBases(ctx, resumos) {
   return pagina(ctx, { caminho: '/bases', titulo: P.titulo, descricao: P.descricao, corpo, grafo: [paginaWeb(ctx, '/bases', P.titulo)], trilha: trilhaSimples('/bases', P.h1) });
 }
 
+// Agrupa as normas pelo lugar: federais primeiro, depois cada estado e cada município, em ordem alfabética.
+function jurisdicoes(registros) {
+  const G = PAGINAS.base.gruposNormas;
+  const mapa = new Map();
+  for (const r of registros) {
+    const n = r.norma || {};
+    const ordem = { federal: 0, estadual: 1, municipal: 2 }[n.abrangencia] ?? 3;
+    const chave = [ordem, n.uf || '', n.municipio || ''].join('|');
+    if (!mapa.has(chave)) mapa.set(chave, { chave, rotulo: fmt(G[n.abrangencia] || G.federal, { uf: n.uf || '', municipio: n.municipio || '' }), registros: [] });
+    mapa.get(chave).registros.push(r);
+  }
+  return [...mapa.values()].sort((a, b) => a.chave.localeCompare(b.chave, 'pt-BR'));
+}
+
 function nomeComSigla(r) {
   return r.sigla ? `${r.nome} (${r.sigla})` : r.nome;
 }
@@ -282,12 +296,21 @@ export function paginaBase(ctx, base, publicos, resumo) {
   const P = PAGINAS.base;
   const d = base.dataset;
   const ano = d.atualizado_em.slice(0, 4);
-  const grupos = Object.entries(CATEGORIAS[base.id] || {}).map(([cat, rotulo]) => {
-    const lista = publicos.filter((r) => r.categoria === cat).sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+  const porCategoria = (registros, nivel) => Object.entries(CATEGORIAS[base.id] || {}).map(([cat, rotulo]) => {
+    // No NeuroDireitos, as normas ficam em ordem de data (a mais antiga primeiro); nas outras bases, em ordem alfabética.
+    const ordem = base.id === 'neurodireitos'
+      ? (a, b) => (a.norma?.data || '').localeCompare(b.norma?.data || '') || a.nome.localeCompare(b.nome, 'pt-BR')
+      : (a, b) => a.nome.localeCompare(b.nome, 'pt-BR');
+    const lista = registros.filter((r) => r.categoria === cat).sort(ordem);
     if (!lista.length) return '';
     const cartoes = lista.map((r) => `<article class="cartao cartao--registro"><h3><a href="${resumo.url}/${r.slug}">${esc(nomeComSigla(r))}</a></h3><p class="id">${esc(r.id)}${ctx.previa && r.estado === 'rascunho' ? ' <span class="etiqueta">rascunho</span>' : ''}</p><p>${esc(r.definicao)}</p></article>`).join('');
-    return `<div class="categoria"><h3>${esc(rotulo)}</h3><div class="grade grade-3">${cartoes}</div></div>`;
+    return `<div class="categoria"><${nivel}>${esc(rotulo)}</${nivel}><div class="grade grade-3">${cartoes}</div></div>`;
   }).join('');
+  // NeuroDireitos com normas de estados ou municípios: um grupo por lugar (federal, cada UF, cada município).
+  const lugares = base.id === 'neurodireitos' ? jurisdicoes(publicos) : [];
+  const grupos = lugares.length > 1
+    ? lugares.map((g) => `<div class="jurisdicao"><h3>${esc(g.rotulo)}</h3>${porCategoria(g.registros, 'h4')}</div>`).join('')
+    : porCategoria(publicos, 'h3');
   const enderecos = { JSON: resumo.json, JSONL: resumo.jsonl, CSV: resumo.csv, Schema: resumo.schema, API: resumo.api };
   const [zenodo, hf, github] = P.repositorios;
   const linhasRepositorios = [
@@ -513,7 +536,7 @@ ${lateral}</div></section>
       '@type': 'Legislation', '@id': url + '#norma', name: r.nome, alternateName: (r.nomes_alternativos || []).length ? r.nomes_alternativos : undefined,
       description: r.definicao, abstract: n.ementa, legislationIdentifier: `${REGISTRO.norma.tipos[n.tipo] || n.tipo} nº ${n.numero}`,
       legislationDate: n.data, legislationType: REGISTRO.norma.tipos[n.tipo] || n.tipo,
-      legislationJurisdiction: n.abrangencia === 'federal' ? 'BR' : [n.uf, n.municipio].filter(Boolean).join(', '),
+      legislationJurisdiction: n.abrangencia === 'federal' ? 'BR' : n.abrangencia === 'estadual' ? `BR-${n.uf}` : [n.municipio, `BR-${n.uf}`].filter(Boolean).join(', '),
       legislationPassedBy: { '@type': 'Organization', name: n.orgao }, legislationLegalForce: forca[n.vigencia?.situacao],
       inLanguage: 'pt-BR', url: oficial ? oficial.url : url, sameAs: oficial ? oficial.url : undefined,
     };

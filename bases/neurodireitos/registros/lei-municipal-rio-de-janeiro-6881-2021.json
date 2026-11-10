@@ -1,0 +1,143 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-6881-2021",
+  "slug": "lei-municipal-rio-de-janeiro-6881-2021",
+  "base": "neurodireitos",
+  "nome": "Lei nº 6.881, de 23 de abril de 2021, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "6.881",
+    "data": "2021-04-23",
+    "orgao": "Câmara Municipal do Rio de Janeiro",
+    "ementa": "Dispõe sobre o acompanhamento integral para educandos com dislexia, com Transtorno do Déficit de Atenção com Hiperatividade - TDAH ou com outros transtornos de aprendizagem.",
+    "publicacao": "Diário da Câmara Municipal de 26/04/2021",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tdah",
+    "dislexia",
+    "transtornos_de_aprendizagem"
+  ],
+  "areas": [
+    "educacao",
+    "saude"
+  ],
+  "definicao": "A Lei municipal nº 6.881/2021 institui o acompanhamento integral, nas escolas de educação básica do Município do Rio de Janeiro, de alunos com dislexia, TDAH ou outros transtornos de aprendizagem. Prevê identificação precoce, encaminhamento para diagnóstico e apoio na rede de ensino e na rede de saúde.",
+  "afirmacoes": [
+    {
+      "texto": "O Poder Público deve implantar, desenvolver, manter e difundir o programa de acompanhamento integral nas escolas de educação básica da rede de ensino do Município (art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O acompanhamento tem, entre outros, quatro objetivos: identificação precoce do transtorno, encaminhamento do aluno para diagnóstico, apoio educacional na rede de ensino e apoio terapêutico na rede de saúde (art. 2º, I a IV).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As escolas de educação básica das redes pública e privada, com o apoio da família e dos serviços de saúde existentes, devem garantir o cuidado e a proteção ao aluno com dislexia, TDAH ou outros transtornos de aprendizagem (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O aluno com alterações na leitura, na escrita ou na matemática, ou com instabilidade de atenção que repercuta na aprendizagem, deve ter assegurado acompanhamento específico para a sua dificuldade, da forma mais precoce possível, pelos educadores da escola em que está matriculado (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Se for verificada a necessidade de intervenção terapêutica, ela deve ser feita em serviço de saúde em que seja possível a avaliação diagnóstica, com metas de acompanhamento por equipe multidisciplinar (art. 5º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os sistemas de ensino devem garantir aos professores da educação básica amplo acesso à informação e formação continuada para identificar precocemente os sinais relacionados aos transtornos de aprendizagem ou ao TDAH (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Poder Executivo implementará campanha permanente de esclarecimento sobre TDAH, dislexia e outros transtornos de aprendizagem na rede municipal de ensino, com palestras para pais e professores, análise do desempenho dos alunos pelos professores e encaminhamento dos possíveis casos (art. 8º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14254-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-7354-2016",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-5848-2010",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Câmara Municipal do Rio, é o que vale.",
+    "A lei não cria direito a um tipo de atendimento em particular nem fixa prazos. Usa expressões como \"deve garantir\" e remete a serviços e profissionais já existentes na rede de ensino e na rede de saúde. A execução depende de ações da Secretaria Municipal de Educação, que este registro não cobre.",
+    "O registro não resume a Lei federal nº 14.254/2021, que trata do mesmo tema em âmbito nacional.",
+    "A vigência foi conferida em 10 de novembro de 2026 na ficha da base oficial da Câmara (\"Status da Lei: Em Vigor\"), sem texto compilado. Não foi achado decreto regulamentador no Diário Oficial do Município (a consulta direta a esse diário não foi concluída)."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 6.881, de 23 de abril de 2021: Dispõe sobre o acompanhamento integral para educandos com dislexia, com Transtorno do Déficit de Atenção com Hiperatividade - TDAH ou com outros transtornos de aprendizagem",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2021,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/3e1f357dc4c006af032586c0006c7ca2?OpenDocument",
+      "referencia": "arts. 1º a 8º",
+      "trecho": "Art. 1º Esta Lei institui o acompanhamento integral para educandos com dislexia, com Transtorno do Déficit de Atenção com Hiperatividade - TDAH ou com outros transtornos de aprendizagem.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

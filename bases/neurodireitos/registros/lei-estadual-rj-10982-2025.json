@@ -1,0 +1,123 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-10982-2025",
+  "slug": "lei-estadual-rj-10982-2025",
+  "base": "neurodireitos",
+  "nome": "Lei nº 10.982, de 2 de outubro de 2025, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "10.982",
+    "data": "2025-10-02",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Dispõe sobre a dispensa do uso de uniforme escolar por estudantes com Transtorno do Espectro Autista e outros transtornos do neurodesenvolvimento com alteração sensorial, nas instituições de ensino públicas e privadas do Estado do Rio de Janeiro.",
+    "publicacao": "Diário Oficial do Estado nº 182-A, de 03/10/2025",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "A Lei estadual nº 10.982/2025 assegura a dispensa do uniforme escolar a estudantes diagnosticados com TEA ou outro transtorno do neurodesenvolvimento que tenham alteração sensorial, em escolas públicas e privadas do Estado. A dispensa depende de requerimento com laudo ou relatório e vale por 12 meses.",
+  "afirmacoes": [
+    {
+      "texto": "Fica assegurada a dispensa do uso compulsório de uniforme escolar aos estudantes diagnosticados com TEA ou outros transtornos do neurodesenvolvimento que apresentem alterações sensoriais, matriculados na rede pública e privada do Estado, em qualquer etapa: educação infantil, ensino fundamental, ensino médio ou educação de jovens e adultos (art. 1º e § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Quem é dispensado deve usar vestimentas adequadas ao ambiente escolar, que preservem a higiene, o respeito às normas de convivência e permitam a identificação do estudante, para fins de segurança, sempre que necessário (art. 1º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A dispensa deve ser requerida à escola pelos responsáveis legais, ou pelo próprio estudante se for maior de idade. O pedido vai acompanhado de laudo médico ou relatório psicológico ou terapêutico que comprove o diagnóstico de TEA ou de outro transtorno do neurodesenvolvimento e a existência de hipersensibilidade, hipossensibilidade ou outra alteração sensorial incompatível com o uniforme (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A escola tem até 30 dias, contados do protocolo, para analisar os documentos e responder por escrito. Deferida, a dispensa vale 12 meses e pode ser renovada com novo requerimento e laudo atualizado. Indeferida, a escola deve justificar por escrito em até 7 dias úteis (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Cabe recurso contra o indeferimento à direção regional de ensino ou órgão equivalente, em 15 dias úteis (art. 7º). O estudante tem garantidos a permanência nas atividades, a vestimenta sem desconforto sensorial, a privacidade sobre o diagnóstico e a proteção contra atos discriminatórios (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As escolas devem criar protocolo interno para os pedidos, capacitar profissionais, garantir ambiente livre de bullying pelo não uso do uniforme e informar anualmente aos profissionais a lista dos beneficiários, em documento assinado e datado pela direção (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O uso indevido da dispensa, com falsificação de documentos ou má-fé, pode levar à revogação da dispensa, à comunicação ao Conselho Tutelar ou ao Ministério Público e a medidas disciplinares do regimento da escola (art. 6º). A lei entra em vigor 180 dias depois da publicação (art. 8º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Assembleia Legislativa do Estado do Rio de Janeiro (ALERJ), é o que vale.",
+    "A ementa abrange \"outros transtornos do neurodesenvolvimento com alteração sensorial\", mas a lei exige laudo ou relatório que comprove o diagnóstico e a alteração sensorial (art. 2º). O registro marca só a condição TEA no campo de condições.",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha da lei indica \"Em Vigor\" e não traz nota de revogação nem ação de inconstitucionalidade. A lei entra em vigor 180 dias depois da publicação (art. 8º); a data exata de início não consta no texto e não foi calculada aqui. Não achei decreto regulamentador: o campo \"Texto da Regulamentação\" da ficha está vazio.",
+    "O registro não afirma como cada escola aplica o pedido na prática."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 10.982, de 2 de outubro de 2025, do Estado do Rio de Janeiro (texto na base da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2025,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/8e3838dc38bb190e03258d1b0048d3f5?OpenDocument",
+      "referencia": "arts. 1º a 8º",
+      "trecho": "Art. 1º Fica assegurada a dispensa do uso compulsório de uniformes escolares aos estudantes diagnosticados com Transtorno do Espectro Autista (TEA) ou outros Transtornos do Neurodesenvolvimento (TND), que apresentem alterações sensoriais, matriculados na rede pública e privada de ensino no Estado do Rio de Janeiro.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

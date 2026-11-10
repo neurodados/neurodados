@@ -1,0 +1,101 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-9258-2026",
+  "slug": "lei-municipal-rio-de-janeiro-9258-2026",
+  "base": "neurodireitos",
+  "nome": "Lei nº 9.258, de 6 de janeiro de 2026, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "9.258",
+    "data": "2026-01-06",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Reconhece as pessoas com síndrome de Tourette como possuidoras de impedimento de natureza física e neuropsicológica e dá outras providências.",
+    "publicacao": "Diário Oficial do Município de 07/01/2026",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "sindrome_de_tourette",
+    "deficiencia"
+  ],
+  "areas": [
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei municipal nº 9.258/2026 reconhece as pessoas com síndrome de Tourette como possuidoras de impedimentos de longo prazo de natureza física e neuropsicológica. Ela assegura a elas, no Município do Rio de Janeiro, os mesmos direitos e garantias das pessoas com deficiência.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º reconhece as pessoas com síndrome de Tourette como possuidoras de impedimentos de longo prazo de natureza física e neuropsicológica que podem impedir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 2º assegura às pessoas com síndrome de Tourette os mesmos direitos e garantias das pessoas com deficiência no Município.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data da publicação (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-de-tique",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-9151-2025",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Câmara Municipal do Rio, é o que vale.",
+    "A lei não lista quais são os direitos e garantias da pessoa com deficiência no Município, nem diz como a pessoa com síndrome de Tourette os pede ou comprova a condição.",
+    "O texto não traz regulamentação, prazo nem documento próprio. A lei trata do Município do Rio de Janeiro e não altera a lei federal.",
+    "A vigência foi conferida na ficha e no texto da base oficial da Câmara Municipal do Rio em 10 de novembro de 2026 (\"Em Vigor\"), sem texto compilado. Nenhuma lei posterior da base cita esta lei, e não foi achado decreto que a regulamente."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 9.258, de 6 de janeiro de 2026: reconhece as pessoas com síndrome de Tourette como possuidoras de impedimento de natureza física e neuropsicológica",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2026,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/f0c1c1dc9baa521403258d77005f0e74?OpenDocument",
+      "referencia": "arts. 1º a 3º",
+      "trecho": "Art. 2º Assegura-se às pessoas com síndrome de Tourette os mesmos direitos e garantias das pessoas com deficiência no Município.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

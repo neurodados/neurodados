@@ -1,0 +1,125 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-6807-2014",
+  "slug": "lei-estadual-rj-6807-2014",
+  "base": "neurodireitos",
+  "nome": "Lei nº 6.807, de 23 de junho de 2014, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "6.807",
+    "data": "2014-06-23",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Obriga os órgãos públicos e os estabelecimentos privados a dar preferência no atendimento, não retendo, em filas, pessoas portadoras do Transtorno do Espectro do Autismo (TEA) e dá outras providências.",
+    "publicacao": "Diário Oficial do Estado de 24/06/2014",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "atendimento_prioritario",
+    "educacao"
+  ],
+  "definicao": "A Lei estadual nº 6.807/2014 obriga os órgãos públicos estaduais e os estabelecimentos privados do Rio de Janeiro a dar atendimento prioritário às pessoas com TEA, sem retê-las em filas. Fixa prazo de tramitação de benefícios, falta grave para servidor e multa para estabelecimento privado.",
+  "afirmacoes": [
+    {
+      "texto": "Os órgãos públicos estaduais e os estabelecimentos privados ficam obrigados a dar atendimento prioritário às pessoas com TEA, sem retê-las em filas (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Nos órgãos públicos estaduais, as solicitações de benefícios instituídos por lei para pessoas com TEA têm prioridade de tramitação, em prazo que não pode passar de 60 dias (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A não observância da lei por servidor público estadual é falta grave, nos termos dos arts. 46 a 57 do Decreto-Lei nº 220/1975 (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Estabelecimento privado que descumprir a lei suporta multa de 2.000 UFIRs e, a cada reincidência, de 60.000 UFIRs (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A fiscalização cabe ao órgão competente, indicado pelo Poder Executivo por ato próprio (art. 6º). Órgãos e estabelecimentos tinham 60 dias, depois da entrada em vigor, para se adaptar (art. 7º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As escolas da rede estadual e as privadas, do ensino fundamental ao médio, devem observar o parágrafo único do art. 2º da Lei estadual nº 6.708/2014 (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-10048-2000",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9395-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-6708-2014",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALERJ, é o que vale.",
+    "O art. 6º manda indicar o órgão fiscalizador por ato do Poder Executivo. Esse ato não foi localizado, e o campo de regulamentação da ficha da ALERJ está vazio. A lei não diz como a pessoa comprova o TEA.",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha traz \"Em Vigor\" e nenhuma nota de alteração ou revogação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 6.807, de 23 de junho de 2014, do Estado do Rio de Janeiro: obriga os órgãos públicos e os estabelecimentos privados a dar preferência no atendimento a pessoas com TEA (base da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2014,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/2545a21825d6111f83257d0100616428?OpenDocument",
+      "referencia": "arts. 1º a 8º",
+      "trecho": "Art. 1° Os Órgãos Públicos Estaduais e os estabelecimentos privados ficam obrigados a dar atendimento prioritário, não retendo, em filas, as pessoas portadoras do Transtorno do Espectro do Autismo (TEA).",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

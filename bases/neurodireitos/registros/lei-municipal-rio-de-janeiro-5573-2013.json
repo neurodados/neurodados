@@ -1,0 +1,112 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-5573-2013",
+  "slug": "lei-municipal-rio-de-janeiro-5573-2013",
+  "base": "neurodireitos",
+  "nome": "Lei nº 5.573, de 3 de maio de 2013, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "5.573",
+    "data": "2013-05-03",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Dispõe sobre os instrumentos de vigilância e rastreamento precoce do autismo nas Unidades Públicas de Saúde e Educação Municipais e dá outras providências.",
+    "publicacao": "Diário Oficial do Município de 07/05/2013, p. 3",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "desenvolvimento_infantil"
+  ],
+  "areas": [
+    "saude",
+    "educacao"
+  ],
+  "definicao": "A Lei municipal nº 5.573/2013 adota ações de vigilância precoce do autismo nas unidades públicas municipais de saúde e de educação do Rio de Janeiro, especialmente para crianças de seis meses a dois anos. Também manda sensibilizar os profissionais e cadastrar em um censo único as crianças diagnosticadas.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º adota, para efeito do art. 378 da Lei Orgânica do Município, ações de vigilância precoce do autismo nas Unidades Públicas de Saúde e Educação Municipais, especialmente em crianças de seis meses a dois anos de idade.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 2º diz que os profissionais das áreas de saúde e educação devem ser sensibilizados sobre os sinais de risco de autismo, conforme os instrumentos mais atuais disponíveis.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 3º manda cadastrar as crianças diagnosticadas em um censo único da Prefeitura, para ofertar tratamentos. O parágrafo único prevê estatísticas do cadastro, preservado o sigilo para proteger crianças e famílias.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 4º diz que as agentes de saúde da família deverão optar por abordagens de rastreamento, considerando as idades, e não somente vigilância. O art. 5º faz a lei valer desde a publicação.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-10031-2023",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da Câmara Municipal do Rio, é o que vale.",
+    "A lei não indica qual instrumento de rastreamento usar, não fixa prazo nem diz quem faz o cadastro. O texto também não prevê regulamentação.",
+    "A ementa fala em \"rastreamento\", mas o art. 1º adota ações de \"vigilância\" e o art. 4º trata do rastreamento pelas agentes de saúde da família.",
+    "A vigência foi conferida no texto da base oficial da Câmara em 10 de novembro de 2026 (status \"Em Vigor\"), sem texto compilado e sem nota de revogação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 5.573, de 3 de maio de 2013: dispõe sobre os instrumentos de vigilância e rastreamento precoce do autismo nas Unidades Públicas de Saúde e Educação Municipais",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2013,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/9bf1dce2ea8bb54b03257b63006cc1da?OpenDocument",
+      "referencia": "arts. 1º a 5º",
+      "trecho": "Art. 1º Para efeito do art. 378 da Lei Orgânica do Município, ficam adotadas ações de vigilância precoce do autismo nas Unidades Públicas de Saúde e Educação Municipais, especialmente em crianças de seis meses a dois anos de idade.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-7517-2022",
+  "slug": "lei-municipal-rio-de-janeiro-7517-2022",
+  "base": "neurodireitos",
+  "nome": "Lei nº 7.517, de 12 de setembro de 2022, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "7.517",
+    "data": "2022-09-12",
+    "orgao": "Câmara Municipal do Rio de Janeiro",
+    "ementa": "Dispõe sobre a proibição de cobrança de taxa adicional para alunos com deficiência na rede de ensino privado, no âmbito do Município do Rio de Janeiro, e dá outras providências.",
+    "publicacao": "Diário da Câmara Municipal de 13/09/2022",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "educacao",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei municipal nº 7.517/2022 proíbe as escolas privadas situadas no Município do Rio de Janeiro de cobrar taxa adicional de alunos com deficiência. Também manda que elas matriculem esses alunos e prevejam a educação inclusiva no projeto político e pedagógico.",
+  "afirmacoes": [
+    {
+      "texto": "Fica proibida a cobrança de taxa adicional para alunos com deficiência na rede de ensino privado do Município do Rio de Janeiro (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As escolas privadas do Município devem matricular alunos com deficiência, independentemente da condição física, sensorial ou intelectual, sem cobrança de taxa extra aos pais ou responsáveis (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As escolas particulares devem garantir no projeto político e pedagógico a educação inclusiva, com flexibilização curricular, metodologias de ensino, recursos didáticos e processos avaliativos diferenciados, para atender às necessidades específicas dos alunos (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 4º diz que o Poder Executivo regulamentará a lei.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.decreto-7611-2011",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Câmara Municipal do Rio, é o que vale.",
+    "A lei fala em \"alunos com deficiência\" e não define quem é a pessoa com deficiência. A definição geral está na Lei federal nº 13.146/2015, que não é analisada aqui.",
+    "A lei não prevê sanção para a escola que cobrar a taxa. Este registro não analisa regras federais de matrícula nem decisões judiciais sobre o tema.",
+    "A vigência foi conferida em 10 de novembro de 2026 na ficha da base oficial da Câmara (\"Status da Lei: Em Vigor\"), sem texto compilado. Não foi achado decreto regulamentador no Diário Oficial do Município (a consulta direta a esse diário não foi concluída)."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 7.517, de 12 de setembro de 2022: Dispõe sobre a proibição de cobrança de taxa adicional para alunos com deficiência na rede de ensino privado, no âmbito do Município do Rio de Janeiro, e dá outras providências",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2022,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/0df4ee53df581469032588b800491277?OpenDocument",
+      "referencia": "arts. 1º a 4º",
+      "trecho": "Art. 1º Fica proibida a cobrança de taxa adicional para alunos com deficiência na rede de ensino privado, no âmbito do Município do Rio de Janeiro.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

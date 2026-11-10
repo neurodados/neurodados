@@ -1,0 +1,149 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-6432-2018",
+  "slug": "lei-municipal-rio-de-janeiro-6432-2018",
+  "base": "neurodireitos",
+  "nome": "Lei nº 6.432, de 20 de dezembro de 2018, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "6.432",
+    "data": "2018-12-20",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Dispõe sobre a Política de Educação Especial na perspectiva da Educação Inclusiva para alunos com deficiência e altas habilidades/superdotação da Rede Pública do Sistema Municipal de Ensino da Cidade do Rio de Janeiro e dá outras providências.",
+    "publicacao": "Diário Oficial do Município de 21/12/2018",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "altas_habilidades",
+    "tea"
+  ],
+  "areas": [
+    "educacao",
+    "acessibilidade"
+  ],
+  "definicao": "A Lei municipal nº 6.432/2018 institui a Política Municipal de Educação Especial na perspectiva da Educação Inclusiva. Ela vale para a rede pública municipal de ensino e trata de alunos com deficiência e com altas habilidades ou superdotação, nos termos das leis federais que cita, entre elas a do autismo.",
+  "afirmacoes": [
+    {
+      "texto": "O objeto da política é o acesso, a permanência, a participação e a aprendizagem dos alunos público-alvo da educação especial em turmas regulares da rede pública municipal (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O público-alvo são os alunos com deficiência e altas habilidades/superdotação, nos termos das Leis federais nº 13.146/2015 e nº 12.764/2012 e do Decreto federal nº 6.949/2009 (art. 2º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Esses alunos não poderão ser excluídos da rede pública municipal de ensino sob qualquer alegação, principalmente de deficiência (art. 3º, III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Atendimento Educacional Especializado deve ocorrer prioritariamente na própria escola, em horário complementar ao da turma, e deve compor o Projeto Político Pedagógico de cada escola (art. 5º, II e III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei assegura flexibilização curricular por meio do Plano Educacional Individualizado (PEI), que deve ser anexado ao histórico escolar do aluno (art. 6º, I).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei assegura prioridade de matrícula na educação infantil, em creche e pré-escola, para crianças do público-alvo da educação especial, de seis meses a cinco anos e onze meses (art. 6º, III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 6º, XIX, fixa o máximo de vinte alunos por professor de Atendimento Educacional Especializado de 40 horas lotado em sala de recursos, e de dez alunos para o de 22,5 horas, com possibilidade de aumento de dez por cento em caso de comprovada necessidade.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Cabe ao órgão da Secretaria Municipal de Educação responsável pela educação especial regulamentar e implementar a política (art. 10).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.decreto-6949-2009",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.decreto-7611-2011",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-5554-2013",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-10626-2024",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Câmara Municipal do Rio, é o que vale.",
+    "A lei vale para a rede pública municipal e não regula as escolas privadas. O registro resume parte dos artigos e não cobre, por exemplo, as regras da educação de jovens e adultos, da educação bilíngue de surdos e do atendimento domiciliar (art. 6º, II, VI a X e XVI).",
+    "O texto da Câmara traz o art. 5-A (atividade esportiva inclusiva), sem indicar na ficha qual lei o incluiu. Este registro não lista alterações.",
+    "A vigência foi conferida em 10 de novembro de 2026 na ficha da base oficial da Câmara (\"Status da Lei: Em Vigor\"), sem texto compilado. Não foi achado decreto regulamentador no Diário Oficial do Município (a consulta direta a esse diário não foi concluída). O art. 10 atribui a regulamentação ao órgão da Secretaria Municipal de Educação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 6.432, de 20 de dezembro de 2018: Dispõe sobre a Política de Educação Especial na perspectiva da Educação Inclusiva para alunos com deficiência e altas habilidades/superdotação da Rede Pública do Sistema Municipal de Ensino da Cidade do Rio de Janeiro e dá outras providências",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2018,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/a25d0492993dd8bd83258369007470d7?OpenDocument",
+      "referencia": "arts. 1º a 10",
+      "trecho": "Art. 1º Fica instituída a Política Municipal de Educação Especial na perspectiva da Educação Inclusiva no âmbito da Cidade do Rio de Janeiro.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

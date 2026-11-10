@@ -1,0 +1,114 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-8217-2023",
+  "slug": "lei-municipal-rio-de-janeiro-8217-2023",
+  "base": "neurodireitos",
+  "nome": "Lei nº 8.217, de 12 de dezembro de 2023, do Município do Rio de Janeiro",
+  "sigla": "PMSMCA",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "8.217",
+    "data": "2023-12-12",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Institui a Política Municipal de Saúde Mental de Crianças e Adolescentes - PMSMCA no âmbito do Município e dá outras providências.",
+    "publicacao": "Diário Oficial do Município de 13/12/2023",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "saude_mental",
+    "desenvolvimento_infantil"
+  ],
+  "areas": [
+    "saude"
+  ],
+  "definicao": "A Lei municipal nº 8.217/2023 institui a Política Municipal de Saúde Mental de Crianças e Adolescentes no Rio de Janeiro. Ela fixa princípios e objetivos, entre eles a prevenção e o monitoramento do suicídio, e manda aplicar a ela a Lei federal nº 13.819/2019 no que for compatível.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º institui a Política Municipal de Saúde Mental de Crianças e Adolescentes, um conjunto de normas integradas de iniciativas públicas dedicadas ao cuidado com a saúde mental de crianças e adolescentes.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 2º lista os princípios da política: atenção integral às necessidades psicossociais, ações intersetoriais e interdisciplinares de prevenção, igualdade de direitos no acesso ao atendimento, com linguagem simples e acessível, e participação da sociedade civil, em especial de crianças e adolescentes.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 3º define como objetivos a proteção ao bem-estar psicossocial, com oferta pelo Poder Público de cuidados de saúde mental, a prevenção e o monitoramento do suicídio de crianças e adolescentes e a criação de indicadores para acompanhar as medidas da lei. O parágrafo único soma os objetivos do art. 3º da Lei federal nº 13.819/2019.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 4º manda o Poder Público divulgar a lei com linguagem compreensível e adequada a crianças e adolescentes, e o art. 6º aplica a ela as disposições da Lei nº 13.819/2019 no que forem compatíveis.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 5º determina que o Poder Executivo regulamente a lei, e o art. 7º a faz valer a partir da data da publicação.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-10216-2001",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-8069-1990",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-3944-2002",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da Câmara Municipal do Rio, é o que vale.",
+    "A lei fixa princípios e objetivos. Ela não cria serviço, prazo, equipe nem verba, e não trata de diagnósticos específicos como TEA ou TDAH.",
+    "O art. 5º pede regulamentação pelo Poder Executivo. Este registro não achou decreto regulamentador no texto da lei nem na ficha da Câmara, e não conferiu o Diário Oficial do Município.",
+    "A vigência foi conferida no texto da base oficial da Câmara em 10 de novembro de 2026 (status \"Em Vigor\"), sem texto compilado e sem nota de revogação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.217, de 12 de dezembro de 2023: institui a Política Municipal de Saúde Mental de Crianças e Adolescentes - PMSMCA no âmbito do Município",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2023,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/8ba683aa0861a12203258a840045836c?OpenDocument",
+      "referencia": "arts. 1º a 7º",
+      "trecho": "Art. 1º Fica instituída a Política Municipal de Saúde Mental de Crianças e Adolescentes - PMSMCA, compreendendo um conjunto de normas integradas de iniciativas públicas dedicadas ao cuidado com a saúde mental de crianças e adolescentes.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-6708-2014",
+  "slug": "lei-estadual-rj-6708-2014",
+  "base": "neurodireitos",
+  "nome": "Lei nº 6.708, de 13 de março de 2014, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "6.708",
+    "data": "2014-03-13",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Cria o Programa de Conscientização e obriga a inclusão e reserva de vagas na rede pública e privada de educação no Estado do Rio de Janeiro para crianças e adolescentes com Transtorno do Espectro Autista e dá outras providências.",
+    "publicacao": "Diário Oficial do Estado de 14/03/2014",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "A Lei estadual nº 6.708/2014 cria um programa de conscientização sobre o autismo nas redes pública e privada de ensino do Estado do Rio de Janeiro e obriga esses estabelecimentos a incluir crianças e adolescentes com TEA no ensino regular, com reserva de, no mínimo, 2 vagas por turma (arts. 1º e 2º).",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º cria o Programa de Conscientização na Rede Pública e Privada de Educação no Estado do Rio de Janeiro sobre o Transtorno do Espectro Autista.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os estabelecimentos de ensino das redes pública e privada devem manter, de forma permanente, nos murais internos de sala de aula, corredores e pátios, material gráfico informativo dos sintomas do autismo (art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os estabelecimentos de ensino das redes pública e privada ficam obrigados a incluir em seu ensino regular crianças ou adolescentes com Transtorno do Espectro Autista (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para essa inclusão, os estabelecimentos devem reservar, no mínimo, 2 vagas por turma (art. 2º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Canal de Relacionamento da Secretaria de Estado de Educação será usado para reclamações de pais e familiares em caso de recusa de matrícula de aluno com TEA nas redes pública e privada (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei diz que a recusa importa aos responsáveis as penas previstas no art. 8º, inciso I, da Lei Federal nº 7.853/1989 (art. 3º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data da publicação (art. 4º), no Diário Oficial do Estado de 14 de março de 2014.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9395-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-6807-2014",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da ALERJ, é o que vale.",
+    "A lei fala em reserva de vagas em escolas públicas e privadas. Na ficha da ALERJ, o campo de ação de inconstitucionalidade consta como \"Não Consta\", e a busca em sites oficiais do TJRJ e do STF não achou ação contra esta lei, mas essa busca não esgota todos os processos.",
+    "A lei não traz regulamentação nem define o que conta como \"material gráfico informativo dos sintomas\".",
+    "A vigência foi conferida no texto da base oficial da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha marca \"Em Vigor\" e não traz nota de revogação nem de alteração."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 6.708, de 13 de março de 2014, do Estado do Rio de Janeiro (texto na base de leis da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2014,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/ad3c053a556f852883257c9f006977ce?OpenDocument",
+      "referencia": "arts. 1º a 4º",
+      "trecho": "Art. 2° Os estabelecimentos de ensino das Redes Púbicas e Privadas de Educação ficam obrigadas a incluírem em seu ensino regular crianças ou adolescentes portadores do Transtorno do Espectro Autista.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

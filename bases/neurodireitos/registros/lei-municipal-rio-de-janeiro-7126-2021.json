@@ -1,0 +1,118 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-7126-2021",
+  "slug": "lei-municipal-rio-de-janeiro-7126-2021",
+  "base": "neurodireitos",
+  "nome": "Lei nº 7.126, de 18 de novembro de 2021, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "7.126",
+    "data": "2021-11-18",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Reconhece o cordão de girassol como instrumento auxiliar de orientação para identificação de pessoas com deficiências ocultas.",
+    "publicacao": "Diário Oficial do Município de 19/11/2021",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "identificacao"
+  ],
+  "definicao": "A Lei municipal nº 7.126/2021 reconhece o cordão de girassol como instrumento auxiliar para identificar pessoas com deficiências ocultas, inclusive condição neurológica. O uso é facultativo, e estabelecimentos públicos e privados devem orientar seus funcionários.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º reconhece o uso do cordão de girassol como instrumento auxiliar de orientação para identificação de pessoas com deficiências ocultas.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pessoa com deficiência oculta, para a lei, é aquela cuja deficiência, ou condição neurológica, não é identificada de maneira imediata, por não ser fisicamente evidente (art. 1º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O cordão é uma faixa estreita de tecido ou material equivalente, na cor verde, estampada com desenhos de girassóis, e pode ter um crachá com informações úteis, a critério do portador ou de seus responsáveis (art. 1º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O uso é facultado a quem tem deficiências ocultas, a seus acompanhantes e a seus atendentes pessoais, e não é condição para o gozo de direitos assegurados à pessoa com deficiência (art. 2º e parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os estabelecimentos públicos e privados devem orientar seus funcionários e colaboradores sobre a identificação de pessoas com deficiências ocultas pelo cordão e sobre procedimentos que atenuem as dificuldades dessas pessoas (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 4º prevê que ato do Poder Executivo regulamentará a lei.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-14624-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9894-2022",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Câmara Municipal do Rio, é o que vale.",
+    "A lei não define as condições que contam como deficiência oculta, além da regra geral do art. 1º, § 1º, e não prevê multa nem fiscalização.",
+    "O art. 4º remete a regulamentação por ato do Poder Executivo. Não foi achado decreto municipal que a faça.",
+    "A vigência foi conferida na ficha e no texto da base oficial da Câmara Municipal do Rio em 10 de novembro de 2026 (\"Em Vigor\"), sem texto compilado. Nenhuma lei posterior da base cita esta lei, e não foi achado decreto que a regulamente."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 7.126, de 18 de novembro de 2021: reconhece o cordão de girassol como instrumento auxiliar de orientação para identificação de pessoas com deficiências ocultas",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2021,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/54401374a5f4548603258791005b149e?OpenDocument",
+      "referencia": "arts. 1º a 5º",
+      "trecho": "Art. 1º Fica reconhecido o uso do cordão de girassol como instrumento auxiliar de orientação para identificação de pessoas com deficiências ocultas.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

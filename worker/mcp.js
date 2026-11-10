@@ -53,6 +53,8 @@ function definicoes(D) {
     if (b.base === 'neurodireitos') {
       props.condicao = { type: 'string', enum: Object.keys(D.condicoes || {}), description: M.parametroCondicao };
       props.area = { type: 'string', enum: Object.keys(D.areas || {}), description: M.parametroArea };
+      props.abrangencia = { type: 'string', enum: Object.keys(D.rotulos?.norma?.abrangencias || {}), description: M.parametroAbrangencia };
+      props.uf = { type: 'string', pattern: '^[A-Za-z]{2}$', description: M.parametroUf };
     }
     lista.push({ name: nome, title: nome, description: F[nome], inputSchema: { type: 'object', additionalProperties: false, required: ['consulta'], properties: props }, annotations: leitura(nome) });
   }
@@ -191,12 +193,18 @@ function chamar(m, D) {
     if (args.tema && !Object.keys(D.temas || {}).includes(args.tema)) return erro(m.id, -32602, M.categoriaDesconhecida, { temas: Object.keys(D.temas || {}) });
     if (args.condicao && !Object.keys(D.condicoes || {}).includes(args.condicao)) return erro(m.id, -32602, M.filtroDesconhecido, { condicoes: Object.keys(D.condicoes || {}) });
     if (args.area && !Object.keys(D.areas || {}).includes(args.area)) return erro(m.id, -32602, M.filtroDesconhecido, { areas: Object.keys(D.areas || {}) });
+    const abrangencias = Object.keys(D.rotulos?.norma?.abrangencias || {});
+    if (args.abrangencia && !abrangencias.includes(args.abrangencia)) return erro(m.id, -32602, M.filtroDesconhecido, { abrangencias });
+    const uf = typeof args.uf === 'string' ? args.uf.toUpperCase() : '';
+    if (args.uf && !/^[A-Z]{2}$/.test(uf)) return erro(m.id, -32602, M.filtroDesconhecido);
     const limite = Math.min(20, Math.max(1, parseInt(args.limite || 5, 10) || 5));
     const consulta = args.consulta.slice(0, 100);
     let achados = buscar(D.registros[def.base] || [], consulta, { categoria: def.categoria || args.categoria });
     if (args.tema) achados = achados.filter((r) => (r.temas || []).includes(args.tema));
     if (args.condicao) achados = achados.filter((r) => (r.condicoes || []).includes(args.condicao));
     if (args.area) achados = achados.filter((r) => (r.areas || []).includes(args.area));
+    if (args.abrangencia) achados = achados.filter((r) => r.norma?.abrangencia === args.abrangencia);
+    if (uf) achados = achados.filter((r) => r.norma?.uf === uf);
     const registros = achados.slice(0, limite).map(resumo);
     const linha = (r) => {
       let t = `${r.nome}${r.sigla ? ` (${r.sigla})` : ''} [${r.id}]: ${r.definicao}`;

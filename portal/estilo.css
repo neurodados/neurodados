@@ -597,7 +597,9 @@ a.selo:hover { color: var(--selo-texto); text-decoration: underline; }
   font-size: var(--passo--1);
 }
 .categoria + .categoria { margin-top: var(--gap-lg); }
-.categoria > h3 { font-size: var(--passo-1); margin-bottom: var(--gap-sm); }
+.categoria > h3, .categoria > h4 { font-size: var(--passo-1); margin-bottom: var(--gap-sm); }
+.jurisdicao + .jurisdicao { margin-top: var(--gap-xl); }
+.jurisdicao > h3 { font-size: var(--passo-2); margin-bottom: var(--gap-md); }
 
 /* ---- botões ---- */
 .grupo-btn { display: flex; flex-wrap: wrap; gap: var(--gap-sm); align-items: center; }

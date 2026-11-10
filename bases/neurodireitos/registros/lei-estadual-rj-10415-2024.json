@@ -1,0 +1,130 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-10415-2024",
+  "slug": "lei-estadual-rj-10415-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 10.415, de 10 de junho de 2024, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "10.415",
+    "data": "2024-06-10",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Estabelece a Política Estadual de Proteção dos Direitos da Pessoa com Transtorno do Desenvolvimento da Linguagem (TDL).",
+    "publicacao": "Diário Oficial do Estado de 11/06/2024",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "desenvolvimento_infantil",
+    "deficiencia"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "educacao",
+    "saude"
+  ],
+  "definicao": "A Lei estadual nº 10.415/2024 estabelece a Política Estadual de Proteção dos Direitos da Pessoa com Transtorno do Desenvolvimento da Linguagem (TDL). Considera a pessoa com TDL pessoa com deficiência e fixa objetivos, com vários artigos em termos de \"poderá\" e \"fica autorizada\".",
+  "afirmacoes": [
+    {
+      "texto": "A lei define a pessoa com TDL como a que tem dificuldade idiopática, sem condições biomédicas que a justifiquem, em adquirir, desenvolver e usar a linguagem oral, com impacto na compreensão e na expressão, em quadro permanente e não transitório (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A pessoa com TDL será considerada pessoa com deficiência, para todos os efeitos legais. A avaliação, quando necessária, será biopsicossocial, preferencialmente por equipe multiprofissional e interdisciplinar (art. 3º e parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei lista objetivos da política, como intersetorialidade, atenção integral à saúde com diagnóstico precoce, informação pública, capacitação de profissionais, pesquisa e inserção no mercado de trabalho (art. 4º). Os direitos da pessoa com TDL são os da Constituição e das demais leis da pessoa com deficiência (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Fica autorizada a criação de aplicativo de mapeamento das pessoas com TDL (art. 6º), e o Estado poderá realizar censo quadrienal (art. 7º). Várias medidas são facultativas: parcerias (art. 8º), atendimento ambulatorial prioritário (art. 12) e capacitação de profissionais da educação e da saúde (arts. 13 e 14).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A empresa no Estado com 100 ou mais empregados deve observar o art. 93 da Lei federal nº 8.213/1991 quanto à empregabilidade de pessoas com deficiência, inclusive com TDL (art. 9º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A criança e o adolescente com TDL têm direito à matrícula georreferenciada na escola da rede pública mais próxima da residência (art. 16). Nas escolas públicas e privadas com alunos com TDL, quando detectada a necessidade, o corpo docente deverá ter equipe multiprofissional e orientações pedagógicas individualizadas (art. 15).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei não traz artigo que remeta a regulamento. Entrou em vigor na data da publicação (art. 18).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.transtorno-do-desenvolvimento-da-linguagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14254-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.desenvolvimento-da-linguagem",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Assembleia Legislativa do Estado do Rio de Janeiro (ALERJ), é o que vale.",
+    "Boa parte da lei é facultativa (\"poderá\", \"fica autorizada\"). O registro não a trata como obrigação onde o texto não a impõe.",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha da lei indica \"Em Vigor\" e não traz nota de revogação nem ação de inconstitucionalidade. Não achei decreto regulamentador: o campo \"Texto da Regulamentação\" da ficha está vazio.",
+    "A lei diz que a pessoa com TDL é pessoa com deficiência \"para todos os efeitos legais\". O registro não analisa como outras normas, estaduais ou federais, tratam essa equiparação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 10.415, de 10 de junho de 2024, do Estado do Rio de Janeiro (texto na base da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2024,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/bc694ca1ce04624503258b3a00496811?OpenDocument",
+      "referencia": "arts. 1º a 18",
+      "trecho": "Art. 3º A pessoa com transtorno do desenvolvimento de linguagem será considerada pessoa com deficiência, para todos os efeitos legais.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

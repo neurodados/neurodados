@@ -166,6 +166,29 @@ if (normas.length) {
     const j = await r.json();
     conferir(r.status === 200 && (j.dados?.registros || []).every((x) => (x.condicoes || []).includes(cond)), `API: filtro condicao=${cond} no NeuroDireitos`);
   }
+  // Abrangência e estado (UF): normas federais, estaduais e municipais.
+  r = await pedir(`${P}/api/v1/neurodireitos?abrangencia=nao-existe`);
+  conferir(r.status === 400, 'API: abrangência desconhecida no NeuroDireitos dá 400');
+  r = await pedir(`${P}/api/v1/neurodireitos?uf=r1`);
+  conferir(r.status === 400, 'API: UF inválida no NeuroDireitos dá 400');
+  for (const ab of [...new Set(normas.map((x) => x.norma.abrangencia))]) {
+    r = await pedir(`${P}/api/v1/neurodireitos?abrangencia=${ab}&por_pagina=100`);
+    const ja = await r.json();
+    const esperado = normas.filter((x) => x.norma.abrangencia === ab).length;
+    conferir(r.status === 200 && ja.dados.total === esperado && ja.dados.registros.every((x) => x.norma.abrangencia === ab), `API: filtro abrangencia=${ab} no NeuroDireitos (${esperado})`);
+  }
+  for (const uf of [...new Set(normas.map((x) => x.norma.uf).filter(Boolean))]) {
+    r = await pedir(`${P}/api/v1/neurodireitos?uf=${uf.toLowerCase()}&por_pagina=100`);
+    const ju = await r.json();
+    const esperado = normas.filter((x) => x.norma.uf === uf).length;
+    conferir(r.status === 200 && ju.dados.total === esperado && ju.dados.registros.every((x) => x.norma.uf === uf), `API: filtro uf=${uf} no NeuroDireitos (${esperado})`);
+    c = await chamar('buscar_norma', { consulta: 'lei', uf }, 16);
+    conferir(!c.error && (c.result?.structuredContent?.registros || []).every((x) => x.norma.uf === uf), `MCP: buscar_norma filtra pela UF (${uf})`);
+    r = await pedir(`${P}/bases/neurodireitos`);
+    conferir((await r.text()).includes('<div class="jurisdicao"><h3>'), 'página do NeuroDireitos agrupa as normas por lugar');
+  }
+  c = await chamar('buscar_norma', { consulta: 'lei', abrangencia: 'nao-existe' }, 15);
+  conferir(c.error?.code === -32602, 'MCP: buscar_norma com abrangência desconhecida dá -32602');
 }
 
 // Downloads de cada base

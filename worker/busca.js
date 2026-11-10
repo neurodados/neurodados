@@ -69,7 +69,7 @@ export function resumo(r) {
   if (r.publicacao) s.publicacao = { titulo_original: r.publicacao.titulo_original, ano: r.publicacao.ano, doi: r.publicacao.doi || null };
   if (r.norma) {
     const oficial = (r.fontes || []).find((f) => f.id === r.norma.fonte);
-    s.norma = { tipo: r.norma.tipo, numero: r.norma.numero, data: r.norma.data, vigencia: r.norma.vigencia.situacao, vigencia_conferida_em: r.norma.vigencia.conferido_em, texto_oficial: oficial ? oficial.url : null };
+    s.norma = { tipo: r.norma.tipo, numero: r.norma.numero, data: r.norma.data, abrangencia: r.norma.abrangencia, ...(r.norma.uf ? { uf: r.norma.uf } : {}), ...(r.norma.municipio ? { municipio: r.norma.municipio } : {}), vigencia: r.norma.vigencia.situacao, vigencia_conferida_em: r.norma.vigencia.conferido_em, texto_oficial: oficial ? oficial.url : null };
     s.condicoes = r.condicoes || [];
     s.areas = r.areas || [];
   }

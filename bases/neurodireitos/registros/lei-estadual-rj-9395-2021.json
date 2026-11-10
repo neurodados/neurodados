@@ -1,0 +1,161 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-9395-2021",
+  "slug": "lei-estadual-rj-9395-2021",
+  "base": "neurodireitos",
+  "nome": "Lei nº 9.395, de 9 de setembro de 2021, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "9.395",
+    "data": "2021-09-09",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Estabelece a Política Estadual de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista.",
+    "publicacao": "Diário Oficial do Estado nº 173-A, de 10/09/2021",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 10.074, de 21 de julho de 2023",
+        "Lei nº 10.407, de 2024",
+        "Lei nº 10.720, de 2 de abril de 2025",
+        "Lei nº 11.019, de 7 de novembro de 2025",
+        "Lei nº 11.289, de 22 de julho de 2026"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "deficiencia"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "saude",
+    "educacao",
+    "trabalho",
+    "tributos",
+    "atendimento_prioritario"
+  ],
+  "definicao": "A Lei estadual nº 9.395/2021 estabelece a Política Estadual de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista no Rio de Janeiro. Ela considera a pessoa com TEA pessoa com deficiência e reúne objetivos, direitos e medidas na saúde, na educação, no trabalho e em benefícios fiscais. Muitos dispositivos incluídos depois são facultativos.",
+  "afirmacoes": [
+    {
+      "texto": "Para a lei, pessoa com TEA é a definida no art. 1º, § 1º, incisos I e II, da Lei federal nº 12.764/2012, e é considerada pessoa com deficiência para todos os efeitos legais (arts. 2º e 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os direitos da pessoa com TEA são os assegurados pela Constituição Federal, os do art. 3º da Lei federal nº 12.764/2012 e os demais que tratam da pessoa com deficiência (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O laudo médico que diagnostica em definitivo o TEA tem validade indeterminada no estado do Rio de Janeiro, nos termos da Lei estadual nº 9.425/2021 (art. 12-D).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Criança e adolescente com TEA têm direito à matrícula georreferenciada na escola mais próxima de sua residência na rede pública (art. 15). Estabelecimento da rede estadual de ensino que recusar ou restringir o acesso educacional sujeita-se a multa de 1.000 a 10.000 UFIRs (art. 15-B).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Empresa com 100 ou mais empregados deve observar o art. 93 da Lei federal nº 8.213/1991 (art. 7º). Empresa beneficiada por incentivo ou isenção fiscal nos termos da Lei estadual nº 6.192/2012 deve destinar 2% das vagas ao primeiro emprego de pessoas com deficiência, inclusive autistas, desde que habilitados (art. 8º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei prevê benefícios fiscais na aquisição de veículos pela pessoa com TEA: isenção de ICMS, conforme o Convênio ICMS 38/2012, e isenção de IPI, nos termos da Lei federal nº 8.989/1995 (art. 11).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Permanecer em local público ou privado com alimentos para consumo próprio e utensílios de uso pessoal fica condicionado à apresentação de laudo médico ou de carteira de identificação que ateste o TEA. Pode-se apresentar também o cordão girassol ou o cordão de quebra-cabeça, com o documento que comprove a condição, se solicitado (arts. 10, § 1º, e 10-B).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Vários dispositivos incluídos em 2023 são facultativos: o Poder Executivo \"poderá\" reservar vagas em cargos comissionados (art. 9º-A), supermercados \"poderão\" disponibilizar 5% dos carrinhos adaptados (art. 8º-A) e \"fica autorizada\" a criação de aplicativo de mapeamento (art. 5º-C). O formulário on-line de mapeamento é de preenchimento voluntário (art. 5º-A e art. 5º-B).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-8879-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9425-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-6807-2014",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-6708-2014",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-10967-2025",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALERJ, é o que vale.",
+    "O art. 16 diz que o Poder Executivo regulamentará a lei. Na ficha da ALERJ, o campo de regulamentação está vazio, e não foi encontrado decreto regulamentador.",
+    "O registro resume os pontos principais e não todos os artigos. A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado oficial, e as leis alteradoras foram listadas como o texto da ALERJ as indica."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 9.395, de 9 de setembro de 2021, do Estado do Rio de Janeiro: estabelece a Política Estadual de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista (texto com as alterações, na base da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2021,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/e1e17ccaa48e7b3f03258752006dc473?OpenDocument",
+      "referencia": "arts. 1º a 17, com as alterações indicadas no texto",
+      "trecho": "Art. 3º A pessoa com transtorno do espectro autista é considerada pessoa com deficiência, para todos os efeitos legais.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

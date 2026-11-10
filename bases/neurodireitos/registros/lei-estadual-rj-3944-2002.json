@@ -1,0 +1,108 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-3944-2002",
+  "slug": "lei-estadual-rj-3944-2002",
+  "base": "neurodireitos",
+  "nome": "Lei nº 3.944, de 10 de setembro de 2002, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "3.944",
+    "data": "2002-09-10",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Dispõe sobre os direitos fundamentais das pessoas usuárias do serviço de saúde mental e dá outras providências.",
+    "publicacao": "Diário Oficial do Estado de 11/09/2002",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "saude_mental"
+  ],
+  "areas": [
+    "saude",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 3.944/2002 lista direitos fundamentais das pessoas usuárias de serviços de saúde mental no Estado do Rio de Janeiro, como informação sobre o tratamento, consentimento por escrito e acesso ao prontuário. Também trata da internação compulsória e da redução gradual de leitos manicomiais.",
+  "afirmacoes": [
+    {
+      "texto": "São direitos fundamentais das pessoas usuárias, entre outros: ser informadas dos seus direitos na internação; não receber tratamento sem consentimento por escrito, salvo emergência; ser informadas de todas as etapas do tratamento; receber visitas em particular; praticar sua religião; e ter acesso ao prontuário (art. 1º, I a XI).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os casos de internação psiquiátrica compulsória devem ser comunicados ao Ministério Público, à Comissão de Ética Mental da instituição e ao Conselho Regional de Medicina em 48 horas (art. 2º, caput).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Internação compulsória é a feita sem o expresso desejo do usuário. A internação considerada legal pelo Ministério Público vale no máximo 20 dias e depois deve ser reavaliada, com relatório médico (art. 2º, §§ 1º e 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Poder Público adotará medidas para implantar serviços intermediários que garantam a extinção gradual de leitos manicomiais no prazo máximo de cinco anos (art. 3º), com prioridade de recursos para ambulatórios, centros de convivência, centros de atendimento psicossocial, hospital dia e outros serviços listados (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Conselho Estadual de Saúde fiscaliza a mudança do modelo assistencial, o Poder Público promoverá campanha de divulgação da lei e o Poder Executivo deveria regulamentá-la em seis meses (arts. 5º a 7º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-10216-2001",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-8217-2023",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALERJ, é o que vale.",
+    "A lei é de 2002 e trata de saúde mental em geral, sem se referir a uma condição específica.",
+    "A ficha da ALERJ não traz texto de regulamentação: não foi achado decreto regulamentador, embora o art. 7º previsse o prazo de seis meses.",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha traz a situação \"Em Vigor\", sem alterações nem revogação. O registro não analisa a relação com a Lei federal nº 10.216/2001."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 3.944, de 10 de setembro de 2002: dispõe sobre os direitos fundamentais das pessoas usuárias do serviço de saúde mental",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2002,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/2125b8ee3a3ff68a03256c31005dfb5c?OpenDocument",
+      "referencia": "arts. 1º a 7º",
+      "trecho": "Art. 1º - São direitos fundamentais das pessoas usuárias de serviço de saúde mental, dentre outros:",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

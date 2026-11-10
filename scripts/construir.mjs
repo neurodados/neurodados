@@ -153,6 +153,8 @@ const COLUNAS_DA_BASE = {
     ['norma_orgao', (r) => r.norma?.orgao],
     ['norma_ementa', (r) => r.norma?.ementa],
     ['norma_abrangencia', (r) => r.norma?.abrangencia],
+    ['norma_uf', (r) => r.norma?.uf],
+    ['norma_municipio', (r) => r.norma?.municipio],
     ['vigencia_situacao', (r) => r.norma?.vigencia?.situacao],
     ['vigencia_conferido_em', (r) => r.norma?.vigencia?.conferido_em],
     ['alteracoes', (r) => lista_(r.norma?.vigencia?.alteracoes)],
@@ -252,6 +254,8 @@ for (const b of bases) {
         ...(b.id === 'neurodireitos' ? [
           { name: 'condicao', in: 'query', schema: { type: 'string', enum: Object.keys(T.CONDICOES) }, description: MSG.parametroCondicao },
           { name: 'area', in: 'query', schema: { type: 'string', enum: Object.keys(T.AREAS) }, description: MSG.parametroArea },
+          { name: 'abrangencia', in: 'query', schema: { type: 'string', enum: Object.keys(T.REGISTRO.norma.abrangencias) }, description: MSG.parametroAbrangencia },
+          { name: 'uf', in: 'query', schema: { type: 'string', pattern: '^[A-Za-z]{2}$' }, description: MSG.parametroUf },
         ] : []),
       ],
       responses: { ...resposta, 400: { description: MSG.categoriaDesconhecida } },

@@ -421,7 +421,7 @@ export const PAGINAS = {
       },
       neurodireitos: {
         titulo: 'NeuroDireitos | Leis e normas sobre neurodesenvolvimento e deficiência',
-        descricao: 'Leis, decretos e normas federais sobre neurodesenvolvimento, deficiência, saúde mental e doenças: o que garantem, a vigência e o texto oficial. Dados abertos.',
+        descricao: 'Leis e normas federais, do Estado e da cidade do Rio de Janeiro sobre neurodesenvolvimento, deficiência e saúde mental: o que garantem, a vigência e o texto oficial.',
       },
     },
     registros: 'Os registros',
@@ -442,6 +442,7 @@ export const PAGINAS = {
     citar: 'Como citar',
     citacao: 'NeuroDados Brasil. {titulo}, versão {versao}. Rio de Janeiro: Clínica NeuroBee, {ano}. Disponível em: {url}. Licença CC BY 4.0.',
     citacaoDoi: 'NeuroDados Brasil. {titulo}, versão {versao}. Rio de Janeiro: Clínica NeuroBee, {ano}. DOI: {doi}. Disponível em: {url}. Licença CC BY 4.0.',
+    gruposNormas: { federal: 'Normas federais', estadual: 'Normas estaduais ({uf})', municipal: 'Normas municipais ({municipio}, {uf})' },
     limitacoes: 'Limitações',
     versoes: 'Versões',
   },
@@ -635,7 +636,7 @@ export const PAGINAS = {
       endpoints: [
         ['GET /api/v1', 'O índice da API, com as bases e os endereços.'],
         ['GET /api/v1/bases', 'O catálogo das bases.'],
-        ['GET /api/v1/{base}', 'Os registros de uma base (neurobase, avaliabase, intervenbase, evidenciabase ou neurodireitos), com os filtros q (busca), categoria, pagina e por_pagina (até 100). No NeuroDireitos, também condicao e area.'],
+        ['GET /api/v1/{base}', 'Os registros de uma base (neurobase, avaliabase, intervenbase, evidenciabase ou neurodireitos), com os filtros q (busca), categoria, pagina e por_pagina (até 100). No NeuroDireitos, também condicao, area, abrangencia e uf.'],
         ['GET /api/v1/{base}/{slug}', 'Um registro completo, como /api/v1/neurobase/tea.'],
         ['GET /api/v1/openapi.json', 'A descrição da API em OpenAPI 3.1.'],
       ],
@@ -698,7 +699,7 @@ export const FERRAMENTAS_MCP = {
   buscar_instrumento: 'Busca na AvaliaBase um instrumento de avaliação pelo nome ou pela sigla e devolve a situação dele no SATEPSI, com a data da consulta. Não devolve itens nem respostas de testes.',
   buscar_intervencao: 'Busca na IntervenBase intervenções e atendimentos no desenvolvimento infantil, com o que as evidências mostram e os limites de cada um.',
   buscar_evidencias: 'Busca na EvidenciaBase estudos, revisões e diretrizes pelo tema, pelo título ou pelo autor, com os metadados e o resumo de cada publicação.',
-  buscar_norma: 'Busca no NeuroDireitos leis, decretos e normas federais sobre neurodesenvolvimento, deficiência, saúde mental e doenças, pelo número, pelo nome ou pelo assunto. Devolve o que cada norma garante, a vigência e o endereço do texto oficial. Não é orientação jurídica.',
+  buscar_norma: 'Busca no NeuroDireitos leis, decretos e normas federais, do Estado do Rio de Janeiro e do Município do Rio de Janeiro sobre neurodesenvolvimento, deficiência, saúde mental e doenças, pelo número, pelo nome ou pelo assunto. Para as normas de um estado ou de um município, use os filtros abrangencia e uf. Devolve o que cada norma garante, a vigência e o endereço do texto oficial. Não é orientação jurídica.',
 };
 
 // Mensagens que a API e o servidor MCP devolvem.
@@ -728,6 +729,8 @@ export const MENSAGENS = {
   parametroTema: 'Filtra pelo tema.',
   parametroCondicao: 'Filtra pela condição ou pelo público a que a norma se refere.',
   parametroArea: 'Filtra pela área, como educação, saúde ou assistência social.',
+  parametroAbrangencia: 'Filtra pela abrangência da norma: federal, estadual ou municipal.',
+  parametroUf: 'Filtra pela sigla do estado, como RJ, nas normas estaduais e municipais.',
   filtroDesconhecido: 'Filtro desconhecido.',
   parametroLimite: 'Quantos registros devolver, de 1 a 20.',
   parametroId: 'O id, como neurobase.tea ou avaliabase.satepsi. O slug sozinho, como tea, procura na NeuroBase.',

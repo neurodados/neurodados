@@ -1,0 +1,121 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-8192-2018",
+  "slug": "lei-estadual-rj-8192-2018",
+  "base": "neurodireitos",
+  "nome": "Lei nº 8.192, de 4 de dezembro de 2018, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "8.192",
+    "data": "2018-12-04",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Obriga as escolas públicas e privadas, no âmbito do Estado do Rio de Janeiro, a disponibilizarem cadeiras em locais determinados aos portadores de Transtorno de Deficit de Atenção e Hiperatividade - TDAH.",
+    "publicacao": "Diário Oficial do Estado de 05/12/2018",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tdah"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "A Lei estadual nº 8.192/2018 obriga escolas públicas e privadas do Estado a oferecer a alunos com TDAH assento na primeira fila, afastado de janelas e cartazes. Pede laudo médico e trata de local diferenciado para provas e de adaptações curriculares.",
+  "afirmacoes": [
+    {
+      "texto": "As escolas públicas e privadas do Estado do Rio de Janeiro ficam obrigadas a disponibilizar, nas salas de aula, assentos na primeira fila aos alunos com TDAH, afastados de janelas, cartazes e outros elementos de possível distração (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O aluno diagnosticado tem direito a fazer avaliações e provas durante o ano letivo em local diferenciado, com o auxílio preferencialmente de professor com formação própria para isso, nas palavras da lei, e com mais tempo (art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para o atendimento ao art. 1º, os pais ou responsáveis devem apresentar laudo médico que comprove o TDAH, emitido por médico de neurologia ou de psiquiatria (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As escolas das redes pública e privada devem prever, na organização das classes, flexibilizações e adaptações curriculares, metodologias, recursos didáticos e processos de avaliação adequados aos alunos com necessidades educacionais especiais, respeitada a frequência obrigatória (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As escolas devem promover formação continuada sobre a escolarização de pessoas com TDAH para docentes e corpo técnico-pedagógico (art. 3º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei não traz artigo que remeta a regulamento. Entrou em vigor na data da publicação (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14254-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-7354-2016",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Assembleia Legislativa do Estado do Rio de Janeiro (ALERJ), é o que vale.",
+    "A lei fala em \"portadores\" de TDAH e usa a grafia do texto oficial. A exigência de laudo emitido por médico de neurologia ou psiquiatria é do art. 2º; o registro não opina sobre ela.",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha da lei indica \"Em Vigor\" e não traz nota de revogação nem ação de inconstitucionalidade. Não achei decreto regulamentador: o campo \"Texto da Regulamentação\" da ficha está vazio.",
+    "A lei não fixa prazo, multa nem órgão fiscalizador. O registro não afirma como as escolas a cumprem na prática."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.192, de 4 de dezembro de 2018, do Estado do Rio de Janeiro (texto na base da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2018,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/8bf2980d58e386840325835a005adc73?OpenDocument",
+      "referencia": "arts. 1º a 4º",
+      "trecho": "Art. 1º As unidades escolares públicas e privadas, no âmbito do Estado do Rio de Janeiro, ficam obrigadas a disponibilizar, em suas salas de aula, assentos na primeira fila aos alunos com Transtorno de Déficit de Atenção e Hiperatividade - TDAH assegurando seu posicionamento afastado de janelas, cartazes e outros elementos, possíveis potenciais de distração.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

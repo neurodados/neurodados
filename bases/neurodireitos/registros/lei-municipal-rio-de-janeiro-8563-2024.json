@@ -1,0 +1,122 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-8563-2024",
+  "slug": "lei-municipal-rio-de-janeiro-8563-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 8.563, de 10 de setembro de 2024, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "8.563",
+    "data": "2024-09-10",
+    "orgao": "Câmara Municipal do Rio de Janeiro",
+    "ementa": "Isenta as pessoas com doenças crônicas e com deficiências do pagamento de tarifas de transporte coletivo.",
+    "publicacao": "Diário da Câmara Municipal de 11/09/2024",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "doencas_cronicas"
+  ],
+  "areas": [
+    "transporte",
+    "tributos"
+  ],
+  "definicao": "A Lei municipal nº 8.563/2024, promulgada pela Câmara, assegura isenção de tarifa no transporte coletivo do Rio de Janeiro a pessoas com doenças crônicas de tratamento continuado e a pessoas com deficiência e dificuldade de locomoção, que usam o transporte para suas terapias. A isenção é pelo Passe Especial e depende de regulamentação.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º assegura a isenção do pagamento das tarifas de transporte coletivo de passageiros (rodoviário, metroviário, ferroviário, pré-metroviário, pré-ferroviário e aquaviário) mediante apresentação do Passe Especial de Pessoas com Doenças Crônicas ou Deficiências.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pelo art. 1º, a isenção vale para pessoas com doenças crônicas que exijam tratamento continuado e cuja interrupção possa acarretar riscos de vida, e para pessoas com deficiências que promovam reconhecida dificuldade de locomoção, que precisam do transporte coletivo para suas terapias.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 2º manda o Poder Executivo Municipal regulamentar a isenção em até noventa dias depois da publicação da lei.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 3º faz a lei entrar em vigor na data da publicação. A lei foi promulgada pelo Presidente da Câmara Municipal, sem sanção do Prefeito, e é oriunda do Projeto de Lei nº 27-A/2013.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Lei nº 2.383/1995 tem desenho parecido: assegura isenção de tarifa nos transportes coletivos a portadores de doenças crônicas e de deficiência com dificuldade de locomoção, também por um Passe Especial (art. 1º). A Lei nº 8.563/2024 não cita a Lei nº 2.383/1995 nem a revoga.",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-4510-2005",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da Câmara Municipal do Rio, é o que vale.",
+    "Não foi achado decreto que regulamente a Lei nº 8.563/2024. A busca por esse decreto no Diário Oficial do Município (doweb.rio.rj.gov.br) e na web, em 10 de novembro de 2026, não trouxe resultado, e a ficha da Câmara não indica regulamentação. Sem esse decreto, o texto não diz quem emite o Passe Especial nem quais documentos pedir.",
+    "Diferenças pelo texto: a Lei nº 2.383/1995 fala em deficiência física, em uso permanente do transporte e em transportes administrados ou concedidos pela Prefeitura, e traz documentos exigidos (art. 5º) e multa à transportadora (art. 6º). A Lei nº 8.563/2024 fala em deficiências, em uso do transporte para terapias e lista os modais, e não traz esses dois pontos. Este registro não diz qual lei prevalece nem como a Prefeitura aplica as duas.",
+    "A vigência foi conferida no texto da base oficial da Câmara em 10 de novembro de 2026 (status \"Em Vigor\" nas duas leis), sem texto compilado e sem nota de revogação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.563, de 10 de setembro de 2024: isenta as pessoas com doenças crônicas e com deficiências do pagamento de tarifas de transporte coletivo",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2024,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/6fe251fd5278fc9c03258b9400604862?OpenDocument",
+      "referencia": "arts. 1º a 3º",
+      "trecho": "Art. 2º O Poder Executivo Municipal regulamentará a isenção citada no caput do art. 1º em um prazo de noventa dias após a publicação desta Lei.",
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 2.383, de 6 de novembro de 1995: determina a concessão, pelo Poder Executivo, de passe de transporte aos portadores de doenças crônicas e de deficiência física nos transportes administrados e/ou concedidos pela Prefeitura",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 1995,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/32d5e89b27462824032576ac00733753?OpenDocument",
+      "referencia": "art. 1º",
+      "trecho": "Art. 1º - Fica assegurado aos portadores de doenças crônicas que exijam tratamento continuado e cuja interrupção possa acarretar risco de vida, e a portadores de deficiências que tenham reconhecida dificuldade de locomoção, necessitando, para sua terapia, do uso permanente dos serviços de transportes coletivos de passageiros, a isenção do pagamento destas tarifas mediante a apresentação do Passe Especial de Portadores de Deficiências.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

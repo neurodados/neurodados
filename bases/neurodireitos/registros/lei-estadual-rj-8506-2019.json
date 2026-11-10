@@ -1,0 +1,118 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-8506-2019",
+  "slug": "lei-estadual-rj-8506-2019",
+  "base": "neurodireitos",
+  "nome": "Lei nº 8.506, de 30 de agosto de 2019, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "8.506",
+    "data": "2019-08-30",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Garante às pessoas com Transtorno do Espectro Autista (TEA) e com deficiência a inclusão da sua condição nos documentos de identificação expedidos pelo DETRAN, e dá outras providências.",
+    "publicacao": "Diário Oficial do Estado de 02/09/2019",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "deficiencia"
+  ],
+  "areas": [
+    "identificacao",
+    "atendimento_prioritario"
+  ],
+  "definicao": "A Lei estadual nº 8.506/2019 garante à pessoa com TEA e à pessoa com deficiência, no Rio de Janeiro, a inclusão da sua condição nos documentos de identificação emitidos pelo Detran. A carteira é expedida sem custo e dá atendimento prioritário.",
+  "afirmacoes": [
+    {
+      "texto": "Fica garantida às pessoas com TEA e com deficiência a inclusão da sua condição nos documentos de identificação expedidos pelo Detran no estado (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A carteira é expedida sem custo, por requerimento do interessado ou do representante legal, com relatório médico que ateste o diagnóstico com a CID e os documentos pessoais, inclusive os dos pais ou responsáveis (art. 1º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Quem já tem documento do Detran pode pedir outro com a informação, também sem custo, apresentando o original (art. 1º, § 2º). A condição deve aparecer em destaque no documento (art. 1º, § 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para a lei, tem TEA quem tem a síndrome clínica classificada nos termos da Lei federal nº 12.764/2012 (art. 1º, § 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Quem tem o documento diferenciado tem assegurado o atendimento prioritário em todas as áreas e segmentos dos serviços públicos e privados do estado, em especial na saúde, na educação e na assistência social (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Poder Executivo deve usar a contagem de pessoas com documento diferenciado para produzir programas e ações de políticas públicas (art. 1º, § 4º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALERJ, é o que vale.",
+    "A lei não traz prazo de emissão nem regras do procedimento no Detran, e não diz que depende de regulamentação. O campo de regulamentação da ficha da ALERJ está vazio, e não foi encontrado decreto.",
+    "A lei é de 2019, anterior à Lei federal nº 13.977/2020 (CIPTEA). O registro não compara os dois documentos. A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha traz \"Em Vigor\" e nenhuma nota de alteração."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.506, de 30 de agosto de 2019, do Estado do Rio de Janeiro: garante às pessoas com TEA e com deficiência a inclusão da sua condição nos documentos de identificação expedidos pelo Detran (base da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2019,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/666269f357918f708325846c0072f81c?OpenDocument",
+      "referencia": "arts. 1º a 4º",
+      "trecho": "Art. 1º Fica garantida, às pessoas com Transtorno do Espectro Autista (TEA) e pessoas com deficiência, a inclusão da sua condição nos documentos de identificação expedidos pelo Departamento de Trânsito (DETRAN) no âmbito do Estado do Rio de Janeiro.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-5749-2014",
+  "slug": "lei-municipal-rio-de-janeiro-5749-2014",
+  "base": "neurodireitos",
+  "nome": "Lei nº 5.749, de 9 de junho de 2014, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "5.749",
+    "data": "2014-06-09",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Institui no Município programas e diretrizes que promovam a inclusão das pessoas com Transtorno do Espectro Autista.",
+    "publicacao": "Diário Oficial do Município de 10/06/2014, p. 3",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "educacao",
+    "saude",
+    "assistencia_social",
+    "transporte"
+  ],
+  "definicao": "A Lei municipal nº 5.749/2014 institui, no Município do Rio de Janeiro, programas de inclusão das pessoas com TEA e fixa sete diretrizes para eles, nas áreas de educação, saúde, assistência social e outras. A lei descreve diretrizes para o Poder Executivo e não lista direitos individuais.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º institui no Município programas que promovam a inclusão das pessoas com Transtorno do Espectro Autista e estabelece as diretrizes dos incisos I a VII.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 1º, I, prevê ações educativas, incluindo a família, para conscientizar sobre os tratamentos e as formas de diagnóstico do autismo, principalmente o precoce.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 1º, II, diz que cabe ao Poder Executivo promover ações de atendimento de acordo com o perfil psicossocial dos autistas atendidos, que devem ser estimulados e integrados nas áreas de educação e ensino profissionalizante, saúde, assistência social, transporte, moradia, lazer e trabalho, entre outras.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 1º, IV, diz que a rede de saúde, com os equipamentos atuais, humanos, físicos e financeiros, deve promover por programas consultas, exames e distribuição de medicamentos e nutrientes para a prevenção e o tratamento do autismo.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 1º, V, diz que cabe à rede de educação criar mecanismos de atendimento às necessidades dos alunos com TEA, respeitando as diferenças que apresentam e as regras de diretrizes da educação, recebendo a matrícula no local adequado.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 1º, VI, manda acompanhar os programas com dados estatísticos para avaliar os resultados e permitir a formulação de novas políticas públicas de inclusão social.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 1º, VII, diz que o Poder Executivo poderá estabelecer contratos de direito público ou convênios com pessoas jurídicas de direito público ou privado, para cumprir a lei de forma progressiva.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7804-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7850-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7713-2022",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Câmara Municipal do Rio, é o que vale.",
+    "A lei fixa diretrizes e programas, e o texto não cria prazo, valor nem procedimento para o pedido individual de um serviço.",
+    "O registro não traz o inciso III (palestras e seminários para capacitar líderes comunitários).",
+    "A vigência foi conferida na ficha e no texto da base oficial da Câmara Municipal do Rio em 10 de novembro de 2026 (\"Em Vigor\"), sem texto compilado. Nenhuma lei posterior da base cita esta lei, e não foi achado decreto que a regulamente."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 5.749, de 9 de junho de 2014: institui no Município programas e diretrizes que promovam a inclusão das pessoas com Transtorno do Espectro Autista",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2014,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/b524c77ff462daeb83257cf2006120a1?OpenDocument",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "Art. 1º Esta Lei institui no Município programas que promovam a inclusão das pessoas com Transtorno do Espectro Autista, e estabelece as seguintes diretrizes para sua consecução:",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

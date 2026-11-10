@@ -1,0 +1,120 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-7804-2023",
+  "slug": "lei-municipal-rio-de-janeiro-7804-2023",
+  "base": "neurodireitos",
+  "nome": "Lei nº 7.804, de 22 de março de 2023, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "7.804",
+    "data": "2023-03-22",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Cria a Carteira de Identificação do Autista - CIA, para a pessoa diagnosticada com Transtorno do Espectro Autista - TEA.",
+    "publicacao": "Diário Oficial do Município de 23/03/2023",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "identificacao"
+  ],
+  "definicao": "A Lei municipal nº 7.804/2023 cria a Carteira de Identificação do Autista (CIA) para a pessoa diagnosticada com TEA. A lei diz que a carteira é gratuita, pedida por requerimento com relatório médico, e fixa prazo de expedição e validade mínima.",
+  "afirmacoes": [
+    {
+      "texto": "O art. 1º cria a Carteira de Identificação do Autista (CIA), para a pessoa diagnosticada com Transtorno do Espectro Autista.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A carteira é expedida sem qualquer custo, por requerimento preenchido e assinado pelo interessado ou por seu representante legal, acompanhado de relatório médico, documentos pessoais e os dos pais ou responsáveis legais (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A carteira deve ser numerada, para permitir a contagem dos portadores de TEA, e os órgãos competentes devem expedi-la em até quinze dias, com validade mínima de cinco anos (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "No corpo da carteira constam o endereço, o nome do responsável e o telefone, para facilitar a identificação e o contato com a família ou o responsável, e deve constar a obediência à Lei federal nº 12.764/2012 (art. 4º e parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As despesas correm por conta das dotações próprias do orçamento vigente (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-8879-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-5749-2014",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Câmara Municipal do Rio, é o que vale.",
+    "O texto da lei não diz qual órgão expede a carteira, nem onde ou como o pedido é feito. Diz só que os \"órgãos competentes\" a expedem.",
+    "A lei não dá à carteira, por si, outros direitos nem benefícios. O registro não trata da Ciptea federal (Lei nº 13.977/2020), que é outro documento.",
+    "A vigência foi conferida na ficha e no texto da base oficial da Câmara Municipal do Rio em 10 de novembro de 2026 (\"Em Vigor\"), sem texto compilado. Nenhuma lei posterior da base cita esta lei, e não foi achado decreto que a regulamente."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 7.804, de 22 de março de 2023: cria a Carteira de Identificação do Autista - CIA",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2023,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/950738ed7ff946a20325897a0050c5b3?OpenDocument",
+      "referencia": "arts. 1º a 5º",
+      "trecho": "Art. 1º Fica criada a Carteira de Identificação do Autista - CIA, para a pessoa diagnosticada com Transtorno do Espectro Autista - TEA.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

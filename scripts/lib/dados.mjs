@@ -67,9 +67,11 @@ const PROMESSA = /\b(?:cura|curar|garantimos|garantia de resultado)\b/iu;
 const SUPERLATIVO = /\b(?:o|a) (?:melhor|maior) (?:do|da) (?:brasil|país|mundo)\b|\blíder\b/iu;
 
 // Nomes oficiais que levam "especializado": o atendimento educacional especializado (LDB),
-// o acompanhante especializado (Lei nº 12.764/2012) e a atenção especializada, nível de
-// atenção do SUS. Com espaço no texto e com hífen no id, no slug e nas relações.
-const NOMES_OFICIAIS = /atendimento[\s-]educacional[\s-]especializado|acompanhante[\s-]especializado|aten[çc][ãa]o[\s-]especializada/giu;
+// o acompanhante especializado (Lei nº 12.764/2012), a atenção especializada, nível de
+// atenção do SUS, e o Programa de Acompanhamento Especializado de Pessoas com Deficiência
+// (Lei estadual nº 10.626/2024, do Rio de Janeiro). Com espaço no texto e com hífen no id,
+// no slug e nas relações.
+const NOMES_OFICIAIS = /atendimento[\s-]educacional[\s-]especializado|acompanhante[\s-]especializado|aten[çc][ãa]o[\s-]especializada|acompanhamento[\s-]especializado[\s-]de[\s-]pessoas[\s-]com[\s-]defici[êe]ncia/giu;
 
 export function errosDeTexto(texto, { registro = false } = {}) {
   const erros = [];

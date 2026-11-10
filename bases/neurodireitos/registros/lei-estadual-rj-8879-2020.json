@@ -1,0 +1,132 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-8879-2020",
+  "slug": "lei-estadual-rj-8879-2020",
+  "base": "neurodireitos",
+  "nome": "Lei nº 8.879, de 5 de junho de 2020, do Estado do Rio de Janeiro",
+  "nomes_alternativos": [
+    "Lei Fábio de Moraes Correa da Costa"
+  ],
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "8.879",
+    "data": "2020-06-05",
+    "orgao": "Assembleia Legislativa do Estado do Rio de Janeiro",
+    "ementa": "Dispõe sobre a emissão carteira de identificação da pessoa com Transtorno do Espectro Autista (CIPTEA), de expedição gratuita, no âmbito do Estado do Rio de Janeiro, na forma que menciona.",
+    "publicacao": "Diário Oficial do Estado de 08/06/2020",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 11.031, de 25 de novembro de 2025",
+        "Lei nº 11.177, de 5 de maio de 2026"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "identificacao",
+    "atendimento_prioritario"
+  ],
+  "definicao": "A Lei estadual nº 8.879/2020 manda os órgãos responsáveis pela política do autismo no Rio de Janeiro emitirem, de graça, a Carteira de Identificação da Pessoa com TEA (CIPTEA), na forma da Lei federal nº 13.977/2020. O texto atual fixa prazo, validade mínima e o que a carteira deve conter.",
+  "afirmacoes": [
+    {
+      "texto": "Os órgãos responsáveis pela execução da política de proteção dos direitos da pessoa com TEA, no estado, emitirão gratuitamente a CIPTEA, na forma da Lei federal nº 13.977/2020 (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A carteira deve ser numerada e expedida em no máximo 15 dias, com validade mínima de 5 anos (art. 1º, parágrafo único, na redação da Lei nº 11.031/2025).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A CIPTEA é instrumento oficial de identidade no âmbito estadual e é aceita como documento hábil para comprovar a condição de pessoa com TEA (art. 1º, § 2º, incluído pela Lei nº 11.177/2026).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O documento garante ao portador pronto atendimento e prioridade no acesso aos serviços públicos e privados, nos termos da legislação vigente (art. 1º, § 3º, incluído pela Lei nº 11.177/2026).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os órgãos emissores não podem exigir, como única forma de documentação, a carteira de identidade com a CID. Bastam os documentos listados na Lei federal nº 13.977/2020 (art. 2º, na redação da Lei nº 11.177/2026).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Deve constar no corpo da CIPTEA o endereço, o nome do responsável e o telefone, para facilitar o contato com a família ou o responsável (art. 2º-A, na redação da Lei nº 11.031/2025).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7804-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9395-2021",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALERJ, é o que vale.",
+    "A lei não diz qual órgão emite a carteira nem como pedir: fala em \"órgãos competentes\". Não foi encontrado decreto estadual que a regulamente, e o campo de regulamentação da ficha da ALERJ está vazio.",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado. As duas leis alteradoras foram listadas como o texto da ALERJ as indica, e não foram lidas à parte."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 8.879, de 5 de junho de 2020, do Estado do Rio de Janeiro: dispõe sobre a emissão da Carteira de Identificação da Pessoa com Transtorno do Espectro Autista (CIPTEA) (texto com as alterações, na base da ALERJ)",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2020,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/eab0b8609841ba03032585810067c16e?OpenDocument",
+      "referencia": "arts. 1º, 2º e 2º-A, com as alterações indicadas no texto",
+      "trecho": "Art. 1º [...] os órgãos responsáveis pela execução da Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista, no âmbito do Estado do Rio de Janeiro, emitirão, gratuitamente, a Carteira de Identificação da Pessoa com Transtorno do Espectro Autista (CIPTEA), na forma da Lei Federal nº 13.977 de 2020.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

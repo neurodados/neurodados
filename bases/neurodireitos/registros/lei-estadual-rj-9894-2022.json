@@ -1,0 +1,123 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-rj-9894-2022",
+  "slug": "lei-estadual-rj-9894-2022",
+  "base": "neurodireitos",
+  "nome": "Lei nº 9.894, de 4 de novembro de 2022, do Estado do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "9.894",
+    "data": "2022-11-04",
+    "orgao": "Governo do Estado do Rio de Janeiro",
+    "ementa": "Dispõe sobre as normas de concessão e utilização do cordão de girassol como símbolo de identificação das pessoas com deficiências ocultas no Estado do Rio de Janeiro e dá outras providências.",
+    "publicacao": "Diário Oficial do Estado de 07/11/2022; as partes vetadas e depois promulgadas pela Assembleia, de 16/12/2022",
+    "abrangencia": "estadual",
+    "uf": "RJ",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "tea"
+  ],
+  "areas": [
+    "identificacao",
+    "atendimento_prioritario"
+  ],
+  "definicao": "A Lei estadual nº 9.894/2022 torna o cordão de girassol o símbolo estadual de identificação de pessoas com deficiências ocultas no Rio de Janeiro e manda dar atendimento prioritário a elas em repartições públicas, estabelecimentos privados e concessionárias de serviços públicos.",
+  "afirmacoes": [
+    {
+      "texto": "O cordão de girassol é o símbolo estadual de identificação das pessoas com deficiências ocultas (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pessoas com deficiências ocultas são as que têm impedimento de longo prazo de natureza mental, intelectual ou sensorial que, em interação com barreiras, pode obstruir a participação plena e efetiva na sociedade (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Repartições públicas, estabelecimentos privados e empresas concessionárias de serviços públicos estão obrigados a dar atendimento prioritário a essas pessoas. Entre os estabelecimentos privados a lei cita supermercados, bancos, farmácias, bares, restaurantes e lojas em geral (art. 4º e § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Poder Executivo poderá entregar o cordão mediante laudo médico comprobatório e documentação pessoal (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para pessoas com TEA e outras deficiências ocultas, com Carteira de Identificação ou laudo médico, em vulnerabilidade social, é garantida a autorização para emissão gratuita do cordão (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O descumprimento do art. 4º sujeita os responsáveis às consequências do art. 8º, parte vetada pelo Governador e restabelecida pela Assembleia (veto rejeitado, com publicação em 16/12/2022). O Poder Executivo poderá fazer cadastro de beneficiários e regulamentará a lei (arts. 9º e 10).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-14624-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-10048-2000",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7126-2021",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALERJ, é o que vale.",
+    "Vários dispositivos são facultativos (\"poderá\"): a entrega do cordão, as campanhas e o cadastro dependem de ato do Poder Executivo.",
+    "A lei não lista as deficiências ocultas: define o termo de forma geral (art. 3º).",
+    "A vigência foi conferida no texto da base da ALERJ em 10 de novembro de 2026, sem texto compilado: a ficha traz a situação \"Em Vigor\" e nenhuma ação de inconstitucionalidade. A ficha não traz texto de regulamentação."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 9.894, de 4 de novembro de 2022: dispõe sobre as normas de concessão e utilização do cordão de girassol como símbolo de identificação das pessoas com deficiências ocultas no Estado do Rio de Janeiro",
+      "autor": "Estado do Rio de Janeiro",
+      "ano": 2022,
+      "url": "https://alerjln1.alerj.rj.gov.br/contlei.nsf/c8aa0900025feef6032564ec0060dfff/b6835466bcb3e238032588f400656d5f?OpenDocument",
+      "referencia": "arts. 1º a 10",
+      "trecho": "Art. 1º O Cordão de Girassol será considerado como símbolo estadual de identificação das pessoas com deficiências ocultas, em modelos fabricados dentro da conformidade, com as especificações e regras básicas estabelecidas na presente Lei.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-municipal-rio-de-janeiro-5554-2013",
+  "slug": "lei-municipal-rio-de-janeiro-5554-2013",
+  "base": "neurodireitos",
+  "nome": "Lei nº 5.554, de 16 de janeiro de 2013, do Município do Rio de Janeiro",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "5.554",
+    "data": "2013-01-16",
+    "orgao": "Prefeitura da Cidade do Rio de Janeiro",
+    "ementa": "Estabelece diretrizes para a inclusão educacional de alunos com deficiência, transtornos globais de desenvolvimento e altas habilidades/superdotação, e dá outras providências.",
+    "publicacao": "Diário Oficial do Município de 17/01/2013, p. 3",
+    "abrangencia": "municipal",
+    "uf": "RJ",
+    "municipio": "Rio de Janeiro",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "altas_habilidades",
+    "tea",
+    "transtornos_de_aprendizagem"
+  ],
+  "areas": [
+    "educacao",
+    "acessibilidade"
+  ],
+  "definicao": "A Lei municipal nº 5.554/2013 fixa diretrizes que as ações públicas de educação do Município do Rio de Janeiro devem seguir para alunos com deficiência, transtornos globais do desenvolvimento, altas habilidades ou superdotação e dificuldades de aprendizagem. É uma lei de diretrizes, que depende de ações do Poder Público.",
+  "afirmacoes": [
+    {
+      "texto": "As ações públicas de educação para esses alunos devem observar a educação especial na perspectiva inclusiva, na educação infantil e no ensino fundamental, preferencialmente em escolas regulares, sem prejuízo das escolas e classes especiais para quem não puder ser atendido de forma adequada em turmas comuns (art. 1º, I).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre as diretrizes estão garantir a permanência, a acessibilidade e o desenvolvimento escolar desses alunos (art. 1º, II) e dar prioridade de oferta de vagas aos alunos com deficiência em escolas próximas à residência (art. 1º, IV).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Também é diretriz a qualificação continuada dos professores (art. 1º, III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Poder Público desenvolverá ações que prestigiem, entre outros pontos, recursos pedagógicos atualizados, planejamento conforme as necessidades de cada aluno, visão multidisciplinar e avaliações periódicas para detecção de deficiências e transtornos, com encaminhamento do aluno (art. 2º, I, II, IV e V).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei prevê a formação de banco de dados com os processos de avaliação, diagnósticos, tratamentos adotados e acompanhamento do desempenho pedagógico e socioemocional do aluno (art. 2º, VI).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei também prevê o combate permanente à discriminação e à exclusão desses alunos e a participação efetiva da família no processo educacional (art. 2º, VII e IX).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14254-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-6432-2018",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base de leis da Câmara Municipal do Rio, é o que vale.",
+    "A lei usa \"deverão observar\" para as diretrizes e \"desenvolverá ações que prestigiem\" para os aspectos do art. 2º. Não cria prazo, meta numérica nem sanção. O registro descreve o que o texto diz, não o que a rede de ensino faz na prática.",
+    "O texto usa \"transtornos globais do desenvolvimento\", termo da época da lei, e não o define nem lista condições.",
+    "A vigência foi conferida em 10 de novembro de 2026 na ficha da base oficial da Câmara (\"Status da Lei: Em Vigor\"), sem texto compilado. Não foi achado decreto regulamentador no Diário Oficial do Município (a consulta direta a esse diário não foi concluída)."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 5.554, de 16 de janeiro de 2013: Estabelece diretrizes para a inclusão educacional de alunos com deficiência, transtornos globais de desenvolvimento e altas habilidades/superdotação, e dá outras providências",
+      "autor": "Município do Rio de Janeiro",
+      "ano": 2013,
+      "url": "https://aplicnt.camara.rj.gov.br/APL/Legislativos/contlei.nsf/50ad008247b8f030032579ea0073d588/bf8dc5d334c9093c03257af6006c04af?OpenDocument",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "Art.1º As ações públicas de educação voltadas aos alunos com deficiência, transtornos globais do desenvolvimento, altas habilidades/superdotação e/ou dificuldades de aprendizagem no âmbito do Município deverão observar as seguintes diretrizes:",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}
