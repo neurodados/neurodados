@@ -69,9 +69,11 @@ const SUPERLATIVO = /\b(?:o|a) (?:melhor|maior) (?:do|da) (?:brasil|país|mundo)
 // Nomes oficiais que levam "especializado": o atendimento educacional especializado (LDB),
 // o acompanhante especializado (Lei nº 12.764/2012), a atenção especializada, nível de
 // atenção do SUS, e o Programa de Acompanhamento Especializado de Pessoas com Deficiência
-// (Lei estadual nº 10.626/2024, do Rio de Janeiro). Com espaço no texto e com hífen no id,
-// no slug e nas relações.
-const NOMES_OFICIAIS = /atendimento[\s-]educacional[\s-]especializado|acompanhante[\s-]especializado|aten[çc][ãa]o[\s-]especializada|acompanhamento[\s-]especializado[\s-]de[\s-]pessoas[\s-]com[\s-]defici[êe]ncia/giu;
+// (Lei estadual nº 10.626/2024, do Rio de Janeiro), o Professor Especializado (Decreto estadual
+// nº 67.635/2023, de São Paulo) e o "atendimento especializado nos concursos públicos" (ementa
+// e art. 1º da Lei estadual nº 25.920/2026, de Minas Gerais). Com espaço no texto e com hífen
+// no id, no slug e nas relações.
+const NOMES_OFICIAIS = /atendimento[\s-]educacional[\s-]especializado|acompanhante[\s-]especializado|aten[çc][ãa]o[\s-]especializada|acompanhamento[\s-]especializado[\s-]de[\s-]pessoas[\s-]com[\s-]defici[êe]ncia|professor(?:es)?[\s-]especializad[oa]s?|atendimento[\s-]especializado[\s-]nos[\s-]concursos[\s-]p[úu]blicos/giu;
 
 export function errosDeTexto(texto, { registro = false } = {}) {
   const erros = [];

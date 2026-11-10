@@ -1,0 +1,154 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-24844-2024",
+  "slug": "lei-estadual-mg-24844-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 24.844, de 27 de junho de 2024, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "24.844",
+    "data": "2024-06-27",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Dispõe sobre o atendimento dos estudantes com deficiência, transtorno do espectro autista e altas habilidades ou superdotação nas instituições de ensino públicas e privadas do sistema estadual de educação.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 28/06/2024",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 25.169, de 18 de março de 2025",
+        "Lei nº 25.415, de 31 de julho de 2025",
+        "Lei nº 25.514, de 1º de outubro de 2025",
+        "Lei nº 25.765, de 18 de março de 2026",
+        "Lei nº 26.038, de 6 de agosto de 2026"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "tea",
+    "altas_habilidades"
+  ],
+  "areas": [
+    "educacao",
+    "acessibilidade"
+  ],
+  "definicao": "A Lei estadual nº 24.844/2024 fixa objetivos e diretrizes para o atendimento de estudantes com deficiência, TEA e altas habilidades ou superdotação nas instituições de ensino públicas e privadas do sistema estadual de educação de Minas Gerais. Também trata da recusa de matrícula em escola privada.",
+  "afirmacoes": [
+    {
+      "texto": "Os objetivos das ações de atendimento incluem garantir acesso e permanência na escola, participação nas atividades escolares e aprendizagem, com os recursos necessários ao desenvolvimento pessoal, social e intelectual dos estudantes (art. 2º, I).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre as diretrizes estão a oferta de serviços e recursos de acessibilidade, como adequação arquitetônica, material didático e tecnologia assistiva (art. 3º, IV), e a adaptação de atividades e de avaliações às necessidades dos estudantes (art. 3º, X).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei prevê a oferta de \"atendimento educacional especializado\", de forma complementar ou suplementar, em salas de recursos multifuncionais e em classes, escolas ou serviços públicos ou conveniados, mediante avaliação e interação com a família e a comunidade (art. 3º, VI).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Outra diretriz é o uso de instrumento de planejamento individualizado para orientar as ações pedagógicas e acompanhar o desenvolvimento e a aprendizagem, com a participação do estudante, sempre que possível, e de seus pais ou responsáveis (art. 3º, IX).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Também é diretriz a atuação integrada de profissionais da educação, profissionais de apoio escolar e equipes multiprofissionais, observadas as necessidades dos estudantes (art. 3º, XVII, incluído pela Lei nº 26.038/2026).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os estudantes que precisarem de suporte pedagógico na comunicação alternativa e aumentativa ou no uso de tecnologia assistiva serão atendidos, preferencialmente, em todos os anos letivos, pelos mesmos professores e profissionais, nos termos de regulamento (art. 3º, § 3º, incluído pela Lei nº 25.765/2026).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Se um estabelecimento privado do sistema estadual recusar matrícula de estudante com deficiência, as razões devem ser formalizadas por escrito, assinadas pelo responsável, e entregues aos pais ou ao responsável no ato da solicitação. O estabelecimento deve divulgar, em local visível, que a recusa por causa da deficiência é crime (art. 3º-A e § 1º, incluídos pela Lei nº 25.514/2025).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Estado poderá designar escolas da rede estadual como unidades de referência em educação inclusiva, com base na avaliação sistemática da infraestrutura e da oferta de serviços (art. 3º, XV e § 1º, incluídos pela Lei nº 25.169/2025).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.decreto-estadual-sp-67635-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-6432-2018",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-24783-2024",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "A lei fixa objetivos e diretrizes. Várias delas dependem de ações do Estado e de regulamento, como a continuidade dos mesmos profissionais (art. 3º, § 3º). O texto não usa as expressões \"mediador\" nem \"plano individual\": fala em profissionais de apoio escolar, equipes multiprofissionais e instrumento de planejamento individualizado.",
+    "A vigência foi conferida no texto atualizado da ALMG em 10 de novembro de 2026, com última atualização indicada em 7 de agosto de 2026. As cinco leis alteradoras são as que a ficha da ALMG lista. A Lei nº 26.038/2026 é recente e acrescentou também o inciso XVIII do art. 3º, sobre incentivo a medidas de fomento, que não foi detalhado aqui."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 24.844, de 27 de junho de 2024, do Estado de Minas Gerais: atendimento dos estudantes com deficiência, TEA e altas habilidades ou superdotação no sistema estadual de educação (texto atualizado, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2024,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/24844/2024/atualizado",
+      "referencia": "arts. 1º a 3º-A, com as alterações indicadas no texto",
+      "trecho": "Art. 1º - O atendimento dos estudantes com deficiência, transtorno do espectro autista e altas habilidades ou superdotação nas instituições de ensino públicas e privadas do sistema estadual de educação observará o disposto nesta lei.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.decreto-estadual-sp-67635-2023",
+  "slug": "decreto-estadual-sp-67635-2023",
+  "base": "neurodireitos",
+  "nome": "Decreto nº 67.635, de 6 de abril de 2023, do Estado de São Paulo",
+  "categoria": "decreto",
+  "norma": {
+    "tipo": "decreto",
+    "numero": "67.635",
+    "data": "2023-04-06",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Dispõe sobre a Educação Especial na rede estadual de ensino e dá providências correlatas.",
+    "publicacao": "Diário Oficial do Estado de 07/04/2023",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "tea",
+    "altas_habilidades"
+  ],
+  "areas": [
+    "educacao",
+    "acessibilidade"
+  ],
+  "definicao": "O Decreto estadual nº 67.635/2023 organiza a Educação Especial na rede estadual de ensino de São Paulo. Dá ênfase à matrícula em classe comum e define os serviços de apoio a estudantes com deficiência, com TEA e com altas habilidades ou superdotação.",
+  "afirmacoes": [
+    {
+      "texto": "O Estado dará ênfase ao direito à matrícula em classes comuns do ensino regular da Educação Básica, em qualquer modalidade de ensino (art. 2º, I).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "São elegíveis aos serviços da Educação Especial os estudantes com deficiência, com Transtorno do Espectro Autista (TEA) e com altas habilidades ou superdotação. O decreto também se aplica aos diagnosticados com Transtorno Global de Desenvolvimento (art. 4º, I a III, e parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A rede oferecerá, entre outros serviços, o Professor Especializado (docente habilitado na Educação Especial ou com especialização nela), o Atendimento Educacional Especializado (AEE) no contraturno, o Projeto Ensino Colaborativo, recursos de acessibilidade e tecnologia assistiva e profissionais de apoio escolar (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Professor Especializado realiza a Avaliação Pedagógica Inicial (API) e elabora o Plano de Atendimento Educacional Especializado (PAEE) do estudante (art. 8º, II e III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Secretaria da Educação disponibilizará ao estudante com deficiência ou TEA, se necessário, o profissional de apoio escolar para atividades de vida diária ou para atividades escolares. O serviço poderá ser compartilhado entre grupos de estudantes (arts. 15, 18 e 19).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A oferta do AEE deve constar do projeto político pedagógico de cada escola e será ofertada na forma de resolução do Secretário da Educação (art. 11, §§ 1º e 2º). A Secretaria da Educação editará normas complementares (art. 23).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-6432-2018",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-24844-2024",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "As solicitações dos serviços seguem o regramento a ser expedido pela Secretaria da Educação (art. 5º, parágrafo único). O texto do decreto não detalha esse procedimento.",
+    "A ficha da ALESP registra a situação \"Sem revogação expressa\", sem alterações nem ações de inconstitucionalidade anotadas; a vigência foi conferida em 10 de novembro de 2026. A ficha anota, como norma correlata, o Decreto nº 68.415, de 2 de abril de 2024, sobre a presença de atendente pessoal nas unidades escolares da rede estadual, que não foi lido à parte."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Decreto nº 67.635, de 6 de abril de 2023, do Estado de São Paulo: dispõe sobre a Educação Especial na rede estadual de ensino (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2023,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/2023/decreto-67635-06.04.2023.html",
+      "referencia": "arts. 2º, 4º, 5º, 8º, 11, 15, 18, 19 e 23",
+      "trecho": "Artigo 2º - Para assegurar o acesso à Educação Básica aos estudantes da rede estadual de ensino elegíveis para a Educação Especial, o Estado de São Paulo: I - dará ênfase ao direito à matrícula em classes comuns do ensino regular da Educação Básica, em qualquer modalidade de ensino;",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

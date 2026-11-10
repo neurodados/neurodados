@@ -1,0 +1,121 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-17897-2024",
+  "slug": "lei-estadual-sp-17897-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 17.897, de 9 de abril de 2024, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "17.897",
+    "data": "2024-04-09",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Institui o uso do Cordão de Girassol como instrumento auxiliar de orientação para identificação de pessoas com deficiências ocultas no Estado de São Paulo.",
+    "publicacao": "Diário Oficial do Estado de 11/04/2024",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "identificacao",
+    "acessibilidade"
+  ],
+  "definicao": "A Lei estadual nº 17.897/2024 institui, no Estado de São Paulo, o uso do Cordão de Girassol como instrumento auxiliar para identificar pessoas com deficiências ocultas ou não visíveis. A lei não trata de um diagnóstico específico.",
+  "afirmacoes": [
+    {
+      "texto": "Fica instituído o uso do Cordão de Girassol como instrumento auxiliar e facilitador para identificação de pessoas com deficiências ocultas ou não visíveis (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Deficiência oculta ou não visível é a que não é identificada de maneira imediata, de natureza mental, intelectual ou sensorial, que possa impossibilitar a participação plena e efetiva na sociedade em igualdade de condições (art. 2º, inciso I).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Cordão de Girassol é uma faixa estreita de tecido ou material equivalente, na cor verde, estampada com desenhos de girassóis. Pode ter um crachá com informações úteis, a critério de quem usa o cordão ou de seus responsáveis (art. 2º, inciso II).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O crachá com as informações pessoais, mesmo que não esteja junto ao cordão, deve estar obrigatoriamente com quem usa o cordão ou com seu acompanhante (art. 2º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O uso do cordão não é condição para o gozo de direitos já assegurados às pessoas com deficiência (art. 3º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Estabelecimentos públicos e privados devem orientar seus funcionários e colaboradores, diretos ou terceirizados, sobre a identificação de pessoas com deficiências ocultas pelo uso do cordão e sobre procedimentos para atenuar as dificuldades dessas pessoas (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9894-2022",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-25078-2024",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7126-2021",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "O art. 3º, caput, foi vetado. A lei não menciona o TEA, o TDAH nem outro diagnóstico, e não cria atendimento prioritário próprio.",
+    "A vigência foi conferida na ficha da ALESP (situação \"Sem revogação expressa\") e no texto, em 10 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 17.897, de 9 de abril de 2024, do Estado de São Paulo: cordão de girassol (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2024,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2024/lei-17897-09.04.2024.html",
+      "referencia": "arts. 1º a 5º",
+      "trecho": "Artigo 1º - Fica instituído, no âmbito do Estado de São Paulo, o uso do Cordão de Girassol como instrumento auxiliar e facilitador para identificação de pessoas com deficiências ocultas ou não visíveis.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

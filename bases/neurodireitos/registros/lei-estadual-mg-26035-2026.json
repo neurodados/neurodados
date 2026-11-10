@@ -1,0 +1,110 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-26035-2026",
+  "slug": "lei-estadual-mg-26035-2026",
+  "base": "neurodireitos",
+  "nome": "Lei nº 26.035, de 5 de agosto de 2026, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "26.035",
+    "data": "2026-08-05",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Dispõe sobre o prazo de validade do laudo médico que ateste deficiência permanente para os fins que especifica.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 06/08/2026",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 26.035/2026 diz que o laudo médico que ateste deficiência permanente tem validade por prazo indeterminado, para usufruir dos direitos e dos benefícios da legislação de Minas Gerais para a pessoa com deficiência ou para seus pais ou responsáveis.",
+  "afirmacoes": [
+    {
+      "texto": "O laudo médico que ateste deficiência permanente, para fins do usufruto dos direitos e da concessão dos benefícios previstos na legislação estadual para a pessoa com deficiência ou para seus pais ou responsáveis, tem validade por prazo indeterminado (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O laudo pode ser emitido por profissional da rede de saúde pública ou privada, observados os demais requisitos de emissão da legislação pertinente (art. 1º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O laudo pode ser apresentado às autoridades competentes em cópia simples, desde que acompanhada do original, observada a legislação vigente (art. 1º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Apresentar o laudo não dispensa a avaliação biopsicossocial nem o cumprimento dos demais requisitos para obter os benefícios (art. 1º, § 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data de sua publicação (art. 2º), que foi 06/08/2026.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-23676-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9425-2021",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "Lei muito recente, de 5 de agosto de 2026. A ficha da ALMG não lista alterações nem regulamento, e o texto oficial pode mudar.",
+    "A lei trata do prazo do laudo de deficiência permanente. Cada benefício tem as suas regras e os seus outros requisitos."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 26.035, de 5 de agosto de 2026, do Estado de Minas Gerais: prazo de validade do laudo médico que ateste deficiência permanente (texto na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2026,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/26035/2026/atualizado",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "Art. 1º - O laudo médico que ateste deficiência permanente para fins do usufruto dos direitos e da concessão dos benefícios previstos na legislação estadual para a pessoa com deficiência ou para seus pais ou responsáveis terá validade por prazo indeterminado.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

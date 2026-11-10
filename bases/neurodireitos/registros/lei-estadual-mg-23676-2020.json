@@ -1,0 +1,132 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-23676-2020",
+  "slug": "lei-estadual-mg-23676-2020",
+  "base": "neurodireitos",
+  "nome": "Lei nº 23.676, de 9 de julho de 2020, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "23.676",
+    "data": "2020-07-09",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Dispõe sobre o prazo de validade do laudo médico que ateste Transtorno do Espectro do Autismo - TEA -, para os fins que especifica.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 10/07/2020",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 24.622, de 27 de dezembro de 2023"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "trabalho"
+  ],
+  "definicao": "A Lei estadual nº 23.676/2020 diz que o laudo médico que ateste TEA tem validade por prazo indeterminado, para obter os benefícios previstos na legislação de Minas Gerais para a pessoa com TEA ou para seus pais ou responsáveis.",
+  "afirmacoes": [
+    {
+      "texto": "O laudo médico que ateste TEA, para fins de obtenção de benefícios previstos na legislação do Estado destinados a pessoa com TEA ou a seus pais ou responsáveis, tem validade por prazo indeterminado (art. 1º, caput, na redação da Lei nº 24.622/2023).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O laudo pode ser emitido por profissional da rede de saúde pública ou privada, observados os demais requisitos de emissão da legislação pertinente (art. 1º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O laudo pode ser apresentado às autoridades competentes em cópia simples, desde que acompanhada do original, observada a Lei federal nº 13.726/2018 (art. 1º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Apresentar o laudo não exclui o cumprimento dos demais requisitos para obter os benefícios (art. 1º, § 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para os fins do art. 1º da Lei estadual nº 9.401/1986, no caso de pais ou responsável legal de pessoa com TEA, o laudo substitui o atestado médico previsto no § 1º do art. 1º dessa lei (art. 1º, § 4º, acrescentado pela Lei nº 24.622/2023).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entrou em vigor na data de sua publicação (art. 2º). A Lei nº 24.622/2023 alterou o caput do art. 1º, acrescentou o § 4º e mudou a ementa.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9425-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-sp-17669-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7346-2022",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-26035-2026",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "O texto atualizado da ALMG traz também a redação original do caput (\"laudo médico-pericial\", só para benefícios da pessoa com TEA). Este registro descreve a redação em vigor, dada pela Lei nº 24.622/2023, que não tem registro próprio aqui.",
+    "A lei trata do prazo do laudo. Cada benefício tem as suas regras e os seus outros requisitos (art. 1º, § 3º)."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 23.676, de 9 de julho de 2020, do Estado de Minas Gerais: prazo de validade do laudo médico que ateste TEA (texto atualizado, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2020,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/23676/2020/atualizado",
+      "referencia": "arts. 1º e 2º, com as alterações da Lei nº 24.622/2023",
+      "trecho": "Art. 1º - O laudo médico que ateste Transtorno do Espectro do Autismo - TEA -, para fins de obtenção de benefícios previstos na legislação do Estado destinados a pessoa com TEA ou a seus pais ou responsáveis, passa a ter validade por prazo indeterminado.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

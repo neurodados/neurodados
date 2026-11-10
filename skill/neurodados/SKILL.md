@@ -13,7 +13,7 @@ O NeuroDados Brasil reúne dados abertos sobre neurodesenvolvimento e desenvolvi
 - AvaliaBase: a avaliação psicológica e neuropsicológica (o que é, as etapas e os documentos), o SATEPSI, o sistema do Conselho Federal de Psicologia que avalia os testes psicológicos, e a situação de testes e instrumentos nele, com a data da consulta.
 - IntervenBase: intervenções e atendimentos no desenvolvimento infantil, com o que as evidências mostram e os limites delas.
 - EvidenciaBase: estudos, revisões e diretrizes, com os metadados e um resumo de cada publicação.
-- NeuroDireitos: leis, decretos e normas federais e, por enquanto, as do Estado do Rio de Janeiro e do Município do Rio de Janeiro sobre neurodesenvolvimento, deficiência, saúde mental e doenças, com o que cada norma garante, a vigência e o endereço do texto oficial.
+- NeuroDireitos: leis, decretos e normas federais e, por enquanto, as de alguns estados e municípios, sobre neurodesenvolvimento, deficiência, saúde mental e doenças, com o que cada norma garante, a vigência e o endereço do texto oficial.
 
 A lista do que está publicado está em `listar_bases` e em `https://clinicaneurobee.com.br/neurodados/api/v1/bases`.
 
@@ -47,5 +47,5 @@ Cite a fonte primária da afirmação (a lei, a resolução, o documento do Mini
 - A escolha dos instrumentos de uma avaliação é do psicólogo responsável. Nunca reproduza itens, pranchas, estímulos ou respostas de testes psicológicos.
 - Não apresente como consenso uma afirmação que o registro não sustenta com fonte. Se a base não cobre o assunto, diga isso e não complete com suposição.
 - O NeuroDados não indica clínica nem profissional, e a resposta não deve usar a base para isso.
-- O NeuroDireitos traz, por enquanto, só as normas locais do Estado do Rio de Janeiro e do Município do Rio de Janeiro. Se a pergunta for sobre outro estado ou outra cidade, diga que a base ainda não cobre esse lugar e que pode haver lei local.
+- O NeuroDireitos traz, por enquanto, as normas locais de poucos lugares: os Estados do Rio de Janeiro, de São Paulo e de Minas Gerais e o Município do Rio de Janeiro. Se a pergunta for sobre outro estado ou outra cidade, diga que a base ainda não cobre esse lugar e que pode haver lei local.
 - O NeuroDireitos é informativo e não é orientação jurídica. Explique o que a norma diz, com o artigo e o link do texto oficial, e, para um caso concreto, recomende a Defensoria Pública, o Ministério Público ou um advogado.

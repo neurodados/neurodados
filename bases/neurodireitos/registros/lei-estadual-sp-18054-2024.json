@@ -1,0 +1,116 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-18054-2024",
+  "slug": "lei-estadual-sp-18054-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 18.054, de 4 de outubro de 2024, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "18.054",
+    "data": "2024-10-04",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Dispõe sobre acessibilidade para emissão de documentos oficiais em órgãos estaduais e dá outras providências.",
+    "publicacao": "Diário Oficial do Estado de 07/10/2024",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "tea",
+    "tdah"
+  ],
+  "areas": [
+    "identificacao",
+    "acessibilidade",
+    "atendimento_prioritario"
+  ],
+  "definicao": "A Lei estadual nº 18.054/2024 dá às pessoas com deficiência ou transtornos do neurodesenvolvimento direito a acessibilidade na emissão de documentos oficiais pelos órgãos estaduais de São Paulo, o que inclui adaptações no atendimento e na foto do documento.",
+  "afirmacoes": [
+    {
+      "texto": "Pessoas com deficiência ou transtornos do neurodesenvolvimento terão direito a acessibilidade para emissão de documentos oficiais em todo o Estado. Acessibilidade é a retirada de barreiras físicas, arquitetônicas e atitudinais pelos órgãos emissores (art. 1º, caput e § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Fica autorizado o deslocamento da câmera e das demais estruturas de fotografia para adequar o atendimento às especificidades da pessoa (art. 1º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os órgãos emissores devem adequar o atendimento para que essas pessoas tenham prioridade e possam tirar as fotos oficiais com seus objetos ou recursos de acessibilidade, como cadeira de rodas, suporte para o pescoço e objeto de apoio emocional, desde que não prejudique a identificação facial (art. 2º, incisos I e II).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Elas podem fornecer as próprias fotos para os documentos quando a condição clínica justificar, na forma de regulamentação (art. 2º, inciso III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei considera transtornos do neurodesenvolvimento os problemas neurológicos que podem interferir na aquisição, retenção ou aplicação de habilidades ou conjuntos de informações específicos, e que podem envolver disfunção de atenção, memória, percepção, linguagem, solução de problemas ou interação social (art. 3º, inciso II).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O descumprimento enseja procedimento administrativo de apuração e responsabilização, com contraditório e ampla defesa (art. 4º). A lei será regulamentada por ato do Poder Executivo (art. 5º) e entra em vigor 120 dias depois de sua publicação (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "O art. 5º prevê regulamentação pelo Poder Executivo, inclusive da fiscalização. A ficha da ALESP não indica regulamentação, e não foi procurado decreto em outra fonte.",
+    "A lei não lista diagnósticos: a relação com TEA e TDAH vem do conceito de transtornos do neurodesenvolvimento do art. 3º. A vigência foi conferida na ficha e no texto da ALESP em 10 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 18.054, de 4 de outubro de 2024, do Estado de São Paulo: acessibilidade para emissão de documentos oficiais (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2024,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2024/lei-18054-04.10.2024.html",
+      "referencia": "arts. 1º a 6º",
+      "trecho": "Artigo 1º - Pessoas com deficiência ou transtornos do neurodesenvolvimento terão direito a acessibilidade para emissão de documentos oficiais em todo o Estado de São Paulo.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

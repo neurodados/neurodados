@@ -421,7 +421,7 @@ export const PAGINAS = {
       },
       neurodireitos: {
         titulo: 'NeuroDireitos | Leis e normas sobre neurodesenvolvimento e deficiência',
-        descricao: 'Leis e normas federais, do Estado e da cidade do Rio de Janeiro sobre neurodesenvolvimento, deficiência e saúde mental: o que garantem, a vigência e o texto oficial.',
+        descricao: 'Leis e normas federais, estaduais e municipais sobre neurodesenvolvimento, deficiência e saúde mental: o que garantem, a vigência e o texto oficial.',
       },
     },
     registros: 'Os registros',
@@ -699,7 +699,7 @@ export const FERRAMENTAS_MCP = {
   buscar_instrumento: 'Busca na AvaliaBase um instrumento de avaliação pelo nome ou pela sigla e devolve a situação dele no SATEPSI, com a data da consulta. Não devolve itens nem respostas de testes.',
   buscar_intervencao: 'Busca na IntervenBase intervenções e atendimentos no desenvolvimento infantil, com o que as evidências mostram e os limites de cada um.',
   buscar_evidencias: 'Busca na EvidenciaBase estudos, revisões e diretrizes pelo tema, pelo título ou pelo autor, com os metadados e o resumo de cada publicação.',
-  buscar_norma: 'Busca no NeuroDireitos leis, decretos e normas federais, do Estado do Rio de Janeiro e do Município do Rio de Janeiro sobre neurodesenvolvimento, deficiência, saúde mental e doenças, pelo número, pelo nome ou pelo assunto. Para as normas de um estado ou de um município, use os filtros abrangencia e uf. Devolve o que cada norma garante, a vigência e o endereço do texto oficial. Não é orientação jurídica.',
+  buscar_norma: 'Busca no NeuroDireitos leis, decretos e normas federais, estaduais e municipais sobre neurodesenvolvimento, deficiência, saúde mental e doenças, pelo número, pelo nome ou pelo assunto. Para as normas de um estado ou de um município, use os filtros abrangencia e uf. Devolve o que cada norma garante, a vigência e o endereço do texto oficial. Não é orientação jurídica.',
 };
 
 // Mensagens que a API e o servidor MCP devolvem.

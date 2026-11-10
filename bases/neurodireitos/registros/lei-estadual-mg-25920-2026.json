@@ -1,0 +1,127 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-25920-2026",
+  "slug": "lei-estadual-mg-25920-2026",
+  "base": "neurodireitos",
+  "nome": "Lei nº 25.920, de 8 de junho de 2026, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "25.920",
+    "data": "2026-06-08",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Assegura às pessoas com transtorno do déficit de atenção com hiperatividade - TDAH - ou com dislexia o direito a atendimento especializado nos concursos públicos realizados pelos órgãos e pelas entidades da administração pública direta e indireta do Estado.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 09/06/2026",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tdah",
+    "dislexia"
+  ],
+  "areas": [
+    "trabalho",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 25.920/2026 assegura a pessoas com TDAH ou dislexia, nos concursos públicos de órgãos e entidades do Estado de Minas Gerais, tempo adicional de até 90 minutos nas provas e recursos de leitura e escrita. Vale a partir de 7 de setembro de 2026, segundo a ALMG, e só para editais publicados depois dessa data.",
+  "afirmacoes": [
+    {
+      "texto": "É assegurado a pessoas com TDAH ou dislexia o direito a atendimento especializado nos concursos públicos realizados pelos órgãos e pelas entidades da administração pública direta e indireta do Estado (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Esse atendimento consiste em tempo adicional de até noventa minutos para realizar as provas e em tecnologias assistivas para leitura e preenchimento das provas, se o candidato pedir, na forma de regulamento (art. 2º, I e II).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Enquanto o órgão responsável pelo concurso não regulamentar as tecnologias assistivas, o atendimento inclui, se o candidato pedir, profissional ledor e profissional transcritor, além de sala diferenciada para quem solicitar um deles (art. 2º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O atendimento é disponibilizado a quem apresentar laudo médico que ateste o grau ou o nível do TDAH ou da dislexia e declare, com base nesse grau ou nível, a necessidade de tempo adicional na prova objetiva e das demais medidas (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei se aplica exclusivamente aos editais de concurso público publicados depois da data em que ela entra em vigor (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor noventa dias após a data de sua publicação (art. 5º), que foi em 09/06/2026.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14254-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-24783-2024",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "A lei só vale para editais publicados depois do início da vigência, que a ficha da ALMG indica em 7 de setembro de 2026 (art. 4º). Concursos com edital anterior não são alcançados por ela.",
+    "O candidato precisa de laudo médico com o grau ou o nível do TDAH ou da dislexia e a indicação da necessidade de tempo adicional (art. 3º). Não foi encontrado regulamento sobre as tecnologias assistivas, e o texto prevê que o órgão do concurso as regulamente.",
+    "A vigência foi conferida no texto da ALMG em 10 de novembro de 2026. A página de texto atualizado mostra o texto original, e a ficha não lista alterações."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 25.920, de 8 de junho de 2026, do Estado de Minas Gerais: atendimento a pessoas com TDAH ou dislexia nos concursos públicos estaduais (texto oficial, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2026,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/25920/2026/atualizado",
+      "referencia": "arts. 1º a 5º",
+      "trecho": "Art. 1º - Fica assegurado às pessoas com transtorno do déficit de atenção com hiperatividade - TDAH - ou com dislexia o direito a atendimento especializado nos concursos públicos realizados pelos órgãos e pelas entidades da administração pública direta e indireta do Estado.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-17465-2021",
+  "slug": "lei-estadual-sp-17465-2021",
+  "base": "neurodireitos",
+  "nome": "Lei nº 17.465, de 3 de dezembro de 2021, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "17.465",
+    "data": "2021-12-03",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Dispõe sobre a criação do Programa de diagnóstico e apoio aos alunos com dislexia e transtorno do déficit de atenção com hiperatividade (TDAH) na rede estadual de ensino e adota outras providências",
+    "publicacao": "Diário Oficial do Estado de 04/12/2021",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "dislexia",
+    "tdah",
+    "transtornos_de_aprendizagem"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "A Lei estadual nº 17.465/2021 autoriza o Governo de São Paulo a implantar um Programa de diagnóstico e apoio a alunos com dislexia e TDAH na rede estadual de ensino. É autorizativa: não obriga o Estado a criar o programa. O parágrafo único e os arts. 2º e 3º foram vetados.",
+  "afirmacoes": [
+    {
+      "texto": "Fica autorizado o Governo do Estado a implantar o Programa de diagnóstico e apoio aos alunos com dislexia e TDAH na rede estadual de ensino (art. 1º). A lei diz que o Governo fica autorizado, e não que deve implantar.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O parágrafo único do art. 1º e os arts. 2º e 3º constam como \"Vetado\" no texto da lei, que fica sem regras sobre como o programa funciona.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data de sua publicação (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-14254-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-7354-2016",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-5848-2010",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-24783-2024",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "Como a lei é autorizativa e teve vetos, o texto não define o conteúdo do programa, os prazos nem quem presta o apoio. Não foi lido decreto que a regulamente.",
+    "Sobre os mesmos temas, vale ver também a Lei federal nº 14.254/2021, que trata do acompanhamento de educandos com dislexia, TDAH ou outro transtorno de aprendizagem.",
+    "A ficha da ALESP registra a situação \"Sem revogação expressa\", sem alterações nem ações de inconstitucionalidade anotadas; a vigência foi conferida em 10 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 17.465, de 3 de dezembro de 2021, do Estado de São Paulo: Programa de diagnóstico e apoio aos alunos com dislexia e TDAH na rede estadual de ensino (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2021,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2021/lei-17465-03.12.2021.html",
+      "referencia": "arts. 1º a 4º",
+      "trecho": "Artigo 1º - Fica autorizado o Governo do Estado a implantar o Programa de diagnóstico e apoio aos alunos com dislexia e transtorno do déficit de atenção com hiperatividade (TDAH) na rede estadual de ensino.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

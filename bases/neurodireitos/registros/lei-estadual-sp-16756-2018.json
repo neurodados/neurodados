@@ -1,0 +1,99 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-16756-2018",
+  "slug": "lei-estadual-sp-16756-2018",
+  "base": "neurodireitos",
+  "nome": "Lei nº 16.756, de 8 de junho de 2018, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "16.756",
+    "data": "2018-06-08",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Dispõe sobre o dever de inserção do símbolo mundial da conscientização sobre o Transtorno do Espectro Autista - TEA nas placas de atendimento prioritário",
+    "publicacao": "Diário Oficial do Estado de 09/06/2018",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "atendimento_prioritario",
+    "acessibilidade"
+  ],
+  "definicao": "A Lei estadual nº 16.756/2018 manda os estabelecimentos públicos e privados que oferecem atendimento prioritário pôr, nas placas desse atendimento, a fita quebra-cabeça, símbolo mundial da conscientização sobre o TEA. Prevê advertência e multa para quem descumprir.",
+  "afirmacoes": [
+    {
+      "texto": "Os estabelecimentos públicos e privados que disponibilizam atendimento prioritário devem inserir, nas placas que o sinalizam, a \"fita quebra-cabeça\", símbolo mundial da conscientização sobre o TEA (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O descumprimento sujeita o estabelecimento a advertência por escrito na primeira autuação, pela autoridade competente, e a multa de 50 Unidades Fiscais do Estado de São Paulo, as UFESPs (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entrou em vigor 30 dias depois de sua publicação oficial (art. 3º). A publicação foi em 09/06/2018.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-6807-2014",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "A lei trata do símbolo nas placas e não define quem tem direito ao atendimento prioritário. O parágrafo único do art. 2º foi vetado.",
+    "A vigência foi conferida na ficha da ALESP (situação \"Sem revogação expressa\") e no texto, em 10 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 16.756, de 8 de junho de 2018, do Estado de São Paulo: símbolo da conscientização sobre o TEA nas placas de atendimento prioritário (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2018,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2018/lei-16756-08.06.2018.html",
+      "referencia": "arts. 1º a 3º",
+      "trecho": "Artigo 1º - Os estabelecimentos públicos e privados que disponibilizam atendimento prioritário devem inserir nas placas que sinalizam esse tipo de atendimento a “fita quebra-cabeça”, símbolo mundial da conscientização sobre o Transtorno do Espectro Autista - TEA.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

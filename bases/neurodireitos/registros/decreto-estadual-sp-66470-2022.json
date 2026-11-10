@@ -1,0 +1,166 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.decreto-estadual-sp-66470-2022",
+  "slug": "decreto-estadual-sp-66470-2022",
+  "base": "neurodireitos",
+  "nome": "Decreto nº 66.470, de 1º de fevereiro de 2022, do Estado de São Paulo",
+  "categoria": "decreto",
+  "norma": {
+    "tipo": "decreto",
+    "numero": "66.470",
+    "data": "2022-02-01",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Disciplina as condições para a concessão do direito à isenção do Imposto sobre a Propriedade de Veículos Automotores - IPVA à pessoa com transtorno do espectro do autismo ou com deficiência física, sensorial, intelectual ou mental, enquanto não estiver regulamentada a avaliação biopsicossocial, e dá outras providências",
+    "publicacao": "Diário Oficial do Estado de 02/02/2022",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Decreto nº 67.108, de 13 de setembro de 2022",
+        "Decreto nº 67.394, de 23 de dezembro de 2022",
+        "Decreto nº 68.142, de 5 de dezembro de 2023",
+        "Decreto nº 70.090, de 12 de novembro de 2025"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "deficiencia"
+  ],
+  "areas": [
+    "tributos"
+  ],
+  "definicao": "O Decreto estadual nº 66.470/2022 diz como pedir a isenção de IPVA para pessoa com TEA ou com deficiência, enquanto a avaliação biopsicossocial não estiver regulamentada. O pedido vai à Secretaria da Fazenda e Planejamento, com os documentos listados e um laudo pericial do IMESC.",
+  "afirmacoes": [
+    {
+      "texto": "A isenção de IPVA do art. 13-A da Lei nº 13.296/2008 deve ser solicitada à Secretaria da Fazenda e Planejamento, por pedido com documentos como CPF e identidade, laudo pericial do IMESC, documentos do veículo, CNH, comprovantes de endereço e declaração de que não há outro veículo isento (art. 1º, incisos I a XI).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O laudo pericial do IMESC deve comprovar o grau moderado, grave ou gravíssimo da deficiência ou do TEA, considerando a CID e a CIF (art. 1º, II). A lei do IPVA assegura a isenção a um único veículo, na forma e nas condições estabelecidas pelo Poder Executivo (Lei nº 13.296/2008, art. 13-A, caput).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "A pessoa com deficiência ou TEA e o tutor ou curador só podem usar a isenção para um único veículo. A restrição não vale para veículo com mais de 20 anos de fabricação, que tem isenção própria no art. 13, VIII, da Lei nº 13.296/2008 (art. 2º e parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O pedido pode indicar até 2 condutores autorizados pelo beneficiário, tutor ou curador (art. 1º, VIII). Para veículo adaptado, o pedido leva também documentos fiscais das adaptações e certificado de segurança veicular (art. 1º, VII).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O decreto institui uma Comissão Intersecretarial que decide sobre pedidos de nova perícia (art. 3º, I). A Secretaria da Fazenda e Planejamento pode pedir nova perícia à Comissão, e o interessado pode juntar documentos que indiquem essa necessidade (art. 1º, §§ 1º e 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Decreto nº 70.090/2025 acrescentou a possibilidade de recurso contra o indeferimento, em 30 dias da ciência da decisão (art. 1º, §§ 4º e 5º), e o credenciamento de clínicas pelo IMESC para as perícias. O laudo pericial vale 5 anos e, no TEA e na deficiência irreversível, trata só da verificação do grau (art. 1º-A, caput e § 1º).",
+      "fontes": [
+        "f3"
+      ]
+    },
+    {
+      "texto": "Pela redação dada pelo Decreto nº 68.142/2023, quem teve a isenção em 2020 ou 2021 pode usar, para os exercícios de 2022 em diante, o laudo que instruiu aquela concessão no lugar do laudo do IMESC. Isso vale só para o veículo que tinha a isenção; se o veículo for trocado, é preciso novo pedido com os documentos do art. 1º (Disposições Transitórias, art. 2º).",
+      "fontes": [
+        "f4"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-14937-2003",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "A isenção do art. 13-A da Lei nº 13.296/2008 também depende do tipo e do valor do veículo, novo ou usado, conforme o § 4º da lei. O decreto trata dos documentos e do procedimento. Consulte a lei do IPVA e os atos da Secretaria da Fazenda e Planejamento.",
+    "O decreto vale enquanto a avaliação biopsicossocial não estiver regulamentada, e este registro não encontrou ato que a tenha regulamentado. Pelo Decreto nº 70.090/2025, a revisão do laudo e a nova perícia por agravamento seguem ato do IMESC (art. 1º, § 9º), e o laudo é pago diretamente às clínicas credenciadas (art. 1º-A, § 3º). Esses atos não foram lidos.",
+    "A Lei estadual nº 17.669/2023 diz que o laudo médico pericial que atesta o TEA tem validade indeterminada, e o decreto fixa 5 anos para o laudo pericial da isenção. Este registro não diz como as duas regras se combinam."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "norma",
+      "titulo": "Decreto nº 66.470, de 1º de fevereiro de 2022, do Estado de São Paulo: condições da isenção do IPVA (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2022,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/2022/decreto-66470-01.02.2022.html",
+      "referencia": "arts. 1º a 7º e disposição transitória",
+      "trecho": "Artigo 1° - Enquanto não estiver regulamentada a avaliação biopsicossocial para a comprovação do grau moderado, grave ou gravíssimo de deficiência ou de transtorno do espectro do autismo, a concessão do direito à isenção do Imposto sobre a Propriedade de Veículos Automotores - IPVA à pessoa com transtorno do espectro do autismo ou com deficiência física, sensorial, intelectual ou mental, assegurado pelo artigo 13-A da Lei nº 13.296, de 23 de dezembro de 2008, [...] deverá ser solicitada à Secretaria da Fazenda e Planejamento",
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "id": "f2",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.296, de 23 de dezembro de 2008, do Estado de São Paulo (IPVA): art. 13-A, com a redação da Lei nº 17.473/2021 (texto compilado na ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2008,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2008/lei-13296-23.12.2008.html",
+      "referencia": "art. 13-A, caput e §§ 1º a 4º",
+      "trecho": "Artigo 13-A - Fica assegurado o direito à isenção do IPVA para um único veículo de propriedade de pessoa portadora de transtorno do espectro do autismo em grau moderado, grave ou gravíssimo, ou com deficiência física, sensorial, intelectual ou mental, moderada, grave ou gravíssima, ou de seu representante legal, na forma e nas condições estabelecidas pelo Poder Executivo.",
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "id": "f3",
+      "tipo": "norma",
+      "titulo": "Decreto nº 70.090, de 12 de novembro de 2025, do Estado de São Paulo: acrescenta dispositivos ao Decreto nº 66.470/2022 (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2025,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/2025/decreto-70090-12.11.2025.html",
+      "referencia": "art. 1º (§§ 4º a 9º do art. 1º e art. 1º-A)",
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "id": "f4",
+      "tipo": "norma",
+      "titulo": "Decreto nº 68.142, de 5 de dezembro de 2023, do Estado de São Paulo: art. 10, nova redação do art. 2º das Disposições Transitórias do Decreto nº 66.470/2022 (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2023,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/2023/decreto-68142-05.12.2023.html",
+      "referencia": "art. 10",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

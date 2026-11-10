@@ -1,0 +1,153 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-14937-2003",
+  "slug": "lei-estadual-mg-14937-2003",
+  "base": "neurodireitos",
+  "nome": "Lei nº 14.937, de 23 de dezembro de 2003, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "14.937",
+    "data": "2003-12-23",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Dispõe sobre o Imposto sobre a Propriedade de Veículos Automotores - IPVA - e dá outras providências.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 24/12/2003",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 15.957, de 29 de dezembro de 2005",
+        "Lei nº 16.052, de 6 de abril de 2006",
+        "Lei nº 16.304, de 7 de agosto de 2006",
+        "Lei nº 17.247, de 27 de dezembro de 2007",
+        "Lei nº 18.726, de 14 de janeiro de 2010",
+        "Lei nº 20.824, de 31 de julho de 2013",
+        "Lei nº 22.796, de 28 de dezembro de 2017",
+        "Lei nº 23.174, de 21 de dezembro de 2018",
+        "Lei nº 23.762, de 6 de janeiro de 2021",
+        "Lei nº 24.398, de 14 de julho de 2023",
+        "Lei nº 25.378, de 23 de julho de 2025"
+      ]
+    },
+    "regulamentada_por": [
+      "Decreto nº 43.709, de 23 de dezembro de 2003 (Regulamento do IPVA)"
+    ],
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "tea"
+  ],
+  "areas": [
+    "tributos"
+  ],
+  "definicao": "A Lei estadual nº 14.937/2003 trata do IPVA em geral: incidência, fato gerador, contribuinte, base de cálculo e isenções. Este registro trata só da isenção do imposto para veículo de pessoa com deficiência física, visual, mental severa ou profunda, ou autista (art. 3º, III), cujas condições estão no regulamento.",
+  "afirmacoes": [
+    {
+      "texto": "É isenta do IPVA a propriedade de veículo de pessoa com deficiência física, visual, mental severa ou profunda, ou autista, observadas as condições previstas em regulamento (art. 3º, III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Nessa isenção, a lei alcança a propriedade de apenas um veículo (art. 3º, § 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A isenção se aplica ao veículo novo cujo preço de venda sugerido pelo fabricante, com os tributos, não seja superior ao limite previsto em convênio para a isenção do ICMS nas saídas destinadas a pessoas com deficiência, e ao veículo usado cujo valor da base de cálculo, na tabela anual do IPVA, esteja até esse mesmo limite (art. 3º, § 7º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O regulamento (Decreto nº 43.709/2003, art. 7º, III) repete a isenção para pessoa com deficiência física, visual ou mental severa ou profunda, com síndrome de Down ou autista, e estabelece um valor-limite para o veículo, novo ou usado (art. 7º, III, a e b).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "Segundo o regulamento, a isenção depende de reconhecimento, por requerimento apresentado pelo sistema eletrônico da Secretaria de Estado de Fazenda (SIARE), com laudo de avaliação. O regulamento prevê um tipo de laudo conforme a deficiência: para deficiência visual ou física de quem não conduz, laudo de prestador de saúde ligado ao SUS; para deficiência mental severa ou profunda ou autismo, laudo assinado em conjunto por médico e psicólogo; para síndrome de Down, laudo médico; para deficiência física de quem conduz, laudo da perícia da CET/MG e cópia da CNH (art. 8º, III).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "O regulamento diz que a isenção também alcança o veículo na posse direta do beneficiário por leasing ou por financiamento com alienação fiduciária (art. 7º, § 4º), e que, no veículo com reserva de domínio, só vale se o adquirente não tiver outro veículo com a isenção (art. 7º, § 3º).",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-8989-1995",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.decreto-estadual-sp-66470-2022",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "A lei trata do IPVA em geral, e este registro cobre só a isenção para pessoa com deficiência ou autista. O valor-limite do veículo e os documentos exigidos mudam por decreto: confira o texto atualizado do regulamento e o site da Secretaria de Estado de Fazenda.",
+    "A ADI 5268, no Supremo Tribunal Federal, declarou inconstitucional uma expressão do art. 3º, XVII, da lei, sobre transporte escolar. Ela não tem relação com a isenção para pessoa com deficiência.",
+    "Vigência conferida no texto atualizado da ALMG em 10 de novembro de 2026. As alterações listadas são as que a ficha da norma indica para o art. 3º."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 14.937, de 23 de dezembro de 2003, do Estado de Minas Gerais: dispõe sobre o Imposto sobre a Propriedade de Veículos Automotores - IPVA (texto atualizado, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2003,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/14937/2003/atualizado",
+      "referencia": "art. 3º, III, § 4º e § 7º, com as alterações indicadas no texto",
+      "trecho": "III - veículo de pessoa com deficiência física, visual, mental severa ou profunda, ou autista, observadas as condições previstas em regulamento;",
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Decreto nº 43.709, de 23 de dezembro de 2003, do Estado de Minas Gerais: aprova o Regulamento do IPVA (RIPVA) (texto atualizado, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2003,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/DEC/43709/2003/atualizado",
+      "referencia": "arts. 7º, III e §§ 2º a 5º, e 8º, III",
+      "trecho": "III - veículo de pessoa com deficiência física, visual ou mental severa ou profunda, com síndrome de Down ou autista, desde que na hipótese de veículo:",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

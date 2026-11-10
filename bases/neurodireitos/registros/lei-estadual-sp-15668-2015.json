@@ -1,0 +1,119 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-15668-2015",
+  "slug": "lei-estadual-sp-15668-2015",
+  "base": "neurodireitos",
+  "nome": "Lei nº 15.668, de 12 de janeiro de 2015, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "15.668",
+    "data": "2015-01-12",
+    "orgao": "Assembleia Legislativa do Estado de São Paulo",
+    "ementa": "Dispõe sobre diretrizes para a política de diagnóstico precoce e tratamento dos sintomas da Síndrome do Autismo no âmbito do sistema de saúde",
+    "publicacao": "Diário Oficial do Estado de 13/01/2015",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "saude"
+  ],
+  "definicao": "A Lei estadual nº 15.668/2015 diz que o sistema de saúde prestará atenção integral ao diagnóstico precoce e ao tratamento de pessoas com autismo, e lista diretrizes para isso. O texto usa termos antigos, como \"síndrome do autismo\" e \"portador\"; hoje a condição é chamada de Transtorno do Espectro Autista (TEA).",
+  "afirmacoes": [
+    {
+      "texto": "O Sistema de Saúde prestará atenção integral ao diagnóstico precoce e ao tratamento dos sintomas da síndrome do autismo (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre as diretrizes estão programas e ações para diagnosticar precocemente, a participação da família e da sociedade civil na definição e no controle das ações de saúde e o apoio à pesquisa (art. 1º, parágrafo único, itens 1 a 3).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As diretrizes incluem a disponibilização de equipes multi e interdisciplinares: tratamento médico em pediatria, neurologia, psiquiatria e odontologia, e tratamento não médico em psicologia, fonoaudiologia, pedagogia, terapia ocupacional, fisioterapia e orientação familiar (art. 1º, parágrafo único, item 4).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei menciona também o direito à medicação e instrumentos de informação, análise, avaliação e controle dos serviços, abertos à participação da sociedade (art. 1º, parágrafo único, itens 5 e 6).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Poder Público poderá firmar convênios com entidades e clínicas afins para repasse de recursos (art. 2º). As ações programáticas serão definidas em normas técnicas, com participação de entidades, profissionais, universidades públicas e sociedade civil (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-10031-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-5573-2013",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.rastreamento-e-diagnostico",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "A lei fixa diretrizes gerais. As ações concretas dependem de normas técnicas (art. 3º), e o texto da lei não traz prazos nem valores. Não foi lido decreto que a regulamente.",
+    "A ementa e o texto usam termos antigos. A lei é de 2015 e anterior a atualizações como a Lei federal nº 13.977/2020.",
+    "A ficha da ALESP registra a situação \"Sem revogação expressa\", sem alterações nem ações de inconstitucionalidade anotadas; a vigência foi conferida em 10 de novembro de 2026. O art. 4º foi vetado."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 15.668, de 12 de janeiro de 2015, do Estado de São Paulo: diretrizes para a política de diagnóstico precoce e tratamento dos sintomas da Síndrome do Autismo no âmbito do sistema de saúde (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2015,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2015/lei-15668-12.01.2015.html",
+      "referencia": "arts. 1º a 3º",
+      "trecho": "Artigo 1º - O Sistema de Saúde prestará atenção integral ao diagnóstico precoce e ao tratamento dos sintomas da síndrome do autismo.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

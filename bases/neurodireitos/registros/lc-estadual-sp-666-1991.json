@@ -1,0 +1,125 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lc-estadual-sp-666-1991",
+  "slug": "lc-estadual-sp-666-1991",
+  "base": "neurodireitos",
+  "nome": "Lei Complementar nº 666, de 26 de novembro de 1991, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei_complementar",
+    "numero": "666",
+    "data": "1991-11-26",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Autoriza o Poder Executivo a conceder isenção de tarifas de transporte às pessoas portadoras de deficiência e dá outras providências",
+    "publicacao": "Diário Oficial do Estado de 27/11/1991",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1",
+    "regulamentada_por": [
+      "Decreto nº 34.753, de 1º de abril de 1992"
+    ]
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "transporte",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei Complementar estadual nº 666/1991 isenta de tarifa, no transporte coletivo urbano de responsabilidade do Estado de São Paulo, a pessoa com deficiência cuja gravidade comprometa a capacidade de trabalho, e também os maiores de 65 anos. A isenção pode ser estendida a um acompanhante, nas condições do regulamento.",
+  "afirmacoes": [
+    {
+      "texto": "Ficam isentos de tarifas nos serviços de transporte coletivo urbano de responsabilidade do Estado a pessoa com deficiência cuja gravidade comprometa sua capacidade de trabalho e o menor de 14 anos com deficiência que justifique o benefício (art. 1º, I). Também ficam isentos os maiores de 65 anos (art. 1º, II).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A isenção poderá ser estendida a um acompanhante da pessoa com deficiência, registrado junto à entidade ou ao órgão prestador do serviço, atendidas as condições fixadas em regulamento (art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Poder Executivo, por decreto, poderá conceder a isenção por prazo determinado, em caráter excepcional, a segmentos da população atingidos por calamidade pública ou grave crise social ou econômica (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Pelo Decreto nº 34.753/1992, a isenção da pessoa com deficiência depende de avaliação por equipe multiprofissional, em unidade da Secretaria da Saúde, que considera o comprometimento da capacidade de trabalho (art. 2º e § 1º). A pessoa recebe um laudo e pode se cadastrar junto às empresas de transporte (arts. 3º e 4º).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "O acompanhante só é cadastrado quando o laudo disser que ele é necessário (Decreto nº 34.753/1992, art. 4º, parágrafo único). Aos maiores de 65 anos, o decreto exige apenas a carteira de identidade (art. 8º).",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-8899-1994",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-8563-2024",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "A lei vale para os serviços de transporte coletivo urbano de responsabilidade do Estado. Ela não trata do transporte de responsabilidade dos Municípios, que pode ter regras próprias.",
+    "A ementa fala em \"autoriza o Poder Executivo\", e o art. 1º diz \"ficam isentos\". O art. 4º previu regulamento em 60 dias, e o Decreto nº 34.753/1992 o editou. Os critérios e os procedimentos atuais das empresas de transporte não foram lidos aqui.",
+    "O texto é de 1991 e usa \"portador de deficiência\". A ficha da ALESP indica a situação \"sem revogação expressa\" e não lista alterações na lei."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei Complementar nº 666, de 26 de novembro de 1991, do Estado de São Paulo: isenção de tarifas de transporte (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 1991,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei.complementar/1991/lei.complementar-666-26.11.1991.html",
+      "referencia": "arts. 1º a 4º",
+      "trecho": "Artigo 1° - Ficam isentos do pagamento de tarifas nos serviços de transporte coletivo urbano de responsabilidade do Estado: I - as pessoas portadoras de deficiência cuja gravidade comprometa sua capacidade de trabalho, bem como o menor de 14 (quatorze) anos, portador de deficiência que igualmente justifique o benefício;",
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Decreto nº 34.753, de 1º de abril de 1992, do Estado de São Paulo: regulamenta a Lei Complementar nº 666/1991 (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 1992,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/1992/decreto-34753-01.04.1992.html",
+      "referencia": "arts. 2º a 5º e 8º",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-23902-2021",
+  "slug": "lei-estadual-mg-23902-2021",
+  "base": "neurodireitos",
+  "nome": "Lei nº 23.902, de 3 de setembro de 2021, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "23.902",
+    "data": "2021-09-03",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Dispõe sobre o atendimento prioritário às pessoas que menciona nos serviços de atendimento ao público dos estabelecimentos públicos e privados localizados no Estado.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 04/09/2021",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 24.136, de 7 de junho de 2022",
+        "Lei nº 25.218, de 16 de abril de 2025",
+        "Lei nº 25.661, de 22 de dezembro de 2025",
+        "Lei nº 25.885, de 22 de maio de 2026"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "doencas_cronicas"
+  ],
+  "areas": [
+    "atendimento_prioritario",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 23.902/2021 torna obrigatório o atendimento prioritário, nos serviços de atendimento ao público de estabelecimentos públicos e privados de Minas Gerais organizados por fila ou senha, para os grupos que lista. Entre eles estão a pessoa com deficiência ou mobilidade reduzida e, desde 2025, a pessoa com transtorno, síndrome ou outra condição incapacitante.",
+  "afirmacoes": [
+    {
+      "texto": "É obrigatório o atendimento prioritário, nos serviços de atendimento ao público dos estabelecimentos públicos e privados localizados no Estado organizados por meio de fila ou senha, para os grupos do art. 1º, entre eles a pessoa com deficiência ou com mobilidade reduzida (inciso IV), a pessoa com doença grave ou com doença incapacitante (inciso VII, com a redação da Lei nº 25.661/2025) e a pessoa com fibromialgia que se enquadre nesse conceito (inciso VIII, incluído em 2022).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O inciso X do art. 1º, acrescentado pela Lei nº 25.661, de 22/12/2025, inclui a pessoa com transtorno, síndrome ou outra condição incapacitante entre os que têm prioridade.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O atendimento prioritário se estende ao acompanhante das pessoas dos incisos I, II, IV, V, VII, VIII e X e aos responsáveis pelas pessoas dos incisos IV, VII, VIII e X, na forma de regulamento (art. 1º, § 2º, com a redação da Lei nº 25.661/2025).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Nos estabelecimentos bancários, serão fornecidos assentos às pessoas com prioridade que estiverem aguardando atendimento (art. 1º, § 1º). Nos serviços de emergência, públicos e privados, a prioridade é condicionada aos protocolos de atendimento médico (art. 1º, § 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os estabelecimentos devem afixar, nos locais de atendimento ao público, aviso sobre a prioridade de atendimento (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A infração sujeita o estabelecimento privado a multa de 200 Unidades Fiscais do Estado de Minas Gerais, cobrada em dobro na reincidência. No estabelecimento público, aplicam-se as penalidades da legislação específica (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os estabelecimentos tiveram trinta dias, contados da publicação da lei, para se adaptarem, e a lei entrou em vigor na data da publicação (arts. 4º e 6º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-10048-2000",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-6807-2014",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-25661-2025",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "A lei não diz como a pessoa comprova a condição. Para o acompanhante e o responsável, o § 2º do art. 1º remete a regulamento, e o texto atualizado não cita decreto regulamentador.",
+    "O texto atualizado da ALMG tem data de atualização de 25/05/2026. A ficha da ALMG indica a publicação em 04/09/2021 e as alterações das Leis nº 24.136/2022, 25.218/2025, 25.661/2025 (duas alterações) e 25.885/2026, esta com o § 4º do art. 1º, sobre a ordem de prioridade entre pessoas idosas, que o registro não detalha."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 23.902, de 3 de setembro de 2021, do Estado de Minas Gerais: atendimento prioritário nos serviços de atendimento ao público (texto atualizado, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2021,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/23902/2021/atualizado",
+      "referencia": "arts. 1º a 6º, com as alterações indicadas no texto",
+      "trecho": "Art. 1º - É obrigatório, nos serviços de atendimento ao público dos estabelecimentos públicos e privados localizados no Estado organizados por meio de fila ou senha, atendimento prioritário para:",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

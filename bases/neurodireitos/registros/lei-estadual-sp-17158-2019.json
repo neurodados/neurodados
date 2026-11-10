@@ -1,0 +1,158 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-17158-2019",
+  "slug": "lei-estadual-sp-17158-2019",
+  "base": "neurodireitos",
+  "nome": "Lei nº 17.158, de 18 de setembro de 2019, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "17.158",
+    "data": "2019-09-18",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Institui a Política Estadual de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista - TEA, e dá outras providências",
+    "publicacao": "Diário Oficial do Estado de 20/09/2019",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 17.798, de 6 de outubro de 2023"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "educacao",
+    "saude"
+  ],
+  "definicao": "A Lei estadual nº 17.158/2019 institui a Política Estadual de Proteção dos Direitos da Pessoa com TEA no Estado de São Paulo, com diretrizes e direitos em saúde, educação, trabalho e assistência. Considera a pessoa com TEA pessoa com deficiência e, na redação da Lei nº 17.798/2023, trata do acompanhante especializado na classe comum e da multa à escola que recusa matrícula.",
+  "afirmacoes": [
+    {
+      "texto": "A pessoa com TEA é considerada pessoa com deficiência, para todos os efeitos legais (art. 1º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A política tem como diretrizes a intersetorialidade, a participação da comunidade, a atenção integral à saúde (diagnóstico precoce, atendimento multiprofissional, medicamentos e nutrientes), o estímulo à inserção no mercado de trabalho, a informação pública, a capacitação de profissionais, de pais e de responsáveis e o estímulo à pesquisa (art. 2º, I a VII).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "São direitos da pessoa com TEA a vida digna, a proteção contra abuso e exploração, o acesso a ações e serviços de saúde (diagnóstico precoce, ainda que não definitivo, atendimento multiprofissional, terapia nutricional e medicamentos) e o acesso à educação, ao ensino profissionalizante, à moradia, ao trabalho, à previdência e à assistência social (art. 3º, I a IV).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Em casos de comprovada necessidade, a pessoa com TEA incluída em classe comum de ensino regular tem direito a acompanhante especializado (art. 3º, § 1º). O acompanhante especializado atua, primordialmente, na inserção do aluno no ambiente escolar e o auxilia nas interações sociais, no ensino em geral e nas aplicações didáticas (art. 3º, § 4º, incluído pela Lei nº 17.798/2023).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A pessoa com TEA não pode ser impedida de participar de planos privados de assistência à saúde em razão de sua condição de pessoa com deficiência, conforme o art. 14 da Lei federal nº 9.656/1998 (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O gestor escolar ou a autoridade competente que recusar a matrícula de aluno com TEA, ou com qualquer outro tipo de deficiência, é punido com multa de 3 a 20 salários mínimos. Em caso de reincidência, apurada em processo administrativo com contraditório e ampla defesa, há perda do cargo (art. 6º, caput e § 2º, na redação da Lei nº 17.798/2023).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Fica vedada a limitação de alunos autistas por sala de aula, por ciclo educacional ou por qualquer outro critério, nos estabelecimentos públicos e privados (art. 6º, § 1º, incluído pela Lei nº 17.798/2023).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data da publicação (art. 7º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9395-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-24786-2024",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.decreto-estadual-sp-67634-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-sp-17759-2023",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "A lei foi assinada pelo presidente da Assembleia Legislativa em exercício no cargo de governador, e a ficha da ALESP a classifica como promulgação do Executivo. Os §§ 2º e 3º do art. 3º, acrescentados pela Lei nº 17.798/2023, constam como vetados pelo governador e não valem.",
+    "A ficha da ALESP indica o Decreto nº 67.634, de 6 de abril de 2023, como norma correlata. Esse decreto não foi lido para este registro. A ficha não lista decreto que regulamente a lei e não registra ação de inconstitucionalidade.",
+    "A lei prevê o acompanhante em caso de \"comprovada necessidade\" e não diz quem a avalia nem como se pede. O art. 6º trata da multa por recusa de matrícula sem dizer qual órgão a aplica."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 17.158, de 18 de setembro de 2019, do Estado de São Paulo: Política Estadual de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista (texto atualizado, na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2019,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2019/lei-17158-18.09.2019.html",
+      "referencia": "arts. 1º a 6º, com as alterações da Lei nº 17.798/2023",
+      "trecho": "Artigo 1º - Esta lei institui a Política Estadual de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista - TEA, e estabelece diretrizes para sua consecução.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

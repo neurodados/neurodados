@@ -1,0 +1,102 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-24971-2024",
+  "slug": "lei-estadual-mg-24971-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 24.971, de 17 de setembro de 2024, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "24.971",
+    "data": "2024-09-17",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Dispõe sobre a inclusão, na carteira de identidade ou em outro documento de identificação pessoal, de informações sobre deficiência, doença grave ou outra condição incapacitante ou limitante de caráter permanente.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 18/09/2024",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "doencas_cronicas"
+  ],
+  "areas": [
+    "identificacao",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 24.971/2024 prevê que a carteira de identidade ou outro documento de identificação pessoal emitido por órgão estadual de Minas Gerais traga, a pedido, informações sobre deficiência, doença grave ou outra condição incapacitante ou limitante de caráter permanente.",
+  "afirmacoes": [
+    {
+      "texto": "Serão incluídas informações sobre deficiência, doença grave ou outra condição incapacitante ou limitante de caráter permanente na carteira de identidade ou em outro documento de identificação pessoal emitido por órgão estadual competente (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A inclusão depende de requerimento do titular do documento ou de seu representante legal (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A inclusão fica condicionada à comprovação das informações junto ao órgão estadual competente, na forma de regulamento (art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entrou em vigor na data de sua publicação (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-8506-2019",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "A lei não diz quais documentos comprovam a condição, nem prazo, nem como pedir: depende de regulamento, que a ficha da ALMG não mostra.",
+    "A lei vale para documentos emitidos por órgão estadual competente. Não trata de documentos federais nem municipais."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 24.971, de 17 de setembro de 2024, do Estado de Minas Gerais: informações sobre deficiência ou condição incapacitante no documento de identificação (texto na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2024,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/24971/2024/atualizado",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "Art. 1º - Serão incluídas, na carteira de identidade ou em outro documento de identificação pessoal emitido por órgão estadual competente, a requerimento do titular do documento ou do seu representante legal, informações sobre deficiência, doença grave ou outra condição incapacitante ou limitante de caráter permanente, na forma de regulamento.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

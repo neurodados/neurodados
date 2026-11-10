@@ -1,0 +1,130 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-25537-2025",
+  "slug": "lei-estadual-mg-25537-2025",
+  "base": "neurodireitos",
+  "nome": "Lei nº 25.537, de 20 de outubro de 2025, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "25.537",
+    "data": "2025-10-20",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Institui o Estatuto das Pessoas com Doenças Raras no Estado.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 21/10/2025",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 26.030, de 5 de agosto de 2026"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "doencas_raras"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "saude",
+    "educacao",
+    "trabalho",
+    "assistencia_social",
+    "atendimento_prioritario"
+  ],
+  "definicao": "A Lei estadual nº 25.537/2025 institui o Estatuto das Pessoas com Doenças Raras em Minas Gerais, com direitos, medidas de assistência à saúde, inclusão educacional e social e participação social. A lei trata de muitos assuntos, e este registro resume os pontos mais úteis para famílias.",
+  "afirmacoes": [
+    {
+      "texto": "Doenças raras são, para a lei, as que afetam até sessenta e cinco pessoas em cada cem mil indivíduos, conforme definição da Organização Mundial da Saúde (art. 2º). O estatuto tem o objetivo de garantir direitos, promover a inclusão social e assegurar atendimento integral à saúde (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os direitos do art. 4º incluem diagnóstico precoce e preciso, acesso a tratamento adequado com medicamentos, terapias, procedimentos e tecnologias incorporadas pelo SUS (conforme regulamento), atendimento multidisciplinar, reabilitação e habilitação, acompanhamento psicossocial extensivo a cuidadores e família, informação, prioridade no atendimento em serviços públicos e privados e apoio à inclusão educacional e no mercado de trabalho (art. 4º, incisos I a VIII).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O gozo desses direitos fica condicionado à comprovação da doença rara, na forma de regulamento (art. 4º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Estado garantirá, por meio do SUS, a assistência integral à saúde, com medidas como o fortalecimento de serviços de referência, a disponibilização de exames genéticos, bioquímicos e de imagem, o fornecimento contínuo de medicamentos e insumos estratégicos e a ampliação gradual dos programas de rastreamento (art. 5º). As medidas devem respeitar a capacidade orçamentária e a sustentabilidade financeira do sistema de saúde (art. 5º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para a inclusão social e educacional, o Estado adotará, entre outras medidas, práticas pedagógicas na educação básica que atendam às necessidades dos estudantes, atendimento educacional especializado quando necessário, programas de capacitação profissional e de inserção no mercado de trabalho e campanhas de conscientização (art. 7º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Lei nº 26.030, de 5/8/2026, acrescentou o art. 7º-A, com diretrizes de acolhimento e suporte aos pais e responsáveis por pessoas com doenças raras, como atenção integral, apoio psicossocial, redes de apoio e combate à discriminação.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Estado promoverá a participação de usuários, gestores, profissionais e sociedade civil em órgão consultivo e deliberativo de controle social das políticas para pessoas com doenças raras (art. 8º). A lei entrou em vigor na data da publicação (art. 9º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-10048-2000",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "O registro resume os pontos principais e não todos os artigos. Vários direitos dependem de regulamento (tratamento pelo SUS, comprovação da doença, inclusão educacional e no trabalho), e o texto atualizado não cita decreto regulamentador.",
+    "A lei não lista as doenças raras nem diz como se comprova a condição. A ficha da ALMG indica a publicação em 21/10/2025 e a alteração da Lei nº 26.030/2026 (publicada em 06/08/2026), que acrescentou o Capítulo IV-A; o texto atualizado tem data de 06/08/2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 25.537, de 20 de outubro de 2025, do Estado de Minas Gerais: Estatuto das Pessoas com Doenças Raras no Estado (texto atualizado, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2025,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/25537/2025/atualizado",
+      "referencia": "arts. 1º a 9º, com as alterações indicadas no texto",
+      "trecho": "Art. 1º - Fica instituído o Estatuto das Pessoas com Doenças Raras no Estado, com o objetivo de garantir direitos, promover a inclusão social e assegurar atendimento integral à saúde das pessoas com doenças raras.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

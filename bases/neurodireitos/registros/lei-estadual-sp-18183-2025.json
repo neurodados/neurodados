@@ -1,0 +1,130 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-18183-2025",
+  "slug": "lei-estadual-sp-18183-2025",
+  "base": "neurodireitos",
+  "nome": "Lei nº 18.183, de 21 de agosto de 2025, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "18.183",
+    "data": "2025-08-21",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Dispõe sobre a obrigatoriedade da instalação de salas de regulação sensorial voltadas às pessoas com Transtorno do Espectro Autista (TEA) e neuroatípicas em shopping centers no Estado de São Paulo, e dá outras providências.",
+    "publicacao": "Diário Oficial do Estado de 25/08/2025",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "acessibilidade",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 18.183/2025 obriga os shopping centers com circulação diária maior que 2.000 pessoas a instalar salas de regulação sensorial para acolher pessoas com TEA e neuroatípicas no Estado de São Paulo. O Decreto nº 70.501/2026 a regulamenta.",
+  "afirmacoes": [
+    {
+      "texto": "Shopping centers com circulação diária maior que 2.000 pessoas ficam obrigados a instalar salas de regulação sensorial voltadas ao acolhimento de pessoas com TEA e neuroatípicas (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As salas devem ser planejadas e equipadas com materiais adequados às necessidades sensoriais do público autista (art. 1º, parágrafo único). Devem ficar em áreas de fácil acesso, com estrutura física adequada, em ambiente tranquilo e confortável (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os estabelecimentos são responsáveis por manter as salas em boas condições de funcionamento, com higienização regular e reposição dos materiais quando necessário (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei diz que a fiscalização cabe aos órgãos competentes do Estado, definidos em regulamentação específica (art. 5º). O decreto atribui a fiscalização ao Procon SP, com as sanções administrativas do Código de Defesa do Consumidor (Decreto nº 70.501/2026, art. 3º).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    },
+    {
+      "texto": "O decreto define sala de regulação sensorial como o espaço projetado para ser um ambiente seguro e controlado, que acolhe temporariamente pessoas com sensibilidade sensorial, para promover a autorregulação por meio da redução de estímulos externos (Decreto nº 70.501/2026, art. 2º). Prevê localização próxima, prioritariamente, às rotas de entrada e saída, com sinalização visível, evitando praças de alimentação e áreas de ativação de marketing (art. 2º, parágrafo único).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data de sua publicação (art. 7º). O decreto, publicado em 02/04/2026, entra em vigor 180 dias depois da publicação (Decreto nº 70.501/2026, art. 5º).",
+      "fontes": [
+        "f1",
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-9488-2026",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "Os artigos 3º e 6º da lei foram vetados e não valem. O decreto já está em vigor: o prazo de 180 dias contado da publicação, em 2 de abril de 2026, terminou no fim de setembro de 2026.",
+    "O registro resume os pontos principais e não todos os artigos. A vigência foi conferida na ficha e no texto compilado da ALESP em 10 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 18.183, de 21 de agosto de 2025, do Estado de São Paulo: salas de regulação sensorial em shopping centers (texto compilado, na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2025,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2025/lei-18183-21.08.2025.html",
+      "referencia": "arts. 1º a 7º",
+      "trecho": "Artigo 1º - Shopping centers com circulação diária maior que 2.000 (duas mil) pessoas ficam obrigados a instalar salas de regulação sensorial voltadas ao acolhimento de pessoas com Transtorno do Espectro Autista (TEA) e neuroatípicas no Estado de São Paulo.",
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Decreto nº 70.501, de 1º de abril de 2026, do Estado de São Paulo: regulamenta a Lei nº 18.183/2025 (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2026,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/2026/decreto-70501-01.04.2026.html",
+      "referencia": "arts. 1º a 5º",
+      "trecho": "Artigo 3º - A Fundação de Proteção e Defesa do Consumidor - Procon SP, no âmbito de suas atribuições, fiscalizará o cumprimento da Lei nº 18.183, de 21 de agosto de 2025 , sujeitando os infratores às sanções administrativas previstas na Lei federal nº 8.078, de 11 de setembro de 1990 - Código de Defesa do Consumidor.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

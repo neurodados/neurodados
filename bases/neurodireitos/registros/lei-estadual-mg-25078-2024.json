@@ -1,0 +1,115 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-25078-2024",
+  "slug": "lei-estadual-mg-25078-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 25.078, de 20 de dezembro de 2024, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "25.078",
+    "data": "2024-12-20",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Reconhece no Estado o cordão de fita com desenhos de girassóis como símbolo de identificação de pessoas com deficiências ocultas.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 21/12/2024",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "identificacao",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 25.078/2024 reconhece, em Minas Gerais, o cordão de fita com desenhos de girassóis como símbolo de identificação de pessoas com deficiências ocultas. O uso é opcional e não dispensa documento comprobatório, se pedido.",
+  "afirmacoes": [
+    {
+      "texto": "Fica reconhecido no Estado o cordão de fita com desenhos de girassóis como símbolo de identificação de pessoas com deficiências ocultas, a que se refere a Lei federal nº 13.146/2015 (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O uso do símbolo é opcional, e sua ausência não prejudica o exercício de direitos e garantias previstos em lei (art. 1º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O uso do símbolo não dispensa a apresentação de documento comprobatório da deficiência, se solicitado por atendente ou por autoridade competente (art. 1º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Poder Executivo promoverá o conhecimento da população, em especial dos agentes públicos ou de quem desenvolva serviços públicos, sobre a importância do uso do cordão (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entrou em vigor na data de sua publicação (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9894-2022",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-sp-17897-2024",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7126-2021",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "O texto da lei reconhece o símbolo e não cria prioridade, atendimento preferencial nem outro benefício por causa do uso do cordão.",
+    "A lei não define quais são as deficiências ocultas."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 25.078, de 20 de dezembro de 2024, do Estado de Minas Gerais: cordão de fita com desenhos de girassóis, símbolo de deficiências ocultas (texto na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2024,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/25078/2024/atualizado",
+      "referencia": "arts. 1º a 3º",
+      "trecho": "Art. 1º - Fica reconhecido no Estado o cordão de fita com desenhos de girassóis como símbolo de identificação de pessoas com deficiências ocultas, a que se refere a Lei Federal nº 13.146, de 6 de julho de 2015.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

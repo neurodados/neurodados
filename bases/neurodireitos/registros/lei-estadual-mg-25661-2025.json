@@ -1,0 +1,133 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-25661-2025",
+  "slug": "lei-estadual-mg-25661-2025",
+  "base": "neurodireitos",
+  "nome": "Lei nº 25.661, de 22 de dezembro de 2025, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "25.661",
+    "data": "2025-12-22",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Institui a política estadual de atenção, apoio e orientação aos responsáveis por pessoas atípicas e dá outras providências.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 23/12/2025",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "doencas_cronicas",
+    "saude_mental"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "saude",
+    "assistencia_social",
+    "atendimento_prioritario",
+    "identificacao"
+  ],
+  "definicao": "A Lei estadual nº 25.661/2025 institui a política estadual de atenção, apoio e orientação aos responsáveis por pessoas atípicas, com objetivos e diretrizes para o poder público. Também amplia o atendimento prioritário da Lei nº 23.902/2021 e prevê que o Executivo poderá criar uma carteira de identificação do responsável.",
+  "afirmacoes": [
+    {
+      "texto": "Para a lei, pessoa atípica é a pessoa com deficiência, transtorno, doença ou outra condição incapacitante. Responsável é quem realiza cuidados essenciais ou supervisão contínua de pessoa atípica cuja condição acarrete a dependência desses cuidados ou dessa supervisão (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Fica instituída a política estadual de atenção, apoio e orientação aos responsáveis por pessoas atípicas (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os objetivos da política incluem melhorar a qualidade de vida e o bem-estar físico, mental e social dos responsáveis, fomentar a atuação conjunta dos serviços de saúde, educação, assistência social e segurança, fortalecer as redes de apoio e combater a discriminação contra a diversidade das pessoas atípicas (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A política observará diretrizes como a atenção integral aos responsáveis, com acesso a serviços de saúde, assistência social e apoio psicossocial, o apoio após o nascimento ou o diagnóstico da pessoa atípica, a formação dos profissionais da rede pública estadual e a articulação com os municípios (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Poder Executivo poderá instituir carteira de identificação do responsável por pessoa atípica. As informações, a validade e os critérios de emissão serão definidos em regulamento, e a carteira não dispensa documento de identificação oficial quando exigido (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O art. 6º altera a Lei nº 23.902/2021: inclui entre os que têm atendimento prioritário a pessoa com transtorno, síndrome ou outra condição incapacitante, e estende a prioridade ao acompanhante e ao responsável, nos casos que indica, na forma de regulamento. Essa prioridade é obrigatória nos serviços de atendimento ao público organizados por fila ou senha.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entrou em vigor na data da publicação (art. 7º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14624-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-23902-2021",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "Os arts. 3º e 4º trazem objetivos e diretrizes da política. O texto não descreve, nesses artigos, um serviço individual que o responsável possa exigir.",
+    "Os arts. 5º e 6º remetem a regulamento (carteira do responsável e extensão da prioridade ao acompanhante e ao responsável). O texto da lei não cita decreto regulamentador, e o registro não procurou norma posterior.",
+    "A ficha da ALMG indica a publicação em 23/12/2025 e não lista alterações da lei. A ALMG oferece apenas o texto original, que é o lido aqui."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 25.661, de 22 de dezembro de 2025, do Estado de Minas Gerais: política estadual de atenção, apoio e orientação aos responsáveis por pessoas atípicas (texto na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2025,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/25661/2025/atualizado",
+      "referencia": "arts. 1º a 7º",
+      "trecho": "Art. 1º - Fica instituída a política estadual de atenção, apoio e orientação aos responsáveis por pessoas atípicas.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

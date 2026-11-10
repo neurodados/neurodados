@@ -1,0 +1,109 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-18167-2025",
+  "slug": "lei-estadual-sp-18167-2025",
+  "base": "neurodireitos",
+  "nome": "Lei nº 18.167, de 8 de julho de 2025, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "18.167",
+    "data": "2025-07-08",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Dispõe sobre a reserva de vagas para pessoas com deficiência nos cursos técnico de nível médio e superior das instituições estaduais de ensino.",
+    "publicacao": "Diário Oficial do Estado de 10/07/2025",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "educacao",
+    "acessibilidade"
+  ],
+  "definicao": "A Lei estadual nº 18.167/2025 manda as instituições estaduais de educação superior e de ensino técnico de nível médio de São Paulo reservarem vagas para pessoas com deficiência em cada concurso seletivo, por curso e turno. A reserva deve ser, no mínimo, igual à proporção de pessoas com deficiência na população do Estado.",
+  "afirmacoes": [
+    {
+      "texto": "As instituições estaduais de educação superior reservarão, em cada concurso seletivo para ingresso nos cursos de graduação, por curso e turno, vagas para pessoas com deficiência (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As instituições estaduais de ensino técnico de nível médio reservarão, em cada concurso seletivo e por turno, vagas para pessoas com deficiência (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A reserva será, em proporção ao total, no mínimo igual à proporção de pessoas com deficiência na população do Estado, segundo o último censo do IBGE. As vagas não preenchidas poderão ser ocupadas pelos demais candidatos (art. 1º, §§ 1º e 2º, e art. 2º, §§ 1º e 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Em casos de comprovada necessidade, as pessoas com deficiência aprovadas nos concursos seletivos terão direito a acompanhante especializado (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As instituições têm prazo máximo de dois anos, a partir da data da publicação da lei, para o cumprimento integral (art. 4º). A lei foi publicada em 10/07/2025.",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Poder Executivo expedirá os regulamentos necessários para a execução da lei (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "A lei foi publicada em 10 de julho de 2025 e dá dois anos para as instituições a cumprirem por inteiro (art. 4º). Não foi lido decreto que a regulamente, e o texto não define quem comprova a deficiência.",
+    "A ficha da ALESP registra a situação \"Sem revogação expressa\", sem alterações nem ações de inconstitucionalidade anotadas; a vigência foi conferida em 10 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 18.167, de 8 de julho de 2025, do Estado de São Paulo: reserva de vagas para pessoas com deficiência nos cursos técnicos de nível médio e superiores das instituições estaduais de ensino (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2025,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2025/lei-18167-08.07.2025.html",
+      "referencia": "arts. 1º a 6º",
+      "trecho": "Artigo 1° - As instituições estaduais de educação superior reservarão, em cada concurso seletivo para ingresso nos cursos de graduação, por curso e turno, vagas para pessoas com deficiência.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

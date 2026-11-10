@@ -86,6 +86,14 @@
     {
       "id": "neurodireitos.lei-estadual-rj-6708-2014",
       "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-sp-16756-2018",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-23902-2021",
+      "tipo": "relacionado"
     }
   ],
   "limitacoes": [
@@ -112,7 +120,7 @@
     "conferido_em": "2026-11-10",
     "revisores": []
   },
-  "versao": "1.0",
+  "versao": "1.1",
   "criado_em": "2026-11-10",
   "atualizado_em": "2026-11-10",
   "historico": [
@@ -120,6 +128,11 @@
       "versao": "1.0",
       "data": "2026-11-10",
       "mudanca": "Primeira versão."
+    },
+    {
+      "versao": "1.1",
+      "data": "2026-11-10",
+      "mudanca": "Ligações com normas novas dos Estados de São Paulo e de Minas Gerais."
     }
   ]
 }

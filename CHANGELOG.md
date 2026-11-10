@@ -1,5 +1,9 @@
 # Mudanças
 
+## NeuroDireitos 2026.11.10.2
+
+- Normas dos Estados de São Paulo e de Minas Gerais: 19 de São Paulo (15 leis, 3 decretos e 1 lei complementar) e 18 leis de Minas Gerais, cada uma com a abrangência e a UF. Ligações entre as normas locais que tratam do mesmo direito.
+
 ## NeuroDireitos 2026.11.10
 
 - As primeiras normas locais: 20 leis do Estado do Rio de Janeiro e 16 leis do Município do Rio de Janeiro, cada uma com a abrangência, a UF e o município. Filtros por abrangência e por UF na API e no MCP.

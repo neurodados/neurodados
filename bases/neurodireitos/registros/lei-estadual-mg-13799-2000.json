@@ -1,0 +1,159 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-13799-2000",
+  "slug": "lei-estadual-mg-13799-2000",
+  "base": "neurodireitos",
+  "nome": "Lei nº 13.799, de 21 de dezembro de 2000, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "13.799",
+    "data": "2000-12-21",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Dispõe sobre a política estadual dos direitos da pessoa com deficiência e cria o Conselho Estadual de Defesa dos Direitos da Pessoa com Deficiência.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 22/12/2000",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei Delegada nº 58, de 29 de janeiro de 2003",
+        "Decreto nº 43.613, de 25 de setembro de 2003",
+        "Lei nº 22.257, de 27 de julho de 2016",
+        "Lei nº 22.918, de 12 de janeiro de 2018",
+        "Lei nº 23.373, de 9 de agosto de 2019",
+        "Lei nº 23.766, de 6 de janeiro de 2021",
+        "Lei nº 24.222, de 18 de julho de 2022",
+        "Lei nº 25.040, de 27 de novembro de 2024",
+        "Lei nº 25.042, de 27 de novembro de 2024",
+        "Lei nº 25.205, de 8 de abril de 2025",
+        "Lei nº 25.206, de 8 de abril de 2025",
+        "Lei nº 25.261, de 29 de maio de 2025",
+        "Lei nº 25.266, de 29 de maio de 2025",
+        "Lei nº 25.318, de 18 de junho de 2025",
+        "Lei nº 25.415, de 31 de julho de 2025",
+        "Lei nº 25.513, de 1º de outubro de 2025",
+        "Lei nº 25.638, de 18 de dezembro de 2025",
+        "Lei nº 25.719, de 16 de janeiro de 2026"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "tea"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "educacao",
+    "saude",
+    "acessibilidade",
+    "trabalho",
+    "cultura_e_lazer"
+  ],
+  "definicao": "A Lei estadual nº 13.799/2000 define a política estadual dos direitos da pessoa com deficiência em Minas Gerais, com uma lista de objetivos, e cria o Conselho Estadual de Defesa dos Direitos da Pessoa com Deficiência. Recebeu muitos incisos e parágrafos novos desde 2019, incluindo pontos sobre escola, hipersensibilidade sensorial e famílias.",
+  "afirmacoes": [
+    {
+      "texto": "Para os efeitos da lei, é pessoa com deficiência o indivíduo com restrição de ordem neuropsíquica na orientação, na independência física ou na mobilidade, ou com sofrimento mental, que cause dificuldade para o exercício de ocupação habitual, para a interação social ou para a independência econômica, conforme diagnóstico de profissionais das áreas de medicina, fisioterapia, fonoaudiologia, terapia ocupacional ou pedagogia (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A política tem por objetivos, entre outros: o amparo à pessoa com deficiência e a garantia de seus direitos básicos, a habilitação e a reabilitação, inclusive a profissional e a integração ao mercado de trabalho, a facilitação do acesso a bens e serviços coletivos com a remoção de barreiras e a proteção contra negligência, discriminação, exploração e violência (art. 2º, I, II, IV e V).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre os objetivos está a adequação dos ambientes escolares às características dos estudantes com deficiência, inclusive à hipersensibilidade sensorial, por medidas individuais ou coletivas que favoreçam o acesso, a permanência, a participação e a aprendizagem (art. 2º, XIII).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Nos estabelecimentos de educação básica públicos e privados ligados ao sistema estadual de educação, os sinais sonoros deverão ser substituídos por sinais musicais adequados aos estudantes com transtorno do espectro autista ou com outras deficiências que acarretem hipersensibilidade sensorial (art. 2º, § 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os objetivos incluem o amparo às famílias e aos responsáveis pelas pessoas com deficiência nas questões de saúde mental, com acesso à rede de atenção psicossocial do SUS (art. 2º, XII), o incentivo à conscientização sobre a hipersensibilidade sensorial, para reduzir ruídos de trânsito como buzinas, apitos e carros de som (art. 2º, XI), e o estímulo à disponibilização de pranchas de comunicação em estabelecimentos públicos e privados (art. 2º, XIV).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As medidas ligadas aos incisos I, IV, V e IX do art. 2º incluirão a capacitação continuada de agentes públicos e privados para atender pessoas com transtorno do espectro autista ou outras deficiências que acarretem dificuldades de comunicação e interação social, e a adoção de protocolos para a abordagem dessas pessoas pelos agentes de segurança pública (art. 2º, § 5º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Entre os objetivos está promover, nas escolas da rede estadual e no sistema estadual de bibliotecas públicas, o acesso de pessoas com deficiência visual a tecnologias assistivas que convertam informações visuais em áudio (art. 2º, XVI). Para isso, o Estado poderá criar instrumentos de fomento à pesquisa e à inovação (art. 2º, § 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Conselho Estadual de Defesa dos Direitos da Pessoa com Deficiência é órgão deliberativo e controlador das políticas e das ações (art. 4º), tem composição paritária entre o poder público e a sociedade civil, com vinte e quatro membros (art. 5º), e lhe compete fiscalizar e exigir o cumprimento da legislação, examinando denúncias sobre possível descumprimento (art. 10, IV).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-sp-12907-2008",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-13465-2000",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "A lei fixa objetivos de política pública. Vários verbos são de incentivo, estímulo ou promoção, e nem todo item cria, por si só, um direito exigível por uma pessoa.",
+    "O conceito de pessoa com deficiência do art. 1º vale \"para os efeitos desta Lei\". Para a concessão de benefícios pelo Estado, há também a Lei estadual nº 13.465/2000, com outro conceito, e a Lei federal nº 13.146/2015.",
+    "O registro resume os pontos principais e não todos os artigos. Vigência conferida no texto atualizado da ALMG em 10 de novembro de 2026; as alterações foram listadas como aparecem no texto e na ficha da norma."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.799, de 21 de dezembro de 2000, do Estado de Minas Gerais: dispõe sobre a política estadual dos direitos da pessoa com deficiência e cria o Conselho Estadual de Defesa dos Direitos da Pessoa com Deficiência (texto atualizado, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2000,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/13799/2000/atualizado",
+      "referencia": "arts. 1º, 2º, 4º, 5º e 10, com as alterações indicadas no texto",
+      "trecho": "Art. 4º - Fica criado, na estrutura orgânica da Secretaria de Estado do Trabalho, da Assistência Social, da Criança e do Adolescente, o Conselho Estadual de Defesa dos Direitos da Pessoa com Deficiência, órgão deliberativo e controlador das políticas e das ações, em todos os níveis de atendimento às pessoas com deficiência.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

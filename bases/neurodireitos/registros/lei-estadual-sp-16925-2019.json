@@ -1,0 +1,123 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-16925-2019",
+  "slug": "lei-estadual-sp-16925-2019",
+  "base": "neurodireitos",
+  "nome": "Lei nº 16.925, de 16 de janeiro de 2019, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "16.925",
+    "data": "2019-01-16",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Veda qualquer discriminação à criança e ao adolescente portador de deficiência ou doença crônica nos estabelecimentos de ensino, creches ou similares, em instituições públicas ou privadas",
+    "publicacao": "Diário Oficial do Estado de 17/01/2019",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia",
+    "doencas_cronicas",
+    "sindrome_de_tourette"
+  ],
+  "areas": [
+    "educacao",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 16.925/2019 veda a discriminação de criança e adolescente com deficiência ou doença crônica em escolas, creches e similares, públicos ou privados, no Estado de São Paulo. Manda capacitar docentes e equipe de apoio e prevê advertência e multa.",
+  "afirmacoes": [
+    {
+      "texto": "É vedada a discriminação à criança e ao adolescente com deficiência ou doença crônica nos estabelecimentos de ensino, creches ou similares, em instituições públicas ou privadas (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O estabelecimento deve capacitar seu corpo docente e sua equipe de apoio para acolher a criança e o adolescente com deficiência ou doença crônica, propiciando-lhe a integração a todas as atividades educacionais e de lazer que sua condição possibilite (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei considera doença crônica toda enfermidade não contagiosa de caráter permanente que limite total ou parcialmente atividades diárias fundamentais ou que requeira medicação e tratamento. Cita como exemplos alergias, diabete tipo I, hepatite tipo C, epilepsia, anemia hereditária, asma, síndrome de Tourette, lúpus e intolerância alimentar (art. 3º, II).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As sanções para quem praticar atos de discriminação são advertência, multa de até 1.000 UFESPs e multa de até 3.000 UFESPs em caso de reincidência (art. 5º, I a III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A apuração dos atos discriminatórios segue os procedimentos da Lei estadual nº 10.177/1998, que regula o processo administrativo na administração pública estadual (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data da publicação (art. 7º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-8069-1990",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7713-2022",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "O art. 4º, os incisos IV e V e os §§ 1º e 2º do art. 5º constam como vetados no texto da ALESP, que não traz o conteúdo vetado.",
+    "A lei não cita o TEA nem o TDAH. A síndrome de Tourette aparece só na lista de exemplos de doença crônica do art. 3º, II. A ficha da ALESP não lista decreto que regulamente a lei nem ação de inconstitucionalidade contra ela."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 16.925, de 16 de janeiro de 2019, do Estado de São Paulo: veda a discriminação à criança e ao adolescente com deficiência ou doença crônica em estabelecimentos de ensino e creches (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2019,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2019/lei-16925-16.01.2019.html",
+      "referencia": "arts. 1º a 3º, 5º e 6º",
+      "trecho": "Artigo 1º - É vedada a discriminação à criança e ao adolescente portador de deficiência ou qualquer doença crônica nos estabelecimentos de ensino, creches ou similares, em instituições públicas ou privadas.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

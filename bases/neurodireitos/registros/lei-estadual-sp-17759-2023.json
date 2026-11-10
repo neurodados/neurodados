@@ -1,0 +1,135 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-17759-2023",
+  "slug": "lei-estadual-sp-17759-2023",
+  "base": "neurodireitos",
+  "nome": "Lei nº 17.759, de 20 de setembro de 2023, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "17.759",
+    "data": "2023-09-20",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Dispõe sobre o Protocolo Individualizado de Avaliação (PIA) para os alunos com Transtornos Globais do Desenvolvimento, incluindo-se o Transtorno do Espectro Autista (TEA), nas instituições de ensino de todo o Estado",
+    "publicacao": "Diário Oficial do Estado de 21/09/2023",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "A Lei estadual nº 17.759/2023 dá ao aluno com transtorno global do desenvolvimento, inclusive TEA, o direito ao Protocolo Individualizado de Avaliação (PIA) nas instituições de ensino do Estado de São Paulo, do ensino fundamental ao superior. As instituições devem simplificar ou fragmentar atividades e adaptar avaliações.",
+  "afirmacoes": [
+    {
+      "texto": "Os alunos com transtornos globais do desenvolvimento, matriculados no ensino fundamental I e II, médio, superior, técnico, tecnológico e profissionalizante, em instituições de ensino de todo o Estado, têm direito às medidas do PIA (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O direito ao PIA é concedido mediante simples requerimento, com indicação da CID e laudo elaborado por profissional habilitado, ou cópia do RG com indicação da deficiência e da CID, ou a Carteira de Identificação da Pessoa com TEA (CIPTEA) (art. 1º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Efetuado o registro do PIA, ele é concedido até o término do curso, e é vedado à instituição requerer revalidação do registro (art. 1º, § 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "São pessoas com transtornos globais do desenvolvimento as que apresentam alterações qualitativas das interações sociais recíprocas e da comunicação, ou repertório de interesses e atividades restrito, estereotipado e repetitivo, incluindo-se as pessoas com TEA (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As instituições de ensino deverão simplificar ou fragmentar as atividades para facilitar a compreensão e o desempenho dos alunos e adaptar as avaliações, para que eles apresentem seus conhecimentos por exercícios práticos ou trabalhos escritos e orais (art. 3º, II e III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O aluno deve indicar no requerimento as condições definidas no art. 3º de que precisa, detalhando as providências pedagógicas. A instituição toma as providências pedagógicas necessárias e mantém a adaptação às circunstâncias que surgirem (art. 3º, §§ 1º e 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor 90 dias depois da publicação (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-10967-2025",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-sp-17158-2019",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "O inciso I e o § 2º do art. 3º e os arts. 4º e 5º constam como vetados no texto da ALESP, que não traz o conteúdo vetado.",
+    "A ficha da ALESP não lista decreto que regulamente a lei nem ação de inconstitucionalidade.",
+    "O texto diz \"transtornos globais do desenvolvimento\" e cita o TEA como exemplo. Não lista outros diagnósticos, e o direito depende de requerimento com laudo ou documento indicado no art. 1º, § 1º."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 17.759, de 20 de setembro de 2023, do Estado de São Paulo: Protocolo Individualizado de Avaliação (PIA) para alunos com transtornos globais do desenvolvimento (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2023,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2023/lei-17759-20.09.2023.html",
+      "referencia": "arts. 1º a 3º e 6º",
+      "trecho": "Artigo 1º - Os alunos com transtornos globais do desenvolvimento, matriculados no ensino fundamental I, fundamental II, médio, superior, técnico, tecnológico e profissionalizante em instituições de ensino de todo o Estado, têm o direito ao acesso às medidas da Política de Protocolo Individualizado de Avaliação (PIA).",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

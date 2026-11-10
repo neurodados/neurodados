@@ -1,0 +1,117 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-17651-2023",
+  "slug": "lei-estadual-sp-17651-2023",
+  "base": "neurodireitos",
+  "nome": "Lei nº 17.651, de 17 de março de 2023, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "17.651",
+    "data": "2023-03-17",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Dispõe sobre a emissão da Carteira de Identificação da Pessoa com Transtorno do Espectro Autista - CIPTEA, no âmbito do Estado de São Paulo",
+    "publicacao": "Diário Oficial do Estado de 18/03/2023",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "identificacao",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 17.651/2023 diz que, em São Paulo, os órgãos responsáveis pela política nacional do TEA emitem a CIPTEA sem cobrança, na forma da lei federal. Ela também proíbe exigir a identidade com CID como único documento para emitir a carteira.",
+  "afirmacoes": [
+    {
+      "texto": "Os órgãos responsáveis pela execução da Política Nacional de Proteção dos Direitos da Pessoa com TEA, no Estado, emitirão a CIPTEA gratuitamente, na forma da Lei federal nº 13.977/2020 (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os órgãos competentes ficam proibidos de exigir, como única forma de documentação para emitir a CIPTEA, a identidade com a Classificação Internacional de Doenças (CID). Basta apresentar os documentos listados na Lei federal nº 13.977/2020 (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As despesas correm por conta de dotações orçamentárias próprias, suplementadas se necessário (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data da publicação, 18/03/2023 (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-8879-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-24532-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7804-2023",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "A lei remete à Lei federal nº 13.977/2020 para os documentos e a forma de emissão. Ela não diz qual órgão estadual emite a carteira nem o procedimento.",
+    "Na ficha da ALESP, o campo de regulamentação está vazio, e este registro não encontrou decreto estadual regulamentador."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 17.651, de 17 de março de 2023, do Estado de São Paulo: emissão da CIPTEA (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2023,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2023/lei-17651-17.03.2023.html",
+      "referencia": "arts. 1º a 4º",
+      "trecho": "Artigo 1º - Estabelece que os órgãos responsáveis pela execução da Política Nacional de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista, no âmbito do Estado de São Paulo, emitirão, gratuitamente, a Carteira de Identificação da Pessoa com Transtorno do Espectro Autista - CIPTEA, na forma da Lei Federal nº 13.977, de 8 de janeiro de 2020.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

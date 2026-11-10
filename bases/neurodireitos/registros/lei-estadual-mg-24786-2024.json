@@ -1,0 +1,147 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-24786-2024",
+  "slug": "lei-estadual-mg-24786-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 24.786, de 6 de junho de 2024, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "24.786",
+    "data": "2024-06-06",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Institui o Sistema Estadual de Atendimento Integrado à Pessoa com Transtorno do Espectro do Autismo no âmbito do Estado.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 07/06/2024",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 25.709, de 15 de janeiro de 2026",
+        "Lei nº 25.711, de 15 de janeiro de 2026"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "saude",
+    "educacao",
+    "assistencia_social",
+    "atendimento_prioritario"
+  ],
+  "definicao": "A Lei estadual nº 24.786/2024 institui o Sistema Estadual de Atendimento Integrado à Pessoa com TEA em Minas Gerais, com diretrizes para saúde, educação e assistência social e apoio às famílias. Parte das medidas é facultativa: o texto usa \"poderá\" em vários dispositivos.",
+  "afirmacoes": [
+    {
+      "texto": "As medidas de atenção à pessoa com TEA no Estado seguem diretrizes como intersetorialidade entre saúde, educação e assistência social, promoção da acessibilidade e participação da pessoa com TEA e de seus familiares na formulação das políticas (art. 3º, III, IX e X).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O atendimento pelo Estado à pessoa com TEA poderá ser prestado de forma integrada, em colaboração com os municípios e com assistência da União, pelos serviços de saúde, educação e assistência social (art. 4º, caput).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A pessoa com TEA, considerada pessoa com deficiência nos termos da Lei federal nº 12.764/2012, tem direito a atendimento prioritário nesses serviços, inclusive nos de urgência e emergência públicos e privados, observados os protocolos de triagem de risco (art. 4º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Estado poderá disponibilizar avaliação por equipe multiprofissional para rastreamento de TEA. A atenção integral poderá incluir a distribuição gratuita de nutrientes, fraldas e medicamentos, conforme disponibilidade orçamentária e padronização do SUS (art. 5º, caput e § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "É garantida a educação da pessoa com TEA no mesmo ambiente escolar dos demais alunos, em todos os níveis e modalidades, e o Estado poderá ficar responsável por medidas como o atendimento educacional especializado para o aluno incluído em classe comum e a provisão de adaptações razoáveis (art. 6º, caput, III e IV).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A formação continuada dos profissionais de educação da rede estadual para a inclusão de estudantes com TEA é uma das medidas previstas, e pode ser feita em parcerias com a saúde, instituições de ensino superior e organizações da sociedade civil (art. 6º, I e § 2º, na redação da Lei nº 25.711/2026).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Fica garantido à pessoa com TEA com necessidades específicas de alimentação o acesso a estabelecimentos públicos e privados de uso público, com permanência portando alimentos e utensílios para consumo próprio, na forma de regulamento (art. 7º-A, incluído pela Lei nº 25.709/2026).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Estado poderá prestar apoio social e psicológico às famílias, manter programas de apoio comunitário e promover campanhas de esclarecimento sobre o TEA (art. 7º, I, III e IV).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-9395-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-sp-17158-2019",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "Vários dispositivos dizem que o Estado \"poderá\" fazer algo (arts. 4º, 5º e 7º, e o art. 6º, que diz que o Estado \"poderá ficar responsável\" por medidas). Eles não criam, por si, um serviço que a família possa exigir. O art. 7º-A e a prioridade do art. 4º, § 2º, têm redação de garantia, e o art. 7º-A depende de regulamento.",
+    "A vigência foi conferida no texto atualizado da ALMG em 10 de novembro de 2026, com última atualização indicada em 16 de janeiro de 2026. Não foi encontrado decreto que regulamente a lei nos campos da ficha da ALMG."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 24.786, de 6 de junho de 2024, do Estado de Minas Gerais: Sistema Estadual de Atendimento Integrado à Pessoa com Transtorno do Espectro do Autismo (texto atualizado, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2024,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/24786/2024/atualizado",
+      "referencia": "arts. 1º a 9º, com as alterações indicadas no texto",
+      "trecho": "Art. 1º - Fica instituído o Sistema Estadual de Atendimento Integrado à Pessoa com Transtorno do Espectro do Autismo no âmbito do Estado, destinado a garantir e a promover o atendimento às necessidades específicas das pessoas com Transtorno do Espectro do Autismo - TEA -, visando a seu desenvolvimento pessoal, a sua inclusão social e a sua cidadania, bem como ao apoio a suas famílias.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

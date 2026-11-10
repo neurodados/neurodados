@@ -1,0 +1,132 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-12907-2008",
+  "slug": "lei-estadual-sp-12907-2008",
+  "base": "neurodireitos",
+  "nome": "Lei nº 12.907, de 15 de abril de 2008, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "12.907",
+    "data": "2008-04-15",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Consolida a legislação relativa à pessoa com deficiência no Estado de São Paulo.",
+    "publicacao": "Diário Oficial do Estado de 16/04/2008",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 14.467, de 8 de junho de 2011"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "direitos_gerais",
+    "saude",
+    "acessibilidade",
+    "atendimento_prioritario",
+    "transporte",
+    "educacao",
+    "tributos"
+  ],
+  "definicao": "A Lei estadual nº 12.907/2008 consolida a legislação paulista sobre a pessoa com deficiência. Ela trata de muitos assuntos, como saúde, acessibilidade, discriminação, atendimento prioritário, habitação, Libras e isenções fiscais. Este registro resume só alguns artigos.",
+  "afirmacoes": [
+    {
+      "texto": "A lei consolida a legislação relativa à pessoa com deficiência no Estado (art. 1º). Entre os direitos que ao Estado incumbe prover estão o acesso específico aos serviços de saúde, a reabilitação, a inclusão social e a locomoção e o acesso aos bens e serviços públicos (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O acesso aos serviços de saúde compreende, entre outros, assistência médica universal e gratuita pelo SUS, com atendimento personalizado e prioritário, e dispensa da espera em filas comuns (art. 4º, I e IV). A pessoa com deficiência é objeto de atenção preferencial da unidade de saúde (art. 4º, § 2º). Também é assegurado o direito de entrada e permanência de um acompanhante junto à pessoa com deficiência internada em unidades de saúde de responsabilidade do Estado, inclusive em tratamento intensivo (art. 4º, § 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "É vedada no Estado qualquer forma de discriminação à pessoa com deficiência (art. 53). Constitui discriminação, entre outras condutas, dificultar ou recusar o acesso a estabelecimentos e fazer exigências específicas para obter ou manter o emprego (art. 54, I a III). A falta de atendimento preferencial é forma de prática discriminatória (art. 54, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O direito à qualidade do serviço público exige atendimento prioritário, por ordem de chegada, às pessoas com deficiência. Os órgãos da Administração estadual instituirão setor especial que priorize esse atendimento (art. 61 e parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Serão destinados a pessoas com deficiência ou a famílias que as tenham 7% dos imóveis populares comercializados pelo Estado. As deficiências, comprovadas por documentos médicos, devem ser graves e irreversíveis, de modo a impossibilitar, dificultar ou diminuir a capacidade de trabalho ou criar dependência dos familiares (art. 63 e § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A Língua Brasileira de Sinais (Libras) é reconhecida oficialmente como meio de comunicação da comunidade surda (art. 77). A Secretaria da Educação está autorizada a atender pedidos de alunos com deficiência visual para impressão em Braille de livros e materiais pedagógicos (art. 78).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A saída de veículo adaptado para pessoa com deficiência física fica isenta de ICMS (art. 86), e os veículos especialmente adaptados, de propriedade de pessoas com deficiência física, são isentos de IPVA (art. 87).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-10048-2000",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-13799-2000",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "A lei é longa e trata de muitos assuntos. Este registro cita só alguns artigos de interesse para famílias e escolas; o texto oficial traz os demais.",
+    "Alterada pela Lei nº 14.467/2011, que mudou o parágrafo único do art. 8º. Na ADI nº 4267, o STF declarou inconstitucionais só expressões sobre a Federação Internacional de Cães-Guia nos arts. 81 e 85; os demais dispositivos seguem como no texto compilado.",
+    "As regras de IPVA e de ICMS têm leis próprias, que podem ter regras mais recentes. A isenção de IPVA para pessoa com TEA ou deficiência hoje está também no art. 13-A da Lei nº 13.296/2008, que vale ler junto."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 12.907, de 15 de abril de 2008, do Estado de São Paulo: consolida a legislação relativa à pessoa com deficiência (texto compilado na ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2008,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2008/lei-12907-15.04.2008.html",
+      "referencia": "arts. 1º, 3º, 4º, 53, 54, 61, 63, 77, 78, 86 e 87",
+      "trecho": "Artigo 1º - Esta lei consolida a legislação relativa à pessoa com deficiência no Estado de São Paulo.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

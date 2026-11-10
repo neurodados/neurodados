@@ -1,0 +1,137 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-21121-2014",
+  "slug": "lei-estadual-mg-21121-2014",
+  "base": "neurodireitos",
+  "nome": "Lei nº 21.121, de 3 de janeiro de 2014, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "21.121",
+    "data": "2014-01-03",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Assegura ao idoso e à pessoa com deficiência que menciona gratuidade no serviço intermunicipal de transporte coletivo de passageiros, altera a Lei nº 12.666, de 4 de novembro de 1997, que dispõe sobre a política estadual de amparo ao idoso, e dá outras providências.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 04/01/2014",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "regulamentada_por": [
+      "Decreto nº 46.434, de 29 de janeiro de 2014"
+    ],
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "transporte"
+  ],
+  "definicao": "A Lei estadual nº 21.121/2014 assegura gratuidade no transporte coletivo intermunicipal de passageiros em Minas Gerais ao idoso com mais de 65 anos e à pessoa com deficiência, nos termos da Lei nº 13.465/2000, com renda individual inferior a dois salários mínimos, limite de dois assentos por viagem e reserva prévia. A lei também altera a Lei estadual nº 12.666/1997.",
+  "afirmacoes": [
+    {
+      "texto": "Ao idoso com mais de 65 anos e à pessoa com deficiência, nos termos da Lei estadual nº 13.465/2000, fica assegurada a gratuidade no serviço intermunicipal de transporte coletivo de passageiros, convencional, simples e comercial (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A gratuidade é para quem tem renda individual inferior a dois salários mínimos e se limita a dois assentos por viagem, disponibilizados pelo critério exclusivo de precedência na solicitação da reserva (art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Para usar a gratuidade, o beneficiário deve pedir à empresa a reserva de assento com, no mínimo, doze horas de antecedência da partida (art. 2º, caput). Na reserva e no embarque, apresenta documento de identidade com foto e o comprovante do cadastramento (art. 2º, § 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Até que seja implantado o cadastramento, o beneficiário comprova os requisitos com documento de identidade, um comprovante de renda (como carteira de trabalho, contracheque ou declaração escrita de renda inferior a dois salários mínimos) e, para a deficiência, laudo médico-pericial emitido por profissional de saúde de entidade integrante do SUS (art. 2º, § 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A entidade representativa do setor poderá implantar, por sua conta, mecanismos de cadastramento, identificação e comprovação da condição de beneficiário (art. 3º). A recusa injustificada de emitir o bilhete gratuito equivale, para as penalidades, à recusa de venda de passagem sem motivo justo (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As empresas devem divulgar, em cartazes ou avisos nos guichês e dentro dos veículos, as condições da gratuidade (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Decreto nº 46.434/2014 regulamenta a lei, em vigor desde 1º/3/2014: ele cria a carteira de gratuidade intermunicipal, emitida após cadastro na entidade representativa do setor, e define pessoa com deficiência pela Lei nº 13.465/2000 e pelo Decreto federal nº 3.298/1999 (arts. 2º e 3º).",
+      "fontes": [
+        "f2"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-8899-1994",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-4510-2005",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "A lei vale para o transporte intermunicipal operado no Estado. A lei federal tem regras próprias para o transporte interestadual.",
+    "A ALMG mostra o Decreto nº 46.434/2014 só no texto original, sem indicar alteração ou revogação, e a lei cita esse regulamento. Procedimentos e prazos podem ter mudado: confira com a entidade que emite a carteira e com o órgão estadual de transportes.",
+    "O registro resume os pontos principais e não todos os artigos. O art. 9º foi vetado. Vigência conferida no texto atualizado da ALMG em 10 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 21.121, de 3 de janeiro de 2014, do Estado de Minas Gerais: assegura ao idoso e à pessoa com deficiência que menciona gratuidade no serviço intermunicipal de transporte coletivo de passageiros (texto atualizado, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2014,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/21121/2014/atualizado",
+      "referencia": "arts. 1º a 6º",
+      "trecho": "Art. 1º Ao idoso com idade acima de 65 anos e à pessoa com deficiência, nos termos da Lei nº 13.465, de 12 de janeiro de 2000, fica assegurado o direito à gratuidade no serviço intermunicipal de transporte coletivo de passageiros, convencional, simples e comercial, conforme o disposto nesta Lei.",
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Decreto nº 46.434, de 29 de janeiro de 2014, do Estado de Minas Gerais: regulamenta a Lei nº 21.121/2014 (texto, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2014,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/DEC/46434/2014/atualizado",
+      "referencia": "arts. 1º a 3º",
+      "trecho": "Art. 1º O exercício do direito previsto no art.1º da Lei nº 21.121, de 3 de janeiro de 2014, rege-se pelas disposições deste Decreto.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

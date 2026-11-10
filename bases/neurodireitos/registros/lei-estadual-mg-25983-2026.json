@@ -1,0 +1,107 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-25983-2026",
+  "slug": "lei-estadual-mg-25983-2026",
+  "base": "neurodireitos",
+  "nome": "Lei nº 25.983, de 15 de julho de 2026, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "25.983",
+    "data": "2026-07-15",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Assegura ao indivíduo com síndrome de Tourette que se enquadre no conceito definido na Lei nº 13.465, de 12 de janeiro de 2000, direitos e benefícios previstos na Constituição do Estado e na legislação estadual para a pessoa com deficiência.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 16/07/2026",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "sindrome_de_tourette",
+    "deficiencia"
+  ],
+  "areas": [
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 25.983/2026 diz que a pessoa com síndrome de Tourette que se enquadre no conceito de pessoa com deficiência da Lei estadual nº 13.465/2000 tem os direitos e benefícios que a Constituição e a legislação de Minas Gerais preveem para a pessoa com deficiência.",
+  "afirmacoes": [
+    {
+      "texto": "O indivíduo com síndrome de Tourette que se enquadre no conceito definido no art. 1º da Lei estadual nº 13.465/2000 fará jus aos direitos e benefícios previstos na Constituição do Estado e na legislação estadual para a pessoa com deficiência (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei condiciona o direito ao enquadramento no conceito da Lei nº 13.465/2000. O texto não declara a síndrome de Tourette deficiência por si só (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data de sua publicação (art. 2º), que foi 16/07/2026 no Diário do Executivo.",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-13465-2000",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-9258-2026",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-9151-2025",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-de-tique",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "A lei é recente e tem dois artigos. Ela não cria benefício novo: remete aos direitos e benefícios que a legislação estadual já prevê para a pessoa com deficiência, e o enquadramento no conceito da Lei nº 13.465/2000 continua sendo exigido.",
+    "O texto da lei não indica regulamentação. Vigência conferida na base da ALMG em 10 de novembro de 2026, sem alterações registradas."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 25.983, de 15 de julho de 2026, do Estado de Minas Gerais: assegura ao indivíduo com síndrome de Tourette que se enquadre no conceito definido na Lei nº 13.465/2000 direitos e benefícios da pessoa com deficiência (texto, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2026,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/25983/2026/atualizado",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "Art. 1º - O indivíduo com síndrome de Tourette que se enquadre no conceito definido no art. 1º da Lei nº 13.465, de 12 de janeiro de 2000, fará jus aos direitos e benefícios previstos na Constituição do Estado e na legislação estadual para a pessoa com deficiência.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-13465-2000",
+  "slug": "lei-estadual-mg-13465-2000",
+  "base": "neurodireitos",
+  "nome": "Lei nº 13.465, de 12 de janeiro de 2000, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "13.465",
+    "data": "2000-01-12",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Estabelece o conceito de pessoa com deficiência para fins de concessão de benefícios pelo Estado.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 13/01/2000",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10",
+      "alteracoes": [
+        "Lei nº 22.927, de 12 de janeiro de 2018",
+        "Lei nº 24.310, de 25 de abril de 2023"
+      ]
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 13.465/2000 diz quem é pessoa com deficiência para obter os benefícios previstos na legislação de Minas Gerais: quem comprovadamente tem desvantagem na orientação, na independência física ou na mobilidade, ou de ordem neuropsíquica, em caráter permanente. Outras leis estaduais, como a da gratuidade no transporte intermunicipal, remetem a esse conceito.",
+  "afirmacoes": [
+    {
+      "texto": "Para obter os benefícios previstos na legislação do Estado, é pessoa com deficiência aquela que, comprovadamente, apresente desvantagem na orientação, na independência física ou na mobilidade, ou de ordem neuropsíquica que acarrete dificuldade para o exercício de ocupação habitual, para a interação social e para a independência econômica, em caráter permanente (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei define a desvantagem na orientação (limitação para situar-se no meio, receber e assimilar sinais e emitir respostas, por diminuição ou ausência de visão, audição, tato ou fala), com critérios para deficiência auditiva, visual e de fala (art. 2º, I).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A desvantagem na independência física e na mobilidade é a limitação do desempenho autônomo das atividades da vida diária, caracterizada por ausência, paralisação ou dificuldade de movimentos que causem grave problema de locomoção, necessidade de equipamentos, suportes, próteses ou órteses, ou necessidade do auxílio de outra pessoa para a locomoção (art. 2º, II).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A desvantagem de ordem neurológica ou psíquica é definida como o distúrbio comportamental incapacitante, de caráter transitório, que ocasione dificuldades na execução de tarefas da vida diária e de atividades socioeconômicas (art. 2º, III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Cabe à Coordenadoria de Apoio e Assistência à Pessoa Deficiente, criada pela Lei estadual nº 8.193/1982, resolver as dúvidas sobre o enquadramento dos conceitos legais nas situações concretas (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A legislação que trata da concessão de benefícios e da equiparação de oportunidades sociais para as pessoas com deficiência fica subordinada aos critérios definidos por essa lei (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-13799-2000",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-25983-2026",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "A lei é anterior à Lei federal nº 13.146/2015 (Lei Brasileira de Inclusão) e usa um conceito próprio, por desvantagens e em caráter permanente. O registro não compara os dois conceitos, e o texto da lei estadual não diz como eles se relacionam.",
+    "A ementa original dizia \"pessoa portadora de deficiência\" e foi atualizada pela Lei estadual nº 24.310/2023, que trocou a expressão por \"pessoa com deficiência\". O art. 1º fala em caráter permanente, e o art. 2º, III, descreve o distúrbio neuropsíquico como de caráter transitório.",
+    "O art. 5º manda o Poder Executivo regulamentar a lei em noventa dias. Na ficha da ALMG não consta decreto regulamentador. Vigência conferida no texto atualizado em 10 de novembro de 2026."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 13.465, de 12 de janeiro de 2000, do Estado de Minas Gerais: estabelece o conceito de pessoa com deficiência para fins de concessão de benefícios pelo Estado (texto atualizado, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2000,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/13465/2000/atualizado",
+      "referencia": "arts. 1º a 5º, com as alterações indicadas no texto",
+      "trecho": "Art. 1º - Considera-se pessoa com deficiência, para fins de obtenção dos benefícios previstos na legislação do Estado, aquela que, comprovadamente, apresente desvantagem no que se refere à orientação, à independência física ou à mobilidade, ou de ordem neuropsíquica que acarrete dificuldade para o exercício de ocupação habitual, para a interação social e para a independência econômica, em caráter permanente.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-24783-2024",
+  "slug": "lei-estadual-mg-24783-2024",
+  "base": "neurodireitos",
+  "nome": "Lei nº 24.783, de 6 de junho de 2024, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "24.783",
+    "data": "2024-06-06",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Estabelece diretrizes para o atendimento de alunos com transtorno específico de aprendizagem e Transtorno de Déficit de Atenção e Hiperatividade - TDAH - no âmbito da rede estadual de ensino.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 07/06/2024",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tdah",
+    "transtornos_de_aprendizagem"
+  ],
+  "areas": [
+    "educacao"
+  ],
+  "definicao": "A Lei estadual nº 24.783/2024 é uma lei de diretrizes: lista orientações para o atendimento de alunos com transtorno específico de aprendizagem e TDAH na rede estadual de ensino de Minas Gerais. Não cria benefício individual nem prevê regulamento.",
+  "afirmacoes": [
+    {
+      "texto": "No atendimento a esses alunos na rede estadual serão observadas cinco diretrizes (art. 1º, I a V).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Uma das diretrizes é a melhoria da qualidade do ensino e da aprendizagem, com a participação da comunidade escolar e das equipes multiprofissionais previstas na Lei federal nº 13.935/2019 (art. 1º, I).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Outra é a conscientização da comunidade escolar sobre a necessidade de combater a exclusão e a estigmatização desses alunos (art. 1º, II).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Há também a orientação aos pais ou responsáveis sobre o processo de ensino e aprendizagem dos alunos (art. 1º, III).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei indica a articulação com as redes de saúde, de assistência social e de outras políticas públicas do território, com vistas ao diagnóstico precoce e ao atendimento multiprofissional, quando necessário (art. 1º, IV).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Também prevê a promoção de ambiente escolar inclusivo, acolhedor e flexível para alunos que apresentem necessidade de apoio diferenciado e adicional, mesmo sem diagnóstico definitivo de TDAH ou de outras neurodivergências (art. 1º, V).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-14254-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13935-2019",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tdah",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-especificos-da-aprendizagem",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-24844-2024",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-7354-2016",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-sp-17465-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-6881-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-mg-25920-2026",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "A lei só enumera diretrizes. Não define quais recursos, profissionais ou adaptações cada aluno recebe, não cria direito individual específico e não prevê regulamento. Como se aplica na prática depende de atos e programas da rede estadual.",
+    "A vigência foi conferida no texto da ALMG em 10 de novembro de 2026. A página de texto atualizado mostra o texto original, e a ficha da ALMG não lista normas relacionadas, então não há alterações apontadas. A lei fala em transtorno específico de aprendizagem, sem citar a dislexia pelo nome."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 24.783, de 6 de junho de 2024, do Estado de Minas Gerais: diretrizes para o atendimento de alunos com transtorno específico de aprendizagem e TDAH na rede estadual de ensino (texto oficial, na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2024,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/24783/2024/atualizado",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "Art. 1º - No atendimento aos alunos com transtorno específico de aprendizagem e Transtorno do Déficit de Atenção e Hiperatividade - TDAH - no âmbito da rede estadual de ensino, serão observadas as seguintes diretrizes:",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

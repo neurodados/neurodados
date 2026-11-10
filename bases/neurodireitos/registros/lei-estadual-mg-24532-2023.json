@@ -1,0 +1,129 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-mg-24532-2023",
+  "slug": "lei-estadual-mg-24532-2023",
+  "base": "neurodireitos",
+  "nome": "Lei nº 24.532, de 23 de outubro de 2023, do Estado de Minas Gerais",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "24.532",
+    "data": "2023-10-23",
+    "orgao": "Governo do Estado de Minas Gerais",
+    "ementa": "Dispõe sobre a expedição da Carteira de Identificação da Pessoa com Transtorno do Espectro Autista - Ciptea.",
+    "publicacao": "Diário do Executivo, Minas Gerais, de 24/10/2023",
+    "abrangencia": "estadual",
+    "uf": "MG",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea"
+  ],
+  "areas": [
+    "identificacao",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 24.532/2023 diz que a Ciptea, a carteira de identificação da pessoa com TEA, será expedida pelo Estado de Minas Gerais ou por municípios, nos termos de regulamento.",
+  "afirmacoes": [
+    {
+      "texto": "A Ciptea será expedida pelo Estado ou por municípios, nos termos de regulamento (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei diz que a Ciptea tem validade em todo o território nacional, conforme a legislação federal vigente (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "O Decreto estadual nº 48.321/2021, anterior à lei, diz que a Ciptea é expedida pela Secretaria de Estado de Desenvolvimento Social (art. 3º), tem validade de cinco anos (art. 3º, § 2º) e é pedida pela pessoa com TEA, por seu responsável legal ou cuidador, nas Unidades de Atendimento Integrado ou pelo sítio www.cidadao.mg.gov.br (art. 5º).",
+      "fontes": [
+        "f2"
+      ]
+    },
+    {
+      "texto": "A lei entrou em vigor na data de sua publicação (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-12764-2012",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-13977-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-8879-2020",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-sp-17651-2023",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7804-2023",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALMG, é o que vale.",
+    "A lei não detalha quem pede, quais documentos apresentar nem a validade: remete tudo a regulamento (art. 1º).",
+    "O Decreto nº 48.321/2021 é anterior à lei. Na base da ALMG, a ficha dele não traz norma relacionada nem revogação, mas esta pesquisa não achou ato que o ajuste à Lei nº 24.532/2023. Se ele ainda regula tudo o que a lei remete a regulamento, o texto oficial não diz.",
+    "O registro descreve o que o decreto diz no texto da ALMG. Pedido, documentos e prazos podem estar em atos posteriores da Secretaria, que o decreto prevê (arts. 5º e 8º)."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 24.532, de 23 de outubro de 2023, do Estado de Minas Gerais: expedição da Carteira de Identificação da Pessoa com TEA, a Ciptea (texto na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2023,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/LEI/24532/2023/atualizado",
+      "referencia": "arts. 1º e 2º",
+      "trecho": "Art. 1º - A Carteira de Identificação da Pessoa com Transtorno do Espectro Autista - Ciptea -, com validade em todo o território nacional conforme legislação federal vigente, será expedida pelo Estado ou por municípios, nos termos de regulamento.",
+      "consultado_em": "2026-11-10"
+    },
+    {
+      "id": "f2",
+      "tipo": "norma",
+      "titulo": "Decreto nº 48.321, de 16 de dezembro de 2021, do Estado de Minas Gerais: dispõe sobre a Ciptea no âmbito do Estado (texto na base da ALMG)",
+      "autor": "Estado de Minas Gerais",
+      "ano": 2021,
+      "url": "https://www.almg.gov.br/legislacao-mineira/texto/DEC/48321/2021/atualizado",
+      "referencia": "arts. 3º a 5º",
+      "trecho": "Art. 3º - A Ciptea será expedida pela Secretaria de Estado de Desenvolvimento Social - Sedese.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

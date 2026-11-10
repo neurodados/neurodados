@@ -1,0 +1,115 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-16107-2016",
+  "slug": "lei-estadual-sp-16107-2016",
+  "base": "neurodireitos",
+  "nome": "Lei nº 16.107, de 13 de janeiro de 2016, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "16.107",
+    "data": "2016-01-13",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Proíbe a cobrança de taxa de reserva, sobretaxa ou quaisquer valores adicionais para matrícula, renovação de matrícula ou mensalidade de estudantes com síndrome de Down, autismo, transtorno invasivo do desenvolvimento ou outras síndromes e dá providências correlatas",
+    "publicacao": "Diário Oficial do Estado de 14/01/2016",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "tea",
+    "deficiencia"
+  ],
+  "areas": [
+    "educacao",
+    "direitos_gerais"
+  ],
+  "definicao": "A Lei estadual nº 16.107/2016 proíbe, no Estado de São Paulo, a cobrança de taxa de reserva, sobretaxa ou outros valores adicionais na matrícula, na renovação da matrícula e na mensalidade de estudantes com síndrome de Down, autismo, transtorno invasivo do desenvolvimento ou outras síndromes.",
+  "afirmacoes": [
+    {
+      "texto": "Fica proibida a cobrança de taxa de reserva, sobretaxa ou quaisquer valores adicionais para matrícula, renovação de matrícula ou mensalidade de estudantes com síndrome de Down, autismo, transtorno invasivo do desenvolvimento ou outras síndromes, para garantir o ingresso ou a permanência do estudante em instituições de ensino (art. 1º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei diz que sua aplicação visa disseminar a igualdade social e a inclusão do estudante na sociedade (art. 1º, parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "As instituições de ensino devem estar preparadas para receber o aluno, com corpo docente qualificado para atender todas as suas necessidades, sem que isso implique gastos extras para ele (art. 2º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor na data da publicação (art. 5º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.tea",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-7517-2022",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.sindrome-de-down",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "Os arts. 3º e 4º constam como vetados no texto da ALESP, que não traz o conteúdo vetado. O texto atual não prevê sanção para quem cobrar o valor proibido.",
+    "O texto fala em \"instituições de ensino\", sem distinguir públicas e privadas, e usa \"outras síndromes\" sem listá-las.",
+    "A ficha da ALESP não lista decreto que regulamente a lei nem ação de inconstitucionalidade."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 16.107, de 13 de janeiro de 2016, do Estado de São Paulo: proíbe a cobrança de valores adicionais na matrícula e na mensalidade de estudantes com síndrome de Down, autismo e outras síndromes (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2016,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2016/lei-16107-13.01.2016.html",
+      "referencia": "arts. 1º, 2º e 5º",
+      "trecho": "Artigo 1º - Fica proibida a cobrança de taxa de reserva, sobretaxa ou quaisquer valores adicionais para matrícula, renovação de matrícula ou mensalidade de estudantes com síndrome de Down, autismo, transtorno invasivo do desenvolvimento ou outras síndromes, com vistas a garantir o ingresso ou a permanência do estudante em instituições de ensino.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}

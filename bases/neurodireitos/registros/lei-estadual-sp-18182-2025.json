@@ -1,0 +1,130 @@
+{
+  "$schema": "../../../schemas/neurodireitos.schema.json",
+  "id": "neurodireitos.lei-estadual-sp-18182-2025",
+  "slug": "lei-estadual-sp-18182-2025",
+  "base": "neurodireitos",
+  "nome": "Lei nº 18.182, de 21 de agosto de 2025, do Estado de São Paulo",
+  "categoria": "lei",
+  "norma": {
+    "tipo": "lei",
+    "numero": "18.182",
+    "data": "2025-08-21",
+    "orgao": "Governo do Estado de São Paulo",
+    "ementa": "Institui garantias à criança com deficiência e/ou transtornos do neurodesenvolvimento no ambiente escolar.",
+    "publicacao": "Diário Oficial do Estado de 25/08/2025",
+    "abrangencia": "estadual",
+    "uf": "SP",
+    "vigencia": {
+      "situacao": "vigente",
+      "conferido_em": "2026-11-10"
+    },
+    "fonte": "f1"
+  },
+  "condicoes": [
+    "deficiencia"
+  ],
+  "areas": [
+    "educacao",
+    "acessibilidade"
+  ],
+  "definicao": "A Lei estadual nº 18.182/2025 institui garantias para alunos com deficiência e com transtornos do neurodesenvolvimento nas escolas públicas e privadas de São Paulo: levar o próprio alimento, andar descalço ou de meias e sinais sonoros adequados. Prevê visita orientativa e multa para a escola privada que descumprir.",
+  "afirmacoes": [
+    {
+      "texto": "A lei se aplica a todos os alunos com deficiência e com transtornos do neurodesenvolvimento. O texto define transtornos do neurodesenvolvimento como problemas neurológicos que podem interferir na aquisição, retenção ou aplicação de habilidades, e podem envolver atenção, memória, percepção, linguagem, solução de problemas ou interação social (art. 1º e parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A criança com deficiência, aluna de escola pública ou privada no Estado, pode levar o próprio alimento para consumo no ambiente escolar, conforme sua seletividade alimentar, alergia alimentar ou outra condição. Os pais ou responsáveis fornecem à escola laudo médico com o diagnóstico, breve relato sobre a seletividade ou alergia e as orientações sobre a alimentação (art. 2º e parágrafo único).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os alunos com deficiência que sentirem sensibilidade nos pés podem transitar no ambiente escolar descalços ou de meias (art. 3º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "Os estabelecimentos de ensino públicos e privados ficam obrigados a substituir sinais sonoros ou musicais por sons adequados em volume e duração, em respeito à sensibilidade auditiva dos alunos com deficiência (art. 4º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A instituição de ensino privada que descumprir a lei recebe visita orientativa na primeira infração, multa de 40 UFESPs na segunda e multa progressiva nas seguintes, na proporção fixada em regulamento, com limite anual de 1.000 UFESPs (art. 6º).",
+      "fontes": [
+        "f1"
+      ]
+    },
+    {
+      "texto": "A lei entra em vigor 120 dias depois da publicação oficial (art. 8º).",
+      "fontes": [
+        "f1"
+      ]
+    }
+  ],
+  "relacionados": [
+    {
+      "id": "neurodireitos.lei-13146-2015",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-9394-1996",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-14254-2021",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-estadual-rj-10982-2025",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurodireitos.lei-municipal-rio-de-janeiro-9488-2026",
+      "tipo": "relacionado"
+    },
+    {
+      "id": "neurobase.transtornos-do-neurodesenvolvimento",
+      "tipo": "relacionado"
+    }
+  ],
+  "limitacoes": [
+    "Conteúdo informativo: não é orientação jurídica. O texto oficial, na base da ALESP, é o que vale.",
+    "O art. 1º abrange alunos com deficiência e com transtornos do neurodesenvolvimento, mas os arts. 2º, 3º e 4º falam em criança com deficiência ou em alunos com deficiência. A lei não diz como esses artigos se aplicam a quem tem só transtorno do neurodesenvolvimento.",
+    "O art. 5º, seus §§ 1º a 3º, o parágrafo único do art. 6º e o art. 7º constam como vetados no texto da ALESP, que não traz o conteúdo vetado. Para a escola pública, o texto não prevê visita nem multa.",
+    "A multa progressiva depende de regulamento. A ficha da ALESP não lista decreto que regulamente a lei nem ação de inconstitucionalidade."
+  ],
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "lei",
+      "titulo": "Lei nº 18.182, de 21 de agosto de 2025, do Estado de São Paulo: garantias à criança com deficiência e/ou transtornos do neurodesenvolvimento no ambiente escolar (texto na base da ALESP)",
+      "autor": "Estado de São Paulo",
+      "ano": 2025,
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2025/lei-18182-21.08.2025.html",
+      "referencia": "arts. 1º a 4º, 6º e 8º",
+      "trecho": "Artigo 2º - É permitido à criança com deficiência, aluno matriculado em escola pública ou privada no Estado de São Paulo, o direito de levar seu próprio alimento para consumo dentro do ambiente escolar, de acordo com sua seletividade alimentar, alergia alimentar ou outra condição específica.",
+      "consultado_em": "2026-11-10"
+    }
+  ],
+  "estado": "publicado",
+  "revisao": {
+    "situacao": "conferido_nas_fontes",
+    "conferido_em": "2026-11-10",
+    "revisores": []
+  },
+  "versao": "1.0",
+  "criado_em": "2026-11-10",
+  "atualizado_em": "2026-11-10",
+  "historico": [
+    {
+      "versao": "1.0",
+      "data": "2026-11-10",
+      "mudanca": "Primeira versão."
+    }
+  ]
+}
